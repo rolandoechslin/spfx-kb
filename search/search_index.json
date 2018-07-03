@@ -162,7 +162,7 @@
         },
         {
             "location": "/spfx/extensions/",
-            "text": "Extensions\n\u00b6\n\n\nFull Page\n\u00b6\n\n\n\n\nhttps://github.com/aflyen/spfx-extension-fullpagecanvas",
+            "text": "Extensions\n\u00b6\n\n\nFull Page\n\u00b6\n\n\n\n\nhttps://github.com/aflyen/spfx-extension-fullpagecanvas\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html\n (React slider field customizer)\n\n\nhttps://github.com/dannyjessee/SPFxHeaderFooter\n\n\nhttps://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions",
             "title": "Extensions"
         },
         {
@@ -172,12 +172,12 @@
         },
         {
             "location": "/spfx/extensions/#full-page",
-            "text": "https://github.com/aflyen/spfx-extension-fullpagecanvas",
+            "text": "https://github.com/aflyen/spfx-extension-fullpagecanvas  http://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html  (React slider field customizer)  https://github.com/dannyjessee/SPFxHeaderFooter  https://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions",
             "title": "Full Page"
         },
         {
             "location": "/spfx/events/",
-            "text": "Events\n\u00b6\n\n\nSPS Munich 2017\n\u00b6\n\n\n\n\nhttps://rencore.com/blog/sps-munich-2017-goes-microsoft-office/",
+            "text": "Events\n\u00b6\n\n\nSPS Munich 2017\n\u00b6\n\n\n\n\nhttps://rencore.com/blog/sps-munich-2017-goes-microsoft-office/\n\n\n\n\nEuropean Collaboration (Mainz) Summit 2018\n\u00b6\n\n\n\n\nhttps://www.slideshare.net/collabsummit/presentations",
             "title": "Events"
         },
         {
@@ -189,6 +189,11 @@
             "location": "/spfx/events/#sps-munich-2017",
             "text": "https://rencore.com/blog/sps-munich-2017-goes-microsoft-office/",
             "title": "SPS Munich 2017"
+        },
+        {
+            "location": "/spfx/events/#european-collaboration-mainz-summit-2018",
+            "text": "https://www.slideshare.net/collabsummit/presentations",
+            "title": "European Collaboration (Mainz) Summit 2018"
         },
         {
             "location": "/spfx/flow/",
@@ -227,7 +232,7 @@
         },
         {
             "location": "/spfx/hubsite/",
-            "text": "HubSite\n\u00b6\n\n\nIntegration\n\u00b6\n\n\n\n\nsharepoint-hub-sites-make-their-debut\n\n\nOrganize-your-intranet-with-SharePoint-hub-sites\n\n\n\n\nNavigation\n\u00b6\n\n\n\n\nsecurity-trimmed-hub-navigation\n\n\n\n\n## CSOM\n - \nworking-with-sharepoint-online-hub\n\n\n## Search API\n - \nworking-with-hub-sites-and-search-api\n\n\n \n# List all sites being a hub site or associate to a hub site\n\n\n$results\n \n=\n \nSubmit-PnPSearchQuery\n \n-Query\n \n'contentclass=sts_site'\n \n-RefinementFilters\n \n'departmentid:string(\"{*\",linguistics=off)'\n \n-TrimDuplicates\n \n$false\n \n-SelectProperties\n \n@(\n\"Title\"\n,\n\"Path\"\n,\n\"DepartmentId\"\n,\n\"SiteId\"\n)\n \n-All\n \n-RelevantResults\n\n\n\n# Filter out the hub sites\n\n\n$hubSites\n \n=\n \n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n.\nTrim\n(\n'{'\n,\n'}'\n)\n \n-eq\n \n$_\n.\nSiteId\n  \n}\n\n\n\n# Loop over the hub sites\n\n\nforeach\n(\n \n$hub\n \nin\n \n$hubSites\n \n)\n \n{\n\n    \nWrite-Host\n \n$hub\n.\nTitle\n \n-\n \n$hub\n.\nPath\n \n-ForegroundColor\n \nGreen\n\n    \n# Filter out sites associated to the current hub\n\n    \n$associatedSites\n \n=\n \n(\n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n \n-eq\n \n$hub\n.\nDepartmentId\n \n-and\n \n$_\n.\nSiteId\n \n-ne\n \n$hub\n.\nSiteId\n \n})\n\n    \nforeach\n(\n$site\n \nin\n \n$associatedSites\n)\n \n{\n\n        \nWrite-Host\n \n\"\n`t\n\"\n$site\n.\nTitle\n \n-\n \n$site\n.\nPath\n \n-ForegroundColor\n \nYellow\n\n    \n}\n\n\n}",
+            "text": "HubSite\n\u00b6\n\n\nIntegration\n\u00b6\n\n\n\n\nsharepoint-hub-sites-make-their-debut\n\n\nOrganize-your-intranet-with-SharePoint-hub-sites\n\n\n\n\nNavigation\n\u00b6\n\n\n\n\nsecurity-trimmed-hub-navigation\n\n\n\n\n## CSOM\n\n\n\n\nworking-with-sharepoint-online-hub\n\n\n\n\n## Search API\n\n\n\n\nworking-with-hub-sites-and-search-api\n\n\n\n\n \n# List all sites being a hub site or associate to a hub site\n\n\n$results\n \n=\n \nSubmit-PnPSearchQuery\n \n-Query\n \n'contentclass=sts_site'\n \n-RefinementFilters\n \n'departmentid:string(\"{*\",linguistics=off)'\n \n-TrimDuplicates\n \n$false\n \n-SelectProperties\n \n@(\n\"Title\"\n,\n\"Path\"\n,\n\"DepartmentId\"\n,\n\"SiteId\"\n)\n \n-All\n \n-RelevantResults\n\n\n\n# Filter out the hub sites\n\n\n$hubSites\n \n=\n \n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n.\nTrim\n(\n'{'\n,\n'}'\n)\n \n-eq\n \n$_\n.\nSiteId\n  \n}\n\n\n\n# Loop over the hub sites\n\n\nforeach\n(\n \n$hub\n \nin\n \n$hubSites\n \n)\n \n{\n\n    \nWrite-Host\n \n$hub\n.\nTitle\n \n-\n \n$hub\n.\nPath\n \n-ForegroundColor\n \nGreen\n\n    \n# Filter out sites associated to the current hub\n\n    \n$associatedSites\n \n=\n \n(\n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n \n-eq\n \n$hub\n.\nDepartmentId\n \n-and\n \n$_\n.\nSiteId\n \n-ne\n \n$hub\n.\nSiteId\n \n})\n\n    \nforeach\n(\n$site\n \nin\n \n$associatedSites\n)\n \n{\n\n        \nWrite-Host\n \n\"\n`t\n\"\n$site\n.\nTitle\n \n-\n \n$site\n.\nPath\n \n-ForegroundColor\n \nYellow\n\n    \n}\n\n\n}",
             "title": "Hubsite"
         },
         {
@@ -242,7 +247,7 @@
         },
         {
             "location": "/spfx/hubsite/#navigation",
-            "text": "security-trimmed-hub-navigation   ## CSOM\n -  working-with-sharepoint-online-hub  ## Search API\n -  working-with-hub-sites-and-search-api    # List all sites being a hub site or associate to a hub site  $results   =   Submit-PnPSearchQuery   -Query   'contentclass=sts_site'   -RefinementFilters   'departmentid:string(\"{*\",linguistics=off)'   -TrimDuplicates   $false   -SelectProperties   @( \"Title\" , \"Path\" , \"DepartmentId\" , \"SiteId\" )   -All   -RelevantResults  # Filter out the hub sites  $hubSites   =   $results   |?   {   $_ . DepartmentId . Trim ( '{' , '}' )   -eq   $_ . SiteId    }  # Loop over the hub sites  foreach (   $hub   in   $hubSites   )   { \n     Write-Host   $hub . Title   -   $hub . Path   -ForegroundColor   Green \n     # Filter out sites associated to the current hub \n     $associatedSites   =   ( $results   |?   {   $_ . DepartmentId   -eq   $hub . DepartmentId   -and   $_ . SiteId   -ne   $hub . SiteId   }) \n     foreach ( $site   in   $associatedSites )   { \n         Write-Host   \" `t \" $site . Title   -   $site . Path   -ForegroundColor   Yellow \n     }  }",
+            "text": "security-trimmed-hub-navigation   ## CSOM   working-with-sharepoint-online-hub   ## Search API   working-with-hub-sites-and-search-api     # List all sites being a hub site or associate to a hub site  $results   =   Submit-PnPSearchQuery   -Query   'contentclass=sts_site'   -RefinementFilters   'departmentid:string(\"{*\",linguistics=off)'   -TrimDuplicates   $false   -SelectProperties   @( \"Title\" , \"Path\" , \"DepartmentId\" , \"SiteId\" )   -All   -RelevantResults  # Filter out the hub sites  $hubSites   =   $results   |?   {   $_ . DepartmentId . Trim ( '{' , '}' )   -eq   $_ . SiteId    }  # Loop over the hub sites  foreach (   $hub   in   $hubSites   )   { \n     Write-Host   $hub . Title   -   $hub . Path   -ForegroundColor   Green \n     # Filter out sites associated to the current hub \n     $associatedSites   =   ( $results   |?   {   $_ . DepartmentId   -eq   $hub . DepartmentId   -and   $_ . SiteId   -ne   $hub . SiteId   }) \n     foreach ( $site   in   $associatedSites )   { \n         Write-Host   \" `t \" $site . Title   -   $site . Path   -ForegroundColor   Yellow \n     }  }",
             "title": "Navigation"
         },
         {
