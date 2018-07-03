@@ -232,7 +232,7 @@
         },
         {
             "location": "/spfx/hubsite/",
-            "text": "HubSite\n\u00b6\n\n\nIntegration\n\u00b6\n\n\n\n\nsharepoint-hub-sites-make-their-debut\n\n\nOrganize-your-intranet-with-SharePoint-hub-sites\n\n\n\n\nNavigation\n\u00b6\n\n\n\n\nsecurity-trimmed-hub-navigation\n\n\n\n\n## CSOM\n\n\n\n\nworking-with-sharepoint-online-hub\n\n\n\n\n## Search API\n\n\n\n\nworking-with-hub-sites-and-search-api\n\n\n\n\n \n# List all sites being a hub site or associate to a hub site\n\n\n$results\n \n=\n \nSubmit-PnPSearchQuery\n \n-Query\n \n'contentclass=sts_site'\n \n-RefinementFilters\n \n'departmentid:string(\"{*\",linguistics=off)'\n \n-TrimDuplicates\n \n$false\n \n-SelectProperties\n \n@(\n\"Title\"\n,\n\"Path\"\n,\n\"DepartmentId\"\n,\n\"SiteId\"\n)\n \n-All\n \n-RelevantResults\n\n\n\n# Filter out the hub sites\n\n\n$hubSites\n \n=\n \n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n.\nTrim\n(\n'{'\n,\n'}'\n)\n \n-eq\n \n$_\n.\nSiteId\n  \n}\n\n\n\n# Loop over the hub sites\n\n\nforeach\n(\n \n$hub\n \nin\n \n$hubSites\n \n)\n \n{\n\n    \nWrite-Host\n \n$hub\n.\nTitle\n \n-\n \n$hub\n.\nPath\n \n-ForegroundColor\n \nGreen\n\n    \n# Filter out sites associated to the current hub\n\n    \n$associatedSites\n \n=\n \n(\n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n \n-eq\n \n$hub\n.\nDepartmentId\n \n-and\n \n$_\n.\nSiteId\n \n-ne\n \n$hub\n.\nSiteId\n \n})\n\n    \nforeach\n(\n$site\n \nin\n \n$associatedSites\n)\n \n{\n\n        \nWrite-Host\n \n\"\n`t\n\"\n$site\n.\nTitle\n \n-\n \n$site\n.\nPath\n \n-ForegroundColor\n \nYellow\n\n    \n}\n\n\n}",
+            "text": "HubSite\n\u00b6\n\n\nIntegration\n\u00b6\n\n\n\n\nsharepoint-hub-sites-make-their-debut\n\n\nOrganize-your-intranet-with-SharePoint-hub-sites\n\n\n\n\nNavigation\n\u00b6\n\n\n\n\nsecurity-trimmed-hub-navigation\n\n\n\n\nCSOM\n\u00b6\n\n\n\n\nworking-with-sharepoint-online-hub\n\n\n\n\nSearch API\n\u00b6\n\n\n\n\nworking-with-hub-sites-and-search-api\n\n\n\n\n \n# List all sites being a hub site or associate to a hub site\n\n\n$results\n \n=\n \nSubmit-PnPSearchQuery\n \n-Query\n \n'contentclass=sts_site'\n \n-RefinementFilters\n \n'departmentid:string(\"{*\",linguistics=off)'\n \n-TrimDuplicates\n \n$false\n \n-SelectProperties\n \n@(\n\"Title\"\n,\n\"Path\"\n,\n\"DepartmentId\"\n,\n\"SiteId\"\n)\n \n-All\n \n-RelevantResults\n\n\n\n# Filter out the hub sites\n\n\n$hubSites\n \n=\n \n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n.\nTrim\n(\n'{'\n,\n'}'\n)\n \n-eq\n \n$_\n.\nSiteId\n  \n}\n\n\n\n# Loop over the hub sites\n\n\nforeach\n(\n \n$hub\n \nin\n \n$hubSites\n \n)\n \n{\n\n    \nWrite-Host\n \n$hub\n.\nTitle\n \n-\n \n$hub\n.\nPath\n \n-ForegroundColor\n \nGreen\n\n    \n# Filter out sites associated to the current hub\n\n    \n$associatedSites\n \n=\n \n(\n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n \n-eq\n \n$hub\n.\nDepartmentId\n \n-and\n \n$_\n.\nSiteId\n \n-ne\n \n$hub\n.\nSiteId\n \n})\n\n    \nforeach\n(\n$site\n \nin\n \n$associatedSites\n)\n \n{\n\n        \nWrite-Host\n \n\"\n`t\n\"\n$site\n.\nTitle\n \n-\n \n$site\n.\nPath\n \n-ForegroundColor\n \nYellow\n\n    \n}\n\n\n}",
             "title": "Hubsite"
         },
         {
@@ -247,8 +247,18 @@
         },
         {
             "location": "/spfx/hubsite/#navigation",
-            "text": "security-trimmed-hub-navigation   ## CSOM   working-with-sharepoint-online-hub   ## Search API   working-with-hub-sites-and-search-api     # List all sites being a hub site or associate to a hub site  $results   =   Submit-PnPSearchQuery   -Query   'contentclass=sts_site'   -RefinementFilters   'departmentid:string(\"{*\",linguistics=off)'   -TrimDuplicates   $false   -SelectProperties   @( \"Title\" , \"Path\" , \"DepartmentId\" , \"SiteId\" )   -All   -RelevantResults  # Filter out the hub sites  $hubSites   =   $results   |?   {   $_ . DepartmentId . Trim ( '{' , '}' )   -eq   $_ . SiteId    }  # Loop over the hub sites  foreach (   $hub   in   $hubSites   )   { \n     Write-Host   $hub . Title   -   $hub . Path   -ForegroundColor   Green \n     # Filter out sites associated to the current hub \n     $associatedSites   =   ( $results   |?   {   $_ . DepartmentId   -eq   $hub . DepartmentId   -and   $_ . SiteId   -ne   $hub . SiteId   }) \n     foreach ( $site   in   $associatedSites )   { \n         Write-Host   \" `t \" $site . Title   -   $site . Path   -ForegroundColor   Yellow \n     }  }",
+            "text": "security-trimmed-hub-navigation",
             "title": "Navigation"
+        },
+        {
+            "location": "/spfx/hubsite/#csom",
+            "text": "working-with-sharepoint-online-hub",
+            "title": "CSOM"
+        },
+        {
+            "location": "/spfx/hubsite/#search-api",
+            "text": "working-with-hub-sites-and-search-api     # List all sites being a hub site or associate to a hub site  $results   =   Submit-PnPSearchQuery   -Query   'contentclass=sts_site'   -RefinementFilters   'departmentid:string(\"{*\",linguistics=off)'   -TrimDuplicates   $false   -SelectProperties   @( \"Title\" , \"Path\" , \"DepartmentId\" , \"SiteId\" )   -All   -RelevantResults  # Filter out the hub sites  $hubSites   =   $results   |?   {   $_ . DepartmentId . Trim ( '{' , '}' )   -eq   $_ . SiteId    }  # Loop over the hub sites  foreach (   $hub   in   $hubSites   )   { \n     Write-Host   $hub . Title   -   $hub . Path   -ForegroundColor   Green \n     # Filter out sites associated to the current hub \n     $associatedSites   =   ( $results   |?   {   $_ . DepartmentId   -eq   $hub . DepartmentId   -and   $_ . SiteId   -ne   $hub . SiteId   }) \n     foreach ( $site   in   $associatedSites )   { \n         Write-Host   \" `t \" $site . Title   -   $site . Path   -ForegroundColor   Yellow \n     }  }",
+            "title": "Search API"
         },
         {
             "location": "/spfx/graph/",
@@ -549,31 +559,6 @@
             "location": "/Angular/elements/#angularjs",
             "text": "html-templates-in-spfx  building-sharepoint-framework-client-side-web-parts-angular",
             "title": "AngularJS"
-        },
-        {
-            "location": "/training/dashboard/",
-            "text": "Roles Dashboard\n\u00b6\n\n\nCreate new Project\n\u00b6\n\n\n\n\nhttps://github.com/Microsoft/TypeScript-React-Starter\n\n\n\n\ncreate-react-app role-office-ui-layout --scripts-version=react-scripts-ts\n\n\n\n\nOf note:\n\n\n\n\ntsconfig.json contains TypeScript-specific options for our project.\n\n\ntslint.json stores the settings that our linter, TSLint, will use.\n\n\npackage.json contains our dependencies, as well as some shortcuts for commands we'd like to run for testing, previewing, and deploying our app.\n\n\npublic contains static assets like the HTML page we're planning to deploy to, or images. You can delete any file in this folder apart from index.html.\n  src contains our TypeScript and CSS code. index.tsx is the entry-point for our file, and is mandatory.\n\n\n\n\nStart\n\u00b6\n\n\nyarn start\nStarts the development server.\n\n\nyarn build\nBundles the app into static files for production.\n\n\nyarn test\nStarts the test runner.\n\n\nyarn eject\nRemoves this tool and copies build dependencies, configuration files\nand scripts into the app directory. If you do this, you can\u2019t go back!\n\n\nInstall office-ui-fabric\n\u00b6\n\n\n\n\nhttps://github.com/OfficeDev/office-ui-fabric-react\n\n\nhttps://github.com/OfficeDev/office-ui-fabric-react/blob/master/ghdocs/README.md\n\n\nhttps://developer.microsoft.com/en-us/fabric#/get-started\n\n\n\n\nnpm i office-ui-fabric-react --save",
-            "title": "Dashboard"
-        },
-        {
-            "location": "/training/dashboard/#roles-dashboard",
-            "text": "",
-            "title": "Roles Dashboard"
-        },
-        {
-            "location": "/training/dashboard/#create-new-project",
-            "text": "https://github.com/Microsoft/TypeScript-React-Starter   create-react-app role-office-ui-layout --scripts-version=react-scripts-ts  Of note:   tsconfig.json contains TypeScript-specific options for our project.  tslint.json stores the settings that our linter, TSLint, will use.  package.json contains our dependencies, as well as some shortcuts for commands we'd like to run for testing, previewing, and deploying our app.  public contains static assets like the HTML page we're planning to deploy to, or images. You can delete any file in this folder apart from index.html.\n  src contains our TypeScript and CSS code. index.tsx is the entry-point for our file, and is mandatory.",
-            "title": "Create new Project"
-        },
-        {
-            "location": "/training/dashboard/#start",
-            "text": "yarn start\nStarts the development server.  yarn build\nBundles the app into static files for production.  yarn test\nStarts the test runner.  yarn eject\nRemoves this tool and copies build dependencies, configuration files\nand scripts into the app directory. If you do this, you can\u2019t go back!",
-            "title": "Start"
-        },
-        {
-            "location": "/training/dashboard/#install-office-ui-fabric",
-            "text": "https://github.com/OfficeDev/office-ui-fabric-react  https://github.com/OfficeDev/office-ui-fabric-react/blob/master/ghdocs/README.md  https://developer.microsoft.com/en-us/fabric#/get-started   npm i office-ui-fabric-react --save",
-            "title": "Install office-ui-fabric"
         },
         {
             "location": "/training/must-read/",
