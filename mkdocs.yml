@@ -23,7 +23,6 @@ pages:
         - JS: spfx/js.md
         - Network: spfx/network.md
         - Migration: spfx/migration.md
-        - Overview: spfx/overview.md
         - Site-Scripts: spfx/sitescripts.md
         - Search: spfx/search.md
         - Support: spfx/support.md

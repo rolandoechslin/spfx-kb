@@ -3,13 +3,13 @@ Knowledge base for SharePoint Framework (SPFx) questions, answers, snippets and 
 
 ## Help
 
-- For full documentation visit [mkdocs.org](http://mkdocs.org).
+- For full documentation visit [mkdocs.org](http://mkdocs.org)
 - Themes [Material](https://squidfunk.github.io/mkdocs-material/getting-started/)
-- Markdown [Syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+- Markdown [Syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Commands
 
-```PS
+```Powershell
 mkdocs new [dir-name] # Create a new project.
 mkdocs serve # Start the live-reloading docs server.
 mkdocs build # Build the documentation site.
@@ -28,7 +28,7 @@ mkdocs help # Print this help message.
 
 - https://www.mkdocs.org/user-guide/deploying-your-docs/
 
-```PS
+```Powershel
 mkdocs gh-deploy
 ```
 
