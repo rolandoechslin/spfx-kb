@@ -1,16 +1,20 @@
 # HubSite
 
 ## Integration
+
 - [sharepoint-hub-sites-make-their-debut](http://ericoverfield.com/sharepoint-hub-sites-make-their-debut/)
 - [Organize-your-intranet-with-SharePoint-hub-sites](https://techcommunity.microsoft.com/t5/SharePoint-Blog/Organize-your-intranet-with-SharePoint-hub-sites/ba-p/174081)
 
 ## Navigation
+
  - [security-trimmed-hub-navigation](http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation)
 
  ## CSOM
+
  - [working-with-sharepoint-online-hub](https://www.vrdmn.com/2018/03/working-with-sharepoint-online-hub.html)
 
  ## Search API
+
  - [working-with-hub-sites-and-search-api](https://www.techmikael.com/2018/04/working-with-hub-sites-and-search-api.html)
 
 ```Powershell
