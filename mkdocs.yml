@@ -33,7 +33,6 @@ pages:
     - Angular:
         - Angular/elements.md
     - Training:
-        - Dashboard: training/dashboard.md
         - Must read: training/must-read.md
         - Course: training/course.md
     - Toolchain:
