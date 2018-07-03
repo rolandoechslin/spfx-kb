@@ -1362,7 +1362,7 @@
         },
         {
             "location": "/about/help/",
-            "text": "Help\n\u00b6\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nThemes \nMaterial\n\n\nMarkdown \nSyntax\n \n\n\nCommands\n\u00b6\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\u00b6\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "Help\n\u00b6\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nThemes \nMaterial\n\n\nMarkdown \nSyntax\n \n\n\nCommands\n\u00b6\n\n\nmkdocs new [dir-name] # Create a new project.\nmkdocs serve # Start the live-reloading docs server.\nmkdocs build # Build the documentation site.\nmkdocs help # Print this help message.\n\n\n\n\nProject layout\n\u00b6\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\n\n\nDeployment\n\u00b6\n\n\n\n\nhttps://www.mkdocs.org/user-guide/deploying-your-docs/\n\n\n\n\nmkdocs gh-deploy",
             "title": "Help"
         },
         {
@@ -1372,13 +1372,18 @@
         },
         {
             "location": "/about/help/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "text": "mkdocs new [dir-name] # Create a new project.\nmkdocs serve # Start the live-reloading docs server.\nmkdocs build # Build the documentation site.\nmkdocs help # Print this help message.",
             "title": "Commands"
         },
         {
             "location": "/about/help/#project-layout",
             "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
             "title": "Project layout"
+        },
+        {
+            "location": "/about/help/#deployment",
+            "text": "https://www.mkdocs.org/user-guide/deploying-your-docs/   mkdocs gh-deploy",
+            "title": "Deployment"
         },
         {
             "location": "/about/about/",
