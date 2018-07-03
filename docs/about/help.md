@@ -23,6 +23,9 @@ mkdocs help # Print this help message.
 
 
 ## Deployment
+
+- https://www.mkdocs.org/user-guide/deploying-your-docs/
+
 ```PS
 mkdocs gh-deploy
 ```
