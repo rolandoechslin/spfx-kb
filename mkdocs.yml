@@ -1,0 +1,109 @@
+# Project information
+site_name: 'SPFx-KB'
+site_description: 'SPFx Knowledgebase'
+site_author: 'Roland Oechslin'
+
+pages:
+    - Home: index.md
+    - SPFx:
+        - Start: spfx/start.md
+        - Azure: spfx/azure.md
+        - Branding: spfx/branding.md
+        - Bot: spfx/bot.md
+        - Classic-Sites: spfx/classic.md
+        - Configuration: spfx/configuration.md
+        - Debug: spfx/debug.md
+        - Deployment: spfx/deployment.md
+        - Extensions: spfx/extensions.md
+        - Events: spfx/events.md
+        - Flow: spfx/flow.md
+        - Groups: spfx/groups.md
+        - Hubsite: spfx/hubsite.md
+        - Graph: spfx/graph.md
+        - JS: spfx/js.md
+        - Network: spfx/network.md
+        - Migration: spfx/migration.md
+        - Overview: spfx/overview.md
+        - Site-Scripts: spfx/sitescripts.md
+        - Search: spfx/search.md
+        - Support: spfx/support.md
+        - Typescript: spfx/typescript.md
+        - Testing: spfx/testing.md
+        - Theme: spfx/theme.md
+        - Webparts: spfx/webparts.md
+    - Angular:
+        - Angular/elements.md
+    - Training:
+        - Dashboard: training/dashboard.md
+        - Must read: training/must-read.md
+        - Course: training/course.md
+    - Toolchain:
+        - Webpack: toolchain/webpack.md
+        - Npm: toolchain/spfx-npm.md
+        - Gulp: toolchain/gulp.md
+    - Powershell:
+        - Links: powershell/links.md
+        - PnP-PS: powershell/pnp-ps.md
+        - SPO-PS: powershell/spo-ps.md
+    - Tools:
+        - Dev: tools/dev.md
+        - Powerapps: tools/powerapps.md
+        - Image: tools/image.md
+        - Gatspy: tools/gatspy.md
+    - React:
+        - Learning: react/learning.md
+    - Security:
+        - Learning: security/learning.md
+    - About:
+      - Help: about/help.md
+      - About: about/about.md
+      - Releasenotes: about/release-notes.md
+
+copyright: 'Copyright &copy; 2018 Roland Oechslin'
+
+
+extra:
+    version: 1.0.0
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  logo: 'assets/sharepoint.png'
+  feature:
+    tabs: true
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

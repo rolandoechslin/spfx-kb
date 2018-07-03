@@ -1,0 +1,13 @@
+# Debug
+
+## Webcast
+- [PnP Webcast - Debugging SharePoint Framework Solutions](https://www.youtube.com/watch?v=TuPi_RGpMig)
+
+## Tips
+- [debug-production-version-sharepoint-framework-solution](https://blog.mastykarz.nl/debug-production-version-sharepoint-framework-solution)
+
+- [how-debug-sharepoint-framework-webpart-visual-studio-code](http://blog.velingeorgiev.pro/how-debug-sharepoint-framework-webpart-visual-studio-code)
+- [debug-in-vscode](https://dev.office.com/sharepoint/docs/spfx/debug-in-vscode)
+- [SPFx-breakpoints-and-debugging-from-Visual-Studio-Code]( https://techcommunity.microsoft.com/t5/SharePoint-Developer/SPFx-breakpoints-and-debugging-from-Visual-Studio-Code/m-p/58880#M2009)
+- [quick-tip-easily-test-sharepoint](http://www.techmikael.com/2018/03/quick-tip-easily-test-sharepoint.html)
+- [testing-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact](https://www.eliostruyf.com/testing-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact)
