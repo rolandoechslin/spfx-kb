@@ -108,6 +108,12 @@
     </url>
         
     <url>
+     <loc>/spfx/provisioning/</loc>
+     <lastmod>2018-07-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/spfx/migration/</loc>
      <lastmod>2018-07-04</lastmod>
      <changefreq>daily</changefreq>

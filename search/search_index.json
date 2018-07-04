@@ -326,6 +326,26 @@
             "title": "SSL"
         },
         {
+            "location": "/spfx/provisioning/",
+            "text": "Provisioning\n\u00b6\n\n\nLinks\n\u00b6\n\n\n\n\nhttps://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html\n\n\nhttps://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.SelfHostedWithAzureWebJob\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps\n\n\nhttps://www.techmikael.com/2017/04/creating-pnp-provisioning-file.html\n\n\nhttps://de.slideshare.net/sharePTkarm/how-to-automate-the-sharepoint-provisioning\n\n\nhttps://de.slideshare.net/DIWUG/spsnl17-be-more-effective-with-the-pnp-provisioning-engine-erwin-van-hunen\n\n\n\n\nConvert PnP Files\n\u00b6\n\n\n\n\nhttps://github.com/Puzzlepart/prosjektportalen-program/tree/dev/.scripts\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps",
+            "title": "Provisioning"
+        },
+        {
+            "location": "/spfx/provisioning/#provisioning",
+            "text": "",
+            "title": "Provisioning"
+        },
+        {
+            "location": "/spfx/provisioning/#links",
+            "text": "https://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html  https://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.SelfHostedWithAzureWebJob  https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps  https://www.techmikael.com/2017/04/creating-pnp-provisioning-file.html  https://de.slideshare.net/sharePTkarm/how-to-automate-the-sharepoint-provisioning  https://de.slideshare.net/DIWUG/spsnl17-be-more-effective-with-the-pnp-provisioning-engine-erwin-van-hunen",
+            "title": "Links"
+        },
+        {
+            "location": "/spfx/provisioning/#convert-pnp-files",
+            "text": "https://github.com/Puzzlepart/prosjektportalen-program/tree/dev/.scripts  https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps",
+            "title": "Convert PnP Files"
+        },
+        {
             "location": "/spfx/migration/",
             "text": "Migration\n\u00b6\n\n\nShowcase\n\u00b6\n\n\n\n\nhttps://msdn.microsoft.com/en-us/library/mt668814.aspx",
             "title": "Migration"
