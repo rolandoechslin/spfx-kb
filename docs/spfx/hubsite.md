@@ -9,6 +9,56 @@
 
 - [security-trimmed-hub-navigation](http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation)
 
+## Install CustomAction
+- https://www.sharepointeurope.com/apply-spfx-extensions-to-sharepoint-hub-sites-using-pnp-powershell/
+
+
+```Powershell
+cls
+ 
+$tenantAdmin = "https://contoso-admin.sharepoint.com"
+$hubSite = "https://contoso.sharepoint.com/sites/hub"
+$extensionGUID = "6da1a9e8-471d-4f39-80e6-a7ded02e8881"
+$extensionName = "Extension Name"
+$extensionTitle = "Extension Title"
+ 
+try
+{
+Connect-PnPOnline -Url $tenantAdmin -UseWebLogin
+} catch {
+Write-Host "Unable to connect."
+exit
+}
+
+$HubSite = Get-PnPHubSite $hubSite
+$HubSiteId = $HubSite.SiteId
+$ModernSites = (Get-PnPTenantSite -Template 'GROUP#0') + (Get-PnPTenantSite -Template 'SITEPAGEPUBLISHING#0')
+$SitesFromHub = New-Object System.Collections.ArrayList
+ 
+Write-Host ("Searching {0} sites:" -f $HubSite.Title) -BackgroundColor Gray
+foreach ($ModernSite in $ModernSites){
+    $site = Get-PnPHubSite $ModernSite.Url
+    if($site.SiteUrl){
+    if($site.SiteId -eq $HubSiteId){
+            Write-Host ("* {0} - {1}" -f $ModernSite.Title, $ModernSite.Url)
+            $SitesFromHub.Add($ModernSite) | Out-Null
+        }
+    }
+}
+
+Write-Host ""
+Write-Host "Installing at:" -BackgroundColor Gray
+foreach ($SiteHub in $SitesFromHub){
+    Write-Host ("* {0} - {1} ... " -f $SiteHub.Title, $SiteHub.Url) -NoNewline
+    Connect-PnPOnline -Url $SiteHub.Url -UseWebLogin
+    Add-PnPCustomAction -ClientSideComponentId $extensionGUID -Name $extensionName -Title $extensionTitle -Location ClientSideExtension.ApplicationCustomizer -Scope site
+    Write-Host "Done" -BackgroundColor Green
+    Disconnect-PnPOnline
+}
+
+Write-Host "All Done"
+```
+
 ## CSOM
 
 - [working-with-sharepoint-online-hub](https://www.vrdmn.com/2018/03/working-with-sharepoint-online-hub.html)

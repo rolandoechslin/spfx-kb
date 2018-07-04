@@ -22,3 +22,7 @@
 
 - https://resources.techcommunity.microsoft.com/security-compliance-and-administration/
 - https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/Idle-Session-Timeout-Policy-in-SharePoint-Online-amp-OneDrive-is/ba-p/211274
+
+## SPFx Tooling
+
+- https://www.helloitsliam.com/2018/07/04/security-scanning-a-sharepoint-framework-solution/
