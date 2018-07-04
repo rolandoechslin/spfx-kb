@@ -1,8 +1,10 @@
-# About 
+# About
 
 ## Author
-Roland Oechslin 
+
+Roland Oechslin
 :smile: :heart: :thumbsup:
 
 ## E-Mail
+
 roland.oechslin@garaio.com

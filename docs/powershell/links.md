@@ -18,12 +18,10 @@
 - https://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify
 - https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/
 
-
 ## SharePoint 2016
 
 - https://github.com/harbars/PnP-Tools/tree/master/Scripts
 - https://github.com/harbars/SPAT16
-
 
 ## Modules
 

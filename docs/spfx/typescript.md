@@ -5,16 +5,19 @@
 - https://github.com/basarat/typescript-book
 - https://basarat.gitbooks.io/typescript/content/docs/getting-started.html
 - https://www.gitbook.com/book/basarat/typescript/details
-- https://codewich.com/# (Playground)
+- https://codewich.com/
 - https://github.com/lakshaydulani/typescript-summary
 - https://github.com/netdur/typescript-design-patterns
 
 ## Tutorial
+
 - http://dotnetdetail.com/learn-typescript-from-basic/
 - http://dotnetdetail.com/learn-typescript-step-by-step-with-suitable-example/
 
 ## Library
+
 - https://github.com/alexjoverm/typescript-library-starter
 
 ## Typings
+
 - https://github.com/cashfarm/autotypes

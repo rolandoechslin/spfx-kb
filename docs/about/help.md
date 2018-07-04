@@ -1,10 +1,9 @@
 # Help
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+- For full documentation visit [mkdocs.org](http://mkdocs.org).
+- Themes [Material](https://squidfunk.github.io/mkdocs-material/getting-started/)
+- Markdown [Syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-Themes [Material](https://squidfunk.github.io/mkdocs-material/getting-started/)
-
-Markdown [Syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 ## Commands
 
 ```PS
@@ -20,7 +19,6 @@ mkdocs help # Print this help message.
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-
 
 ## Deployment
 

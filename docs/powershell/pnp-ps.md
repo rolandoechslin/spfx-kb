@@ -1,15 +1,18 @@
 # PnP Powershell
 
 ## Documentation
+
 - [sharepoint-pnp-cmdlets](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps)
 
 
 ## Latest Version
+
 - [Latest Release Version](https://github.com/SharePoint/PnP-PowerShell/releases/latest)
 - [Change Log](https://github.com/SharePoint/PnP-PowerShell/blob/master/CHANGELOG.md)
 
 
-## Check Version
+## Check 
+
 ```Powershell
 Get-Module SharePointPnPPowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending
 ```
@@ -21,11 +24,13 @@ Update-Module SharePointPnPPowerShell*
 ```
 
 ## Delete old version
+
 ```Powershell
 Get-InstalledModule -Name "SharePointPnPPowerShellOnline" -RequiredVersion 2.24.1803.0 | Uninstall-Module
 ```
 
 ## List all commands
+
 ```Powershell
 Get-Command | ? { $_.ModuleName -eq "SharePointPnPPowerShellOnline" }
 ```
@@ -84,6 +89,7 @@ Process{
 ```
 
 ## Site Classification
+
 - https://www.jijitechnologies.com/blogs/site-classification-using-pnp-powershell
 
 ```Powershell

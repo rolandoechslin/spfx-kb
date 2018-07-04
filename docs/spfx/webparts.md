@@ -34,14 +34,13 @@ http://www.carlosmontilla.com/single-post/2017/12/05/Create-an-Enterprise-Search
 
 - http://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html
 
-## CSS Tips 
+## CSS Tips
 
 - http://www.n8d.at/blog/alternative-to-innerhtml-in-sharepoint-framework-web-parts/ (innerHTML)
 
-## Rest Call 
+## Rest Call
 
 - http://www.sharepointnutsandbolts.com/2016/08/async-rest-calls-promises-httpclient-jquery.html (REST call with Promises)
-
 
 ## Products
 
