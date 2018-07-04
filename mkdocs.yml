@@ -22,6 +22,7 @@ pages:
         - Graph: spfx/graph.md
         - JS: spfx/js.md
         - Network: spfx/network.md
+        - Provisioning: spfx/provisioning.md
         - Migration: spfx/migration.md
         - Site-Scripts: spfx/sitescripts.md
         - Search: spfx/search.md
