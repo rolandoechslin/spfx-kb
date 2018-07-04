@@ -48,6 +48,7 @@ pages:
         - Powerapps: tools/powerapps.md
         - Image: tools/image.md
         - Gatspy: tools/gatspy.md
+        - Git: tools/git.md
     - React:
         - Learning: react/learning.md
     - Security:
