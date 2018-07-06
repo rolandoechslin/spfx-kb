@@ -26,3 +26,4 @@
 ## SPFx Tooling
 
 - https://www.helloitsliam.com/2018/07/04/security-scanning-a-sharepoint-framework-solution/
+- https://rencore.com/blog/is-javascript-safe-for-sharepoint/

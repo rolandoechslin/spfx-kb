@@ -30,6 +30,7 @@ pages:
         - Typescript: spfx/typescript.md
         - Testing: spfx/testing.md
         - Theme: spfx/theme.md
+        - UX: spfx/ux.md
         - Webparts: spfx/webparts.md
     - Angular:
         - Angular/elements.md
