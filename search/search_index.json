@@ -162,7 +162,7 @@
         },
         {
             "location": "/spfx/extensions/",
-            "text": "Extensions\n\u00b6\n\n\nFull Page\n\u00b6\n\n\n\n\nhttps://github.com/aflyen/spfx-extension-fullpagecanvas\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html\n (React slider field customizer)\n\n\nhttps://github.com/dannyjessee/SPFxHeaderFooter\n\n\nhttps://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions",
+            "text": "Extensions\n\u00b6\n\n\nFull Page\n\u00b6\n\n\n\n\nhttps://github.com/aflyen/spfx-extension-fullpagecanvas\n\n\nhttps://github.com/StfBauer/spfx-appcust-removeFeeback\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html\n (React slider field customizer)\n\n\nhttps://github.com/dannyjessee/SPFxHeaderFooter\n\n\nhttps://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions",
             "title": "Extensions"
         },
         {
@@ -172,7 +172,7 @@
         },
         {
             "location": "/spfx/extensions/#full-page",
-            "text": "https://github.com/aflyen/spfx-extension-fullpagecanvas  http://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html  (React slider field customizer)  https://github.com/dannyjessee/SPFxHeaderFooter  https://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions",
+            "text": "https://github.com/aflyen/spfx-extension-fullpagecanvas  https://github.com/StfBauer/spfx-appcust-removeFeeback  http://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html  (React slider field customizer)  https://github.com/dannyjessee/SPFxHeaderFooter  https://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions",
             "title": "Full Page"
         },
         {
@@ -471,6 +471,31 @@
             "title": "Tips"
         },
         {
+            "location": "/spfx/starterkid/",
+            "text": "Starter Kid\n\u00b6\n\n\nGitHub\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-starter-kit\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://beaucameron.net/2018/05/22/pnp-sp-starter-kit-hints-and-tips/\n\n\nhttps://robertschouten.com/2018/05/25/pnp-starter-kit-my-experiences/\n\n\n\n\nPerformance\n\u00b6\n\n\n\n\nhttps://robertschouten.com/2018/07/06/pnp-starter-kit-optimisation-considerations",
+            "title": "Starter-Kid"
+        },
+        {
+            "location": "/spfx/starterkid/#starter-kid",
+            "text": "",
+            "title": "Starter Kid"
+        },
+        {
+            "location": "/spfx/starterkid/#github",
+            "text": "https://github.com/SharePoint/sp-starter-kit",
+            "title": "GitHub"
+        },
+        {
+            "location": "/spfx/starterkid/#tipps",
+            "text": "https://beaucameron.net/2018/05/22/pnp-sp-starter-kit-hints-and-tips/  https://robertschouten.com/2018/05/25/pnp-starter-kit-my-experiences/",
+            "title": "Tipps"
+        },
+        {
+            "location": "/spfx/starterkid/#performance",
+            "text": "https://robertschouten.com/2018/07/06/pnp-starter-kit-optimisation-considerations",
+            "title": "Performance"
+        },
+        {
             "location": "/spfx/typescript/",
             "text": "Typescript\n\u00b6\n\n\n\n\npluralsight typescript course\n\n\nhttps://github.com/Microsoft/TypeScript/wiki\n\n\nhttps://github.com/basarat/typescript-book\n\n\nhttps://basarat.gitbooks.io/typescript/content/docs/getting-started.html\n\n\nhttps://www.gitbook.com/book/basarat/typescript/details\n\n\nhttps://codewich.com/\n\n\nhttps://github.com/lakshaydulani/typescript-summary\n\n\nhttps://github.com/netdur/typescript-design-patterns\n\n\n\n\nTutorial\n\u00b6\n\n\n\n\nhttp://dotnetdetail.com/learn-typescript-from-basic/\n\n\nhttp://dotnetdetail.com/learn-typescript-step-by-step-with-suitable-example/\n\n\n\n\nLibrary\n\u00b6\n\n\n\n\nhttps://github.com/alexjoverm/typescript-library-starter\n\n\n\n\nTypings\n\u00b6\n\n\n\n\nhttps://github.com/cashfarm/autotypes",
             "title": "Typescript"
@@ -522,7 +547,7 @@
         },
         {
             "location": "/spfx/ux/",
-            "text": "UX\n\u00b6\n\n\nContentType\n\u00b6\n\n\n\n\nhttps://joannecklein.com/2017/12/13/targeted-training-on-office-365-adoption-center-build/\n\n\nhttps://joannecklein.com/2018/06/26/build-a-modern-company-locations-page-in-minutes/",
+            "text": "UX\n\u00b6\n\n\nContentType\n\u00b6\n\n\n\n\nhttps://joannecklein.com/2017/12/13/targeted-training-on-office-365-adoption-center-build/\n\n\nhttps://joannecklein.com/2018/06/26/build-a-modern-company-locations-page-in-minutes/\n\n\n\n\nFolder or Metadata\n\u00b6\n\n\n\n\nhttps://joannecklein.com/2017/03/22/multiple-libraries-folders-or-metadata/\n\n\n\n\nStyle Guide\n\u00b6\n\n\n\n\nhttps://github.com/StfBauer/generator-simplestyle",
             "title": "UX"
         },
         {
@@ -534,6 +559,16 @@
             "location": "/spfx/ux/#contenttype",
             "text": "https://joannecklein.com/2017/12/13/targeted-training-on-office-365-adoption-center-build/  https://joannecklein.com/2018/06/26/build-a-modern-company-locations-page-in-minutes/",
             "title": "ContentType"
+        },
+        {
+            "location": "/spfx/ux/#folder-or-metadata",
+            "text": "https://joannecklein.com/2017/03/22/multiple-libraries-folders-or-metadata/",
+            "title": "Folder or Metadata"
+        },
+        {
+            "location": "/spfx/ux/#style-guide",
+            "text": "https://github.com/StfBauer/generator-simplestyle",
+            "title": "Style Guide"
         },
         {
             "location": "/spfx/webparts/",
@@ -726,24 +761,54 @@
             "title": "Update SPFx version"
         },
         {
-            "location": "/toolchain/gulp/",
-            "text": "Gulp\n\u00b6\n\n\nBasics\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/getting-up-to-speed-with-gulp/\n\n\nhttps://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0\n\n\n\n\nDeployment\n\u00b6\n\n\n\n\nhttps://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js\n\n\nhttps://github.com/estruyf/gulp-spsync-creds",
+            "location": "/toolchain/toolchain/",
+            "text": "Toolchain\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain\n\n\n\n\nGulp\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/getting-up-to-speed-with-gulp/\n\n\nhttps://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0\n\n\n\n\nDeployment\n\u00b6\n\n\n\n\nhttps://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js\n\n\nhttps://github.com/estruyf/gulp-spsync-creds\n\n\n\n\nNPM\n\u00b6\n\n\nOptimization packages\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production\n\n\nhttps://rencore.com/sharepoint-framework/script-check/\n\n\n\n\nUpdate packages\n\u00b6\n\n\n\n\nhttps://gist.github.com/iki/ec32bfdeeb23930efd15\n\n\n\n\n# check\nnpm outdated -g\n\n# install\nnpm -g i npm-check\n\n# interactive update of global packages\nnpm-check -u -g\n\n# interactive update for a project you are working on\nnpm-check -u\n\n# unistall package\nnpm uninstall -g <module>\n\n\n\n\nCheck package version\n\u00b6\n\n\n\n\nhttps://github.com/dylang/npm-check\n\n\n\n\nList global npm  packages versions\n\n\nnpm list -g --depth 0\n\n\n\n\nList detail global npm  package versions from one package\n\n\nnpm view @microsoft/generator-sharepoint\n\n\n\n\nUpdate SPFx Framework\n\u00b6\n\n\n\n\nhttps://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/\n\n\n\n\n# go into solution folder\nnpm outdated\n# search f\u00fcr \"@micorosoft/sp-\"\n# update all\nnpm install package-name@version --save\n# or\nnpm install package-name@latest --save\ngulp clean\ngulp build",
             "title": "Gulp"
         },
         {
-            "location": "/toolchain/gulp/#gulp",
+            "location": "/toolchain/toolchain/#toolchain",
             "text": "",
+            "title": "Toolchain"
+        },
+        {
+            "location": "/toolchain/toolchain/#overview",
+            "text": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain",
+            "title": "Overview"
+        },
+        {
+            "location": "/toolchain/toolchain/#gulp",
+            "text": "https://www.eliostruyf.com/getting-up-to-speed-with-gulp/  https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0",
             "title": "Gulp"
         },
         {
-            "location": "/toolchain/gulp/#basics",
-            "text": "https://www.eliostruyf.com/getting-up-to-speed-with-gulp/  https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0",
-            "title": "Basics"
-        },
-        {
-            "location": "/toolchain/gulp/#deployment",
+            "location": "/toolchain/toolchain/#deployment",
             "text": "https://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js  https://github.com/estruyf/gulp-spsync-creds",
             "title": "Deployment"
+        },
+        {
+            "location": "/toolchain/toolchain/#npm",
+            "text": "",
+            "title": "NPM"
+        },
+        {
+            "location": "/toolchain/toolchain/#optimization-packages",
+            "text": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production  https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production  https://rencore.com/sharepoint-framework/script-check/",
+            "title": "Optimization packages"
+        },
+        {
+            "location": "/toolchain/toolchain/#update-packages",
+            "text": "https://gist.github.com/iki/ec32bfdeeb23930efd15   # check\nnpm outdated -g\n\n# install\nnpm -g i npm-check\n\n# interactive update of global packages\nnpm-check -u -g\n\n# interactive update for a project you are working on\nnpm-check -u\n\n# unistall package\nnpm uninstall -g <module>",
+            "title": "Update packages"
+        },
+        {
+            "location": "/toolchain/toolchain/#check-package-version",
+            "text": "https://github.com/dylang/npm-check   List global npm  packages versions  npm list -g --depth 0  List detail global npm  package versions from one package  npm view @microsoft/generator-sharepoint",
+            "title": "Check package version"
+        },
+        {
+            "location": "/toolchain/toolchain/#update-spfx-framework",
+            "text": "https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/   # go into solution folder\nnpm outdated\n# search f\u00fcr \"@micorosoft/sp-\"\n# update all\nnpm install package-name@version --save\n# or\nnpm install package-name@latest --save\ngulp clean\ngulp build",
+            "title": "Update SPFx Framework"
         },
         {
             "location": "/powershell/links/",
