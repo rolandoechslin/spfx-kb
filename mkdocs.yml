@@ -27,6 +27,7 @@ pages:
         - Site-Scripts: spfx/sitescripts.md
         - Search: spfx/search.md
         - Support: spfx/support.md
+        - Starter-Kid: spfx/starterkid.md
         - Typescript: spfx/typescript.md
         - Testing: spfx/testing.md
         - Theme: spfx/theme.md
@@ -40,7 +41,7 @@ pages:
     - Toolchain:
         - Webpack: toolchain/webpack.md
         - Npm: toolchain/spfx-npm.md
-        - Gulp: toolchain/gulp.md
+        - Gulp: toolchain/toolchain.md
     - Powershell:
         - Links: powershell/links.md
         - PnP-PS: powershell/pnp-ps.md
