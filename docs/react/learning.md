@@ -5,10 +5,15 @@
 - https://udilia.com/courses/learn-react-by-building-a-web-app
 - https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/
 
+## Roadmap
+
+- https://github.com/adam-golab/react-developer-roadmap
+
 ## Reference
 
 - https://github.com/brillout/awesome-react-components#ui-frameworks
 - https://survivejs.com/react/
+- https://github.com/markerikson/react-redux-links
 
 ## Cheatsheet
 

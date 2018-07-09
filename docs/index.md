@@ -1,3 +1,3 @@
 # Welcome to SPFx Knowledgebase
 
-Knowledge base for SharePoint Framework (SPFx) questions, answers, snippets and links.
+My knowledge base notebook for sharepoint framework (SPFx)  snippets and links.

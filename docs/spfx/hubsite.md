@@ -4,9 +4,11 @@
 
 - [sharepoint-hub-sites-make-their-debut](http://ericoverfield.com/sharepoint-hub-sites-make-their-debut/)
 - [Organize-your-intranet-with-SharePoint-hub-sites](https://techcommunity.microsoft.com/t5/SharePoint-Blog/Organize-your-intranet-with-SharePoint-hub-sites/ba-p/174081)
+- [Planning your SharePoint hub sites](https://support.office.com/en-us/article/planning-your-sharepoint-hub-sites-4e95dcd8-7e79-4732-aa9b-2f351031b4c2?ui=en-US&rs=en-US&ad=US)
 
 ## Navigation
 
+- https://beaucameron.net/2018/04/17/security-trimmed-hub-site-navigation-updates/
 - [security-trimmed-hub-navigation](http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation)
 
 ## Install CustomAction
