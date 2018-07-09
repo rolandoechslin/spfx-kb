@@ -289,6 +289,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>/tools/markdown/</loc>
+     <lastmod>2018-07-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     

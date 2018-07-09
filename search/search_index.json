@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to SPFx Knowledgebase\n\u00b6\n\n\nKnowledge base for SharePoint Framework (SPFx) questions, answers, snippets and links.",
+            "text": "Welcome to SPFx Knowledgebase\n\u00b6\n\n\nMy knowledge base notebook for sharepoint framework (SPFx)  snippets and links.",
             "title": "Home"
         },
         {
             "location": "/#welcome-to-spfx-knowledgebase",
-            "text": "Knowledge base for SharePoint Framework (SPFx) questions, answers, snippets and links.",
+            "text": "My knowledge base notebook for sharepoint framework (SPFx)  snippets and links.",
             "title": "Welcome to SPFx Knowledgebase"
         },
         {
@@ -232,7 +232,7 @@
         },
         {
             "location": "/spfx/hubsite/",
-            "text": "HubSite\n\u00b6\n\n\nIntegration\n\u00b6\n\n\n\n\nsharepoint-hub-sites-make-their-debut\n\n\nOrganize-your-intranet-with-SharePoint-hub-sites\n\n\n\n\nNavigation\n\u00b6\n\n\n\n\nsecurity-trimmed-hub-navigation\n\n\n\n\nInstall CustomAction\n\u00b6\n\n\n\n\nhttps://www.sharepointeurope.com/apply-spfx-extensions-to-sharepoint-hub-sites-using-pnp-powershell/\n\n\n\n\ncls\n\n\u00a0\n\n$tenantAdmin\n \n=\n \n\"https://contoso-admin.sharepoint.com\"\n\n\n$hubSite\n \n=\n \n\"https://contoso.sharepoint.com/sites/hub\"\n\n\n$extensionGUID\n \n=\n \n\"6da1a9e8-471d-4f39-80e6-a7ded02e8881\"\n\n\n$extensionName\n \n=\n \n\"Extension Name\"\n\n\n$extensionTitle\n \n=\n \n\"Extension Title\"\n\n\u00a0\n\ntry\n\n\n{\n\n\nConnect-PnPOnline\n \n-Url\n \n$tenantAdmin\n \n-UseWebLogin\n\n\n}\n \ncatch\n \n{\n\n\nWrite-Host\n \n\"Unable to connect.\"\n\n\nexit\n\n\n}\n\n\n\n$HubSite\n \n=\n \nGet-PnPHubSite\n \n$hubSite\n\n\n$HubSiteId\n \n=\n \n$HubSite\n.\nSiteId\n\n\n$ModernSites\n \n=\n \n(\nGet-PnPTenantSite\n \n-Template\n \n'GROUP#0'\n)\n \n+\n \n(\nGet-PnPTenantSite\n \n-Template\n \n'SITEPAGEPUBLISHING#0'\n)\n\n\n$SitesFromHub\n \n=\n \nNew-Object\n \nSystem\n.\nCollections\n.\nArrayList\n\n\u00a0\n\nWrite-Host\n \n(\n\"Searching {0} sites:\"\n \n-f\n \n$HubSite\n.\nTitle\n)\n \n-BackgroundColor\n \nGray\n\n\nforeach\n \n(\n$ModernSite\n \nin\n \n$ModernSites\n){\n\n    \n$site\n \n=\n \nGet-PnPHubSite\n \n$ModernSite\n.\nUrl\n\n    \nif\n(\n$site\n.\nSiteUrl\n){\n\n    \nif\n(\n$site\n.\nSiteId\n \n-eq\n \n$HubSiteId\n){\n\n            \nWrite-Host\n \n(\n\"* {0} - {1}\"\n \n-f\n \n$ModernSite\n.\nTitle\n,\n \n$ModernSite\n.\nUrl\n)\n\n            \n$SitesFromHub\n.\nAdd\n(\n$ModernSite\n)\n \n|\n \nOut-Null\n\n        \n}\n\n    \n}\n\n\n}\n\n\n\nWrite-Host\n \n\"\"\n\n\nWrite-Host\n \n\"Installing at:\"\n \n-BackgroundColor\n \nGray\n\n\nforeach\n \n(\n$SiteHub\n \nin\n \n$SitesFromHub\n){\n\n    \nWrite-Host\n \n(\n\"* {0} - {1} ... \"\n \n-f\n \n$SiteHub\n.\nTitle\n,\n \n$SiteHub\n.\nUrl\n)\n \n-NoNewline\n\n    \nConnect-PnPOnline\n \n-Url\n \n$SiteHub\n.\nUrl\n \n-UseWebLogin\n\n    \nAdd-PnPCustomAction\n \n-ClientSideComponentId\n \n$extensionGUID\n \n-Name\n \n$extensionName\n \n-Title\n \n$extensionTitle\n \n-Location\n \nClientSideExtension\n.\nApplicationCustomizer\n \n-Scope\n \nsite\n\n    \nWrite-Host\n \n\"Done\"\n \n-BackgroundColor\n \nGreen\n\n    \nDisconnect-PnPOnline\n\n\n}\n\n\n\nWrite-Host\n \n\"All Done\"\n\n\n\n\n\nCSOM\n\u00b6\n\n\n\n\nworking-with-sharepoint-online-hub\n\n\n\n\nSearch API\n\u00b6\n\n\n\n\nworking-with-hub-sites-and-search-api\n\n\n\n\n \n# List all sites being a hub site or associate to a hub site\n\n\n$results\n \n=\n \nSubmit-PnPSearchQuery\n \n-Query\n \n'contentclass=sts_site'\n \n-RefinementFilters\n \n'departmentid:string(\"{*\",linguistics=off)'\n \n-TrimDuplicates\n \n$false\n \n-SelectProperties\n \n@(\n\"Title\"\n,\n\"Path\"\n,\n\"DepartmentId\"\n,\n\"SiteId\"\n)\n \n-All\n \n-RelevantResults\n\n\n\n# Filter out the hub sites\n\n\n$hubSites\n \n=\n \n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n.\nTrim\n(\n'{'\n,\n'}'\n)\n \n-eq\n \n$_\n.\nSiteId\n  \n}\n\n\n\n# Loop over the hub sites\n\n\nforeach\n(\n \n$hub\n \nin\n \n$hubSites\n \n)\n \n{\n\n    \nWrite-Host\n \n$hub\n.\nTitle\n \n-\n \n$hub\n.\nPath\n \n-ForegroundColor\n \nGreen\n\n    \n# Filter out sites associated to the current hub\n\n    \n$associatedSites\n \n=\n \n(\n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n \n-eq\n \n$hub\n.\nDepartmentId\n \n-and\n \n$_\n.\nSiteId\n \n-ne\n \n$hub\n.\nSiteId\n \n})\n\n    \nforeach\n(\n$site\n \nin\n \n$associatedSites\n)\n \n{\n\n        \nWrite-Host\n \n\"\n`t\n\"\n$site\n.\nTitle\n \n-\n \n$site\n.\nPath\n \n-ForegroundColor\n \nYellow\n\n    \n}\n\n\n}",
+            "text": "HubSite\n\u00b6\n\n\nIntegration\n\u00b6\n\n\n\n\nsharepoint-hub-sites-make-their-debut\n\n\nOrganize-your-intranet-with-SharePoint-hub-sites\n\n\nPlanning your SharePoint hub sites\n\n\n\n\nNavigation\n\u00b6\n\n\n\n\nhttps://beaucameron.net/2018/04/17/security-trimmed-hub-site-navigation-updates/\n\n\nsecurity-trimmed-hub-navigation\n\n\n\n\nInstall CustomAction\n\u00b6\n\n\n\n\nhttps://www.sharepointeurope.com/apply-spfx-extensions-to-sharepoint-hub-sites-using-pnp-powershell/\n\n\n\n\ncls\n\n\u00a0\n\n$tenantAdmin\n \n=\n \n\"https://contoso-admin.sharepoint.com\"\n\n\n$hubSite\n \n=\n \n\"https://contoso.sharepoint.com/sites/hub\"\n\n\n$extensionGUID\n \n=\n \n\"6da1a9e8-471d-4f39-80e6-a7ded02e8881\"\n\n\n$extensionName\n \n=\n \n\"Extension Name\"\n\n\n$extensionTitle\n \n=\n \n\"Extension Title\"\n\n\u00a0\n\ntry\n\n\n{\n\n\nConnect-PnPOnline\n \n-Url\n \n$tenantAdmin\n \n-UseWebLogin\n\n\n}\n \ncatch\n \n{\n\n\nWrite-Host\n \n\"Unable to connect.\"\n\n\nexit\n\n\n}\n\n\n\n$HubSite\n \n=\n \nGet-PnPHubSite\n \n$hubSite\n\n\n$HubSiteId\n \n=\n \n$HubSite\n.\nSiteId\n\n\n$ModernSites\n \n=\n \n(\nGet-PnPTenantSite\n \n-Template\n \n'GROUP#0'\n)\n \n+\n \n(\nGet-PnPTenantSite\n \n-Template\n \n'SITEPAGEPUBLISHING#0'\n)\n\n\n$SitesFromHub\n \n=\n \nNew-Object\n \nSystem\n.\nCollections\n.\nArrayList\n\n\u00a0\n\nWrite-Host\n \n(\n\"Searching {0} sites:\"\n \n-f\n \n$HubSite\n.\nTitle\n)\n \n-BackgroundColor\n \nGray\n\n\nforeach\n \n(\n$ModernSite\n \nin\n \n$ModernSites\n){\n\n    \n$site\n \n=\n \nGet-PnPHubSite\n \n$ModernSite\n.\nUrl\n\n    \nif\n(\n$site\n.\nSiteUrl\n){\n\n    \nif\n(\n$site\n.\nSiteId\n \n-eq\n \n$HubSiteId\n){\n\n            \nWrite-Host\n \n(\n\"* {0} - {1}\"\n \n-f\n \n$ModernSite\n.\nTitle\n,\n \n$ModernSite\n.\nUrl\n)\n\n            \n$SitesFromHub\n.\nAdd\n(\n$ModernSite\n)\n \n|\n \nOut-Null\n\n        \n}\n\n    \n}\n\n\n}\n\n\n\nWrite-Host\n \n\"\"\n\n\nWrite-Host\n \n\"Installing at:\"\n \n-BackgroundColor\n \nGray\n\n\nforeach\n \n(\n$SiteHub\n \nin\n \n$SitesFromHub\n){\n\n    \nWrite-Host\n \n(\n\"* {0} - {1} ... \"\n \n-f\n \n$SiteHub\n.\nTitle\n,\n \n$SiteHub\n.\nUrl\n)\n \n-NoNewline\n\n    \nConnect-PnPOnline\n \n-Url\n \n$SiteHub\n.\nUrl\n \n-UseWebLogin\n\n    \nAdd-PnPCustomAction\n \n-ClientSideComponentId\n \n$extensionGUID\n \n-Name\n \n$extensionName\n \n-Title\n \n$extensionTitle\n \n-Location\n \nClientSideExtension\n.\nApplicationCustomizer\n \n-Scope\n \nsite\n\n    \nWrite-Host\n \n\"Done\"\n \n-BackgroundColor\n \nGreen\n\n    \nDisconnect-PnPOnline\n\n\n}\n\n\n\nWrite-Host\n \n\"All Done\"\n\n\n\n\n\nCSOM\n\u00b6\n\n\n\n\nworking-with-sharepoint-online-hub\n\n\n\n\nSearch API\n\u00b6\n\n\n\n\nworking-with-hub-sites-and-search-api\n\n\n\n\n \n# List all sites being a hub site or associate to a hub site\n\n\n$results\n \n=\n \nSubmit-PnPSearchQuery\n \n-Query\n \n'contentclass=sts_site'\n \n-RefinementFilters\n \n'departmentid:string(\"{*\",linguistics=off)'\n \n-TrimDuplicates\n \n$false\n \n-SelectProperties\n \n@(\n\"Title\"\n,\n\"Path\"\n,\n\"DepartmentId\"\n,\n\"SiteId\"\n)\n \n-All\n \n-RelevantResults\n\n\n\n# Filter out the hub sites\n\n\n$hubSites\n \n=\n \n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n.\nTrim\n(\n'{'\n,\n'}'\n)\n \n-eq\n \n$_\n.\nSiteId\n  \n}\n\n\n\n# Loop over the hub sites\n\n\nforeach\n(\n \n$hub\n \nin\n \n$hubSites\n \n)\n \n{\n\n    \nWrite-Host\n \n$hub\n.\nTitle\n \n-\n \n$hub\n.\nPath\n \n-ForegroundColor\n \nGreen\n\n    \n# Filter out sites associated to the current hub\n\n    \n$associatedSites\n \n=\n \n(\n$results\n \n|?\n \n{\n \n$_\n.\nDepartmentId\n \n-eq\n \n$hub\n.\nDepartmentId\n \n-and\n \n$_\n.\nSiteId\n \n-ne\n \n$hub\n.\nSiteId\n \n})\n\n    \nforeach\n(\n$site\n \nin\n \n$associatedSites\n)\n \n{\n\n        \nWrite-Host\n \n\"\n`t\n\"\n$site\n.\nTitle\n \n-\n \n$site\n.\nPath\n \n-ForegroundColor\n \nYellow\n\n    \n}\n\n\n}",
             "title": "Hubsite"
         },
         {
@@ -242,12 +242,12 @@
         },
         {
             "location": "/spfx/hubsite/#integration",
-            "text": "sharepoint-hub-sites-make-their-debut  Organize-your-intranet-with-SharePoint-hub-sites",
+            "text": "sharepoint-hub-sites-make-their-debut  Organize-your-intranet-with-SharePoint-hub-sites  Planning your SharePoint hub sites",
             "title": "Integration"
         },
         {
             "location": "/spfx/hubsite/#navigation",
-            "text": "security-trimmed-hub-navigation",
+            "text": "https://beaucameron.net/2018/04/17/security-trimmed-hub-site-navigation-updates/  security-trimmed-hub-navigation",
             "title": "Navigation"
         },
         {
@@ -1111,8 +1111,23 @@
             "title": "Tips"
         },
         {
+            "location": "/tools/markdown/",
+            "text": "Markdown\n\u00b6\n\n\nTools\n\u00b6\n\n\n\n\nhttps://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint\n\n\nhttp://fuckyeahmarkdown.com\n\n\nhttp://pandoc.org/try",
+            "title": "Markdown"
+        },
+        {
+            "location": "/tools/markdown/#markdown",
+            "text": "",
+            "title": "Markdown"
+        },
+        {
+            "location": "/tools/markdown/#tools",
+            "text": "https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint  http://fuckyeahmarkdown.com  http://pandoc.org/try",
+            "title": "Tools"
+        },
+        {
             "location": "/react/learning/",
-            "text": "Learning\n\u00b6\n\n\n\n\nhttps://www.udemy.com/react-the-complete-guide-incl-redux/?start=0\n\n\nhttps://www.udemy.com/react-redux/\n\n\nhttps://udilia.com/courses/learn-react-by-building-a-web-app\n\n\nhttps://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/\n\n\n\n\nReference\n\u00b6\n\n\n\n\nhttps://github.com/brillout/awesome-react-components#ui-frameworks\n\n\nhttps://survivejs.com/react/\n\n\n\n\nCheatsheet\n\u00b6\n\n\n\n\nhttps://devhints.io/react\n\n\nhttps://github.com/sw-yx/react-typescript-cheatsheet\n\n\nhttps://github.com/piotrwitek/react-redux-typescript-guide\n\n\n\n\nPatterns\n\u00b6\n\n\n\n\nhttps://legacy.gitbook.com/book/krasimir/react-in-patterns/details\n\n\n\n\nSP2016\n\u00b6\n\n\n\n\nsharepoint-application-pages-with-react-office-fabric-ui-interface\n\n\n\n\nBoilerplates\n\u00b6\n\n\n\n\nhttps://github.com/artofcodelabs/front-end-boilerplate\n\n\n\n\nLessons\n\u00b6\n\n\n\n\nhttps://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981",
+            "text": "Learning\n\u00b6\n\n\n\n\nhttps://www.udemy.com/react-the-complete-guide-incl-redux/?start=0\n\n\nhttps://www.udemy.com/react-redux/\n\n\nhttps://udilia.com/courses/learn-react-by-building-a-web-app\n\n\nhttps://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/\n\n\n\n\nRoadmap\n\u00b6\n\n\n\n\nhttps://github.com/adam-golab/react-developer-roadmap\n\n\n\n\nReference\n\u00b6\n\n\n\n\nhttps://github.com/brillout/awesome-react-components#ui-frameworks\n\n\nhttps://survivejs.com/react/\n\n\nhttps://github.com/markerikson/react-redux-links\n\n\n\n\nCheatsheet\n\u00b6\n\n\n\n\nhttps://devhints.io/react\n\n\nhttps://github.com/sw-yx/react-typescript-cheatsheet\n\n\nhttps://github.com/piotrwitek/react-redux-typescript-guide\n\n\n\n\nPatterns\n\u00b6\n\n\n\n\nhttps://legacy.gitbook.com/book/krasimir/react-in-patterns/details\n\n\n\n\nSP2016\n\u00b6\n\n\n\n\nsharepoint-application-pages-with-react-office-fabric-ui-interface\n\n\n\n\nBoilerplates\n\u00b6\n\n\n\n\nhttps://github.com/artofcodelabs/front-end-boilerplate\n\n\n\n\nLessons\n\u00b6\n\n\n\n\nhttps://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981",
             "title": "Learning"
         },
         {
@@ -1121,8 +1136,13 @@
             "title": "Learning"
         },
         {
+            "location": "/react/learning/#roadmap",
+            "text": "https://github.com/adam-golab/react-developer-roadmap",
+            "title": "Roadmap"
+        },
+        {
             "location": "/react/learning/#reference",
-            "text": "https://github.com/brillout/awesome-react-components#ui-frameworks  https://survivejs.com/react/",
+            "text": "https://github.com/brillout/awesome-react-components#ui-frameworks  https://survivejs.com/react/  https://github.com/markerikson/react-redux-links",
             "title": "Reference"
         },
         {
