@@ -21,11 +21,13 @@ pages:
         - Hubsite: spfx/hubsite.md
         - Graph: spfx/graph.md
         - JS: spfx/js.md
+        - Listitem: spfx/listitem.md
         - Network: spfx/network.md
         - Provisioning: spfx/provisioning.md
         - Migration: spfx/migration.md
         - Site-Scripts: spfx/sitescripts.md
         - Search: spfx/search.md
+        - Snippets: spfx/snippets.md
         - Support: spfx/support.md
         - Starter-Kid: spfx/starterkid.md
         - Typescript: spfx/typescript.md
