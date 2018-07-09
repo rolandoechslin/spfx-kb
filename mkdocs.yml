@@ -54,6 +54,7 @@ pages:
         - Image: tools/image.md
         - Gatspy: tools/gatspy.md
         - Git: tools/git.md
+        - Markdown: tools/markdown.md
     - React:
         - Learning: react/learning.md
     - Security:
