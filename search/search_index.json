@@ -296,6 +296,26 @@
             "title": "ES6"
         },
         {
+            "location": "/spfx/listitem/",
+            "text": "Listitem\n\u00b6\n\n\nSystem Upddate\n\u00b6\n\n\n\n\nhttp://blog.arvosys.com/2018/07/06/list-items-system-update-options-in-sharepoint-online/\n\n\nhttps://www.linkedin.com/pulse/list-items-system-update-options-sharepoint-online-andrew-koltyakov/\n\n\nhttps://github.com/koltyakov/sp-sig-20180705-demo/blob/master/src/02-clientSvc/helper.ts\n\n\n\n\nManaging Lists\n\u00b6\n\n\n\n\nManaging Lists with SharePoint PnP JS in SPFx",
+            "title": "Listitem"
+        },
+        {
+            "location": "/spfx/listitem/#listitem",
+            "text": "",
+            "title": "Listitem"
+        },
+        {
+            "location": "/spfx/listitem/#system-upddate",
+            "text": "http://blog.arvosys.com/2018/07/06/list-items-system-update-options-in-sharepoint-online/  https://www.linkedin.com/pulse/list-items-system-update-options-sharepoint-online-andrew-koltyakov/  https://github.com/koltyakov/sp-sig-20180705-demo/blob/master/src/02-clientSvc/helper.ts",
+            "title": "System Upddate"
+        },
+        {
+            "location": "/spfx/listitem/#managing-lists",
+            "text": "Managing Lists with SharePoint PnP JS in SPFx",
+            "title": "Managing Lists"
+        },
+        {
             "location": "/spfx/network/",
             "text": "Network\n\u00b6\n\n\n\n\nURLs-und-IP-Adressbereiche-von-Office-365\n\n\n\n\nDNS-Basics\n\u00b6\n\n\n\n\nClientkonnektivit\u00e4t\n\n\nOffice 365 Connectivity Guidance\n\n\noffice-365-connectivity-guidance-part-2\n\n\noffice-365-connectivity-guidance-part-3\n\n\noffice-365-connectivity-guidance-part-4\n\n\n\n\nTools\n\u00b6\n\n\n\n\nPsPing v2.1\n\n\n\n\nIT Pro\n\u00b6\n\n\n\n\nprovisioning-office-365-services\n\n\n\n\nSSL\n\u00b6\n\n\n\n\ngenerating-wildcard-ssl-certs-for-development",
             "title": "Network"
@@ -424,6 +444,31 @@
             "location": "/spfx/search/#fileshare",
             "text": "https://social.technet.microsoft.com/wiki/contents/articles/2209.sharepoint-201020132016-best-practices-for-indexing-file-share-content.aspx  https://blogs.msdn.microsoft.com/nicolasu/2013/07/24/sp2013-how-to-better-balance-your-distributed-file-system-dfs-crawl  https://redmondmag.com/articles/2014/10/07/search-content-source-in-sharepoint.aspx  https://technet.microsoft.com/en-us/library/dn535606.aspx#BKMK_UseContentSources  http://www.bigdata-unleashed.com/20131205/crawling-von-fileshares-sharepoint-2013  https://www.experts-exchange.com/questions/28918628/Unable-to-do-full-crawl-on-file-share-for-Sharepoint-2013-Content-Source.html  http://kx.cloudingenium.com/microsoft/servers/sharepoint/sharepoint-2013/how-to-give-sharepoint-2013-crawler-sufficient-rightspermissions-to-crawl-file-shares  https://social.technet.microsoft.com/Forums/office/en-US/a1eb205d-128a-46ff-967d-355dc13411d2/crawling-file-server-sharepoint-2013?forum=sharepointadmin  https://social.technet.microsoft.com/Forums/sharepoint/en-US/942979d0-358a-4aac-9953-b2192decdfa4/creating-a-mapped-driveuser-folder-permission-problems?forum=winserverGP  http://www.collabshow.com/2008/10/31/best-practices-for-enterprise-user-scalability-in-sharepoint  https://profadmins.com/2014/04/07/sharepoint-doesnt-accept-the-universal-security-groups-for-granting-permissions",
             "title": "FileShare"
+        },
+        {
+            "location": "/spfx/snippets/",
+            "text": "Code Snippets\n\u00b6\n\n\nPNP JS-Core\n\u00b6\n\n\nList Permission\n\u00b6\n\n\nprivate\n \n_checkProductsPermissions\n(\nproductsList\n){\n\n    \nreturn\n \npnp\n.\nsp\n.\nweb\n.\nlists\n.\ngetByTitle\n(\nproductsList\n).\ngetCurrentUserEffectivePermissions\n()\n\n        \n.\nthen\n(\nperms\n \n=>\n \n{\n\n            \nlet\n \ncanEdit\n \n=\n \npnp\n.\nsp\n.\nweb\n.\nlists\n.\ngetByTitle\n(\nproductsList\n).\nhasPermissions\n(\nperms\n,\n \nPermissionKind\n.\nEditListItems\n);\n\n            \nlet\n \ncanView\n \n=\n \npnp\n.\nsp\n.\nweb\n.\nlists\n.\ngetByTitle\n(\nproductsList\n).\nhasPermissions\n(\nperms\n,\n \nPermissionKind\n.\nViewListItems\n);\n\n            \nif\n(\ncanEdit\n){\n\n                \nreturn\n \n'Edit'\n;\n\n            \n}\n \nelse\n \nif\n(\ncanView\n){\n\n                \nreturn\n \n'View'\n;\n\n            \n}\n \nelse\n \n{\n\n                \nreturn\n \n'None'\n;\n\n            \n}\n\n        \n})\n\n        \n.\ncatch\n((\nerr\n)\n \n=>\n \n{\n\n            \nconsole\n.\nlog\n(\n'error:'\n,\n \nerr\n);\n\n            \nreturn\n \n'None'\n;\n\n        \n});\n\n\n}\n\n\n\n\n\nAdmin User\n\u00b6\n\n\n// Ensure a user on site collection\n\n\nsp\n.\nweb\n.\nensureUser\n(\n'john.doe@contoso.onmicrosoft.com'\n).\nthen\n(\nconsole\n.\nlog\n);\n\n\n\n// Get site collection admins\n\n\nsp\n.\nweb\n.\nsiteUsers\n.\nfilter\n(\n`IsSiteAdmin eq true`\n)\n\n    \n.\nget\n().\nthen\n(\nconsole\n.\nlog\n);\n\n\n\n// Remove a user from site collection admins\n\n\nsp\n.\nweb\n.\nsiteUsers\n.\ngetByLoginName\n(\n'i:0#.f|membership|john.doe@contoso.onmicrosoft.com'\n)\n\n    \n.\nupdate\n({\n \nIsSiteAdmin\n:\n \nfalse\n \n}).\nthen\n(\nconsole\n.\nlog\n);\n\n\n\n// Add a user to site collection admins\n\n\nsp\n.\nweb\n.\nsiteUsers\n.\ngetByLoginName\n(\n'i:0#.f|membership|john.doe@contoso.onmicrosoft.com'\n)\n\n    \n.\nupdate\n({\n \nIsSiteAdmin\n:\n \ntrue\n \n}).\nthen\n(\nconsole\n.\nlog\n);",
+            "title": "Snippets"
+        },
+        {
+            "location": "/spfx/snippets/#code-snippets",
+            "text": "",
+            "title": "Code Snippets"
+        },
+        {
+            "location": "/spfx/snippets/#pnp-js-core",
+            "text": "",
+            "title": "PNP JS-Core"
+        },
+        {
+            "location": "/spfx/snippets/#list-permission",
+            "text": "private   _checkProductsPermissions ( productsList ){ \n     return   pnp . sp . web . lists . getByTitle ( productsList ). getCurrentUserEffectivePermissions () \n         . then ( perms   =>   { \n             let   canEdit   =   pnp . sp . web . lists . getByTitle ( productsList ). hasPermissions ( perms ,   PermissionKind . EditListItems ); \n             let   canView   =   pnp . sp . web . lists . getByTitle ( productsList ). hasPermissions ( perms ,   PermissionKind . ViewListItems ); \n             if ( canEdit ){ \n                 return   'Edit' ; \n             }   else   if ( canView ){ \n                 return   'View' ; \n             }   else   { \n                 return   'None' ; \n             } \n         }) \n         . catch (( err )   =>   { \n             console . log ( 'error:' ,   err ); \n             return   'None' ; \n         });  }",
+            "title": "List Permission"
+        },
+        {
+            "location": "/spfx/snippets/#admin-user",
+            "text": "// Ensure a user on site collection  sp . web . ensureUser ( 'john.doe@contoso.onmicrosoft.com' ). then ( console . log );  // Get site collection admins  sp . web . siteUsers . filter ( `IsSiteAdmin eq true` ) \n     . get (). then ( console . log );  // Remove a user from site collection admins  sp . web . siteUsers . getByLoginName ( 'i:0#.f|membership|john.doe@contoso.onmicrosoft.com' ) \n     . update ({   IsSiteAdmin :   false   }). then ( console . log );  // Add a user to site collection admins  sp . web . siteUsers . getByLoginName ( 'i:0#.f|membership|john.doe@contoso.onmicrosoft.com' ) \n     . update ({   IsSiteAdmin :   true   }). then ( console . log );",
+            "title": "Admin User"
         },
         {
             "location": "/spfx/support/",
