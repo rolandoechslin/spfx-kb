@@ -13,6 +13,7 @@
 
 - https://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js
 - https://github.com/estruyf/gulp-spsync-creds
+- https://n8d.at/blog/how-to-version-new-sharepoint-framework-projects/?platform=hootsuite
 
 
 ## NPM

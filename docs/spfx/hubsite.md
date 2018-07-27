@@ -1,5 +1,7 @@
 # HubSite
 
+- https://www.youtube.com/watch?v=_8RCBsrpLg4
+
 ## Integration
 
 - [sharepoint-hub-sites-make-their-debut](http://ericoverfield.com/sharepoint-hub-sites-make-their-debut/)

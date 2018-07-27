@@ -19,6 +19,7 @@ pages:
         - Flow: spfx/flow.md
         - Groups: spfx/groups.md
         - Hubsite: spfx/hubsite.md
+        - Intranet: spfx/intranet.md
         - Graph: spfx/graph.md
         - JS: spfx/js.md
         - Listitem: spfx/listitem.md
@@ -28,6 +29,7 @@ pages:
         - Site-Scripts: spfx/sitescripts.md
         - Search: spfx/search.md
         - Snippets: spfx/snippets.md
+        - SP2019: spfx/sp2019.md
         - Support: spfx/support.md
         - Starter-Kid: spfx/starterkid.md
         - Typescript: spfx/typescript.md
