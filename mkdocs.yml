@@ -9,6 +9,7 @@ pages:
         - Start: spfx/start.md
         - Azure: spfx/azure.md
         - Branding: spfx/branding.md
+        - Column-Formating: spfx/column-formating.md
         - Bot: spfx/bot.md
         - Classic-Sites: spfx/classic.md
         - Configuration: spfx/configuration.md

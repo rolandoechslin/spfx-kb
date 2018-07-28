@@ -28,8 +28,13 @@
 
 ## Overview Modern WebParts
 
-- http://aurorabits.com/modern-sharepoint-web-parts/
-- http://aurorabits.com/modern-sharepoint-web-parts-2/
+- <http://aurorabits.com/modern-sharepoint-web-parts/>
+- <http://aurorabits.com/modern-sharepoint-web-parts-2/>
+
+## Available WebParts
+
+- <https://tracyvanderschyff.com/2018/07/23/overview-of-sharepoint-online-web-parts/>
+- [Available web parts](https://support.office.com/en-us/article/using-web-parts-on-sharepoint-online-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0)
 
 ## Modern Pages
 
