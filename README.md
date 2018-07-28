@@ -1,5 +1,5 @@
 # spfx-kb
-Knowledge base for SharePoint Framework (SPFx) questions, answers, snippets and links.
+Knowledge base for SharePoint Framework (SPFx) snippets and links.
 
 ## Help
 
