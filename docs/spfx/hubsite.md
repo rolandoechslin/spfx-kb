@@ -1,6 +1,10 @@
 # HubSite
 
-- https://www.youtube.com/watch?v=_8RCBsrpLg4
+- [Video - SharePoint hub sites — What intranet managers need to know](https://www.youtube.com/watch?v=_8RCBsrpLg4)
+- [spsnyc-how-hub-sites-raise-sharepoints-intranet-potential](https://www.slideshare.net/sharePTkarm/spsnyc-how-hub-sites-raise-sharepoints-intranet-potential-107836497)
+- [the-intranet-managers-guide-to-office-365-sharepoint-hub-sites](https://www.habaneroconsulting.com/stories/insights/2018/the-intranet-managers-guide-to-office-365-sharepoint-hub-sites)
+- [common-use-cases-for-office-365-sharepoint-hub-sites](https://www.habaneroconsulting.com/stories/insights/2018/common-use-cases-for-office-365-sharepoint-hub-sites)
+- [architecture-considerations-and-quick-reference-tips-for-office-365s-sharepoint-hub-sites](https://www.habaneroconsulting.com/stories/insights/2018/architecture-considerations-and-quick-reference-tips-for-office-365s-sharepoint-hub-sites)
 
 ## Integration
 

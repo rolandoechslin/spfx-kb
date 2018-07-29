@@ -1,5 +1,9 @@
 # Dev Tools
 
+## Translation
+
+- <https://www.deepl.com/translator>
+
 ## Dokumentation Site Generator
 
 - [mkdocs-material](https://squidfunk.github.io/mkdocs-material)
@@ -8,7 +12,7 @@
 
 ## Guid
 
-- https://www.guidgen.com/
+- <https://www.guidgen.com/>
 
 ## Json
 
@@ -17,9 +21,8 @@
 
 ## REST
 
-- [postman-and-office-365]
-(https://www.helloitsliam.com/2016/02/04/postman-and-office-365)
-- https://s-kainet.github.io/sp-rest-explorer
+- [postman-and-office-365](https://www.helloitsliam.com/2016/02/04/postman-and-office-365)
+- <https://s-kainet.github.io/sp-rest-explorer>
 
 ## Change Log
 
@@ -27,18 +30,19 @@
 
 ## Email
 
-- https://foundation.zurb.com/emails.html
+- <https://foundation.zurb.com/emails.html>
+- <https://mailchimp.com/>
 
 ## Ressourcen Files
 
-- https://poeditor.com/
-- https://github.com/ypcode/spfx-dev-tools (Ressourcen Files mit Excel editieren)
-- https://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources/
+- <https://poeditor.com/>
+- <https://github.com/ypcode/spfx-dev-tools> (Ressourcen Files mit Excel editieren)
+- <https://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources/>
 
 ## ULS
 
-- https://sharepointring.com/
+- <https://sharepointring.com/>
 
 ## VS.Code Extensions
 
-- https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+- <https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint>
