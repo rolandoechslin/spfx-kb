@@ -8,6 +8,7 @@ pages:
     - SPFx:
         - Start: spfx/start.md
         - Azure: spfx/azure.md
+        - AI: spfx/ai.md
         - Branding: spfx/branding.md
         - Column-Formating: spfx/column-formating.md
         - Bot: spfx/bot.md
