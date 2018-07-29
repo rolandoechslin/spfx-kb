@@ -71,6 +71,21 @@
             "title": "Scripts"
         },
         {
+            "location": "/spfx/ai/",
+            "text": "AI\n\u00b6\n\n\nText Analyse\n\u00b6\n\n\n\n\nhttps://www.itidea.nl/index.php/sentiment-of-comments-given-on-a-sharepoint-page/",
+            "title": "AI"
+        },
+        {
+            "location": "/spfx/ai/#ai",
+            "text": "",
+            "title": "AI"
+        },
+        {
+            "location": "/spfx/ai/#text-analyse",
+            "text": "https://www.itidea.nl/index.php/sentiment-of-comments-given-on-a-sharepoint-page/",
+            "title": "Text Analyse"
+        },
+        {
             "location": "/spfx/branding/",
             "text": "Branding\n\u00b6\n\n\nCSS\n\u00b6\n\n\n\n\nhttps://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations\n\n\nhttps://github.com/eoverfield/Ignite2016-TeamSiteBranding\n\n\nhttp://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-bootstrap-session-recap/\n\n\nhttp://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-css-session-recap\n\n\nhttps://github.com/speinc/SPTechCon2016-SanFrancisco/tree/master/Thursday%20-%20CSS%20Session\n\n\nhttp://www.brandmysharepoint.de/einfuegen-von-bildern-im-rte-steuern/#.WLaMB_k1_Zs\n\n\nhttps://n8d.at/blog/how-to-use-bootstrap-in-sharepoint-framework-projects/?utm_content=buffer162f5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer\n\n\n\n\nTheme\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-themes\n\n\nhttps://doc.co/G4xSqf\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/04/using-sharepoint-themes-colors-in-spfx.html\n\n\nhttp://sass-lang.com/guideaspx\n\n\nhttp://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2017/10/17/how-to-use-powershell-to-customize-the-theme-of-a-sharepoint-modern-site.aspx\n\n\nhttps://n8d.at/blog/how-to-make-your-web-parts-responsive-to-the-parent-container/\n\n\nhttp://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites/\n\n\ntwo approaches to applying modern theme",
             "title": "Branding"
