@@ -746,24 +746,89 @@
             "title": "Products"
         },
         {
-            "location": "/Angular/elements/",
-            "text": "Angular\n\u00b6\n\n\nElements\n\u00b6\n\n\n\n\na-practical-guide-to-angular-elements\n\n\n\n\nAngularJS\n\u00b6\n\n\n\n\nhtml-templates-in-spfx\n\n\nbuilding-sharepoint-framework-client-side-web-parts-angular",
-            "title": "Angular"
+            "location": "/react/learning/",
+            "text": "Learning\n\u00b6\n\n\n\n\nhttps://www.udemy.com/react-the-complete-guide-incl-redux/?start=0\n\n\nhttps://www.udemy.com/react-redux/\n\n\nhttps://udilia.com/courses/learn-react-by-building-a-web-app\n\n\nhttps://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/\n\n\n\n\nRoadmap\n\u00b6\n\n\n\n\nhttps://github.com/adam-golab/react-developer-roadmap\n\n\n\n\nReference\n\u00b6\n\n\n\n\nhttps://github.com/brillout/awesome-react-components#ui-frameworks\n\n\nhttps://survivejs.com/react/\n\n\nhttps://github.com/markerikson/react-redux-links\n\n\n\n\nCheatsheet\n\u00b6\n\n\n\n\nhttps://devhints.io/react\n\n\nhttps://github.com/sw-yx/react-typescript-cheatsheet\n\n\nhttps://github.com/piotrwitek/react-redux-typescript-guide\n\n\n\n\nPatterns\n\u00b6\n\n\n\n\nhttps://legacy.gitbook.com/book/krasimir/react-in-patterns/details\n\n\n\n\nSP2016\n\u00b6\n\n\n\n\nsharepoint-application-pages-with-react-office-fabric-ui-interface\n\n\n\n\nBoilerplates\n\u00b6\n\n\n\n\nhttps://github.com/artofcodelabs/front-end-boilerplate\n\n\n\n\nLessons\n\u00b6\n\n\n\n\nhttps://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981",
+            "title": "Learning"
         },
         {
-            "location": "/Angular/elements/#angular",
+            "location": "/react/learning/#learning",
+            "text": "https://www.udemy.com/react-the-complete-guide-incl-redux/?start=0  https://www.udemy.com/react-redux/  https://udilia.com/courses/learn-react-by-building-a-web-app  https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/",
+            "title": "Learning"
+        },
+        {
+            "location": "/react/learning/#roadmap",
+            "text": "https://github.com/adam-golab/react-developer-roadmap",
+            "title": "Roadmap"
+        },
+        {
+            "location": "/react/learning/#reference",
+            "text": "https://github.com/brillout/awesome-react-components#ui-frameworks  https://survivejs.com/react/  https://github.com/markerikson/react-redux-links",
+            "title": "Reference"
+        },
+        {
+            "location": "/react/learning/#cheatsheet",
+            "text": "https://devhints.io/react  https://github.com/sw-yx/react-typescript-cheatsheet  https://github.com/piotrwitek/react-redux-typescript-guide",
+            "title": "Cheatsheet"
+        },
+        {
+            "location": "/react/learning/#patterns",
+            "text": "https://legacy.gitbook.com/book/krasimir/react-in-patterns/details",
+            "title": "Patterns"
+        },
+        {
+            "location": "/react/learning/#sp2016",
+            "text": "sharepoint-application-pages-with-react-office-fabric-ui-interface",
+            "title": "SP2016"
+        },
+        {
+            "location": "/react/learning/#boilerplates",
+            "text": "https://github.com/artofcodelabs/front-end-boilerplate",
+            "title": "Boilerplates"
+        },
+        {
+            "location": "/react/learning/#lessons",
+            "text": "https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981",
+            "title": "Lessons"
+        },
+        {
+            "location": "/js/guide/",
+            "text": "Guide\n\u00b6\n\n\nRef\n\u00b6\n\n\n\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript\n\n\n\n\nStyleguide\n\u00b6\n\n\n\n\nhttps://google.github.io/styleguide/jsguide.html\n\n\nhttps://github.com/airbnb/javascript\n\n\nhttp://2ality.com/2011/10/javascript-overview.html\n\n\n\n\nBooks\n\u00b6\n\n\n\n\nhttps://frontendmasters.com/books/front-end-handbook/2018/",
+            "title": "Guide"
+        },
+        {
+            "location": "/js/guide/#guide",
             "text": "",
-            "title": "Angular"
+            "title": "Guide"
         },
         {
-            "location": "/Angular/elements/#elements",
-            "text": "a-practical-guide-to-angular-elements",
-            "title": "Elements"
+            "location": "/js/guide/#ref",
+            "text": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "title": "Ref"
         },
         {
-            "location": "/Angular/elements/#angularjs",
-            "text": "html-templates-in-spfx  building-sharepoint-framework-client-side-web-parts-angular",
-            "title": "AngularJS"
+            "location": "/js/guide/#styleguide",
+            "text": "https://google.github.io/styleguide/jsguide.html  https://github.com/airbnb/javascript  http://2ality.com/2011/10/javascript-overview.html",
+            "title": "Styleguide"
+        },
+        {
+            "location": "/js/guide/#books",
+            "text": "https://frontendmasters.com/books/front-end-handbook/2018/",
+            "title": "Books"
+        },
+        {
+            "location": "/js/pwa/",
+            "text": "PWA\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nhttps://scotch.io/tutorials/the-ultimate-guide-to-progressive-web-applications",
+            "title": "PWA"
+        },
+        {
+            "location": "/js/pwa/#pwa",
+            "text": "",
+            "title": "PWA"
+        },
+        {
+            "location": "/js/pwa/#overview",
+            "text": "https://scotch.io/tutorials/the-ultimate-guide-to-progressive-web-applications",
+            "title": "Overview"
         },
         {
             "location": "/training/must-read/",
@@ -1077,7 +1142,7 @@
         },
         {
             "location": "/tools/dev/",
-            "text": "Dev Tools\n\u00b6\n\n\nTranslation\n\u00b6\n\n\n\n\nhttps://www.deepl.com/translator\n\n\n\n\nDokumentation Site Generator\n\u00b6\n\n\n\n\nmkdocs-material\n\n\ndocusaurus\n\n\ndochameleon\n\n\n\n\nGuid\n\u00b6\n\n\n\n\nhttps://www.guidgen.com/\n\n\n\n\nJson\n\u00b6\n\n\n\n\nOnline Json viewer\n\n\nFake Json Generator\n\n\n\n\nREST\n\u00b6\n\n\n\n\npostman-and-office-365\n\n\nhttps://s-kainet.github.io/sp-rest-explorer\n\n\n\n\nChange Log\n\u00b6\n\n\n\n\nkeepachangelog\n\n\n\n\nEmail\n\u00b6\n\n\n\n\nhttps://foundation.zurb.com/emails.html\n\n\nhttps://mailchimp.com/\n\n\n\n\nRessourcen Files\n\u00b6\n\n\n\n\nhttps://poeditor.com/\n\n\nhttps://github.com/ypcode/spfx-dev-tools\n (Ressourcen Files mit Excel editieren)\n\n\nhttps://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources/\n\n\n\n\nULS\n\u00b6\n\n\n\n\nhttps://sharepointring.com/\n\n\n\n\nVS.Code Extensions\n\u00b6\n\n\n\n\nhttps://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint",
+            "text": "Dev Tools\n\u00b6\n\n\nTranslation\n\u00b6\n\n\n\n\nhttps://www.deepl.com/translator\n\n\n\n\nDokumentation Site Generator\n\u00b6\n\n\n\n\nmkdocs-material\n\n\ndocusaurus\n\n\ndochameleon\n\n\n\n\nGuid\n\u00b6\n\n\n\n\nhttps://www.guidgen.com/\n\n\n\n\nJson\n\u00b6\n\n\n\n\nOnline Json viewer\n\n\nFake Json Generator\n\n\n\n\nREST\n\u00b6\n\n\n\n\npostman-and-office-365\n\n\nhttps://s-kainet.github.io/sp-rest-explorer\n\n\n\n\nChange Log\n\u00b6\n\n\n\n\nkeepachangelog\n\n\n\n\nEmail\n\u00b6\n\n\n\n\nhttps://foundation.zurb.com/emails.html\n\n\nhttps://mailchimp.com/\n\n\n\n\nRessourcen Files\n\u00b6\n\n\n\n\nhttps://poeditor.com/\n\n\nhttps://github.com/ypcode/spfx-dev-tools\n (Ressourcen Files mit Excel editieren)\n\n\nhttps://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources/\n\n\n\n\nULS\n\u00b6\n\n\n\n\nhttps://sharepointring.com/\n\n\n\n\nVS.Code Extensions\n\u00b6\n\n\n\n\nhttps://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint\n\n\n\n\nYo\n\u00b6\n\n\n\n\nhttps://github.com/koltyakov/generator-sppp",
             "title": "Dev"
         },
         {
@@ -1134,6 +1199,11 @@
             "location": "/tools/dev/#vscode-extensions",
             "text": "https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint",
             "title": "VS.Code Extensions"
+        },
+        {
+            "location": "/tools/dev/#yo",
+            "text": "https://github.com/koltyakov/generator-sppp",
+            "title": "Yo"
         },
         {
             "location": "/tools/powerapps/",
@@ -1224,51 +1294,6 @@
             "location": "/tools/markdown/#tools",
             "text": "https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint  http://fuckyeahmarkdown.com  http://pandoc.org/try",
             "title": "Tools"
-        },
-        {
-            "location": "/react/learning/",
-            "text": "Learning\n\u00b6\n\n\n\n\nhttps://www.udemy.com/react-the-complete-guide-incl-redux/?start=0\n\n\nhttps://www.udemy.com/react-redux/\n\n\nhttps://udilia.com/courses/learn-react-by-building-a-web-app\n\n\nhttps://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/\n\n\n\n\nRoadmap\n\u00b6\n\n\n\n\nhttps://github.com/adam-golab/react-developer-roadmap\n\n\n\n\nReference\n\u00b6\n\n\n\n\nhttps://github.com/brillout/awesome-react-components#ui-frameworks\n\n\nhttps://survivejs.com/react/\n\n\nhttps://github.com/markerikson/react-redux-links\n\n\n\n\nCheatsheet\n\u00b6\n\n\n\n\nhttps://devhints.io/react\n\n\nhttps://github.com/sw-yx/react-typescript-cheatsheet\n\n\nhttps://github.com/piotrwitek/react-redux-typescript-guide\n\n\n\n\nPatterns\n\u00b6\n\n\n\n\nhttps://legacy.gitbook.com/book/krasimir/react-in-patterns/details\n\n\n\n\nSP2016\n\u00b6\n\n\n\n\nsharepoint-application-pages-with-react-office-fabric-ui-interface\n\n\n\n\nBoilerplates\n\u00b6\n\n\n\n\nhttps://github.com/artofcodelabs/front-end-boilerplate\n\n\n\n\nLessons\n\u00b6\n\n\n\n\nhttps://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981",
-            "title": "Learning"
-        },
-        {
-            "location": "/react/learning/#learning",
-            "text": "https://www.udemy.com/react-the-complete-guide-incl-redux/?start=0  https://www.udemy.com/react-redux/  https://udilia.com/courses/learn-react-by-building-a-web-app  https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/",
-            "title": "Learning"
-        },
-        {
-            "location": "/react/learning/#roadmap",
-            "text": "https://github.com/adam-golab/react-developer-roadmap",
-            "title": "Roadmap"
-        },
-        {
-            "location": "/react/learning/#reference",
-            "text": "https://github.com/brillout/awesome-react-components#ui-frameworks  https://survivejs.com/react/  https://github.com/markerikson/react-redux-links",
-            "title": "Reference"
-        },
-        {
-            "location": "/react/learning/#cheatsheet",
-            "text": "https://devhints.io/react  https://github.com/sw-yx/react-typescript-cheatsheet  https://github.com/piotrwitek/react-redux-typescript-guide",
-            "title": "Cheatsheet"
-        },
-        {
-            "location": "/react/learning/#patterns",
-            "text": "https://legacy.gitbook.com/book/krasimir/react-in-patterns/details",
-            "title": "Patterns"
-        },
-        {
-            "location": "/react/learning/#sp2016",
-            "text": "sharepoint-application-pages-with-react-office-fabric-ui-interface",
-            "title": "SP2016"
-        },
-        {
-            "location": "/react/learning/#boilerplates",
-            "text": "https://github.com/artofcodelabs/front-end-boilerplate",
-            "title": "Boilerplates"
-        },
-        {
-            "location": "/react/learning/#lessons",
-            "text": "https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981",
-            "title": "Lessons"
         },
         {
             "location": "/security/learning/",

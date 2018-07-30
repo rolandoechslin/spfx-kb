@@ -40,7 +40,7 @@
     
     
       
-        <title>SPO-PS - SPFx-KB</title>
+        <title>Guide - SPFx-KB</title>
       
     
     
@@ -97,7 +97,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#spo-powershell" tabindex="1" class="md-skip">
+      <a href="#guide" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -123,7 +123,7 @@
                 SPFx-KB
               </span>
               <span class="md-header-nav__topic">
-                SPO-PS
+                Guide
               </span>
             
           
@@ -242,7 +242,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../js/guide/" title="JS" class="md-tabs__link">
+        <a href="./" title="JS" class="md-tabs__link md-tabs__link--active">
           JS
         </a>
       
@@ -281,7 +281,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../links/" title="Powershell" class="md-tabs__link md-tabs__link--active">
+        <a href="../../powershell/links/" title="Powershell" class="md-tabs__link">
           Powershell
         </a>
       
@@ -845,10 +845,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
       JS
@@ -864,11 +866,63 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../js/guide/" title="Guide" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Guide
+      </label>
+    
+    <a href="./" title="Guide" class="md-nav__link md-nav__link--active">
       Guide
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ref" title="Ref" class="md-nav__link">
+    Ref
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#styleguide" title="Styleguide" class="md-nav__link">
+    Styleguide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#books" title="Books" class="md-nav__link">
+    Books
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -878,8 +932,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../js/pwa/" title="PWA" class="md-nav__link">
-      PWA
+    <a href="../pwa/" title="Pwa" class="md-nav__link">
+      Pwa
     </a>
   </li>
 
@@ -1001,12 +1055,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
     
     <label class="md-nav__link" for="nav-7">
       Powershell
@@ -1024,7 +1076,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../links/" title="Links" class="md-nav__link">
+    <a href="../../powershell/links/" title="Links" class="md-nav__link">
       Links
     </a>
   </li>
@@ -1036,7 +1088,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../pnp-ps/" title="PnP-PS" class="md-nav__link">
+    <a href="../../powershell/pnp-ps/" title="PnP-PS" class="md-nav__link">
       PnP-PS
     </a>
   </li>
@@ -1046,91 +1098,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        SPO-PS
-      </label>
-    
-    <a href="./" title="SPO-PS" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../powershell/spo-ps/" title="SPO-PS" class="md-nav__link">
       SPO-PS
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#check-version" title="Check Version" class="md-nav__link">
-    Check Version
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#credential-manager" title="Credential Manager" class="md-nav__link">
-    Credential Manager
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connect" title="Connect" class="md-nav__link">
-    Connect
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#disconnect" title="Disconnect" class="md-nav__link">
-    Disconnect
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#uls-correlation-id" title="ULS-Correlation ID" class="md-nav__link">
-    ULS-Correlation ID
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security" title="Security" class="md-nav__link">
-    Security
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ressources" title="Ressources" class="md-nav__link">
-    Ressources
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -1352,50 +1324,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#check-version" title="Check Version" class="md-nav__link">
-    Check Version
+  <a href="#ref" title="Ref" class="md-nav__link">
+    Ref
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#credential-manager" title="Credential Manager" class="md-nav__link">
-    Credential Manager
+  <a href="#styleguide" title="Styleguide" class="md-nav__link">
+    Styleguide
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#connect" title="Connect" class="md-nav__link">
-    Connect
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#disconnect" title="Disconnect" class="md-nav__link">
-    Disconnect
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#uls-correlation-id" title="ULS-Correlation ID" class="md-nav__link">
-    ULS-Correlation ID
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security" title="Security" class="md-nav__link">
-    Security
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ressources" title="Ressources" class="md-nav__link">
-    Ressources
+  <a href="#books" title="Books" class="md-nav__link">
+    Books
   </a>
   
 </li>
@@ -1416,44 +1360,23 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/rolandoechslin/spfx-kb/blob/master/docs/powershell/spo-ps.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/rolandoechslin/spfx-kb/blob/master/docs/js/guide.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="spo-powershell">SPO Powershell<a class="headerlink" href="#spo-powershell" title="Permanent link">&para;</a></h1>
-<p><a href="https://technet.microsoft.com/en-us/library/fp161364(v=office.15)#SharePoint">SPO Index</a></p>
-<h2 id="check-version">Check Version<a class="headerlink" href="#check-version" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="nb">Get-Module</span> <span class="n">Microsoft</span><span class="p">.</span><span class="n">Online</span><span class="p">.</span><span class="n">SharePoint</span><span class="p">.</span><span class="n">PowerShell</span><span class="p">*</span> <span class="n">-ListAvailable</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span><span class="p">,</span><span class="n">Version</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">Version</span> <span class="n">-Descending</span>
-</pre></div>
-
-<h2 id="credential-manager">Credential Manager<a class="headerlink" href="#credential-manager" title="Permanent link">&para;</a></h2>
+                <h1 id="guide">Guide<a class="headerlink" href="#guide" title="Permanent link">&para;</a></h1>
+<h2 id="ref">Ref<a class="headerlink" href="#ref" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/SharePoint/PnP-PowerShell/wiki/How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell">How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">https://developer.mozilla.org/en-US/docs/Web/JavaScript</a></li>
 </ul>
-<h2 id="connect">Connect<a class="headerlink" href="#connect" title="Permanent link">&para;</a></h2>
+<h2 id="styleguide">Styleguide<a class="headerlink" href="#styleguide" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://absolute-sharepoint.com/2018/03/connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication.html">connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication</a></li>
-<li><a href="https://gallery.technet.microsoft.com/Connect-to-Office-53f6eb07">Connect to Office 365/Exchange Services Functions</a></li>
+<li><a href="https://google.github.io/styleguide/jsguide.html">https://google.github.io/styleguide/jsguide.html</a></li>
+<li><a href="https://github.com/airbnb/javascript">https://github.com/airbnb/javascript</a></li>
+<li><a href="http://2ality.com/2011/10/javascript-overview.html">http://2ality.com/2011/10/javascript-overview.html</a></li>
 </ul>
-<div class="codehilite"><pre><span></span><span class="nb">Connect-SPOService</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">devro-admin</span><span class="p">.</span><span class="n">sharepoint</span><span class="p">.</span><span class="n">com</span> <span class="n">-Credential</span> <span class="n">admin</span><span class="nv">@devro</span><span class="p">.</span><span class="n">onmicrosoft</span><span class="p">.</span><span class="n">com</span>
-</pre></div>
-
-<h2 id="disconnect">Disconnect<a class="headerlink" href="#disconnect" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="nb">Disconnect-SPOService</span>
-</pre></div>
-
-<h2 id="uls-correlation-id">ULS-Correlation ID<a class="headerlink" href="#uls-correlation-id" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="nb">get-splogevent</span> <span class="n">-starttime</span> <span class="p">(</span><span class="nb">get-date</span><span class="p">).</span><span class="n">addminutes</span><span class="p">(-</span><span class="n">20</span><span class="p">)</span> <span class="p">|</span> <span class="nb">where-object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">correlation</span> <span class="o">-eq</span> <span class="s2">&quot;e434f79b-68bb-40d2-0000-03a47eae1bf9&quot;</span> <span class="p">}</span>    <span class="p">|</span> <span class="n">fl</span> <span class="n">message</span> <span class="p">&gt;</span> <span class="n">c</span><span class="err">:</span><span class="p">\</span><span class="n">errors1</span><span class="p">.</span><span class="n">txt</span>
-</pre></div>
-
-<h2 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h2>
+<h2 id="books">Books<a class="headerlink" href="#books" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="http://www.wictorwilen.se/sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful">sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful</a>
-<code>Powershell
-get-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}</code></li>
-</ul>
-<h2 id="ressources">Ressources<a class="headerlink" href="#ressources" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://absolute-sharepoint.com/2018/03/resources-to-learn-powershell-for-office-365.html">resources-to-learn-powershell-for-office-365</a></li>
+<li><a href="https://frontendmasters.com/books/front-end-handbook/2018/">https://frontendmasters.com/books/front-end-handbook/2018/</a></li>
 </ul>
                 
                   
@@ -1473,7 +1396,7 @@ get-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}</code></li>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../pnp-ps/" title="PnP-PS" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../react/learning/" title="Learning" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1482,19 +1405,19 @@ get-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}</code></li>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                PnP-PS
+                Learning
               </span>
             </div>
           </a>
         
         
-          <a href="../../tools/dev/" title="Dev" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../pwa/" title="Pwa" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Dev
+                Pwa
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
