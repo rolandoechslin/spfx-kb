@@ -15,3 +15,4 @@
 - http://free.zoner.com/
 - https://appiconizer.com/
 - http://gifmaker.me/
+- https://www.base64-image.de/

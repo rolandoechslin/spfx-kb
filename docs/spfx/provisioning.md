@@ -13,3 +13,7 @@
 ## Convert PnP Files
 - https://github.com/Puzzlepart/prosjektportalen-program/tree/dev/.scripts
 - https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps
+
+## Flow / Azure Function
+
+- <https://github.com/giuleon/O365ModernProvisioning>
