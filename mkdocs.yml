@@ -26,6 +26,7 @@ pages:
         - JS: spfx/js.md
         - Listitem: spfx/listitem.md
         - Network: spfx/network.md
+        - Patterns: spfx/patterns.md
         - Provisioning: spfx/provisioning.md
         - Migration: spfx/migration.md
         - Site-Scripts: spfx/sitescripts.md
