@@ -396,6 +396,21 @@
             "title": "SSL"
         },
         {
+            "location": "/spfx/patterns/",
+            "text": "Patterns\n\u00b6\n\n\nDependency Injection\n\u00b6\n\n\n\n\nhttps://ypcode.wordpress.com/2018/07/30/elegant-di-in-spfx/\n\n\nhttps://github.com/ypcode/spfx-lab",
+            "title": "Patterns"
+        },
+        {
+            "location": "/spfx/patterns/#patterns",
+            "text": "",
+            "title": "Patterns"
+        },
+        {
+            "location": "/spfx/patterns/#dependency-injection",
+            "text": "https://ypcode.wordpress.com/2018/07/30/elegant-di-in-spfx/  https://github.com/ypcode/spfx-lab",
+            "title": "Dependency Injection"
+        },
+        {
             "location": "/spfx/provisioning/",
             "text": "Provisioning\n\u00b6\n\n\nLinks\n\u00b6\n\n\n\n\nhttps://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html\n\n\nhttps://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.SelfHostedWithAzureWebJob\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps\n\n\nhttps://www.techmikael.com/2017/04/creating-pnp-provisioning-file.html\n\n\nhttps://de.slideshare.net/sharePTkarm/how-to-automate-the-sharepoint-provisioning\n\n\nhttps://de.slideshare.net/DIWUG/spsnl17-be-more-effective-with-the-pnp-provisioning-engine-erwin-van-hunen\n\n\n\n\nConvert PnP Files\n\u00b6\n\n\n\n\nhttps://github.com/Puzzlepart/prosjektportalen-program/tree/dev/.scripts\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps",
             "title": "Provisioning"

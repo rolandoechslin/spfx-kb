@@ -132,6 +132,12 @@
     </url>
         
     <url>
+     <loc>/spfx/patterns/</loc>
+     <lastmod>2018-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/spfx/provisioning/</loc>
      <lastmod>2018-07-30</lastmod>
      <changefreq>daily</changefreq>
