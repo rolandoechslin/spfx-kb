@@ -39,8 +39,11 @@ pages:
         - Theme: spfx/theme.md
         - UX: spfx/ux.md
         - Webparts: spfx/webparts.md
-    - Angular:
-        - Angular/elements.md
+    - React:
+        - Learning: react/learning.md
+    - JS:
+        - js/guide.md
+        - js/pwa.md
     - Training:
         - Must read: training/must-read.md
         - Course: training/course.md
@@ -59,8 +62,6 @@ pages:
         - Gatspy: tools/gatspy.md
         - Git: tools/git.md
         - Markdown: tools/markdown.md
-    - React:
-        - Learning: react/learning.md
     - Security:
         - Learning: security/learning.md
     - About:

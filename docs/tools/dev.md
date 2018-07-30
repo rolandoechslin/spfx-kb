@@ -46,3 +46,7 @@
 ## VS.Code Extensions
 
 - <https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint>
+
+## Yo
+
+- <https://github.com/koltyakov/generator-sppp>
