@@ -2,9 +2,9 @@
 
 ## Properties
 
-- http://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-web-part-properties-pages-groups-controls.html
-- http://www.sharepointnutsandbolts.com/2017/02/sharepoint-framework-web-part-properties-button-toggle-slider.html
-- http://julieturner.net/2017/07/creating-a-property-pane-for-editing-items-in-your-spfx-web-parts/
+- <http://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-web-part-properties-pages-groups-controls.html>
+- <http://www.sharepointnutsandbolts.com/2017/02/sharepoint-framework-web-part-properties-button-toggle-slider.html>
+- <http://julieturner.net/2017/07/creating-a-property-pane-for-editing-items-in-your-spfx-web-parts/>
 
 ## Samples
 
@@ -25,6 +25,7 @@
 - <https://github.com/aflyen/spfx-webpart-sitesifollow>
 - <https://github.com/aflyen/spfx-extension-fullpagecanvas>
 - <https://rasper87.wordpress.com/2018/07/27/office-ui-fabric-persona-with-skype-for-business-status-integration>
+- <http://www.sharepointtweaks.com/2018/07/spfx-facebook-feed-webpart-with-custom-UI.html>
 
 ## Overview Modern WebParts
 
@@ -38,16 +39,16 @@
 
 ## Modern Pages
 
-- http://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html
+- <http://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html>
 
 ## CSS Tips
 
-- http://www.n8d.at/blog/alternative-to-innerhtml-in-sharepoint-framework-web-parts/ (innerHTML)
+- <http://www.n8d.at/blog/alternative-to-innerhtml-in-sharepoint-framework-web-parts/> (innerHTML)
 
 ## Rest Call
 
-- http://www.sharepointnutsandbolts.com/2016/08/async-rest-calls-promises-httpclient-jquery.html (REST call with Promises)
+- <http://www.sharepointnutsandbolts.com/2016/08/async-rest-calls-promises-httpclient-jquery.html> (REST call with Promises)
 
 ## Products
 
-- http://bindtuning.com/webparts
+- <http://bindtuning.com/webparts>

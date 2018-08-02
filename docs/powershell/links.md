@@ -19,6 +19,8 @@
 - <https://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site>
 - <https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/>
 
+- <https://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/>
+
 ## SharePoint 2016
 
 - <https://github.com/harbars/PnP-Tools/tree/master/Scripts>

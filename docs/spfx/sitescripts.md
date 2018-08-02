@@ -3,6 +3,10 @@
 - <https://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254>
 - <https://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/>
 
+## PnP provisioning engine
+- <https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-pnp-provisioning>
+
+
 ## Tools
 
 - <https://ypcode.wordpress.com/2018/03/26/site-designs-studio-1-0/>
