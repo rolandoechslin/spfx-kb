@@ -7,3 +7,7 @@
 - http://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html (React slider field customizer)
 - https://github.com/dannyjessee/SPFxHeaderFooter
 - https://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions
+
+## ListView
+
+- <https://www.eliostruyf.com/showing-or-hiding-sharepoint-framework-listview-custom-actions-based-on-permissions-and-selected-items>

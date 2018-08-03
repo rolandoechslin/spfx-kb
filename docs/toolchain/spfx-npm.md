@@ -41,3 +41,26 @@ gulp clean
 ```
 gulp build
 ```
+
+## Test
+
+```PS
+gulp serve --nobrowser
+```
+
+## Tips
+
+- <https://pdemro.com/improve-sharepoint-framework-build-times-by-hacking-gulp-and-webpack>
+- <https://github.com/pdemro/spfx-gulpfile-hack>
+
+
+
+## Depoyment
+
+```PS
+npm i
+gulp clean
+gulp build
+gulp --ship
+gulp package-solution --ship
+```
