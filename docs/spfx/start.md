@@ -7,4 +7,5 @@
 
 ## Checklist
 
-- https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/
+- <https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/>
+- <https://rencore.com/sharepoint-customizations-guide/>

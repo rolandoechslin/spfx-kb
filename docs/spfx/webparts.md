@@ -26,6 +26,7 @@
 - <https://github.com/aflyen/spfx-extension-fullpagecanvas>
 - <https://rasper87.wordpress.com/2018/07/27/office-ui-fabric-persona-with-skype-for-business-status-integration>
 - <http://www.sharepointtweaks.com/2018/07/spfx-facebook-feed-webpart-with-custom-UI.html>
+- <https://github.com/waldekmastykarz/spfx-react-fabric-trendinginthissite>
 
 ## Overview Modern WebParts
 
