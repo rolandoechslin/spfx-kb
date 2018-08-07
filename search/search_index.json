@@ -12,7 +12,7 @@
         },
         {
             "location": "/spfx/start/",
-            "text": "Dev Start\n\u00b6\n\n\nDevelopment starting\n\u00b6\n\n\n\n\nSet up your Office 365 tenant\n\n\nSet up your SharePoint Framework development environment\n\n\n\n\nChecklist\n\u00b6\n\n\n\n\nhttps://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/",
+            "text": "Dev Start\n\u00b6\n\n\nDevelopment starting\n\u00b6\n\n\n\n\nSet up your Office 365 tenant\n\n\nSet up your SharePoint Framework development environment\n\n\n\n\nChecklist\n\u00b6\n\n\n\n\nhttps://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/\n\n\nhttps://rencore.com/sharepoint-customizations-guide/",
             "title": "Start"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "location": "/spfx/start/#checklist",
-            "text": "https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/",
+            "text": "https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/  https://rencore.com/sharepoint-customizations-guide/",
             "title": "Checklist"
         },
         {
@@ -87,13 +87,18 @@
         },
         {
             "location": "/spfx/branding/",
-            "text": "Branding\n\u00b6\n\n\nCSS\n\u00b6\n\n\n\n\nhttps://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations\n\n\nhttps://github.com/eoverfield/Ignite2016-TeamSiteBranding\n\n\nhttp://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-bootstrap-session-recap/\n\n\nhttp://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-css-session-recap\n\n\nhttps://github.com/speinc/SPTechCon2016-SanFrancisco/tree/master/Thursday%20-%20CSS%20Session\n\n\nhttp://www.brandmysharepoint.de/einfuegen-von-bildern-im-rte-steuern/#.WLaMB_k1_Zs\n\n\nhttps://n8d.at/blog/how-to-use-bootstrap-in-sharepoint-framework-projects/?utm_content=buffer162f5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer\n\n\n\n\nTheme\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-themes\n\n\nhttps://doc.co/G4xSqf\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/04/using-sharepoint-themes-colors-in-spfx.html\n\n\nhttp://sass-lang.com/guideaspx\n\n\nhttp://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2017/10/17/how-to-use-powershell-to-customize-the-theme-of-a-sharepoint-modern-site.aspx\n\n\nhttps://n8d.at/blog/how-to-make-your-web-parts-responsive-to-the-parent-container/\n\n\nhttp://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites/\n\n\ntwo approaches to applying modern theme",
+            "text": "Branding\n\u00b6\n\n\nDocs\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/design/design-guidance-overview\n\n\n\n\nCSS\n\u00b6\n\n\n\n\nhttps://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations\n\n\nhttps://github.com/eoverfield/Ignite2016-TeamSiteBranding\n\n\nhttp://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-bootstrap-session-recap/\n\n\nhttp://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-css-session-recap\n\n\nhttps://github.com/speinc/SPTechCon2016-SanFrancisco/tree/master/Thursday%20-%20CSS%20Session\n\n\nhttp://www.brandmysharepoint.de/einfuegen-von-bildern-im-rte-steuern/#.WLaMB_k1_Zs\n\n\nhttps://n8d.at/blog/how-to-use-bootstrap-in-sharepoint-framework-projects/?utm_content=buffer162f5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer\n\n\n\n\nTheme\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-themes\n\n\nhttps://doc.co/G4xSqf\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/04/using-sharepoint-themes-colors-in-spfx.html\n\n\nhttp://sass-lang.com/guideaspx\n\n\nhttp://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2017/10/17/how-to-use-powershell-to-customize-the-theme-of-a-sharepoint-modern-site.aspx\n\n\nhttps://n8d.at/blog/how-to-make-your-web-parts-responsive-to-the-parent-container/\n\n\nhttp://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites/\n\n\ntwo approaches to applying modern theme\n\n\n\n\nTesting\n\u00b6\n\n\n\n\nhttps://n8d.at/blog/how-to-test-spfx-web-part-theming/",
             "title": "Branding"
         },
         {
             "location": "/spfx/branding/#branding",
             "text": "",
             "title": "Branding"
+        },
+        {
+            "location": "/spfx/branding/#docs",
+            "text": "https://docs.microsoft.com/en-us/sharepoint/dev/design/design-guidance-overview",
+            "title": "Docs"
         },
         {
             "location": "/spfx/branding/#css",
@@ -104,6 +109,11 @@
             "location": "/spfx/branding/#theme",
             "text": "https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-themes  https://doc.co/G4xSqf  http://tricky-sharepoint.blogspot.ch/2017/04/using-sharepoint-themes-colors-in-spfx.html  http://sass-lang.com/guideaspx  http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2017/10/17/how-to-use-powershell-to-customize-the-theme-of-a-sharepoint-modern-site.aspx  https://n8d.at/blog/how-to-make-your-web-parts-responsive-to-the-parent-container/  http://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites/  two approaches to applying modern theme",
             "title": "Theme"
+        },
+        {
+            "location": "/spfx/branding/#testing",
+            "text": "https://n8d.at/blog/how-to-test-spfx-web-part-theming/",
+            "title": "Testing"
         },
         {
             "location": "/spfx/column-formating/",
@@ -192,7 +202,7 @@
         },
         {
             "location": "/spfx/extensions/",
-            "text": "Extensions\n\u00b6\n\n\nFull Page\n\u00b6\n\n\n\n\nhttps://github.com/aflyen/spfx-extension-fullpagecanvas\n\n\nhttps://github.com/StfBauer/spfx-appcust-removeFeeback\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html\n (React slider field customizer)\n\n\nhttps://github.com/dannyjessee/SPFxHeaderFooter\n\n\nhttps://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions",
+            "text": "Extensions\n\u00b6\n\n\nFull Page\n\u00b6\n\n\n\n\nhttps://github.com/aflyen/spfx-extension-fullpagecanvas\n\n\nhttps://github.com/StfBauer/spfx-appcust-removeFeeback\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html\n (React slider field customizer)\n\n\nhttps://github.com/dannyjessee/SPFxHeaderFooter\n\n\nhttps://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions\n\n\n\n\nListView\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/showing-or-hiding-sharepoint-framework-listview-custom-actions-based-on-permissions-and-selected-items",
             "title": "Extensions"
         },
         {
@@ -204,6 +214,11 @@
             "location": "/spfx/extensions/#full-page",
             "text": "https://github.com/aflyen/spfx-extension-fullpagecanvas  https://github.com/StfBauer/spfx-appcust-removeFeeback  http://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html  (React slider field customizer)  https://github.com/dannyjessee/SPFxHeaderFooter  https://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions",
             "title": "Full Page"
+        },
+        {
+            "location": "/spfx/extensions/#listview",
+            "text": "https://www.eliostruyf.com/showing-or-hiding-sharepoint-framework-listview-custom-actions-based-on-permissions-and-selected-items",
+            "title": "ListView"
         },
         {
             "location": "/spfx/events/",
@@ -227,7 +242,7 @@
         },
         {
             "location": "/spfx/flow/",
-            "text": "Flow\n\u00b6\n\n\nLimits\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/flow/limits-and-config\n\n\nhttps://veenstra.me.uk/2018/07/17/microsoft-flow-connector-limits/\n\n\nhttps://veenstra.me.uk/2018/03/19/microsoft-flow-the-hidden-gems-are-you-aware-of-all-of-these/\n\n\n\n\nMonthly emails\n\u00b6\n\n\n\n\nDemo - Using Microsoft Flow to send monthly emails",
+            "text": "Flow\n\u00b6\n\n\nConnectors\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors\n\n\n\n\nLimits\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/flow/limits-and-config\n\n\nhttps://veenstra.me.uk/2018/07/17/microsoft-flow-connector-limits\n\n\nhttps://veenstra.me.uk/2018/03/19/microsoft-flow-the-hidden-gems-are-you-aware-of-all-of-these\n\n\n\n\nMonthly emails\n\u00b6\n\n\n\n\nDemo - Using Microsoft Flow to send monthly emails",
             "title": "Flow"
         },
         {
@@ -236,8 +251,13 @@
             "title": "Flow"
         },
         {
+            "location": "/spfx/flow/#connectors",
+            "text": "https://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors",
+            "title": "Connectors"
+        },
+        {
             "location": "/spfx/flow/#limits",
-            "text": "https://docs.microsoft.com/en-us/flow/limits-and-config  https://veenstra.me.uk/2018/07/17/microsoft-flow-connector-limits/  https://veenstra.me.uk/2018/03/19/microsoft-flow-the-hidden-gems-are-you-aware-of-all-of-these/",
+            "text": "https://docs.microsoft.com/en-us/flow/limits-and-config  https://veenstra.me.uk/2018/07/17/microsoft-flow-connector-limits  https://veenstra.me.uk/2018/03/19/microsoft-flow-the-hidden-gems-are-you-aware-of-all-of-these",
             "title": "Limits"
         },
         {
@@ -327,13 +347,18 @@
         },
         {
             "location": "/spfx/js/",
-            "text": "JS\n\u00b6\n\n\nCommon Cheatsheets\n\u00b6\n\n\n\n\nmodern-frontend-hacking-cheatsheets\n\n\nhttps://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a\n)\n\n\n\n\nES6\n\u00b6\n\n\n\n\nES6-cheatsheets",
+            "text": "JS\n\u00b6\n\n\nFrameworks\n\u00b6\n\n\n\n\nhttps://stateofjs.com\n\n\n\n\nCommon Cheatsheets\n\u00b6\n\n\n\n\nmodern-frontend-hacking-cheatsheets\n\n\nhttps://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a\n)\n\n\n\n\nES6\n\u00b6\n\n\n\n\nES6-cheatsheets",
             "title": "JS"
         },
         {
             "location": "/spfx/js/#js",
             "text": "",
             "title": "JS"
+        },
+        {
+            "location": "/spfx/js/#frameworks",
+            "text": "https://stateofjs.com",
+            "title": "Frameworks"
         },
         {
             "location": "/spfx/js/#common-cheatsheets",
@@ -397,7 +422,7 @@
         },
         {
             "location": "/spfx/patterns/",
-            "text": "Patterns\n\u00b6\n\n\nDependency Injection\n\u00b6\n\n\n\n\nhttps://ypcode.wordpress.com/2018/07/30/elegant-di-in-spfx/\n\n\nhttps://github.com/ypcode/spfx-lab",
+            "text": "Patterns\n\u00b6\n\n\nDependency Injection\n\u00b6\n\n\n\n\nhttps://ypcode.wordpress.com/2018/07/30/elegant-di-in-spfx/\n\n\nhttps://github.com/ypcode/spfx-lab\n\n\n\n\nSlides\n\u00b6\n\n\n\n\nhttps://www.slideshare.net/sharepointpnp",
             "title": "Patterns"
         },
         {
@@ -411,8 +436,13 @@
             "title": "Dependency Injection"
         },
         {
+            "location": "/spfx/patterns/#slides",
+            "text": "https://www.slideshare.net/sharepointpnp",
+            "title": "Slides"
+        },
+        {
             "location": "/spfx/provisioning/",
-            "text": "Provisioning\n\u00b6\n\n\nLinks\n\u00b6\n\n\n\n\nhttps://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html\n\n\nhttps://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.SelfHostedWithAzureWebJob\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps\n\n\nhttps://www.techmikael.com/2017/04/creating-pnp-provisioning-file.html\n\n\nhttps://de.slideshare.net/sharePTkarm/how-to-automate-the-sharepoint-provisioning\n\n\nhttps://de.slideshare.net/DIWUG/spsnl17-be-more-effective-with-the-pnp-provisioning-engine-erwin-van-hunen\n\n\n\n\nConvert PnP Files\n\u00b6\n\n\n\n\nhttps://github.com/Puzzlepart/prosjektportalen-program/tree/dev/.scripts\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps",
+            "text": "Provisioning\n\u00b6\n\n\nLinks\n\u00b6\n\n\n\n\nhttps://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html\n\n\nhttps://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.SelfHostedWithAzureWebJob\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps\n\n\nhttps://www.techmikael.com/2017/04/creating-pnp-provisioning-file.html\n\n\nhttps://de.slideshare.net/sharePTkarm/how-to-automate-the-sharepoint-provisioning\n\n\nhttps://de.slideshare.net/DIWUG/spsnl17-be-more-effective-with-the-pnp-provisioning-engine-erwin-van-hunen\n\n\n\n\nConvert PnP Files\n\u00b6\n\n\n\n\nhttps://github.com/Puzzlepart/prosjektportalen-program/tree/dev/.scripts\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps\n\n\n\n\nFlow / Azure Function\n\u00b6\n\n\n\n\nhttps://github.com/giuleon/O365ModernProvisioning",
             "title": "Provisioning"
         },
         {
@@ -431,6 +461,11 @@
             "title": "Convert PnP Files"
         },
         {
+            "location": "/spfx/provisioning/#flow-azure-function",
+            "text": "https://github.com/giuleon/O365ModernProvisioning",
+            "title": "Flow / Azure Function"
+        },
+        {
             "location": "/spfx/migration/",
             "text": "Migration\n\u00b6\n\n\nShowcase\n\u00b6\n\n\n\n\nhttps://msdn.microsoft.com/en-us/library/mt668814.aspx",
             "title": "Migration"
@@ -447,13 +482,18 @@
         },
         {
             "location": "/spfx/sitescripts/",
-            "text": "Site Scripts\n\u00b6\n\n\n\n\nhttps://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254\n\n\nhttps://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://ypcode.wordpress.com/2018/03/26/site-designs-studio-1-0/\n\n\nhttps://ypcode.wordpress.com/2018/04/15/convert-caml-list-schema-to-site-scripts/\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-site-scripts",
+            "text": "Site Scripts\n\u00b6\n\n\n\n\nhttps://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254\n\n\nhttps://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/\n\n\n\n\nPnP provisioning engine\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-pnp-provisioning\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://ypcode.wordpress.com/2018/03/26/site-designs-studio-1-0/\n\n\nhttps://ypcode.wordpress.com/2018/04/15/convert-caml-list-schema-to-site-scripts/\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-site-scripts",
             "title": "Site-Scripts"
         },
         {
             "location": "/spfx/sitescripts/#site-scripts",
             "text": "https://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254  https://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/",
             "title": "Site Scripts"
+        },
+        {
+            "location": "/spfx/sitescripts/#pnp-provisioning-engine",
+            "text": "https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-pnp-provisioning",
+            "title": "PnP provisioning engine"
         },
         {
             "location": "/spfx/sitescripts/#tools",
@@ -712,7 +752,7 @@
         },
         {
             "location": "/spfx/webparts/",
-            "text": "Webparts\n\u00b6\n\n\nProperties\n\u00b6\n\n\n\n\nhttp://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-web-part-properties-pages-groups-controls.html\n\n\nhttp://www.sharepointnutsandbolts.com/2017/02/sharepoint-framework-web-part-properties-button-toggle-slider.html\n\n\nhttp://julieturner.net/2017/07/creating-a-property-pane-for-editing-items-in-your-spfx-web-parts/\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/wobba/spfx4fun/tree/master/react-pageheaderconfigurator\n\n\nhttps://github.com/wobba/sp-dev-fx-webparts/tree/modernscripted/samples/react-script-editor\n\n\nhttp://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html\n\n\nhttps://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations-customize-pages#using-the-pnp-support-for-modern-pages-and-client-side-web-parts\n\n\nhttps://github.com/OlivierCC/spfx-40-fantastics\n\n\nhttps://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples\n\n\nhttps://gist.github.com/vman/1941ce6c61cebca1bfe3e490ce63185e#file-msgraphnospfx-js\n\n\nhttps://veenstra.me.uk/2017/07/18/office-365-spfx-samples-a-complete-overview/\n\n\nhttps://veenstra.me.uk/2017/08/01/office-365-sharepoint-spfx-web-parts-that-are-not-part-of-the-spfx-samples/\n\n\nhttps://blog.velingeorgiev.com/how-add-spfx-webpart-full-width-column\n\n\nhttps://blog.velingeorgiev.com/sharepoint-framework-slide-swiper\n\n\nhttps://techcommunity.microsoft.com/t5/SharePoint-Blog/MVP-Blog-Build-Targeted-Training-on-Office-365-Adoption-Center/ba-p/170840\n\n\nhttp://www.carlosmontilla.com/single-post/2017/12/05/Create-an-Enterprise-Search-Web-Part-for-Modern-Pages\n\n\nhttps://github.com/hugoabernier/react-calendar-feed\n\n\nhttps://github.com/aflyen/spfx-webpart-sitesifollow\n\n\nhttps://github.com/aflyen/spfx-extension-fullpagecanvas\n\n\nhttps://rasper87.wordpress.com/2018/07/27/office-ui-fabric-persona-with-skype-for-business-status-integration\n\n\n\n\nOverview Modern WebParts\n\u00b6\n\n\n\n\nhttp://aurorabits.com/modern-sharepoint-web-parts/\n\n\nhttp://aurorabits.com/modern-sharepoint-web-parts-2/\n\n\n\n\nAvailable WebParts\n\u00b6\n\n\n\n\nhttps://tracyvanderschyff.com/2018/07/23/overview-of-sharepoint-online-web-parts/\n\n\nAvailable web parts\n\n\n\n\nModern Pages\n\u00b6\n\n\n\n\nhttp://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html\n\n\n\n\nCSS Tips\n\u00b6\n\n\n\n\nhttp://www.n8d.at/blog/alternative-to-innerhtml-in-sharepoint-framework-web-parts/\n (innerHTML)\n\n\n\n\nRest Call\n\u00b6\n\n\n\n\nhttp://www.sharepointnutsandbolts.com/2016/08/async-rest-calls-promises-httpclient-jquery.html\n (REST call with Promises)\n\n\n\n\nProducts\n\u00b6\n\n\n\n\nhttp://bindtuning.com/webparts",
+            "text": "Webparts\n\u00b6\n\n\nProperties\n\u00b6\n\n\n\n\nhttp://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-web-part-properties-pages-groups-controls.html\n\n\nhttp://www.sharepointnutsandbolts.com/2017/02/sharepoint-framework-web-part-properties-button-toggle-slider.html\n\n\nhttp://julieturner.net/2017/07/creating-a-property-pane-for-editing-items-in-your-spfx-web-parts/\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/wobba/spfx4fun/tree/master/react-pageheaderconfigurator\n\n\nhttps://github.com/wobba/sp-dev-fx-webparts/tree/modernscripted/samples/react-script-editor\n\n\nhttp://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html\n\n\nhttps://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations-customize-pages#using-the-pnp-support-for-modern-pages-and-client-side-web-parts\n\n\nhttps://github.com/OlivierCC/spfx-40-fantastics\n\n\nhttps://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples\n\n\nhttps://gist.github.com/vman/1941ce6c61cebca1bfe3e490ce63185e#file-msgraphnospfx-js\n\n\nhttps://veenstra.me.uk/2017/07/18/office-365-spfx-samples-a-complete-overview/\n\n\nhttps://veenstra.me.uk/2017/08/01/office-365-sharepoint-spfx-web-parts-that-are-not-part-of-the-spfx-samples/\n\n\nhttps://blog.velingeorgiev.com/how-add-spfx-webpart-full-width-column\n\n\nhttps://blog.velingeorgiev.com/sharepoint-framework-slide-swiper\n\n\nhttps://techcommunity.microsoft.com/t5/SharePoint-Blog/MVP-Blog-Build-Targeted-Training-on-Office-365-Adoption-Center/ba-p/170840\n\n\nhttp://www.carlosmontilla.com/single-post/2017/12/05/Create-an-Enterprise-Search-Web-Part-for-Modern-Pages\n\n\nhttps://github.com/hugoabernier/react-calendar-feed\n\n\nhttps://github.com/aflyen/spfx-webpart-sitesifollow\n\n\nhttps://github.com/aflyen/spfx-extension-fullpagecanvas\n\n\nhttps://rasper87.wordpress.com/2018/07/27/office-ui-fabric-persona-with-skype-for-business-status-integration\n\n\nhttp://www.sharepointtweaks.com/2018/07/spfx-facebook-feed-webpart-with-custom-UI.html\n\n\nhttps://github.com/waldekmastykarz/spfx-react-fabric-trendinginthissite\n\n\n\n\nOverview Modern WebParts\n\u00b6\n\n\n\n\nhttp://aurorabits.com/modern-sharepoint-web-parts/\n\n\nhttp://aurorabits.com/modern-sharepoint-web-parts-2/\n\n\n\n\nAvailable WebParts\n\u00b6\n\n\n\n\nhttps://tracyvanderschyff.com/2018/07/23/overview-of-sharepoint-online-web-parts/\n\n\nAvailable web parts\n\n\n\n\nModern Pages\n\u00b6\n\n\n\n\nhttp://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html\n\n\n\n\nCSS Tips\n\u00b6\n\n\n\n\nhttp://www.n8d.at/blog/alternative-to-innerhtml-in-sharepoint-framework-web-parts/\n (innerHTML)\n\n\n\n\nRest Call\n\u00b6\n\n\n\n\nhttp://www.sharepointnutsandbolts.com/2016/08/async-rest-calls-promises-httpclient-jquery.html\n (REST call with Promises)\n\n\n\n\nProducts\n\u00b6\n\n\n\n\nhttp://bindtuning.com/webparts",
             "title": "Webparts"
         },
         {
@@ -727,7 +767,7 @@
         },
         {
             "location": "/spfx/webparts/#samples",
-            "text": "https://github.com/wobba/spfx4fun/tree/master/react-pageheaderconfigurator  https://github.com/wobba/sp-dev-fx-webparts/tree/modernscripted/samples/react-script-editor  http://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html  https://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations-customize-pages#using-the-pnp-support-for-modern-pages-and-client-side-web-parts  https://github.com/OlivierCC/spfx-40-fantastics  https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples  https://gist.github.com/vman/1941ce6c61cebca1bfe3e490ce63185e#file-msgraphnospfx-js  https://veenstra.me.uk/2017/07/18/office-365-spfx-samples-a-complete-overview/  https://veenstra.me.uk/2017/08/01/office-365-sharepoint-spfx-web-parts-that-are-not-part-of-the-spfx-samples/  https://blog.velingeorgiev.com/how-add-spfx-webpart-full-width-column  https://blog.velingeorgiev.com/sharepoint-framework-slide-swiper  https://techcommunity.microsoft.com/t5/SharePoint-Blog/MVP-Blog-Build-Targeted-Training-on-Office-365-Adoption-Center/ba-p/170840  http://www.carlosmontilla.com/single-post/2017/12/05/Create-an-Enterprise-Search-Web-Part-for-Modern-Pages  https://github.com/hugoabernier/react-calendar-feed  https://github.com/aflyen/spfx-webpart-sitesifollow  https://github.com/aflyen/spfx-extension-fullpagecanvas  https://rasper87.wordpress.com/2018/07/27/office-ui-fabric-persona-with-skype-for-business-status-integration",
+            "text": "https://github.com/wobba/spfx4fun/tree/master/react-pageheaderconfigurator  https://github.com/wobba/sp-dev-fx-webparts/tree/modernscripted/samples/react-script-editor  http://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html  https://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations-customize-pages#using-the-pnp-support-for-modern-pages-and-client-side-web-parts  https://github.com/OlivierCC/spfx-40-fantastics  https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples  https://gist.github.com/vman/1941ce6c61cebca1bfe3e490ce63185e#file-msgraphnospfx-js  https://veenstra.me.uk/2017/07/18/office-365-spfx-samples-a-complete-overview/  https://veenstra.me.uk/2017/08/01/office-365-sharepoint-spfx-web-parts-that-are-not-part-of-the-spfx-samples/  https://blog.velingeorgiev.com/how-add-spfx-webpart-full-width-column  https://blog.velingeorgiev.com/sharepoint-framework-slide-swiper  https://techcommunity.microsoft.com/t5/SharePoint-Blog/MVP-Blog-Build-Targeted-Training-on-Office-365-Adoption-Center/ba-p/170840  http://www.carlosmontilla.com/single-post/2017/12/05/Create-an-Enterprise-Search-Web-Part-for-Modern-Pages  https://github.com/hugoabernier/react-calendar-feed  https://github.com/aflyen/spfx-webpart-sitesifollow  https://github.com/aflyen/spfx-extension-fullpagecanvas  https://rasper87.wordpress.com/2018/07/27/office-ui-fabric-persona-with-skype-for-business-status-integration  http://www.sharepointtweaks.com/2018/07/spfx-facebook-feed-webpart-with-custom-UI.html  https://github.com/waldekmastykarz/spfx-react-fabric-trendinginthissite",
             "title": "Samples"
         },
         {
@@ -937,7 +977,7 @@
         },
         {
             "location": "/toolchain/spfx-npm/",
-            "text": "NPM\n\u00b6\n\n\nPNPM\n\u00b6\n\n\n\n\nhttps://www.voitanos.io/blog/npm-yarn-pnpm-which-package-manager-should-you-use-for-sharepoint-framework-projects\n\n\n\n\nPackage.json\n\u00b6\n\n\n\n\nhttps://docs.npmjs.com/files/package.json\n\n\n\n\nSecurity\n\u00b6\n\n\n\n\nhave-you-ever-thought-about-checking-your-dependency-for-vulnerabilities\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\ngetting-up-to-speed-with-node-js-and-npm\n\n\n\n\nUpdate SPFx version\n\u00b6\n\n\n\n\ngo into solution folder\n\n\nsearch f\u00fcr \"@micorosoft/sp-\"\n\n\nupdate all package (latest or version)\n\n\n\n\nnpm outdated\n\n\n\n\nnpm install package-name@latest --save\n\n\n\n\nnpm install package-name@version --save\n\n\n\n\ngulp clean\n\n\n\n\ngulp build",
+            "text": "NPM\n\u00b6\n\n\nPNPM\n\u00b6\n\n\n\n\nhttps://www.voitanos.io/blog/npm-yarn-pnpm-which-package-manager-should-you-use-for-sharepoint-framework-projects\n\n\n\n\nPackage.json\n\u00b6\n\n\n\n\nhttps://docs.npmjs.com/files/package.json\n\n\n\n\nSecurity\n\u00b6\n\n\n\n\nhave-you-ever-thought-about-checking-your-dependency-for-vulnerabilities\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\ngetting-up-to-speed-with-node-js-and-npm\n\n\n\n\nUpdate SPFx version\n\u00b6\n\n\n\n\ngo into solution folder\n\n\nsearch f\u00fcr \"@micorosoft/sp-\"\n\n\nupdate all package (latest or version)\n\n\n\n\nnpm outdated\n\n\n\n\nnpm install package-name@latest --save\n\n\n\n\nnpm install package-name@version --save\n\n\n\n\ngulp clean\n\n\n\n\ngulp build\n\n\n\n\nTest\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\nTips\n\u00b6\n\n\n\n\nhttps://pdemro.com/improve-sharepoint-framework-build-times-by-hacking-gulp-and-webpack\n\n\nhttps://github.com/pdemro/spfx-gulpfile-hack\n\n\n\n\nDepoyment\n\u00b6\n\n\nnpm i\ngulp clean\ngulp build\ngulp --ship\ngulp package-solution --ship",
             "title": "Npm"
         },
         {
@@ -969,6 +1009,21 @@
             "location": "/toolchain/spfx-npm/#update-spfx-version",
             "text": "go into solution folder  search f\u00fcr \"@micorosoft/sp-\"  update all package (latest or version)   npm outdated  npm install package-name@latest --save  npm install package-name@version --save  gulp clean  gulp build",
             "title": "Update SPFx version"
+        },
+        {
+            "location": "/toolchain/spfx-npm/#test",
+            "text": "gulp serve --nobrowser",
+            "title": "Test"
+        },
+        {
+            "location": "/toolchain/spfx-npm/#tips",
+            "text": "https://pdemro.com/improve-sharepoint-framework-build-times-by-hacking-gulp-and-webpack  https://github.com/pdemro/spfx-gulpfile-hack",
+            "title": "Tips"
+        },
+        {
+            "location": "/toolchain/spfx-npm/#depoyment",
+            "text": "npm i\ngulp clean\ngulp build\ngulp --ship\ngulp package-solution --ship",
+            "title": "Depoyment"
         },
         {
             "location": "/toolchain/toolchain/",
@@ -1022,7 +1077,7 @@
         },
         {
             "location": "/powershell/links/",
-            "text": "Links\n\u00b6\n\n\nSyntax\n\u00b6\n\n\n\n\npowershell basic cheat sheet\n\n\npowershell-ref\n\n\n\n\nRessources\n\u00b6\n\n\n\n\njanikvonrotz-awesome-powershell\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nmikefrobbins\n\n\n\n\nOffice 365 Groups\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify\n\n\nhttps://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site\n\n\nhttps://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/\n\n\n\n\nSharePoint 2016\n\u00b6\n\n\n\n\nhttps://github.com/harbars/PnP-Tools/tree/master/Scripts\n\n\nhttps://github.com/harbars/SPAT16\n\n\n\n\nModules\n\u00b6\n\n\n\n\nhttp://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/",
+            "text": "Links\n\u00b6\n\n\nSyntax\n\u00b6\n\n\n\n\npowershell basic cheat sheet\n\n\npowershell-ref\n\n\n\n\nRessources\n\u00b6\n\n\n\n\njanikvonrotz-awesome-powershell\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nmikefrobbins\n\n\n\n\nOffice 365 Groups\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify\n\n\nhttps://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site\n\n\n\n\nhttps://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/\n\n\n\n\n\n\nhttps://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/\n\n\n\n\n\n\nSharePoint 2016\n\u00b6\n\n\n\n\nhttps://github.com/harbars/PnP-Tools/tree/master/Scripts\n\n\nhttps://github.com/harbars/SPAT16\n\n\n\n\nModules\n\u00b6\n\n\n\n\nhttp://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/",
             "title": "Links"
         },
         {
@@ -1047,7 +1102,7 @@
         },
         {
             "location": "/powershell/links/#office-365-groups",
-            "text": "https://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify  https://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site  https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/",
+            "text": "https://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify  https://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site   https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/    https://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/",
             "title": "Office 365 Groups"
         },
         {
@@ -1247,7 +1302,7 @@
         },
         {
             "location": "/tools/image/",
-            "text": "Image\n\u00b6\n\n\nTools\n\u00b6\n\n\n\n\nhttp://dummyimage.com/\n\n\nhttp://makephotogallery.net/\n\n\nhttps://www.fotocollagen.de/\n\n\nhttp://wearekiss.com/spritepad\n\n\nhttp://www.colorzilla.com/gradient-editor/\n\n\nhttp://iconbench.com/\n\n\nhttp://www.drweb.de/magazin/fontello-icomoon-konkurrent-hilft-beim-zusammenstellen-eigener-iconfonts/\n\n\nhttp://www.imagemagick.org/script/index.php\n\n\nhttp://www.maschek.hu/imagemap/imgmap\n\n\nhttps://github.com/heyalexej/awesome-images\n\n\nhttp://www.screenpresso.com/de/\n\n\nhttp://free.zoner.com/\n\n\nhttps://appiconizer.com/\n\n\nhttp://gifmaker.me/",
+            "text": "Image\n\u00b6\n\n\nTools\n\u00b6\n\n\n\n\nhttp://dummyimage.com/\n\n\nhttp://makephotogallery.net/\n\n\nhttps://www.fotocollagen.de/\n\n\nhttp://wearekiss.com/spritepad\n\n\nhttp://www.colorzilla.com/gradient-editor/\n\n\nhttp://iconbench.com/\n\n\nhttp://www.drweb.de/magazin/fontello-icomoon-konkurrent-hilft-beim-zusammenstellen-eigener-iconfonts/\n\n\nhttp://www.imagemagick.org/script/index.php\n\n\nhttp://www.maschek.hu/imagemap/imgmap\n\n\nhttps://github.com/heyalexej/awesome-images\n\n\nhttp://www.screenpresso.com/de/\n\n\nhttp://free.zoner.com/\n\n\nhttps://appiconizer.com/\n\n\nhttp://gifmaker.me/\n\n\nhttps://www.base64-image.de/",
             "title": "Image"
         },
         {
@@ -1257,7 +1312,7 @@
         },
         {
             "location": "/tools/image/#tools",
-            "text": "http://dummyimage.com/  http://makephotogallery.net/  https://www.fotocollagen.de/  http://wearekiss.com/spritepad  http://www.colorzilla.com/gradient-editor/  http://iconbench.com/  http://www.drweb.de/magazin/fontello-icomoon-konkurrent-hilft-beim-zusammenstellen-eigener-iconfonts/  http://www.imagemagick.org/script/index.php  http://www.maschek.hu/imagemap/imgmap  https://github.com/heyalexej/awesome-images  http://www.screenpresso.com/de/  http://free.zoner.com/  https://appiconizer.com/  http://gifmaker.me/",
+            "text": "http://dummyimage.com/  http://makephotogallery.net/  https://www.fotocollagen.de/  http://wearekiss.com/spritepad  http://www.colorzilla.com/gradient-editor/  http://iconbench.com/  http://www.drweb.de/magazin/fontello-icomoon-konkurrent-hilft-beim-zusammenstellen-eigener-iconfonts/  http://www.imagemagick.org/script/index.php  http://www.maschek.hu/imagemap/imgmap  https://github.com/heyalexej/awesome-images  http://www.screenpresso.com/de/  http://free.zoner.com/  https://appiconizer.com/  http://gifmaker.me/  https://www.base64-image.de/",
             "title": "Tools"
         },
         {
