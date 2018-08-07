@@ -1,5 +1,9 @@
 # Branding
 
+## Docs
+
+- <https://docs.microsoft.com/en-us/sharepoint/dev/design/design-guidance-overview>
+
 ## CSS
 
 - https://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations
@@ -20,3 +24,7 @@
 - https://n8d.at/blog/how-to-make-your-web-parts-responsive-to-the-parent-container/
 - http://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites/
 - [two approaches to applying modern theme](http://www.techmikael.com/2018/03/two-approaches-to-applying-modern-theme.html)
+
+## Testing
+
+- <https://n8d.at/blog/how-to-test-spfx-web-part-theming/>
