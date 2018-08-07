@@ -2,18 +2,19 @@
 
 ## Overview
 
-- https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain
+- <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain>
+- <https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md>
 
 ## Gulp
 
-- https://www.eliostruyf.com/getting-up-to-speed-with-gulp/
-- https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0
+- <https://www.eliostruyf.com/getting-up-to-speed-with-gulp/>
+- <https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0>
 
 ### Deployment
 
-- https://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js
-- https://github.com/estruyf/gulp-spsync-creds
-- https://n8d.at/blog/how-to-version-new-sharepoint-framework-projects/?platform=hootsuite
+- <https://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js>
+- <https://github.com/estruyf/gulp-spsync-creds>
+- <https://n8d.at/blog/how-to-version-new-sharepoint-framework-projects/?platform=hootsuite>
 
 
 ## NPM
