@@ -22,3 +22,7 @@
 - <http://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work>
 - <https://www.avepoint.com/blog/microsoft-teams/office-365-groups-vs-teams/>
 - <http://blog.pixelmill.com/3580/microsoft-teams-sharepoint-destined-lifelong-partners/>
+
+## Tipps
+
+- <https://collab365.community/microsoft-teams-hacks>
