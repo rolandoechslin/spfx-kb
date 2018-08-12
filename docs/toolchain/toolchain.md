@@ -29,7 +29,7 @@
 
 - https://gist.github.com/iki/ec32bfdeeb23930efd15
 
-```PS
+```bash
 # check
 npm outdated -g
 
@@ -52,13 +52,13 @@ npm uninstall -g <module>
 
 List global npm  packages versions
 
-```PS
+```bash
 npm list -g --depth 0
 ```
 
 List detail global npm  package versions from one package
 
-```PS
+```bash
 npm view @microsoft/generator-sharepoint
 ```
 
@@ -66,7 +66,7 @@ npm view @microsoft/generator-sharepoint
 
 - https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/
 
-```PS
+```bash
 # go into solution folder
 npm outdated
 # search für "@micorosoft/sp-"

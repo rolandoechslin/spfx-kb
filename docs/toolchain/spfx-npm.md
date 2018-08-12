@@ -44,7 +44,7 @@ gulp build
 
 ## Test
 
-```PS
+```bash
 gulp serve --nobrowser
 ```
 
@@ -57,10 +57,26 @@ gulp serve --nobrowser
 
 ## Depoyment
 
-```PS
+```bash
 npm i
 gulp clean
 gulp build
 gulp --ship
 gulp package-solution --ship
+```
+
+## Dependencies
+
+- <https://docs.npmjs.com/cli/install>
+
+```bash
+
+npm install saves any specified packages into dependencies by default. Additionally, you can control where and how they get saved with some additional flags:
+
+-P, --save-prod: Package will appear in your dependencies. This is the default unless -D or -O are present.
+
+-D, --save-dev: Package will appear in your devDependencies.
+
+-O, --save-optional: Package will appear in your optionalDependencies.
+
 ```

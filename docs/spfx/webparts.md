@@ -13,7 +13,8 @@
 - <http://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html>
 - <https://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations-customize-pages#using-the-pnp-support-for-modern-pages-and-client-side-web-parts>
 - <https://github.com/OlivierCC/spfx-40-fantastics>
-- https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples
+- <https://www.codeproject.com/Articles/1235629/Sharepoint-Framework-SPFx-Large-List-Webpart-using>
+- <https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples>
 - <https://gist.github.com/vman/1941ce6c61cebca1bfe3e490ce63185e#file-msgraphnospfx-js>
 - <https://veenstra.me.uk/2017/07/18/office-365-spfx-samples-a-complete-overview/>
 - <https://veenstra.me.uk/2017/08/01/office-365-sharepoint-spfx-web-parts-that-are-not-part-of-the-spfx-samples/>
@@ -27,6 +28,13 @@
 - <https://rasper87.wordpress.com/2018/07/27/office-ui-fabric-persona-with-skype-for-business-status-integration>
 - <http://www.sharepointtweaks.com/2018/07/spfx-facebook-feed-webpart-with-custom-UI.html>
 - <https://github.com/waldekmastykarz/spfx-react-fabric-trendinginthissite>
+- <https://abdulazizfarooqi.wordpress.com/2018/02/28/employee-directory-with-spfx-reactjs-using-sharepoint-search-rest-api-modern-webpart/>
+
+## Samples/Exercises
+
+- <https://github.com/ktskumar/spfxguidesamples>
+- <https://www.c-sharpcorner.com/article/amazing-guide-to-sharepoint-framework-development-with-react/>
+- <https://github.com/agzertuche/SPFx-Exercises>
 
 ## Overview Modern WebParts
 
