@@ -1473,6 +1473,7 @@
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain">https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain</a></li>
+<li><a href="https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md">https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md</a></li>
 </ul>
 <h2 id="gulp">Gulp<a class="headerlink" href="#gulp" title="Permanent link">&para;</a></h2>
 <ul>
@@ -1496,19 +1497,19 @@
 <ul>
 <li><a href="https://gist.github.com/iki/ec32bfdeeb23930efd15">https://gist.github.com/iki/ec32bfdeeb23930efd15</a></li>
 </ul>
-<div class="codehilite"><pre><span></span># check
+<div class="codehilite"><pre><span></span><span class="c1"># check</span>
 npm outdated -g
 
-# install
+<span class="c1"># install</span>
 npm -g i npm-check
 
-# interactive update of global packages
+<span class="c1"># interactive update of global packages</span>
 npm-check -u -g
 
-# interactive update for a project you are working on
+<span class="c1"># interactive update for a project you are working on</span>
 npm-check -u
 
-# unistall package
+<span class="c1"># unistall package</span>
 npm uninstall -g &lt;module&gt;
 </pre></div>
 
@@ -1517,7 +1518,7 @@ npm uninstall -g &lt;module&gt;
 <li><a href="https://github.com/dylang/npm-check">https://github.com/dylang/npm-check</a></li>
 </ul>
 <p>List global npm  packages versions</p>
-<div class="codehilite"><pre><span></span>npm list -g --depth 0
+<div class="codehilite"><pre><span></span>npm list -g --depth <span class="m">0</span>
 </pre></div>
 
 <p>List detail global npm  package versions from one package</p>
@@ -1528,12 +1529,12 @@ npm uninstall -g &lt;module&gt;
 <ul>
 <li><a href="https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/">https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/</a></li>
 </ul>
-<div class="codehilite"><pre><span></span># go into solution folder
+<div class="codehilite"><pre><span></span><span class="c1"># go into solution folder</span>
 npm outdated
-# search für &quot;@micorosoft/sp-&quot;
-# update all
+<span class="c1"># search für &quot;@micorosoft/sp-&quot;</span>
+<span class="c1"># update all</span>
 npm install package-name@version --save
-# or
+<span class="c1"># or</span>
 npm install package-name@latest --save
 gulp clean
 gulp build
