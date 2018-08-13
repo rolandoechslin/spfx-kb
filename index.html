@@ -480,6 +480,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#localizations" title="Localizations" class="md-nav__link">
+    Localizations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#data-service" title="Data Service" class="md-nav__link">
     Data Service
   </a>
@@ -1509,6 +1516,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#localizations" title="Localizations" class="md-nav__link">
+    Localizations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#data-service" title="Data Service" class="md-nav__link">
     Data Service
   </a>
@@ -1663,6 +1677,26 @@ https://localhost:4321/temp/workbench.html
 <li><a href="https://sharepoint.github.io/sp-dev-fx-property-controls/">https://sharepoint.github.io/sp-dev-fx-property-controls/</a></li>
 </ul>
 <div class="codehilite"><pre><span></span>npm install @pnp/spfx-property-controls --save --save-exact
+</pre></div>
+
+<h2 id="localizations">Localizations<a class="headerlink" href="#localizations" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Location files are in JSON format</li>
+<li>They work similar as Resources files (XML) on VS Solution</li>
+<li>The default language is English (en-us)</li>
+<li>Developers can test the locale by:<ul>
+<li>Updating write-manifests.json file</li>
+</ul>
+</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+    <span class="nt">&quot;cdnBasePath&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;!-- PATH TO CDN --&gt;&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;debugLocale&quot;</span><span class="p">:</span> <span class="s2">&quot;de-de&quot;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p>Or by using the "locale" command argument</p>
+<div class="codehilite"><pre><span></span>gulp serve --locale=de-de
 </pre></div>
 
 <h2 id="data-service">Data Service<a class="headerlink" href="#data-service" title="Permanent link">&para;</a></h2>
