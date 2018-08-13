@@ -425,8 +425,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#test-webpart" title="Test WebPart" class="md-nav__link">
-    Test WebPart
+  <a href="#development-local-workbench" title="Development - local workbench" class="md-nav__link">
+    Development - local workbench
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development-online-workbench" title="Development - online workbench" class="md-nav__link">
+    Development - online workbench
   </a>
   
 </li>
@@ -1413,8 +1420,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#test-webpart" title="Test WebPart" class="md-nav__link">
-    Test WebPart
+  <a href="#development-local-workbench" title="Development - local workbench" class="md-nav__link">
+    Development - local workbench
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development-online-workbench" title="Development - online workbench" class="md-nav__link">
+    Development - online workbench
   </a>
   
 </li>
@@ -1501,14 +1515,16 @@ git add -A
 git commit -m &quot;init repo&quot;
 </pre></div>
 
-<h2 id="test-webpart">Test WebPart<a class="headerlink" href="#test-webpart" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>gulp build
+<h2 id="development-local-workbench">Development - local workbench<a class="headerlink" href="#development-local-workbench" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>gulp serve
 
-# local
-gulp serve
+https://localhost:4321/temp/workbench.html
+</pre></div>
 
-# tenat
-gulp serve --nobrowser
+<h2 id="development-online-workbench">Development - online workbench<a class="headerlink" href="#development-online-workbench" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>gulp serve --nobrowser
+
+{spo site}/_layouts/15/workbench.aspx
 </pre></div>
 
 <h2 id="logging-with-sp-core-library">Logging with sp-core-library<a class="headerlink" href="#logging-with-sp-core-library" title="Permanent link">&para;</a></h2>
@@ -1548,25 +1564,20 @@ Choice 1
 
 <h2 id="debug-in-vscode">Debug in vs.code<a class="headerlink" href="#debug-in-vscode" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode">https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode</a></p>
-</li>
-<li>
-<p>add configuration in launch.json</p>
-</li>
-<li>Local workbench configuration<ul>
-<li>Hosted workbench configuration</li>
-<li>add breakpoint in vs.code ts-file</li>
+<li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode">https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode</a></li>
 </ul>
-</li>
-</ul>
-<div class="codehilite"><pre><span></span>gulp serve --nobrowser
+<p>Steps
+* open vs.code / view extensions
+* install "Debugger for chrome"
+* create launch.json
+* select configuration
+    * Hosted workbench configuration
+* add breakpoint in vs.code ts-file</p>
+<p><div class="codehilite"><pre><span></span>gulp serve --nobrowser
 </pre></div>
-
-<ul>
-<li>go debug view</li>
-<li>add wepart to workbench</li>
-</ul>
+* press F5
+* go debug view
+* add wepart to workbench</p>
 <h2 id="checklist-spfx-initial">Checklist SPFx initial<a class="headerlink" href="#checklist-spfx-initial" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/">https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/</a></li>
