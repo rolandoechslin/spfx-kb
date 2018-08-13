@@ -123,6 +123,89 @@ npm install @pnp/spfx-property-controls --save --save-exact
 
 Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everywhere.pptx)
 
+Sample Folder structur
+
+* src
+    * models
+        * IHelpDeskItem.ts
+    * services
+        * IDataService.ts
+        * MockDataservice.ts
+        * SharepointDataService.ts
+    * webparts
+        * components
+        * loc
+        * 'webpartnameWebPart.ts'
+
+
+### Data Model
+
+Interface to define our Data structure
+
+```ts
+export interface IHelpDeskItem {
+  id?: number;
+  title?: string;
+  description?: string;
+  level?: string;
+  status?: string;
+  assignedTo?: string;
+  resolution?: string;
+}
+```
+
+Interface to define our Data Access services
+
+```ts
+import { IHelpDeskItem } from "./../models/IHelpDeskItem";
+import { WebPartContext } from "@microsoft/sp-webpart-base";
+
+export default interface IDataService {
+  getTitle(): string;
+  isConfigured(): boolean;
+  getItems(context: WebPartContext): Promise<IHelpDeskItem[]>;
+  addItem(item: IHelpDeskItem): Promise<void>;
+  deleteItem(id: number): Promise<void>;
+}
+
+```
+
+Mocking Service for testing in local Workbench development
+
+```ts
+import { IHelpDeskItem } from "./../models/IHelpDeskItem";
+import IDataService from "./IDataService";
+import { IWebPartContext } from "@microsoft/sp-webpart-base";
+
+export default class MockDataService implements IDataService {
+...
+  private _webPartContext: IWebPartContext;
+  private _listId: string;
+
+  constructor(webPartContext: IWebPartContext, listId: string) {
+    this._webPartContext = webPartContext;
+    this._listId = listId;
+  }
+...
+
+  public getItems(context: IWebPartContext): Promise<IHelpDeskItem[]> {
+    return new Promise<IHelpDeskItem[]>((resolve, reject) => {
+      setTimeout(() => resolve([
+        {
+          id : 1,
+          title : "That doesn't work",
+          description : "When I do that, it doesn't work",
+          level : "Low",
+          status: "Open",
+          resolution: "Do this and it will work!",
+          assignedTo: "Sébastien Levert",
+        }
+      ]), 300);
+    });
+  }
+}
+```
+
 ### Get Data with Sharepoint REST
 
 Source
