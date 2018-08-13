@@ -118,6 +118,28 @@ npm install @pnp/spfx-controls-react --save --save-exact
 npm install @pnp/spfx-property-controls --save --save-exact
 ```
 
+## Localizations
+
+- Location files are in JSON format
+- They work similar as Resources files (XML) on VS Solution
+- The default language is English (en-us)
+- Developers can test the locale by:
+    - Updating write-manifests.json file
+
+```json
+{
+    "cdnBasePath": "<!-- PATH TO CDN -->",
+    "debugLocale": "de-de"
+}
+```
+
+Or by using the "locale" command argument
+
+```bs
+gulp serve --locale=de-de
+```
+
+
 ## Data Service
 
 Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everywhere.pptx)
