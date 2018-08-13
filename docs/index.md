@@ -233,11 +233,11 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 ### Get Data with Pnp-JS-Core
 
 Advantages
+
 - Type safe so you get your errors while you code and not when you execute and test
 - Works on all versions of SharePoint (On-Premises, Online, etc.)
 - Offers built-in caching mechanisms
 - Heavily used in the SharePoint Development Community
-
 
 Init context in react webpart component
 [source](https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/webparts/listContent/ListContentWebPart.ts)
