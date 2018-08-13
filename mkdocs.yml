@@ -40,7 +40,7 @@ pages:
         - Theme: spfx/theme.md
         - UX: spfx/ux.md
         - Webparts: spfx/webparts.md
-        - Business-Objects: business-objects.md
+        - Business-Objects: spfx/businessobjects.md
     - React:
         - Learning: react/learning.md
     - JS:
