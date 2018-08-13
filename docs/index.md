@@ -58,32 +58,34 @@ https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoi
 
 ```bs
 gulp serve
-add webpart
-start Chrome
-start Dev Extension (F12)
-ppen Source, Search for ClassName (Ctrl+P)
-add Breakpoint
-refresh page
-Choice 1
 ```
+* add webpart
+* start Chrome
+* start Dev Extension (F12)
+* open Source, Search for ClassName (Ctrl+P)
+* add Breakpoint
+* refresh page
 
 ## Debug in vs.code
 
 - <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode>
 
-Steps
+Pre Steps
 * open vs.code / view extensions
 * install "Debugger for chrome"
 * create launch.json
 * select configuration
     * Hosted workbench configuration
-* add breakpoint in vs.code ts-file
 
+Steps
 ```bs
 gulp serve --nobrowser
 ```
-* press F5
+
+* add breakpoint in vs.code ts-file
 * go debug view
+* press F5
+* select configuration
 * add wepart to workbench
 
 ## Checklist SPFx initial
