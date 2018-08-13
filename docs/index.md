@@ -119,4 +119,97 @@ npm install @pnp/spfx-controls-react --save --save-exact
 npm install @pnp/spfx-property-controls --save --save-exact
 ```
 
+## Data Service
 
+Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everywhere.pptx)
+
+### Get Data with Sharepoint REST
+
+Source
+- <https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/SharePointDataService.ts>
+
+```ts
+public getItems(context: WebPartContext): Promise<IHelpDeskItem[]> {
+return new Promise<IHelpDeskItem[]>((resolve, reject) => {
+    context.spHttpClient
+    .get( `${this._webPartContext.pageContext.web.absoluteUrl}/_api/web/lists/GetById('${this._listId}')/items` +
+            `?$select=*,HelpDeskAssignedTo/Title&$expand=HelpDeskAssignedTo`, SPHttpClient.configurations.v1)
+    .then(res => res.json())
+    .then(res => {
+        let helpDeskItems:IHelpDeskItem[] = [];
+
+        for(let helpDeskListItem of res.value) {
+        helpDeskItems.push(this.buildHelpDeskItem(helpDeskListItem));
+        }
+
+        resolve(helpDeskItems);
+    })
+    .catch(err => console.log(err));
+});
+}
+```
+
+### Get Data with Pnp-JS-Core
+
+Advantages
+* Type safe so you get your errors while you code and not when you execute and test
+* Works on all versions of SharePoint (On-Premises, Online, etc.)
+* Offers built-in caching mechanisms
+* Heavily used in the SharePoint Development Community
+
+Source
+- https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/webparts/listContent/ListContentWebPart.ts
+
+Init context in react webpart component
+
+```ts
+public onInit(): Promise<void> {
+    return super.onInit().then(_ => {
+        pnpSetup({
+        spfxContext: this.context
+        });
+    });
+}
+```
+
+init service in react webpart component
+
+```ts
+public render(): void {
+    const element: React.ReactElement<IListContentProps> = React.createElement(
+      ListContent,
+      {
+        context: this.context,
+        dataService: this.getDataService(),
+        list: this.properties.list
+      }
+    );
+
+    ReactDom.render(element, this.domElement);
+}
+```
+
+Get items from list
+
+Source
+- <https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/PnPJSCoreDataService.ts>
+
+```ts
+public getItems(context: WebPartContext): Promise<IHelpDeskItem[]> {
+return new Promise<IHelpDeskItem[]>((resolve, reject) => {
+
+    sp.web.lists.getById(this._listId).items
+    .select("*", "HelpDeskAssignedTo/Title")
+    .expand("HelpDeskAssignedTo").getAll().then((sessionItems: any[]) => {
+    let helpDeskItems:IHelpDeskItem[] = [];
+
+    for(let helpDeskListItem of sessionItems) {
+        helpDeskItems.push(this.buildHelpDeskItem(helpDeskListItem));
+    }
+
+    resolve(helpDeskItems);
+    });
+
+});
+}
+```
