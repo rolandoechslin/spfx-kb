@@ -11,6 +11,61 @@
             "title": "Welcome to SPFx Knowledgebase"
         },
         {
+            "location": "/tips/tips/",
+            "text": "Tips\n\u00b6\n\n\nCreate WebPart\n\u00b6\n\n\nyo @microsoft/sharepoint\ngit init\ngit add -A\ngit commit -m \"init repo\"\n\n\n\n\nTest WebPart\n\u00b6\n\n\ngulp build\n\n# local\ngulp serve\n\n# tenat\ngulp serve --nobrowser\n\n\n\n\nLogging with sp-core-library\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API\n\n\n\n\nReference the Log class.\n\n\nimport\n \n{\n \nLog\n \n}\n \nfrom\n \n'@microsoft/sp-core-library'\n;\n\n\n\n\n\nLog your message from your WebPart\n\n\nLog\n.\nverbose\n(\n\"HelloWorld\"\n,\n \n\"Here is a verbose log\"\n,\n \nthis\n.\ncontext\n.\nserviceScope\n);\n\n\n\nLog\n.\ninfo\n(\n\"HelloWorld\"\n,\n \n\"Here is an informational message.\"\n,\n \nthis\n.\ncontext\n.\nserviceScope\n);\n\n\n\nLog\n.\nwarn\n(\n\"HelloWorld\"\n,\n \n\"Oh Oh, this might be bad\"\n,\n \nthis\n.\ncontext\n.\nserviceScope\n);\n\n\n\nLog\n.\nerror\n(\n\"HelloWorld\"\n,\n \nnew\n \nError\n(\n\"Oh No!  Error!  Ahhhhhh!!!!\"\n),\n \nthis\n.\ncontext\n.\nserviceScope\n);\n\n\nLogging\n \nwith\n \n@pnp\n/\nlogging\n\n\n\n\n\nCustom logging (pnp-logging)\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging\n\n\nhttps://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging\n\n\n\n\nDebug in browser\n\u00b6\n\n\ngulp serve\nadd webpart\nstart Chrome\nstart Dev Extension (F12)\nppen Source, Search for ClassName (Ctrl+P)\nadd Breakpoint\nrefresh page\nChoice 1\n\n\n\n\nDebug in vs.code\n\u00b6\n\n\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode\n\n\n\n\n\n\nadd configuration in launch.json\n\n\n\n\nLocal workbench configuration\n\n\nHosted workbench configuration\n\n\nadd breakpoint in vs.code ts-file\n\n\n\n\n\n\n\n\ngulp serve --nobrowser\n\n\n\n\n\n\ngo debug view\n\n\nadd wepart to workbench\n\n\n\n\nChecklist SPFx initial\n\u00b6\n\n\n\n\nhttps://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/\n\n\n\n\nFix version\n\u00b6\n\n\n\n\n\n\nedit version in package.json -> same as in package-solution.json\n\n\n\n\nto \"version\": \"1.0.0\",\n\n\n\n\n\n\n\n\nAdd importend pnp modules\n\u00b6\n\n\n\n\nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide\n\n\n\n\nnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-controls-react/\n\n\n\n\nnpm install @pnp/spfx-controls-react --save --save-exact\n\n\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-property-controls/\n\n\n\n\nnpm install @pnp/spfx-property-controls --save --save-exact",
+            "title": "Tips"
+        },
+        {
+            "location": "/tips/tips/#tips",
+            "text": "",
+            "title": "Tips"
+        },
+        {
+            "location": "/tips/tips/#create-webpart",
+            "text": "yo @microsoft/sharepoint\ngit init\ngit add -A\ngit commit -m \"init repo\"",
+            "title": "Create WebPart"
+        },
+        {
+            "location": "/tips/tips/#test-webpart",
+            "text": "gulp build\n\n# local\ngulp serve\n\n# tenat\ngulp serve --nobrowser",
+            "title": "Test WebPart"
+        },
+        {
+            "location": "/tips/tips/#logging-with-sp-core-library",
+            "text": "https://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API   Reference the Log class.  import   {   Log   }   from   '@microsoft/sp-core-library' ;   Log your message from your WebPart  Log . verbose ( \"HelloWorld\" ,   \"Here is a verbose log\" ,   this . context . serviceScope );  Log . info ( \"HelloWorld\" ,   \"Here is an informational message.\" ,   this . context . serviceScope );  Log . warn ( \"HelloWorld\" ,   \"Oh Oh, this might be bad\" ,   this . context . serviceScope );  Log . error ( \"HelloWorld\" ,   new   Error ( \"Oh No!  Error!  Ahhhhhh!!!!\" ),   this . context . serviceScope );  Logging   with   @pnp / logging",
+            "title": "Logging with sp-core-library"
+        },
+        {
+            "location": "/tips/tips/#custom-logging-pnp-logging",
+            "text": "https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging  https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging",
+            "title": "Custom logging (pnp-logging)"
+        },
+        {
+            "location": "/tips/tips/#debug-in-browser",
+            "text": "gulp serve\nadd webpart\nstart Chrome\nstart Dev Extension (F12)\nppen Source, Search for ClassName (Ctrl+P)\nadd Breakpoint\nrefresh page\nChoice 1",
+            "title": "Debug in browser"
+        },
+        {
+            "location": "/tips/tips/#debug-in-vscode",
+            "text": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode    add configuration in launch.json   Local workbench configuration  Hosted workbench configuration  add breakpoint in vs.code ts-file     gulp serve --nobrowser   go debug view  add wepart to workbench",
+            "title": "Debug in vs.code"
+        },
+        {
+            "location": "/tips/tips/#checklist-spfx-initial",
+            "text": "https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/",
+            "title": "Checklist SPFx initial"
+        },
+        {
+            "location": "/tips/tips/#fix-version",
+            "text": "edit version in package.json -> same as in package-solution.json   to \"version\": \"1.0.0\",",
+            "title": "Fix version"
+        },
+        {
+            "location": "/tips/tips/#add-importend-pnp-modules",
+            "text": "https://pnp.github.io/pnpjs/getting-started.html  https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide   npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save   https://sharepoint.github.io/sp-dev-fx-controls-react/   npm install @pnp/spfx-controls-react --save --save-exact   https://sharepoint.github.io/sp-dev-fx-property-controls/   npm install @pnp/spfx-property-controls --save --save-exact",
+            "title": "Add importend pnp modules"
+        },
+        {
             "location": "/spfx/start/",
             "text": "Dev Start\n\u00b6\n\n\nDevelopment starting\n\u00b6\n\n\n\n\nSet up your Office 365 tenant\n\n\nSet up your SharePoint Framework development environment\n\n\n\n\nChecklist\n\u00b6\n\n\n\n\nhttps://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/\n\n\nhttps://rencore.com/sharepoint-customizations-guide/",
             "title": "Start"
