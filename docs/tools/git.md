@@ -7,3 +7,7 @@
 ## Tips
 
 - https://mikefrobbins.com/2018/06/28/update-a-severely-out-of-date-github-repository-fork/
+
+## Commit Guidlines
+
+- <http://www.andrewconnell.com/blog/ngofficeuifabric-how-we-do-it-keeping-a-clean-commit-log>
