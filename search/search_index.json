@@ -1437,7 +1437,7 @@
         },
         {
             "location": "/tools/git/",
-            "text": "Git\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nhttps://git-scm.com/docs\n\n\n\n\nTips\n\u00b6\n\n\n\n\nhttps://mikefrobbins.com/2018/06/28/update-a-severely-out-of-date-github-repository-fork/",
+            "text": "Git\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nhttps://git-scm.com/docs\n\n\n\n\nTips\n\u00b6\n\n\n\n\nhttps://mikefrobbins.com/2018/06/28/update-a-severely-out-of-date-github-repository-fork/\n\n\n\n\nCommit Guidlines\n\u00b6\n\n\n\n\nhttp://www.andrewconnell.com/blog/ngofficeuifabric-how-we-do-it-keeping-a-clean-commit-log",
             "title": "Git"
         },
         {
@@ -1454,6 +1454,11 @@
             "location": "/tools/git/#tips",
             "text": "https://mikefrobbins.com/2018/06/28/update-a-severely-out-of-date-github-repository-fork/",
             "title": "Tips"
+        },
+        {
+            "location": "/tools/git/#commit-guidlines",
+            "text": "http://www.andrewconnell.com/blog/ngofficeuifabric-how-we-do-it-keeping-a-clean-commit-log",
+            "title": "Commit Guidlines"
         },
         {
             "location": "/tools/markdown/",
