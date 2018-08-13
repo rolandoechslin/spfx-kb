@@ -59,34 +59,34 @@ https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoi
 ```bs
 gulp serve
 ```
-* add webpart
-* start Chrome
-* start Dev Extension (F12)
-* open Source, Search for ClassName (Ctrl+P)
-* add Breakpoint
-* refresh page
+- add webpart
+- start Chrome
+- start Dev Extension (F12)
+- open Source, Search for ClassName (Ctrl+P)
+- add Breakpoint
+- refresh page
 
 ## Debug in vs.code
 
 - <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode>
 
 Pre Steps
-* open vs.code / view extensions
-* install "Debugger for chrome"
-* create launch.json
-* select configuration
-    * Hosted workbench configuration
+- open vs.code / view extensions
+- install "Debugger for chrome"
+- create launch.json
+- select configuration
+    - Hosted workbench configuration
 
 Steps
 ```bs
 gulp serve --nobrowser
 ```
 
-* add breakpoint in vs.code ts-file
-* go debug view
-* press F5
-* select configuration
-* add wepart to workbench
+- add breakpoint in vs.code ts-file
+- go debug view
+- press F5
+- select configuration
+- add wepart to workbench
 
 ## Checklist SPFx initial
 
@@ -94,9 +94,8 @@ gulp serve --nobrowser
 
 ### Fix version
 
-* edit version in package.json -> same as in package-solution.json
-
-    * to "version": "1.0.0",
+- edit version in package.json -> same as in package-solution.json
+    - to "version": "1.0.0",
 
 ### Add importend pnp modules
 
@@ -125,17 +124,17 @@ Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everyw
 
 Sample Folder structur
 
-* src
-    * models
-        * IHelpDeskItem.ts
-    * services
-        * IDataService.ts
-        * MockDataservice.ts
-        * SharepointDataService.ts
-    * webparts
-        * components
-        * loc
-        * 'webpartnameWebPart.ts'
+- src
+    - models
+        - IHelpDeskItem.ts
+    - services
+        - IDataService.ts
+        - MockDataservice.ts
+        - SharepointDataService.ts
+    - webparts
+        - components
+        - loc
+        - 'webpartnameWebPart.ts'
 
 
 ### Data Model
@@ -208,8 +207,7 @@ export default class MockDataService implements IDataService {
 
 ### Get Data with Sharepoint REST
 
-Source
-- <https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/SharePointDataService.ts>
+[Source](https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/SharePointDataService.ts)
 
 ```ts
 public getItems(context: WebPartContext): Promise<IHelpDeskItem[]> {
@@ -235,15 +233,14 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 ### Get Data with Pnp-JS-Core
 
 Advantages
-* Type safe so you get your errors while you code and not when you execute and test
-* Works on all versions of SharePoint (On-Premises, Online, etc.)
-* Offers built-in caching mechanisms
-* Heavily used in the SharePoint Development Community
+- Type safe so you get your errors while you code and not when you execute and test
+- Works on all versions of SharePoint (On-Premises, Online, etc.)
+- Offers built-in caching mechanisms
+- Heavily used in the SharePoint Development Community
 
-Source
-- https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/webparts/listContent/ListContentWebPart.ts
 
 Init context in react webpart component
+[source](https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/webparts/listContent/ListContentWebPart.ts)
 
 ```ts
 public onInit(): Promise<void> {
@@ -273,9 +270,7 @@ public render(): void {
 ```
 
 Get items from list
-
-Source
-- <https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/PnPJSCoreDataService.ts>
+[Source](https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/PnPJSCoreDataService.ts)
 
 ```ts
 public getItems(context: WebPartContext): Promise<IHelpDeskItem[]> {
