@@ -50,3 +50,10 @@
 ## Yo
 
 - <https://github.com/koltyakov/generator-sppp>
+
+## Fabric Icons
+
+- [Render Office Fabric UI Icons into Canvas](https://codepen.io/joshmcrty/pen/GOBWeV)
+
+- <https://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon>
+- <https://developer.microsoft.com/en-us/fabric#/styles/icons>
