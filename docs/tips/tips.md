@@ -9,16 +9,20 @@ git add -A
 git commit -m "init repo"
 ```
 
-## Test WebPart
+## Development - local workbench
 
 ```bs
-gulp build
-
-# local
 gulp serve
 
-# tenat
+https://localhost:4321/temp/workbench.html
+```
+
+## Development - online workbench
+
+```bs
 gulp serve --nobrowser
+
+{spo site}/_layouts/15/workbench.aspx
 ```
 
 ## Logging with sp-core-library
@@ -66,15 +70,18 @@ Choice 1
 
 - <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode>
 
-* add configuration in launch.json
-* Local workbench configuration
+Steps
+* open vs.code / view extensions
+* install "Debugger for chrome"
+* create launch.json
+* select configuration
     * Hosted workbench configuration
-    * add breakpoint in vs.code ts-file
+* add breakpoint in vs.code ts-file
 
 ```bs
 gulp serve --nobrowser
 ```
-
+* press F5
 * go debug view
 * add wepart to workbench
 
