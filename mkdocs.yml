@@ -5,7 +5,6 @@ site_author: 'Roland Oechslin'
 
 pages:
     - Home: index.md
-    - Tips: tips/tips.md
     - SPFx:
         - Start: spfx/start.md
         - Azure: spfx/azure.md
