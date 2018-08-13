@@ -14,7 +14,9 @@ git commit -m "init repo"
 
 ```bs
 gulp serve
+```
 
+```html
 https://localhost:4321/temp/workbench.html
 ```
 
@@ -22,7 +24,9 @@ https://localhost:4321/temp/workbench.html
 
 ```bs
 gulp serve --nobrowser
+```
 
+```html
 {spo site}/_layouts/15/workbench.aspx
 ```
 
