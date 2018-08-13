@@ -1608,22 +1608,22 @@ https://localhost:4321/temp/workbench.html
 <h2 id="debug-in-browser">Debug in browser<a class="headerlink" href="#debug-in-browser" title="Permanent link">&para;</a></h2>
 <p><div class="codehilite"><pre><span></span>gulp serve
 </pre></div>
-* add webpart
-* start Chrome
-* start Dev Extension (F12)
-* open Source, Search for ClassName (Ctrl+P)
-* add Breakpoint
-* refresh page</p>
+- add webpart
+- start Chrome
+- start Dev Extension (F12)
+- open Source, Search for ClassName (Ctrl+P)
+- add Breakpoint
+- refresh page</p>
 <h2 id="debug-in-vscode">Debug in vs.code<a class="headerlink" href="#debug-in-vscode" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode">https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode</a></li>
 </ul>
 <p>Pre Steps
-* open vs.code / view extensions
-* install "Debugger for chrome"
-* create launch.json
-* select configuration
-    * Hosted workbench configuration</p>
+- open vs.code / view extensions
+- install "Debugger for chrome"
+- create launch.json
+- select configuration
+    - Hosted workbench configuration</p>
 <p>Steps
 <div class="codehilite"><pre><span></span>gulp serve --nobrowser
 </pre></div></p>
@@ -1640,9 +1640,7 @@ https://localhost:4321/temp/workbench.html
 </ul>
 <h3 id="fix-version">Fix version<a class="headerlink" href="#fix-version" title="Permanent link">&para;</a></h3>
 <ul>
-<li>
-<p>edit version in package.json -&gt; same as in package-solution.json</p>
-<ul>
+<li>edit version in package.json -&gt; same as in package-solution.json<ul>
 <li>to "version": "1.0.0",</li>
 </ul>
 </li>
@@ -1752,8 +1750,7 @@ https://localhost:4321/temp/workbench.html
 </pre></div>
 
 <h3 id="get-data-with-sharepoint-rest">Get Data with Sharepoint REST<a class="headerlink" href="#get-data-with-sharepoint-rest" title="Permanent link">&para;</a></h3>
-<p>Source
-- <a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/SharePointDataService.ts">https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/SharePointDataService.ts</a></p>
+<p><a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/SharePointDataService.ts">Source</a></p>
 <div class="codehilite"><pre><span></span><span class="kr">public</span> <span class="nx">getItems</span><span class="p">(</span><span class="nx">context</span>: <span class="kt">WebPartContext</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span> <span class="p">{</span>
 <span class="k">return</span> <span class="k">new</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
     <span class="nx">context</span><span class="p">.</span><span class="nx">spHttpClient</span>
@@ -1776,13 +1773,12 @@ https://localhost:4321/temp/workbench.html
 
 <h3 id="get-data-with-pnp-js-core">Get Data with Pnp-JS-Core<a class="headerlink" href="#get-data-with-pnp-js-core" title="Permanent link">&para;</a></h3>
 <p>Advantages
-* Type safe so you get your errors while you code and not when you execute and test
-* Works on all versions of SharePoint (On-Premises, Online, etc.)
-* Offers built-in caching mechanisms
-* Heavily used in the SharePoint Development Community</p>
-<p>Source
-- <a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/webparts/listContent/ListContentWebPart.ts">https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/webparts/listContent/ListContentWebPart.ts</a></p>
-<p>Init context in react webpart component</p>
+- Type safe so you get your errors while you code and not when you execute and test
+- Works on all versions of SharePoint (On-Premises, Online, etc.)
+- Offers built-in caching mechanisms
+- Heavily used in the SharePoint Development Community</p>
+<p>Init context in react webpart component
+<a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/webparts/listContent/ListContentWebPart.ts">source</a></p>
 <div class="codehilite"><pre><span></span><span class="kr">public</span> <span class="nx">onInit</span><span class="p">()</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="k">void</span><span class="o">&gt;</span> <span class="p">{</span>
     <span class="k">return</span> <span class="kr">super</span><span class="p">.</span><span class="nx">onInit</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">_</span> <span class="o">=&gt;</span> <span class="p">{</span>
         <span class="nx">pnpSetup</span><span class="p">({</span>
@@ -1807,9 +1803,8 @@ https://localhost:4321/temp/workbench.html
 <span class="p">}</span>
 </pre></div>
 
-<p>Get items from list</p>
-<p>Source
-- <a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/PnPJSCoreDataService.ts">https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/PnPJSCoreDataService.ts</a></p>
+<p>Get items from list
+<a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/PnPJSCoreDataService.ts">Source</a></p>
 <div class="codehilite"><pre><span></span><span class="kr">public</span> <span class="nx">getItems</span><span class="p">(</span><span class="nx">context</span>: <span class="kt">WebPartContext</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span> <span class="p">{</span>
 <span class="k">return</span> <span class="k">new</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
 
