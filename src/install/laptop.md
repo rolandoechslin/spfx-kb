@@ -1,3 +1,5 @@
+# Laptop
+
 ## prereq
 
 VS Code
@@ -16,12 +18,13 @@ https://stash.garaio.com/projects/GPS/repos/col-tools/browse/Scripts/Setup-SPFxD
 
 ```ps
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-C:\ProgramData\chocolatey\choco.exe install nvm -y
-
-##################
-# RESTART CONSOLE#
-##################
 ```
+
+```ps
+C:\ProgramData\chocolatey\choco.exe install nvm -y
+```
+
+RESTART CONSOLE
 
 ## step 2: install nvm and specific node version
 
@@ -44,14 +47,11 @@ Add check if correct node version is selected. if not, maybe already installed n
 
 ```ps
 [Environment]::SetEnvironmentVariable("NODE_NO_HTTP2", "1", "Machine")
-
-##################
-# RESTART CONSOLE#
-##################
-
 ```
 
-## install global dependencies
+RESTART CONSOLE
+
+install global dependencies
 
 ```ps
 npm install -g yo gulp @microsoft/generator-sharepoint pnpm
@@ -78,7 +78,7 @@ change into project dir
 Write-Host "change to project directory first"
 ```
 
- open vscode
+open vscode
 
 ```ps
 code .
@@ -93,6 +93,7 @@ Gulp trust-dev-cert
 ```
 
 start dev server
+
 ```ps
 Gulp serve
 ```
