@@ -1364,22 +1364,46 @@
 <ul>
 <li><a href="https://blog.josequinto.com/2017/05/19/why-do-we-should-use-custom-business-objects-models-in-pnp-js-core/">https://blog.josequinto.com/2017/05/19/why-do-we-should-use-custom-business-objects-models-in-pnp-js-core/</a></li>
 <li><a href="https://github.com/jquintozamora/spfx-react-sp-pnp-js-property-decorators">https://github.com/jquintozamora/spfx-react-sp-pnp-js-property-decorators</a></li>
-<li><a href="https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005">https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005</a>
-```ts
+<li><a href="https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005">https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005</a></li>
+</ul>
+<p>```ts
 private async loadScripts(): Promise<void> { 
     return new Promise<void>(async (resolve) =&gt; {
         if(this._context) {
             resolve();
-        }<div class="codehilite"><pre><span></span>const response = await this.loadScript(layoutsUrl + &#39;init.js&#39;, &#39;Sod&#39;);
-resolve();
+        }</p>
+<div class="codehilite"><pre><span></span>    const response =  this.loadScript(layoutsUrl + &#39;init.js&#39;, &#39;Sod&#39;);
+    resolve();
+});
 </pre></div>
 
 
-<p>});
-  }
+<p>}
   ```</p>
-</li>
-</ul>
+<p>Load Data from SP-List <a href="https://github.com/SharePoint/sp-dev-fx-webparts/blob/master/samples/react-webhooks-realtime/src/webparts/realTimeList/components/RealTimeList.tsx">Code</a></p>
+<p><code>ts
+private async _loadList(): Promise&lt;void&gt; {
+    this.setState({
+        loading: true
+    });
+    let items = await pnp.sp.web.lists.getByTitle(&quot;Events&quot;).items.select(&quot;Id&quot;, &quot;Title&quot;, &quot;SPFxDescription&quot;, &quot;SPFxThumbnail&quot;)
+        .orderBy(&quot;Modified&quot;, false).get();
+    _items = items.map((item: IList, index: number) =&gt; {
+        return {
+        thumbnail: item.SPFxThumbnail != null ? item.SPFxThumbnail.Url : &quot;&quot;,
+        key: item.Id,
+        name: item.Title,
+        description: item.SPFxDescription
+        }
+    });
+    this.setState({
+        sortedItems: _items,
+        columns: _buildColumns(),
+        loading: false,
+        newsFeedVisible: false
+    });
+    _lastQueryDate = moment();
+}</code></p>
                 
                   
                 

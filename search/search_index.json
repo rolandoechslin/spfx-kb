@@ -422,7 +422,7 @@
         },
         {
             "location": "/spfx/js/",
-            "text": "JS\n\u00b6\n\n\nFrameworks\n\u00b6\n\n\n\n\nhttps://stateofjs.com\n\n\n\n\nCommon Cheatsheets\n\u00b6\n\n\n\n\nmodern-frontend-hacking-cheatsheets\n\n\nhttps://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a\n)\n\n\n\n\nES6\n\u00b6\n\n\n\n\nES6-cheatsheets",
+            "text": "JS\n\u00b6\n\n\nFrameworks\n\u00b6\n\n\n\n\nState of JS-Frameworks\n\n\n\n\nCommon Cheatsheets\n\u00b6\n\n\n\n\nmodern-frontend-hacking-cheatsheets\n\n\nhttps://devhints.io/moment\n\n\n\n\nES6\n\u00b6\n\n\n\n\nES6-cheatsheets",
             "title": "JS"
         },
         {
@@ -432,12 +432,12 @@
         },
         {
             "location": "/spfx/js/#frameworks",
-            "text": "https://stateofjs.com",
+            "text": "State of JS-Frameworks",
             "title": "Frameworks"
         },
         {
             "location": "/spfx/js/#common-cheatsheets",
-            "text": "modern-frontend-hacking-cheatsheets  https://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a )",
+            "text": "modern-frontend-hacking-cheatsheets  https://devhints.io/moment",
             "title": "Common Cheatsheets"
         },
         {
@@ -882,7 +882,7 @@
         },
         {
             "location": "/spfx/businessobjects/",
-            "text": "Business-Objects\n\u00b6\n\n\nAsync\n\u00b6\n\n\n\n\nhttps://blog.josequinto.com/2017/05/19/why-do-we-should-use-custom-business-objects-models-in-pnp-js-core/\n\n\nhttps://github.com/jquintozamora/spfx-react-sp-pnp-js-property-decorators\n\n\nhttps://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005\n\n```ts\nprivate async loadScripts(): Promise\n { \n    return new Promise\n(async (resolve) => {\n        if(this._context) {\n            resolve();\n        }\nconst response = await this.loadScript(layoutsUrl + 'init.js', 'Sod');\nresolve();\n\n\n\n\n\n});\n  }\n  ```",
+            "text": "Business-Objects\n\u00b6\n\n\nAsync\n\u00b6\n\n\n\n\nhttps://blog.josequinto.com/2017/05/19/why-do-we-should-use-custom-business-objects-models-in-pnp-js-core/\n\n\nhttps://github.com/jquintozamora/spfx-react-sp-pnp-js-property-decorators\n\n\nhttps://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005\n\n\n\n\n```ts\nprivate async loadScripts(): Promise\n { \n    return new Promise\n(async (resolve) => {\n        if(this._context) {\n            resolve();\n        }\n\n\n    const response =  this.loadScript(layoutsUrl + 'init.js', 'Sod');\n    resolve();\n});\n\n\n\n\n\n}\n  ```\n\n\nLoad Data from SP-List \nCode\n\n\nts\nprivate async _loadList(): Promise<void> {\n    this.setState({\n        loading: true\n    });\n    let items = await pnp.sp.web.lists.getByTitle(\"Events\").items.select(\"Id\", \"Title\", \"SPFxDescription\", \"SPFxThumbnail\")\n        .orderBy(\"Modified\", false).get();\n    _items = items.map((item: IList, index: number) => {\n        return {\n        thumbnail: item.SPFxThumbnail != null ? item.SPFxThumbnail.Url : \"\",\n        key: item.Id,\n        name: item.Title,\n        description: item.SPFxDescription\n        }\n    });\n    this.setState({\n        sortedItems: _items,\n        columns: _buildColumns(),\n        loading: false,\n        newsFeedVisible: false\n    });\n    _lastQueryDate = moment();\n}",
             "title": "Business-Objects"
         },
         {
@@ -892,7 +892,7 @@
         },
         {
             "location": "/spfx/businessobjects/#async",
-            "text": "https://blog.josequinto.com/2017/05/19/why-do-we-should-use-custom-business-objects-models-in-pnp-js-core/  https://github.com/jquintozamora/spfx-react-sp-pnp-js-property-decorators  https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005 \n```ts\nprivate async loadScripts(): Promise  { \n    return new Promise (async (resolve) => {\n        if(this._context) {\n            resolve();\n        } const response = await this.loadScript(layoutsUrl + 'init.js', 'Sod');\nresolve();  });\n  }\n  ```",
+            "text": "https://blog.josequinto.com/2017/05/19/why-do-we-should-use-custom-business-objects-models-in-pnp-js-core/  https://github.com/jquintozamora/spfx-react-sp-pnp-js-property-decorators  https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005   ```ts\nprivate async loadScripts(): Promise  { \n    return new Promise (async (resolve) => {\n        if(this._context) {\n            resolve();\n        }      const response =  this.loadScript(layoutsUrl + 'init.js', 'Sod');\n    resolve();\n});  }\n  ```  Load Data from SP-List  Code  ts\nprivate async _loadList(): Promise<void> {\n    this.setState({\n        loading: true\n    });\n    let items = await pnp.sp.web.lists.getByTitle(\"Events\").items.select(\"Id\", \"Title\", \"SPFxDescription\", \"SPFxThumbnail\")\n        .orderBy(\"Modified\", false).get();\n    _items = items.map((item: IList, index: number) => {\n        return {\n        thumbnail: item.SPFxThumbnail != null ? item.SPFxThumbnail.Url : \"\",\n        key: item.Id,\n        name: item.Title,\n        description: item.SPFxDescription\n        }\n    });\n    this.setState({\n        sortedItems: _items,\n        columns: _buildColumns(),\n        loading: false,\n        newsFeedVisible: false\n    });\n    _lastQueryDate = moment();\n}",
             "title": "Async"
         },
         {
@@ -982,7 +982,7 @@
         },
         {
             "location": "/training/must-read/",
-            "text": "Must read\n\u00b6\n\n\nGuidance\n\u00b6\n\n\n\n\noffice-365-development-patterns-and-practices-solution-guidance\n\n\n\n\nSPFx\n\u00b6\n\n\n\n\nFutureofSPDev-SPFxExtensions.pptx\n\n\n\n\nOffice Fabric\n\u00b6\n\n\n\n\nhttps://github.com/guzmonne/office-ui-layout\n\n\nhttps://github.com/eoverfield/SP-Office-UI-Fabric\n\n\n\n\nOffice Fabric / React / Redux\n\u00b6\n\n\n\n\nhttp://dattabase.com/office-fabric-reactredux-sp-starter-project/\n\n\nhttp://dattabase.com/office-fabric-ui-reactredux-part-1-5/\n\n\nhttps://github.com/gunjandatta/sp-react-redux\n\n\n\n\nCloud\n\u00b6\n\n\n\n\nhttps://it.arvato.com/cloud-blog/de/2018/06/softwareentwicklung-in-der-cloud--was-aendert-sich-.html\n\n\n\n\nGoogle Engineering\n\u00b6\n\n\n\n\nSite Reliability Engineering",
+            "text": "Must read\n\u00b6\n\n\nGuidance\n\u00b6\n\n\n\n\noffice-365-development-patterns-and-practices-solution-guidance\n\n\n\n\nSPFx\n\u00b6\n\n\n\n\nFutureofSPDev-SPFxExtensions.pptx\n\n\n\n\nOffice Fabric\n\u00b6\n\n\n\n\nhttps://github.com/guzmonne/office-ui-layout\n\n\nhttps://github.com/eoverfield/SP-Office-UI-Fabric\n\n\nhttps://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App\n\n\n\n\nOffice Fabric / React / Redux\n\u00b6\n\n\n\n\nhttp://dattabase.com/office-fabric-reactredux-sp-starter-project/\n\n\nhttp://dattabase.com/office-fabric-ui-reactredux-part-1-5/\n\n\nhttps://github.com/gunjandatta/sp-react-redux\n\n\n\n\nCloud\n\u00b6\n\n\n\n\nhttps://it.arvato.com/cloud-blog/de/2018/06/softwareentwicklung-in-der-cloud--was-aendert-sich-.html\n\n\n\n\nGoogle Engineering\n\u00b6\n\n\n\n\nSite Reliability Engineering",
             "title": "Must read"
         },
         {
@@ -1002,7 +1002,7 @@
         },
         {
             "location": "/training/must-read/#office-fabric",
-            "text": "https://github.com/guzmonne/office-ui-layout  https://github.com/eoverfield/SP-Office-UI-Fabric",
+            "text": "https://github.com/guzmonne/office-ui-layout  https://github.com/eoverfield/SP-Office-UI-Fabric  https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App",
             "title": "Office Fabric"
         },
         {
@@ -1127,7 +1127,7 @@
         },
         {
             "location": "/toolchain/toolchain/",
-            "text": "Toolchain\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain\n\n\nhttps://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md\n\n\n\n\nGulp\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/getting-up-to-speed-with-gulp/\n\n\nhttps://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0\n\n\n\n\nDeployment\n\u00b6\n\n\n\n\nhttps://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js\n\n\nhttps://github.com/estruyf/gulp-spsync-creds\n\n\nhttps://n8d.at/blog/how-to-version-new-sharepoint-framework-projects/?platform=hootsuite\n\n\n\n\nNPM\n\u00b6\n\n\nOptimization packages\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production\n\n\nhttps://rencore.com/sharepoint-framework/script-check/\n\n\n\n\nUpdate packages\n\u00b6\n\n\n\n\nhttps://gist.github.com/iki/ec32bfdeeb23930efd15\n\n\n\n\n# check\n\nnpm outdated -g\n\n\n# install\n\nnpm -g i npm-check\n\n\n# interactive update of global packages\n\nnpm-check -u -g\n\n\n# interactive update for a project you are working on\n\nnpm-check -u\n\n\n# unistall package\n\nnpm uninstall -g <module>\n\n\n\n\nCheck package version\n\u00b6\n\n\n\n\nhttps://github.com/dylang/npm-check\n\n\n\n\nList global npm  packages versions\n\n\nnpm list -g --depth \n0\n\n\n\n\n\nList detail global npm  package versions from one package\n\n\nnpm view @microsoft/generator-sharepoint\n\n\n\n\nUpdate SPFx Framework\n\u00b6\n\n\n\n\nhttps://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/\n\n\n\n\n# go into solution folder\n\nnpm outdated\n\n# search f\u00fcr \"@micorosoft/sp-\"\n\n\n# update all\n\nnpm install package-name@version --save\n\n# or\n\nnpm install package-name@latest --save\ngulp clean\ngulp build",
+            "text": "Toolchain\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain\n\n\nhttps://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md\n\n\n\n\nGulp\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/getting-up-to-speed-with-gulp/\n\n\nhttps://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0\n\n\nhttps://thomasdaly.net/2018/08/12/spfx-automatically-generating-revision-numbers/\n\n\n\n\nDeployment\n\u00b6\n\n\n\n\nhttps://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js\n\n\nhttps://github.com/estruyf/gulp-spsync-creds\n\n\nhttps://n8d.at/blog/how-to-version-new-sharepoint-framework-projects/?platform=hootsuite\n\n\n\n\nNPM\n\u00b6\n\n\nOptimization packages\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production\n\n\nhttps://rencore.com/sharepoint-framework/script-check/\n\n\n\n\nUpdate packages\n\u00b6\n\n\n\n\nhttps://gist.github.com/iki/ec32bfdeeb23930efd15\n\n\n\n\n# check\n\nnpm outdated -g\n\n\n# install\n\nnpm -g i npm-check\n\n\n# interactive update of global packages\n\nnpm-check -u -g\n\n\n# interactive update for a project you are working on\n\nnpm-check -u\n\n\n# unistall package\n\nnpm uninstall -g <module>\n\n\n\n\nCheck package version\n\u00b6\n\n\n\n\nhttps://github.com/dylang/npm-check\n\n\n\n\nList global npm  packages versions\n\n\nnpm list -g --depth \n0\n\n\n\n\n\nList detail global npm  package versions from one package\n\n\nnpm view @microsoft/generator-sharepoint\n\n\n\n\nUpdate SPFx Framework\n\u00b6\n\n\n\n\nhttps://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/\n\n\n\n\n# go into solution folder\n\nnpm outdated\n\n# search f\u00fcr \"@micorosoft/sp-\"\n\n\n# update all\n\nnpm install package-name@version --save\n\n# or\n\nnpm install package-name@latest --save\ngulp clean\ngulp build",
             "title": "Gulp"
         },
         {
@@ -1142,7 +1142,7 @@
         },
         {
             "location": "/toolchain/toolchain/#gulp",
-            "text": "https://www.eliostruyf.com/getting-up-to-speed-with-gulp/  https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0",
+            "text": "https://www.eliostruyf.com/getting-up-to-speed-with-gulp/  https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0  https://thomasdaly.net/2018/08/12/spfx-automatically-generating-revision-numbers/",
             "title": "Gulp"
         },
         {
