@@ -10,18 +10,19 @@
 
 ## Office Fabric
 
-- https://github.com/guzmonne/office-ui-layout
-- https://github.com/eoverfield/SP-Office-UI-Fabric
+- <https://github.com/guzmonne/office-ui-layout>
+- <https://github.com/eoverfield/SP-Office-UI-Fabric>
+- <https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App>
 
 ## Office Fabric / React / Redux
 
-- http://dattabase.com/office-fabric-reactredux-sp-starter-project/
-- http://dattabase.com/office-fabric-ui-reactredux-part-1-5/
-- https://github.com/gunjandatta/sp-react-redux
+- <http://dattabase.com/office-fabric-reactredux-sp-starter-project/>
+- <http://dattabase.com/office-fabric-ui-reactredux-part-1-5/>
+- <https://github.com/gunjandatta/sp-react-redux>
 
 ## Cloud
 
-- https://it.arvato.com/cloud-blog/de/2018/06/softwareentwicklung-in-der-cloud--was-aendert-sich-.html
+- <https://it.arvato.com/cloud-blog/de/2018/06/softwareentwicklung-in-der-cloud--was-aendert-sich-.html>
 
 ## Google Engineering
 
