@@ -7,7 +7,8 @@
 - <https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005>
 
 ```ts
-private async loadScripts(): Promise<void> { 
+
+private async loadScripts(): Promise<void> {
     return new Promise<void>(async (resolve) => {
         if(this._context) {
             resolve();
@@ -17,11 +18,13 @@ private async loadScripts(): Promise<void> {
         resolve();
     });
   }
-  ```
+
+```
 
 Load Data from SP-List [Code](https://github.com/SharePoint/sp-dev-fx-webparts/blob/master/samples/react-webhooks-realtime/src/webparts/realTimeList/components/RealTimeList.tsx)
 
 ```ts
+
 private async _loadList(): Promise<void> {
     this.setState({
         loading: true
@@ -44,5 +47,5 @@ private async _loadList(): Promise<void> {
     });
     _lastQueryDate = moment();
 }
- ```
- 
+
+```
