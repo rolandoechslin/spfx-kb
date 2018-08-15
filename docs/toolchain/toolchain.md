@@ -9,6 +9,7 @@
 
 - <https://www.eliostruyf.com/getting-up-to-speed-with-gulp/>
 - <https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0>
+- <https://thomasdaly.net/2018/08/12/spfx-automatically-generating-revision-numbers/>
 
 ### Deployment
 
