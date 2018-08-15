@@ -1366,44 +1366,42 @@
 <li><a href="https://github.com/jquintozamora/spfx-react-sp-pnp-js-property-decorators">https://github.com/jquintozamora/spfx-react-sp-pnp-js-property-decorators</a></li>
 <li><a href="https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005">https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005</a></li>
 </ul>
-<p>```ts
-private async loadScripts(): Promise<void> { 
-    return new Promise<void>(async (resolve) =&gt; {
-        if(this._context) {
-            resolve();
-        }</p>
-<div class="codehilite"><pre><span></span>    const response =  this.loadScript(layoutsUrl + &#39;init.js&#39;, &#39;Sod&#39;);
-    resolve();
-});
+<div class="codehilite"><pre><span></span><span class="kr">private</span> <span class="nx">async</span> <span class="nx">loadScripts</span><span class="p">()</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="k">void</span><span class="o">&gt;</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">new</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="k">void</span><span class="o">&gt;</span><span class="p">(</span><span class="nx">async</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">_context</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">resolve</span><span class="p">();</span>
+        <span class="p">}</span>
+
+        <span class="kr">const</span> <span class="nx">response</span> <span class="o">=</span>  <span class="k">this</span><span class="p">.</span><span class="nx">loadScript</span><span class="p">(</span><span class="nx">layoutsUrl</span> <span class="o">+</span> <span class="s1">&#39;init.js&#39;</span><span class="p">,</span> <span class="s1">&#39;Sod&#39;</span><span class="p">);</span>
+        <span class="nx">resolve</span><span class="p">();</span>
+    <span class="p">});</span>
+  <span class="p">}</span>
 </pre></div>
 
-
-<p>}
-  ```</p>
 <p>Load Data from SP-List <a href="https://github.com/SharePoint/sp-dev-fx-webparts/blob/master/samples/react-webhooks-realtime/src/webparts/realTimeList/components/RealTimeList.tsx">Code</a></p>
-<p><code>ts
-private async _loadList(): Promise&lt;void&gt; {
-    this.setState({
-        loading: true
-    });
-    let items = await pnp.sp.web.lists.getByTitle(&quot;Events&quot;).items.select(&quot;Id&quot;, &quot;Title&quot;, &quot;SPFxDescription&quot;, &quot;SPFxThumbnail&quot;)
-        .orderBy(&quot;Modified&quot;, false).get();
-    _items = items.map((item: IList, index: number) =&gt; {
-        return {
-        thumbnail: item.SPFxThumbnail != null ? item.SPFxThumbnail.Url : &quot;&quot;,
-        key: item.Id,
-        name: item.Title,
-        description: item.SPFxDescription
-        }
-    });
-    this.setState({
-        sortedItems: _items,
-        columns: _buildColumns(),
-        loading: false,
-        newsFeedVisible: false
-    });
-    _lastQueryDate = moment();
-}</code></p>
+<div class="codehilite"><pre><span></span><span class="kr">private</span> <span class="nx">async</span> <span class="nx">_loadList</span><span class="p">()</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="k">void</span><span class="o">&gt;</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">({</span>
+        <span class="nx">loading</span>: <span class="kt">true</span>
+    <span class="p">});</span>
+    <span class="kd">let</span> <span class="nx">items</span> <span class="o">=</span> <span class="nx">await</span> <span class="nx">pnp</span><span class="p">.</span><span class="nx">sp</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">lists</span><span class="p">.</span><span class="nx">getByTitle</span><span class="p">(</span><span class="s2">&quot;Events&quot;</span><span class="p">).</span><span class="nx">items</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="s2">&quot;Id&quot;</span><span class="p">,</span> <span class="s2">&quot;Title&quot;</span><span class="p">,</span> <span class="s2">&quot;SPFxDescription&quot;</span><span class="p">,</span> <span class="s2">&quot;SPFxThumbnail&quot;</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">orderBy</span><span class="p">(</span><span class="s2">&quot;Modified&quot;</span><span class="p">,</span> <span class="kc">false</span><span class="p">).</span><span class="nx">get</span><span class="p">();</span>
+    <span class="nx">_items</span> <span class="o">=</span> <span class="nx">items</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">item</span>: <span class="kt">IList</span><span class="p">,</span> <span class="nx">index</span>: <span class="kt">number</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="p">{</span>
+        <span class="nx">thumbnail</span>: <span class="kt">item.SPFxThumbnail</span> <span class="o">!=</span> <span class="kc">null</span> <span class="o">?</span> <span class="nx">item</span><span class="p">.</span><span class="nx">SPFxThumbnail</span><span class="p">.</span><span class="nx">Url</span> <span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="nx">key</span>: <span class="kt">item.Id</span><span class="p">,</span>
+        <span class="nx">name</span>: <span class="kt">item.Title</span><span class="p">,</span>
+        <span class="nx">description</span>: <span class="kt">item.SPFxDescription</span>
+        <span class="p">}</span>
+    <span class="p">});</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">({</span>
+        <span class="nx">sortedItems</span>: <span class="kt">_items</span><span class="p">,</span>
+        <span class="nx">columns</span>: <span class="kt">_buildColumns</span><span class="p">(),</span>
+        <span class="nx">loading</span>: <span class="kt">false</span><span class="p">,</span>
+        <span class="nx">newsFeedVisible</span>: <span class="kt">false</span>
+    <span class="p">});</span>
+    <span class="nx">_lastQueryDate</span> <span class="o">=</span> <span class="nx">moment</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
                 
                   
                 
