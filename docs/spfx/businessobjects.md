@@ -6,7 +6,7 @@
 - <https://github.com/jquintozamora/spfx-react-sp-pnp-js-property-decorators>
 - <https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005>
 
-```ts
+```tsx
 
 private async loadScripts(): Promise<void> {
     return new Promise<void>(async (resolve) => {
@@ -23,7 +23,7 @@ private async loadScripts(): Promise<void> {
 
 Load Data from SP-List [Code](https://github.com/SharePoint/sp-dev-fx-webparts/blob/master/samples/react-webhooks-realtime/src/webparts/realTimeList/components/RealTimeList.tsx)
 
-```ts
+```tsx
 
 private async _loadList(): Promise<void> {
     this.setState({

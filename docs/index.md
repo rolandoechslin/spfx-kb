@@ -30,19 +30,27 @@ gulp serve --nobrowser
 {spo site}/_layouts/15/workbench.aspx
 ```
 
+
+## Deployment Teanant
+
+```bs
+gulp build --ship
+```
+
+
 ## Logging with sp-core-library
 
 - <https://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API>
 
 Reference the Log class.
 
-```ts
+```tsx
 import { Log } from '@microsoft/sp-core-library';
 ```
 
 Log your message from your WebPart
 
-```ts
+```tsx
 Log.verbose("HelloWorld", "Here is a verbose log", this.context.serviceScope);
 
 Log.info("HelloWorld", "Here is an informational message.", this.context.serviceScope);
@@ -167,7 +175,7 @@ Sample Folder structur
 
 Interface to define our Data structure
 
-```ts
+```tsx
 export interface IHelpDeskItem {
   id?: number;
   title?: string;
@@ -181,7 +189,7 @@ export interface IHelpDeskItem {
 
 Interface to define our Data Access services
 
-```ts
+```tsx
 import { IHelpDeskItem } from "./../models/IHelpDeskItem";
 import { WebPartContext } from "@microsoft/sp-webpart-base";
 
@@ -197,7 +205,7 @@ export default interface IDataService {
 
 Mocking Service for testing in local Workbench development
 
-```ts
+```tsx
 import { IHelpDeskItem } from "./../models/IHelpDeskItem";
 import IDataService from "./IDataService";
 import { IWebPartContext } from "@microsoft/sp-webpart-base";
@@ -235,7 +243,7 @@ export default class MockDataService implements IDataService {
 
 [Source](https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/SharePointDataService.ts)
 
-```ts
+```tsx
 public getItems(context: WebPartContext): Promise<IHelpDeskItem[]> {
 return new Promise<IHelpDeskItem[]>((resolve, reject) => {
     context.spHttpClient
@@ -268,7 +276,7 @@ Advantages
 Init context in react webpart component
 [source](https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/webparts/listContent/ListContentWebPart.ts)
 
-```ts
+```tsx
 public onInit(): Promise<void> {
     return super.onInit().then(_ => {
         pnpSetup({
@@ -280,7 +288,7 @@ public onInit(): Promise<void> {
 
 init service in react webpart component
 
-```ts
+```tsx
 public render(): void {
     const element: React.ReactElement<IListContentProps> = React.createElement(
       ListContent,
@@ -298,7 +306,7 @@ public render(): void {
 Get items from list
 [Source](https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/PnPJSCoreDataService.ts)
 
-```ts
+```tsx
 public getItems(context: WebPartContext): Promise<IHelpDeskItem[]> {
 return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 
