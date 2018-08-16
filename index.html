@@ -425,6 +425,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#deployment-teanant" title="Deployment Teanant" class="md-nav__link">
+    Deployment Teanant
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#logging-with-sp-core-library" title="Logging with sp-core-library" class="md-nav__link">
     Logging with sp-core-library
   </a>
@@ -1461,6 +1468,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#deployment-teanant" title="Deployment Teanant" class="md-nav__link">
+    Deployment Teanant
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#logging-with-sp-core-library" title="Logging with sp-core-library" class="md-nav__link">
     Logging with sp-core-library
   </a>
@@ -1597,23 +1611,27 @@ git commit -m &quot;init repo&quot;
 <div class="codehilite"><pre><span></span>{spo site}/_layouts/15/workbench.aspx
 </pre></div>
 
+<h2 id="deployment-teanant">Deployment Teanant<a class="headerlink" href="#deployment-teanant" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>gulp build --ship
+</pre></div>
+
 <h2 id="logging-with-sp-core-library">Logging with sp-core-library<a class="headerlink" href="#logging-with-sp-core-library" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API">https://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API</a></li>
 </ul>
 <p>Reference the Log class.</p>
-<div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">Log</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@microsoft/sp-core-library&#39;</span><span class="p">;</span>
+<div class="codehilite"><pre><span></span>import { Log } from &#39;@microsoft/sp-core-library&#39;;
 </pre></div>
 
 <p>Log your message from your WebPart</p>
-<div class="codehilite"><pre><span></span><span class="nx">Log</span><span class="p">.</span><span class="nx">verbose</span><span class="p">(</span><span class="s2">&quot;HelloWorld&quot;</span><span class="p">,</span> <span class="s2">&quot;Here is a verbose log&quot;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">context</span><span class="p">.</span><span class="nx">serviceScope</span><span class="p">);</span>
+<div class="codehilite"><pre><span></span>Log.verbose(&quot;HelloWorld&quot;, &quot;Here is a verbose log&quot;, this.context.serviceScope);
 
-<span class="nx">Log</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="s2">&quot;HelloWorld&quot;</span><span class="p">,</span> <span class="s2">&quot;Here is an informational message.&quot;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">context</span><span class="p">.</span><span class="nx">serviceScope</span><span class="p">);</span>
+Log.info(&quot;HelloWorld&quot;, &quot;Here is an informational message.&quot;, this.context.serviceScope);
 
-<span class="nx">Log</span><span class="p">.</span><span class="nx">warn</span><span class="p">(</span><span class="s2">&quot;HelloWorld&quot;</span><span class="p">,</span> <span class="s2">&quot;Oh Oh, this might be bad&quot;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">context</span><span class="p">.</span><span class="nx">serviceScope</span><span class="p">);</span>
+Log.warn(&quot;HelloWorld&quot;, &quot;Oh Oh, this might be bad&quot;, this.context.serviceScope);
 
-<span class="nx">Log</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="s2">&quot;HelloWorld&quot;</span><span class="p">,</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s2">&quot;Oh No!  Error!  Ahhhhhh!!!!&quot;</span><span class="p">),</span> <span class="k">this</span><span class="p">.</span><span class="nx">context</span><span class="p">.</span><span class="nx">serviceScope</span><span class="p">);</span>
-<span class="nx">Logging</span> <span class="kd">with</span> <span class="kd">@pnp</span><span class="o">/</span><span class="nx">logging</span>
+Log.error(&quot;HelloWorld&quot;, new Error(&quot;Oh No!  Error!  Ahhhhhh!!!!&quot;), this.context.serviceScope);
+Logging with @pnp/logging
 </pre></div>
 
 <h2 id="custom-logging-pnp-logging">Custom logging (pnp-logging)<a class="headerlink" href="#custom-logging-pnp-logging" title="Permanent link">&para;</a></h2>
@@ -1727,84 +1745,84 @@ git commit -m &quot;init repo&quot;
 </ul>
 <h3 id="data-model">Data Model<a class="headerlink" href="#data-model" title="Permanent link">&para;</a></h3>
 <p>Interface to define our Data structure</p>
-<div class="codehilite"><pre><span></span><span class="kr">export</span> <span class="kr">interface</span> <span class="nx">IHelpDeskItem</span> <span class="p">{</span>
-  <span class="nx">id?</span>: <span class="kt">number</span><span class="p">;</span>
-  <span class="nx">title?</span>: <span class="kt">string</span><span class="p">;</span>
-  <span class="nx">description?</span>: <span class="kt">string</span><span class="p">;</span>
-  <span class="nx">level?</span>: <span class="kt">string</span><span class="p">;</span>
-  <span class="nx">status?</span>: <span class="kt">string</span><span class="p">;</span>
-  <span class="nx">assignedTo?</span>: <span class="kt">string</span><span class="p">;</span>
-  <span class="nx">resolution?</span>: <span class="kt">string</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span>export interface IHelpDeskItem {
+  id?: number;
+  title?: string;
+  description?: string;
+  level?: string;
+  status?: string;
+  assignedTo?: string;
+  resolution?: string;
+}
 </pre></div>
 
 <p>Interface to define our Data Access services</p>
-<div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">IHelpDeskItem</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&quot;./../models/IHelpDeskItem&quot;</span><span class="p">;</span>
-<span class="kr">import</span> <span class="p">{</span> <span class="nx">WebPartContext</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&quot;@microsoft/sp-webpart-base&quot;</span><span class="p">;</span>
+<div class="codehilite"><pre><span></span>import { IHelpDeskItem } from &quot;./../models/IHelpDeskItem&quot;;
+import { WebPartContext } from &quot;@microsoft/sp-webpart-base&quot;;
 
-<span class="kr">export</span> <span class="k">default</span> <span class="kr">interface</span> <span class="nx">IDataService</span> <span class="p">{</span>
-  <span class="nx">getTitle</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span><span class="p">;</span>
-  <span class="nx">isConfigured</span><span class="p">()</span><span class="o">:</span> <span class="kr">boolean</span><span class="p">;</span>
-  <span class="nx">getItems</span><span class="p">(</span><span class="nx">context</span>: <span class="kt">WebPartContext</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span><span class="p">;</span>
-  <span class="nx">addItem</span><span class="p">(</span><span class="nx">item</span>: <span class="kt">IHelpDeskItem</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="k">void</span><span class="o">&gt;</span><span class="p">;</span>
-  <span class="nx">deleteItem</span><span class="p">(</span><span class="nx">id</span>: <span class="kt">number</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="k">void</span><span class="o">&gt;</span><span class="p">;</span>
-<span class="p">}</span>
+export default interface IDataService {
+  getTitle(): string;
+  isConfigured(): boolean;
+  getItems(context: WebPartContext): Promise&lt;IHelpDeskItem[]&gt;;
+  addItem(item: IHelpDeskItem): Promise&lt;void&gt;;
+  deleteItem(id: number): Promise&lt;void&gt;;
+}
 </pre></div>
 
 <p>Mocking Service for testing in local Workbench development</p>
-<div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">IHelpDeskItem</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&quot;./../models/IHelpDeskItem&quot;</span><span class="p">;</span>
-<span class="kr">import</span> <span class="nx">IDataService</span> <span class="nx">from</span> <span class="s2">&quot;./IDataService&quot;</span><span class="p">;</span>
-<span class="kr">import</span> <span class="p">{</span> <span class="nx">IWebPartContext</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&quot;@microsoft/sp-webpart-base&quot;</span><span class="p">;</span>
+<div class="codehilite"><pre><span></span>import { IHelpDeskItem } from &quot;./../models/IHelpDeskItem&quot;;
+import IDataService from &quot;./IDataService&quot;;
+import { IWebPartContext } from &quot;@microsoft/sp-webpart-base&quot;;
 
-<span class="kr">export</span> <span class="k">default</span> <span class="kr">class</span> <span class="nx">MockDataService</span> <span class="kr">implements</span> <span class="nx">IDataService</span> <span class="p">{</span>
-<span class="p">...</span>
-  <span class="kr">private</span> <span class="nx">_webPartContext</span>: <span class="kt">IWebPartContext</span><span class="p">;</span>
-  <span class="kr">private</span> <span class="nx">_listId</span>: <span class="kt">string</span><span class="p">;</span>
+export default class MockDataService implements IDataService {
+...
+  private _webPartContext: IWebPartContext;
+  private _listId: string;
 
-  <span class="kr">constructor</span><span class="p">(</span><span class="nx">webPartContext</span>: <span class="kt">IWebPartContext</span><span class="p">,</span> <span class="nx">listId</span>: <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">_webPartContext</span> <span class="o">=</span> <span class="nx">webPartContext</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">_listId</span> <span class="o">=</span> <span class="nx">listId</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">...</span>
+  constructor(webPartContext: IWebPartContext, listId: string) {
+    this._webPartContext = webPartContext;
+    this._listId = listId;
+  }
+...
 
-  <span class="kr">public</span> <span class="nx">getItems</span><span class="p">(</span><span class="nx">context</span>: <span class="kt">IWebPartContext</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="k">new</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-      <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="nx">resolve</span><span class="p">([</span>
-        <span class="p">{</span>
-          <span class="nx">id</span> : <span class="kt">1</span><span class="p">,</span>
-          <span class="nx">title</span> <span class="o">:</span> <span class="s2">&quot;That doesn&#39;t work&quot;</span><span class="p">,</span>
-          <span class="nx">description</span> <span class="o">:</span> <span class="s2">&quot;When I do that, it doesn&#39;t work&quot;</span><span class="p">,</span>
-          <span class="nx">level</span> <span class="o">:</span> <span class="s2">&quot;Low&quot;</span><span class="p">,</span>
-          <span class="nx">status</span><span class="o">:</span> <span class="s2">&quot;Open&quot;</span><span class="p">,</span>
-          <span class="nx">resolution</span><span class="o">:</span> <span class="s2">&quot;Do this and it will work!&quot;</span><span class="p">,</span>
-          <span class="nx">assignedTo</span><span class="o">:</span> <span class="s2">&quot;Sébastien Levert&quot;</span><span class="p">,</span>
-        <span class="p">}</span>
-      <span class="p">]),</span> <span class="mi">300</span><span class="p">);</span>
-    <span class="p">});</span>
-  <span class="p">}</span>
-<span class="p">}</span>
+  public getItems(context: IWebPartContext): Promise&lt;IHelpDeskItem[]&gt; {
+    return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
+      setTimeout(() =&gt; resolve([
+        {
+          id : 1,
+          title : &quot;That doesn&#39;t work&quot;,
+          description : &quot;When I do that, it doesn&#39;t work&quot;,
+          level : &quot;Low&quot;,
+          status: &quot;Open&quot;,
+          resolution: &quot;Do this and it will work!&quot;,
+          assignedTo: &quot;Sébastien Levert&quot;,
+        }
+      ]), 300);
+    });
+  }
+}
 </pre></div>
 
 <h3 id="get-data-with-sharepoint-rest">Get Data with Sharepoint REST<a class="headerlink" href="#get-data-with-sharepoint-rest" title="Permanent link">&para;</a></h3>
 <p><a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/SharePointDataService.ts">Source</a></p>
-<div class="codehilite"><pre><span></span><span class="kr">public</span> <span class="nx">getItems</span><span class="p">(</span><span class="nx">context</span>: <span class="kt">WebPartContext</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span> <span class="p">{</span>
-<span class="k">return</span> <span class="k">new</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">context</span><span class="p">.</span><span class="nx">spHttpClient</span>
-    <span class="p">.</span><span class="nx">get</span><span class="p">(</span> <span class="sb">`</span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">_webPartContext</span><span class="p">.</span><span class="nx">pageContext</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">absoluteUrl</span><span class="si">}</span><span class="sb">/_api/web/lists/GetById(&#39;</span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">_listId</span><span class="si">}</span><span class="sb">&#39;)/items`</span> <span class="o">+</span>
-            <span class="sb">`?$select=*,HelpDeskAssignedTo/Title&amp;$expand=HelpDeskAssignedTo`</span><span class="p">,</span> <span class="nx">SPHttpClient</span><span class="p">.</span><span class="nx">configurations</span><span class="p">.</span><span class="nx">v1</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
-    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="p">{</span>
-        <span class="kd">let</span> <span class="nx">helpDeskItems</span>:<span class="kt">IHelpDeskItem</span><span class="p">[]</span> <span class="o">=</span> <span class="p">[];</span>
+<div class="codehilite"><pre><span></span>public getItems(context: WebPartContext): Promise&lt;IHelpDeskItem[]&gt; {
+return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
+    context.spHttpClient
+    .get( `${this._webPartContext.pageContext.web.absoluteUrl}/_api/web/lists/GetById(&#39;${this._listId}&#39;)/items` +
+            `?$select=*,HelpDeskAssignedTo/Title&amp;$expand=HelpDeskAssignedTo`, SPHttpClient.configurations.v1)
+    .then(res =&gt; res.json())
+    .then(res =&gt; {
+        let helpDeskItems:IHelpDeskItem[] = [];
 
-        <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">helpDeskListItem</span> <span class="nx">of</span> <span class="nx">res</span><span class="p">.</span><span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">helpDeskItems</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">buildHelpDeskItem</span><span class="p">(</span><span class="nx">helpDeskListItem</span><span class="p">));</span>
-        <span class="p">}</span>
+        for(let helpDeskListItem of res.value) {
+        helpDeskItems.push(this.buildHelpDeskItem(helpDeskListItem));
+        }
 
-        <span class="nx">resolve</span><span class="p">(</span><span class="nx">helpDeskItems</span><span class="p">);</span>
-    <span class="p">})</span>
-    <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">err</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">err</span><span class="p">));</span>
-<span class="p">});</span>
-<span class="p">}</span>
+        resolve(helpDeskItems);
+    })
+    .catch(err =&gt; console.log(err));
+});
+}
 </pre></div>
 
 <h3 id="get-data-with-pnp-js-core">Get Data with Pnp-JS-Core<a class="headerlink" href="#get-data-with-pnp-js-core" title="Permanent link">&para;</a></h3>
@@ -1817,49 +1835,49 @@ git commit -m &quot;init repo&quot;
 </ul>
 <p>Init context in react webpart component
 <a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/webparts/listContent/ListContentWebPart.ts">source</a></p>
-<div class="codehilite"><pre><span></span><span class="kr">public</span> <span class="nx">onInit</span><span class="p">()</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="k">void</span><span class="o">&gt;</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="kr">super</span><span class="p">.</span><span class="nx">onInit</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">_</span> <span class="o">=&gt;</span> <span class="p">{</span>
-        <span class="nx">pnpSetup</span><span class="p">({</span>
-        <span class="nx">spfxContext</span>: <span class="kt">this.context</span>
-        <span class="p">});</span>
-    <span class="p">});</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span>public onInit(): Promise&lt;void&gt; {
+    return super.onInit().then(_ =&gt; {
+        pnpSetup({
+        spfxContext: this.context
+        });
+    });
+}
 </pre></div>
 
 <p>init service in react webpart component</p>
-<div class="codehilite"><pre><span></span><span class="kr">public</span> <span class="nx">render</span><span class="p">()</span><span class="o">:</span> <span class="k">void</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">element</span>: <span class="kt">React.ReactElement</span><span class="o">&lt;</span><span class="nx">IListContentProps</span><span class="o">&gt;</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span>
-      <span class="nx">ListContent</span><span class="p">,</span>
-      <span class="p">{</span>
-        <span class="nx">context</span>: <span class="kt">this.context</span><span class="p">,</span>
-        <span class="nx">dataService</span>: <span class="kt">this.getDataService</span><span class="p">(),</span>
-        <span class="nx">list</span>: <span class="kt">this.properties.list</span>
-      <span class="p">}</span>
-    <span class="p">);</span>
+<div class="codehilite"><pre><span></span>public render(): void {
+    const element: React.ReactElement&lt;IListContentProps&gt; = React.createElement(
+      ListContent,
+      {
+        context: this.context,
+        dataService: this.getDataService(),
+        list: this.properties.list
+      }
+    );
 
-    <span class="nx">ReactDom</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="nx">element</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">domElement</span><span class="p">);</span>
-<span class="p">}</span>
+    ReactDom.render(element, this.domElement);
+}
 </pre></div>
 
 <p>Get items from list
 <a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/PnPJSCoreDataService.ts">Source</a></p>
-<div class="codehilite"><pre><span></span><span class="kr">public</span> <span class="nx">getItems</span><span class="p">(</span><span class="nx">context</span>: <span class="kt">WebPartContext</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span> <span class="p">{</span>
-<span class="k">return</span> <span class="k">new</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">IHelpDeskItem</span><span class="p">[]</span><span class="o">&gt;</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+<div class="codehilite"><pre><span></span>public getItems(context: WebPartContext): Promise&lt;IHelpDeskItem[]&gt; {
+return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
 
-    <span class="nx">sp</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">lists</span><span class="p">.</span><span class="nx">getById</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">_listId</span><span class="p">).</span><span class="nx">items</span>
-    <span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="s2">&quot;*&quot;</span><span class="p">,</span> <span class="s2">&quot;HelpDeskAssignedTo/Title&quot;</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">expand</span><span class="p">(</span><span class="s2">&quot;HelpDeskAssignedTo&quot;</span><span class="p">).</span><span class="nx">getAll</span><span class="p">().</span><span class="nx">then</span><span class="p">((</span><span class="nx">sessionItems</span>: <span class="kt">any</span><span class="p">[])</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="kd">let</span> <span class="nx">helpDeskItems</span>:<span class="kt">IHelpDeskItem</span><span class="p">[]</span> <span class="o">=</span> <span class="p">[];</span>
+    sp.web.lists.getById(this._listId).items
+    .select(&quot;*&quot;, &quot;HelpDeskAssignedTo/Title&quot;)
+    .expand(&quot;HelpDeskAssignedTo&quot;).getAll().then((sessionItems: any[]) =&gt; {
+    let helpDeskItems:IHelpDeskItem[] = [];
 
-    <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">helpDeskListItem</span> <span class="nx">of</span> <span class="nx">sessionItems</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">helpDeskItems</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">buildHelpDeskItem</span><span class="p">(</span><span class="nx">helpDeskListItem</span><span class="p">));</span>
-    <span class="p">}</span>
+    for(let helpDeskListItem of sessionItems) {
+        helpDeskItems.push(this.buildHelpDeskItem(helpDeskListItem));
+    }
 
-    <span class="nx">resolve</span><span class="p">(</span><span class="nx">helpDeskItems</span><span class="p">);</span>
-    <span class="p">});</span>
+    resolve(helpDeskItems);
+    });
 
-<span class="p">});</span>
-<span class="p">}</span>
+});
+}
 </pre></div>
                 
                   
