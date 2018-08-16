@@ -1,5 +1,9 @@
 # Provisioning
 
+## Langugae
+
+- <https://www.eliostruyf.com/demystifying-the-mystery-behind-the-ui-language-in-sharepoint>
+
 ## Links
 
 - <https://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html>

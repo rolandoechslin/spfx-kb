@@ -20,10 +20,14 @@ mkdocs help # Print this help message.
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-## Deployment
+## Deployment GitHub Pages
 
 - https://www.mkdocs.org/user-guide/deploying-your-docs/
 
 ```bash
 mkdocs gh-deploy
 ```
+
+## Deployment Azure Storage
+
+- <https://www.eliostruyf.com/automate-publishing-process-of-mkdocs-to-static-website-hosting-in-azure-storage-with-vsts>
