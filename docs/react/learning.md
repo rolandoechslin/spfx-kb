@@ -17,13 +17,13 @@
 
 ## Cheatsheet
 
-- https://devhints.io/react
-- https://github.com/sw-yx/react-typescript-cheatsheet
-- https://github.com/piotrwitek/react-redux-typescript-guide
+- <https://devhints.io/react>
+- <https://github.com/sw-yx/react-typescript-cheatsheet>
+- <https://github.com/piotrwitek/react-redux-typescript-guide>
 
 ## Patterns
 
-- https://legacy.gitbook.com/book/krasimir/react-in-patterns/details
+- <https://legacy.gitbook.com/book/krasimir/react-in-patterns/details>
 
 ## SP2016
 
@@ -35,4 +35,8 @@
 
 ## Lessons
 
-- https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981
+- <https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981>
+
+## Frameworks
+
+- <https://github.com/STRML/react-grid-layout>

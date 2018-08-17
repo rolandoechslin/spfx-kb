@@ -34,7 +34,10 @@ gulp serve --nobrowser
 ## Deployment Teanant
 
 ```bs
-gulp build --ship
+gulp clean
+gulp build
+gulp --ship
+gulp package-solution --ship
 ```
 
 
