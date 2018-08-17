@@ -1,33 +1,36 @@
 # Search
 
 ## Search Tips
-- http://icansharepoint.com/how-to-improve-your-sharepoint-search-results/
-http://icansharepoint.com/how-to-search-in-sharepoint/
+- <http://icansharepoint.com/how-to-improve-your-sharepoint-search-results>
+- <http://icansharepoint.com/how-to-search-in-sharepoint>
+
+## Managed Properties
+
+- <https://www.sharepointeurope.com/display-search-results-sharepoint-online>
 
 ## Keyword Query Language (KQL) syntax reference
 
-- https://support.office.com/en-us/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3
-- https://dev.office.com/sharepoint/docs/general-development/customizing-ranking-models-to-improve-relevance-in-sharepoint
-- http://sympmarc.com/series/create-a-simple-sharepoint-2013-employee-directory-on-office365/
+- <https://support.office.com/en-us/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3>
+- <https://dev.office.com/sharepoint/docs/general-development/customizing-ranking-models-to-improve-relevance-in-sharepoint>
+- <http://sympmarc.com/series/create-a-simple-sharepoint-2013-employee-directory-on-office365/>
 
 ## Crawl Logs
 
-- http://blogs.catapultsystems.com/eskaggs/archive/2015/05/20/microsoft-guidance-on-search-crawls-in-sharepoint-online/
-- https://blogs.technet.microsoft.com/o365totd/2015/10/30/viewing-crawl-logs-in-sharepoint-online-office-365/
-- https://github.com/wobba/SPO-Trigger-Reindex
+- <http://blogs.catapultsystems.com/eskaggs/archive/2015/05/20/microsoft-guidance-on-search-crawls-in-sharepoint-online/>
+- <https://blogs.technet.microsoft.com/o365totd/2015/10/30/viewing-crawl-logs-in-sharepoint-online-office-365/>
+- <https://github.com/wobba/SPO-Trigger-Reindex>
 
 ## Content Source
 
 ## OneNote
 
-- https://blog.ioz.ch/onenote-notizbuecher-ueber-search-anzeigen/
-
-- http://www.techmikael.com/2015/07/how-to-do-light-weight-search-center_21.html
-- http://www.techmikael.com/2017/01/clarification-on-automatic-managed.html
+- <https://blog.ioz.ch/onenote-notizbuecher-ueber-search-anzeigen/>
+- <http://www.techmikael.com/2015/07/how-to-do-light-weight-search-center_21.html>
+- <http://www.techmikael.com/2017/01/clarification-on-automatic-managed.html>
 
 ## DocumentID
 
-- http://www.nubo.eu/en/blog/2017/02/Improve-Search-Experience-Documents-With-DocumentId/
+- <http://www.nubo.eu/en/blog/2017/02/Improve-Search-Experience-Documents-With-DocumentId/>
 
 ## Ranking
 
