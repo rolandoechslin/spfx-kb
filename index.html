@@ -1612,7 +1612,10 @@ git commit -m &quot;init repo&quot;
 </pre></div>
 
 <h2 id="deployment-teanant">Deployment Teanant<a class="headerlink" href="#deployment-teanant" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>gulp build --ship
+<div class="codehilite"><pre><span></span>gulp clean
+gulp build
+gulp --ship
+gulp package-solution --ship
 </pre></div>
 
 <h2 id="logging-with-sp-core-library">Logging with sp-core-library<a class="headerlink" href="#logging-with-sp-core-library" title="Permanent link">&para;</a></h2>
