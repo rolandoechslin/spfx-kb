@@ -21,3 +21,34 @@
 ## Typings
 
 - https://github.com/cashfarm/autotypes
+
+## Code Snippets
+
+### isEmptyString
+
+```ts
+/**
+    * Check if the value is null, undefined or empty
+    *
+    * @param value
+    */
+private _isEmptyString(value: string): boolean {
+    return value === null || typeof value === "undefined" || !value.length;
+}
+
+```
+
+### _isNull
+
+```ts
+/**
+    * Check if the value is null or undefined
+    *
+    * @param value
+    */
+private _isNull(value: any): boolean {
+    return value === null || typeof value === "undefined";
+}
+```
+
+
