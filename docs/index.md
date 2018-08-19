@@ -1,6 +1,10 @@
 
 # Tips and tricks
 
+## SharePoint PNP Community
+- [SharePoint PnP resources](https://docs.microsoft.com/en-us/sharepoint/dev/community/community)
+- [Sharepoint Glossar](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-glossary)
+
 ## Create WebPart
 
 ```bs
