@@ -15,6 +15,12 @@
 - https://survivejs.com/react/
 - https://github.com/markerikson/react-redux-links
 
+
+## Styleguide
+
+- [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/blob/master/react/README.md
+)
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 ## Cheatsheet
 
 - <https://devhints.io/react>
