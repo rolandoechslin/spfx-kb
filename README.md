@@ -16,11 +16,18 @@ Knowledge base for SharePoint Framework (SPFx) snippets and links.
         ...       # Other markdown pages, images and other files.
 ```
 
+## Installation
+choco install mkdocs
+pip install pymdown-extensions
+pip install mkdocs-material
+
+## Build
+mkdocs build
+
 ## Deployment
 
 - https://www.mkdocs.org/user-guide/deploying-your-docs/
 
-```Powershel
+```Powershell
 mkdocs gh-deploy
 ```
-
