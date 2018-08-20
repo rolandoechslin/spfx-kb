@@ -40,7 +40,7 @@
     
     
       
-        <title>Setup - SPFx-KB</title>
+        <title>Debugging - SPFx-KB</title>
       
     
     
@@ -102,7 +102,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../../#setup-spfx-environment" tabindex="1" class="md-skip">
+      <a href="../../#debugging" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -128,7 +128,7 @@
                 SPFx-KB
               </span>
               <span class="md-header-nav__topic">
-                Setup
+                Debugging
               </span>
             
           
@@ -200,16 +200,14 @@
       
         
 
-  
-
-<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+<nav class="md-tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="../.." title="Home" class="md-tabs__link">
+      <a href="../.." title="Home" class="md-tabs__link md-tabs__link--active">
         Home
       </a>
     
@@ -221,7 +219,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="./" title="Dev Camp" class="md-tabs__link md-tabs__link--active">
+        <a href="../setup/" title="Dev Camp" class="md-tabs__link">
           Dev Camp
         </a>
       
@@ -407,12 +405,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
       Dev Camp
@@ -428,63 +424,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Setup
-      </label>
-    
-    <a href="./" title="Setup" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../setup/" title="Setup" class="md-nav__link">
       Setup
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#install-everything-you-need-for-spfx" title="Install everything you need for SPFx" class="md-nav__link">
-    Install everything you need for SPFx
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#install-everything-you-need-to-work-real-gooood" title="Install everything you need to work real gooood" class="md-nav__link">
-    Install everything you need to work real gooood
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prepare-vs-code" title="Prepare VS Code" class="md-nav__link">
-    Prepare VS Code
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -1426,22 +1370,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install-everything-you-need-for-spfx" title="Install everything you need for SPFx" class="md-nav__link">
-    Install everything you need for SPFx
+  <a href="#requirements" title="Requirements" class="md-nav__link">
+    Requirements
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#install-everything-you-need-to-work-real-gooood" title="Install everything you need to work real gooood" class="md-nav__link">
-    Install everything you need to work real gooood
+  <a href="#prepare" title="Prepare" class="md-nav__link">
+    Prepare
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#prepare-vs-code" title="Prepare VS Code" class="md-nav__link">
-    Prepare VS Code
+  <a href="#local" title="Local" class="md-nav__link">
+    Local
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remote" title="Remote" class="md-nav__link">
+    Remote
   </a>
   
 </li>
@@ -1462,28 +1413,20 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/rolandoechslin/spfx-kb/blob/master/docs/devCamp/setup.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/rolandoechslin/spfx-kb/blob/master/docs/devCamp/debugging.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="setup-spfx-environment">Setup SPFx Environment<a class="headerlink" href="#setup-spfx-environment" title="Permanent link">&para;</a></h1>
-<p>Hier lernt ihr, wie ihr eure Maschine zur SPFx DEV Maschine ergänzt.</p>
-<p>Am Ende werdet ihr folgendes erledigt haben:
-- NVM installiert
-- node.js installiert
-- Notwendige NPM-Module installiert
-- Mit yo ein neus SPFx Projekt erstellt
-- Notwendige Tools und Extensions installiert</p>
-<h2 id="install-everything-you-need-for-spfx">Install everything you need for SPFx<a class="headerlink" href="#install-everything-you-need-for-spfx" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="nb">Get-SPSite</span>
-</pre></div>
-
-<h2 id="install-everything-you-need-to-work-real-gooood">Install everything you need to work real gooood<a class="headerlink" href="#install-everything-you-need-to-work-real-gooood" title="Permanent link">&para;</a></h2>
-<h2 id="prepare-vs-code">Prepare VS Code<a class="headerlink" href="#prepare-vs-code" title="Permanent link">&para;</a></h2>
-<p>Install Extension with COL-TOOLS
-Import Cost: </p>
-<p>Prettier</p>
-<p>Auto Import</p>
-<p>TSLINT</p>
+                <h1 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link">&para;</a></h1>
+<p>Weiterführende Informationen: <a href="../../spfx/debug/">SPFx Debugging</a></p>
+<h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
+<p>Chrome Extension für VS Code</p>
+<h2 id="prepare">Prepare<a class="headerlink" href="#prepare" title="Permanent link">&para;</a></h2>
+<p>gulp trust-dev-cert
+gulp serve</p>
+<p>!!!notwendige VS Code Einstellungen!!!</p>
+<h2 id="local">Local<a class="headerlink" href="#local" title="Permanent link">&para;</a></h2>
+<h2 id="remote">Remote<a class="headerlink" href="#remote" title="Permanent link">&para;</a></h2>
+<p><a href="https://tenant.sharepoint.com/sites/testsite/_layouts/15/workbench.aspx">https://tenant.sharepoint.com/sites/testsite/_layouts/15/workbench.aspx</a> (???Korrekt???)</p>
                 
                   
                 
@@ -1500,41 +1443,6 @@ Import Cost: </p>
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href="../.." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Home
-              </span>
-            </div>
-          </a>
-        
-        
-          <a href="../firstSession/" title="Session 1" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Session 1
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
