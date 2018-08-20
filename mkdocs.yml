@@ -5,6 +5,10 @@ site_author: 'Roland Oechslin'
 
 pages:
     - Home: index.md
+    - Dev Camp:
+        - Setup: devCamp/setup.md
+        - Session 1: devCamp/firstSession.md
+        - Ideas: devCamp/ideas.md
     - SPFx:
         - Start: spfx/start.md
         - Azure: spfx/azure.md
