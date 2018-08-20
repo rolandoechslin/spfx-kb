@@ -344,3 +344,28 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 });
 }
 ```
+
+### Start Office Fabric React
+
+Create Sample
+
+- https://github.com/Microsoft/TypeScript-React-Starter
+- https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App
+
+```bs
+create-react-app demo-office-fabric-react-ts --scripts-version=react-scripts-ts
+```
+
+init git
+
+```bs
+git init
+git add .
+git commit -m "Initial commit."
+```
+
+add office fabric react
+
+```bs
+yarn add office-ui-fabric-react --save
+```
