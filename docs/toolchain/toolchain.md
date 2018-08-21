@@ -10,13 +10,13 @@
 - <https://www.eliostruyf.com/getting-up-to-speed-with-gulp/>
 - <https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0>
 - <https://thomasdaly.net/2018/08/12/spfx-automatically-generating-revision-numbers/>
+- <https://thomasdaly.net/2018/08/21/update-spfx-automatically-generating-revision-numbers-versioning/>
 
 ### Deployment
 
 - <https://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js>
 - <https://github.com/estruyf/gulp-spsync-creds>
 - <https://n8d.at/blog/how-to-version-new-sharepoint-framework-projects/?platform=hootsuite>
-
 
 ## NPM
 
