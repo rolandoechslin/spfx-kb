@@ -177,7 +177,7 @@
         },
         {
             "location": "/devcamp/samples/sitemetacard/",
-            "text": "Site Meta Card Beispiel\n\u00b6\n\n\nVorbedinungen\n\u00b6\n\n\nIn einer SiteCollection existiert ein definiertes InfoItem.\n\n\nTODO: Provisionierund der Liste und ein Item \u00fcber PS-Script\n\n\nErstelle Projekt\n\u00b6\n\n\nmkdir SpfxDevCamp2018\ncd SpfxDevCamp2018\nyo @microsoft/sharepoint\n\n\n\n\nYoman Optionen\n\u00b6\n\n\n\n\nSolution Name: default\n\n\nBaseline Package: SharePoint Online only\n\n\nTarget Location: Use the current folder\n\n\nTenant Admin: No\n\n\nProject Type: WebPart\n\n\nProject Name: SiteMetaCard\n\n\nProject Description: Display the site information from Information Item.\n\n\nFramework: React\n\n\n\n\nDevelopment - local workbench\n\u00b6\n\n\ngulp serve\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment - online workbench\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\n{spo site}/_layouts/15/workbench.aspx\n\n\n\n\nInstall Pnp Librarys\n\u00b6\n\n\nPnpJs\n\u00b6\n\n\n\n\nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide\n\n\n\n\nnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\nPnp React Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-controls-react/\n\n\n\n\nnpm install @pnp/spfx-controls-react --save --save-exact\n\n\n\n\nPnp Property Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-property-controls/\n\n\n\n\nnpm install @pnp/spfx-property-controls --save --save-exact\n\n\n\n\nReference Librarys\n\u00b6\n\n\nImport...\n\n\n\n\nFunktion\n\u00b6\n\n\nDarstellen der Meta SiteCollection Informationen (gespeichert in einem Listitem) in einem SPFx Webpart. Anzeige eines Load... Screens, wenn die Daten geladen werden.\n\n\nFile Struktur im src Folder\n\u00b6\n\n\nAlle Webparts\n\n\n/src/webparts\n\n\n\n\nHelper Klassen\n\n\n/src/common\n\n\n\n\nGemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)\n\n\n/src/shared/components\n\n\n\n\nGemeinsame Datenzugriff Provider (ListMockService, SPListService, SPSearchService usw.)\n\n\n/src/shared/services\n\n\n\n\nVorgehen f\u00fcr ListMock Provider\n\u00b6\n\n\n\n\nErstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)\n\n\nErstelle Daten Model, welche die Datentypen definert (InfoItem.ts)\n\n\nErstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert in IListService.ts\n\n\nErstelle eine ListMockService (mit Daten), welche die IListService.ts Schnittstelle implementiert\n\n\nErstelle eine public Function getFirstItem() der die Mockdaten zur\u00fcckliefert\n\n\n\n\nVorgehen f\u00fcr SPListService Provider\n\u00b6\n\n\n\n\nErstelle eine SpListService.ts, welche die IListService.ts Schnittstelle implementiert\n\n\nErstelle eine public Function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu pnpjs \nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\n\n\nZusatz Aufgabe 1\n\u00b6\n\n\nAnzeige des Owner in einm Office 365 Persona Format \nhttps://developer.microsoft.com/en-us/fabric#/components/persona\n\n\nZusatz Aufgabe 2\n\u00b6\n\n\nAnzeige des Persona Format konfigurierbar \u00fcber ein Checkbox WebPart Properties (ShowPersona)",
+            "text": "Site Meta Card Beispiel\n\u00b6\n\n\nVorbedinungen\n\u00b6\n\n\nSite Collection provisionierung\n\u00b6\n\n\nIn einer SiteCollection existiert ein definiertes InfoItem.\n\n\nTODO: Provisionierund der Liste und ein Item \u00fcber PS-Script\n\n\nCode Guidlines\n\u00b6\n\n\n\n\nhttps://rolandoechslin.github.io/spfx-kb/#code-guideline\n\n\n\n\nErstelle Projekt\n\u00b6\n\n\nmkdir SpfxDevCamp2018\ncd SpfxDevCamp2018\nyo @microsoft/sharepoint\n\n\n\n\nYoman Optionen\n\u00b6\n\n\n\n\nSolution Name: default\n\n\nBaseline Package: SharePoint Online only\n\n\nTarget Location: Use the current folder\n\n\nTenant Admin: No\n\n\nProject Type: WebPart\n\n\nProject Name: SiteMetaCard\n\n\nProject Description: Display the site information from Information Item.\n\n\nFramework: React\n\n\n\n\nDevelopment - local workbench\n\u00b6\n\n\ngulp serve\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment - online workbench\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\n/_layouts/15/workbench.aspx\n\n\n\n\nInstall Pnp Librarys\n\u00b6\n\n\nPnpJs\n\u00b6\n\n\n\n\nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide\n\n\n\n\nnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\nPnp React Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-controls-react/\n\n\n\n\nnpm install @pnp/spfx-controls-react --save --save-exact\n\n\n\n\nPnp Property Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-property-controls/\n\n\n\n\nnpm install @pnp/spfx-property-controls --save --save-exact\n\n\n\n\nReference Librarys\n\u00b6\n\n\nImport...\n\n\n\n\nFunktion\n\u00b6\n\n\nDarstellen der Meta SiteCollection Informationen (gespeichert in einem Listitem) in einem SPFx Webpart. Anzeige eines Load... Screens, wenn die Daten geladen werden.\n\n\nFile Struktur im src Folder\n\u00b6\n\n\nAlle Webparts\n\n\n/src/webparts\n\n\n\n\nHelper Klassen\n\n\n/src/common\n\n\n\n\nGemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)\n\n\n/src/shared/components\n\n\n\n\nGemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)\n\n\n/src/shared/services\n\n\n\n\nVorgehen f\u00fcr UX\n\u00b6\n\n\n\n\nErstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)\n\n\n\n\nVorgehen f\u00fcr ListMock Provider\n\u00b6\n\n\n\n\nErstelle Daten Model, welche die Datentypen definert (InfoItem.ts)\n\n\nErstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert in IListService\n\n\nErstelle eine ListMockService (mit Daten), welche die IListService.ts Schnittstelle implementiert\n\n\nErstelle eine public Function getFirstItem() der die Mockdaten zur\u00fcckliefert\n\n\n\n\nVorgehen f\u00fcr SPListService Provider\n\u00b6\n\n\n\n\nErstelle eine SpListService, welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public Function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu pnpjs \nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\n\n\nZusatz Aufgabe 1\n\u00b6\n\n\nAnzeige des Owner in einm Office 365 Persona Format \nhttps://developer.microsoft.com/en-us/fabric#/components/persona\n\n\nZusatz Aufgabe 2\n\u00b6\n\n\nAnzeige des Persona Format konfigurierbar \u00fcber ein Checkbox WebPart Properties (ShowPersona)",
             "title": "SiteMetaCard"
         },
         {
@@ -187,8 +187,18 @@
         },
         {
             "location": "/devcamp/samples/sitemetacard/#vorbedinungen",
-            "text": "In einer SiteCollection existiert ein definiertes InfoItem.  TODO: Provisionierund der Liste und ein Item \u00fcber PS-Script",
+            "text": "",
             "title": "Vorbedinungen"
+        },
+        {
+            "location": "/devcamp/samples/sitemetacard/#site-collection-provisionierung",
+            "text": "In einer SiteCollection existiert ein definiertes InfoItem.  TODO: Provisionierund der Liste und ein Item \u00fcber PS-Script",
+            "title": "Site Collection provisionierung"
+        },
+        {
+            "location": "/devcamp/samples/sitemetacard/#code-guidlines",
+            "text": "https://rolandoechslin.github.io/spfx-kb/#code-guideline",
+            "title": "Code Guidlines"
         },
         {
             "location": "/devcamp/samples/sitemetacard/#erstelle-projekt",
@@ -207,7 +217,7 @@
         },
         {
             "location": "/devcamp/samples/sitemetacard/#development-online-workbench",
-            "text": "gulp serve --nobrowser  {spo site}/_layouts/15/workbench.aspx",
+            "text": "gulp serve --nobrowser  /_layouts/15/workbench.aspx",
             "title": "Development - online workbench"
         },
         {
@@ -242,17 +252,22 @@
         },
         {
             "location": "/devcamp/samples/sitemetacard/#file-struktur-im-src-folder",
-            "text": "Alle Webparts  /src/webparts  Helper Klassen  /src/common  Gemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)  /src/shared/components  Gemeinsame Datenzugriff Provider (ListMockService, SPListService, SPSearchService usw.)  /src/shared/services",
+            "text": "Alle Webparts  /src/webparts  Helper Klassen  /src/common  Gemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)  /src/shared/components  Gemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)  /src/shared/services",
             "title": "File Struktur im src Folder"
         },
         {
+            "location": "/devcamp/samples/sitemetacard/#vorgehen-fur-ux",
+            "text": "Erstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)",
+            "title": "Vorgehen f\u00fcr UX"
+        },
+        {
             "location": "/devcamp/samples/sitemetacard/#vorgehen-fur-listmock-provider",
-            "text": "Erstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)  Erstelle Daten Model, welche die Datentypen definert (InfoItem.ts)  Erstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert in IListService.ts  Erstelle eine ListMockService (mit Daten), welche die IListService.ts Schnittstelle implementiert  Erstelle eine public Function getFirstItem() der die Mockdaten zur\u00fcckliefert",
+            "text": "Erstelle Daten Model, welche die Datentypen definert (InfoItem.ts)  Erstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert in IListService  Erstelle eine ListMockService (mit Daten), welche die IListService.ts Schnittstelle implementiert  Erstelle eine public Function getFirstItem() der die Mockdaten zur\u00fcckliefert",
             "title": "Vorgehen f\u00fcr ListMock Provider"
         },
         {
             "location": "/devcamp/samples/sitemetacard/#vorgehen-fur-splistservice-provider",
-            "text": "Erstelle eine SpListService.ts, welche die IListService.ts Schnittstelle implementiert  Erstelle eine public Function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu pnpjs  https://pnp.github.io/pnpjs/getting-started.html",
+            "text": "Erstelle eine SpListService, welche die IListService Schnittstelle implementiert  Erstelle eine public Function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu pnpjs  https://pnp.github.io/pnpjs/getting-started.html",
             "title": "Vorgehen f\u00fcr SPListService Provider"
         },
         {

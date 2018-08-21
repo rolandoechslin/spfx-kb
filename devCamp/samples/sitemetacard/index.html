@@ -513,6 +513,26 @@
     Vorbedinungen
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#site-collection-provisionierung" title="Site Collection provisionierung" class="md-nav__link">
+    Site Collection provisionierung
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-guidlines" title="Code Guidlines" class="md-nav__link">
+    Code Guidlines
+  </a>
+  
 </li>
       
         <li class="md-nav__item">
@@ -598,6 +618,13 @@
   
     <nav class="md-nav">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vorgehen-fur-ux" title="Vorgehen für UX" class="md-nav__link">
+    Vorgehen für UX
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#vorgehen-fur-listmock-provider" title="Vorgehen für ListMock Provider" class="md-nav__link">
@@ -1566,6 +1593,26 @@
     Vorbedinungen
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#site-collection-provisionierung" title="Site Collection provisionierung" class="md-nav__link">
+    Site Collection provisionierung
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-guidlines" title="Code Guidlines" class="md-nav__link">
+    Code Guidlines
+  </a>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1653,6 +1700,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#vorgehen-fur-ux" title="Vorgehen für UX" class="md-nav__link">
+    Vorgehen für UX
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#vorgehen-fur-listmock-provider" title="Vorgehen für ListMock Provider" class="md-nav__link">
     Vorgehen für ListMock Provider
   </a>
@@ -1706,8 +1760,13 @@
                 
                 <h1 id="site-meta-card-beispiel">Site Meta Card Beispiel<a class="headerlink" href="#site-meta-card-beispiel" title="Permanent link">&para;</a></h1>
 <h2 id="vorbedinungen">Vorbedinungen<a class="headerlink" href="#vorbedinungen" title="Permanent link">&para;</a></h2>
+<h3 id="site-collection-provisionierung">Site Collection provisionierung<a class="headerlink" href="#site-collection-provisionierung" title="Permanent link">&para;</a></h3>
 <p>In einer SiteCollection existiert ein definiertes InfoItem.</p>
 <p>TODO: Provisionierund der Liste und ein Item über PS-Script</p>
+<h2 id="code-guidlines">Code Guidlines<a class="headerlink" href="#code-guidlines" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://rolandoechslin.github.io/spfx-kb/#code-guideline">https://rolandoechslin.github.io/spfx-kb/#code-guideline</a></li>
+</ul>
 <h2 id="erstelle-projekt">Erstelle Projekt<a class="headerlink" href="#erstelle-projekt" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>mkdir SpfxDevCamp2018
 cd SpfxDevCamp2018
@@ -1736,7 +1795,7 @@ yo @microsoft/sharepoint
 <div class="codehilite"><pre><span></span>gulp serve --nobrowser
 </pre></div>
 
-<div class="codehilite"><pre><span></span>{spo site}/_layouts/15/workbench.aspx
+<div class="codehilite"><pre><span></span>/_layouts/15/workbench.aspx
 </pre></div>
 
 <h2 id="install-pnp-librarys">Install Pnp Librarys<a class="headerlink" href="#install-pnp-librarys" title="Permanent link">&para;</a></h2>
@@ -1781,21 +1840,24 @@ yo @microsoft/sharepoint
 <div class="codehilite"><pre><span></span>/src/shared/components
 </pre></div>
 
-<p>Gemeinsame Datenzugriff Provider (ListMockService, SPListService, SPSearchService usw.)</p>
+<p>Gemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)</p>
 <div class="codehilite"><pre><span></span>/src/shared/services
 </pre></div>
 
-<h3 id="vorgehen-fur-listmock-provider">Vorgehen für ListMock Provider<a class="headerlink" href="#vorgehen-fur-listmock-provider" title="Permanent link">&para;</a></h3>
+<h3 id="vorgehen-fur-ux">Vorgehen für UX<a class="headerlink" href="#vorgehen-fur-ux" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Erstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)</li>
+</ul>
+<h3 id="vorgehen-fur-listmock-provider">Vorgehen für ListMock Provider<a class="headerlink" href="#vorgehen-fur-listmock-provider" title="Permanent link">&para;</a></h3>
+<ul>
 <li>Erstelle Daten Model, welche die Datentypen definert (InfoItem.ts)</li>
-<li>Erstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert in IListService.ts</li>
+<li>Erstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert in IListService</li>
 <li>Erstelle eine ListMockService (mit Daten), welche die IListService.ts Schnittstelle implementiert</li>
 <li>Erstelle eine public Function getFirstItem() der die Mockdaten zurückliefert</li>
 </ul>
 <h3 id="vorgehen-fur-splistservice-provider">Vorgehen für SPListService Provider<a class="headerlink" href="#vorgehen-fur-splistservice-provider" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Erstelle eine SpListService.ts, welche die IListService.ts Schnittstelle implementiert</li>
+<li>Erstelle eine SpListService, welche die IListService Schnittstelle implementiert</li>
 <li>Erstelle eine public Function getFirstItem() der die SP Listdaten zurückliefert. Verwende dazu pnpjs <a href="https://pnp.github.io/pnpjs/getting-started.html">https://pnp.github.io/pnpjs/getting-started.html</a></li>
 </ul>
 <h3 id="zusatz-aufgabe-1">Zusatz Aufgabe 1<a class="headerlink" href="#zusatz-aufgabe-1" title="Permanent link">&para;</a></h3>
