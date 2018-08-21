@@ -1,9 +1,16 @@
 # Site Meta Card Beispiel
 
 ## Vorbedinungen
+
+### Site Collection provisionierung
 In einer SiteCollection existiert ein definiertes InfoItem.
 
 TODO: Provisionierund der Liste und ein Item über PS-Script
+
+## Code Guidlines
+
+- https://rolandoechslin.github.io/spfx-kb/#code-guideline
+
 
 ## Erstelle Projekt
 
@@ -41,7 +48,7 @@ gulp serve --nobrowser
 ```
 
 ```html
-{spo site}/_layouts/15/workbench.aspx
+/_layouts/15/workbench.aspx
 ```
 
 
@@ -101,23 +108,26 @@ Gemeinsame Componenten (die unterschiedlich eingesetzt werden könnne)
 /src/shared/components
 ```
 
-Gemeinsame Datenzugriff Provider (ListMockService, SPListService, SPSearchService usw.)
+Gemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)
 
 ```bs
 /src/shared/services
 ```
 
-### Vorgehen für ListMock Provider
+### Vorgehen für UX
 
 - Erstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)
+
+### Vorgehen für ListMock Provider
+
 - Erstelle Daten Model, welche die Datentypen definert (InfoItem.ts)
-- Erstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert in IListService.ts
+- Erstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert in IListService
 - Erstelle eine ListMockService (mit Daten), welche die IListService.ts Schnittstelle implementiert
 - Erstelle eine public Function getFirstItem() der die Mockdaten zurückliefert
 
 ### Vorgehen für SPListService Provider
 
-- Erstelle eine SpListService.ts, welche die IListService.ts Schnittstelle implementiert
+- Erstelle eine SpListService, welche die IListService Schnittstelle implementiert
 - Erstelle eine public Function getFirstItem() der die SP Listdaten zurückliefert. Verwende dazu pnpjs https://pnp.github.io/pnpjs/getting-started.html
 
 ### Zusatz Aufgabe 1
