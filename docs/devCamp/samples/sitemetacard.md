@@ -1,5 +1,10 @@
 # Site Meta Card Beispiel
 
+## Vorbedinungen
+In einer SiteCollection existiert ein definiertes InfoItem.
+
+TODO: Provisionierund der Liste und ein Item über PS-Script
+
 ## Erstelle Projekt
 
 ```bs
