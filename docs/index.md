@@ -4,14 +4,11 @@
 ## Code Guideline
 
 - [Typescriptlang - Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
-- [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/blob/master/react/README.md
-)
+- [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/blob/master/react/README.md)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [Office fabric react - Coding Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Coding-Style)
 - [Office fabric react - React-Guideline](https://github.com/OfficeDev/office-ui-fabric-react/wiki/React-Guidelines)
 - [Office fabric react - TypeScript-Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/TypeScript-Guidelines)
-
-
 
 ## SharePoint PNP Community
 - [SharePoint PnP resources](https://docs.microsoft.com/en-us/sharepoint/dev/community/community)

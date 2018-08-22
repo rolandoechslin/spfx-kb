@@ -2,6 +2,7 @@
 
 ## Properties
 
+- <https://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-spfx-web-part-properties-dynamic-dropdown.html>
 - [simplify-adding-web-parts-with-preconfigured-entries](https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/web-parts/guidance/simplify-adding-web-parts-with-preconfigured-entries.md)
 - <http://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-web-part-properties-pages-groups-controls.html>
 - <http://www.sharepointnutsandbolts.com/2017/02/sharepoint-framework-web-part-properties-button-toggle-slider.html>
