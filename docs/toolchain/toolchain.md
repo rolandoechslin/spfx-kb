@@ -22,9 +22,10 @@
 
 ### Optimization packages
 
-- https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production
-- https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production
+- <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production>
+- <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production>
 - https://rencore.com/sharepoint-framework/script-check/
+- <https://www.techmikael.com/2018/08/an-adventure-into-optimizing-sharepoint.html>
 
 ### Update packages
 
