@@ -10,7 +10,7 @@ pages:
         - Session 1: devCamp/firstSession.md
         - Ideas: devCamp/ideas.md
         - Samples:
-            - SiteMetaCard: devcamp/samples/sitemetacard.md
+            - SiteMetaCard: devCamp/samples/sitemetacard.md
     - SPFx:
         - Start: spfx/start.md
         - Azure: spfx/azure.md
