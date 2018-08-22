@@ -2,7 +2,7 @@
 Weiterführende Informationen: [SPFx Debugging](../spfx/debug.md)
 
 ## Requirements
-Chrome Extension für VS Code
+[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 
 ## Prepare
 

@@ -9,19 +9,14 @@ Am Ende werdet ihr folgendes erledigt haben:
 - Notwendige Tools und Extensions installiert
 
 ## Install everything you need for SPFx
-```Powershell
-Get-SPSite
-```
-
-## Install everything you need to work real gooood
+[Hier](https://stash.garaio.com/projects/GPS/repos/col-tools/browse/Scripts/Setup-SPFxDevEnv.ps1) ist das Skript abgelegt.
 
 ## Prepare VS Code
-Install Extension with COL-TOOLS
-Import Cost: 
+**must have**:
+- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+- [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
 
-Prettier
-
-Auto Import
-
-TSLINT
-
+**good to have**:
+- [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
+- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
