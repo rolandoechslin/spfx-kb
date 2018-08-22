@@ -171,122 +171,122 @@
             "title": "Ideen"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/",
+            "location": "/devCamp/samples/sitemetacard/",
             "text": "Site Meta Card Beispiel\n\u00b6\n\n\nVorbedinungen\n\u00b6\n\n\nSite Collection provisionierung\n\u00b6\n\n\nIn einer SiteCollection existiert ein definiertes InfoItem.\n\n\nTODO: Provisionierund der Liste und ein Item \u00fcber PS-Script\n\n\nCode Guidlines\n\u00b6\n\n\n\n\nTypescriptlang - Handbook\n\n\nAirbnb React/JSX Style Guide\n\n\nAirbnb JavaScript Style Guide\n\n\nOffice fabric react - Coding Guidelines\n\n\nOffice fabric react - React-Guideline\n\n\nOffice fabric react - TypeScript-Guidelines\n\n\n\n\nErstelle Projekt\n\u00b6\n\n\nmkdir SpfxDevCamp2018\ncd SpfxDevCamp2018\nyo @microsoft/sharepoint\n\n\n\n\nYoman Optionen\n\u00b6\n\n\n\n\nSolution Name: default\n\n\nBaseline Package: SharePoint Online only\n\n\nTarget Location: Use the current folder\n\n\nTenant Admin: No\n\n\nProject Type: WebPart\n\n\nProject Name: SiteMetaCard\n\n\nProject Description: Display the site information from Information Item.\n\n\nFramework: React\n\n\n\n\nDevelopment - local workbench\n\u00b6\n\n\ngulp serve\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment - online workbench\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\n/_layouts/15/workbench.aspx\n\n\n\n\nInstall Pnp Librarys\n\u00b6\n\n\nPnpJs\n\u00b6\n\n\n\n\nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide\n\n\n\n\nnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\nPnp React Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-controls-react/\n\n\n\n\nnpm install @pnp/spfx-controls-react --save --save-exact\n\n\n\n\nPnp Property Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-property-controls/\n\n\n\n\nnpm install @pnp/spfx-property-controls --save --save-exact\n\n\n\n\nReference Librarys\n\u00b6\n\n\nImport...\n\n\n\n\nFunktion\n\u00b6\n\n\n\n\nAnzeige des Site Collection InfoItem in einem SPFx WebPart\n\n\nErstelle zuerst einen MockProvider als Datenquelle\n\n\nDanach sollen die Daten aus einer Liste \"Information\" stammen\n\n\nAnzeige eines \"Load...\" Screens, wenn die Daten geladen werden\n\n\n\n\nAufbau der Code Struktur im src Folder\n\u00b6\n\n\nAlle Webparts\n\n\n/src/webparts\n\n\n\n\nHelper Klassen\n\n\n/src/common\n\n\n\n\nGemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)\n\n\n/src/shared/components\n\n\n\n\nGemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)\n\n\n/src/shared/services\n\n\n\n\nVorgehen f\u00fcr UX\n\u00b6\n\n\n\n\nErstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)\n\n\n\n\nVorgehen f\u00fcr ListMock Provider\n\u00b6\n\n\n\n\nErstelle Daten Model, welche die Datentypen definert (InfoItem.ts)\n\n\nErstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert (IListService.ts)\n\n\nErstelle eine MockService (ListMockService.ts) mit Daten, welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public function getFirstItem() der die Mockdaten zur\u00fcckliefert\n\n\n\n\nVorgehen f\u00fcr SPListService Provider\n\u00b6\n\n\n\n\nErstelle eine Schnitstelle (SpListService.ts), welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu \npnpjs\n\n\n\n\nZusatz Aufgabe 1\n\u00b6\n\n\n\n\nVerwende das \nPnP SPFx React Control WebPartTitle\n zur Anzeige eines editierbaren Titels\n\n\n\n\nZusatz Aufgabe 2\n\u00b6\n\n\n\n\nLokalisierung aller statischen Text/Labels \nLocalize SharePoint Framework client-side web parts\n\n\n\n\nZusatz Aufgabe 3\n\u00b6\n\n\n\n\nStudium \nIntegration Office Fabric React Controls\n\n\n\n\nZusatz Aufgabe 4\n\u00b6\n\n\n\n\nAnzeige des Owner in einm Office 365 Persona Format. Verwende dazu das \nOffice Fabric React Control\n\n\n\n\nZusatz Aufgabe 5\n\u00b6\n\n\n\n\nAnzeige des Persona Format konfigurierbar \u00fcber ein Checkbox WebPart Properties (ShowPersona)",
             "title": "SiteMetaCard"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#site-meta-card-beispiel",
+            "location": "/devCamp/samples/sitemetacard/#site-meta-card-beispiel",
             "text": "",
             "title": "Site Meta Card Beispiel"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#vorbedinungen",
+            "location": "/devCamp/samples/sitemetacard/#vorbedinungen",
             "text": "",
             "title": "Vorbedinungen"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#site-collection-provisionierung",
+            "location": "/devCamp/samples/sitemetacard/#site-collection-provisionierung",
             "text": "In einer SiteCollection existiert ein definiertes InfoItem.  TODO: Provisionierund der Liste und ein Item \u00fcber PS-Script",
             "title": "Site Collection provisionierung"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#code-guidlines",
+            "location": "/devCamp/samples/sitemetacard/#code-guidlines",
             "text": "Typescriptlang - Handbook  Airbnb React/JSX Style Guide  Airbnb JavaScript Style Guide  Office fabric react - Coding Guidelines  Office fabric react - React-Guideline  Office fabric react - TypeScript-Guidelines",
             "title": "Code Guidlines"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#erstelle-projekt",
+            "location": "/devCamp/samples/sitemetacard/#erstelle-projekt",
             "text": "mkdir SpfxDevCamp2018\ncd SpfxDevCamp2018\nyo @microsoft/sharepoint",
             "title": "Erstelle Projekt"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#yoman-optionen",
+            "location": "/devCamp/samples/sitemetacard/#yoman-optionen",
             "text": "Solution Name: default  Baseline Package: SharePoint Online only  Target Location: Use the current folder  Tenant Admin: No  Project Type: WebPart  Project Name: SiteMetaCard  Project Description: Display the site information from Information Item.  Framework: React",
             "title": "Yoman Optionen"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#development-local-workbench",
+            "location": "/devCamp/samples/sitemetacard/#development-local-workbench",
             "text": "gulp serve  https://localhost:4321/temp/workbench.html",
             "title": "Development - local workbench"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#development-online-workbench",
+            "location": "/devCamp/samples/sitemetacard/#development-online-workbench",
             "text": "gulp serve --nobrowser  /_layouts/15/workbench.aspx",
             "title": "Development - online workbench"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#install-pnp-librarys",
+            "location": "/devCamp/samples/sitemetacard/#install-pnp-librarys",
             "text": "",
             "title": "Install Pnp Librarys"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#pnpjs",
+            "location": "/devCamp/samples/sitemetacard/#pnpjs",
             "text": "https://pnp.github.io/pnpjs/getting-started.html  https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide   npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save",
             "title": "PnpJs"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#pnp-react-controls",
+            "location": "/devCamp/samples/sitemetacard/#pnp-react-controls",
             "text": "https://sharepoint.github.io/sp-dev-fx-controls-react/   npm install @pnp/spfx-controls-react --save --save-exact",
             "title": "Pnp React Controls"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#pnp-property-controls",
+            "location": "/devCamp/samples/sitemetacard/#pnp-property-controls",
             "text": "https://sharepoint.github.io/sp-dev-fx-property-controls/   npm install @pnp/spfx-property-controls --save --save-exact",
             "title": "Pnp Property Controls"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#reference-librarys",
+            "location": "/devCamp/samples/sitemetacard/#reference-librarys",
             "text": "Import...",
             "title": "Reference Librarys"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#funktion",
+            "location": "/devCamp/samples/sitemetacard/#funktion",
             "text": "Anzeige des Site Collection InfoItem in einem SPFx WebPart  Erstelle zuerst einen MockProvider als Datenquelle  Danach sollen die Daten aus einer Liste \"Information\" stammen  Anzeige eines \"Load...\" Screens, wenn die Daten geladen werden",
             "title": "Funktion"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#aufbau-der-code-struktur-im-src-folder",
+            "location": "/devCamp/samples/sitemetacard/#aufbau-der-code-struktur-im-src-folder",
             "text": "Alle Webparts  /src/webparts  Helper Klassen  /src/common  Gemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)  /src/shared/components  Gemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)  /src/shared/services",
             "title": "Aufbau der Code Struktur im src Folder"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#vorgehen-fur-ux",
+            "location": "/devCamp/samples/sitemetacard/#vorgehen-fur-ux",
             "text": "Erstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)",
             "title": "Vorgehen f\u00fcr UX"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#vorgehen-fur-listmock-provider",
+            "location": "/devCamp/samples/sitemetacard/#vorgehen-fur-listmock-provider",
             "text": "Erstelle Daten Model, welche die Datentypen definert (InfoItem.ts)  Erstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert (IListService.ts)  Erstelle eine MockService (ListMockService.ts) mit Daten, welche die IListService Schnittstelle implementiert  Erstelle eine public function getFirstItem() der die Mockdaten zur\u00fcckliefert",
             "title": "Vorgehen f\u00fcr ListMock Provider"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#vorgehen-fur-splistservice-provider",
+            "location": "/devCamp/samples/sitemetacard/#vorgehen-fur-splistservice-provider",
             "text": "Erstelle eine Schnitstelle (SpListService.ts), welche die IListService Schnittstelle implementiert  Erstelle eine public function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu  pnpjs",
             "title": "Vorgehen f\u00fcr SPListService Provider"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#zusatz-aufgabe-1",
+            "location": "/devCamp/samples/sitemetacard/#zusatz-aufgabe-1",
             "text": "Verwende das  PnP SPFx React Control WebPartTitle  zur Anzeige eines editierbaren Titels",
             "title": "Zusatz Aufgabe 1"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#zusatz-aufgabe-2",
+            "location": "/devCamp/samples/sitemetacard/#zusatz-aufgabe-2",
             "text": "Lokalisierung aller statischen Text/Labels  Localize SharePoint Framework client-side web parts",
             "title": "Zusatz Aufgabe 2"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#zusatz-aufgabe-3",
+            "location": "/devCamp/samples/sitemetacard/#zusatz-aufgabe-3",
             "text": "Studium  Integration Office Fabric React Controls",
             "title": "Zusatz Aufgabe 3"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#zusatz-aufgabe-4",
+            "location": "/devCamp/samples/sitemetacard/#zusatz-aufgabe-4",
             "text": "Anzeige des Owner in einm Office 365 Persona Format. Verwende dazu das  Office Fabric React Control",
             "title": "Zusatz Aufgabe 4"
         },
         {
-            "location": "/devcamp/samples/sitemetacard/#zusatz-aufgabe-5",
+            "location": "/devCamp/samples/sitemetacard/#zusatz-aufgabe-5",
             "text": "Anzeige des Persona Format konfigurierbar \u00fcber ein Checkbox WebPart Properties (ShowPersona)",
             "title": "Zusatz Aufgabe 5"
         },
