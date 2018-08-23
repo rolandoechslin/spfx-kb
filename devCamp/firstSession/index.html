@@ -476,15 +476,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#pnp-hinzufugen" title="PNP hinzufügen" class="md-nav__link">
-    PNP hinzufügen
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fake-provider-erstellen" title="Fake Provider erstellen" class="md-nav__link">
-    Fake Provider erstellen
+  <a href="#wo-bin-ich-uberhaupt" title="Wo bin ich überhaupt?" class="md-nav__link">
+    Wo bin ich überhaupt?
   </a>
   
 </li>
@@ -1483,15 +1476,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#pnp-hinzufugen" title="PNP hinzufügen" class="md-nav__link">
-    PNP hinzufügen
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fake-provider-erstellen" title="Fake Provider erstellen" class="md-nav__link">
-    Fake Provider erstellen
+  <a href="#wo-bin-ich-uberhaupt" title="Wo bin ich überhaupt?" class="md-nav__link">
+    Wo bin ich überhaupt?
   </a>
   
 </li>
@@ -1531,16 +1517,26 @@
                 
                 <h1 id="first-session">First Session<a class="headerlink" href="#first-session" title="Permanent link">&para;</a></h1>
 <p>Wir zeigen euch, wie ihr euer yo generiertes SPFx Web Part zu einem Web Part erweitern könnte, das folgendes kann:
-- Herausfinden, ob ihr lokal oder in SPO entwickelt
-- Basierend darauf, kann der Fake oder Real Data Provider genutzt werden
-- Mit PNP im Real Data Provider ein List Item auslesen
-- Das List Item mit einer Office UI Fabric Komponente darstellen</p>
+* Herausfinden, ob ihr lokal oder in SPO entwickelt
+* Basierend darauf, kann der Fake oder Real Data Provider genutzt werden
+* Mit PNP im Real Data Provider ein List Item auslesen
+* Das List Item mit einer Office UI Fabric Komponente darstellen</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Beispiel-Lösung hier abgelegt: ???Link zum Repo???</li>
 </ul>
-<h2 id="pnp-hinzufugen">PNP hinzufügen<a class="headerlink" href="#pnp-hinzufugen" title="Permanent link">&para;</a></h2>
-<h2 id="fake-provider-erstellen">Fake Provider erstellen<a class="headerlink" href="#fake-provider-erstellen" title="Permanent link">&para;</a></h2>
+<h2 id="wo-bin-ich-uberhaupt">Wo bin ich überhaupt?<a class="headerlink" href="#wo-bin-ich-uberhaupt" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span> <span class="k">if</span> <span class="p">(</span><span class="nx">Environment</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="nx">EnvironmentType</span><span class="p">.</span><span class="nx">ClassicSharePoint</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// do some stuff on classic page</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">Environment</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="nx">EnvironmentType</span><span class="p">.</span><span class="nx">SharePoint</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// do some stuff on modern page</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">_dataProvider</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MySiteDataProvider</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">context</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">Environment</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="nx">EnvironmentType</span><span class="p">.</span><span class="nx">Local</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// do some stuff on SharePoint workbench page</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">_dataProvider</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MySiteDataFakeProvider</span><span class="p">();</span>
+    <span class="p">}</span>
+</pre></div>
+
 <h2 id="ui-fabric-komponente-verwenden">UI Fabric Komponente verwenden<a class="headerlink" href="#ui-fabric-komponente-verwenden" title="Permanent link">&para;</a></h2>
 <h2 id="renaming-web-part">Renaming Web Part<a class="headerlink" href="#renaming-web-part" title="Permanent link">&para;</a></h2>
                 
