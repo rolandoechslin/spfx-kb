@@ -1,10 +1,13 @@
 # Setup SPFx Environment
 Hier lernt ihr, wie ihr eure Maschine zur SPFx DEV Maschine ergänzt.
 
-
-
 ## Install everything you need for SPFx
 [Hier](https://stash.garaio.com/projects/GPS/repos/col-tools/browse/Scripts/Setup-SPFxDevEnv.ps1) ist das Skript abgelegt.
+
+## Who the fuck is PNP?
+```
+pnpm install sp-pnp-js --save
+```
 
 ## Prepare VS Code
 **must have**
