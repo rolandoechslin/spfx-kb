@@ -32,6 +32,10 @@
 - <https://github.com/waldekmastykarz/spfx-react-fabric-trendinginthissite>
 - <https://abdulazizfarooqi.wordpress.com/2018/02/28/employee-directory-with-spfx-reactjs-using-sharepoint-search-rest-api-modern-webpart/>
 
+## Dynamic Load Webpart
+
+- <https://github.com/wobba/spfx4fun/blob/master/DynamicLoad>
+
 ## Samples/Exercises
 
 - <https://github.com/ktskumar/spfxguidesamples>

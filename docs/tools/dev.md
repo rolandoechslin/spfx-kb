@@ -47,9 +47,10 @@
 
 - <https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint>
 
-## Yo
+## CLI App Generator
 
 - <https://github.com/koltyakov/generator-sppp>
+- https://github.com/facebook/create-react-app
 
 ## Fabric Icons
 
