@@ -7,10 +7,12 @@ pages:
     - Home: index.md
     - Dev Camp:
         - Setup: devCamp/setup.md
+        - Debugging: devCamp\debugging.md
         - Session 1: devCamp/firstSession.md
         - Ideas: devCamp/ideas.md
         - Samples:
             - SiteMetaCard: devCamp/samples/sitemetacard.md
+            - Graph: devCamp\samples\graph.md
     - SPFx:
         - Start: spfx/start.md
         - Azure: spfx/azure.md
