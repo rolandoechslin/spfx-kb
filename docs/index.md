@@ -44,7 +44,7 @@ gulp serve --nobrowser
 ```
 
 
-## Deployment Teanant
+## Prepare Deployment Solution
 
 ```bs
 gulp clean
@@ -53,6 +53,13 @@ gulp --ship
 gulp package-solution --ship
 ```
 
+## Manuel Upload Solution Deployment
+
+- Upload the solution file "packagename.sppkg" from "/sharepoint/solution" to the App Catalog.
+- Go to either a modern Communication or Team Site.
+- Go to "Site contents" and add new "App"
+- Select "packagename" and wait for it to be installed
+- Go to the front page, edit the page and add the webpart
 
 ## Logging with sp-core-library
 
