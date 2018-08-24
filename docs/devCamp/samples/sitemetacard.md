@@ -3,9 +3,30 @@
 ## Vorbedinungen
 
 ### Site Collection provisionierung
-In einer SiteCollection existiert ein definiertes InfoItem.
 
-TODO: Provisionierund der Liste und ein Item über PS-Script
+- In einer SiteCollection existiert ein definiertes InfoItem.
+- Provisionierund der Liste und ein Item über PS-Script
+
+#### Step 1
+Variable anpassen in Deployment Folder
+
+```bs
+.\deployment\env\Ga-Dev-Ro\init.ps1
+```
+
+```ps
+# tenant name
+$apps.default.tenant = "gw365dev"
+
+# Configure shortname only !!!
+$adminshortname = "ro"
+```
+
+#### Step 2
+
+Test:
+
+- https://gw365dev.sharepoint.com/sites/roapp
 
 ## Code Guidlines
 
