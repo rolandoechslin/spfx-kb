@@ -4,7 +4,7 @@
 
 ## Check Version
 
-```Powershell
+```ps
 Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending
 ```
 
@@ -19,26 +19,27 @@ Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Objec
 - [connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication](https://absolute-sharepoint.com/2018/03/connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication.html)
 - [Connect to Office 365/Exchange Services Functions](https://gallery.technet.microsoft.com/Connect-to-Office-53f6eb07)
 
-```Powershell
+```ps
 Connect-SPOService https://devro-admin.sharepoint.com -Credential admin@devro.onmicrosoft.com
 ```
 
 ## Disconnect
 
-```Powershell
+```ps
 Disconnect-SPOService
 ```
 
 ## ULS-Correlation ID
 
 ```ps
-get-splogevent -starttime (get-date).addminutes(-20) | where-object { $_.correlation -eq "e434f79b-68bb-40d2-0000-03a47eae1bf9" }    | fl message > c:\errors1.txt
+get-splogevent -starttime (get-date).addminutes(-20) | where-object { $_.correlation -eq "e434f79b-68bb-40d2-0000-03a47eae1bf9" } | fl message > c:\errors1.txt
 ```
 
 ## Security
 
 - [sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful](http://www.wictorwilen.se/sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful)
-```Powershell
+
+```ps
 get-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}
  ```
 
@@ -46,7 +47,7 @@ get-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}
 
 - [resources-to-learn-powershell-for-office-365](https://absolute-sharepoint.com/2018/03/resources-to-learn-powershell-for-office-365.html)
 
-## Teanant Configuration
+## Tenant Configuration
 
 ### Remove Feedback Button
 
