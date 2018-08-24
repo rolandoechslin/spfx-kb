@@ -11,9 +11,8 @@ Wir zeigen euch, wie ihr euer yo generiertes SPFx Web Part zu einem Web Part erw
 * Beispiel-Lösung hier abgelegt: ???Link zum Repo???
 
 
-
 ## Wo bin ich überhaupt?
-```javascript
+```ts
 if (Environment.type === EnvironmentType.ClassicSharePoint) {
       // do some stuff on classic page
     } else if (Environment.type === EnvironmentType.SharePoint) {
@@ -26,9 +25,8 @@ if (Environment.type === EnvironmentType.ClassicSharePoint) {
 }
 ```
 
-
 ## UI Fabric Komponente verwenden
-```javascript
+```ts
 import { WebPartTitle } from "@pnp/spfx-controls-react/lib/WebPartTitle";
 
 public render(): React.ReactElement<ISiteOverviewProps> {
