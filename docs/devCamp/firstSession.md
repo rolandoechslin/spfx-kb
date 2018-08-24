@@ -12,7 +12,7 @@ Wir zeigen euch, wie ihr euer yo generiertes SPFx Web Part zu einem Web Part erw
 
 ## Wo bin ich überhaupt?
 ```javascript
- if (Environment.type === EnvironmentType.ClassicSharePoint) {
+if (Environment.type === EnvironmentType.ClassicSharePoint) {
       // do some stuff on classic page
     } else if (Environment.type === EnvironmentType.SharePoint) {
       // do some stuff on modern page
@@ -21,8 +21,24 @@ Wir zeigen euch, wie ihr euer yo generiertes SPFx Web Part zu einem Web Part erw
       // do some stuff on SharePoint workbench page
       this._dataProvider = new MySiteDataFakeProvider();
     }
+}
 ```
 
 
 ## UI Fabric Komponente verwenden
+```javascript
+import { WebPartTitle } from "@pnp/spfx-controls-react/lib/WebPartTitle";
+
+public render(): React.ReactElement<ISiteOverviewProps> {
+    ...
+    return (
+        ...
+        <WebPartTitle displayMode={this.props.displayMode} title={this.props.title} updateProperty={this.props.fUpdateProperty} />
+        ...
+    );
+    ...
+}
+
+```
+
 ## Renaming Web Part
