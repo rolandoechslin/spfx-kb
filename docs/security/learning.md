@@ -22,6 +22,7 @@
 
 - <https://resources.techcommunity.microsoft.com/security-compliance-and-administration/>
 - <https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/Idle-Session-Timeout-Policy-in-SharePoint-Online-amp-OneDrive-is/ba-p/211274>
+- https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions
 
 ### File
 
