@@ -366,3 +366,7 @@ add office fabric react
 ```bs
 yarn add office-ui-fabric-react --save
 ```
+
+## Create SP-App
+
+- <https://github.com/koltyakov/generator-sppp>
