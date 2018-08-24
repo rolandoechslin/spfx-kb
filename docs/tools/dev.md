@@ -51,6 +51,7 @@
 
 - <https://github.com/koltyakov/generator-sppp>
 - https://github.com/facebook/create-react-app
+- <https://github.com/StfBauer/generator-simplestyle>
 
 ## Fabric Icons
 
