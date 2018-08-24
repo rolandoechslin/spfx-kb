@@ -8,6 +8,8 @@
 Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending
 ```
 
+- [Download](https://www.microsoft.com/en-us/download/details.aspx?id=35588)
+
 ## Credential Manager
 
 - [How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell](https://github.com/SharePoint/PnP-PowerShell/wiki/How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell)
@@ -29,7 +31,7 @@ Disconnect-SPOService
 
 ## ULS-Correlation ID
 
-```Powershell
+```ps
 get-splogevent -starttime (get-date).addminutes(-20) | where-object { $_.correlation -eq "e434f79b-68bb-40d2-0000-03a47eae1bf9" }    | fl message > c:\errors1.txt
 ```
 
@@ -43,3 +45,11 @@ get-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}
 ## Ressources
 
 - [resources-to-learn-powershell-for-office-365](https://absolute-sharepoint.com/2018/03/resources-to-learn-powershell-for-office-365.html)
+
+## Teanant Configuration
+
+### Remove Feedback Button
+
+```ps
+Set-SPOTenant -UserVoiceForFeedbackEnabled:$false
+```
