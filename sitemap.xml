@@ -1,412 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
-     <loc>/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
     <url>
-     <loc>/devCamp/setup/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/devCamp/firstSession/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/devCamp/ideas/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>/spfx/start/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/azure/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/ai/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/branding/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/column-formating/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/bot/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/classic/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/configuration/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/debug/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/deployment/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/extensions/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/events/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/flow/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/groups/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/hubsite/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/intranet/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/graph/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/js/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/listitem/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/network/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/patterns/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/provisioning/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/migration/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/sitescripts/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/search/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/snippets/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/sp2019/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/support/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/starterkid/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/typescript/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/testing/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/theme/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/ux/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/webparts/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/spfx/businessobjects/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/react/learning/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/js/guide/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/js/pwa/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/training/must-read/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/training/course/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/toolchain/webpack/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/toolchain/spfx-npm/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/toolchain/toolchain/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/powershell/links/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/powershell/pnp-ps/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/powershell/spo-ps/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/tools/dev/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/tools/powerapps/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/tools/image/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/tools/gatspy/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/tools/git/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/tools/markdown/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/security/learning/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/about/help/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/about/about/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/about/release-notes/</loc>
+     <loc>None</loc>
      <lastmod>2018-08-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
+    <url>
+     <loc>None</loc>
+     <lastmod>2018-08-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
 </urlset>
