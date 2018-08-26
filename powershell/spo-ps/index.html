@@ -1273,13 +1273,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#ressources" title="Ressources" class="md-nav__link">
-    Ressources
-  </a>
-  
-</li>
-      
       
       
       
@@ -1550,13 +1543,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#ressources" title="Ressources" class="md-nav__link">
-    Ressources
-  </a>
-  
-</li>
-      
       
       
       
@@ -1579,9 +1565,12 @@
                 <h1 id="spo-powershell">SPO Powershell<a class="headerlink" href="#spo-powershell" title="Permanent link">&para;</a></h1>
 <p><a href="https://technet.microsoft.com/en-us/library/fp161364(v=office.15)#SharePoint">SPO Index</a></p>
 <h2 id="check-version">Check Version<a class="headerlink" href="#check-version" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="nb">Get-Module</span> <span class="n">Microsoft</span><span class="p">.</span><span class="n">Online</span><span class="p">.</span><span class="n">SharePoint</span><span class="p">.</span><span class="n">PowerShell</span><span class="p">*</span> <span class="n">-ListAvailable</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span><span class="p">,</span><span class="n">Version</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">Version</span> <span class="n">-Descending</span>
+<div class="codehilite"><pre><span></span>Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending
 </pre></div>
 
+<ul>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=35588">Download</a></li>
+</ul>
 <h2 id="credential-manager">Credential Manager<a class="headerlink" href="#credential-manager" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/SharePoint/PnP-PowerShell/wiki/How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell">How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell</a></li>
@@ -1591,27 +1580,35 @@
 <li><a href="https://absolute-sharepoint.com/2018/03/connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication.html">connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication</a></li>
 <li><a href="https://gallery.technet.microsoft.com/Connect-to-Office-53f6eb07">Connect to Office 365/Exchange Services Functions</a></li>
 </ul>
-<div class="codehilite"><pre><span></span><span class="nb">Connect-SPOService</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">devro-admin</span><span class="p">.</span><span class="n">sharepoint</span><span class="p">.</span><span class="n">com</span> <span class="n">-Credential</span> <span class="n">admin</span><span class="nv">@devro</span><span class="p">.</span><span class="n">onmicrosoft</span><span class="p">.</span><span class="n">com</span>
+<div class="codehilite"><pre><span></span>Connect-SPOService https://devro-admin.sharepoint.com -Credential admin@devro.onmicrosoft.com
 </pre></div>
 
 <h2 id="disconnect">Disconnect<a class="headerlink" href="#disconnect" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="nb">Disconnect-SPOService</span>
+<div class="codehilite"><pre><span></span>Disconnect-SPOService
 </pre></div>
 
 <h2 id="uls-correlation-id">ULS-Correlation ID<a class="headerlink" href="#uls-correlation-id" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="nb">get-splogevent</span> <span class="n">-starttime</span> <span class="p">(</span><span class="nb">get-date</span><span class="p">).</span><span class="n">addminutes</span><span class="p">(-</span><span class="n">20</span><span class="p">)</span> <span class="p">|</span> <span class="nb">where-object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">correlation</span> <span class="o">-eq</span> <span class="s2">&quot;e434f79b-68bb-40d2-0000-03a47eae1bf9&quot;</span> <span class="p">}</span>    <span class="p">|</span> <span class="n">fl</span> <span class="n">message</span> <span class="p">&gt;</span> <span class="n">c</span><span class="err">:</span><span class="p">\</span><span class="n">errors1</span><span class="p">.</span><span class="n">txt</span>
+<div class="codehilite"><pre><span></span>get-splogevent -starttime (get-date).addminutes(-20) | where-object { $_.correlation -eq &quot;e434f79b-68bb-40d2-0000-03a47eae1bf9&quot; } | fl message &gt; c:\errors1.txt
 </pre></div>
 
 <h2 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="http://www.wictorwilen.se/sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful">sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful</a>
-<code>Powershell
-get-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}</code></li>
+<li><a href="http://www.wictorwilen.se/sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful">sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful</a></li>
 </ul>
-<h2 id="ressources">Ressources<a class="headerlink" href="#ressources" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://absolute-sharepoint.com/2018/03/resources-to-learn-powershell-for-office-365.html">resources-to-learn-powershell-for-office-365</a></li>
-</ul>
+<div class="codehilite"><pre><span></span>get-sposite | ?{$_.DenyAddAndCustomizePages -eq &#39;Disabled&#39;}
+ ```
+
+## Ressources
+
+- [resources-to-learn-powershell-for-office-365](https://absolute-sharepoint.com/2018/03/resources-to-learn-powershell-for-office-365.html)
+
+## Tenant Configuration
+
+### Remove Feedback Button
+
+```ps
+Set-SPOTenant -UserVoiceForFeedbackEnabled:$false
+</pre></div>
                 
                   
                 
