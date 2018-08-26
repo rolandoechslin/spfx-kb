@@ -97,7 +97,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#wichtiges" tabindex="1" class="md-skip">
+      <a href="#graph" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -514,9 +514,58 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Graph
+      </label>
+    
     <a href="./" title="Graph" class="md-nav__link md-nav__link--active">
       Graph
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wichtiges" title="Wichtiges" class="md-nav__link">
+    Wichtiges
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bespiele" title="Bespiele" class="md-nav__link">
+    Bespiele
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alle-sharepoint-sites-wo-ich-dazugehort-mit-site-logo" title="Alle SharePoint Sites, wo ich dazugehört mit Site Logo" class="md-nav__link">
+    Alle SharePoint Sites, wo ich dazugehört mit Site Logo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -1436,6 +1485,42 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wichtiges" title="Wichtiges" class="md-nav__link">
+    Wichtiges
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bespiele" title="Bespiele" class="md-nav__link">
+    Bespiele
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alle-sharepoint-sites-wo-ich-dazugehort-mit-site-logo" title="Alle SharePoint Sites, wo ich dazugehört mit Site Logo" class="md-nav__link">
+    Alle SharePoint Sites, wo ich dazugehört mit Site Logo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1449,14 +1534,15 @@
                   <a href="https://github.com/rolandoechslin/spfx-kb/blob/master/docs/devCamp/samples/graph.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="wichtiges">Wichtiges<a class="headerlink" href="#wichtiges" title="Permanent link">&para;</a></h1>
+                <h1 id="graph">Graph<a class="headerlink" href="#graph" title="Permanent link">&para;</a></h1>
+<h2 id="wichtiges">Wichtiges<a class="headerlink" href="#wichtiges" title="Permanent link">&para;</a></h2>
 <ul>
 <li>In SPFx 1.5.1 ist ein neuer Graph-Client nutzbar, der auf PROD-Tenants noch nicht nutzbar ist</li>
 <li>Am Besten verwendet man bis der Graph-Client aus 1.5.1 live ist den graphHttpClient und die SPFx-Version 1.4.1</li>
 </ul>
-<h1 id="bespiele">Bespiele<a class="headerlink" href="#bespiele" title="Permanent link">&para;</a></h1>
-<h2 id="alle-sharepoint-sites-wo-ich-dazugehort-mit-site-logo">Alle SharePoint Sites, wo ich dazugehört mit Site Logo<a class="headerlink" href="#alle-sharepoint-sites-wo-ich-dazugehort-mit-site-logo" title="Permanent link">&para;</a></h2>
-<p>Wir holen alle Gruppen.
+<h2 id="bespiele">Bespiele<a class="headerlink" href="#bespiele" title="Permanent link">&para;</a></h2>
+<h3 id="alle-sharepoint-sites-wo-ich-dazugehort-mit-site-logo">Alle SharePoint Sites, wo ich dazugehört mit Site Logo<a class="headerlink" href="#alle-sharepoint-sites-wo-ich-dazugehort-mit-site-logo" title="Permanent link">&para;</a></h3>
+<p>Wir holen alle Gruppen.</p>
 <div class="codehilite"><pre><span></span><span class="c1">// query for all groups on the tenant using Microsoft Graph.</span>
 <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">context</span><span class="p">.</span><span class="nx">graphHttpClient</span>
     <span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="sb">`v1.0/me/memberOf`</span><span class="p">,</span> <span class="nx">GraphHttpClient</span><span class="p">.</span><span class="nx">configurations</span><span class="p">.</span><span class="nx">v1</span><span class="p">)</span>
@@ -1473,8 +1559,9 @@
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;received groups: &quot;</span> <span class="o">+</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">groups</span><span class="p">));</span>
     <span class="k">return</span> <span class="nx">groups</span><span class="p">;</span>
     <span class="p">});</span>
-</pre></div></p>
-<p>Wir filtern noch nach "unified" Groups.
+</pre></div>
+
+<p>Wir filtern noch nach "unified" Groups.</p>
 <div class="codehilite"><pre><span></span><span class="kr">public</span> <span class="nx">getAllUnifiedGroups</span><span class="p">()</span><span class="o">:</span> <span class="nb">Promise</span><span class="o">&lt;</span><span class="nb">Array</span><span class="o">&lt;</span><span class="nx">IOffice365Group</span><span class="o">&gt;&gt;</span> <span class="p">{</span>
 <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">getAll</span><span class="p">().</span><span class="nx">then</span><span class="p">((</span><span class="nx">groups</span><span class="o">:</span> <span class="nx">IOffice365Group</span><span class="p">[])</span> <span class="p">=&gt;</span> <span class="p">{</span>
     <span class="k">return</span> <span class="nx">groups</span><span class="p">.</span><span class="nx">filter</span><span class="p">((</span><span class="nx">group</span><span class="o">:</span> <span class="nx">IOffice365Group</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
@@ -1484,8 +1571,9 @@
     <span class="p">});</span>
 <span class="p">});</span>
 <span class="p">}</span>
-</pre></div></p>
-<p>In den Gruppen ist dann gespeichert, welche dazugehörende SharePoint Site URL ist.
+</pre></div>
+
+<p>In den Gruppen ist dann gespeichert, welche dazugehörende SharePoint Site URL ist.</p>
 <div class="codehilite"><pre><span></span><span class="kr">public</span> <span class="nx">getGroupSiteUrl</span><span class="p">(</span><span class="nx">id</span><span class="o">:</span> <span class="nx">string</span><span class="p">)</span><span class="o">:</span> <span class="nb">Promise</span><span class="o">&lt;</span><span class="nx">string</span><span class="o">&gt;</span> <span class="p">{</span>
 <span class="c1">// query for all groups on the tenant using Microsoft Graph.</span>
 <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">context</span><span class="p">.</span><span class="nx">graphHttpClient</span>
@@ -1498,8 +1586,9 @@
     <span class="p">}</span>
     <span class="p">});</span>
 <span class="p">}</span>
-</pre></div></p>
-<p>Das Bild können wir uns auch noch holen.
+</pre></div>
+
+<p>Das Bild können wir uns auch noch holen.</p>
 <div class="codehilite"><pre><span></span><span class="kr">public</span> <span class="nx">getGroupPictureUrlWithGraph</span><span class="p">(</span><span class="nx">id</span><span class="o">:</span> <span class="nx">string</span><span class="p">)</span><span class="o">:</span> <span class="nb">Promise</span><span class="o">&lt;</span><span class="nx">any</span><span class="o">&gt;</span> <span class="p">{</span>
 <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">context</span><span class="p">.</span><span class="nx">graphHttpClient</span>
     <span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="sb">`v1.0/groups/</span><span class="si">${</span><span class="nx">id</span><span class="si">}</span><span class="sb">/photos/48x48/$value`</span><span class="p">,</span> <span class="nx">GraphHttpClient</span><span class="p">.</span><span class="nx">configurations</span><span class="p">.</span><span class="nx">v1</span><span class="p">)</span>
@@ -1511,7 +1600,7 @@
     <span class="p">}</span>
     <span class="p">});</span>
 <span class="p">}</span>
-</pre></div></p>
+</pre></div>
                 
                   
                 
