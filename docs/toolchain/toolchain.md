@@ -67,20 +67,3 @@ List detail global npm  package versions from one package
 ```bash
 npm view @microsoft/generator-sharepoint
 ```
-
-### Update SPFx Framework
-
-- <https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/>
-- <https://www.sharepointnutsandbolts.com/2018/05/Update-SPFx-version.html>
-
-```bash
-# go into solution folder
-npm outdated
-# search für "@micorosoft/sp-"
-# update all
-npm install package-name@version --save
-# or
-npm install package-name@latest --save
-gulp clean
-gulp build
-```
