@@ -377,3 +377,11 @@ yarn add office-ui-fabric-react --save
 ## Create SP-App
 
 - <https://github.com/koltyakov/generator-sppp>
+
+## SPFx-Upgrade-Check
+
+- <https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli>
+
+```bs
+o365 spfx project upgrade --output md > report.md
+```
