@@ -20,6 +20,10 @@
 
 ## NPM
 
+### package-lock.json
+
+- <https://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8>
+
 ### Optimization packages
 
 - <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production>
@@ -66,7 +70,8 @@ npm view @microsoft/generator-sharepoint
 
 ### Update SPFx Framework
 
-- https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/
+- <https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/>
+- <https://www.sharepointnutsandbolts.com/2018/05/Update-SPFx-version.html>
 
 ```bash
 # go into solution folder
