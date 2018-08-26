@@ -1,11 +1,16 @@
-# Wichtiges
+# Graph
+
+## Wichtiges
+
 * In SPFx 1.5.1 ist ein neuer Graph-Client nutzbar, der auf PROD-Tenants noch nicht nutzbar ist
 * Am Besten verwendet man bis der Graph-Client aus 1.5.1 live ist den graphHttpClient und die SPFx-Version 1.4.1
 
-# Bespiele
+## Bespiele
 
-## Alle SharePoint Sites, wo ich dazugehört mit Site Logo
+### Alle SharePoint Sites, wo ich dazugehört mit Site Logo
+
 Wir holen alle Gruppen.
+
 ```javascript
 // query for all groups on the tenant using Microsoft Graph.
 return this.context.graphHttpClient
@@ -26,7 +31,9 @@ return this.context.graphHttpClient
 ```
 
 Wir filtern noch nach "unified" Groups.
+
 ```javascript
+
 public getAllUnifiedGroups(): Promise<Array<IOffice365Group>> {
 return this.getAll().then((groups: IOffice365Group[]) => {
     return groups.filter((group: IOffice365Group) => {
@@ -39,6 +46,7 @@ return this.getAll().then((groups: IOffice365Group[]) => {
 ```
 
 In den Gruppen ist dann gespeichert, welche dazugehörende SharePoint Site URL ist.
+
 ```javascript
 public getGroupSiteUrl(id: string): Promise<string> {
 // query for all groups on the tenant using Microsoft Graph.
@@ -55,6 +63,7 @@ return this.context.graphHttpClient
 ```
 
 Das Bild können wir uns auch noch holen.
+
 ```javascript
 public getGroupPictureUrlWithGraph(id: string): Promise<any> {
 return this.context.graphHttpClient
