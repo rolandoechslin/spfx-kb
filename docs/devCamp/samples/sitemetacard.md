@@ -111,14 +111,14 @@ npm install @pnp/spfx-property-controls --save --save-exact
 Import...
 ```
 
-## Funktion
+## Aufgabe 
 
 - Anzeige des Site Collection InfoItem in einem SPFx WebPart
 - Erstelle zuerst einen MockProvider als Datenquelle
 - Danach sollen die Daten aus einer Liste "Information" stammen
 - Anzeige eines "Load..." Screens, wenn die Daten geladen werden
 
-## Aufbau der Code Struktur im src Folder
+### Aufbau src Folder
 
 Alle Webparts
 
