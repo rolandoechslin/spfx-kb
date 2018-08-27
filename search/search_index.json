@@ -122,7 +122,7 @@
         },
         {
             "location": "/devCamp/setup/",
-            "text": "Setup SPFx Environment\n\u00b6\n\n\nHier lernt ihr, wie ihr eure Maschine zur SPFx DEV Maschine erg\u00e4nzt.\n\n\nInstall everything you need for SPFx\n\u00b6\n\n\nHier\n ist das Skript abgelegt.\n\n\nWho the fuck is PNP?\n\u00b6\n\n\npnpm install sp-pnp-js --save\n\n\n\n\nPrepare VS Code\n\u00b6\n\n\nmust have\n\n\n\n\nDebugger for Chrome\n\n\nTSLint\n\n\n\n\ngood to have\n\n\n\n\nAuto Import\n\n\nImport Cost\n\n\nPrettier\n\n\n\n\nCheck\n\u00b6\n\n\nAm Ende werdet ihr folgendes erledigt/installiert haben:\n\n\n\n\nNVM installiert\n\n\nnode.js installiert\n\n\nNotwendige NPM-Module mit \npnpm\n installiert\n\n\nMit yo ein neus SPFx Projekt erstellt\n\n\nNotwendige Tools und Extensions installiert",
+            "text": "Setup SPFx Environment\n\u00b6\n\n\nHier lernt ihr, wie ihr eure Maschine zur SPFx DEV Maschine erg\u00e4nzt.\n\n\nInstall everything you need for SPFx\n\u00b6\n\n\nHier\n ist das Skript abgelegt.\n\n\nWho the fuck is PNP?\n\u00b6\n\n\npnpm install sp-pnp-js --save\n\n\n\n\nPrepare VS Code\n\u00b6\n\n\nmust have\n\n\n\n\nDebugger for Chrome\n\n\nTSLint\n\n\n\n\ngood to have\n\n\n\n\nAuto Import\n\n\nImport Cost\n\n\nPrettier\n\n\n\n\nChrome Extension\n\u00b6\n\n\n\n\nSP Editor\n\n\n\n\nCheck\n\u00b6\n\n\nAm Ende werdet ihr folgendes erledigt/installiert haben:\n\n\n\n\nNVM installiert\n\n\nnode.js installiert\n\n\nNotwendige NPM-Module mit \npnpm\n installiert\n\n\nMit yo ein neus SPFx Projekt erstellt\n\n\nNotwendige Tools und Extensions installiert",
             "title": "Setup"
         },
         {
@@ -144,6 +144,11 @@
             "location": "/devCamp/setup/#prepare-vs-code",
             "text": "must have   Debugger for Chrome  TSLint   good to have   Auto Import  Import Cost  Prettier",
             "title": "Prepare VS Code"
+        },
+        {
+            "location": "/devCamp/setup/#chrome-extension",
+            "text": "SP Editor",
+            "title": "Chrome Extension"
         },
         {
             "location": "/devCamp/setup/#check",
@@ -222,7 +227,7 @@
         },
         {
             "location": "/devCamp/samples/sitemetacard/",
-            "text": "Site Meta Card Beispiel\n\u00b6\n\n\nVorbedinungen\n\u00b6\n\n\nSite Collection provisionierung\n\u00b6\n\n\n\n\nIn einer SiteCollection existiert ein definiertes InfoItem.\n\n\nProvisionierund der Liste und ein Item \u00fcber PS-Script\n\n\n\n\nStep 1\n\u00b6\n\n\nVariable anpassen in Deployment Folder\n\n\n.\\deployment\\env\\Ga-Dev-Ro\\init.ps1\n\n\n\n\n# tenant name\n$apps.default.tenant = \"gw365dev\"\n\n# Configure shortname only !!!\n$adminshortname = \"ro\"\n\n\n\n\nStep 2\n\u00b6\n\n\nTest:\n\n\n\n\nhttps://gw365dev.sharepoint.com/sites/roapp\n\n\n\n\nCode Guidlines\n\u00b6\n\n\n\n\nTypescriptlang - Handbook\n\n\nAirbnb React/JSX Style Guide\n\n\nAirbnb JavaScript Style Guide\n\n\nOffice fabric react - Coding Guidelines\n\n\nOffice fabric react - React-Guideline\n\n\nOffice fabric react - TypeScript-Guidelines\n\n\n\n\nErstelle Projekt\n\u00b6\n\n\nmkdir SpfxDevCamp2018\ncd SpfxDevCamp2018\nyo @microsoft/sharepoint\n\n\n\n\nYoman Optionen\n\u00b6\n\n\n\n\nSolution Name: default\n\n\nBaseline Package: SharePoint Online only\n\n\nTarget Location: Use the current folder\n\n\nTenant Admin: Yes \ntenant-scoped-deployment\n\n\nProject Type: WebPart\n\n\nProject Name: SiteMetaCard\n\n\nProject Description: Display the site information from Information Item.\n\n\nFramework: React\n\n\n\n\nDevelopment - local workbench\n\u00b6\n\n\ngulp serve\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment - online workbench\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\n/_layouts/15/workbench.aspx\n\n\n\n\nInstall Pnp Librarys\n\u00b6\n\n\nPnpJs\n\u00b6\n\n\n\n\nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide\n\n\n\n\nnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\nPnp React Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-controls-react/\n\n\n\n\nnpm install @pnp/spfx-controls-react --save --save-exact\n\n\n\n\nPnp Property Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-property-controls/\n\n\n\n\nnpm install @pnp/spfx-property-controls --save --save-exact\n\n\n\n\nReference Librarys\n\u00b6\n\n\nImport...\n\n\n\n\nAufgabe\n\u00b6\n\n\n\n\nAnzeige des Site Collection InfoItem in einem SPFx WebPart\n\n\nErstelle zuerst einen MockProvider als Datenquelle\n\n\nDanach sollen die Daten aus einer Liste \"Information\" stammen\n\n\nAnzeige eines \"Load...\" Screens, wenn die Daten geladen werden\n\n\n\n\nAufbau src Folder\n\u00b6\n\n\nAlle Webparts\n\n\n/src/webparts\n\n\n\n\nHelper Klassen\n\n\n/src/common\n\n\n\n\nGemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)\n\n\n/src/shared/components\n\n\n\n\nGemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)\n\n\n/src/shared/services\n\n\n\n\nVorgehen f\u00fcr UX\n\u00b6\n\n\n\n\nErstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)\n\n\n\n\nVorgehen f\u00fcr ListMock Provider\n\u00b6\n\n\n\n\nErstelle Daten Model, welche die Datentypen definert (InfoItem.ts)\n\n\nErstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert (IListService.ts)\n\n\nErstelle eine MockService (ListMockService.ts) mit Daten, welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public function getFirstItem() der die Mockdaten zur\u00fcckliefert\n\n\n\n\nVorgehen f\u00fcr SPListService Provider\n\u00b6\n\n\n\n\nErstelle eine Schnitstelle (SpListService.ts), welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu \npnpjs\n\n\n\n\nZusatz Aufgabe 1\n\u00b6\n\n\n\n\nVerwende das \nPnP SPFx React Control WebPartTitle\n zur Anzeige eines editierbaren Titels\n\n\n\n\nZusatz Aufgabe 2\n\u00b6\n\n\n\n\nLokalisierung aller statischen Text/Labels \nLocalize SharePoint Framework client-side web parts\n\n\n\n\nZusatz Aufgabe 3\n\u00b6\n\n\n\n\nStudium \nIntegration Office Fabric React Controls\n\n\n\n\nZusatz Aufgabe 4\n\u00b6\n\n\n\n\nAnzeige des Owner in einm Office 365 Persona Format. Verwende dazu das \nOffice Fabric React Control\n\n\n\n\nZusatz Aufgabe 5\n\u00b6\n\n\n\n\nAnzeige des Persona Format konfigurierbar \u00fcber ein Checkbox WebPart Properties (ShowPersona)",
+            "text": "Site Meta Card Beispiel\n\u00b6\n\n\nVorbedinungen\n\u00b6\n\n\nSite Collection provisionierung\n\u00b6\n\n\n\n\nIn einer SiteCollection existiert ein definiertes InfoItem.\n\n\nProvisionierund der Liste und ein Item \u00fcber PS-Script\n\n\n\n\nStep 1\n\u00b6\n\n\nVariable anpassen in Deployment Folder\n\n\n.\\deployment\\env\\Ga-Dev-Ro\\init.ps1\n\n\n\n\n# tenant name\n$apps.default.tenant = \"gw365dev\"\n\n# Configure shortname only !!!\n$adminshortname = \"ro\"\n\n\n\n\nStep 2\n\u00b6\n\n\nTest:\n\n\n\n\nhttps://gw365dev.sharepoint.com/sites/roapp\n\n\n\n\nCode Guidlines\n\u00b6\n\n\n\n\nTypescriptlang - Handbook\n\n\nAirbnb React/JSX Style Guide\n\n\nAirbnb JavaScript Style Guide\n\n\nOffice fabric react - Coding Guidelines\n\n\nOffice fabric react - React-Guideline\n\n\nOffice fabric react - TypeScript-Guidelines\n\n\n\n\nErstelle Projekt\n\u00b6\n\n\nGehe in deine Projekt Folder und erstelle einen Folder\n\n\nmkdir SpfxDevCamp2018\ncd SpfxDevCamp2018\n\n\n\n\nMit pnpm-Package Manger \nhttps://pnpm.js.org\n\n\nyo @microsoft/sharepoint --package-manager pnpm\n\n\n\n\nYoman Optionen\n\u00b6\n\n\n\n\nSolution Name: default\n\n\nBaseline Package: SharePoint Online only\n\n\nTarget Location: Use the current folder\n\n\nTenant Admin: Yes \ntenant-scoped-deployment\n\n\nProject Type: WebPart\n\n\nWebPart Name: SiteMetaCard\n\n\nWebPart Description: Display the site information from Information Item.\n\n\nFramework: React\n\n\n\n\nresultat yo pnpm installation\n\n\nBuild der Sourcen\n\u00b6\n\n\ngulp build\n\n\nEs d\u00fcrfen keine Build Errors vorkommen\n\n\nTrust Certification\n\u00b6\n\n\nNur erstellen wenn noch nie eine SPFy Solution erstellt wurde\n\n\ntrust cert\n\n\nDevelopment - local workbench\n\u00b6\n\n\ngulp serve\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment - online workbench\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\n/_layouts/15/workbench.aspx\n\n\n\n\nAdd usefull Pnp Librarys\n\u00b6\n\n\nPnpJs\n\u00b6\n\n\n\n\nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide\n\n\n\n\npnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\nPnp React Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-controls-react/\n\n\n\n\npnpm install @pnp/spfx-controls-react --save --save-exact\n\n\n\n\nPnp Property Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-property-controls/\n\n\n\n\npnpm install @pnp/spfx-property-controls --save --save-exact\n\n\n\n\nOffice Fabric react Controls\n\u00b6\n\n\n\n\nhttps://developer.microsoft.com/en-us/fabric#/get-started#react\n\n\n\n\npnpm install --save office-ui-fabric-react\n\n\n\n\nReference Librarys\n\u00b6\n\n\nSample\n\n\nimport { sp } from \"@pnp/sp\";\nimport { WebPartTitle } from \"@pnp/spfx-controls-react/lib/WebPartTitle\";\nimport { PropertyFieldListPicker, PropertyFieldListPickerOrderBy } from '@pnp/spfx-property-controls/lib/PropertyFieldListPicker';\n\n\n\n\nAufgabe\n\u00b6\n\n\n\n\nAnzeige des Site Collection InfoItem in einem SPFx WebPart\n\n\nErstelle zuerst einen MockProvider als Datenquelle\n\n\nDanach sollen die Daten aus einer Liste \"Information\" stammen\n\n\nAnzeige eines \"Load...\" Screens, wenn die Daten geladen werden\n\n\n\n\nAufbau src Folder\n\u00b6\n\n\nAlle Webparts\n\n\n/src/webparts\n\n\n\n\nHelper Klassen\n\n\n/src/common\n\n\n\n\nGemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)\n\n\n/src/shared/components\n\n\n\n\nGemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)\n\n\n/src/shared/services\n\n\n\n\nVorgehen f\u00fcr UX\n\u00b6\n\n\n\n\nErstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)\n\n\n\n\nVorgehen f\u00fcr ListMock Provider\n\u00b6\n\n\n\n\nErstelle Daten Model, welche die Datentypen definert (InfoItem.ts)\n\n\nErstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert (IListService.ts)\n\n\nErstelle eine MockService (ListMockService.ts) mit Daten, welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public function getFirstItem() der die Mockdaten zur\u00fcckliefert\n\n\n\n\nVorgehen f\u00fcr SPListService Provider\n\u00b6\n\n\n\n\nErstelle eine Schnitstelle (SpListService.ts), welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu \npnpjs\n\n\n\n\nZusatz Aufgabe 1\n\u00b6\n\n\n\n\nVerwende das \nPnP SPFx React Control WebPartTitle\n zur Anzeige eines editierbaren Titels\n\n\n\n\nZusatz Aufgabe 2\n\u00b6\n\n\n\n\nLokalisierung aller statischen Text/Labels \nLocalize SharePoint Framework client-side web parts\n\n\n\n\nZusatz Aufgabe 3\n\u00b6\n\n\n\n\nStudium \nIntegration Office Fabric React Controls\n\n\n\n\nZusatz Aufgabe 4\n\u00b6\n\n\n\n\nAnzeige des Owner in einm Office 365 Persona Format. Verwende dazu das \nOffice Fabric React Control\n\n\n\n\nZusatz Aufgabe 5\n\u00b6\n\n\n\n\nAnzeige des Persona Format konfigurierbar \u00fcber ein Checkbox WebPart Properties (ShowPersona)",
             "title": "SiteMetaCard"
         },
         {
@@ -257,13 +262,23 @@
         },
         {
             "location": "/devCamp/samples/sitemetacard/#erstelle-projekt",
-            "text": "mkdir SpfxDevCamp2018\ncd SpfxDevCamp2018\nyo @microsoft/sharepoint",
+            "text": "Gehe in deine Projekt Folder und erstelle einen Folder  mkdir SpfxDevCamp2018\ncd SpfxDevCamp2018  Mit pnpm-Package Manger  https://pnpm.js.org  yo @microsoft/sharepoint --package-manager pnpm",
             "title": "Erstelle Projekt"
         },
         {
             "location": "/devCamp/samples/sitemetacard/#yoman-optionen",
-            "text": "Solution Name: default  Baseline Package: SharePoint Online only  Target Location: Use the current folder  Tenant Admin: Yes  tenant-scoped-deployment  Project Type: WebPart  Project Name: SiteMetaCard  Project Description: Display the site information from Information Item.  Framework: React",
+            "text": "Solution Name: default  Baseline Package: SharePoint Online only  Target Location: Use the current folder  Tenant Admin: Yes  tenant-scoped-deployment  Project Type: WebPart  WebPart Name: SiteMetaCard  WebPart Description: Display the site information from Information Item.  Framework: React   resultat yo pnpm installation",
             "title": "Yoman Optionen"
+        },
+        {
+            "location": "/devCamp/samples/sitemetacard/#build-der-sourcen",
+            "text": "gulp build \nEs d\u00fcrfen keine Build Errors vorkommen",
+            "title": "Build der Sourcen"
+        },
+        {
+            "location": "/devCamp/samples/sitemetacard/#trust-certification",
+            "text": "Nur erstellen wenn noch nie eine SPFy Solution erstellt wurde  trust cert",
+            "title": "Trust Certification"
         },
         {
             "location": "/devCamp/samples/sitemetacard/#development-local-workbench",
@@ -276,28 +291,33 @@
             "title": "Development - online workbench"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#install-pnp-librarys",
+            "location": "/devCamp/samples/sitemetacard/#add-usefull-pnp-librarys",
             "text": "",
-            "title": "Install Pnp Librarys"
+            "title": "Add usefull Pnp Librarys"
         },
         {
             "location": "/devCamp/samples/sitemetacard/#pnpjs",
-            "text": "https://pnp.github.io/pnpjs/getting-started.html  https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide   npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save",
+            "text": "https://pnp.github.io/pnpjs/getting-started.html  https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide   pnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save",
             "title": "PnpJs"
         },
         {
             "location": "/devCamp/samples/sitemetacard/#pnp-react-controls",
-            "text": "https://sharepoint.github.io/sp-dev-fx-controls-react/   npm install @pnp/spfx-controls-react --save --save-exact",
+            "text": "https://sharepoint.github.io/sp-dev-fx-controls-react/   pnpm install @pnp/spfx-controls-react --save --save-exact",
             "title": "Pnp React Controls"
         },
         {
             "location": "/devCamp/samples/sitemetacard/#pnp-property-controls",
-            "text": "https://sharepoint.github.io/sp-dev-fx-property-controls/   npm install @pnp/spfx-property-controls --save --save-exact",
+            "text": "https://sharepoint.github.io/sp-dev-fx-property-controls/   pnpm install @pnp/spfx-property-controls --save --save-exact",
             "title": "Pnp Property Controls"
         },
         {
+            "location": "/devCamp/samples/sitemetacard/#office-fabric-react-controls",
+            "text": "https://developer.microsoft.com/en-us/fabric#/get-started#react   pnpm install --save office-ui-fabric-react",
+            "title": "Office Fabric react Controls"
+        },
+        {
             "location": "/devCamp/samples/sitemetacard/#reference-librarys",
-            "text": "Import...",
+            "text": "Sample  import { sp } from \"@pnp/sp\";\nimport { WebPartTitle } from \"@pnp/spfx-controls-react/lib/WebPartTitle\";\nimport { PropertyFieldListPicker, PropertyFieldListPickerOrderBy } from '@pnp/spfx-property-controls/lib/PropertyFieldListPicker';",
             "title": "Reference Librarys"
         },
         {
@@ -617,7 +637,7 @@
         },
         {
             "location": "/spfx/flow/",
-            "text": "Flow\n\u00b6\n\n\nConnectors\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors\n\n\n\n\nLimits\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/flow/limits-and-config\n\n\nhttps://veenstra.me.uk/2018/07/17/microsoft-flow-connector-limits\n\n\nhttps://veenstra.me.uk/2018/03/19/microsoft-flow-the-hidden-gems-are-you-aware-of-all-of-these\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/johnnliu/flow\n\n\nDemo - Using Microsoft Flow to send monthly emails\n\n\nhttp://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow",
+            "text": "Flow\n\u00b6\n\n\nConnectors\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors\n\n\n\n\nLimits\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/flow/limits-and-config\n\n\nhttps://veenstra.me.uk/2018/07/17/microsoft-flow-connector-limits\n\n\nhttps://veenstra.me.uk/2018/03/19/microsoft-flow-the-hidden-gems-are-you-aware-of-all-of-these\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/johnnliu/flow\n\n\nDemo - Using Microsoft Flow to send monthly emails\n\n\nhttp://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow\n\n\nCalling Microsoft Flow from a site script",
             "title": "Flow"
         },
         {
@@ -637,7 +657,7 @@
         },
         {
             "location": "/spfx/flow/#samples",
-            "text": "https://github.com/johnnliu/flow  Demo - Using Microsoft Flow to send monthly emails  http://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow",
+            "text": "https://github.com/johnnliu/flow  Demo - Using Microsoft Flow to send monthly emails  http://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow  Calling Microsoft Flow from a site script",
             "title": "Samples"
         },
         {

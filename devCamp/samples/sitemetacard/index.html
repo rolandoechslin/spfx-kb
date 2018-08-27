@@ -582,6 +582,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#build-der-sourcen" title="Build der Sourcen" class="md-nav__link">
+    Build der Sourcen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trust-certification" title="Trust Certification" class="md-nav__link">
+    Trust Certification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#development-local-workbench" title="Development - local workbench" class="md-nav__link">
     Development - local workbench
   </a>
@@ -596,8 +610,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#install-pnp-librarys" title="Install Pnp Librarys" class="md-nav__link">
-    Install Pnp Librarys
+  <a href="#add-usefull-pnp-librarys" title="Add usefull Pnp Librarys" class="md-nav__link">
+    Add usefull Pnp Librarys
   </a>
   
     <nav class="md-nav">
@@ -620,6 +634,13 @@
           <li class="md-nav__item">
   <a href="#pnp-property-controls" title="Pnp Property Controls" class="md-nav__link">
     Pnp Property Controls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#office-fabric-react-controls" title="Office Fabric react Controls" class="md-nav__link">
+    Office Fabric react Controls
   </a>
   
 </li>
@@ -1715,6 +1736,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#build-der-sourcen" title="Build der Sourcen" class="md-nav__link">
+    Build der Sourcen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trust-certification" title="Trust Certification" class="md-nav__link">
+    Trust Certification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#development-local-workbench" title="Development - local workbench" class="md-nav__link">
     Development - local workbench
   </a>
@@ -1729,8 +1764,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#install-pnp-librarys" title="Install Pnp Librarys" class="md-nav__link">
-    Install Pnp Librarys
+  <a href="#add-usefull-pnp-librarys" title="Add usefull Pnp Librarys" class="md-nav__link">
+    Add usefull Pnp Librarys
   </a>
   
     <nav class="md-nav">
@@ -1753,6 +1788,13 @@
           <li class="md-nav__item">
   <a href="#pnp-property-controls" title="Pnp Property Controls" class="md-nav__link">
     Pnp Property Controls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#office-fabric-react-controls" title="Office Fabric react Controls" class="md-nav__link">
+    Office Fabric react Controls
   </a>
   
 </li>
@@ -1898,9 +1940,13 @@ $adminshortname = &quot;ro&quot;
 <li><a href="https://github.com/OfficeDev/office-ui-fabric-react/wiki/TypeScript-Guidelines">Office fabric react - TypeScript-Guidelines</a></li>
 </ul>
 <h2 id="erstelle-projekt">Erstelle Projekt<a class="headerlink" href="#erstelle-projekt" title="Permanent link">&para;</a></h2>
+<p>Gehe in deine Projekt Folder und erstelle einen Folder</p>
 <div class="codehilite"><pre><span></span>mkdir SpfxDevCamp2018
 cd SpfxDevCamp2018
-yo @microsoft/sharepoint
+</pre></div>
+
+<p>Mit pnpm-Package Manger <a href="https://pnpm.js.org">https://pnpm.js.org</a></p>
+<div class="codehilite"><pre><span></span>yo @microsoft/sharepoint --package-manager pnpm
 </pre></div>
 
 <h2 id="yoman-optionen">Yoman Optionen<a class="headerlink" href="#yoman-optionen" title="Permanent link">&para;</a></h2>
@@ -1910,10 +1956,18 @@ yo @microsoft/sharepoint
 <li>Target Location: Use the current folder</li>
 <li>Tenant Admin: Yes <a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-scoped-deployment">tenant-scoped-deployment</a></li>
 <li>Project Type: WebPart</li>
-<li>Project Name: SiteMetaCard</li>
-<li>Project Description: Display the site information from Information Item.</li>
+<li>WebPart Name: SiteMetaCard</li>
+<li>WebPart Description: Display the site information from Information Item.</li>
 <li>Framework: React</li>
 </ul>
+<p><a href="../../../assets/yo-pnpm-installation-1-5-1.png">resultat yo pnpm installation</a></p>
+<h2 id="build-der-sourcen">Build der Sourcen<a class="headerlink" href="#build-der-sourcen" title="Permanent link">&para;</a></h2>
+<p><div class="codehilite"><pre><span></span>gulp build
+</pre></div>
+Es dürfen keine Build Errors vorkommen</p>
+<h2 id="trust-certification">Trust Certification<a class="headerlink" href="#trust-certification" title="Permanent link">&para;</a></h2>
+<p>Nur erstellen wenn noch nie eine SPFy Solution erstellt wurde</p>
+<p><a href="../../../assets/gulp-trust-cert.png">trust cert</a></p>
 <h2 id="development-local-workbench">Development - local workbench<a class="headerlink" href="#development-local-workbench" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>gulp serve
 </pre></div>
@@ -1928,31 +1982,41 @@ yo @microsoft/sharepoint
 <div class="codehilite"><pre><span></span>/_layouts/15/workbench.aspx
 </pre></div>
 
-<h2 id="install-pnp-librarys">Install Pnp Librarys<a class="headerlink" href="#install-pnp-librarys" title="Permanent link">&para;</a></h2>
+<h2 id="add-usefull-pnp-librarys">Add usefull Pnp Librarys<a class="headerlink" href="#add-usefull-pnp-librarys" title="Permanent link">&para;</a></h2>
 <h3 id="pnpjs">PnpJs<a class="headerlink" href="#pnpjs" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="https://pnp.github.io/pnpjs/getting-started.html">https://pnp.github.io/pnpjs/getting-started.html</a></li>
 <li><a href="https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide">https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
+<div class="codehilite"><pre><span></span>pnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
 </pre></div>
 
 <h3 id="pnp-react-controls">Pnp React Controls<a class="headerlink" href="#pnp-react-controls" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="https://sharepoint.github.io/sp-dev-fx-controls-react/">https://sharepoint.github.io/sp-dev-fx-controls-react/</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>npm install @pnp/spfx-controls-react --save --save-exact
+<div class="codehilite"><pre><span></span>pnpm install @pnp/spfx-controls-react --save --save-exact
 </pre></div>
 
 <h3 id="pnp-property-controls">Pnp Property Controls<a class="headerlink" href="#pnp-property-controls" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="https://sharepoint.github.io/sp-dev-fx-property-controls/">https://sharepoint.github.io/sp-dev-fx-property-controls/</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>npm install @pnp/spfx-property-controls --save --save-exact
+<div class="codehilite"><pre><span></span>pnpm install @pnp/spfx-property-controls --save --save-exact
+</pre></div>
+
+<h3 id="office-fabric-react-controls">Office Fabric react Controls<a class="headerlink" href="#office-fabric-react-controls" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://developer.microsoft.com/en-us/fabric#/get-started#react">https://developer.microsoft.com/en-us/fabric#/get-started#react</a></li>
+</ul>
+<div class="codehilite"><pre><span></span>pnpm install --save office-ui-fabric-react
 </pre></div>
 
 <h2 id="reference-librarys">Reference Librarys<a class="headerlink" href="#reference-librarys" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>Import...
+<p>Sample</p>
+<div class="codehilite"><pre><span></span>import { sp } from &quot;@pnp/sp&quot;;
+import { WebPartTitle } from &quot;@pnp/spfx-controls-react/lib/WebPartTitle&quot;;
+import { PropertyFieldListPicker, PropertyFieldListPickerOrderBy } from &#39;@pnp/spfx-property-controls/lib/PropertyFieldListPicker&#39;;
 </pre></div>
 
 <h2 id="aufgabe">Aufgabe<a class="headerlink" href="#aufgabe" title="Permanent link">&para;</a></h2>
