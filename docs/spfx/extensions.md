@@ -15,3 +15,9 @@
 ## Comments
 
 - <http://sharepoint.handsontek.net/2018/08/13/receive-comment-notification-by-email-in-modern-sharepoint-pages/>
+- <https://github.com/joaoferreira/Comments-Notifications-On-Modern-SharePoint-Pages>
+
+## Change browser favicon icon
+
+- <http://sharepoint.handsontek.net/2018/08/24/change-favicon-on-modern-sharepoint-sites>
+- https://github.com/joaoferreira/SPFx-favicon/

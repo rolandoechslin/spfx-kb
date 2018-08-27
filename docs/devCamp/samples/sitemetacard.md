@@ -51,7 +51,7 @@ yo @microsoft/sharepoint
 - Solution Name: default
 - Baseline Package: SharePoint Online only
 - Target Location: Use the current folder
-- Tenant Admin: No
+- Tenant Admin: Yes [tenant-scoped-deployment](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-scoped-deployment)
 - Project Type: WebPart
 - Project Name: SiteMetaCard
 - Project Description: Display the site information from Information Item.
