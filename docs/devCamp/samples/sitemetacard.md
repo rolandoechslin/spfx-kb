@@ -40,9 +40,14 @@ Test:
 
 ## Erstelle Projekt
 
+Gehe in deine Projekt Folder und erstelle einen Folder
+
 ```bs
 mkdir SpfxDevCamp2018
 cd SpfxDevCamp2018
+```
+
+```bs
 yo @microsoft/sharepoint
 ```
 
@@ -53,8 +58,8 @@ yo @microsoft/sharepoint
 - Target Location: Use the current folder
 - Tenant Admin: Yes [tenant-scoped-deployment](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-scoped-deployment)
 - Project Type: WebPart
-- Project Name: SiteMetaCard
-- Project Description: Display the site information from Information Item.
+- WebPart Name: SiteMetaCard
+- WebPart Description: Display the site information from Information Item.
 - Framework: React
 
 ## Development - local workbench
