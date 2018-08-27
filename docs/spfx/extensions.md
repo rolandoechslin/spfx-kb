@@ -11,3 +11,7 @@
 ## ListView
 
 - <https://www.eliostruyf.com/showing-or-hiding-sharepoint-framework-listview-custom-actions-based-on-permissions-and-selected-items>
+
+## Comments
+
+- <http://sharepoint.handsontek.net/2018/08/13/receive-comment-notification-by-email-in-modern-sharepoint-pages/>
