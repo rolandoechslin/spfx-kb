@@ -99,8 +99,7 @@ gulp serve --nobrowser
 /_layouts/15/workbench.aspx
 ```
 
-
-## Install Pnp Librarys
+## Add usefull Pnp Librarys
 
 ### PnpJs
 
@@ -127,13 +126,25 @@ pnpm install @pnp/spfx-controls-react --save --save-exact
 pnpm install @pnp/spfx-property-controls --save --save-exact
 ```
 
-## Reference Librarys
+### Office Fabric react Controls
 
-```tsx
-Import...
+- <https://developer.microsoft.com/en-us/fabric#/get-started#react>
+
+```bs
+pnpm install --save office-ui-fabric-react
 ```
 
-## Aufgabe 
+## Reference Librarys
+
+Sample
+
+```tsx
+import { sp } from "@pnp/sp";
+import { WebPartTitle } from "@pnp/spfx-controls-react/lib/WebPartTitle";
+import { PropertyFieldListPicker, PropertyFieldListPickerOrderBy } from '@pnp/spfx-property-controls/lib/PropertyFieldListPicker';
+```
+
+## Aufgabe
 
 - Anzeige des Site Collection InfoItem in einem SPFx WebPart
 - Erstelle zuerst einen MockProvider als Datenquelle
