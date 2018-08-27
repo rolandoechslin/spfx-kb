@@ -47,8 +47,10 @@ mkdir SpfxDevCamp2018
 cd SpfxDevCamp2018
 ```
 
+Mit pnpm-Package Manger <https://pnpm.js.org>
+
 ```bs
-yo @microsoft/sharepoint
+Yo @microsoft/sharepoint --package-manager pnpm
 ```
 
 ## Yoman Optionen
