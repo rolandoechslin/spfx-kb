@@ -50,7 +50,7 @@ cd SpfxDevCamp2018
 Mit pnpm-Package Manger <https://pnpm.js.org>
 
 ```bs
-Yo @microsoft/sharepoint --package-manager pnpm
+yo @microsoft/sharepoint --package-manager pnpm
 ```
 
 ## Yoman Optionen
@@ -63,6 +63,21 @@ Yo @microsoft/sharepoint --package-manager pnpm
 - WebPart Name: SiteMetaCard
 - WebPart Description: Display the site information from Information Item.
 - Framework: React
+
+[resultat yo pnpm installation](../../assets/yo-pnpm-installation-1-5-1.png)
+
+## Build der Sourcen
+
+```bs
+gulp build
+```
+Es dürfen keine Build Errors vorkommen
+
+## Trust Certification
+
+Nur erstellen wenn noch nie eine SPFy Solution erstellt wurde
+
+[trust cert](../../assets/gulp-trust-cert.png)
 
 ## Development - local workbench
 
@@ -93,7 +108,7 @@ gulp serve --nobrowser
 - <https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide>
 
 ```bs
-npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
+pnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
 ```
 
 ### Pnp React Controls
@@ -101,7 +116,7 @@ npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
 - <https://sharepoint.github.io/sp-dev-fx-controls-react/>
 
 ```bs
-npm install @pnp/spfx-controls-react --save --save-exact
+pnpm install @pnp/spfx-controls-react --save --save-exact
 ```
 
 ### Pnp Property Controls
@@ -109,7 +124,7 @@ npm install @pnp/spfx-controls-react --save --save-exact
 - <https://sharepoint.github.io/sp-dev-fx-property-controls/>
 
 ```bs
-npm install @pnp/spfx-property-controls --save --save-exact
+pnpm install @pnp/spfx-property-controls --save --save-exact
 ```
 
 ## Reference Librarys

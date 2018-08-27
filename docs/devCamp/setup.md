@@ -25,6 +25,10 @@ pnpm install sp-pnp-js --save
 - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
+## Chrome Extension
+
+- [SP Editor](https://chrome.google.com/webstore/detail/sp-editor/ecblfcmjnbbgaojblcpmjoamegpbodhd)
+
 ## Check
 
 Am Ende werdet ihr folgendes erledigt/installiert haben:
