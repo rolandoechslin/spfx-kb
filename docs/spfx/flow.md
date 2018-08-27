@@ -14,3 +14,4 @@
 - <https://github.com/johnnliu/flow>
 - [Demo - Using Microsoft Flow to send monthly emails](https://youtu.be/NsJJYIaRbfw?t=513)
 - <http://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow>
+- [Calling Microsoft Flow from a site script](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial)
