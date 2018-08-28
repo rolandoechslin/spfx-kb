@@ -1,5 +1,6 @@
 # spfx-kb
 Knowledge base for SharePoint Framework (SPFx) snippets and links.
+https://rolandoechslin.github.io/spfx-kb/
 
 ## Help
 
