@@ -57,3 +57,24 @@ Am Ende werdet ihr folgendes erledigt/installiert haben:
 - Notwendige NPM-Module mit **pnpm** installiert
 - Mit yo ein neus SPFx Projekt erstellt
 - Notwendige Tools und Extensions installiert
+
+# Docker
+Alternative zum hier beschriebenen Szenario ist die Verwendung von Docker Images
+
+Docker installieren (Account notwendig): [Link](https://www.docker.com/get-started)
+
+## Prep
+In **Docker Settings > Shared Drives** prüfen, ob das verwendete Drive ein Shared Drive ist
+
+```powershell
+cd projectfolder
+```
+
+## 1.5.1
+docker run -it --rm --name spfx-helloworld -v ${PWD}:/usr/app/spfx -p 5432:5432 -p 4321:4321 -p 35729:35729 waldekm/spfx:1.5.1
+
+## 1.4.1
+docker run -it --rm --name spfx-helloworld -v ${PWD}:/usr/app/spfx -p 5432:5432 -p 4321:4321 -p 35729:35729 waldekm/spfx:1.4.1
+
+## run
+yo @microsoft/sharepoint
