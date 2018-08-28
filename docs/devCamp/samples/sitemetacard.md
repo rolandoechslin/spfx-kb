@@ -131,8 +131,10 @@ pnpm install @pnp/spfx-property-controls --save --save-exact
 - <https://developer.microsoft.com/en-us/fabric#/get-started#react>
 
 ```bs
-pnpm install --save office-ui-fabric-react
+pnpm install office-ui-fabric-react@lts --save
 ```
+
+Info: [gotcha-when-adding-office-ui-fabric](https://www.techmikael.com/2018/08/gotcha-when-adding-office-ui-fabric.html)
 
 ## Reference Librarys
 
