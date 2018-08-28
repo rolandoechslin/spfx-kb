@@ -937,13 +937,18 @@
         },
         {
             "location": "/spfx/sitescripts/",
-            "text": "Site Scripts\n\u00b6\n\n\n\n\nhttps://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254\n\n\nhttps://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/\n\n\n\n\nPnP provisioning engine\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-pnp-provisioning\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://ypcode.wordpress.com/2018/03/26/site-designs-studio-1-0/\n\n\nhttps://ypcode.wordpress.com/2018/04/15/convert-caml-list-schema-to-site-scripts/\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-site-scripts",
+            "text": "Site Scripts\n\u00b6\n\n\n\n\nhttps://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254\n\n\nhttps://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/\n\n\nhttps://beaucameron.net/2018/08/28/how-to-create-modern-sharepoint-site-templates-using-office-365-site-designs/\n\n\n\n\nPnP or site scripts\n\u00b6\n\n\n\n\nhttps://www.sharepointnutsandbolts.com/2018/01/site-designs-scripts-or-pnp-templates.html\n\n\n\n\nPnP provisioning engine\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-pnp-provisioning\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://ypcode.wordpress.com/2018/03/26/site-designs-studio-1-0/\n\n\nhttps://ypcode.wordpress.com/2018/04/15/convert-caml-list-schema-to-site-scripts/\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-site-scripts",
             "title": "Site-Scripts"
         },
         {
             "location": "/spfx/sitescripts/#site-scripts",
-            "text": "https://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254  https://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/",
+            "text": "https://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254  https://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/  https://beaucameron.net/2018/08/28/how-to-create-modern-sharepoint-site-templates-using-office-365-site-designs/",
             "title": "Site Scripts"
+        },
+        {
+            "location": "/spfx/sitescripts/#pnp-or-site-scripts",
+            "text": "https://www.sharepointnutsandbolts.com/2018/01/site-designs-scripts-or-pnp-templates.html",
+            "title": "PnP or site scripts"
         },
         {
             "location": "/spfx/sitescripts/#pnp-provisioning-engine",
@@ -1737,7 +1742,7 @@
         },
         {
             "location": "/tools/dev/",
-            "text": "Dev Tools\n\u00b6\n\n\nTranslation\n\u00b6\n\n\n\n\nhttps://www.deepl.com/translator\n\n\n\n\nDokumentation Site Generator\n\u00b6\n\n\n\n\nmkdocs-material\n\n\ndocusaurus\n\n\ndochameleon\n\n\n\n\nGuid\n\u00b6\n\n\n\n\nhttps://www.guidgen.com/\n\n\n\n\nJson\n\u00b6\n\n\n\n\nOnline Json viewer\n\n\nFake Json Generator\n\n\n\n\nREST\n\u00b6\n\n\n\n\npostman-and-office-365\n\n\nhttps://s-kainet.github.io/sp-rest-explorer\n\n\n\n\nChange Log\n\u00b6\n\n\n\n\nkeepachangelog\n\n\n\n\nEmail\n\u00b6\n\n\n\n\nhttps://foundation.zurb.com/emails.html\n\n\nhttps://mailchimp.com/\n\n\n\n\nRessourcen Files\n\u00b6\n\n\n\n\nhttps://poeditor.com/\n\n\nhttps://github.com/ypcode/spfx-dev-tools\n (Ressourcen Files mit Excel editieren)\n\n\nhttps://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources/\n\n\n\n\nULS\n\u00b6\n\n\n\n\nhttps://sharepointring.com/\n\n\n\n\nVS.Code Extensions\n\u00b6\n\n\n\n\nhttps://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint\n\n\n\n\nCLI App Generator\n\u00b6\n\n\n\n\nhttps://github.com/koltyakov/generator-sppp\n\n\nhttps://github.com/facebook/create-react-app\n\n\nhttps://github.com/StfBauer/generator-simplestyle\n\n\n\n\nFabric Icons\n\u00b6\n\n\n\n\n\n\nRender Office Fabric UI Icons into Canvas\n\n\n\n\n\n\nhttps://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon\n\n\n\n\nhttps://developer.microsoft.com/en-us/fabric#/styles/icons",
+            "text": "Dev Tools\n\u00b6\n\n\nTranslation\n\u00b6\n\n\n\n\nhttps://www.deepl.com/translator\n\n\n\n\nDokumentation Site Generator\n\u00b6\n\n\n\n\nmkdocs-material\n\n\ndocusaurus\n\n\ndochameleon\n\n\n\n\nGuid\n\u00b6\n\n\n\n\nhttps://www.guidgen.com/\n\n\n\n\nJson\n\u00b6\n\n\n\n\nOnline Json viewer\n\n\nFake Json Generator\n\n\n\n\nREST\n\u00b6\n\n\n\n\npostman-and-office-365\n\n\nhttps://s-kainet.github.io/sp-rest-explorer\n\n\n\n\nChange Log\n\u00b6\n\n\n\n\nkeepachangelog\n\n\n\n\nEmail\n\u00b6\n\n\n\n\nhttps://foundation.zurb.com/emails.html\n\n\nhttps://mailchimp.com/\n\n\n\n\nRessourcen Files\n\u00b6\n\n\n\n\nhttps://poeditor.com/\n\n\nhttps://github.com/ypcode/spfx-dev-tools\n (Ressourcen Files mit Excel editieren)\n\n\nhttps://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources/\n\n\n\n\nULS\n\u00b6\n\n\n\n\nhttps://sharepointring.com/\n\n\n\n\nVS.Code Extensions\n\u00b6\n\n\n\n\nhttps://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint\n\n\n\n\nCLI App Generator\n\u00b6\n\n\n\n\nhttps://github.com/koltyakov/generator-sppp\n\n\nhttps://github.com/facebook/create-react-app\n\n\nhttps://github.com/StfBauer/generator-simplestyle\n\n\n\n\nFabric Icons\n\u00b6\n\n\n\n\n\n\nRender Office Fabric UI Icons into Canvas\n\n\n\n\n\n\nhttps://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon\n\n\n\n\nhttps://developer.microsoft.com/en-us/fabric#/styles/icons\n\n\n\n\nRemove git integrations from VSCode\n\u00b6\n\n\nsettings.json\n\n\n//\n \nIs\n \ngit\n \nenabled\n\n\n\"git.enabled\"\n:\n \nfalse\n,\n\n\n\n\n\n//\n \nPath\n \nto\n \nthe\n \ngit\n \nexecutable\n\n\n\"git.path\"\n:\n \nnull\n,\n\n\n\n\n\n//\n \nWhether\n \nauto\n \nfetching\n \nis\n \nenabled.\n\n\n\"git.autofetch\"\n:\n \nfalse\n,\n\n\n\nInfo: \nhttps://stackoverflow.com/questions/30331338/remove-git-integrations-from-vscode",
             "title": "Dev"
         },
         {
@@ -1804,6 +1809,11 @@
             "location": "/tools/dev/#fabric-icons",
             "text": "Render Office Fabric UI Icons into Canvas    https://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon   https://developer.microsoft.com/en-us/fabric#/styles/icons",
             "title": "Fabric Icons"
+        },
+        {
+            "location": "/tools/dev/#remove-git-integrations-from-vscode",
+            "text": "settings.json  //   Is   git   enabled  \"git.enabled\" :   false ,   //   Path   to   the   git   executable  \"git.path\" :   null ,   //   Whether   auto   fetching   is   enabled.  \"git.autofetch\" :   false ,  \nInfo:  https://stackoverflow.com/questions/30331338/remove-git-integrations-from-vscode",
+            "title": "Remove git integrations from VSCode"
         },
         {
             "location": "/tools/powerapps/",
