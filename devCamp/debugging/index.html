@@ -496,6 +496,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#wenns-nicht-klappt" title="Wenns nicht klappt" class="md-nav__link">
+    Wenns nicht klappt
+  </a>
+  
+</li>
+      
       
       
       
@@ -1520,6 +1527,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#wenns-nicht-klappt" title="Wenns nicht klappt" class="md-nav__link">
+    Wenns nicht klappt
+  </a>
+  
+</li>
+      
       
       
       
@@ -1548,10 +1562,68 @@
 gulp serve
 </pre></div>
 
-<p>!!!notwendige VS Code Einstellungen!!!</p>
 <h2 id="local">Local<a class="headerlink" href="#local" title="Permanent link">&para;</a></h2>
+<ul>
+<li>F5 drücken im VS Code und Local auswählen</li>
+</ul>
 <h2 id="remote">Remote<a class="headerlink" href="#remote" title="Permanent link">&para;</a></h2>
-<p><a href="https://tenant.sharepoint.com/sites/testsite/_layouts/15/workbench.aspx">https://tenant.sharepoint.com/sites/testsite/_layouts/15/workbench.aspx</a> (???Korrekt???)</p>
+<ul>
+<li>/.vscode/launch.json anpassen</li>
+</ul>
+<p><strong>Vorher</strong>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+      <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Hosted workbench&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;chrome&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;request&quot;</span><span class="p">:</span> <span class="s2">&quot;launch&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://enter-your-SharePoint-site/_layouts/workbench.aspx&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;webRoot&quot;</span><span class="p">:</span> <span class="s2">&quot;${workspaceRoot}&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;sourceMaps&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+      <span class="nt">&quot;sourceMapPathOverrides&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;webpack:///../../../src/*&quot;</span><span class="p">:</span> <span class="s2">&quot;${webRoot}/src/*&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;webpack:///../../../../src/*&quot;</span><span class="p">:</span> <span class="s2">&quot;${webRoot}/src/*&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;webpack:///../../../../../src/*&quot;</span><span class="p">:</span> <span class="s2">&quot;${webRoot}/src/*&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;runtimeArgs&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;--remote-debugging-port=9222&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;-incognito&quot;</span>
+      <span class="p">]</span>
+<span class="p">}</span>
+</pre></div></p>
+<p><strong>Nachher (URL angepasst)</strong>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+      <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Hosted workbench&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;chrome&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;request&quot;</span><span class="p">:</span> <span class="s2">&quot;launch&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://gw365dev.sharepoint.com/sites/kboapp/_layouts/workbench.aspx&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;webRoot&quot;</span><span class="p">:</span> <span class="s2">&quot;${workspaceRoot}&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;sourceMaps&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+      <span class="nt">&quot;sourceMapPathOverrides&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;webpack:///../../../src/*&quot;</span><span class="p">:</span> <span class="s2">&quot;${webRoot}/src/*&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;webpack:///../../../../src/*&quot;</span><span class="p">:</span> <span class="s2">&quot;${webRoot}/src/*&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;webpack:///../../../../../src/*&quot;</span><span class="p">:</span> <span class="s2">&quot;${webRoot}/src/*&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;runtimeArgs&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;--remote-debugging-port=9222&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;-incognito&quot;</span>
+      <span class="p">]</span>
+<span class="p">}</span>
+</pre></div></p>
+<ul>
+<li>Links im VS Code auf Debug wechseln</li>
+<li>Oben die Configuration "Hosted workbench" auswählen</li>
+<li>Ab jetzt kann auch mit F5 gestartet werden</li>
+</ul>
+<h2 id="wenns-nicht-klappt">Wenns nicht klappt<a class="headerlink" href="#wenns-nicht-klappt" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Zurück zur alten Version
+<div class="codehilite"><pre><span></span><span class="n">nvm</span> <span class="n">install</span> <span class="n">6</span><span class="p">.</span><span class="n">12</span><span class="p">.</span><span class="n">0</span>
+<span class="n">nvm</span> <span class="n">use</span> <span class="n">6</span><span class="p">.</span><span class="n">12</span><span class="p">.</span><span class="n">0</span>
+<span class="n">npm</span> <span class="n">install</span> <span class="n">-g</span> <span class="n">yo</span> <span class="n">gulp</span> <span class="nv">@microsoft</span><span class="p">/</span><span class="n">generator-sharepoint</span><span class="nv">@1</span><span class="p">.</span><span class="n">4</span><span class="p">.</span><span class="n">1</span>
+
+<span class="n">gulp</span> <span class="n">trust-dev-cert</span>
+<span class="n">gulp</span> <span class="n">serve</span>
+</pre></div></li>
+</ul>
                 
                   
                 
