@@ -1,18 +1,27 @@
-# Setup SPFx Environment
+# Maschine vorbereiten
 
-Hier lernt ihr, wie ihr eure Maschine zur SPFx DEV Maschine ergänzt.
+Hier lernt ihr, wie ihr eure Maschine zur SPFx DEV Maschine transformiert.
 
-## Install everything you need for SPFx
+## COL-TOOLS
+* Auf Laptop kopieren
+* Zusätzliches installieren
+* 
+```powershell
+# choco installieren
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-[Hier](https://stash.garaio.com/projects/GPS/repos/col-tools/browse/Scripts/Setup-SPFxDevEnv.ps1) ist das Skript abgelegt.
+# git
+choco install git.install
 
-## Who the fuck is PNP?
+# pegeant
+choco install putty.install
 
-```bs
-pnpm install sp-pnp-js --save
+# git tool
+choco install gitkraken
+choco install gitextensions
 ```
 
-## Prepare VS Code
+# VS Code vorbereiten
 
 **must have**
 
@@ -25,11 +34,21 @@ pnpm install sp-pnp-js --save
 - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-## Chrome Extension
+# SPFx Requirements installieren und erstes Projekt erstellen
+
+[Hier](https://stash.garaio.com/projects/GPS/repos/col-tools/browse/Scripts/Setup-SPFxDevEnv.ps1) ist das Setup-Skript abgelegt
+
+# PNP cachen
+
+```bs
+pnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
+```
+
+# Chrome Extension
 
 - [SP Editor](https://chrome.google.com/webstore/detail/sp-editor/ecblfcmjnbbgaojblcpmjoamegpbodhd)
 
-## Check
+# Check
 
 Am Ende werdet ihr folgendes erledigt/installiert haben:
 

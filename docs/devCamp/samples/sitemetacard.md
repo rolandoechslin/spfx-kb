@@ -28,7 +28,7 @@ Test:
 
 - https://gw365dev.sharepoint.com/sites/roapp
 
-## Code Guidlines
+## Code Guidelines
 
 - [Typescriptlang - Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 - [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/blob/master/react/README.md)
@@ -75,7 +75,7 @@ Es dürfen keine Build Errors vorkommen
 
 ## Trust Certification
 
-Nur erstellen wenn noch nie eine SPFy Solution erstellt wurde
+Nur erstellen wenn noch nie eine SPFx Solution erstellt wurde
 
 [trust cert](../../assets/gulp-trust-cert.png)
 
