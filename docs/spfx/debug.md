@@ -11,3 +11,7 @@
 - [SPFx-breakpoints-and-debugging-from-Visual-Studio-Code]( https://techcommunity.microsoft.com/t5/SharePoint-Developer/SPFx-breakpoints-and-debugging-from-Visual-Studio-Code/m-p/58880#M2009)
 - [quick-tip-easily-test-sharepoint](http://www.techmikael.com/2018/03/quick-tip-easily-test-sharepoint.html)
 - [testing-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact](https://www.eliostruyf.com/testing-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact)
+
+## Exclude mock data
+
+- https://www.eliostruyf.com/exclude-your-mock-data-and-other-modules-from-your-production-bundle-in-spfx/

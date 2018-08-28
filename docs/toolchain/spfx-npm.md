@@ -2,7 +2,8 @@
 
 ## PNPM
 
-- https://www.voitanos.io/blog/npm-yarn-pnpm-which-package-manager-should-you-use-for-sharepoint-framework-projects
+- <https://www.voitanos.io/blog/npm-yarn-pnpm-which-package-manager-should-you-use-for-sharepoint-framework-projects>
+- <https://github.com/pnpm/pnpm>
 
 ## Package.json
 
