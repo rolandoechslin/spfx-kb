@@ -59,3 +59,23 @@
 
 - <https://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon>
 - <https://developer.microsoft.com/en-us/fabric#/styles/icons>
+
+## Remove git integrations from VSCode
+
+settings.json
+
+```json
+// Is git enabled
+"git.enabled": false,
+```
+
+```json
+// Path to the git executable
+"git.path": null,
+```
+
+```json
+// Whether auto fetching is enabled.
+"git.autofetch": false,
+```
+Info: https://stackoverflow.com/questions/30331338/remove-git-integrations-from-vscode
