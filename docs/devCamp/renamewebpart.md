@@ -26,7 +26,7 @@ git commit -m "init repo"
 
 - Replace des erstellten "WebPartName" und Rename aller Folder und Files sowie aller Klassen.
 
-### Test
+## Test
 
 Prüfe mit gulp build ob erfolgreich renamed wurde
 
