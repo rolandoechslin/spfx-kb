@@ -5,28 +5,24 @@
 ### Site Collection provisionierung
 
 - In einer SiteCollection existiert ein definiertes InfoItem.
-- Provisionierund der Liste und ein Item über PS-Script
+- Provisionier der Liste und Daten erfolgt über die PnP Engine Powershell
 
-#### Step 1
-Variable anpassen in Deployment Folder
+### Install Menu
 
-```bs
-.\deployment\env\Ga-Dev-Ro\init.ps1
-```
+- Install Menu aufrufen im Deployment Folder (.\install.ps1)
+- Ga-Dev selektieren mit "1"
+- Der Script verbindet sich automatisch auf deinen Tenant 
+    - siehe [Installer Menu](../../assets/connect-tenant.png)
+- Wähle Setup Provisioning > List > Add Information List
 
-```ps
-# tenant name
-$apps.default.tenant = "gw365dev"
+> Dieser Script installiert nacheinander die ContentTypes, Liste und Listeneintrag
 
-# Configure shortname only !!!
-$adminshortname = "ro"
-```
+### Test Installation
 
-#### Step 2
+Ein Information Item muss erstellt sein unter
 
-Test:
-
-- https://gw365dev.sharepoint.com/sites/roapp
+z.B. für meine Dev SiteCollection
+- https://gw365dev.sharepoint.com/sites/roapp/Lists/Information/AllItems.aspx
 
 ## Code Guidelines
 
@@ -63,8 +59,6 @@ yo @microsoft/sharepoint --package-manager pnpm
 - WebPart Name: SiteMetaCard
 - WebPart Description: Display the site information from Information Item.
 - Framework: React
-
-[resultat yo pnpm installation](../../assets/yo-pnpm-installation-1-5-1.png)
 
 ## Build der Sourcen
 
