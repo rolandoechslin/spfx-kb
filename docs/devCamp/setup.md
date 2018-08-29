@@ -61,6 +61,10 @@ pnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
 
 - [SP Editor](https://chrome.google.com/webstore/detail/sp-editor/ecblfcmjnbbgaojblcpmjoamegpbodhd)
 
+### Online Tools
+
+- <http://jsonviewer.stack.hu>
+
 ### Check
 
 Am Ende werdet ihr folgendes erledigt/installiert haben:
