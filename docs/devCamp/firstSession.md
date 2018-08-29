@@ -1,16 +1,19 @@
 # First Session
+
 Wir zeigen euch, wie ihr euer yo generiertes SPFx Web Part zu einem Web Part erweitern könnte, das folgendes kann:
 
-* Herausfinden, ob ihr lokal oder in SPO entwickelt
-* Basierend darauf, kann der Fake oder Real Data Provider genutzt werden
-* Mit PNP im Real Data Provider ein List Item auslesen
-* Das List Item mit einer Office UI Fabric Komponente darstellen
+- Herausfinden, ob ihr lokal oder in SPO entwickelt
+- Basierend darauf, kann der Fake oder Real Data Provider genutzt werden
+- Mit PNP im Real Data Provider ein List Item auslesen
+- Das List Item mit einer Office UI Fabric Komponente darstellen
 
 ## Requirements
-* Beispiel-Lösung hier abgelegt: ???Link zum Repo???
 
+- Beispiel-Lösung hier abgelegt
+  - https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018
 
 ## Wo bin ich überhaupt?
+
 ```ts
 if (Environment.type === EnvironmentType.ClassicSharePoint) {
       // do some stuff on classic page
@@ -25,6 +28,7 @@ if (Environment.type === EnvironmentType.ClassicSharePoint) {
 ```
 
 ## UI Fabric Komponente verwenden
+
 ```ts
 import { WebPartTitle } from "@pnp/spfx-controls-react/lib/WebPartTitle";
 
@@ -37,7 +41,6 @@ public render(): React.ReactElement<ISiteOverviewProps> {
     );
     ...
 }
-
 ```
 
 ## Renaming Web Part
