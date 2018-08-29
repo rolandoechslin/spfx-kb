@@ -347,7 +347,7 @@
         },
         {
             "location": "/devCamp/konzepte-webpart/",
-            "text": "SPFx Konzepte anhand eines Beispiels\n\u00b6\n\n\nAufzeigen von diversen Spfx WebPart Konzepten und ihre Umsetzungen im Code.\n\n\nMockdaten\n\u00b6\n\n\nAnzeige von Mockdaten wenn der local server gestartet wird.\n\n\n\n\nCode\n\n\nLoad data icon\n\u00b6\n\n\nAnzeige eines \"Load data...\" Icons, wenn der Datenzugriff erfolgt, sobald diese geladen sind, sollen die Daten angezeigt werden.\n\n\n\n\nCode\n\n\nLokalisierung des WebParts\n\u00b6\n\n\nUmschalten der Sprache.\n\n\n\n\ngulp serve --locale=de-de\n\n\n\n\nCode\n\n\nInline editieren des Titels\n\u00b6\n\n\nDer Titel des Webparts kann editiert werden ohne die WebPart Properties zu \u00f6ffnen.\n\n\n\n\nCode\n\n\nWebPart Konfiguration\n\u00b6\n\n\nAnzeige von WebPart Properties, wie die Darstellung ver\u00e4nder werden kann zur Laufzeit.\n\n\n\n\n\n\nCode\n\n\nLaden von Sharepoint List Daten\n\u00b6\n\n\nAnzeige eines Listitems aus einer Liste mithilfe der Library \nhttps://github.com/pnp/pnpjs\n. Bei komplexen Lookup oder Taxonomie Felder liefert die Funktion renderListDataAsStream() alle Daten zur\u00fcck.\n\n\n\n\ngulp serve --nobrowser --locale=de-de\n\n\n\n\nCode",
+            "text": "SPFx Konzepte anhand eines Beispiels\n\u00b6\n\n\nAufzeigen von diversen Spfx WebPart Konzepten und ihre Umsetzungen im Code.\n\n\nMockdaten\n\u00b6\n\n\nAnzeige von Mockdaten wenn der local server gestartet wird.\n\n\n\n\nCode Switch Enviroment\n\n\nCode Service\n\n\nLoad data icon\n\u00b6\n\n\nAnzeige eines \"Load data...\" Icons, wenn der Datenzugriff erfolgt, sobald diese geladen sind, sollen die Daten angezeigt werden.\n\n\n\n\nCode\n\n\nLokalisierung des WebParts\n\u00b6\n\n\nUmschalten der Sprache.\n\n\n\n\ngulp serve --locale=de-de\n\n\n\n\nCode\n\n\nInline editieren des Titels\n\u00b6\n\n\nDer Titel des Webparts kann editiert werden ohne die WebPart Properties zu \u00f6ffnen.\n\n\n\n\nCode\n\n\nWebPart Konfiguration\n\u00b6\n\n\nAnzeige von WebPart Properties, wie die Darstellung ver\u00e4nder werden kann zur Laufzeit.\n\n\n\n\n\n\nCode\n\n\nLaden von Sharepoint List Daten\n\u00b6\n\n\nAnzeige eines Listitems aus einer Liste mithilfe der Library \nhttps://github.com/pnp/pnpjs\n. Bei komplexen Lookup oder Taxonomie Felder liefert die Funktion renderListDataAsStream() alle Daten zur\u00fcck.\n\n\n\n\ngulp serve --nobrowser --locale=de-de\n\n\n\n\nCode",
             "title": "WebPart-Konzepte"
         },
         {
@@ -357,7 +357,7 @@
         },
         {
             "location": "/devCamp/konzepte-webpart/#mockdaten",
-            "text": "Anzeige von Mockdaten wenn der local server gestartet wird.   Code",
+            "text": "Anzeige von Mockdaten wenn der local server gestartet wird.   Code Switch Enviroment  Code Service",
             "title": "Mockdaten"
         },
         {
