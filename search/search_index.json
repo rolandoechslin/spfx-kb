@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Tips and tricks\n\u00b6\n\n\nCode Guideline\n\u00b6\n\n\n\n\nTypescriptlang - Handbook\n\n\nAirbnb React/JSX Style Guide\n\n\nAirbnb JavaScript Style Guide\n\n\nOffice fabric react - Coding Guidelines\n\n\nOffice fabric react - React-Guideline\n\n\nOffice fabric react - TypeScript-Guidelines\n\n\n\n\nSharePoint PNP Community\n\u00b6\n\n\n\n\nSharePoint PnP resources\n\n\nSharepoint Glossar\n\n\n\n\nCreate WebPart\n\u00b6\n\n\nyo @microsoft/sharepoint\ngit init\ngit add -A\ngit commit -m \"init repo\"\n\n\n\n\nDevelopment - local workbench\n\u00b6\n\n\ngulp serve\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment - online workbench\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\n{spo site}/_layouts/15/workbench.aspx\n\n\n\n\nPrepare Deployment Solution\n\u00b6\n\n\ngulp clean\ngulp build\ngulp --ship\ngulp package-solution --ship\n\n\n\n\nManuel Upload Solution Deployment\n\u00b6\n\n\n\n\nUpload the solution file \"packagename.sppkg\" from \"/sharepoint/solution\" to the App Catalog.\n\n\nGo to either a modern Communication or Team Site.\n\n\nGo to \"Site contents\" and add new \"App\"\n\n\nSelect \"packagename\" and wait for it to be installed\n\n\nGo to the front page, edit the page and add the webpart\n\n\n\n\nLogging with sp-core-library\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API\n\n\n\n\nReference the Log class.\n\n\nimport { Log } from '@microsoft/sp-core-library';\n\n\n\n\nLog your message from your WebPart\n\n\nLog.verbose(\"HelloWorld\", \"Here is a verbose log\", this.context.serviceScope);\n\nLog.info(\"HelloWorld\", \"Here is an informational message.\", this.context.serviceScope);\n\nLog.warn(\"HelloWorld\", \"Oh Oh, this might be bad\", this.context.serviceScope);\n\nLog.error(\"HelloWorld\", new Error(\"Oh No!  Error!  Ahhhhhh!!!!\"), this.context.serviceScope);\nLogging with @pnp/logging\n\n\n\n\nCustom logging (pnp-logging)\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging\n\n\nhttps://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging\n\n\n\n\nDebug in browser\n\u00b6\n\n\ngulp serve\n\n\n- add webpart\n- start Chrome\n- start Dev Extension (F12)\n- open Source, Search for ClassName (Ctrl+P)\n- add Breakpoint\n- refresh page\n\n\nDebug in vs.code\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode\n\n\n\n\nPre Steps\n- open vs.code / view extensions\n- install \"Debugger for chrome\"\n- create launch.json\n- select configuration\n    - Hosted workbench configuration\n\n\nSteps\n\ngulp serve --nobrowser\n\n\n\n\n\nadd breakpoint in vs.code ts-file\n\n\ngo debug view\n\n\npress F5\n\n\nselect configuration\n\n\nadd wepart to workbench\n\n\n\n\nChecklist SPFx initial\n\u00b6\n\n\n\n\nhttps://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/\n\n\n\n\nFix version\n\u00b6\n\n\n\n\nedit version in package.json -> same as in package-solution.json\n\n\nto \"version\": \"1.0.0\",\n\n\n\n\n\n\n\n\nAdd importend pnp modules\n\u00b6\n\n\n\n\nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide\n\n\n\n\nnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-controls-react/\n\n\n\n\nnpm install @pnp/spfx-controls-react --save --save-exact\n\n\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-property-controls/\n\n\n\n\nnpm install @pnp/spfx-property-controls --save --save-exact\n\n\n\n\nLocalizations\n\u00b6\n\n\n\n\nLocation files are in JSON format\n\n\nThey work similar as Resources files (XML) on VS Solution\n\n\nThe default language is English (en-us)\n\n\nDevelopers can test the locale by:\n\n\nUpdating write-manifests.json file\n\n\n\n\n\n\n\n\n{\n\n    \n\"cdnBasePath\"\n:\n \n\"<!-- PATH TO CDN -->\"\n,\n\n    \n\"debugLocale\"\n:\n \n\"de-de\"\n\n\n}\n\n\n\n\n\nOr by using the \"locale\" command argument\n\n\ngulp serve --locale=de-de\n\n\n\n\nData Service\n\u00b6\n\n\nVery good overview from sebastien levert: \nAPIs Everywhere\n\n\nSample Folder structur\n\n\n\n\nsrc\n\n\nmodels\n\n\nIHelpDeskItem.ts\n\n\n\n\n\n\nservices\n\n\nIDataService.ts\n\n\nMockDataservice.ts\n\n\nSharepointDataService.ts\n\n\n\n\n\n\nwebparts\n\n\ncomponents\n\n\nloc\n\n\n'webpartnameWebPart.ts'\n\n\n\n\n\n\n\n\n\n\n\n\nData Model\n\u00b6\n\n\nInterface to define our Data structure\n\n\nexport interface IHelpDeskItem {\n  id?: number;\n  title?: string;\n  description?: string;\n  level?: string;\n  status?: string;\n  assignedTo?: string;\n  resolution?: string;\n}\n\n\n\n\nInterface to define our Data Access services\n\n\nimport { IHelpDeskItem } from \"./../models/IHelpDeskItem\";\nimport { WebPartContext } from \"@microsoft/sp-webpart-base\";\n\nexport default interface IDataService {\n  getTitle(): string;\n  isConfigured(): boolean;\n  getItems(context: WebPartContext): Promise<IHelpDeskItem[]>;\n  addItem(item: IHelpDeskItem): Promise<void>;\n  deleteItem(id: number): Promise<void>;\n}\n\n\n\n\nMocking Service for testing in local Workbench development\n\n\nimport { IHelpDeskItem } from \"./../models/IHelpDeskItem\";\nimport IDataService from \"./IDataService\";\nimport { IWebPartContext } from \"@microsoft/sp-webpart-base\";\n\nexport default class MockDataService implements IDataService {\n...\n  private _webPartContext: IWebPartContext;\n  private _listId: string;\n\n  constructor(webPartContext: IWebPartContext, listId: string) {\n    this._webPartContext = webPartContext;\n    this._listId = listId;\n  }\n...\n\n  public getItems(context: IWebPartContext): Promise<IHelpDeskItem[]> {\n    return new Promise<IHelpDeskItem[]>((resolve, reject) => {\n      setTimeout(() => resolve([\n        {\n          id : 1,\n          title : \"That doesn't work\",\n          description : \"When I do that, it doesn't work\",\n          level : \"Low\",\n          status: \"Open\",\n          resolution: \"Do this and it will work!\",\n          assignedTo: \"S\u00e9bastien Levert\",\n        }\n      ]), 300);\n    });\n  }\n}\n\n\n\n\nGet Data with Sharepoint REST\n\u00b6\n\n\nSource\n\n\npublic getItems(context: WebPartContext): Promise<IHelpDeskItem[]> {\nreturn new Promise<IHelpDeskItem[]>((resolve, reject) => {\n    context.spHttpClient\n    .get( `${this._webPartContext.pageContext.web.absoluteUrl}/_api/web/lists/GetById('${this._listId}')/items` +\n            `?$select=*,HelpDeskAssignedTo/Title&$expand=HelpDeskAssignedTo`, SPHttpClient.configurations.v1)\n    .then(res => res.json())\n    .then(res => {\n        let helpDeskItems:IHelpDeskItem[] = [];\n\n        for(let helpDeskListItem of res.value) {\n        helpDeskItems.push(this.buildHelpDeskItem(helpDeskListItem));\n        }\n\n        resolve(helpDeskItems);\n    })\n    .catch(err => console.log(err));\n});\n}\n\n\n\n\nGet Data with Pnp-JS-Core\n\u00b6\n\n\nAdvantages\n\n\n\n\nType safe so you get your errors while you code and not when you execute and test\n\n\nWorks on all versions of SharePoint (On-Premises, Online, etc.)\n\n\nOffers built-in caching mechanisms\n\n\nHeavily used in the SharePoint Development Community\n\n\n\n\nInit context in react webpart component\n\nsource\n\n\npublic onInit(): Promise<void> {\n    return super.onInit().then(_ => {\n        pnpSetup({\n        spfxContext: this.context\n        });\n    });\n}\n\n\n\n\ninit service in react webpart component\n\n\npublic render(): void {\n    const element: React.ReactElement<IListContentProps> = React.createElement(\n      ListContent,\n      {\n        context: this.context,\n        dataService: this.getDataService(),\n        list: this.properties.list\n      }\n    );\n\n    ReactDom.render(element, this.domElement);\n}\n\n\n\n\nGet items from list\n\nSource\n\n\npublic getItems(context: WebPartContext): Promise<IHelpDeskItem[]> {\nreturn new Promise<IHelpDeskItem[]>((resolve, reject) => {\n\n    sp.web.lists.getById(this._listId).items\n    .select(\"*\", \"HelpDeskAssignedTo/Title\")\n    .expand(\"HelpDeskAssignedTo\").getAll().then((sessionItems: any[]) => {\n    let helpDeskItems:IHelpDeskItem[] = [];\n\n    for(let helpDeskListItem of sessionItems) {\n        helpDeskItems.push(this.buildHelpDeskItem(helpDeskListItem));\n    }\n\n    resolve(helpDeskItems);\n    });\n\n});\n}\n\n\n\n\nStart Office Fabric React\n\u00b6\n\n\nCreate Sample\n\n\n\n\nhttps://github.com/Microsoft/TypeScript-React-Starter\n\n\nhttps://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App\n\n\n\n\ncreate-react-app demo-office-fabric-react-ts --scripts-version=react-scripts-ts\n\n\n\n\ninit git\n\n\ngit init\ngit add .\ngit commit -m \"Initial commit.\"\n\n\n\n\nadd office fabric react\n\n\nyarn add office-ui-fabric-react --save\n\n\n\n\nCreate SP-App\n\u00b6\n\n\n\n\nhttps://github.com/koltyakov/generator-sppp\n\n\n\n\nSPFx-Upgrade-Check\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli\n\n\n\n\no365 spfx project upgrade --output md > report.md",
+            "text": "Tips and tricks\n\u00b6\n\n\nCode Guideline\n\u00b6\n\n\n\n\nTypescriptlang - Handbook\n\n\nAirbnb React/JSX Style Guide\n\n\nAirbnb JavaScript Style Guide\n\n\nOffice fabric react - Coding Guidelines\n\n\nOffice fabric react - React-Guideline\n\n\nOffice fabric react - TypeScript-Guidelines\n\n\n\n\nSharePoint PNP Community\n\u00b6\n\n\n\n\nSharePoint PnP resources\n\n\nSharepoint Glossar\n\n\n\n\nCreate WebPart\n\u00b6\n\n\nyo @microsoft/sharepoint\ngit init\ngit add -A\ngit commit -m \"init repo\"\n\n\n\n\nDevelopment - local workbench\n\u00b6\n\n\ngulp serve\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment - online workbench\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\n/_layouts/15/workbench.aspx\n\n\n\n\nPrepare Deployment Solution\n\u00b6\n\n\ngulp clean\ngulp build\ngulp --ship\ngulp package-solution --ship\n\n\n\n\nManuel Upload Solution Deployment\n\u00b6\n\n\n\n\nUpload the solution file \"packagename.sppkg\" from \"/sharepoint/solution\" to the App Catalog.\n\n\nGo to either a modern Communication or Team Site.\n\n\nGo to \"Site contents\" and add new \"App\"\n\n\nSelect \"packagename\" and wait for it to be installed\n\n\nGo to the front page, edit the page and add the webpart\n\n\n\n\nLogging with sp-core-library\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API\n\n\n\n\nReference the Log class.\n\n\nimport { Log } from '@microsoft/sp-core-library';\n\n\n\n\nLog your message from your WebPart\n\n\nLog.verbose(\"HelloWorld\", \"Here is a verbose log\", this.context.serviceScope);\n\nLog.info(\"HelloWorld\", \"Here is an informational message.\", this.context.serviceScope);\n\nLog.warn(\"HelloWorld\", \"Oh Oh, this might be bad\", this.context.serviceScope);\n\nLog.error(\"HelloWorld\", new Error(\"Oh No!  Error!  Ahhhhhh!!!!\"), this.context.serviceScope);\nLogging with @pnp/logging\n\n\n\n\nCustom logging (pnp-logging)\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging\n\n\nhttps://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging\n\n\n\n\nDebug in browser\n\u00b6\n\n\ngulp serve\n\n\n- add webpart\n- start Chrome\n- start Dev Extension (F12)\n- open Source, Search for ClassName (Ctrl+P)\n- add Breakpoint\n- refresh page\n\n\nDebug in vs.code\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode\n\n\n\n\nPre Steps\n- open vs.code / view extensions\n- install \"Debugger for chrome\"\n- create launch.json\n- select configuration\n    - Hosted workbench configuration\n\n\nSteps\n\ngulp serve --nobrowser\n\n\n\n\n\nadd breakpoint in vs.code ts-file\n\n\ngo debug view\n\n\npress F5\n\n\nselect configuration\n\n\nadd wepart to workbench\n\n\n\n\nChecklist SPFx initial\n\u00b6\n\n\n\n\nhttps://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/\n\n\n\n\nFix version\n\u00b6\n\n\n\n\nedit version in package.json -> same as in package-solution.json\n\n\nto \"version\": \"1.0.0\",\n\n\n\n\n\n\n\n\nAdd importend pnp modules\n\u00b6\n\n\n\n\nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide\n\n\n\n\nnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-controls-react/\n\n\n\n\nnpm install @pnp/spfx-controls-react --save --save-exact\n\n\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-property-controls/\n\n\n\n\nnpm install @pnp/spfx-property-controls --save --save-exact\n\n\n\n\nLocalizations\n\u00b6\n\n\n\n\nLocation files are in JSON format\n\n\nThey work similar as Resources files (XML) on VS Solution\n\n\nThe default language is English (en-us)\n\n\nDevelopers can test the locale by:\n\n\nUpdating write-manifests.json file\n\n\n\n\n\n\n\n\n{\n\n    \n\"cdnBasePath\"\n:\n \n\"<!-- PATH TO CDN -->\"\n,\n\n    \n\"debugLocale\"\n:\n \n\"de-de\"\n\n\n}\n\n\n\n\n\nOr by using the \"locale\" command argument\n\n\ngulp serve --locale=de-de\n\n\n\n\nData Service\n\u00b6\n\n\nVery good overview from sebastien levert: \nAPIs Everywhere\n\n\nSample Folder structur\n\n\n\n\nsrc\n\n\nmodels\n\n\nIHelpDeskItem.ts\n\n\n\n\n\n\nservices\n\n\nIDataService.ts\n\n\nMockDataservice.ts\n\n\nSharepointDataService.ts\n\n\n\n\n\n\nwebparts\n\n\ncomponents\n\n\nloc\n\n\n'webpartnameWebPart.ts'\n\n\n\n\n\n\n\n\n\n\n\n\nData Model\n\u00b6\n\n\nInterface to define our Data structure\n\n\nexport interface IHelpDeskItem {\n  id?: number;\n  title?: string;\n  description?: string;\n  level?: string;\n  status?: string;\n  assignedTo?: string;\n  resolution?: string;\n}\n\n\n\n\nInterface to define our Data Access services\n\n\nimport { IHelpDeskItem } from \"./../models/IHelpDeskItem\";\nimport { WebPartContext } from \"@microsoft/sp-webpart-base\";\n\nexport default interface IDataService {\n  getTitle(): string;\n  isConfigured(): boolean;\n  getItems(context: WebPartContext): Promise<IHelpDeskItem[]>;\n  addItem(item: IHelpDeskItem): Promise<void>;\n  deleteItem(id: number): Promise<void>;\n}\n\n\n\n\nMocking Service for testing in local Workbench development\n\n\nimport { IHelpDeskItem } from \"./../models/IHelpDeskItem\";\nimport IDataService from \"./IDataService\";\nimport { IWebPartContext } from \"@microsoft/sp-webpart-base\";\n\nexport default class MockDataService implements IDataService {\n...\n  private _webPartContext: IWebPartContext;\n  private _listId: string;\n\n  constructor(webPartContext: IWebPartContext, listId: string) {\n    this._webPartContext = webPartContext;\n    this._listId = listId;\n  }\n...\n\n  public getItems(context: IWebPartContext): Promise<IHelpDeskItem[]> {\n    return new Promise<IHelpDeskItem[]>((resolve, reject) => {\n      setTimeout(() => resolve([\n        {\n          id : 1,\n          title : \"That doesn't work\",\n          description : \"When I do that, it doesn't work\",\n          level : \"Low\",\n          status: \"Open\",\n          resolution: \"Do this and it will work!\",\n          assignedTo: \"S\u00e9bastien Levert\",\n        }\n      ]), 300);\n    });\n  }\n}\n\n\n\n\nGet Data with Sharepoint REST\n\u00b6\n\n\nSource\n\n\npublic getItems(context: WebPartContext): Promise<IHelpDeskItem[]> {\nreturn new Promise<IHelpDeskItem[]>((resolve, reject) => {\n    context.spHttpClient\n    .get( `${this._webPartContext.pageContext.web.absoluteUrl}/_api/web/lists/GetById('${this._listId}')/items` +\n            `?$select=*,HelpDeskAssignedTo/Title&$expand=HelpDeskAssignedTo`, SPHttpClient.configurations.v1)\n    .then(res => res.json())\n    .then(res => {\n        let helpDeskItems:IHelpDeskItem[] = [];\n\n        for(let helpDeskListItem of res.value) {\n        helpDeskItems.push(this.buildHelpDeskItem(helpDeskListItem));\n        }\n\n        resolve(helpDeskItems);\n    })\n    .catch(err => console.log(err));\n});\n}\n\n\n\n\nGet Data with Pnp-JS-Core\n\u00b6\n\n\nAdvantages\n\n\n\n\nType safe so you get your errors while you code and not when you execute and test\n\n\nWorks on all versions of SharePoint (On-Premises, Online, etc.)\n\n\nOffers built-in caching mechanisms\n\n\nHeavily used in the SharePoint Development Community\n\n\n\n\nInit context in react webpart component\n\nsource\n\n\npublic onInit(): Promise<void> {\n    return super.onInit().then(_ => {\n        pnpSetup({\n        spfxContext: this.context\n        });\n    });\n}\n\n\n\n\ninit service in react webpart component\n\n\npublic render(): void {\n    const element: React.ReactElement<IListContentProps> = React.createElement(\n      ListContent,\n      {\n        context: this.context,\n        dataService: this.getDataService(),\n        list: this.properties.list\n      }\n    );\n\n    ReactDom.render(element, this.domElement);\n}\n\n\n\n\nGet items from list\n\nSource\n\n\npublic getItems(context: WebPartContext): Promise<IHelpDeskItem[]> {\nreturn new Promise<IHelpDeskItem[]>((resolve, reject) => {\n\n    sp.web.lists.getById(this._listId).items\n    .select(\"*\", \"HelpDeskAssignedTo/Title\")\n    .expand(\"HelpDeskAssignedTo\").getAll().then((sessionItems: any[]) => {\n    let helpDeskItems:IHelpDeskItem[] = [];\n\n    for(let helpDeskListItem of sessionItems) {\n        helpDeskItems.push(this.buildHelpDeskItem(helpDeskListItem));\n    }\n\n    resolve(helpDeskItems);\n    });\n\n});\n}\n\n\n\n\nStart Office Fabric React\n\u00b6\n\n\nCreate Sample\n\n\n\n\nhttps://github.com/Microsoft/TypeScript-React-Starter\n\n\nhttps://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App\n\n\n\n\ncreate-react-app demo-office-fabric-react-ts --scripts-version=react-scripts-ts\n\n\n\n\ninit git\n\n\ngit init\ngit add .\ngit commit -m \"Initial commit.\"\n\n\n\n\nadd office fabric react\n\n\nyarn add office-ui-fabric-react --save\n\n\n\n\nCreate SP-App\n\u00b6\n\n\n\n\nhttps://github.com/koltyakov/generator-sppp\n\n\n\n\nSPFx-Upgrade-Check\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli\n\n\n\n\no365 spfx project upgrade --output md > report.md",
             "title": "Home"
         },
         {
@@ -32,7 +32,7 @@
         },
         {
             "location": "/#development-online-workbench",
-            "text": "gulp serve --nobrowser  {spo site}/_layouts/15/workbench.aspx",
+            "text": "gulp serve --nobrowser  /_layouts/15/workbench.aspx",
             "title": "Development - online workbench"
         },
         {
@@ -293,7 +293,7 @@
         {
             "location": "/devCamp/renamewebpart/",
             "text": "Rename WebPart\n\u00b6\n\n\nVorbedinung\n\u00b6\n\n\nEinfaches Webpart Solution erstellen\n\n\nyo @microsoft/sharepoint --package-manager pnpm\n\n\n\n\nGit initialisieren damit changes gepr\u00fcft werden k\u00f6nnen\n\n\ngit init\n\n\n\n\ngit add -A\n\n\n\n\ngit commit -m \"init repo\"\n\n\n\n\nAufgabe\n\u00b6\n\n\n\n\nReplace des erstellten \"WebPartName\" und Rename aller Folder und Files sowie aller Klassen.\n\n\n\n\nTest\n\u00b6\n\n\nPr\u00fcfe mit gulp build ob erfolgreich renamed wurde\n\n\ngulp build\n\n\n\n\nPr\u00fcfe mit gulp bundle ob erfolgreich renamed wurde\n\n\ngulp bundle\n\n\n\n\nStarte den local server\n\n\ngulp serve\n\n\n\n\nPr\u00fcfe ob das WebPart in der local workbench funktioniert\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nLearning aus Rename\n\u00b6\n\n\n\n\n\n\nFehlermeldung m\u00fcssen behoben werden, da sonst kein build/bundle m\u00f6glich\n\n\nNamenskonventionen beibehalten vom yo @microsoft/sharepoint Generator\n\n\nEs sind releativ viele (initial 8 Files) beteiligt an einem WebPart, welche zusammenspielen m\u00fcssen\n\n\nVS.Code schliessen und wieder starten hilft bei Chaching Problemen\n\n\nLokales Testing ist m\u00f6glich und wichtig",
-            "title": "Rename WebPart"
+            "title": "WebPart-Rename"
         },
         {
             "location": "/devCamp/renamewebpart/#rename-webpart",
@@ -321,149 +321,189 @@
             "title": "Learning aus Rename"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/",
-            "text": "Site Meta Card Beispiel\n\u00b6\n\n\nVorbedinungen\n\u00b6\n\n\nSite Collection provisionierung\n\u00b6\n\n\n\n\nIn einer SiteCollection existiert ein definiertes InfoItem.\n\n\nProvisionier der Liste und Daten erfolgt \u00fcber die PnP Engine Powershell\n\n\n\n\nInstall Menu\n\u00b6\n\n\n\n\nInstall Menu aufrufen im Deployment Folder (.\\install.ps1)\n\n\nGa-Dev selektieren mit \"1\"\n\n\nDer Script verbindet sich automatisch auf deinen Tenant \n\n\nsiehe \nInstaller Menu\n\n\n\n\n\n\nW\u00e4hle Setup Provisioning > List > Add Information List\n\n\n\n\n\n\nDieser Script installiert nacheinander die ContentTypes, Liste und Listeneintrag\n\n\n\n\nTest Installation\n\u00b6\n\n\nEin Information Item muss erstellt sein unter\n\n\nz.B. f\u00fcr meine Dev SiteCollection\n- \nhttps://gw365dev.sharepoint.com/sites/roapp/Lists/Information/AllItems.aspx\n\n\nCode Guidelines\n\u00b6\n\n\n\n\nTypescriptlang - Handbook\n\n\nAirbnb React/JSX Style Guide\n\n\nAirbnb JavaScript Style Guide\n\n\nOffice fabric react - Coding Guidelines\n\n\nOffice fabric react - React-Guideline\n\n\nOffice fabric react - TypeScript-Guidelines\n\n\n\n\nErstelle Projekt\n\u00b6\n\n\nGehe in deine Projekt Folder und erstelle einen Folder\n\n\nmkdir SpfxDevCamp2018\ncd SpfxDevCamp2018\n\n\n\n\nMit pnpm-Package Manger \nhttps://pnpm.js.org\n\n\nyo @microsoft/sharepoint --package-manager pnpm\n\n\n\n\nYoman Optionen\n\u00b6\n\n\n\n\nSolution Name: default\n\n\nBaseline Package: SharePoint Online only\n\n\nTarget Location: Use the current folder\n\n\nTenant Admin: Yes \ntenant-scoped-deployment\n\n\nProject Type: WebPart\n\n\nWebPart Name: SiteMetaCard\n\n\nWebPart Description: Display the site information from Information Item.\n\n\nFramework: React\n\n\n\n\nBuild der Sourcen\n\u00b6\n\n\ngulp build\n\n\nEs d\u00fcrfen keine Build Errors vorkommen\n\n\nTrust Certification\n\u00b6\n\n\nNur erstellen wenn noch nie eine SPFx Solution erstellt wurde\n\n\ntrust cert\n\n\nDevelopment - local workbench\n\u00b6\n\n\ngulp serve\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment - online workbench\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\n/_layouts/15/workbench.aspx\n\n\n\n\nAdd usefull Pnp Librarys\n\u00b6\n\n\nPnpJs\n\u00b6\n\n\n\n\nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide\n\n\n\n\npnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\nPnp React Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-controls-react/\n\n\n\n\npnpm install @pnp/spfx-controls-react --save --save-exact\n\n\n\n\nPnp Property Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-property-controls/\n\n\n\n\npnpm install @pnp/spfx-property-controls --save --save-exact\n\n\n\n\nOffice Fabric react Controls\n\u00b6\n\n\n\n\nhttps://developer.microsoft.com/en-us/fabric#/get-started#react\n\n\n\n\npnpm install office-ui-fabric-react@lts --save\n\n\n\n\nInfo: \ngotcha-when-adding-office-ui-fabric\n\n\nReference Librarys\n\u00b6\n\n\nSample\n\n\nimport { sp } from \"@pnp/sp\";\nimport { WebPartTitle } from \"@pnp/spfx-controls-react/lib/WebPartTitle\";\nimport { PropertyFieldListPicker, PropertyFieldListPickerOrderBy } from '@pnp/spfx-property-controls/lib/PropertyFieldListPicker';\n\n\n\n\nAufgabe\n\u00b6\n\n\n\n\nAnzeige des Site Collection InfoItem in einem SPFx WebPart\n\n\nErstelle zuerst einen MockProvider als Datenquelle\n\n\nDanach sollen die Daten aus einer Liste \"Information\" stammen\n\n\nAnzeige eines \"Load...\" Screens, wenn die Daten geladen werden\n\n\n\n\nAufbau src Folder\n\u00b6\n\n\nAlle Webparts\n\n\n/src/webparts\n\n\n\n\nHelper Klassen\n\n\n/src/common\n\n\n\n\nGemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)\n\n\n/src/shared/components\n\n\n\n\nGemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)\n\n\n/src/shared/services\n\n\n\n\nVorgehen f\u00fcr UX\n\u00b6\n\n\n\n\nErstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)\n\n\n\n\nVorgehen f\u00fcr ListMock Provider\n\u00b6\n\n\n\n\nErstelle Daten Model, welche die Datentypen definert (InfoItem.ts)\n\n\nErstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert (IListService.ts)\n\n\nErstelle eine MockService (ListMockService.ts) mit Daten, welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public function getFirstItem() der die Mockdaten zur\u00fcckliefert\n\n\n\n\nVorgehen f\u00fcr SPListService Provider\n\u00b6\n\n\n\n\nErstelle eine Schnitstelle (SpListService.ts), welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu \npnpjs\n\n\n\n\nZusatz Aufgabe 1\n\u00b6\n\n\n\n\nVerwende das \nPnP SPFx React Control WebPartTitle\n zur Anzeige eines editierbaren Titels\n\n\n\n\nZusatz Aufgabe 2\n\u00b6\n\n\n\n\nLokalisierung aller statischen Text/Labels \nLocalize SharePoint Framework client-side web parts\n\n\n\n\nZusatz Aufgabe 3\n\u00b6\n\n\n\n\nStudium \nIntegration Office Fabric React Controls\n\n\n\n\nZusatz Aufgabe 4\n\u00b6\n\n\n\n\nAnzeige des Owner in einm Office 365 Persona Format. Verwende dazu das \nOffice Fabric React Control\n\n\n\n\nZusatz Aufgabe 5\n\u00b6\n\n\n\n\nAnzeige des Persona Format konfigurierbar \u00fcber ein Checkbox WebPart Properties (ShowPersona)",
-            "title": "SiteMetaCard"
+            "location": "/devCamp/konzepte-webpart/",
+            "text": "SPFx Konzepte anhand eines Beispiels\n\u00b6\n\n\nAufzeigen von diversen Spfx WebPart Konzepten und ihre Umsetzungen.\n\n\nMockdaten\n\u00b6\n\n\nAnzeige von Mockdaten wenn der local server gestartet wird.\n\n\n\n\nLoad data icon\n\u00b6\n\n\nAnzeige eines \"Load data...\" Icons, wenn der Datenzugriff erfolgt, sobald diese geladen sind, sollen die Daten angezeigt werden.\n\n\n\n\nLokalisierung des WebParts\n\u00b6\n\n\nUmschalten der Sprache.\n\n\n\n\ngulp serve --locale=de-de\n\n\n\n\nInline editieren des Titels\n\u00b6\n\n\nDer Titel des Webparts kann editiert werden ohne die WebPart Properties zu \u00f6ffnen.\n\n\n\n\nWebPart Konfiguration\n\u00b6\n\n\nAnzeige von WebPart Properties, wie die Darstellung ver\u00e4nder werden kann zur Laufzeit.\n\n\n\n\n\n\nLaden von Sharepoint List Daten\n\u00b6\n\n\nAnzeige eines Listitems aus einer Liste.",
+            "title": "WebPart-Konzepte"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#site-meta-card-beispiel",
+            "location": "/devCamp/konzepte-webpart/#spfx-konzepte-anhand-eines-beispiels",
+            "text": "Aufzeigen von diversen Spfx WebPart Konzepten und ihre Umsetzungen.",
+            "title": "SPFx Konzepte anhand eines Beispiels"
+        },
+        {
+            "location": "/devCamp/konzepte-webpart/#mockdaten",
+            "text": "Anzeige von Mockdaten wenn der local server gestartet wird.",
+            "title": "Mockdaten"
+        },
+        {
+            "location": "/devCamp/konzepte-webpart/#load-data-icon",
+            "text": "Anzeige eines \"Load data...\" Icons, wenn der Datenzugriff erfolgt, sobald diese geladen sind, sollen die Daten angezeigt werden.",
+            "title": "Load data icon"
+        },
+        {
+            "location": "/devCamp/konzepte-webpart/#lokalisierung-des-webparts",
+            "text": "Umschalten der Sprache.   gulp serve --locale=de-de",
+            "title": "Lokalisierung des WebParts"
+        },
+        {
+            "location": "/devCamp/konzepte-webpart/#inline-editieren-des-titels",
+            "text": "Der Titel des Webparts kann editiert werden ohne die WebPart Properties zu \u00f6ffnen.",
+            "title": "Inline editieren des Titels"
+        },
+        {
+            "location": "/devCamp/konzepte-webpart/#webpart-konfiguration",
+            "text": "Anzeige von WebPart Properties, wie die Darstellung ver\u00e4nder werden kann zur Laufzeit.",
+            "title": "WebPart Konfiguration"
+        },
+        {
+            "location": "/devCamp/konzepte-webpart/#laden-von-sharepoint-list-daten",
+            "text": "Anzeige eines Listitems aus einer Liste.",
+            "title": "Laden von Sharepoint List Daten"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/aufgaben/",
+            "text": "Projekt Aufgabe\n\u00b6\n\n\nAufgabe\n\u00b6\n\n\n\n\nAnzeige des Site Collection InfoItem in einem SPFx WebPart\n\n\nErstelle zuerst einen MockProvider als Datenquelle\n\n\nDanach sollen die Daten aus einer Liste \"Information\" stammen\n\n\nAnzeige eines \"Load...\" Screens, wenn die Daten geladen werden\n\n\n\n\nVorgehen f\u00fcr UX\n\u00b6\n\n\n\n\nErstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)\n\n\n\n\nVorgehen f\u00fcr ListMock Provider\n\u00b6\n\n\n\n\nErstelle Daten Model, welche die Datentypen definert (InfoItem.ts)\n\n\nErstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert (IListService.ts)\n\n\nErstelle eine MockService (ListMockService.ts) mit Daten, welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public function getFirstItem() der die Mockdaten zur\u00fcckliefert\n\n\n\n\nVorgehen f\u00fcr SPListService Provider\n\u00b6\n\n\n\n\nErstelle eine Schnitstelle (SpListService.ts), welche die IListService Schnittstelle implementiert\n\n\nErstelle eine public function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu \npnpjs\n\n\n\n\nZusatz Aufgabe 1\n\u00b6\n\n\n\n\nVerwende das \nPnP SPFx React Control WebPartTitle\n zur Anzeige eines editierbaren Titels\n\n\n\n\nZusatz Aufgabe 2\n\u00b6\n\n\n\n\nLokalisierung aller statischen Text/Labels \nLocalize SharePoint Framework client-side web parts\n\n\n\n\nZusatz Aufgabe 3\n\u00b6\n\n\n\n\nStudium \nIntegration Office Fabric React Controls\n\n\n\n\nZusatz Aufgabe 4\n\u00b6\n\n\n\n\nAnzeige des Owner in einm Office 365 Persona Format. Verwende dazu das \nOffice Fabric React Control\n\n\n\n\nZusatz Aufgabe 5\n\u00b6\n\n\n\n\nAnzeige des Persona Format konfigurierbar \u00fcber ein Checkbox WebPart Properties (ShowPersona)",
+            "title": "Aufgaben"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/aufgaben/#projekt-aufgabe",
             "text": "",
-            "title": "Site Meta Card Beispiel"
+            "title": "Projekt Aufgabe"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#vorbedinungen",
-            "text": "",
-            "title": "Vorbedinungen"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#site-collection-provisionierung",
-            "text": "In einer SiteCollection existiert ein definiertes InfoItem.  Provisionier der Liste und Daten erfolgt \u00fcber die PnP Engine Powershell",
-            "title": "Site Collection provisionierung"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#install-menu",
-            "text": "Install Menu aufrufen im Deployment Folder (.\\install.ps1)  Ga-Dev selektieren mit \"1\"  Der Script verbindet sich automatisch auf deinen Tenant   siehe  Installer Menu    W\u00e4hle Setup Provisioning > List > Add Information List    Dieser Script installiert nacheinander die ContentTypes, Liste und Listeneintrag",
-            "title": "Install Menu"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#test-installation",
-            "text": "Ein Information Item muss erstellt sein unter  z.B. f\u00fcr meine Dev SiteCollection\n-  https://gw365dev.sharepoint.com/sites/roapp/Lists/Information/AllItems.aspx",
-            "title": "Test Installation"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#code-guidelines",
-            "text": "Typescriptlang - Handbook  Airbnb React/JSX Style Guide  Airbnb JavaScript Style Guide  Office fabric react - Coding Guidelines  Office fabric react - React-Guideline  Office fabric react - TypeScript-Guidelines",
-            "title": "Code Guidelines"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#erstelle-projekt",
-            "text": "Gehe in deine Projekt Folder und erstelle einen Folder  mkdir SpfxDevCamp2018\ncd SpfxDevCamp2018  Mit pnpm-Package Manger  https://pnpm.js.org  yo @microsoft/sharepoint --package-manager pnpm",
-            "title": "Erstelle Projekt"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#yoman-optionen",
-            "text": "Solution Name: default  Baseline Package: SharePoint Online only  Target Location: Use the current folder  Tenant Admin: Yes  tenant-scoped-deployment  Project Type: WebPart  WebPart Name: SiteMetaCard  WebPart Description: Display the site information from Information Item.  Framework: React",
-            "title": "Yoman Optionen"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#build-der-sourcen",
-            "text": "gulp build \nEs d\u00fcrfen keine Build Errors vorkommen",
-            "title": "Build der Sourcen"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#trust-certification",
-            "text": "Nur erstellen wenn noch nie eine SPFx Solution erstellt wurde  trust cert",
-            "title": "Trust Certification"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#development-local-workbench",
-            "text": "gulp serve  https://localhost:4321/temp/workbench.html",
-            "title": "Development - local workbench"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#development-online-workbench",
-            "text": "gulp serve --nobrowser  /_layouts/15/workbench.aspx",
-            "title": "Development - online workbench"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#add-usefull-pnp-librarys",
-            "text": "",
-            "title": "Add usefull Pnp Librarys"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#pnpjs",
-            "text": "https://pnp.github.io/pnpjs/getting-started.html  https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide   pnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save",
-            "title": "PnpJs"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#pnp-react-controls",
-            "text": "https://sharepoint.github.io/sp-dev-fx-controls-react/   pnpm install @pnp/spfx-controls-react --save --save-exact",
-            "title": "Pnp React Controls"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#pnp-property-controls",
-            "text": "https://sharepoint.github.io/sp-dev-fx-property-controls/   pnpm install @pnp/spfx-property-controls --save --save-exact",
-            "title": "Pnp Property Controls"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#office-fabric-react-controls",
-            "text": "https://developer.microsoft.com/en-us/fabric#/get-started#react   pnpm install office-ui-fabric-react@lts --save  Info:  gotcha-when-adding-office-ui-fabric",
-            "title": "Office Fabric react Controls"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#reference-librarys",
-            "text": "Sample  import { sp } from \"@pnp/sp\";\nimport { WebPartTitle } from \"@pnp/spfx-controls-react/lib/WebPartTitle\";\nimport { PropertyFieldListPicker, PropertyFieldListPickerOrderBy } from '@pnp/spfx-property-controls/lib/PropertyFieldListPicker';",
-            "title": "Reference Librarys"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#aufgabe",
+            "location": "/devCamp/samples/sitemeta/aufgaben/#aufgabe",
             "text": "Anzeige des Site Collection InfoItem in einem SPFx WebPart  Erstelle zuerst einen MockProvider als Datenquelle  Danach sollen die Daten aus einer Liste \"Information\" stammen  Anzeige eines \"Load...\" Screens, wenn die Daten geladen werden",
             "title": "Aufgabe"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#aufbau-src-folder",
-            "text": "Alle Webparts  /src/webparts  Helper Klassen  /src/common  Gemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)  /src/shared/components  Gemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)  /src/shared/services",
-            "title": "Aufbau src Folder"
-        },
-        {
-            "location": "/devCamp/samples/sitemetacard/#vorgehen-fur-ux",
+            "location": "/devCamp/samples/sitemeta/aufgaben/#vorgehen-fur-ux",
             "text": "Erstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)",
             "title": "Vorgehen f\u00fcr UX"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#vorgehen-fur-listmock-provider",
+            "location": "/devCamp/samples/sitemeta/aufgaben/#vorgehen-fur-listmock-provider",
             "text": "Erstelle Daten Model, welche die Datentypen definert (InfoItem.ts)  Erstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert (IListService.ts)  Erstelle eine MockService (ListMockService.ts) mit Daten, welche die IListService Schnittstelle implementiert  Erstelle eine public function getFirstItem() der die Mockdaten zur\u00fcckliefert",
             "title": "Vorgehen f\u00fcr ListMock Provider"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#vorgehen-fur-splistservice-provider",
+            "location": "/devCamp/samples/sitemeta/aufgaben/#vorgehen-fur-splistservice-provider",
             "text": "Erstelle eine Schnitstelle (SpListService.ts), welche die IListService Schnittstelle implementiert  Erstelle eine public function getFirstItem() der die SP Listdaten zur\u00fcckliefert. Verwende dazu  pnpjs",
             "title": "Vorgehen f\u00fcr SPListService Provider"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#zusatz-aufgabe-1",
+            "location": "/devCamp/samples/sitemeta/aufgaben/#zusatz-aufgabe-1",
             "text": "Verwende das  PnP SPFx React Control WebPartTitle  zur Anzeige eines editierbaren Titels",
             "title": "Zusatz Aufgabe 1"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#zusatz-aufgabe-2",
+            "location": "/devCamp/samples/sitemeta/aufgaben/#zusatz-aufgabe-2",
             "text": "Lokalisierung aller statischen Text/Labels  Localize SharePoint Framework client-side web parts",
             "title": "Zusatz Aufgabe 2"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#zusatz-aufgabe-3",
+            "location": "/devCamp/samples/sitemeta/aufgaben/#zusatz-aufgabe-3",
             "text": "Studium  Integration Office Fabric React Controls",
             "title": "Zusatz Aufgabe 3"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#zusatz-aufgabe-4",
+            "location": "/devCamp/samples/sitemeta/aufgaben/#zusatz-aufgabe-4",
             "text": "Anzeige des Owner in einm Office 365 Persona Format. Verwende dazu das  Office Fabric React Control",
             "title": "Zusatz Aufgabe 4"
         },
         {
-            "location": "/devCamp/samples/sitemetacard/#zusatz-aufgabe-5",
+            "location": "/devCamp/samples/sitemeta/aufgaben/#zusatz-aufgabe-5",
             "text": "Anzeige des Persona Format konfigurierbar \u00fcber ein Checkbox WebPart Properties (ShowPersona)",
             "title": "Zusatz Aufgabe 5"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/",
+            "text": "Projekt Setup\n\u00b6\n\n\nSite Collection Provisionierung\n\u00b6\n\n\n\n\nIn einer SiteCollection existiert ein definiertes InfoItem.\n\n\nProvisionier der Liste und Daten erfolgt \u00fcber die PnP Engine Powershell\n\n\n\n\nInstall Menu\n\u00b6\n\n\n\n\nInstall Menu aufrufen im Deployment Folder (.\\install.ps1)\n\n\nGa-Dev selektieren mit \"1\"\n\n\nDer Script verbindet sich automatisch auf deinen Tenant\n\n\n\n\n\n\n\n\nW\u00e4hle Setup Provisioning > List > Add Information List\n\n\n\n\n\n\nDieser Script installiert nacheinander die ContentTypes, Liste und Listeneintrag\n\n\n\n\nTest Installation\n\u00b6\n\n\nEin Information Item muss erstellt sein unter\n\n\nhttps://gw365dev.sharepoint.com/sites/roapp/Lists/Information/AllItems.aspx\n\n\nz.B. f\u00fcr meine Dev SiteCollection\n\n\nCode Guidelines\n\u00b6\n\n\nBitte beachten der Guidelines\n\n\n\n\nTypescriptlang - Handbook\n\n\nAirbnb React/JSX Style Guide\n\n\nAirbnb JavaScript Style Guide\n\n\nOffice fabric react - Coding Guidelines\n\n\nOffice fabric react - React-Guideline\n\n\nOffice fabric react - TypeScript-Guidelines\n\n\n\n\nAufbau src Folder\n\u00b6\n\n\nAlle Webparts\n\n\n/src/webparts\n\n\n\n\nHelper Klassen\n\n\n/src/common\n\n\n\n\nGemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)\n\n\n/src/shared/components\n\n\n\n\nGemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)\n\n\n/src/shared/services\n\n\n\n\nPnp Librarys\n\u00b6\n\n\nFolgene Librarys wurden beim Projektsetup installiert.\n\n\nPnpJs\n\u00b6\n\n\n\n\nhttps://pnp.github.io/pnpjs/getting-started.html\n\n\nhttps://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide\n\n\n\n\npnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\nPnp React Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-controls-react/\n\n\n\n\npnpm install @pnp/spfx-controls-react --save --save-exact\n\n\n\n\nPnp Property Controls\n\u00b6\n\n\n\n\nhttps://sharepoint.github.io/sp-dev-fx-property-controls/\n\n\n\n\npnpm install @pnp/spfx-property-controls --save --save-exact\n\n\n\n\nOffice Fabric react Controls\n\u00b6\n\n\n\n\nhttps://developer.microsoft.com/en-us/fabric#/get-started#react\n\n\n\n\npnpm install office-ui-fabric-react@lts --save\n\n\n\n\nInfo: \ngotcha-when-adding-office-ui-fabric\n\n\nReference Librarys\n\u00b6\n\n\nSample\n\n\nimport { sp } from \"@pnp/sp\";\nimport { WebPartTitle } from \"@pnp/spfx-controls-react/lib/WebPartTitle\";\nimport { PropertyFieldListPicker, PropertyFieldListPickerOrderBy } from '@pnp/spfx-property-controls/lib/PropertyFieldListPicker';",
+            "title": "Projektsetup"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#projekt-setup",
+            "text": "",
+            "title": "Projekt Setup"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#site-collection-provisionierung",
+            "text": "In einer SiteCollection existiert ein definiertes InfoItem.  Provisionier der Liste und Daten erfolgt \u00fcber die PnP Engine Powershell",
+            "title": "Site Collection Provisionierung"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#install-menu",
+            "text": "Install Menu aufrufen im Deployment Folder (.\\install.ps1)  Ga-Dev selektieren mit \"1\"  Der Script verbindet sich automatisch auf deinen Tenant     W\u00e4hle Setup Provisioning > List > Add Information List    Dieser Script installiert nacheinander die ContentTypes, Liste und Listeneintrag",
+            "title": "Install Menu"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#test-installation",
+            "text": "Ein Information Item muss erstellt sein unter  https://gw365dev.sharepoint.com/sites/roapp/Lists/Information/AllItems.aspx  z.B. f\u00fcr meine Dev SiteCollection",
+            "title": "Test Installation"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#code-guidelines",
+            "text": "Bitte beachten der Guidelines   Typescriptlang - Handbook  Airbnb React/JSX Style Guide  Airbnb JavaScript Style Guide  Office fabric react - Coding Guidelines  Office fabric react - React-Guideline  Office fabric react - TypeScript-Guidelines",
+            "title": "Code Guidelines"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#aufbau-src-folder",
+            "text": "Alle Webparts  /src/webparts  Helper Klassen  /src/common  Gemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)  /src/shared/components  Gemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)  /src/shared/services",
+            "title": "Aufbau src Folder"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#pnp-librarys",
+            "text": "Folgene Librarys wurden beim Projektsetup installiert.",
+            "title": "Pnp Librarys"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#pnpjs",
+            "text": "https://pnp.github.io/pnpjs/getting-started.html  https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide   pnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save",
+            "title": "PnpJs"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#pnp-react-controls",
+            "text": "https://sharepoint.github.io/sp-dev-fx-controls-react/   pnpm install @pnp/spfx-controls-react --save --save-exact",
+            "title": "Pnp React Controls"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#pnp-property-controls",
+            "text": "https://sharepoint.github.io/sp-dev-fx-property-controls/   pnpm install @pnp/spfx-property-controls --save --save-exact",
+            "title": "Pnp Property Controls"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#office-fabric-react-controls",
+            "text": "https://developer.microsoft.com/en-us/fabric#/get-started#react   pnpm install office-ui-fabric-react@lts --save  Info:  gotcha-when-adding-office-ui-fabric",
+            "title": "Office Fabric react Controls"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/projektsetup/#reference-librarys",
+            "text": "Sample  import { sp } from \"@pnp/sp\";\nimport { WebPartTitle } from \"@pnp/spfx-controls-react/lib/WebPartTitle\";\nimport { PropertyFieldListPicker, PropertyFieldListPickerOrderBy } from '@pnp/spfx-property-controls/lib/PropertyFieldListPicker';",
+            "title": "Reference Librarys"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/testen/",
+            "text": "Projekt Test\n\u00b6\n\n\nBuild der Sourcen\n\u00b6\n\n\ngulp build\n\n\n\n\nEs d\u00fcrfen keine Build Errors vorkommen\n\n\nDevelopment - local workbench\n\u00b6\n\n\ngulp serve\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment - online workbench\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\n/_layouts/15/workbench.aspx",
+            "title": "Testen"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/testen/#projekt-test",
+            "text": "",
+            "title": "Projekt Test"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/testen/#build-der-sourcen",
+            "text": "gulp build  Es d\u00fcrfen keine Build Errors vorkommen",
+            "title": "Build der Sourcen"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/testen/#development-local-workbench",
+            "text": "gulp serve  https://localhost:4321/temp/workbench.html",
+            "title": "Development - local workbench"
+        },
+        {
+            "location": "/devCamp/samples/sitemeta/testen/#development-online-workbench",
+            "text": "gulp serve --nobrowser  /_layouts/15/workbench.aspx",
+            "title": "Development - online workbench"
         },
         {
             "location": "/devCamp/samples/graph/",
