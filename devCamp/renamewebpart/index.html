@@ -1591,28 +1591,29 @@
 <li>Replace des erstellten "WebPartName" und Rename aller Folder und Files sowie aller Klassen.</li>
 </ul>
 <h3 id="test">Test<a class="headerlink" href="#test" title="Permanent link">&para;</a></h3>
-<p>1) Prüfe mit gulp build ob erfolgreich renamed wurde</p>
+<p>Prüfe mit gulp build ob erfolgreich renamed wurde</p>
 <div class="codehilite"><pre><span></span>gulp build
 </pre></div>
 
-<p>2) Prüfe mit gulp bundle ob erfolgreich renamed wurde</p>
+<p>Prüfe mit gulp bundle ob erfolgreich renamed wurde</p>
 <div class="codehilite"><pre><span></span>gulp bundle
 </pre></div>
 
-<p>3) Prüfe ob das WebPart in der local workbench</p>
-<p>Starte den Local Server</p>
-<p><div class="codehilite"><pre><span></span>gulp serve
+<p>Starte den local server</p>
+<div class="codehilite"><pre><span></span>gulp serve
 </pre></div>
-Teste das Webpart aus</p>
-<p><code>`html
-https://localhost:4321/temp/workbench.html</code></p>
+
+<p>Prüfe ob das WebPart in der local workbench funktioniert</p>
+<div class="codehilite"><pre><span></span>https://localhost:4321/temp/workbench.html
+</pre></div>
+
 <h2 id="learning-aus-rename">Learning aus Rename<a class="headerlink" href="#learning-aus-rename" title="Permanent link">&para;</a></h2>
 <blockquote>
 <ul>
 <li>Fehlermeldung müssen behoben werden, da sonst kein build/bundle möglich</li>
 <li>Namenskonventionen beibehalten vom yo @microsoft/sharepoint Generator</li>
 <li>Es sind releativ viele (initial 8 Files) beteiligt an einem WebPart, welche zusammenspielen müssen</li>
-<li>VS.Code schliessen und wieder starten hilft bei Chacheing Problemen</li>
+<li>VS.Code schliessen und wieder starten hilft bei Chaching Problemen</li>
 <li>Lokales Testing ist möglich und wichtig</li>
 </ul>
 </blockquote>

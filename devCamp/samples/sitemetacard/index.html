@@ -557,25 +557,19 @@
     Site Collection provisionierung
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#step-1" title="Step 1" class="md-nav__link">
-    Step 1
+  <a href="#install-menu" title="Install Menu" class="md-nav__link">
+    Install Menu
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-2" title="Step 2" class="md-nav__link">
-    Step 2
+  <a href="#test-installation" title="Test Installation" class="md-nav__link">
+    Test Installation
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -1711,25 +1705,19 @@
     Site Collection provisionierung
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#step-1" title="Step 1" class="md-nav__link">
-    Step 1
+  <a href="#install-menu" title="Install Menu" class="md-nav__link">
+    Install Menu
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-2" title="Step 2" class="md-nav__link">
-    Step 2
+  <a href="#test-installation" title="Test Installation" class="md-nav__link">
+    Test Installation
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -1935,25 +1923,25 @@
 <h3 id="site-collection-provisionierung">Site Collection provisionierung<a class="headerlink" href="#site-collection-provisionierung" title="Permanent link">&para;</a></h3>
 <ul>
 <li>In einer SiteCollection existiert ein definiertes InfoItem.</li>
-<li>Provisionierund der Liste und ein Item über PS-Script</li>
+<li>Provisionier der Liste und Daten erfolgt über die PnP Engine Powershell</li>
 </ul>
-<h4 id="step-1">Step 1<a class="headerlink" href="#step-1" title="Permanent link">&para;</a></h4>
-<p>Variable anpassen in Deployment Folder</p>
-<div class="codehilite"><pre><span></span>.\deployment\env\Ga-Dev-Ro\init.ps1
-</pre></div>
-
-<div class="codehilite"><pre><span></span># tenant name
-$apps.default.tenant = &quot;gw365dev&quot;
-
-# Configure shortname only !!!
-$adminshortname = &quot;ro&quot;
-</pre></div>
-
-<h4 id="step-2">Step 2<a class="headerlink" href="#step-2" title="Permanent link">&para;</a></h4>
-<p>Test:</p>
+<h3 id="install-menu">Install Menu<a class="headerlink" href="#install-menu" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://gw365dev.sharepoint.com/sites/roapp">https://gw365dev.sharepoint.com/sites/roapp</a></li>
+<li>Install Menu aufrufen im Deployment Folder (.\install.ps1)</li>
+<li>Ga-Dev selektieren mit "1"</li>
+<li>Der Script verbindet sich automatisch auf deinen Tenant <ul>
+<li>siehe <a href="../../../assets/connect-tenant.png">Installer Menu</a></li>
 </ul>
+</li>
+<li>Wähle Setup Provisioning &gt; List &gt; Add Information List</li>
+</ul>
+<blockquote>
+<p>Dieser Script installiert nacheinander die ContentTypes, Liste und Listeneintrag</p>
+</blockquote>
+<h3 id="test-installation">Test Installation<a class="headerlink" href="#test-installation" title="Permanent link">&para;</a></h3>
+<p>Ein Information Item muss erstellt sein unter</p>
+<p>z.B. für meine Dev SiteCollection
+- <a href="https://gw365dev.sharepoint.com/sites/roapp/Lists/Information/AllItems.aspx">https://gw365dev.sharepoint.com/sites/roapp/Lists/Information/AllItems.aspx</a></p>
 <h2 id="code-guidelines">Code Guidelines<a class="headerlink" href="#code-guidelines" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html">Typescriptlang - Handbook</a></li>
@@ -1984,7 +1972,6 @@ cd SpfxDevCamp2018
 <li>WebPart Description: Display the site information from Information Item.</li>
 <li>Framework: React</li>
 </ul>
-<p><a href="../../../assets/yo-pnpm-installation-1-5-1.png">resultat yo pnpm installation</a></p>
 <h2 id="build-der-sourcen">Build der Sourcen<a class="headerlink" href="#build-der-sourcen" title="Permanent link">&para;</a></h2>
 <p><div class="codehilite"><pre><span></span>gulp build
 </pre></div>
