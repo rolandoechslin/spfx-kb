@@ -1,11 +1,5 @@
 # Rename WebPart
 
-
-## Ablage einer Hello World Solution
-
-- Beispiel-Lösung hier abgelegt
-  - https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018
-
 ## Vorbedinung
 
 Einfaches Webpart Solution erstellen
