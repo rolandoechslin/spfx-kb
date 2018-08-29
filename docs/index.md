@@ -40,7 +40,7 @@ gulp serve --nobrowser
 ```
 
 ```html
-{spo site}/_layouts/15/workbench.aspx
+/_layouts/15/workbench.aspx
 ```
 
 

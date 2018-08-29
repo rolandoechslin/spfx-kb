@@ -11,9 +11,13 @@ pages:
         - Debugging: devCamp/debugging.md
         - Session 1: devCamp/firstSession.md
         - Ideas: devCamp/ideas.md
-        - Rename WebPart: devCamp/renamewebpart.md
+        - WebPart-Rename: devCamp/renamewebpart.md
+        - WebPart-Konzepte: devCamp/konzepte-webpart.md
         - Samples:
-            - SiteMetaCard: devCamp/samples/sitemetacard.md
+            - SiteMetaCard:
+                - Aufgaben: devCamp/samples/sitemeta/aufgaben.md
+                - Projektsetup: devCamp/samples/sitemeta/projektsetup.md
+                - Testen: devCamp/samples/sitemeta/testen.md
             - Graph: devCamp/samples/graph.md
     - SPFx:
         - Start: spfx/start.md

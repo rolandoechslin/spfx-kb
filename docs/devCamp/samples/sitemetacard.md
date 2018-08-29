@@ -2,7 +2,7 @@
 
 ## Vorbedinungen
 
-### Site Collection provisionierung
+### Site Collection Provisionierung
 
 - In einer SiteCollection existiert ein definiertes InfoItem.
 - Provisionier der Liste und Daten erfolgt über die PnP Engine Powershell
@@ -21,8 +21,9 @@
 
 Ein Information Item muss erstellt sein unter
 
+<https://gw365dev.sharepoint.com/sites/roapp/Lists/Information/AllItems.aspx>
+
 z.B. für meine Dev SiteCollection
-- https://gw365dev.sharepoint.com/sites/roapp/Lists/Information/AllItems.aspx
 
 ## Code Guidelines
 
@@ -32,7 +33,6 @@ z.B. für meine Dev SiteCollection
 - [Office fabric react - Coding Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Coding-Style)
 - [Office fabric react - React-Guideline](https://github.com/OfficeDev/office-ui-fabric-react/wiki/React-Guidelines)
 - [Office fabric react - TypeScript-Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/TypeScript-Guidelines)
-
 
 ## Erstelle Projekt
 
@@ -65,11 +65,12 @@ yo @microsoft/sharepoint --package-manager pnpm
 ```bs
 gulp build
 ```
+
 Es dürfen keine Build Errors vorkommen
 
 ## Trust Certification
 
-Nur erstellen wenn noch nie eine SPFx Solution erstellt wurde
+Beim erstmaligen austesten der Workbench muss ein Zertifikat registriert werden.
 
 [trust cert](../../assets/gulp-trust-cert.png)
 
