@@ -550,15 +550,27 @@
           
 
 
+  <li class="md-nav__item">
+    <a href="../renamewebpart/" title="Rename WebPart" class="md-nav__link">
+      Rename WebPart
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-7" type="checkbox" id="nav-2-7">
     
-    <label class="md-nav__link" for="nav-2-6">
+    <label class="md-nav__link" for="nav-2-7">
       Samples
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-6">
+      <label class="md-nav__title" for="nav-2-7">
         Samples
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -1577,7 +1589,7 @@ gulp serve
 <ul>
 <li>/.vscode/launch.json anpassen</li>
 </ul>
-<p><strong>Vorher</strong>
+<p><strong>Vorher</strong></p>
 <div class="codehilite"><pre><span></span><span class="p">{</span>
       <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Hosted workbench&quot;</span><span class="p">,</span>
       <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;chrome&quot;</span><span class="p">,</span>
@@ -1595,8 +1607,9 @@ gulp serve
         <span class="s2">&quot;-incognito&quot;</span>
       <span class="p">]</span>
 <span class="p">}</span>
-</pre></div></p>
-<p><strong>Nachher (URL angepasst)</strong>
+</pre></div>
+
+<p><strong>Nachher (URL angepasst)</strong></p>
 <div class="codehilite"><pre><span></span><span class="p">{</span>
       <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Hosted workbench&quot;</span><span class="p">,</span>
       <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;chrome&quot;</span><span class="p">,</span>
@@ -1614,23 +1627,24 @@ gulp serve
         <span class="s2">&quot;-incognito&quot;</span>
       <span class="p">]</span>
 <span class="p">}</span>
-</pre></div></p>
+</pre></div>
+
 <ul>
 <li>Links im VS Code auf Debug wechseln</li>
-<li>Oben die Configuration "Hosted workbench" auswählen</li>
-<li>Ab jetzt kann auch mit F5 gestartet werden</li>
+<li>Oben die Configuration "Hosted workbench" auswählen
+-* Ab jetzt kann auch mit F5 gestartet werden</li>
 </ul>
 <h2 id="wenns-nicht-klappt">Wenns nicht klappt<a class="headerlink" href="#wenns-nicht-klappt" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Zurück zur alten Version
-<div class="codehilite"><pre><span></span><span class="n">nvm</span> <span class="n">install</span> <span class="n">6</span><span class="p">.</span><span class="n">12</span><span class="p">.</span><span class="n">0</span>
-<span class="n">nvm</span> <span class="n">use</span> <span class="n">6</span><span class="p">.</span><span class="n">12</span><span class="p">.</span><span class="n">0</span>
-<span class="n">npm</span> <span class="n">install</span> <span class="n">-g</span> <span class="n">yo</span> <span class="n">gulp</span> <span class="nv">@microsoft</span><span class="p">/</span><span class="n">generator-sharepoint</span><span class="nv">@1</span><span class="p">.</span><span class="n">4</span><span class="p">.</span><span class="n">1</span>
-
-<span class="n">gulp</span> <span class="n">trust-dev-cert</span>
-<span class="n">gulp</span> <span class="n">serve</span>
-</pre></div></li>
+<li>Zurück zur alten Version</li>
 </ul>
+<div class="codehilite"><pre><span></span>nvm install 6.12.0
+nvm use 6.12.0
+npm install -g yo gulp @microsoft/generator-sharepoint@1.4.1
+
+gulp trust-dev-cert
+gulp serve
+</pre></div>
                 
                   
                 

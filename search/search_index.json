@@ -122,7 +122,7 @@
         },
         {
             "location": "/devCamp/setup/",
-            "text": "Maschine vorbereiten\n\u00b6\n\n\nHier lernt ihr, wie ihr eure Maschine zur SPFx DEV Maschine transformiert.\n\n\nCOL-TOOLS\n\u00b6\n\n\n\n\nAuf Laptop kopieren\n\n\nZus\u00e4tzliches installieren\n\n\n# choco installieren\n\n\nSet-ExecutionPolicy\n \nBypass\n \n-Scope\n \nProcess\n \n-Force\n;\n \niex\n \n((\nNew-Object\n \nSystem\n.\nNet\n.\nWebClient\n).\nDownloadString\n(\n'https://chocolatey.org/install.ps1'\n))\n\n\n\n# git\n\n\nchoco\n \ninstall\n \ngit\n.\ninstall\n\n\n\n# pegeant\n\n\nchoco\n \ninstall\n \nputty\n.\ninstall\n\n\n\n# git tool\n\n\nchoco\n \ninstall\n \ngitkraken\n\n\nchoco\n \ninstall\n \ngitextensions\n\n\n\n\n\n\nVS Code vorbereiten\n\u00b6\n\n\nmust have\n\n\n\n\nDebugger for Chrome\n\n\nTSLint\n\n\n\n\ngood to have\n\n\n\n\nAuto Import\n\n\nImport Cost\n\n\nPrettier\n\n\n\n\nSPFx Requirements installieren und erstes Projekt erstellen\n\u00b6\n\n\nHier\n ist das Setup-Skript abgelegt\n\n\nPNP cachen\n\u00b6\n\n\npnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\nChrome Extension\n\u00b6\n\n\n\n\nSP Editor\n\n\n\n\nCheck\n\u00b6\n\n\nAm Ende werdet ihr folgendes erledigt/installiert haben:\n\n\n\n\nNVM installiert\n\n\nnode.js installiert\n\n\nNotwendige NPM-Module mit \npnpm\n installiert\n\n\nMit yo ein neus SPFx Projekt erstellt\n\n\nNotwendige Tools und Extensions installiert\n\n\n\n\nDocker\n\u00b6\n\n\nAlternative zum hier beschriebenen Szenario ist die Verwendung von Docker Images\n\n\nDocker installieren (Account notwendig): \nLink\n\n\nPrep\n\u00b6\n\n\nIn \nDocker Settings > Shared Drives\n pr\u00fcfen, ob das verwendete Drive ein Shared Drive ist\n\n\ncd\n \nprojectfolder\n\n\n\n\n\n1.5.1\n\u00b6\n\n\ndocker run -it --rm --name spfx-helloworld -v ${PWD}:/usr/app/spfx -p 5432:5432 -p 4321:4321 -p 35729:35729 waldekm/spfx:1.5.1\n\n\n1.4.1\n\u00b6\n\n\ndocker run -it --rm --name spfx-helloworld -v ${PWD}:/usr/app/spfx -p 5432:5432 -p 4321:4321 -p 35729:35729 waldekm/spfx:1.4.1\n\n\nrun\n\u00b6\n\n\nyo @microsoft/sharepoint",
+            "text": "Maschine vorbereiten\n\u00b6\n\n\nHier lernt ihr, wie ihr eure Maschine zur SPFx DEV Maschine transformiert.\n\n\nCOL-TOOLS\n\u00b6\n\n\n\n\nAuf Laptop kopieren\n\n\nZus\u00e4tzliches installieren\n\n\n\n\nchoco installieren\n\u00b6\n\n\nSet-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))\n\n\n\n\ngit\n\u00b6\n\n\nchoco install git.install\n\n\n\n\npegeant\n\u00b6\n\n\nchoco install putty.install\n\n\n\n\ngit tool\n\u00b6\n\n\nchoco install gitkraken\n\n\n\n\nchoco install gitextensions\n\n\n\n\nVS Code vorbereiten\n\u00b6\n\n\nmust have\n\n\n\n\nDebugger for Chrome\n\n\nTSLint\n\n\n\n\ngood to have\n\n\n\n\nAuto Import\n\n\nImport Cost\n\n\nPrettier\n\n\n\n\nSPFx Requirements installieren und erstes Projekt erstellen\n\nHier\n ist das Setup-Skript abgelegt\n\n\nPNP cachen\n\u00b6\n\n\npnpm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save\n\n\n\n\nChrome Extension\n\u00b6\n\n\n\n\nSP Editor\n\n\n\n\nCheck\n\u00b6\n\n\nAm Ende werdet ihr folgendes erledigt/installiert haben:\n\n\n\n\nNVM installiert\n\n\nnode.js installiert\n\n\nNotwendige NPM-Module mit \npnpm\n installiert\n\n\nMit yo ein neus SPFx Projekt erstellt\n\n\nNotwendige Tools und Extensions installiert\n\n\n\n\nDocker\n\u00b6\n\n\nAlternative zum hier beschriebenen Szenario ist die Verwendung von Docker Images\n\n\nDocker installieren (Account notwendig): \nLink\n\n\nPrep\n\u00b6\n\n\nIn \nDocker Settings > Shared Drives\n pr\u00fcfen, ob das verwendete Drive ein Shared Drive ist\n\n\ncd projectfolder\n\n\n\n\n1.5.1\n\u00b6\n\n\ndocker run -it --rm --name spfx-helloworld -v ${PWD}:/usr/app/spfx -p 5432:5432 -p 4321:4321 -p 35729:35729 waldekm/spfx:1.5.1\n\n\n\n\n1.4.1\n\u00b6\n\n\ndocker run -it --rm --name spfx-helloworld -v ${PWD}:/usr/app/spfx -p 5432:5432 -p 4321:4321 -p 35729:35729 waldekm/spfx:1.4.1\n\n\n\n\nrun\n\u00b6\n\n\nyo @microsoft/sharepoint",
             "title": "Setup"
         },
         {
@@ -132,18 +132,33 @@
         },
         {
             "location": "/devCamp/setup/#col-tools",
-            "text": "Auf Laptop kopieren  Zus\u00e4tzliches installieren  # choco installieren  Set-ExecutionPolicy   Bypass   -Scope   Process   -Force ;   iex   (( New-Object   System . Net . WebClient ). DownloadString ( 'https://chocolatey.org/install.ps1' ))  # git  choco   install   git . install  # pegeant  choco   install   putty . install  # git tool  choco   install   gitkraken  choco   install   gitextensions",
+            "text": "Auf Laptop kopieren  Zus\u00e4tzliches installieren",
             "title": "COL-TOOLS"
         },
         {
-            "location": "/devCamp/setup/#vs-code-vorbereiten",
-            "text": "must have   Debugger for Chrome  TSLint   good to have   Auto Import  Import Cost  Prettier",
-            "title": "VS Code vorbereiten"
+            "location": "/devCamp/setup/#choco-installieren",
+            "text": "Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))",
+            "title": "choco installieren"
         },
         {
-            "location": "/devCamp/setup/#spfx-requirements-installieren-und-erstes-projekt-erstellen",
-            "text": "Hier  ist das Setup-Skript abgelegt",
-            "title": "SPFx Requirements installieren und erstes Projekt erstellen"
+            "location": "/devCamp/setup/#git",
+            "text": "choco install git.install",
+            "title": "git"
+        },
+        {
+            "location": "/devCamp/setup/#pegeant",
+            "text": "choco install putty.install",
+            "title": "pegeant"
+        },
+        {
+            "location": "/devCamp/setup/#git-tool",
+            "text": "choco install gitkraken  choco install gitextensions",
+            "title": "git tool"
+        },
+        {
+            "location": "/devCamp/setup/#vs-code-vorbereiten",
+            "text": "must have   Debugger for Chrome  TSLint   good to have   Auto Import  Import Cost  Prettier   SPFx Requirements installieren und erstes Projekt erstellen Hier  ist das Setup-Skript abgelegt",
+            "title": "VS Code vorbereiten"
         },
         {
             "location": "/devCamp/setup/#pnp-cachen",
@@ -167,7 +182,7 @@
         },
         {
             "location": "/devCamp/setup/#prep",
-            "text": "In  Docker Settings > Shared Drives  pr\u00fcfen, ob das verwendete Drive ein Shared Drive ist  cd   projectfolder",
+            "text": "In  Docker Settings > Shared Drives  pr\u00fcfen, ob das verwendete Drive ein Shared Drive ist  cd projectfolder",
             "title": "Prep"
         },
         {
@@ -187,22 +202,27 @@
         },
         {
             "location": "/devCamp/antivirus/",
-            "text": "Uninstall Trend Micro\n\u00b6\n\n\n\n\nNeustart in Safe-Mode\n\n\nregedit\n\n\nHKEY_LOCAL_MACHINE\\SOFTWARE\\TrendMicro\\PC-cillinNTCorp\\CurrentVersion\\Misc\n\n\nAllow Uninstall from 0 to 1\n\n\nDeinstallieren\n\n\n\n\nAdd defender exclusions\n\u00b6\n\n\nAdd-MpPreference -ExclusionPath \"C:\\Temp\"\nAdd-MpPreference -ExclusionPath \"C:\\Projects\"\nAdd-MpPreference -ExclusionPath \"C:\\Temp\"",
+            "text": "Antivirus\n\u00b6\n\n\nUninstall Trend Micro\n\u00b6\n\n\n\n\nNeustart in Safe-Mode \nSupport Lenovo\n\n\nregedit\n\n\nHKEY_LOCAL_MACHINE\\SOFTWARE\\TrendMicro\\PC-cillinNTCorp\\CurrentVersion\\Misc\n\n\nAllow Uninstall from 0 to 1\n\n\nDeinstallieren\n\n\n\n\nAdd defender exclusions\n\u00b6\n\n\nAdd-MpPreference -ExclusionPath \"C:\\Temp\"\n\n\n\n\nAdd-MpPreference -ExclusionPath \"C:\\Projects\"",
             "title": "AntiVirus"
         },
         {
+            "location": "/devCamp/antivirus/#antivirus",
+            "text": "",
+            "title": "Antivirus"
+        },
+        {
             "location": "/devCamp/antivirus/#uninstall-trend-micro",
-            "text": "Neustart in Safe-Mode  regedit  HKEY_LOCAL_MACHINE\\SOFTWARE\\TrendMicro\\PC-cillinNTCorp\\CurrentVersion\\Misc  Allow Uninstall from 0 to 1  Deinstallieren",
+            "text": "Neustart in Safe-Mode  Support Lenovo  regedit  HKEY_LOCAL_MACHINE\\SOFTWARE\\TrendMicro\\PC-cillinNTCorp\\CurrentVersion\\Misc  Allow Uninstall from 0 to 1  Deinstallieren",
             "title": "Uninstall Trend Micro"
         },
         {
             "location": "/devCamp/antivirus/#add-defender-exclusions",
-            "text": "Add-MpPreference -ExclusionPath \"C:\\Temp\"\nAdd-MpPreference -ExclusionPath \"C:\\Projects\"\nAdd-MpPreference -ExclusionPath \"C:\\Temp\"",
+            "text": "Add-MpPreference -ExclusionPath \"C:\\Temp\"  Add-MpPreference -ExclusionPath \"C:\\Projects\"",
             "title": "Add defender exclusions"
         },
         {
             "location": "/devCamp/debugging/",
-            "text": "Debugging\n\u00b6\n\n\nWeiterf\u00fchrende Informationen: \nSPFx Debugging\n\n\nRequirements\n\u00b6\n\n\nDebugger for Chrome\n\n\nPrepare\n\u00b6\n\n\ngulp trust-dev-cert\ngulp serve\n\n\n\n\nLocal\n\u00b6\n\n\n\n\nF5 dr\u00fccken im VS Code und Local ausw\u00e4hlen\n\n\n\n\nRemote\n\u00b6\n\n\n\n\n/.vscode/launch.json anpassen\n\n\n\n\nVorher\n\n\n{\n\n      \n\"name\"\n:\n \n\"Hosted workbench\"\n,\n\n      \n\"type\"\n:\n \n\"chrome\"\n,\n\n      \n\"request\"\n:\n \n\"launch\"\n,\n\n      \n\"url\"\n:\n \n\"https://enter-your-SharePoint-site/_layouts/workbench.aspx\"\n,\n\n      \n\"webRoot\"\n:\n \n\"${workspaceRoot}\"\n,\n\n      \n\"sourceMaps\"\n:\n \ntrue\n,\n\n      \n\"sourceMapPathOverrides\"\n:\n \n{\n\n        \n\"webpack:///../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n,\n\n        \n\"webpack:///../../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n,\n\n        \n\"webpack:///../../../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n\n      \n},\n\n      \n\"runtimeArgs\"\n:\n \n[\n\n        \n\"--remote-debugging-port=9222\"\n,\n\n        \n\"-incognito\"\n\n      \n]\n\n\n}\n\n\n\n\nNachher (URL angepasst)\n\n\n{\n\n      \n\"name\"\n:\n \n\"Hosted workbench\"\n,\n\n      \n\"type\"\n:\n \n\"chrome\"\n,\n\n      \n\"request\"\n:\n \n\"launch\"\n,\n\n      \n\"url\"\n:\n \n\"https://gw365dev.sharepoint.com/sites/kboapp/_layouts/workbench.aspx\"\n,\n\n      \n\"webRoot\"\n:\n \n\"${workspaceRoot}\"\n,\n\n      \n\"sourceMaps\"\n:\n \ntrue\n,\n\n      \n\"sourceMapPathOverrides\"\n:\n \n{\n\n        \n\"webpack:///../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n,\n\n        \n\"webpack:///../../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n,\n\n        \n\"webpack:///../../../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n\n      \n},\n\n      \n\"runtimeArgs\"\n:\n \n[\n\n        \n\"--remote-debugging-port=9222\"\n,\n\n        \n\"-incognito\"\n\n      \n]\n\n\n}\n\n\n\n\n\n\nLinks im VS Code auf Debug wechseln\n\n\nOben die Configuration \"Hosted workbench\" ausw\u00e4hlen\n\n\nAb jetzt kann auch mit F5 gestartet werden\n\n\n\n\nWenns nicht klappt\n\u00b6\n\n\n\n\nZur\u00fcck zur alten Version\n\nnvm\n \ninstall\n \n6\n.\n12\n.\n0\n\n\nnvm\n \nuse\n \n6\n.\n12\n.\n0\n\n\nnpm\n \ninstall\n \n-g\n \nyo\n \ngulp\n \n@microsoft\n/\ngenerator-sharepoint\n@1\n.\n4\n.\n1\n\n\n\ngulp\n \ntrust-dev-cert\n\n\ngulp\n \nserve",
+            "text": "Debugging\n\u00b6\n\n\nWeiterf\u00fchrende Informationen: \nSPFx Debugging\n\n\nRequirements\n\u00b6\n\n\nDebugger for Chrome\n\n\nPrepare\n\u00b6\n\n\ngulp trust-dev-cert\ngulp serve\n\n\n\n\nLocal\n\u00b6\n\n\n\n\nF5 dr\u00fccken im VS Code und Local ausw\u00e4hlen\n\n\n\n\nRemote\n\u00b6\n\n\n\n\n/.vscode/launch.json anpassen\n\n\n\n\nVorher\n\n\n{\n\n      \n\"name\"\n:\n \n\"Hosted workbench\"\n,\n\n      \n\"type\"\n:\n \n\"chrome\"\n,\n\n      \n\"request\"\n:\n \n\"launch\"\n,\n\n      \n\"url\"\n:\n \n\"https://enter-your-SharePoint-site/_layouts/workbench.aspx\"\n,\n\n      \n\"webRoot\"\n:\n \n\"${workspaceRoot}\"\n,\n\n      \n\"sourceMaps\"\n:\n \ntrue\n,\n\n      \n\"sourceMapPathOverrides\"\n:\n \n{\n\n        \n\"webpack:///../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n,\n\n        \n\"webpack:///../../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n,\n\n        \n\"webpack:///../../../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n\n      \n},\n\n      \n\"runtimeArgs\"\n:\n \n[\n\n        \n\"--remote-debugging-port=9222\"\n,\n\n        \n\"-incognito\"\n\n      \n]\n\n\n}\n\n\n\n\n\nNachher (URL angepasst)\n\n\n{\n\n      \n\"name\"\n:\n \n\"Hosted workbench\"\n,\n\n      \n\"type\"\n:\n \n\"chrome\"\n,\n\n      \n\"request\"\n:\n \n\"launch\"\n,\n\n      \n\"url\"\n:\n \n\"https://gw365dev.sharepoint.com/sites/kboapp/_layouts/workbench.aspx\"\n,\n\n      \n\"webRoot\"\n:\n \n\"${workspaceRoot}\"\n,\n\n      \n\"sourceMaps\"\n:\n \ntrue\n,\n\n      \n\"sourceMapPathOverrides\"\n:\n \n{\n\n        \n\"webpack:///../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n,\n\n        \n\"webpack:///../../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n,\n\n        \n\"webpack:///../../../../../src/*\"\n:\n \n\"${webRoot}/src/*\"\n\n      \n},\n\n      \n\"runtimeArgs\"\n:\n \n[\n\n        \n\"--remote-debugging-port=9222\"\n,\n\n        \n\"-incognito\"\n\n      \n]\n\n\n}\n\n\n\n\n\n\n\nLinks im VS Code auf Debug wechseln\n\n\nOben die Configuration \"Hosted workbench\" ausw\u00e4hlen\n-* Ab jetzt kann auch mit F5 gestartet werden\n\n\n\n\nWenns nicht klappt\n\u00b6\n\n\n\n\nZur\u00fcck zur alten Version\n\n\n\n\nnvm install 6.12.0\nnvm use 6.12.0\nnpm install -g yo gulp @microsoft/generator-sharepoint@1.4.1\n\ngulp trust-dev-cert\ngulp serve",
             "title": "Debugging"
         },
         {
@@ -227,17 +247,17 @@
         },
         {
             "location": "/devCamp/debugging/#remote",
-            "text": "/.vscode/launch.json anpassen   Vorher  { \n       \"name\" :   \"Hosted workbench\" , \n       \"type\" :   \"chrome\" , \n       \"request\" :   \"launch\" , \n       \"url\" :   \"https://enter-your-SharePoint-site/_layouts/workbench.aspx\" , \n       \"webRoot\" :   \"${workspaceRoot}\" , \n       \"sourceMaps\" :   true , \n       \"sourceMapPathOverrides\" :   { \n         \"webpack:///../../../src/*\" :   \"${webRoot}/src/*\" , \n         \"webpack:///../../../../src/*\" :   \"${webRoot}/src/*\" , \n         \"webpack:///../../../../../src/*\" :   \"${webRoot}/src/*\" \n       }, \n       \"runtimeArgs\" :   [ \n         \"--remote-debugging-port=9222\" , \n         \"-incognito\" \n       ]  }   Nachher (URL angepasst)  { \n       \"name\" :   \"Hosted workbench\" , \n       \"type\" :   \"chrome\" , \n       \"request\" :   \"launch\" , \n       \"url\" :   \"https://gw365dev.sharepoint.com/sites/kboapp/_layouts/workbench.aspx\" , \n       \"webRoot\" :   \"${workspaceRoot}\" , \n       \"sourceMaps\" :   true , \n       \"sourceMapPathOverrides\" :   { \n         \"webpack:///../../../src/*\" :   \"${webRoot}/src/*\" , \n         \"webpack:///../../../../src/*\" :   \"${webRoot}/src/*\" , \n         \"webpack:///../../../../../src/*\" :   \"${webRoot}/src/*\" \n       }, \n       \"runtimeArgs\" :   [ \n         \"--remote-debugging-port=9222\" , \n         \"-incognito\" \n       ]  }    Links im VS Code auf Debug wechseln  Oben die Configuration \"Hosted workbench\" ausw\u00e4hlen  Ab jetzt kann auch mit F5 gestartet werden",
+            "text": "/.vscode/launch.json anpassen   Vorher  { \n       \"name\" :   \"Hosted workbench\" , \n       \"type\" :   \"chrome\" , \n       \"request\" :   \"launch\" , \n       \"url\" :   \"https://enter-your-SharePoint-site/_layouts/workbench.aspx\" , \n       \"webRoot\" :   \"${workspaceRoot}\" , \n       \"sourceMaps\" :   true , \n       \"sourceMapPathOverrides\" :   { \n         \"webpack:///../../../src/*\" :   \"${webRoot}/src/*\" , \n         \"webpack:///../../../../src/*\" :   \"${webRoot}/src/*\" , \n         \"webpack:///../../../../../src/*\" :   \"${webRoot}/src/*\" \n       }, \n       \"runtimeArgs\" :   [ \n         \"--remote-debugging-port=9222\" , \n         \"-incognito\" \n       ]  }   Nachher (URL angepasst)  { \n       \"name\" :   \"Hosted workbench\" , \n       \"type\" :   \"chrome\" , \n       \"request\" :   \"launch\" , \n       \"url\" :   \"https://gw365dev.sharepoint.com/sites/kboapp/_layouts/workbench.aspx\" , \n       \"webRoot\" :   \"${workspaceRoot}\" , \n       \"sourceMaps\" :   true , \n       \"sourceMapPathOverrides\" :   { \n         \"webpack:///../../../src/*\" :   \"${webRoot}/src/*\" , \n         \"webpack:///../../../../src/*\" :   \"${webRoot}/src/*\" , \n         \"webpack:///../../../../../src/*\" :   \"${webRoot}/src/*\" \n       }, \n       \"runtimeArgs\" :   [ \n         \"--remote-debugging-port=9222\" , \n         \"-incognito\" \n       ]  }    Links im VS Code auf Debug wechseln  Oben die Configuration \"Hosted workbench\" ausw\u00e4hlen\n-* Ab jetzt kann auch mit F5 gestartet werden",
             "title": "Remote"
         },
         {
             "location": "/devCamp/debugging/#wenns-nicht-klappt",
-            "text": "Zur\u00fcck zur alten Version nvm   install   6 . 12 . 0  nvm   use   6 . 12 . 0  npm   install   -g   yo   gulp   @microsoft / generator-sharepoint @1 . 4 . 1  gulp   trust-dev-cert  gulp   serve",
+            "text": "Zur\u00fcck zur alten Version   nvm install 6.12.0\nnvm use 6.12.0\nnpm install -g yo gulp @microsoft/generator-sharepoint@1.4.1\n\ngulp trust-dev-cert\ngulp serve",
             "title": "Wenns nicht klappt"
         },
         {
             "location": "/devCamp/firstSession/",
-            "text": "First Session\n\u00b6\n\n\nWir zeigen euch, wie ihr euer yo generiertes SPFx Web Part zu einem Web Part erweitern k\u00f6nnte, das folgendes kann:\n\n\n\n\nHerausfinden, ob ihr lokal oder in SPO entwickelt\n\n\nBasierend darauf, kann der Fake oder Real Data Provider genutzt werden\n\n\nMit PNP im Real Data Provider ein List Item auslesen\n\n\nDas List Item mit einer Office UI Fabric Komponente darstellen\n\n\n\n\nRequirements\n\u00b6\n\n\n\n\nBeispiel-L\u00f6sung hier abgelegt: ???Link zum Repo???\n\n\n\n\nWo bin ich \u00fcberhaupt?\n\u00b6\n\n\nif\n \n(\nEnvironment\n.\ntype\n \n===\n \nEnvironmentType\n.\nClassicSharePoint\n)\n \n{\n\n      \n// do some stuff on classic page\n\n    \n}\n \nelse\n \nif\n \n(\nEnvironment\n.\ntype\n \n===\n \nEnvironmentType\n.\nSharePoint\n)\n \n{\n\n      \n// do some stuff on modern page\n\n      \nthis\n.\n_dataProvider\n \n=\n \nnew\n \nMySiteDataProvider\n(\nthis\n.\ncontext\n);\n\n    \n}\n \nelse\n \nif\n \n(\nEnvironment\n.\ntype\n \n===\n \nEnvironmentType\n.\nLocal\n)\n \n{\n\n      \n// do some stuff on SharePoint workbench page\n\n      \nthis\n.\n_dataProvider\n \n=\n \nnew\n \nMySiteDataFakeProvider\n();\n\n    \n}\n\n\n}\n\n\n\n\n\nUI Fabric Komponente verwenden\n\u00b6\n\n\nimport\n \n{\n \nWebPartTitle\n \n}\n \nfrom\n \n\"@pnp/spfx-controls-react/lib/WebPartTitle\"\n;\n\n\n\npublic\n \nrender\n()\n:\n \nReact\n.\nReactElement\n<\nISiteOverviewProps\n>\n \n{\n\n    \n...\n\n    \nreturn\n \n(\n\n        \n...\n\n        \n<\nWebPartTitle\n \ndisplayMode\n=\n{\nthis\n.\nprops\n.\ndisplayMode\n}\n \ntitle\n=\n{\nthis\n.\nprops\n.\ntitle\n}\n \nupdateProperty\n=\n{\nthis\n.\nprops\n.\nfUpdateProperty\n}\n \n/>\n\n        \n...\n\n    \n);\n\n    \n...\n\n\n}\n\n\n\n\n\nRenaming Web Part\n\u00b6",
+            "text": "First Session\n\u00b6\n\n\nWir zeigen euch, wie ihr euer yo generiertes SPFx Web Part zu einem Web Part erweitern k\u00f6nnte, das folgendes kann:\n\n\n\n\nHerausfinden, ob ihr lokal oder in SPO entwickelt\n\n\nBasierend darauf, kann der Fake oder Real Data Provider genutzt werden\n\n\nMit PNP im Real Data Provider ein List Item auslesen\n\n\nDas List Item mit einer Office UI Fabric Komponente darstellen\n\n\n\n\nRequirements\n\u00b6\n\n\n\n\nBeispiel-L\u00f6sung hier abgelegt\n\n\nhttps://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018\n\n\n\n\nWo bin ich \u00fcberhaupt?\n\u00b6\n\n\nif\n \n(\nEnvironment\n.\ntype\n \n===\n \nEnvironmentType\n.\nClassicSharePoint\n)\n \n{\n\n      \n// do some stuff on classic page\n\n    \n}\n \nelse\n \nif\n \n(\nEnvironment\n.\ntype\n \n===\n \nEnvironmentType\n.\nSharePoint\n)\n \n{\n\n      \n// do some stuff on modern page\n\n      \nthis\n.\n_dataProvider\n \n=\n \nnew\n \nMySiteDataProvider\n(\nthis\n.\ncontext\n);\n\n    \n}\n \nelse\n \nif\n \n(\nEnvironment\n.\ntype\n \n===\n \nEnvironmentType\n.\nLocal\n)\n \n{\n\n      \n// do some stuff on SharePoint workbench page\n\n      \nthis\n.\n_dataProvider\n \n=\n \nnew\n \nMySiteDataFakeProvider\n();\n\n    \n}\n\n\n}\n\n\n\n\n\nUI Fabric Komponente verwenden\n\u00b6\n\n\nimport\n \n{\n \nWebPartTitle\n \n}\n \nfrom\n \n\"@pnp/spfx-controls-react/lib/WebPartTitle\"\n;\n\n\n\npublic\n \nrender\n()\n:\n \nReact\n.\nReactElement\n<\nISiteOverviewProps\n>\n \n{\n\n    \n...\n\n    \nreturn\n \n(\n\n        \n...\n\n        \n<\nWebPartTitle\n \ndisplayMode\n=\n{\nthis\n.\nprops\n.\ndisplayMode\n}\n \ntitle\n=\n{\nthis\n.\nprops\n.\ntitle\n}\n \nupdateProperty\n=\n{\nthis\n.\nprops\n.\nfUpdateProperty\n}\n \n/>\n\n        \n...\n\n    \n);\n\n    \n...\n\n\n}",
             "title": "Session 1"
         },
         {
@@ -247,7 +267,7 @@
         },
         {
             "location": "/devCamp/firstSession/#requirements",
-            "text": "Beispiel-L\u00f6sung hier abgelegt: ???Link zum Repo???",
+            "text": "Beispiel-L\u00f6sung hier abgelegt  https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018",
             "title": "Requirements"
         },
         {
@@ -261,11 +281,6 @@
             "title": "UI Fabric Komponente verwenden"
         },
         {
-            "location": "/devCamp/firstSession/#renaming-web-part",
-            "text": "",
-            "title": "Renaming Web Part"
-        },
-        {
             "location": "/devCamp/ideas/",
             "text": "Ideen\n\u00b6\n\n\n\n\nExtensions\n\n\nDebugging M\u00f6glichkeiten",
             "title": "Ideas"
@@ -274,6 +289,36 @@
             "location": "/devCamp/ideas/#ideen",
             "text": "Extensions  Debugging M\u00f6glichkeiten",
             "title": "Ideen"
+        },
+        {
+            "location": "/devCamp/renamewebpart/",
+            "text": "Rename WebPart\n\u00b6\n\n\nVorbedinung\n\u00b6\n\n\nEinfaches Webpart Solution erstellen\n\n\nyo @microsoft/sharepoint --package-manager pnpm\n\n\n\n\nGit initialisieren damit changes gepr\u00fcft werden k\u00f6nnen\n\n\ngit init\n\n\n\n\ngit add -A\n\n\n\n\ngit commit -m \"init repo\"\n\n\n\n\nAufgabe\n\u00b6\n\n\n\n\nReplace des erstellten \"WebPartName\" und Rename aller Folder und Files sowie aller Klassen.\n\n\n\n\nTest\n\u00b6\n\n\n1) Pr\u00fcfe mit gulp build ob erfolgreich renamed wurde\n\n\ngulp build\n\n\n\n\n2) Pr\u00fcfe mit gulp bundle ob erfolgreich renamed wurde\n\n\ngulp bundle\n\n\n\n\n3) Pr\u00fcfe ob das WebPart in der local workbench\n\n\nStarte den Local Server\n\n\ngulp serve\n\n\nTeste das Webpart aus\n\n\n`html\nhttps://localhost:4321/temp/workbench.html\n\n\nLearning aus Rename\n\u00b6\n\n\n\n\n\n\nFehlermeldung m\u00fcssen behoben werden, da sonst kein build/bundle m\u00f6glich\n\n\nNamenskonventionen beibehalten vom yo @microsoft/sharepoint Generator\n\n\nEs sind releativ viele (initial 8 Files) beteiligt an einem WebPart, welche zusammenspielen m\u00fcssen\n\n\nVS.Code schliessen und wieder starten hilft bei Chacheing Problemen\n\n\nLokales Testing ist m\u00f6glich und wichtig",
+            "title": "Rename WebPart"
+        },
+        {
+            "location": "/devCamp/renamewebpart/#rename-webpart",
+            "text": "",
+            "title": "Rename WebPart"
+        },
+        {
+            "location": "/devCamp/renamewebpart/#vorbedinung",
+            "text": "Einfaches Webpart Solution erstellen  yo @microsoft/sharepoint --package-manager pnpm  Git initialisieren damit changes gepr\u00fcft werden k\u00f6nnen  git init  git add -A  git commit -m \"init repo\"",
+            "title": "Vorbedinung"
+        },
+        {
+            "location": "/devCamp/renamewebpart/#aufgabe",
+            "text": "Replace des erstellten \"WebPartName\" und Rename aller Folder und Files sowie aller Klassen.",
+            "title": "Aufgabe"
+        },
+        {
+            "location": "/devCamp/renamewebpart/#test",
+            "text": "1) Pr\u00fcfe mit gulp build ob erfolgreich renamed wurde  gulp build  2) Pr\u00fcfe mit gulp bundle ob erfolgreich renamed wurde  gulp bundle  3) Pr\u00fcfe ob das WebPart in der local workbench  Starte den Local Server  gulp serve \nTeste das Webpart aus  `html\nhttps://localhost:4321/temp/workbench.html",
+            "title": "Test"
+        },
+        {
+            "location": "/devCamp/renamewebpart/#learning-aus-rename",
+            "text": "Fehlermeldung m\u00fcssen behoben werden, da sonst kein build/bundle m\u00f6glich  Namenskonventionen beibehalten vom yo @microsoft/sharepoint Generator  Es sind releativ viele (initial 8 Files) beteiligt an einem WebPart, welche zusammenspielen m\u00fcssen  VS.Code schliessen und wieder starten hilft bei Chacheing Problemen  Lokales Testing ist m\u00f6glich und wichtig",
+            "title": "Learning aus Rename"
         },
         {
             "location": "/devCamp/samples/sitemetacard/",

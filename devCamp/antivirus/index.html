@@ -97,7 +97,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#uninstall-trend-micro" tabindex="1" class="md-skip">
+      <a href="#antivirus" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -445,9 +445,45 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        AntiVirus
+      </label>
+    
     <a href="./" title="AntiVirus" class="md-nav__link md-nav__link--active">
       AntiVirus
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uninstall-trend-micro" title="Uninstall Trend Micro" class="md-nav__link">
+    Uninstall Trend Micro
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-defender-exclusions" title="Add defender exclusions" class="md-nav__link">
+    Add defender exclusions
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -493,15 +529,27 @@
           
 
 
+  <li class="md-nav__item">
+    <a href="../renamewebpart/" title="Rename WebPart" class="md-nav__link">
+      Rename WebPart
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-7" type="checkbox" id="nav-2-7">
     
-    <label class="md-nav__link" for="nav-2-6">
+    <label class="md-nav__link" for="nav-2-7">
       Samples
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-6">
+      <label class="md-nav__title" for="nav-2-7">
         Samples
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -1446,6 +1494,29 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uninstall-trend-micro" title="Uninstall Trend Micro" class="md-nav__link">
+    Uninstall Trend Micro
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-defender-exclusions" title="Add defender exclusions" class="md-nav__link">
+    Add defender exclusions
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1459,18 +1530,21 @@
                   <a href="https://github.com/rolandoechslin/spfx-kb/blob/master/docs/devCamp/antivirus.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="uninstall-trend-micro">Uninstall Trend Micro<a class="headerlink" href="#uninstall-trend-micro" title="Permanent link">&para;</a></h1>
+                <h1 id="antivirus">Antivirus<a class="headerlink" href="#antivirus" title="Permanent link">&para;</a></h1>
+<h2 id="uninstall-trend-micro">Uninstall Trend Micro<a class="headerlink" href="#uninstall-trend-micro" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Neustart in Safe-Mode</li>
+<li>Neustart in Safe-Mode <a href="https://pcsupport.lenovo.com/ch/de/products/laptops-and-netbooks/thinkpad-13-series-laptop/thinkpad-13-type-20j1-20j2/solutions/ht116905">Support Lenovo</a></li>
 <li>regedit</li>
 <li>HKEY_LOCAL_MACHINE\SOFTWARE\TrendMicro\PC-cillinNTCorp\CurrentVersion\Misc</li>
 <li>Allow Uninstall from 0 to 1</li>
 <li>Deinstallieren</li>
 </ul>
-<h1 id="add-defender-exclusions">Add defender exclusions<a class="headerlink" href="#add-defender-exclusions" title="Permanent link">&para;</a></h1>
-<p>Add-MpPreference -ExclusionPath "C:\Temp"
-Add-MpPreference -ExclusionPath "C:\Projects"
-Add-MpPreference -ExclusionPath "C:\Temp"</p>
+<h2 id="add-defender-exclusions">Add defender exclusions<a class="headerlink" href="#add-defender-exclusions" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>Add-MpPreference -ExclusionPath &quot;C:\Temp&quot;
+</pre></div>
+
+<div class="codehilite"><pre><span></span>Add-MpPreference -ExclusionPath &quot;C:\Projects&quot;
+</pre></div>
                 
                   
                 
