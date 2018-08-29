@@ -9,6 +9,11 @@
 - Deinstallieren
 
 ## Add defender exclusions
+
+```bs
 Add-MpPreference -ExclusionPath "C:\Temp"
+```
+
+```bs
 Add-MpPreference -ExclusionPath "C:\Projects"
-Add-MpPreference -ExclusionPath "C:\Temp"
+```
