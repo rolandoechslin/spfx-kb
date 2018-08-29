@@ -63,6 +63,6 @@ https://localhost:4321/temp/workbench.html
 
 > - Fehlermeldung müssen behoben werden, da sonst kein build/bundle möglich
 > - Namenskonventionen beibehalten vom yo @microsoft/sharepoint Generator
-> - Es sind releativ viele (initial 15 Files) beteiligt an einem WebPart, welche zusammenspielen müssen
+> - Es sind releativ viele (initial 8 Files) beteiligt an einem WebPart, welche zusammenspielen müssen
 > - VS.Code schliessen und wieder starten hilft bei Chacheing Problemen
 > - Lokales Testing ist möglich und wichtig
