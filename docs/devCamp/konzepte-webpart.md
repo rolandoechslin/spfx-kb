@@ -8,7 +8,9 @@ Anzeige von Mockdaten wenn der local server gestartet wird.
 
 ![Mockdata](../assets/images/mock-data.png)
 
-[Code](https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/src/shared/services/ListMock.ts#523)
+[Code Switch Enviroment](https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/src/webparts/siteMetaCard/SiteMetaCardWebPart.ts#35)
+
+[Code Service](https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/src/shared/services/ListMock.ts#523)
 
 ## Load data icon
 
