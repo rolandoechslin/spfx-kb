@@ -50,7 +50,7 @@ Anzeige von WebPart Properties, wie die Darstellung veränder werden kann zur La
 
 ## Laden von Sharepoint List Daten
 
-Anzeige eines Listitems aus einer Liste.
+Anzeige eines Listitems aus einer Liste mithilfe der Library https://github.com/pnp/pnpjs. Bei komplexen Lookup oder Taxonomie Felder liefert die Funktion renderListDataAsStream() alle Daten zurück.
 
 ![SP-List-Provider](../assets/images/splist-data.png)
 
