@@ -1647,28 +1647,38 @@
                 
                 
                 <h1 id="spfx-konzepte-anhand-eines-beispiels">SPFx Konzepte anhand eines Beispiels<a class="headerlink" href="#spfx-konzepte-anhand-eines-beispiels" title="Permanent link">&para;</a></h1>
-<p>Aufzeigen von diversen Spfx WebPart Konzepten und ihre Umsetzungen.</p>
+<p>Aufzeigen von diversen Spfx WebPart Konzepten und ihre Umsetzungen im Code.</p>
 <h2 id="mockdaten">Mockdaten<a class="headerlink" href="#mockdaten" title="Permanent link">&para;</a></h2>
 <p>Anzeige von Mockdaten wenn der local server gestartet wird.</p>
 <p><img alt="Mockdata" src="../../assets/images/mock-data.png" /></p>
+<p><a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/src/shared/services/ListMock.ts#523">Code</a></p>
 <h2 id="load-data-icon">Load data icon<a class="headerlink" href="#load-data-icon" title="Permanent link">&para;</a></h2>
 <p>Anzeige eines "Load data..." Icons, wenn der Datenzugriff erfolgt, sobald diese geladen sind, sollen die Daten angezeigt werden.</p>
 <p><img alt="Load data" src="../../assets/images/load-data.png" /></p>
+<p><a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/src/webparts/siteMetaCard/components/SiteMetaCard.tsx#80">Code</a></p>
 <h2 id="lokalisierung-des-webparts">Lokalisierung des WebParts<a class="headerlink" href="#lokalisierung-des-webparts" title="Permanent link">&para;</a></h2>
 <p>Umschalten der Sprache.</p>
-<p><img alt="Load data" src="../../assets/images/localizsation.png" /></p>
+<p><img alt="Lokalisierung" src="../../assets/images/localizsation.png" /></p>
 <div class="codehilite"><pre><span></span>gulp serve --locale=de-de
 </pre></div>
 
+<p><a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/src/shared/components/MetaCard/loc">Code</a></p>
 <h2 id="inline-editieren-des-titels">Inline editieren des Titels<a class="headerlink" href="#inline-editieren-des-titels" title="Permanent link">&para;</a></h2>
 <p>Der Titel des Webparts kann editiert werden ohne die WebPart Properties zu öffnen.</p>
-<p><img alt="Load data" src="../../assets/images/inline-edit-title.png" /></p>
+<p><img alt="Inline Edit" src="../../assets/images/inline-edit-title.png" /></p>
+<p><a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/src/webparts/siteMetaCard/components/SiteMetaCard.tsx#135">Code</a></p>
 <h2 id="webpart-konfiguration">WebPart Konfiguration<a class="headerlink" href="#webpart-konfiguration" title="Permanent link">&para;</a></h2>
 <p>Anzeige von WebPart Properties, wie die Darstellung veränder werden kann zur Laufzeit.</p>
-<p><img alt="Load data" src="../../assets/images/webpart-configuration-1.png" /></p>
-<p><img alt="Load data" src="../../assets/images/webpart-configuration-2.png" /></p>
+<p><img alt="Konfiguration" src="../../assets/images/webpart-configuration-1.png" /></p>
+<p><img alt="Konfiguration" src="../../assets/images/webpart-configuration-2.png" /></p>
+<p><a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/src/webparts/siteMetaCard/SiteMetaCardWebPart.ts#66">Code</a></p>
 <h2 id="laden-von-sharepoint-list-daten">Laden von Sharepoint List Daten<a class="headerlink" href="#laden-von-sharepoint-list-daten" title="Permanent link">&para;</a></h2>
 <p>Anzeige eines Listitems aus einer Liste.</p>
+<p><img alt="SP-List-Provider" src="../../assets/images/splist-data.png" /></p>
+<div class="codehilite"><pre><span></span>gulp serve --nobrowser --locale=de-de
+</pre></div>
+
+<p><a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/src/shared/services/SpListService.ts#27">Code</a></p>
                 
                   
                 

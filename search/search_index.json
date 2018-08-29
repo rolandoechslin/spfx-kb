@@ -322,42 +322,42 @@
         },
         {
             "location": "/devCamp/konzepte-webpart/",
-            "text": "SPFx Konzepte anhand eines Beispiels\n\u00b6\n\n\nAufzeigen von diversen Spfx WebPart Konzepten und ihre Umsetzungen.\n\n\nMockdaten\n\u00b6\n\n\nAnzeige von Mockdaten wenn der local server gestartet wird.\n\n\n\n\nLoad data icon\n\u00b6\n\n\nAnzeige eines \"Load data...\" Icons, wenn der Datenzugriff erfolgt, sobald diese geladen sind, sollen die Daten angezeigt werden.\n\n\n\n\nLokalisierung des WebParts\n\u00b6\n\n\nUmschalten der Sprache.\n\n\n\n\ngulp serve --locale=de-de\n\n\n\n\nInline editieren des Titels\n\u00b6\n\n\nDer Titel des Webparts kann editiert werden ohne die WebPart Properties zu \u00f6ffnen.\n\n\n\n\nWebPart Konfiguration\n\u00b6\n\n\nAnzeige von WebPart Properties, wie die Darstellung ver\u00e4nder werden kann zur Laufzeit.\n\n\n\n\n\n\nLaden von Sharepoint List Daten\n\u00b6\n\n\nAnzeige eines Listitems aus einer Liste.",
+            "text": "SPFx Konzepte anhand eines Beispiels\n\u00b6\n\n\nAufzeigen von diversen Spfx WebPart Konzepten und ihre Umsetzungen im Code.\n\n\nMockdaten\n\u00b6\n\n\nAnzeige von Mockdaten wenn der local server gestartet wird.\n\n\n\n\nCode\n\n\nLoad data icon\n\u00b6\n\n\nAnzeige eines \"Load data...\" Icons, wenn der Datenzugriff erfolgt, sobald diese geladen sind, sollen die Daten angezeigt werden.\n\n\n\n\nCode\n\n\nLokalisierung des WebParts\n\u00b6\n\n\nUmschalten der Sprache.\n\n\n\n\ngulp serve --locale=de-de\n\n\n\n\nCode\n\n\nInline editieren des Titels\n\u00b6\n\n\nDer Titel des Webparts kann editiert werden ohne die WebPart Properties zu \u00f6ffnen.\n\n\n\n\nCode\n\n\nWebPart Konfiguration\n\u00b6\n\n\nAnzeige von WebPart Properties, wie die Darstellung ver\u00e4nder werden kann zur Laufzeit.\n\n\n\n\n\n\nCode\n\n\nLaden von Sharepoint List Daten\n\u00b6\n\n\nAnzeige eines Listitems aus einer Liste.\n\n\n\n\ngulp serve --nobrowser --locale=de-de\n\n\n\n\nCode",
             "title": "WebPart-Konzepte"
         },
         {
             "location": "/devCamp/konzepte-webpart/#spfx-konzepte-anhand-eines-beispiels",
-            "text": "Aufzeigen von diversen Spfx WebPart Konzepten und ihre Umsetzungen.",
+            "text": "Aufzeigen von diversen Spfx WebPart Konzepten und ihre Umsetzungen im Code.",
             "title": "SPFx Konzepte anhand eines Beispiels"
         },
         {
             "location": "/devCamp/konzepte-webpart/#mockdaten",
-            "text": "Anzeige von Mockdaten wenn der local server gestartet wird.",
+            "text": "Anzeige von Mockdaten wenn der local server gestartet wird.   Code",
             "title": "Mockdaten"
         },
         {
             "location": "/devCamp/konzepte-webpart/#load-data-icon",
-            "text": "Anzeige eines \"Load data...\" Icons, wenn der Datenzugriff erfolgt, sobald diese geladen sind, sollen die Daten angezeigt werden.",
+            "text": "Anzeige eines \"Load data...\" Icons, wenn der Datenzugriff erfolgt, sobald diese geladen sind, sollen die Daten angezeigt werden.   Code",
             "title": "Load data icon"
         },
         {
             "location": "/devCamp/konzepte-webpart/#lokalisierung-des-webparts",
-            "text": "Umschalten der Sprache.   gulp serve --locale=de-de",
+            "text": "Umschalten der Sprache.   gulp serve --locale=de-de  Code",
             "title": "Lokalisierung des WebParts"
         },
         {
             "location": "/devCamp/konzepte-webpart/#inline-editieren-des-titels",
-            "text": "Der Titel des Webparts kann editiert werden ohne die WebPart Properties zu \u00f6ffnen.",
+            "text": "Der Titel des Webparts kann editiert werden ohne die WebPart Properties zu \u00f6ffnen.   Code",
             "title": "Inline editieren des Titels"
         },
         {
             "location": "/devCamp/konzepte-webpart/#webpart-konfiguration",
-            "text": "Anzeige von WebPart Properties, wie die Darstellung ver\u00e4nder werden kann zur Laufzeit.",
+            "text": "Anzeige von WebPart Properties, wie die Darstellung ver\u00e4nder werden kann zur Laufzeit.    Code",
             "title": "WebPart Konfiguration"
         },
         {
             "location": "/devCamp/konzepte-webpart/#laden-von-sharepoint-list-daten",
-            "text": "Anzeige eines Listitems aus einer Liste.",
+            "text": "Anzeige eines Listitems aus einer Liste.   gulp serve --nobrowser --locale=de-de  Code",
             "title": "Laden von Sharepoint List Daten"
         },
         {
