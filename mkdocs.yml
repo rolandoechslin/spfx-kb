@@ -8,12 +8,13 @@ pages:
     - Dev Camp:
         - Setup: devCamp/setup.md
         - AntiVirus: devCamp/antivirus.md
-        - Debugging: devCamp\debugging.md
+        - Debugging: devCamp/debugging.md
         - Session 1: devCamp/firstSession.md
         - Ideas: devCamp/ideas.md
+        - Rename WebPart: devCamp/renamewebpart.md
         - Samples:
             - SiteMetaCard: devCamp/samples/sitemetacard.md
-            - Graph: devCamp\samples\graph.md
+            - Graph: devCamp/samples/graph.md
     - SPFx:
         - Start: spfx/start.md
         - Azure: spfx/azure.md
