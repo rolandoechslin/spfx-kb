@@ -1,4 +1,0 @@
-#Ideen
-
-- Extensions
-- Debugging Möglichkeiten

@@ -5,23 +5,6 @@ site_author: 'Roland Oechslin'
 
 pages:
     - Home: index.md
-    - Dev Camp:
-        - Setup: devCamp/setup.md
-        - AntiVirus: devCamp/antivirus.md
-        - Debugging: devCamp/debugging.md
-        - Session 1: devCamp/firstSession.md
-        - Ideas: devCamp/ideas.md
-        - React-Reference: devCamp/learning-react.md
-        - Code-Guidlines: devCamp/code-guidline.md
-        - Solution-Struktur: devCamp/solution-structure.md
-        - WebPart-Rename: devCamp/renamewebpart.md
-        - WebPart-Konzepte: devCamp/konzepte-webpart.md
-        - Samples:
-            - SiteMetaCard:
-                - Projektsetup: devCamp/samples/sitemeta/projektsetup.md
-                - Aufgaben: devCamp/samples/sitemeta/aufgaben.md
-                - Testen: devCamp/samples/sitemeta/testen.md
-            - Graph: devCamp/samples/graph.md
     - SPFx:
         - Start: spfx/start.md
         - Azure: spfx/azure.md
