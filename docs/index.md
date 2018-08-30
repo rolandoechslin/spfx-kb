@@ -94,6 +94,7 @@ https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoi
 ```bs
 gulp serve
 ```
+
 - add webpart
 - start Chrome
 - start Dev Extension (F12)
@@ -106,13 +107,15 @@ gulp serve
 - <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode>
 
 Pre Steps
-- open vs.code / view extensions
+- open vs.code
+- got to view extensions
 - install "Debugger for chrome"
 - create launch.json
 - select configuration
     - Hosted workbench configuration
 
 Steps
+
 ```bs
 gulp serve --nobrowser
 ```
