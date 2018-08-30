@@ -12,6 +12,7 @@ pages:
         - Session 1: devCamp/firstSession.md
         - Ideas: devCamp/ideas.md
         - Code-Guidlines: devCamp/code-guidline.md
+        - Solution-Struktur: devCamp/solution-structure.md
         - WebPart-Rename: devCamp/renamewebpart.md
         - WebPart-Konzepte: devCamp/konzepte-webpart.md
         - Samples:
