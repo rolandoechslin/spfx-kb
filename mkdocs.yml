@@ -11,6 +11,7 @@ pages:
         - Debugging: devCamp/debugging.md
         - Session 1: devCamp/firstSession.md
         - Ideas: devCamp/ideas.md
+        - React-Reference: devCamp/learning-react.md
         - Code-Guidlines: devCamp/code-guidline.md
         - Solution-Struktur: devCamp/solution-structure.md
         - WebPart-Rename: devCamp/renamewebpart.md
