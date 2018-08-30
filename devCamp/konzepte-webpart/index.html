@@ -577,6 +577,40 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#data-service" title="Data Service" class="md-nav__link">
+    Data Service
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-model" title="Data Model" class="md-nav__link">
+    Data Model
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-data-with-sharepoint-rest" title="Get Data with Sharepoint REST" class="md-nav__link">
+    Get Data with Sharepoint REST
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-data-with-pnp-js-core" title="Get Data with Pnp-JS-Core" class="md-nav__link">
+    Get Data with Pnp-JS-Core
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -1639,6 +1673,40 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#data-service" title="Data Service" class="md-nav__link">
+    Data Service
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-model" title="Data Model" class="md-nav__link">
+    Data Model
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-data-with-sharepoint-rest" title="Get Data with Sharepoint REST" class="md-nav__link">
+    Get Data with Sharepoint REST
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-data-with-pnp-js-core" title="Get Data with Pnp-JS-Core" class="md-nav__link">
+    Get Data with Pnp-JS-Core
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -1692,6 +1760,166 @@
 </pre></div>
 
 <p><a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/src/shared/services/SpListService.ts#27">Code</a></p>
+<h2 id="data-service">Data Service<a class="headerlink" href="#data-service" title="Permanent link">&para;</a></h2>
+<p>Very good overview from sebastien levert: <a href="../../assets/APIs-Everywhere.pptx">APIs Everywhere</a></p>
+<p>Sample Folder structur</p>
+<ul>
+<li>src<ul>
+<li>models<ul>
+<li>IHelpDeskItem.ts</li>
+</ul>
+</li>
+<li>services<ul>
+<li>IDataService.ts</li>
+<li>MockDataservice.ts</li>
+<li>SharepointDataService.ts</li>
+</ul>
+</li>
+<li>webparts<ul>
+<li>components</li>
+<li>loc</li>
+<li>'webpartnameWebPart.ts'</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="data-model">Data Model<a class="headerlink" href="#data-model" title="Permanent link">&para;</a></h3>
+<p>Interface to define our Data structure</p>
+<div class="codehilite"><pre><span></span>export interface IHelpDeskItem {
+  id?: number;
+  title?: string;
+  description?: string;
+  level?: string;
+  status?: string;
+  assignedTo?: string;
+  resolution?: string;
+}
+</pre></div>
+
+<p>Interface to define our Data Access services</p>
+<div class="codehilite"><pre><span></span>import { IHelpDeskItem } from &quot;./../models/IHelpDeskItem&quot;;
+import { WebPartContext } from &quot;@microsoft/sp-webpart-base&quot;;
+
+export default interface IDataService {
+  getTitle(): string;
+  isConfigured(): boolean;
+  getItems(context: WebPartContext): Promise&lt;IHelpDeskItem[]&gt;;
+  addItem(item: IHelpDeskItem): Promise&lt;void&gt;;
+  deleteItem(id: number): Promise&lt;void&gt;;
+}
+</pre></div>
+
+<p>Mocking Service for testing in local Workbench development</p>
+<div class="codehilite"><pre><span></span>import { IHelpDeskItem } from &quot;./../models/IHelpDeskItem&quot;;
+import IDataService from &quot;./IDataService&quot;;
+import { IWebPartContext } from &quot;@microsoft/sp-webpart-base&quot;;
+
+export default class MockDataService implements IDataService {
+...
+  private _webPartContext: IWebPartContext;
+  private _listId: string;
+
+  constructor(webPartContext: IWebPartContext, listId: string) {
+    this._webPartContext = webPartContext;
+    this._listId = listId;
+  }
+...
+
+  public getItems(context: IWebPartContext): Promise&lt;IHelpDeskItem[]&gt; {
+    return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
+      setTimeout(() =&gt; resolve([
+        {
+          id : 1,
+          title : &quot;That doesn&#39;t work&quot;,
+          description : &quot;When I do that, it doesn&#39;t work&quot;,
+          level : &quot;Low&quot;,
+          status: &quot;Open&quot;,
+          resolution: &quot;Do this and it will work!&quot;,
+          assignedTo: &quot;Sébastien Levert&quot;,
+        }
+      ]), 300);
+    });
+  }
+}
+</pre></div>
+
+<h3 id="get-data-with-sharepoint-rest">Get Data with Sharepoint REST<a class="headerlink" href="#get-data-with-sharepoint-rest" title="Permanent link">&para;</a></h3>
+<p><a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/SharePointDataService.ts">Source</a></p>
+<div class="codehilite"><pre><span></span>public getItems(context: WebPartContext): Promise&lt;IHelpDeskItem[]&gt; {
+return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
+    context.spHttpClient
+    .get( `${this._webPartContext.pageContext.web.absoluteUrl}/_api/web/lists/GetById(&#39;${this._listId}&#39;)/items` +
+            `?$select=*,HelpDeskAssignedTo/Title&amp;$expand=HelpDeskAssignedTo`, SPHttpClient.configurations.v1)
+    .then(res =&gt; res.json())
+    .then(res =&gt; {
+        let helpDeskItems:IHelpDeskItem[] = [];
+
+        for(let helpDeskListItem of res.value) {
+        helpDeskItems.push(this.buildHelpDeskItem(helpDeskListItem));
+        }
+
+        resolve(helpDeskItems);
+    })
+    .catch(err =&gt; console.log(err));
+});
+}
+</pre></div>
+
+<h3 id="get-data-with-pnp-js-core">Get Data with Pnp-JS-Core<a class="headerlink" href="#get-data-with-pnp-js-core" title="Permanent link">&para;</a></h3>
+<p>Advantages</p>
+<ul>
+<li>Type safe so you get your errors while you code and not when you execute and test</li>
+<li>Works on all versions of SharePoint (On-Premises, Online, etc.)</li>
+<li>Offers built-in caching mechanisms</li>
+<li>Heavily used in the SharePoint Development Community</li>
+</ul>
+<p>Init context in react webpart component
+<a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/webparts/listContent/ListContentWebPart.ts">source</a></p>
+<div class="codehilite"><pre><span></span>public onInit(): Promise&lt;void&gt; {
+    return super.onInit().then(_ =&gt; {
+        pnpSetup({
+        spfxContext: this.context
+        });
+    });
+}
+</pre></div>
+
+<p>init service in react webpart component</p>
+<div class="codehilite"><pre><span></span>public render(): void {
+    const element: React.ReactElement&lt;IListContentProps&gt; = React.createElement(
+      ListContent,
+      {
+        context: this.context,
+        dataService: this.getDataService(),
+        list: this.properties.list
+      }
+    );
+
+    ReactDom.render(element, this.domElement);
+}
+</pre></div>
+
+<p>Get items from list
+<a href="https://github.com/sebastienlevert/apis-apis-everywhere/blob/master/src/services/PnPJSCoreDataService.ts">Source</a></p>
+<div class="codehilite"><pre><span></span>public getItems(context: WebPartContext): Promise&lt;IHelpDeskItem[]&gt; {
+return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
+
+    sp.web.lists.getById(this._listId).items
+    .select(&quot;*&quot;, &quot;HelpDeskAssignedTo/Title&quot;)
+    .expand(&quot;HelpDeskAssignedTo&quot;).getAll().then((sessionItems: any[]) =&gt; {
+    let helpDeskItems:IHelpDeskItem[] = [];
+
+    for(let helpDeskListItem of sessionItems) {
+        helpDeskItems.push(this.buildHelpDeskItem(helpDeskListItem));
+    }
+
+    resolve(helpDeskItems);
+    });
+
+});
+}
+</pre></div>
                 
                   
                 
