@@ -296,6 +296,51 @@
             "title": "Ideen"
         },
         {
+            "location": "/devCamp/learning-react/",
+            "text": "Learning React\n\u00b6\n\n\nSammlung von Informationen und Links zum vertiefen.\n\n\nReference\n\u00b6\n\n\n\n\nhttps://reactjs.org\n\n\nhttps://github.com/markerikson/react-redux-links\n\n\nhttps://survivejs.com/react\n\n\n\n\nGuidline\n\u00b6\n\n\n\n\ncode-guidline\n\n\n\n\nOffice 365 Development\n\u00b6\n\n\n\n\noffice-365-development-patterns-and-practices-solution-guidance\n\n\n\n\nTutorials\n\u00b6\n\n\n\n\nOfficeDev: TrainingContent\n\n\nsp-dev-docs\n\n\nacademy.techcommunity.microsoft.com\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-fx-webparts\n\n\nhttps://github.com/SharePoint/sp-dev-fx-extensions\n\n\nhttps://github.com/SharePoint/sp-starter-kit\n\n\nhttps://github.com/SharePoint/sp-dev-solutions\n\n\n\n\nRoadmap\n\u00b6\n\n\n\n\nhttps://github.com/adam-golab/react-developer-roadmap\n\n\n\n\nLivecyle\n\u00b6\n\n\n\n\nunderstanding-reactjs-component-life-cycle",
+            "title": "React-Reference"
+        },
+        {
+            "location": "/devCamp/learning-react/#learning-react",
+            "text": "Sammlung von Informationen und Links zum vertiefen.",
+            "title": "Learning React"
+        },
+        {
+            "location": "/devCamp/learning-react/#reference",
+            "text": "https://reactjs.org  https://github.com/markerikson/react-redux-links  https://survivejs.com/react",
+            "title": "Reference"
+        },
+        {
+            "location": "/devCamp/learning-react/#guidline",
+            "text": "code-guidline",
+            "title": "Guidline"
+        },
+        {
+            "location": "/devCamp/learning-react/#office-365-development",
+            "text": "office-365-development-patterns-and-practices-solution-guidance",
+            "title": "Office 365 Development"
+        },
+        {
+            "location": "/devCamp/learning-react/#tutorials",
+            "text": "OfficeDev: TrainingContent  sp-dev-docs  academy.techcommunity.microsoft.com",
+            "title": "Tutorials"
+        },
+        {
+            "location": "/devCamp/learning-react/#samples",
+            "text": "https://github.com/SharePoint/sp-dev-fx-webparts  https://github.com/SharePoint/sp-dev-fx-extensions  https://github.com/SharePoint/sp-starter-kit  https://github.com/SharePoint/sp-dev-solutions",
+            "title": "Samples"
+        },
+        {
+            "location": "/devCamp/learning-react/#roadmap",
+            "text": "https://github.com/adam-golab/react-developer-roadmap",
+            "title": "Roadmap"
+        },
+        {
+            "location": "/devCamp/learning-react/#livecyle",
+            "text": "understanding-reactjs-component-life-cycle",
+            "title": "Livecyle"
+        },
+        {
             "location": "/devCamp/code-guidline/",
             "text": "Coding Guideline\n\u00b6\n\n\nGuidelines\n\u00b6\n\n\nBitte beachten der Guidelines\n\n\n\n\nTypescriptlang - Handbook\n\n\nAirbnb React/JSX Style Guide\n\n\nAirbnb JavaScript Style Guide\n\n\nOffice fabric react - Coding Guidelines\n\n\nOffice fabric react - React-Guideline\n\n\nOffice fabric react - TypeScript-Guidelines\n\n\nreact-typescript-cheatsheet\n\n\n\n\nSource Folder Struktur\n\u00b6\n\n\nAlle Webparts\n\n\n/src/webparts\n\n\n\n\nHelper Klassen\n\n\n/src/common\n\n\n\n\nGemeinsame Componenten (die unterschiedlich eingesetzt werden k\u00f6nnne)\n\n\n/src/shared/components\n\n\n\n\nGemeinsame Datenzugriff Provider (ListMockService, SpListService, SpSearchService usw.)\n\n\n/src/shared/services",
             "title": "Code-Guidlines"

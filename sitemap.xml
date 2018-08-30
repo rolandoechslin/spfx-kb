@@ -42,6 +42,12 @@
     </url>
         
     <url>
+     <loc>/devCamp/learning-react/</loc>
+     <lastmod>2018-08-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/devCamp/code-guidline/</loc>
      <lastmod>2018-08-30</lastmod>
      <changefreq>daily</changefreq>
