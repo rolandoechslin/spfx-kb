@@ -10,4 +10,6 @@ Einsatz der diversen Files in einer SPFx Solution.
 
 ![Mockdata](../assets/images/solution-structure-2.png)
 
+## root
+
 ![Mockdata](../assets/images/solution-structure-3.png)
