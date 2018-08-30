@@ -3,15 +3,19 @@
 ## Aufgabe
 
 - Anzeige des Site Collection InfoItem in einem SPFx WebPart
-- Erstelle zuerst einen MockProvider als Datenquelle
-- Danach sollen die Daten aus einer Liste "Information" stammen
+- Ein MockProvider und ein SPListProvider ist vorhande als Datenquelle [spfxdevcamp2018starter](https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/src/shared/services)
+- Eine Shared Komponente zum anzeigen der Daten wäre vorhanden, jedoch kann auch zuerst eine eigene erstellt werden [spfxdevcamp2018starter](https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/src/shared/components/MetaCard)
 - Anzeige eines "Load..." Screens, wenn die Daten geladen werden
 
 ### Vorgehen für UX
 
-- Erstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)
+- Erstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style). Dies wurde dann in eine React Komponente umgebaut zum wiederverwenden [spfxdevcamp2018starter](https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/src/shared/components/MetaCard/MetaCard.tsx)
 
 ### Vorgehen für ListMock Provider
+
+Schau dir den Code zum erstellen eines ListenMocks an [spfxdevcamp2018starter](https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/src/shared/services/ListMock.ts)
+
+Vorgehen
 
 - Erstelle Daten Model, welche die Datentypen definert (InfoItem.ts)
 - Erstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert (IListService.ts)
@@ -19,6 +23,10 @@
 - Erstelle eine public function getFirstItem() der die Mockdaten zurückliefert
 
 ### Vorgehen für SPListService Provider
+
+Schau dir den Code zum erstellen eines ListenMocks an [spfxdevcamp2018starter](https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/src/shared/services/SpListService.ts)
+
+Vorgehen
 
 - Erstelle eine Schnitstelle (SpListService.ts), welche die IListService Schnittstelle implementiert
 - Erstelle eine public function getFirstItem() der die SP Listdaten zurückliefert. Verwende dazu [pnpjs](https://pnp.github.io/pnpjs/getting-started.html)
