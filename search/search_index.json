@@ -316,6 +316,31 @@
             "title": "Source Folder Struktur"
         },
         {
+            "location": "/devCamp/solution-structure/",
+            "text": "Solution Struktur\n\u00b6\n\n\nEinsatz der diversen Files in einer SPFx Solution.\n\n\nconfig\n\u00b6\n\n\n\n\nsrc\n\u00b6\n\n\n\n\nroot\n\u00b6",
+            "title": "Solution-Struktur"
+        },
+        {
+            "location": "/devCamp/solution-structure/#solution-struktur",
+            "text": "Einsatz der diversen Files in einer SPFx Solution.",
+            "title": "Solution Struktur"
+        },
+        {
+            "location": "/devCamp/solution-structure/#config",
+            "text": "",
+            "title": "config"
+        },
+        {
+            "location": "/devCamp/solution-structure/#src",
+            "text": "",
+            "title": "src"
+        },
+        {
+            "location": "/devCamp/solution-structure/#root",
+            "text": "",
+            "title": "root"
+        },
+        {
             "location": "/devCamp/renamewebpart/",
             "text": "Rename WebPart\n\u00b6\n\n\nVorbedinung\n\u00b6\n\n\nEinfaches Webpart Solution erstellen\n\n\nyo @microsoft/sharepoint --package-manager pnpm\n\n\n\n\nGit initialisieren damit changes gepr\u00fcft werden k\u00f6nnen\n\n\ngit init\n\n\n\n\ngit add -A\n\n\n\n\ngit commit -m \"init repo\"\n\n\n\n\nAufgabe\n\u00b6\n\n\n\n\nReplace des erstellten \"WebPartName\" und Rename aller Folder und Files sowie aller Klassen.\n\n\n\n\nTest\n\u00b6\n\n\nPr\u00fcfe mit gulp build ob erfolgreich renamed wurde\n\n\ngulp build\n\n\n\n\nPr\u00fcfe mit gulp bundle ob erfolgreich renamed wurde\n\n\ngulp bundle\n\n\n\n\nStarte den local server\n\n\ngulp serve\n\n\n\n\nPr\u00fcfe ob das WebPart in der local workbench funktioniert\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nLearning aus Rename\n\u00b6\n\n\n\n\n\n\nFehlermeldung m\u00fcssen behoben werden, da sonst kein build/bundle m\u00f6glich\n\n\nNamenskonventionen beibehalten vom yo @microsoft/sharepoint Generator\n\n\nEs sind releativ viele (initial 8 Files) beteiligt an einem WebPart, welche zusammenspielen m\u00fcssen\n\n\nVS.Code schliessen und wieder starten hilft bei Chaching Problemen\n\n\nLokales Testing ist m\u00f6glich und wichtig",
             "title": "WebPart-Rename"
