@@ -10,6 +10,7 @@ Bitte beachten der Guidelines
 - [Office fabric react - Coding Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Coding-Style)
 - [Office fabric react - React-Guideline](https://github.com/OfficeDev/office-ui-fabric-react/wiki/React-Guidelines)
 - [Office fabric react - TypeScript-Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/TypeScript-Guidelines)
+- [react-typescript-cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet)
 
 ## Source Folder Struktur
 
