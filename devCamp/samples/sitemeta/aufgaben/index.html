@@ -1744,15 +1744,17 @@
 <h2 id="aufgabe">Aufgabe<a class="headerlink" href="#aufgabe" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Anzeige des Site Collection InfoItem in einem SPFx WebPart</li>
-<li>Erstelle zuerst einen MockProvider als Datenquelle</li>
-<li>Danach sollen die Daten aus einer Liste "Information" stammen</li>
+<li>Ein MockProvider und ein SPListProvider ist vorhande als Datenquelle <a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/src/shared/services">spfxdevcamp2018starter</a></li>
+<li>Eine Shared Komponente zum anzeigen der Daten wäre vorhanden, jedoch kann auch zuerst eine eigene erstellt werden <a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/src/shared/components/MetaCard">spfxdevcamp2018starter</a></li>
 <li>Anzeige eines "Load..." Screens, wenn die Daten geladen werden</li>
 </ul>
 <h3 id="vorgehen-fur-ux">Vorgehen für UX<a class="headerlink" href="#vorgehen-fur-ux" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Erstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style)</li>
+<li>Erstelle das UX in HTML (z.B einfache Tabelle mit Office Fabric Style). Dies wurde dann in eine React Komponente umgebaut zum wiederverwenden <a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/src/shared/components/MetaCard/MetaCard.tsx">spfxdevcamp2018starter</a></li>
 </ul>
 <h3 id="vorgehen-fur-listmock-provider">Vorgehen für ListMock Provider<a class="headerlink" href="#vorgehen-fur-listmock-provider" title="Permanent link">&para;</a></h3>
+<p>Schau dir den Code zum erstellen eines ListenMocks an <a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/src/shared/services/ListMock.ts">spfxdevcamp2018starter</a></p>
+<p>Vorgehen</p>
 <ul>
 <li>Erstelle Daten Model, welche die Datentypen definert (InfoItem.ts)</li>
 <li>Erstelle eine Schnittstelle, welche die Zugriffsfunktionen definiert (IListService.ts)</li>
@@ -1760,6 +1762,8 @@
 <li>Erstelle eine public function getFirstItem() der die Mockdaten zurückliefert</li>
 </ul>
 <h3 id="vorgehen-fur-splistservice-provider">Vorgehen für SPListService Provider<a class="headerlink" href="#vorgehen-fur-splistservice-provider" title="Permanent link">&para;</a></h3>
+<p>Schau dir den Code zum erstellen eines ListenMocks an <a href="https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/src/shared/services/SpListService.ts">spfxdevcamp2018starter</a></p>
+<p>Vorgehen</p>
 <ul>
 <li>Erstelle eine Schnitstelle (SpListService.ts), welche die IListService Schnittstelle implementiert</li>
 <li>Erstelle eine public function getFirstItem() der die SP Listdaten zurückliefert. Verwende dazu <a href="https://pnp.github.io/pnpjs/getting-started.html">pnpjs</a></li>
