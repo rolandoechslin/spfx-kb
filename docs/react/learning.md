@@ -47,3 +47,5 @@
 ## Frameworks
 
 - <https://github.com/STRML/react-grid-layout>
+- <http://www.chartjs.org/>
+- <https://rushjs.io/>
