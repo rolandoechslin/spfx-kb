@@ -28,6 +28,15 @@
 - <https://collab365.community/microsoft-teams-hacks>
 - [Office 365 Groups Naming Policy](https://drewmadelung.com/office-365-groups-naming-policy)
 - [Get Office 365 Groups with Teams via PowerShell and the Microsoft Graph](https://drewmadelung.com/get-office-365-groups-with-teams-via-powershell-and-the-microsoft-graph)
+- https://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations
+
+## Querys
+
+[Get all Teams Groups](https://sharepoint-specialist.nu/get-all-teams-in-a-tenant-using-microsoft-graph-255f374d5c3a)
+
+```html
+https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')
+```
 
 ## Blogs
 
