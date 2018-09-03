@@ -26,3 +26,9 @@
 ## Tipps
 
 - <https://collab365.community/microsoft-teams-hacks>
+- [Office 365 Groups Naming Policy](https://drewmadelung.com/office-365-groups-naming-policy)
+- [Get Office 365 Groups with Teams via PowerShell and the Microsoft Graph](https://drewmadelung.com/get-office-365-groups-with-teams-via-powershell-and-the-microsoft-graph)
+
+## Blogs
+
+- <http://drewmadelung.com/tag/teams/>
