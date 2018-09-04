@@ -6,6 +6,10 @@
 - [common-use-cases-for-office-365-sharepoint-hub-sites](https://www.habaneroconsulting.com/stories/insights/2018/common-use-cases-for-office-365-sharepoint-hub-sites)
 - [architecture-considerations-and-quick-reference-tips-for-office-365s-sharepoint-hub-sites](https://www.habaneroconsulting.com/stories/insights/2018/architecture-considerations-and-quick-reference-tips-for-office-365s-sharepoint-hub-sites)
 
+## Planning
+
+- <https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites>
+
 ## Integration
 
 - [sharepoint-hub-sites-make-their-debut](http://ericoverfield.com/sharepoint-hub-sites-make-their-debut/)
