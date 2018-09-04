@@ -30,7 +30,8 @@
 - <https://rasper87.wordpress.com/2018/07/27/office-ui-fabric-persona-with-skype-for-business-status-integration>
 - <http://www.sharepointtweaks.com/2018/07/spfx-facebook-feed-webpart-with-custom-UI.html>
 - <https://github.com/waldekmastykarz/spfx-react-fabric-trendinginthissite>
-- <https://abdulazizfarooqi.wordpress.com/2018/02/28/employee-directory-with-spfx-reactjs-using-sharepoint-search-rest-api-modern-webpart/>
+- <https://abdulazizfarooqi.wordpress.com/2018/02/28/employee-directory-with-spfx-reactjs-using-sharepoint-search-rest-api-modern-webpart>
+- <https://www.techmikael.com/2018/09/puzzlepart-presents-modern-flexible.html>
 
 ## Dynamic Load Webpart
 
