@@ -1,6 +1,7 @@
 # SPO Powershell
 
-[SPO Index](https://technet.microsoft.com/en-us/library/fp161364(v=office.15)#SharePoint)
+- [SPO Index](https://technet.microsoft.com/en-us/library/fp161364(v=office.15)#SharePoint)
+- [Getting started with SharePoint Online Management Shell](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
 ## Check Version
 
