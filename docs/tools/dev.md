@@ -10,6 +10,11 @@
 - [docusaurus](https://docusaurus.io)
 - [dochameleon](https://dochameleon.io)
 
+## Password generators
+
+- <https://www.msdservices.com/apg/index.php>
+- <https://www.hongkiat.com/blog/password-generators>
+
 ## Guid
 
 - <https://www.guidgen.com/>
