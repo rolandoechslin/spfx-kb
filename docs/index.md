@@ -384,8 +384,15 @@ yarn add office-ui-fabric-react --save
 
 ## SPFx-Upgrade-Check
 
+- <https://github.com/pnp/office365-cli>
 - <https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli>
 
+Office 365 CLI (next) installieren
+```bs
+npm i -g @pnp/office365-cli@next
+```
+
+Report erstellen
 ```bs
 o365 spfx project upgrade --output md > report.md
 ```
