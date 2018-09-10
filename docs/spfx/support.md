@@ -36,5 +36,9 @@
 
 - [article/ways-to-work-with-sharepoint](https://support.office.com/en-gb/article/ways-to-work-with-sharepoint-11de936c-8fed-4474-ac58-583d0c38ac12?ui=en-US&rs=en-GB&ad=GB)
 
+## API Throttling (Error 429)
+
+- <https://blog.mastykarz.nl/simulating-throttling-sharepoint>
+
 ## Tips
 - https://sharepointdragons.com/2018/05/25/the-scientific-methodology-for-troubleshooting-sharepoint/
