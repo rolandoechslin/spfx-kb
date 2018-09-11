@@ -353,6 +353,10 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 }
 ```
 
+### Get Data from MSGraph
+
+- <http://spblog.net/post/2018/09/09/Using-PnPjs-to-send-requests-to-MS-Graph-with-SharePoint-Framework-16>
+
 ### Start Office Fabric React
 
 Create Sample
