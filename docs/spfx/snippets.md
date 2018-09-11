@@ -1,10 +1,22 @@
 # Code Snippets
 
+## QueryString
+
+- [How to get a querystring value](http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2018/09/11/spfx-basics-how-to-get-a-query-string-value.aspx)
+
+```ts
+import { UrlQueryParameterCollection } from '@microsoft/sp-core-library';
+
+if (queryParameters.getValue('id')) {
+    id = parseInt(queryParameters.getValue('id'));
+}
+```
+
 ## PNP JS-Core
 
 ### List Permission
 
-```JS
+```ts
 private _checkProductsPermissions(productsList){
     return pnp.sp.web.lists.getByTitle(productsList).getCurrentUserEffectivePermissions()
         .then(perms => {
@@ -27,7 +39,7 @@ private _checkProductsPermissions(productsList){
 
 ### Admin User
 
-```JS
+```ts
 // Ensure a user on site collection
 sp.web.ensureUser('john.doe@contoso.onmicrosoft.com').then(console.log);
 
@@ -48,6 +60,6 @@ sp.web.siteUsers.getByLoginName('i:0#.f|membership|john.doe@contoso.onmicrosoft.
 
 - <https://blog.hubfly.com/sharepoint/how-to-read-the-sharepoint-news-using-rest-api-in-spfx>
 
-```JS
+```ts
 /_api/search/query?querytext='IsDocument:True AND FileExtension:aspx AND PromotedState:2'
 ```
