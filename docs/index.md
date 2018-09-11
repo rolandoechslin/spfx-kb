@@ -401,5 +401,6 @@ Report erstellen
 o365 spfx project upgrade --output md > report.md
 ```
 
-Packages und Code updaten gemäss
-- <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/update-latest-packages>
+Code update
+
+- [update-latest-packages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/update-latest-packages)
