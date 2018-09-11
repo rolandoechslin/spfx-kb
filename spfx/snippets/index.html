@@ -739,6 +739,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#querystring" title="QueryString" class="md-nav__link">
+    QueryString
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#pnp-js-core" title="PNP JS-Core" class="md-nav__link">
     PNP JS-Core
   </a>
@@ -1361,6 +1368,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#querystring" title="QueryString" class="md-nav__link">
+    QueryString
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#pnp-js-core" title="PNP JS-Core" class="md-nav__link">
     PNP JS-Core
   </a>
@@ -1414,11 +1428,22 @@
                 
                 
                 <h1 id="code-snippets">Code Snippets<a class="headerlink" href="#code-snippets" title="Permanent link">&para;</a></h1>
+<h2 id="querystring">QueryString<a class="headerlink" href="#querystring" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2018/09/11/spfx-basics-how-to-get-a-query-string-value.aspx">How to get a querystring value</a></li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">UrlQueryParameterCollection</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@microsoft/sp-core-library&#39;</span><span class="p">;</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">queryParameters</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">))</span> <span class="p">{</span>
+    <span class="nx">id</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">queryParameters</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">));</span>
+<span class="p">}</span>
+</pre></div>
+
 <h2 id="pnp-js-core">PNP JS-Core<a class="headerlink" href="#pnp-js-core" title="Permanent link">&para;</a></h2>
 <h3 id="list-permission">List Permission<a class="headerlink" href="#list-permission" title="Permanent link">&para;</a></h3>
 <div class="codehilite"><pre><span></span><span class="kr">private</span> <span class="nx">_checkProductsPermissions</span><span class="p">(</span><span class="nx">productsList</span><span class="p">){</span>
     <span class="k">return</span> <span class="nx">pnp</span><span class="p">.</span><span class="nx">sp</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">lists</span><span class="p">.</span><span class="nx">getByTitle</span><span class="p">(</span><span class="nx">productsList</span><span class="p">).</span><span class="nx">getCurrentUserEffectivePermissions</span><span class="p">()</span>
-        <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">perms</span> <span class="p">=&gt;</span> <span class="p">{</span>
+        <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">perms</span> <span class="o">=&gt;</span> <span class="p">{</span>
             <span class="kd">let</span> <span class="nx">canEdit</span> <span class="o">=</span> <span class="nx">pnp</span><span class="p">.</span><span class="nx">sp</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">lists</span><span class="p">.</span><span class="nx">getByTitle</span><span class="p">(</span><span class="nx">productsList</span><span class="p">).</span><span class="nx">hasPermissions</span><span class="p">(</span><span class="nx">perms</span><span class="p">,</span> <span class="nx">PermissionKind</span><span class="p">.</span><span class="nx">EditListItems</span><span class="p">);</span>
             <span class="kd">let</span> <span class="nx">canView</span> <span class="o">=</span> <span class="nx">pnp</span><span class="p">.</span><span class="nx">sp</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">lists</span><span class="p">.</span><span class="nx">getByTitle</span><span class="p">(</span><span class="nx">productsList</span><span class="p">).</span><span class="nx">hasPermissions</span><span class="p">(</span><span class="nx">perms</span><span class="p">,</span> <span class="nx">PermissionKind</span><span class="p">.</span><span class="nx">ViewListItems</span><span class="p">);</span>
             <span class="k">if</span><span class="p">(</span><span class="nx">canEdit</span><span class="p">){</span>
@@ -1429,7 +1454,7 @@
                 <span class="k">return</span> <span class="s1">&#39;None&#39;</span><span class="p">;</span>
             <span class="p">}</span>
         <span class="p">})</span>
-        <span class="p">.</span><span class="k">catch</span><span class="p">((</span><span class="nx">err</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+        <span class="p">.</span><span class="k">catch</span><span class="p">((</span><span class="nx">err</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
             <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;error:&#39;</span><span class="p">,</span> <span class="nx">err</span><span class="p">);</span>
             <span class="k">return</span> <span class="s1">&#39;None&#39;</span><span class="p">;</span>
         <span class="p">});</span>
@@ -1446,11 +1471,11 @@
 
 <span class="c1">// Remove a user from site collection admins</span>
 <span class="nx">sp</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">siteUsers</span><span class="p">.</span><span class="nx">getByLoginName</span><span class="p">(</span><span class="s1">&#39;i:0#.f|membership|john.doe@contoso.onmicrosoft.com&#39;</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">update</span><span class="p">({</span> <span class="nx">IsSiteAdmin</span><span class="o">:</span> <span class="kc">false</span> <span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">);</span>
+    <span class="p">.</span><span class="nx">update</span><span class="p">({</span> <span class="nx">IsSiteAdmin</span>: <span class="kt">false</span> <span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">);</span>
 
 <span class="c1">// Add a user to site collection admins</span>
 <span class="nx">sp</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">siteUsers</span><span class="p">.</span><span class="nx">getByLoginName</span><span class="p">(</span><span class="s1">&#39;i:0#.f|membership|john.doe@contoso.onmicrosoft.com&#39;</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">update</span><span class="p">({</span> <span class="nx">IsSiteAdmin</span><span class="o">:</span> <span class="kc">true</span> <span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">);</span>
+    <span class="p">.</span><span class="nx">update</span><span class="p">({</span> <span class="nx">IsSiteAdmin</span>: <span class="kt">true</span> <span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">);</span>
 </pre></div>
 
 <h3 id="all-news-pages">All news pages<a class="headerlink" href="#all-news-pages" title="Permanent link">&para;</a></h3>
