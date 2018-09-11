@@ -1,0 +1,1 @@
+Get-PnPProvisioningTemplate -Out C:\Doc\spfx-kb\src\designs\BulletinBoard\list-template.xml -Handlers Lists

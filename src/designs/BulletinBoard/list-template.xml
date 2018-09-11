@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.1.1809.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-BULLTINBOARD-LIST">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-BULLTINBOARD-LIST" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:Lists>
+        <pnp:ListInstance Title="BulletinBoard" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/BulletinBoard" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/BulletinBoard/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/BulletinBoard/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/BulletinBoard/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=44" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{2F5C00C0-CEDA-4480-AF2C-023B85077BE2}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="Alle Elemente" Url="/sites/dev-g-O1/Lists/BulletinBoard/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=44">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="Category" />
+                <FieldRef Name="Details" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter>{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideListHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "button",
+    "customRowAction": {
+      "action": "defaultClick"
+    },
+    "attributes": {
+      "class": "ms-bgColor-white ms-bgColor-themeLight--hover"
+    },
+    "style": {
+      "width": "100%",
+      "margin": "5px 0",
+      "padding": 0,
+      "border": "none",
+      "cursor": "pointer"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-borderColor-themePrimary ms-bgColor-themePrimary"
+        },
+        "style": {
+          "min-width": "220px",
+          "display": "flex",
+          "border-width": "3px",
+          "border-style": "solid",
+          "box-sizing": "border-box",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "=if([$Category] == 'Books For Sale', 'ReadingMode', if([$Category] == 'Ride Share', 'Car', if([$Category] == 'Electronics For Sale', 'LightningBolt', 'Tag')))",
+              "class": "ms-fontSize-su ms-fontWeight-regular  ms-fontColor-white",
+              "title": "[$Category]"
+            },
+            "style": {
+              "flex": "none",
+              "padding": "12px",
+              "padding-left": "18px",
+              "height": "42px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "text-align": "left",
+              "max-width": "140px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-white",
+                  "title": "=toLocaleDateString([$Modified])"
+                },
+                "style": {
+                  "margin-right": "12px",
+                  "overflow": "hidden",
+                  "white-space": "nowrap"
+                },
+                "txtContent": "=toLocaleDateString([$Modified])"
+              },
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-white",
+                  "title": "[$Category]"
+                },
+                "style": {
+                  "margin-right": "12px",
+                  "overflow": "hidden",
+                  "white-space": "nowrap"
+                },
+                "txtContent": "[$Category]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-semibold ms-fontSize-l"
+        },
+        "style": {
+          "border-width": "3px",
+          "border-style": "solid",
+          "box-sizing": "border-box",
+          "width": "100%",
+          "text-align": "left",
+          "padding": "21px 12px",
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "style": {
+              "height": "24px"
+            },
+            "attributes": {
+              "title": "[$Title]"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}</CustomFormatter>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field DisplayName="Category" FillInChoice="FALSE" Format="Dropdown" Title="Category" Type="Choice" ID="{a785bd0d-885b-4102-9040-9e7b31e38b39}" SourceID="{{listid:BulletinBoard}}" StaticName="Category" Name="Category" ColName="nvarchar4" RowOrdinal="0" CustomFormatter="" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Version="2">
+              <CHOICES>
+                <CHOICE>Books For Sale</CHOICE>
+                <CHOICE>Ride Share</CHOICE>
+                <CHOICE>Electronics For Sale</CHOICE>
+                <CHOICE>General For Sale</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field AppendOnly="FALSE" DisplayName="Details" Format="Dropdown" IsolateStyles="FALSE" NumLines="6" RichText="FALSE" RichTextMode="Compatible" Title="Details" Type="Note" ID="{71aec0ef-9a8f-49e4-837b-c1cff8f3b77b}" SourceID="{{listid:BulletinBoard}}" StaticName="Details" Name="Details" ColName="ntext2" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Complianceobjekt-ID" />
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Bezeichnungseinstellung" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Bezeichnungen" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Bezeichnung angewendet" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Bezeichnung angewendet von" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Element ist eine Aufzeichnung" />
+          </pnp:FieldRefs>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://6-northcentralus1.pushp.svc.ms/notifications?token=w0-d78e85d0-bc3b-454e-b702-d5a671545ed4" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://9-northcentralus1.pushp.svc.ms/notifications?token=w0-80b58eb6-b643-47c7-ba37-fa394f8d4740" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
