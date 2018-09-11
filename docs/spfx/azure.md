@@ -23,6 +23,10 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 
 - https://drewmadelung.com/category/office-365/groups/
 
+## Permission Reference
+
+- <https://github.com/microsoftgraph/microsoft-graph-docs/blob/master/concepts/permissions_reference.md>
+
 ## Scripts
 
 - https://github.com/dmadelung/O365GroupsScripts/blob/master/DrewO365GroupsScripts%20-%20Azure%20AD%20Cmdlets
