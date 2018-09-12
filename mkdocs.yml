@@ -12,6 +12,7 @@ pages:
         - Branding: spfx/branding.md
         - Column-Formating: spfx/column-formating.md
         - Bot: spfx/bot.md
+        - Business-Objects: spfx/businessobjects.md
         - Classic-Sites: spfx/classic.md
         - Configuration: spfx/configuration.md
         - Debug: spfx/debug.md
@@ -39,8 +40,8 @@ pages:
         - Testing: spfx/testing.md
         - Theme: spfx/theme.md
         - UX: spfx/ux.md
+        - Upgrade: spfx/upgrade.md
         - Webparts: spfx/webparts.md
-        - Business-Objects: spfx/businessobjects.md
     - React:
         - Learning: react/learning.md
     - JS:
