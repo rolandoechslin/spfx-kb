@@ -37,3 +37,29 @@ npm install package-name@latest --save
 gulp clean
 gulp build
 ```
+
+## Support Issues
+
+### Azure Permission
+- <https://github.com/SharePoint/sp-dev-docs/issues/2473#issuecomment-419111117>
+
+```bs
+- Go to the "API Management"-section in the SharePoint Preview Admin Center (https://TENANT-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/webApiPermissionManagement)
+  - Ensure that no permissions are there anymore 
+  - Head over to the App Registrations Page in the Azure Portal.
+  - Click "View all applications"
+  - Click "SharePoint Online Client Extensibility Web Application Principal"
+  - Choose "Settings" > "Required Permissions"
+  - Click "Add"
+    - "Select an API" and choose "Windows Azure Active Directory", press "Select"
+    - "Select Permissions" and choose "Sign in and read user profile", press "Select"
+  - Click "Done"
+  - Click "Grant permissions" and "Yes"
+  - Update the app package in the app catalog
+  - Head back to the "API Managment"-section:
+    - Ensure that "Windows Azure Active Directory" is already listed in the approved permissions (this permission should be here because of the previously executed steps).
+    - Approve all permission requests one by one. Once this is done, reload the page to ensure that all permissions are actually approved as the SharePoint UI doesn't always behave as expected.
+  - Wait a couple of minutes
+  - Log out of SharePoint, close all browser windows and log in again
+  - Access your intranet and everything should be fine
+  ```

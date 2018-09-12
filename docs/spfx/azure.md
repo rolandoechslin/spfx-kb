@@ -25,6 +25,7 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 
 ## Permission Reference
 
+- <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aadhttpclient>
 - <https://github.com/microsoftgraph/microsoft-graph-docs/blob/master/concepts/permissions_reference.md>
 
 ## Scripts
