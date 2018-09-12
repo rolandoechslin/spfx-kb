@@ -404,3 +404,7 @@ o365 spfx project upgrade --output md > report.md
 Code update
 
 - [update-latest-packages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/update-latest-packages)
+
+## Custom yo spfx generator
+
+- <https://pnp.github.io/generator-spfx/#installation>
