@@ -20,4 +20,8 @@
 ## Change browser favicon icon
 
 - <http://sharepoint.handsontek.net/2018/08/24/change-favicon-on-modern-sharepoint-sites>
-- https://github.com/joaoferreira/SPFx-favicon/
+- <https://github.com/joaoferreira/SPFx-favicon>
+
+## Navigations
+
+- <https://www.eliostruyf.com/handling-navigation-in-a-sharepoint-framework-application-customizer>
