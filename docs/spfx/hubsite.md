@@ -20,20 +20,17 @@
 
 - https://beaucameron.net/2018/04/17/security-trimmed-hub-site-navigation-updates/
 - [security-trimmed-hub-navigation](http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation)
+- [manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell](https://mattipaukkonen.com/2018/08/22/manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell)
 
-## Install CustomAction
-- https://www.sharepointeurope.com/apply-spfx-extensions-to-sharepoint-hub-sites-using-pnp-powershell/
-
-
-```Powershell
+```ps
 cls
- 
+
 $tenantAdmin = "https://contoso-admin.sharepoint.com"
 $hubSite = "https://contoso.sharepoint.com/sites/hub"
 $extensionGUID = "6da1a9e8-471d-4f39-80e6-a7ded02e8881"
 $extensionName = "Extension Name"
 $extensionTitle = "Extension Title"
- 
+
 try
 {
 Connect-PnPOnline -Url $tenantAdmin -UseWebLogin
@@ -46,7 +43,7 @@ $HubSite = Get-PnPHubSite $hubSite
 $HubSiteId = $HubSite.SiteId
 $ModernSites = (Get-PnPTenantSite -Template 'GROUP#0') + (Get-PnPTenantSite -Template 'SITEPAGEPUBLISHING#0')
 $SitesFromHub = New-Object System.Collections.ArrayList
- 
+
 Write-Host ("Searching {0} sites:" -f $HubSite.Title) -BackgroundColor Gray
 foreach ($ModernSite in $ModernSites){
     $site = Get-PnPHubSite $ModernSite.Url
