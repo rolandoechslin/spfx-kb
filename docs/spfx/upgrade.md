@@ -41,6 +41,8 @@ gulp build
 ## Support Issues
 
 ### Azure Permission
+
+- http://spblog.net/post/2018/09/19/You-might-experience-errors-when-first-trying-new-SPFx-16-features
 - <https://github.com/SharePoint/sp-dev-docs/issues/2473#issuecomment-419111117>
 
 ```bs

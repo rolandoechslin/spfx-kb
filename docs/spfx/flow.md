@@ -19,3 +19,17 @@
 ## Error Messages
 
 - https://veenstra.me.uk/2018/08/30/sharepoint-microsoft-flow-common-error-message-when-using-send-an-http-request-to-sharepoint-action-in-microsoft-flow/
+
+## Disable Flow
+
+- <https://www.toddklindt.com/PoshDisableFlowButton>
+
+```ps
+Connect-PnPOnline -Url https://<teantUrl>/sites/<name>
+
+# disable
+Set-PnPSite -DisableFlows:$true
+
+# enable
+Set-PnPSite -DisableFlows:$false
+```
