@@ -622,6 +622,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#disable-flow" title="Disable Flow" class="md-nav__link">
+    Disable Flow
+  </a>
+  
+</li>
+      
       
       
       
@@ -1394,6 +1401,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#disable-flow" title="Disable Flow" class="md-nav__link">
+    Disable Flow
+  </a>
+  
+</li>
+      
       
       
       
@@ -1435,6 +1449,18 @@
 <ul>
 <li><a href="https://veenstra.me.uk/2018/08/30/sharepoint-microsoft-flow-common-error-message-when-using-send-an-http-request-to-sharepoint-action-in-microsoft-flow/">https://veenstra.me.uk/2018/08/30/sharepoint-microsoft-flow-common-error-message-when-using-send-an-http-request-to-sharepoint-action-in-microsoft-flow/</a></li>
 </ul>
+<h2 id="disable-flow">Disable Flow<a class="headerlink" href="#disable-flow" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.toddklindt.com/PoshDisableFlowButton">https://www.toddklindt.com/PoshDisableFlowButton</a></li>
+</ul>
+<div class="codehilite"><pre><span></span>Connect-PnPOnline -Url https://&lt;teantUrl&gt;/sites/&lt;name&gt;
+
+# disable
+Set-PnPSite -DisableFlows:$true
+
+# enable
+Set-PnPSite -DisableFlows:$false
+</pre></div>
                 
                   
                 
