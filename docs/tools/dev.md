@@ -56,6 +56,7 @@
 ## CLI App Generator
 
 - <https://github.com/koltyakov/generator-sppp>
+- <http://blog.arvosys.com/2017/10/04/sharepoint-front-end-projects-automation-and-tasks-tool-belt/index.html>
 - https://github.com/facebook/create-react-app
 - <https://github.com/StfBauer/generator-simplestyle>
 
