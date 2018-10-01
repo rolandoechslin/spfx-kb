@@ -17,6 +17,9 @@
 
 - <https://delucagiuliano.com/selecting-users-for-your-microsoft-teams-pilot-phase/#.W1lo89IzZBA>
 
+## Guest Users
+- <https://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users>
+
 ## Microsoft Teams versus Sharepoint Teams
 
 - <http://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work>
