@@ -22,19 +22,19 @@ https://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.Se
 
 ## Powershell
 
-- https://vigneshsharepointthoughts.com/2018/05/16/useful-powershell-cmdlets-to-administer-office-365-groups/
-- https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups
-
+- <https://github.com/mikemcleanlive/Ignite-2018-BRK3098-Demo-Scripts>
+- <https://vigneshsharepointthoughts.com/2018/05/16/useful-powershell-cmdlets-to-administer-office-365-groups/>
+- <https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups>
 
 To get the list of all the Office 365 groups in descending order:
 
-```PS
+```ps
 Get-UnifiedGroup | Select Id, DisplayName, ManagedBy, Alias, AccessType, WhenCreated, @{Expression={([array](Get-UnifiedGroupLinks -Identity $_.Id -LinkType Members)).Count }; Label=’Members’} | Sort-Object whencreated | Format-Table displayname, alias, managedby, Members, accesstype, whencreated
 ```
 
 To get the list of all private Office 365 groups in your tenant:
 
-```PS
+```ps
 Get-UnifiedGroup | Where-Object {$_.AccessType -eq ‘Private’} | Sort-Object whencreated | Format-Table displayname, alias, managedby, accesstype, whencreated
 ``` 
 
