@@ -1,9 +1,13 @@
 # Azure
 
+## Azure Functions
+
+-  [An Azure Function to keep other Functions/URLs warmed up](https://www.sharepointnutsandbolts.com/2018/09/Azure-Function-Warmup-Cold-Start.html)
+
 ## App Register
 
-- http://www.sharepointnutsandbolts.com/2018/06/powershell-script-cloud-azure-function-pnp.html
-- http://www.sharepointnutsandbolts.com/2018/04/control-office-365-group-creation.html
+- [Running a PowerShell script in the cloud with an Azure Function, PnP and the Graph](http://www.sharepointnutsandbolts.com/2018/06/powershell-script-cloud-azure-function-pnp.html)
+- [Control Office 365 Group creation – a simple no-code solution](http://www.sharepointnutsandbolts.com/2018/04/control-office-365-group-creation.html)
 
 ## Quickstart
 
