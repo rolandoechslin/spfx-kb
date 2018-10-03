@@ -20,6 +20,7 @@ pages:
         - Extensions: spfx/extensions.md
         - Events: spfx/events.md
         - Flow: spfx/flow.md
+        - Forms: spfx/forms.md
         - Groups: spfx/groups.md
         - Hubsite: spfx/hubsite.md
         - Intranet: spfx/intranet.md

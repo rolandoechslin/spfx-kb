@@ -1,6 +1,10 @@
 
 # Tips and tricks
 
+## Roadmap
+
+- [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=SharePoint%2CIn%20Development)
+
 ## Code Guideline
 
 - [Typescriptlang - Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)

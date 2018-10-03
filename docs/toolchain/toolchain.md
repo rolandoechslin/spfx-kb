@@ -5,6 +5,10 @@
 - <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain>
 - <https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md>
 
+## Prepare
+
+- [Preparing development machine for client-side SharePoint projects](https://www.linkedin.com/pulse/preparing-development-machine-client-side-sharepoint-mac-koltyakov)
+
 ## Gulp
 
 - <https://www.eliostruyf.com/getting-up-to-speed-with-gulp/>
