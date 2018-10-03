@@ -32,6 +32,7 @@ pages:
         - Provisioning: spfx/provisioning.md
         - Migration: spfx/migration.md
         - Site-Scripts: spfx/sitescripts.md
+        - Sitedesign: spfx/sitedesign.md
         - Search: spfx/search.md
         - Snippets: spfx/snippets.md
         - SP2019: spfx/sp2019.md
