@@ -13,6 +13,7 @@
 
 - <https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/>
 - <https://www.sharepointnutsandbolts.com/2018/05/Update-SPFx-version.html>
+- [Commands to upgrade an SPFx project to version 1.6](https://gist.github.com/chrisobriensp/980ee65911203a80050e9ce3edf2a34a)
 
 
 go into solution folder
