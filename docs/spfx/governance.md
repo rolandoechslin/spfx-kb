@@ -7,6 +7,8 @@
 ## Permission
 
 - <http://www.letscollaborate.co.za/28-reasons-why-modern-sharepoint-online-site-permissions-are-a-hot-mess/>
+- [How to grant all employees access to a SharePoint site via Everyone except external users Group](https://sharepointmaven.com/grant-employees-access-sharepoint-site-via-everyone-except-external-users-group/)
+- [How to grant the Everyone claim to external users in Office 365](https://support.microsoft.com/en-us/help/4089534/how-to-grant-the-everyone-claim-to-external-users-in-office-365)
 
 ## User profile / Delete user
 
