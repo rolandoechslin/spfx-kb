@@ -23,6 +23,8 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 
 - https://support.office.com/en-us/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618
 - https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets
+- [How to grant all employees access to a SharePoint site via Everyone except external users Group](https://sharepointmaven.com/grant-employees-access-sharepoint-site-via-everyone-except-external-users-group/)
+- [How to grant the Everyone claim to external users in Office 365](https://support.microsoft.com/en-us/help/4089534/how-to-grant-the-everyone-claim-to-external-users-in-office-365)
 
 ## Naming Policiy
 
