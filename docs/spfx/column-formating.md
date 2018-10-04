@@ -1,5 +1,9 @@
 # Column Formating
 
+## Reference
+
+- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#style-guidelines)
+
 ## Ressources
 
 - <https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting>
