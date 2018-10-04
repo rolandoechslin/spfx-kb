@@ -6,7 +6,8 @@
 
 ## Permission
 
-- <http://www.letscollaborate.co.za/28-reasons-why-modern-sharepoint-online-site-permissions-are-a-hot-mess/>
+- [28 REASONS WHY MODERN SHAREPOINT ONLINE SITE PERMISSIONS ARE A HOT MESS](http://www.letscollaborate.co.za/28-reasons-why-modern-sharepoint-online-site-permissions-are-a-hot-mess)
+- [Sharing and permissions in the SharePoint modern experience](https://docs.microsoft.com/en-us/sharepoint/sharing-permissions-modern-experience)
 
 ## User profile / Delete user
 
