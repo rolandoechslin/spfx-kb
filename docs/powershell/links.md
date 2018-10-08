@@ -4,6 +4,7 @@
 
 - [powershell basic cheat sheet](http://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-basic-cheat-sheet2.pdf)
 - [powershell-ref](http://ligman.me/1n3mAUZ)
+- [PowerShell Cheat Sheet](https://www.sharepointeurope.com/powershell-cheat-sheet/)
 
 ## Ressources
 
