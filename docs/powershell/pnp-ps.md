@@ -36,6 +36,12 @@ Get-InstalledModule -Name "SharePointPnPPowerShellOnline" -RequiredVersion 2.24.
 Get-Command | ? { $_.ModuleName -eq "SharePointPnPPowerShellOnline" }
 ```
 
+## Create Guid
+
+```Powershell
+[guid]::NewGuid() | Select-Object -ExpandProperty Guid | clip
+```
+
 ## Upload Documents
 - https://gallery.technet.microsoft.com/office/Upload-Multiple-Documents-4c4aa989
 
