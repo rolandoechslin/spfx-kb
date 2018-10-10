@@ -26,3 +26,7 @@ write-manifests.json
 
 - [SharePoint Framework app settings](https://blog.velingeorgiev.com/sharepoint-framework-app-settings)
 - [AppSettings in SharePoint Framework (SPFx) and Staging](https://mmsharepoint.wordpress.com/2018/10/06/appsettings-in-sharepoint-framework-spfx-and-staging/)
+
+## Deployment Azure Storage
+
+- <https://www.eliostruyf.com/automate-publishing-process-of-mkdocs-to-static-website-hosting-in-azure-storage-with-vsts>

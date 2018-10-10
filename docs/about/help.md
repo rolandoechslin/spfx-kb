@@ -27,7 +27,3 @@ mkdocs help # Print this help message.
 ```bash
 mkdocs gh-deploy
 ```
-
-## Deployment Azure Storage
-
-- <https://www.eliostruyf.com/automate-publishing-process-of-mkdocs-to-static-website-hosting-in-azure-storage-with-vsts>
