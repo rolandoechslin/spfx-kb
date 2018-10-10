@@ -342,7 +342,7 @@
         },
         {
             "location": "/spfx/deployment/",
-            "text": "Deployment\n\u00b6\n\n\nALM\n\u00b6\n\n\n\n\nnode-sp-alm\n\n\nalm-for-widget-solutions\n\n\nhttp://julieturner.net/2016/09/code-creep-sharepoint-cdn/\n\n\nhttp://yannickborghmans.com/2017/12/28/sharepoint-application-lifecycle-management-api-how-to-use-it-in-your-code/\n\n\nhttps://github.com/estruyf/node-sp-alm\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/apis/alm-api-for-spfx-add-ins\n\n\nhttps://www.npmjs.com/package/node-sp-alm\n\n\n\n\nCDN\n\u00b6\n\n\n\n\nhttps://bob1german.com/2017/12/04/choosing-a-cdn-for-sharepoint-client-side-solutions/\n\n\n\n\nwrite-manifests.json\n\n\n{\n\n  \n\"cdnBasePath\"\n:\n \n\"https://publiccdn.sharepointonline.com/cloud67.sharepoint.com/cdn/topnavmenu\"\n\n\n}\n\n\n\n\n\nAppSettings\n\u00b6\n\n\n\n\nSharePoint Framework app settings\n\n\nAppSettings in SharePoint Framework (SPFx) and Staging",
+            "text": "Deployment\n\u00b6\n\n\nALM\n\u00b6\n\n\n\n\nnode-sp-alm\n\n\nalm-for-widget-solutions\n\n\nhttp://julieturner.net/2016/09/code-creep-sharepoint-cdn/\n\n\nhttp://yannickborghmans.com/2017/12/28/sharepoint-application-lifecycle-management-api-how-to-use-it-in-your-code/\n\n\nhttps://github.com/estruyf/node-sp-alm\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/apis/alm-api-for-spfx-add-ins\n\n\nhttps://www.npmjs.com/package/node-sp-alm\n\n\n\n\nCDN\n\u00b6\n\n\n\n\nhttps://bob1german.com/2017/12/04/choosing-a-cdn-for-sharepoint-client-side-solutions/\n\n\n\n\nwrite-manifests.json\n\n\n{\n\n  \n\"cdnBasePath\"\n:\n \n\"https://publiccdn.sharepointonline.com/cloud67.sharepoint.com/cdn/topnavmenu\"\n\n\n}\n\n\n\n\n\nAppSettings\n\u00b6\n\n\n\n\nSharePoint Framework app settings\n\n\nAppSettings in SharePoint Framework (SPFx) and Staging\n\n\n\n\nDeployment Azure Storage\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/automate-publishing-process-of-mkdocs-to-static-website-hosting-in-azure-storage-with-vsts",
             "title": "Deployment"
         },
         {
@@ -364,6 +364,11 @@
             "location": "/spfx/deployment/#appsettings",
             "text": "SharePoint Framework app settings  AppSettings in SharePoint Framework (SPFx) and Staging",
             "title": "AppSettings"
+        },
+        {
+            "location": "/spfx/deployment/#deployment-azure-storage",
+            "text": "https://www.eliostruyf.com/automate-publishing-process-of-mkdocs-to-static-website-hosting-in-azure-storage-with-vsts",
+            "title": "Deployment Azure Storage"
         },
         {
             "location": "/spfx/extensions/",
@@ -1792,7 +1797,7 @@
         },
         {
             "location": "/about/help/",
-            "text": "Help\n\u00b6\n\n\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nThemes \nMaterial\n\n\nMarkdown \nSyntax\n\n\n\n\nCommands\n\u00b6\n\n\nmkdocs\n \nnew\n \n[\ndir-name\n]\n \n# Create a new project.\n\n\nmkdocs\n \nserve\n \n# Start the live-reloading docs server.\n\n\nmkdocs\n \nbuild\n \n# Build the documentation site.\n\n\nmkdocs\n \nhelp\n \n# Print this help message.\n\n\n\n\n\nProject layout\n\u00b6\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\n\n\nDeployment GitHub Pages\n\u00b6\n\n\n\n\nhttps://www.mkdocs.org/user-guide/deploying-your-docs/\n\n\n\n\nmkdocs gh-deploy\n\n\n\n\nDeployment Azure Storage\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/automate-publishing-process-of-mkdocs-to-static-website-hosting-in-azure-storage-with-vsts",
+            "text": "Help\n\u00b6\n\n\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nThemes \nMaterial\n\n\nMarkdown \nSyntax\n\n\n\n\nCommands\n\u00b6\n\n\nmkdocs\n \nnew\n \n[\ndir-name\n]\n \n# Create a new project.\n\n\nmkdocs\n \nserve\n \n# Start the live-reloading docs server.\n\n\nmkdocs\n \nbuild\n \n# Build the documentation site.\n\n\nmkdocs\n \nhelp\n \n# Print this help message.\n\n\n\n\n\nProject layout\n\u00b6\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\n\n\nDeployment GitHub Pages\n\u00b6\n\n\n\n\nhttps://www.mkdocs.org/user-guide/deploying-your-docs/\n\n\n\n\nmkdocs gh-deploy",
             "title": "Help"
         },
         {
@@ -1814,11 +1819,6 @@
             "location": "/about/help/#deployment-github-pages",
             "text": "https://www.mkdocs.org/user-guide/deploying-your-docs/   mkdocs gh-deploy",
             "title": "Deployment GitHub Pages"
-        },
-        {
-            "location": "/about/help/#deployment-azure-storage",
-            "text": "https://www.eliostruyf.com/automate-publishing-process-of-mkdocs-to-static-website-hosting-in-azure-storage-with-vsts",
-            "title": "Deployment Azure Storage"
         },
         {
             "location": "/about/about/",
