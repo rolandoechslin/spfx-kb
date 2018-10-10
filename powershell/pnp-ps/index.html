@@ -1165,6 +1165,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#create-guid" title="Create Guid" class="md-nav__link">
+    Create Guid
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#upload-documents" title="Upload Documents" class="md-nav__link">
     Upload Documents
   </a>
@@ -1461,6 +1468,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#create-guid" title="Create Guid" class="md-nav__link">
+    Create Guid
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#upload-documents" title="Upload Documents" class="md-nav__link">
     Upload Documents
   </a>
@@ -1517,6 +1531,10 @@
 
 <h2 id="list-all-commands">List all commands<a class="headerlink" href="#list-all-commands" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span><span class="nb">Get-Command</span> <span class="p">|</span> <span class="p">?</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">ModuleName</span> <span class="o">-eq</span> <span class="s2">&quot;SharePointPnPPowerShellOnline&quot;</span> <span class="p">}</span>
+</pre></div>
+
+<h2 id="create-guid">Create Guid<a class="headerlink" href="#create-guid" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><span class="no">[guid]</span><span class="p">::</span><span class="n">NewGuid</span><span class="p">()</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">Guid</span> <span class="p">|</span> <span class="n">clip</span>
 </pre></div>
 
 <h2 id="upload-documents">Upload Documents<a class="headerlink" href="#upload-documents" title="Permanent link">&para;</a></h2>
