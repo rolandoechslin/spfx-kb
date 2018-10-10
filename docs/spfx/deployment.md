@@ -21,3 +21,8 @@ write-manifests.json
   "cdnBasePath": "https://publiccdn.sharepointonline.com/cloud67.sharepoint.com/cdn/topnavmenu"
 }
 ```
+
+## AppSettings
+
+- [SharePoint Framework app settings](https://blog.velingeorgiev.com/sharepoint-framework-app-settings)
+- [AppSettings in SharePoint Framework (SPFx) and Staging](https://mmsharepoint.wordpress.com/2018/10/06/appsettings-in-sharepoint-framework-spfx-and-staging/)
