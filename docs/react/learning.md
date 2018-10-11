@@ -49,3 +49,7 @@
 - <https://github.com/STRML/react-grid-layout>
 - <http://www.chartjs.org/>
 - <https://rushjs.io/>
+
+## Tutorials
+
+- [React & Redux Tutorial - Build a Hacker News Clone](https://gitconnected.com/courses/learn-react-redux-tutorial-build-a-hacker-news-clone)
