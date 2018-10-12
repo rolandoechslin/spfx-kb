@@ -10,6 +10,19 @@
 - [docusaurus](https://docusaurus.io)
 - [dochameleon](https://dochameleon.io)
 
+## Content generators
+
+- <http://spaceipsum.com>
+- [http://socialgoodipsum.com](http://socialgoodipsum.com/#/)
+- [Office Ipsum](http://officeipsum.com/index.php)
+- <http://trollemipsum.appspot.com>
+
+## Image Free Stock
+
+- <https://pixabay.com>
+- [20 Websites To Find Free High-Quality Images](https://www.hongkiat.com/blog/free-stock-photo-websites/)
+- <http://mazwai.com/#/>
+
 ## Password generators
 
 - <https://www.msdservices.com/apg/index.php>
