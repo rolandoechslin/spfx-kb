@@ -16,3 +16,8 @@
 ## SiteCollections versus SubSites
 
 - <https://joannecklein.com/2017/11/03/sharepoint-site-collection-advantages/>
+
+## Tipps Creating Sites
+
+- [Exploring creating SharePoint TeamSites using SiteDesign and the REST API](https://www.mcd79.com/2018/07/21/exploring-creating-sharepoint-teamsites-using-sitedesign-and-the-rest-api.html)
+- [Balancing Self-Service with Governance and Control in Office 365](http://bostonmusicdave.com/balancing-self-service-with-governance-and-control-in-office-365/)
