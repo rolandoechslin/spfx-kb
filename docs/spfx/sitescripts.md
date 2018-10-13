@@ -1,4 +1,4 @@
-# Site Scripts
+# SiteScripts
 
 - <https://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254>
 - <https://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/>

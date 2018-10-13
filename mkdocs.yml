@@ -31,13 +31,13 @@ pages:
         - Patterns: spfx/patterns.md
         - Provisioning: spfx/provisioning.md
         - Migration: spfx/migration.md
-        - Site-Scripts: spfx/sitescripts.md
-        - Sitedesign: spfx/sitedesign.md
+        - SiteScripts: spfx/sitescripts.md
+        - SiteDesign: spfx/sitedesign.md
         - Search: spfx/search.md
         - Snippets: spfx/snippets.md
         - SP2019: spfx/sp2019.md
         - Support: spfx/support.md
-        - Starter-Kid: spfx/starterkid.md
+        - Starter-Kit: spfx/starterkit.md
         - Typescript: spfx/typescript.md
         - Testing: spfx/testing.md
         - Theme: spfx/theme.md
