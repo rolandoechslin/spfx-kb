@@ -16,6 +16,7 @@
 
 - <https://ypcode.wordpress.com/2018/03/26/site-designs-studio-1-0/>
 - <https://ypcode.wordpress.com/2018/04/15/convert-caml-list-schema-to-site-scripts/>
+- [Sharepoint Site Designer](https://www.sitedesigner.io)
 
 ## Samples
 
