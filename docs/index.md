@@ -21,6 +21,8 @@
 
 ## Create WebPart
 
+- [Scaffold projects by using Yeoman SharePoint generator](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/scaffolding-projects-using-yeoman-sharepoint-generator)
+
 ```bs
 yo @microsoft/sharepoint
 git init
