@@ -10,9 +10,11 @@
 - https://docs.microsoft.com/en-us/sharepoint/dev/apis/alm-api-for-spfx-add-ins
 - https://www.npmjs.com/package/node-sp-alm
 
-## CDN
+## Deployment to CDN
 
-- https://bob1german.com/2017/12/04/choosing-a-cdn-for-sharepoint-client-side-solutions/
+- [Choosing a CDN for SharePoint client-side solutions](https://bob1german.com/2017/12/04/choosing-a-cdn-for-sharepoint-client-side-solutions/)
+- [Deploy SPFx WebParts To Office 365 Public CDN](https://www.c-sharpcorner.com/article/sharepoint-framework-deploy-spfx-webparts-to-office-365-public-cdn/)
+
 
 write-manifests.json
 
@@ -22,11 +24,16 @@ write-manifests.json
 }
 ```
 
+## Deployment to SP Library
+
+- [Deploy SPFx WebParts to SharePoint Library](https://www.c-sharpcorner.com/article/sharepoint-framework-deploy-spfx-webparts-to-sharepoint-library/)
+
+## Deployment to Azure Storage
+
+- [Automate publishing process of MkDocs to Static Website hosting in Azure Storage with VSTS](<https://www.eliostruyf.com/automate-publishing-process-of-mkdocs-to-static-website-hosting-in-azure-storage-with-vsts>)
+- [Deploy SPFx WebParts To Azure CDN](https://www.c-sharpcorner.com/article/sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/)
+
 ## AppSettings
 
 - [SharePoint Framework app settings](https://blog.velingeorgiev.com/sharepoint-framework-app-settings)
 - [AppSettings in SharePoint Framework (SPFx) and Staging](https://mmsharepoint.wordpress.com/2018/10/06/appsettings-in-sharepoint-framework-spfx-and-staging/)
-
-## Deployment Azure Storage
-
-- <https://www.eliostruyf.com/automate-publishing-process-of-mkdocs-to-static-website-hosting-in-azure-storage-with-vsts>
