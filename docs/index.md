@@ -91,10 +91,15 @@ Log.error("HelloWorld", new Error("Oh No!  Error!  Ahhhhhh!!!!"), this.context.s
 Logging with @pnp/logging
 ```
 
-## Custom logging (pnp-logging)
+## Logging with pnp-logging
 
 - <https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging>
 https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging
+
+## Logging with AppInsights
+
+- [Add Azure App Insights or Google Analytics to your SharePoint pages with an SPFx Application Customizer](https://www.sharepointnutsandbolts.com/2017/08/SPFx-App-Insights.html)
+- [Use Azure App Insights to track events in your app/web part/provisioning code](https://www.sharepointnutsandbolts.com/2017/09/App-Insights-for-SPFx-and-provisioning.html)
 
 ## Debug in browser
 
