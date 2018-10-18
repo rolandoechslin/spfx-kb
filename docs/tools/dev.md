@@ -80,6 +80,10 @@
 - <https://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon>
 - <https://developer.microsoft.com/en-us/fabric#/styles/icons>
 
+## Favicons
+
+- [favicon-generator](https://www.favicon-generator.org/)
+
 ## Remove git integrations from VSCode
 
 settings.json
