@@ -1,5 +1,9 @@
 # SiteScripts
 
+## Reference
+
+- [Site design JSON schema](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-json-schema)
+
 - <https://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254>
 - <https://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/>
 - <https://beaucameron.net/2018/08/28/how-to-create-modern-sharepoint-site-templates-using-office-365-site-designs/>

@@ -15,6 +15,10 @@
 - [Office fabric react - TypeScript-Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/TypeScript-Guidelines)
 - [react-typescript-cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet)
 
+## Content Style Guide
+
+- https://docs.microsoft.com/de-ch/style-guide/welcome/
+
 ## SharePoint PNP Community
 - [SharePoint PnP resources](https://docs.microsoft.com/en-us/sharepoint/dev/community/community)
 - [Sharepoint Glossar](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-glossary)

@@ -20,3 +20,7 @@
 ## Flow / Azure Function
 
 - <https://github.com/giuleon/O365ModernProvisioning>
+
+## OneDrive for Business
+
+- [Create OneDrive for Business Site Collections using PowerShell](http://www.sharepointdiary.com/2017/10/how-to-create-onedrive-for-business-sites-office-365.html)
