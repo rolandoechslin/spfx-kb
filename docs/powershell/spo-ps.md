@@ -5,6 +5,9 @@
 
 ## Check Version
 
+Latest Version
+- https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.8119.0
+
 ```ps
 Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending
 ```
