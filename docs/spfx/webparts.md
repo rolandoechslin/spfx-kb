@@ -36,6 +36,7 @@
 - <https://github.com/waldekmastykarz/spfx-react-fabric-trendinginthissite>
 - <https://abdulazizfarooqi.wordpress.com/2018/02/28/employee-directory-with-spfx-reactjs-using-sharepoint-search-rest-api-modern-webpart>
 - [Puzzlepart presents the modern flexible Divider web part](https://www.techmikael.com/2018/09/puzzlepart-presents-modern-flexible.html)
+- [Vimeo webpart](https://n8d.at/blog/a-smart-stupid-web-part-consumes-a-third-party-api-through-azure-functions-part-3/)
 
 ## Reusable React control
 - [SPFx reusable React control field-picker-list-data](https://jjm935611985.wordpress.com/2018/10/)
