@@ -12,7 +12,12 @@
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid)
 - [CSS Grid — Responsive layouts and components](https://medium.com/deemaze-software/css-grid-responsive-layouts-and-components-eee1badd5a2f)
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+- [MDN: Use CSS to solve common problems
+](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto)
 
 ## Tools
 
+- https://codepen.io/pen/
 - https://caniuse.com
+- https://jigsaw.w3.org/css-validator/
+- https://addons.mozilla.org/en-US/firefox/addon/web-developer/
