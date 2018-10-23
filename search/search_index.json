@@ -742,37 +742,32 @@
         },
         {
             "location": "/spfx/sitescripts/",
-            "text": "SiteScripts\n\u00b6\n\n\n\n\nhttps://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254\n\n\nhttps://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/\n\n\nhttps://beaucameron.net/2018/08/28/how-to-create-modern-sharepoint-site-templates-using-office-365-site-designs/\n\n\n\n\nPnP or site scripts\n\u00b6\n\n\n\n\nhttps://www.sharepointnutsandbolts.com/2018/01/site-designs-scripts-or-pnp-templates.html\n\n\n\n\nReference\n\u00b6\n\n\n\n\nSite design JSON schema\n\n\n\n\nPnP provisioning engine\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-pnp-provisioning\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://ypcode.wordpress.com/2018/03/26/site-designs-studio-1-0/\n\n\nhttps://ypcode.wordpress.com/2018/04/15/convert-caml-list-schema-to-site-scripts/\n\n\nSharepoint Site Designer\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-site-scripts",
+            "text": "SiteScripts\n\u00b6\n\n\n\n\nSharePoint Site Scripts and Site Designs - April 2018 release\n\n\nTHE ULTIMATE GUIDE TO SHAREPOINT SITE DESIGNS AND SITE SCRIPTS\n\n\nHow To: Create Modern SharePoint site templates using Office 365 Site Designs\n\n\n\n\nPnP or site scripts\n\u00b6\n\n\n\n\nUsing Site Designs or PnP templates for SharePoint site provisioning\n\n\n\n\nReference\n\u00b6\n\n\n\n\nSite design JSON schema\n\n\nCalling the PnP provisioning engine from a site script\n\n\n\n\nTools\n\u00b6\n\n\n\n\nSite Designs Studio 1.0\n\n\nConvert CAML List Schema to Site Scripts\n\n\nSharepoint Site Designer\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSharePoint Site Script samples\n\n\nTriggers Flow to run an Azure function containing PnP PowerShell",
             "title": "SiteScripts"
         },
         {
             "location": "/spfx/sitescripts/#sitescripts",
-            "text": "https://techcommunity.microsoft.com/t5/SharePoint-Blog/SharePoint-Site-Scripts-and-Site-Designs-April-2018-release/ba-p/181254  https://laurakokkarinen.com/the-ultimate-guide-to-sharepoint-site-designs-and-site-scripts/  https://beaucameron.net/2018/08/28/how-to-create-modern-sharepoint-site-templates-using-office-365-site-designs/",
+            "text": "SharePoint Site Scripts and Site Designs - April 2018 release  THE ULTIMATE GUIDE TO SHAREPOINT SITE DESIGNS AND SITE SCRIPTS  How To: Create Modern SharePoint site templates using Office 365 Site Designs",
             "title": "SiteScripts"
         },
         {
             "location": "/spfx/sitescripts/#pnp-or-site-scripts",
-            "text": "https://www.sharepointnutsandbolts.com/2018/01/site-designs-scripts-or-pnp-templates.html",
+            "text": "Using Site Designs or PnP templates for SharePoint site provisioning",
             "title": "PnP or site scripts"
         },
         {
             "location": "/spfx/sitescripts/#reference",
-            "text": "Site design JSON schema",
+            "text": "Site design JSON schema  Calling the PnP provisioning engine from a site script",
             "title": "Reference"
         },
         {
-            "location": "/spfx/sitescripts/#pnp-provisioning-engine",
-            "text": "https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-pnp-provisioning",
-            "title": "PnP provisioning engine"
-        },
-        {
             "location": "/spfx/sitescripts/#tools",
-            "text": "https://ypcode.wordpress.com/2018/03/26/site-designs-studio-1-0/  https://ypcode.wordpress.com/2018/04/15/convert-caml-list-schema-to-site-scripts/  Sharepoint Site Designer",
+            "text": "Site Designs Studio 1.0  Convert CAML List Schema to Site Scripts  Sharepoint Site Designer",
             "title": "Tools"
         },
         {
             "location": "/spfx/sitescripts/#samples",
-            "text": "https://github.com/SharePoint/sp-dev-site-scripts",
+            "text": "SharePoint Site Script samples  Triggers Flow to run an Azure function containing PnP PowerShell",
             "title": "Samples"
         },
         {
