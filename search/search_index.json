@@ -1042,7 +1042,7 @@
         },
         {
             "location": "/spfx/theme/",
-            "text": "Theme\n\u00b6\n\n\n\n\nhttps://laurakokkarinen.com/how-to-create-a-multicolored-theme-for-a-modern-sharepoint-online-site/\n\n\n\n\nTheme-Support\n\u00b6\n\n\n\n\nhttps://github.com/StfBauer/spfx-uifabric-themes\n\n\n\n\nCSS Tips\n\u00b6\n\n\n\n\nCodyHouse is a library of HTML, CSS, JS nuggets\n\n\nA Complete Guide to Grid\n\n\nCSS Grid\u200a\u2014\u200aResponsive layouts and components\n\n\nA Complete Guide to Flexbox\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://caniuse.com",
+            "text": "Theme\n\u00b6\n\n\n\n\nhttps://laurakokkarinen.com/how-to-create-a-multicolored-theme-for-a-modern-sharepoint-online-site/\n\n\n\n\nTheme-Support\n\u00b6\n\n\n\n\nhttps://github.com/StfBauer/spfx-uifabric-themes\n\n\n\n\nCSS Tips\n\u00b6\n\n\n\n\nCodyHouse is a library of HTML, CSS, JS nuggets\n\n\nA Complete Guide to Grid\n\n\nCSS Grid\u200a\u2014\u200aResponsive layouts and components\n\n\nA Complete Guide to Flexbox\n\n\nMDN: Use CSS to solve common problems\n\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://codepen.io/pen/\n\n\nhttps://caniuse.com\n\n\nhttps://jigsaw.w3.org/css-validator/\n\n\nhttps://addons.mozilla.org/en-US/firefox/addon/web-developer/",
             "title": "Theme"
         },
         {
@@ -1057,12 +1057,12 @@
         },
         {
             "location": "/spfx/theme/#css-tips",
-            "text": "CodyHouse is a library of HTML, CSS, JS nuggets  A Complete Guide to Grid  CSS Grid\u200a\u2014\u200aResponsive layouts and components  A Complete Guide to Flexbox",
+            "text": "CodyHouse is a library of HTML, CSS, JS nuggets  A Complete Guide to Grid  CSS Grid\u200a\u2014\u200aResponsive layouts and components  A Complete Guide to Flexbox  MDN: Use CSS to solve common problems",
             "title": "CSS Tips"
         },
         {
             "location": "/spfx/theme/#tools",
-            "text": "https://caniuse.com",
+            "text": "https://codepen.io/pen/  https://caniuse.com  https://jigsaw.w3.org/css-validator/  https://addons.mozilla.org/en-US/firefox/addon/web-developer/",
             "title": "Tools"
         },
         {
