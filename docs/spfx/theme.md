@@ -8,11 +8,7 @@
 - [How to make your web parts responsive to the parent container](https://n8d.at/blog/how-to-make-your-web-parts-responsive-to-the-parent-container)
 - [Brand modern SharePoint Online sites](http://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites)
 - [two approaches to applying modern theme](http://www.techmikael.com/2018/03/two-approaches-to-applying-modern-theme.html)
-
-
-## Theme-Support
-
-- https://github.com/StfBauer/spfx-uifabric-themes
+- [SPFX integration for theme support](https://github.com/StfBauer/spfx-uifabric-themes)
 
 ## CSS Tips
 
