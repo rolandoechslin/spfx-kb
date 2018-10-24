@@ -26,3 +26,4 @@
 
 - [6 ways to check SharePoint Usage reports](https://sharepointmaven.com/6-ways-check-sharepoint-usage-reports/)
 - [How to audit employees in SharePoint Online and Office 365](https://sharepointmaven.com/audit-employees-sharepoint-online-office-365/)
+- [Get SPO sites with filter using SPOSitePropertiesEnumerableFilter](https://blogs.technet.microsoft.com/sharepointdevelopersupport/2018/10/24/get-spo-sites-with-filter-using-spositepropertiesenumerablefilter)

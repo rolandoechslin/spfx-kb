@@ -123,3 +123,7 @@ Update-PnPSiteClassification -Classifications "HBI","LBI","Top Secret" -UsageGui
 ```Powershell
 Disable-PnPSiteClassification
 ```
+
+## Tips
+
+- [Add QuickLinks with powershell-pnp](https://sharepoint.stackexchange.com/questions/241689/add-quicklinks-with-powershell-pnp/241707#241707)
