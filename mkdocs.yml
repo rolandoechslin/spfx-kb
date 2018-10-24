@@ -124,5 +124,4 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-repo_url: https://github.com/rolandoechslin/spfx-kb
 edit_uri: blob/master/docs
