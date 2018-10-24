@@ -1,6 +1,14 @@
 # Theme
 
 - https://laurakokkarinen.com/how-to-create-a-multicolored-theme-for-a-modern-sharepoint-online-site/
+- https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-themes
+- http://tricky-sharepoint.blogspot.ch/2017/04/using-sharepoint-themes-colors-in-spfx.html
+- http://sass-lang.com/guideaspx
+- [How to: Use PowerShell to customize the theme of a SharePoint Modern Site](http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2017/10/17/how-to-use-powershell-to-customize-the-theme-of-a-sharepoint-modern-site.aspx)
+- [How to make your web parts responsive to the parent container](https://n8d.at/blog/how-to-make-your-web-parts-responsive-to-the-parent-container)
+- [Brand modern SharePoint Online sites](http://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites)
+- [two approaches to applying modern theme](http://www.techmikael.com/2018/03/two-approaches-to-applying-modern-theme.html)
+
 
 ## Theme-Support
 
@@ -21,6 +29,10 @@
 - https://caniuse.com
 - https://jigsaw.w3.org/css-validator/
 - https://addons.mozilla.org/en-US/firefox/addon/web-developer/
+
+## Testing
+
+- [How to test SPFx web part theming](https://n8d.at/blog/how-to-test-spfx-web-part-theming)
 
 ## Debug
 
