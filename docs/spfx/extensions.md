@@ -25,3 +25,35 @@
 ## Navigations
 
 - <https://www.eliostruyf.com/handling-navigation-in-a-sharepoint-framework-application-customizer>
+
+## Placeholders
+
+- [Safely using Placeholders in an extension](https://github.com/SharePoint/sp-dev-docs/wiki/Safely-using-Placeholders-in-an-extension)
+
+```tsx
+private _topPlaceholder : PlaceholderContent;
+public onInit(void){
+    this.context.placeholderProvider.changedEvent.add(this, this._handlePlaceholderChange.bind(this));
+}
+
+private _handlePlaceholderChange(){
+  if (!this._topPlaceholder)
+  {
+    // We don't have a placeholder populated yet.  Let's try and get it.
+    this._topPlaceholder = this.context.placeholderProvider.tryCreateContent(PlaceholderName.Top);
+  } else {
+    // We have a placeholder - let's make sure that it still exists.
+    let index:number = this.context.placeholderProvider.placeholderNames.indexOf(PlaceholderName.Top);
+    if ( index < 0)
+    {
+        // The placeholder is no longer here.
+        this._topPlaceholder.dispose();
+        this._topPlaceholder = undefined;
+    }
+  }
+  if ( this._topPlaceholder )
+  {
+      this._topPlaceholder.innerText = 'Hello World!';
+  }
+}
+```
