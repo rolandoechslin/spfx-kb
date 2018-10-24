@@ -232,7 +232,7 @@
         },
         {
             "location": "/spfx/branding/",
-            "text": "Branding\n\u00b6\n\n\nDocs\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/design/design-guidance-overview\n\n\n\n\nCSS\n\u00b6\n\n\n\n\nhttps://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations\n\n\nhttps://github.com/eoverfield/Ignite2016-TeamSiteBranding\n\n\nhttp://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-bootstrap-session-recap/\n\n\nhttp://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-css-session-recap\n\n\nhttps://github.com/speinc/SPTechCon2016-SanFrancisco/tree/master/Thursday%20-%20CSS%20Session\n\n\nhttp://www.brandmysharepoint.de/einfuegen-von-bildern-im-rte-steuern/#.WLaMB_k1_Zs\n\n\nhttps://n8d.at/blog/how-to-use-bootstrap-in-sharepoint-framework-projects/?utm_content=buffer162f5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer\n\n\n\n\nTheme\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-themes\n\n\nhttps://doc.co/G4xSqf\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/04/using-sharepoint-themes-colors-in-spfx.html\n\n\nhttp://sass-lang.com/guideaspx\n\n\nhttp://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2017/10/17/how-to-use-powershell-to-customize-the-theme-of-a-sharepoint-modern-site.aspx\n\n\nhttps://n8d.at/blog/how-to-make-your-web-parts-responsive-to-the-parent-container/\n\n\nhttp://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites/\n\n\ntwo approaches to applying modern theme\n\n\n\n\nTesting\n\u00b6\n\n\n\n\nhttps://n8d.at/blog/how-to-test-spfx-web-part-theming/",
+            "text": "Branding\n\u00b6\n\n\nDocs\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/design/design-guidance-overview\n\n\n\n\nCSS\n\u00b6\n\n\n\n\nhttps://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations\n\n\nhttps://github.com/eoverfield/Ignite2016-TeamSiteBranding\n\n\nhttp://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-bootstrap-session-recap/\n\n\nhttp://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-css-session-recap\n\n\nhttps://github.com/speinc/SPTechCon2016-SanFrancisco/tree/master/Thursday%20-%20CSS%20Session\n\n\nhttp://www.brandmysharepoint.de/einfuegen-von-bildern-im-rte-steuern/#.WLaMB_k1_Zs\n\n\nhttps://n8d.at/blog/how-to-use-bootstrap-in-sharepoint-framework-projects/?utm_content=buffer162f5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
             "title": "Branding"
         },
         {
@@ -249,16 +249,6 @@
             "location": "/spfx/branding/#css",
             "text": "https://msdn.microsoft.com/en-us/pnp_articles/modern-experience-customizations  https://github.com/eoverfield/Ignite2016-TeamSiteBranding  http://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-bootstrap-session-recap/  http://blog.sharepointexperience.com/2016/07/sptechcon-boston-june-2016-css-session-recap  https://github.com/speinc/SPTechCon2016-SanFrancisco/tree/master/Thursday%20-%20CSS%20Session  http://www.brandmysharepoint.de/einfuegen-von-bildern-im-rte-steuern/#.WLaMB_k1_Zs  https://n8d.at/blog/how-to-use-bootstrap-in-sharepoint-framework-projects/?utm_content=buffer162f5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
             "title": "CSS"
-        },
-        {
-            "location": "/spfx/branding/#theme",
-            "text": "https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-themes  https://doc.co/G4xSqf  http://tricky-sharepoint.blogspot.ch/2017/04/using-sharepoint-themes-colors-in-spfx.html  http://sass-lang.com/guideaspx  http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2017/10/17/how-to-use-powershell-to-customize-the-theme-of-a-sharepoint-modern-site.aspx  https://n8d.at/blog/how-to-make-your-web-parts-responsive-to-the-parent-container/  http://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites/  two approaches to applying modern theme",
-            "title": "Theme"
-        },
-        {
-            "location": "/spfx/branding/#testing",
-            "text": "https://n8d.at/blog/how-to-test-spfx-web-part-theming/",
-            "title": "Testing"
         },
         {
             "location": "/spfx/column-formating/",
@@ -1047,18 +1037,13 @@
         },
         {
             "location": "/spfx/theme/",
-            "text": "Theme\n\u00b6\n\n\n\n\nhttps://laurakokkarinen.com/how-to-create-a-multicolored-theme-for-a-modern-sharepoint-online-site/\n\n\n\n\nTheme-Support\n\u00b6\n\n\n\n\nhttps://github.com/StfBauer/spfx-uifabric-themes\n\n\n\n\nCSS Tips\n\u00b6\n\n\n\n\nCodyHouse is a library of HTML, CSS, JS nuggets\n\n\nA Complete Guide to Grid\n\n\nCSS Grid\u200a\u2014\u200aResponsive layouts and components\n\n\nA Complete Guide to Flexbox\n\n\nMDN: Use CSS to solve common problems\n\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://codepen.io/pen/\n\n\nhttps://caniuse.com\n\n\nhttps://jigsaw.w3.org/css-validator/\n\n\nhttps://addons.mozilla.org/en-US/firefox/addon/web-developer/\n\n\n\n\nDebug\n\u00b6\n\n\nOutput theme variables\n\u00b6\n\n\n\n\nSource Code\n\n\n\n\nvar\n \npalette\n \n=\n \nwindow\n.\n__themeState__\n.\ntheme\n;\n\n\nvar\n \ncontainerElement\n \n=\n \ndocument\n.\ncreateElement\n(\n\"div\"\n);\n\n\ncontainerElement\n.\nstyle\n.\npadding\n \n=\n \n\"1em\"\n;\n\n\ncontainerElement\n.\nstyle\n.\nfontFamily\n \n=\n \n\"sans-serif\"\n;\n\n\ncontainerElement\n.\nstyle\n.\ncolumnCount\n \n=\n \n\"3\"\n;\n\n\ndocument\n.\nbody\n.\nappendChild\n(\ncontainerElement\n);\n\n\nvar\n \narr\n \n=\n \nObject\n.\nkeys\n(\npalette\n).\nmap\n(\nk\n \n=>\n \n{\n\n\nvar\n \ncolorElement\n \n=\ndocument\n.\ncreateElement\n(\n\"div\"\n);\n\n\ncolorElement\n.\nstyle\n.\nmarginTop\n \n=\n \n\"1ex\"\n;\n\n\nvar\n \nnameElement\n \n=\ndocument\n.\ncreateElement\n(\n\"span\"\n);\n\n\nnameElement\n.\nstyle\n.\ndisplay\n \n=\n \n\"inline-block\"\n;\n\n\nnameElement\n.\nstyle\n.\nminWidth\n=\n \n\"150px\"\n;\n\n\nnameElement\n.\ninnerHTML\n \n=\n \nk\n\n\ncolorElement\n.\nappendChild\n(\nnameElement\n \n);\n\n\nvar\n \nsquareElement\n \n=\n \ndocument\n.\ncreateElement\n(\n\"span\"\n);\n\n\nsquareElement\n.\nstyle\n.\ndisplay\n=\n \n\"inline-block\"\n;\n\n\nsquareElement\n.\nstyle\n.\nborder\n=\n \n\"solid 1px #888\"\n;\n\n\nsquareElement\n.\nstyle\n.\nwidth\n \n=\n \n\"12px\"\n;\n\n\nsquareElement\n.\nstyle\n.\nheight\n \n=\n \n\"12px\"\n;\n\n\nsquareElement\n.\nstyle\n.\nmargin\n \n=\n \n\"0 2px 0 1ex\"\n;\n\n\nsquareElement\n.\nstyle\n.\nbackgroundColor\n \n=\n \nwindow\n.\n__themeState__\n.\ntheme\n[\nk\n];\n\n\ncolorElement\n.\nappendChild\n(\nsquareElement\n);\n\n\nvar\n \nhexElement\n \n=\ndocument\n.\ncreateElement\n(\n\"span\"\n);\n\n\nhexElement\n.\ninnerHTML\n \n=\n \nwindow\n.\n__themeState__\n.\ntheme\n[\nk\n];\n\n\ncolorElement\n.\nappendChild\n(\nhexElement\n);\n\n\ncontainerElement\n.\nappendChild\n(\ncolorElement\n);\n\n\n});",
+            "text": "Theme\n\u00b6\n\n\n\n\nhttps://laurakokkarinen.com/how-to-create-a-multicolored-theme-for-a-modern-sharepoint-online-site/\n\n\nhttps://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-themes\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/04/using-sharepoint-themes-colors-in-spfx.html\n\n\nhttp://sass-lang.com/guideaspx\n\n\nHow to: Use PowerShell to customize the theme of a SharePoint Modern Site\n\n\nHow to make your web parts responsive to the parent container\n\n\nBrand modern SharePoint Online sites\n\n\ntwo approaches to applying modern theme\n\n\nSPFX integration for theme support\n\n\n\n\nCSS Tips\n\u00b6\n\n\n\n\nCodyHouse is a library of HTML, CSS, JS nuggets\n\n\nA Complete Guide to Grid\n\n\nCSS Grid\u200a\u2014\u200aResponsive layouts and components\n\n\nA Complete Guide to Flexbox\n\n\nMDN: Use CSS to solve common problems\n\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://codepen.io/pen/\n\n\nhttps://caniuse.com\n\n\nhttps://jigsaw.w3.org/css-validator/\n\n\nhttps://addons.mozilla.org/en-US/firefox/addon/web-developer/\n\n\n\n\nTesting\n\u00b6\n\n\n\n\nHow to test SPFx web part theming\n\n\n\n\nDebug\n\u00b6\n\n\nOutput theme variables\n\u00b6\n\n\n\n\nSource Code\n\n\n\n\nvar\n \npalette\n \n=\n \nwindow\n.\n__themeState__\n.\ntheme\n;\n\n\nvar\n \ncontainerElement\n \n=\n \ndocument\n.\ncreateElement\n(\n\"div\"\n);\n\n\ncontainerElement\n.\nstyle\n.\npadding\n \n=\n \n\"1em\"\n;\n\n\ncontainerElement\n.\nstyle\n.\nfontFamily\n \n=\n \n\"sans-serif\"\n;\n\n\ncontainerElement\n.\nstyle\n.\ncolumnCount\n \n=\n \n\"3\"\n;\n\n\ndocument\n.\nbody\n.\nappendChild\n(\ncontainerElement\n);\n\n\nvar\n \narr\n \n=\n \nObject\n.\nkeys\n(\npalette\n).\nmap\n(\nk\n \n=>\n \n{\n\n\nvar\n \ncolorElement\n \n=\ndocument\n.\ncreateElement\n(\n\"div\"\n);\n\n\ncolorElement\n.\nstyle\n.\nmarginTop\n \n=\n \n\"1ex\"\n;\n\n\nvar\n \nnameElement\n \n=\ndocument\n.\ncreateElement\n(\n\"span\"\n);\n\n\nnameElement\n.\nstyle\n.\ndisplay\n \n=\n \n\"inline-block\"\n;\n\n\nnameElement\n.\nstyle\n.\nminWidth\n=\n \n\"150px\"\n;\n\n\nnameElement\n.\ninnerHTML\n \n=\n \nk\n\n\ncolorElement\n.\nappendChild\n(\nnameElement\n \n);\n\n\nvar\n \nsquareElement\n \n=\n \ndocument\n.\ncreateElement\n(\n\"span\"\n);\n\n\nsquareElement\n.\nstyle\n.\ndisplay\n=\n \n\"inline-block\"\n;\n\n\nsquareElement\n.\nstyle\n.\nborder\n=\n \n\"solid 1px #888\"\n;\n\n\nsquareElement\n.\nstyle\n.\nwidth\n \n=\n \n\"12px\"\n;\n\n\nsquareElement\n.\nstyle\n.\nheight\n \n=\n \n\"12px\"\n;\n\n\nsquareElement\n.\nstyle\n.\nmargin\n \n=\n \n\"0 2px 0 1ex\"\n;\n\n\nsquareElement\n.\nstyle\n.\nbackgroundColor\n \n=\n \nwindow\n.\n__themeState__\n.\ntheme\n[\nk\n];\n\n\ncolorElement\n.\nappendChild\n(\nsquareElement\n);\n\n\nvar\n \nhexElement\n \n=\ndocument\n.\ncreateElement\n(\n\"span\"\n);\n\n\nhexElement\n.\ninnerHTML\n \n=\n \nwindow\n.\n__themeState__\n.\ntheme\n[\nk\n];\n\n\ncolorElement\n.\nappendChild\n(\nhexElement\n);\n\n\ncontainerElement\n.\nappendChild\n(\ncolorElement\n);\n\n\n});",
             "title": "Theme"
         },
         {
             "location": "/spfx/theme/#theme",
-            "text": "https://laurakokkarinen.com/how-to-create-a-multicolored-theme-for-a-modern-sharepoint-online-site/",
+            "text": "https://laurakokkarinen.com/how-to-create-a-multicolored-theme-for-a-modern-sharepoint-online-site/  https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-themes  http://tricky-sharepoint.blogspot.ch/2017/04/using-sharepoint-themes-colors-in-spfx.html  http://sass-lang.com/guideaspx  How to: Use PowerShell to customize the theme of a SharePoint Modern Site  How to make your web parts responsive to the parent container  Brand modern SharePoint Online sites  two approaches to applying modern theme  SPFX integration for theme support",
             "title": "Theme"
-        },
-        {
-            "location": "/spfx/theme/#theme-support",
-            "text": "https://github.com/StfBauer/spfx-uifabric-themes",
-            "title": "Theme-Support"
         },
         {
             "location": "/spfx/theme/#css-tips",
@@ -1069,6 +1054,11 @@
             "location": "/spfx/theme/#tools",
             "text": "https://codepen.io/pen/  https://caniuse.com  https://jigsaw.w3.org/css-validator/  https://addons.mozilla.org/en-US/firefox/addon/web-developer/",
             "title": "Tools"
+        },
+        {
+            "location": "/spfx/theme/#testing",
+            "text": "How to test SPFx web part theming",
+            "title": "Testing"
         },
         {
             "location": "/spfx/theme/#debug",
@@ -1647,7 +1637,7 @@
         },
         {
             "location": "/tools/dev/",
-            "text": "Dev Tools\n\u00b6\n\n\nTranslation\n\u00b6\n\n\n\n\nhttps://www.deepl.com/translator\n\n\n\n\nDokumentation Site Generator\n\u00b6\n\n\n\n\nmkdocs-material\n\n\ndocusaurus\n\n\ndochameleon\n\n\n\n\nContent generators\n\u00b6\n\n\n\n\nhttp://spaceipsum.com\n\n\nhttp://socialgoodipsum.com\n\n\nOffice Ipsum\n\n\nhttp://trollemipsum.appspot.com\n\n\n\n\nImage Free Stock\n\u00b6\n\n\n\n\nhttps://pixabay.com\n\n\n20 Websites To Find Free High-Quality Images\n\n\nhttp://mazwai.com/#/\n\n\n\n\nPassword generators\n\u00b6\n\n\n\n\nhttps://www.msdservices.com/apg/index.php\n\n\nhttps://www.hongkiat.com/blog/password-generators\n\n\n\n\nGuid\n\u00b6\n\n\n\n\nhttps://www.guidgen.com/\n\n\n\n\nJson\n\u00b6\n\n\n\n\nOnline Json viewer\n\n\nFake Json Generator\n\n\nhttps://json-csv.com\n\n\n\n\nREST\n\u00b6\n\n\n\n\npostman-and-office-365\n\n\nhttps://s-kainet.github.io/sp-rest-explorer\n\n\n\n\nChange Log\n\u00b6\n\n\n\n\nkeepachangelog\n\n\n\n\nEmail\n\u00b6\n\n\n\n\nhttps://foundation.zurb.com/emails.html\n\n\nhttps://mailchimp.com/\n\n\n\n\nRessourcen Files\n\u00b6\n\n\n\n\nhttps://poeditor.com/\n\n\nhttps://github.com/ypcode/spfx-dev-tools\n (Ressourcen Files mit Excel editieren)\n\n\nhttps://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources/\n\n\n\n\nULS\n\u00b6\n\n\n\n\nhttps://sharepointring.com/\n\n\n\n\nVS.Code Extensions\n\u00b6\n\n\n\n\nhttps://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint\n\n\n\n\nCLI App Generator\n\u00b6\n\n\n\n\nhttps://github.com/koltyakov/generator-sppp\n\n\nhttp://blog.arvosys.com/2017/10/04/sharepoint-front-end-projects-automation-and-tasks-tool-belt/index.html\n\n\nhttps://github.com/facebook/create-react-app\n\n\nhttps://github.com/StfBauer/generator-simplestyle\n\n\n\n\nFabric Icons\n\u00b6\n\n\n\n\n\n\nRender Office Fabric UI Icons into Canvas\n\n\n\n\n\n\nhttps://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon\n\n\n\n\nhttps://developer.microsoft.com/en-us/fabric#/styles/icons\n\n\n\n\nFavicons\n\u00b6\n\n\n\n\nfavicon-generator\n\n\n\n\nRemove git integrations from VSCode\n\u00b6\n\n\nsettings.json\n\n\n//\n \nIs\n \ngit\n \nenabled\n\n\n\"git.enabled\"\n:\n \nfalse\n,\n\n\n\n\n\n//\n \nPath\n \nto\n \nthe\n \ngit\n \nexecutable\n\n\n\"git.path\"\n:\n \nnull\n,\n\n\n\n\n\n//\n \nWhether\n \nauto\n \nfetching\n \nis\n \nenabled.\n\n\n\"git.autofetch\"\n:\n \nfalse\n,\n\n\n\nInfo: \nhttps://stackoverflow.com/questions/30331338/remove-git-integrations-from-vscode",
+            "text": "Dev Tools\n\u00b6\n\n\nTranslation\n\u00b6\n\n\n\n\ndeepl translator\n\n\n\n\nDokumentation Site Generator\n\u00b6\n\n\n\n\nmkdocs-material\n\n\ndocusaurus\n\n\ndochameleon\n\n\n\n\nConvert / Format\n\u00b6\n\n\n\n\nfreeformatter.com\n\n\n\n\nContent generators\n\u00b6\n\n\n\n\nhttp://spaceipsum.com\n\n\nhttp://socialgoodipsum.com\n\n\nOffice Ipsum\n\n\nhttp://trollemipsum.appspot.com\n\n\n\n\nImage Tools\n\u00b6\n\n\n\n\nhttps://pixabay.com\n\n\n20 Websites To Find Free High-Quality Images\n\n\nhttp://mazwai.com/#/\n\n\nhttps://dummyimage.com\n\n\n\n\nPassword generators\n\u00b6\n\n\n\n\nRandom password generator\n\n\npassword-generators\n\n\n\n\nGuid\n\u00b6\n\n\n\n\nGUID Generator\n\n\n\n\nJson\n\u00b6\n\n\n\n\nOnline Json viewer\n\n\nFake Json Generator\n\n\nhttps://json-csv.com\n\n\n\n\nREST\n\u00b6\n\n\n\n\npostman-and-office-365\n\n\nhttps://s-kainet.github.io/sp-rest-explorer\n\n\n\n\nChange Log\n\u00b6\n\n\n\n\nkeepachangelog\n\n\n\n\nEmail\n\u00b6\n\n\n\n\nhttps://foundation.zurb.com/emails.html\n\n\nhttps://mailchimp.com/\n\n\n\n\nRessourcen Files\n\u00b6\n\n\n\n\nhttps://poeditor.com/\n\n\nhttps://github.com/ypcode/spfx-dev-tools\n (Ressourcen Files mit Excel editieren)\n\n\nExcel and PowerShell to maintain your SPFx localized resources\n\n\n\n\nULS\n\u00b6\n\n\n\n\nhttps://sharepointring.com/\n\n\n\n\nVS.Code Extensions\n\u00b6\n\n\n\n\nhttps://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint\n\n\n\n\nCLI App Generator\n\u00b6\n\n\n\n\nhttps://github.com/koltyakov/generator-sppp\n\n\nhttp://blog.arvosys.com/2017/10/04/sharepoint-front-end-projects-automation-and-tasks-tool-belt/index.html\n\n\nhttps://github.com/facebook/create-react-app\n\n\nhttps://github.com/StfBauer/generator-simplestyle\n\n\n\n\nFabric Icons\n\u00b6\n\n\n\n\n\n\nRender Office Fabric UI Icons into Canvas\n\n\n\n\n\n\nhttps://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon\n\n\n\n\nhttps://developer.microsoft.com/en-us/fabric#/styles/icons\n\n\n\n\nFavicons\n\u00b6\n\n\n\n\nfavicon-generator\n\n\n\n\nRemove git integrations from VSCode\n\u00b6\n\n\nsettings.json\n\n\n//\n \nIs\n \ngit\n \nenabled\n\n\n\"git.enabled\"\n:\n \nfalse\n,\n\n\n\n\n\n//\n \nPath\n \nto\n \nthe\n \ngit\n \nexecutable\n\n\n\"git.path\"\n:\n \nnull\n,\n\n\n\n\n\n//\n \nWhether\n \nauto\n \nfetching\n \nis\n \nenabled.\n\n\n\"git.autofetch\"\n:\n \nfalse\n,\n\n\n\nInfo: \nhttps://stackoverflow.com/questions/30331338/remove-git-integrations-from-vscode",
             "title": "Dev"
         },
         {
@@ -1657,7 +1647,7 @@
         },
         {
             "location": "/tools/dev/#translation",
-            "text": "https://www.deepl.com/translator",
+            "text": "deepl translator",
             "title": "Translation"
         },
         {
@@ -1666,23 +1656,28 @@
             "title": "Dokumentation Site Generator"
         },
         {
+            "location": "/tools/dev/#convert-format",
+            "text": "freeformatter.com",
+            "title": "Convert / Format"
+        },
+        {
             "location": "/tools/dev/#content-generators",
             "text": "http://spaceipsum.com  http://socialgoodipsum.com  Office Ipsum  http://trollemipsum.appspot.com",
             "title": "Content generators"
         },
         {
-            "location": "/tools/dev/#image-free-stock",
-            "text": "https://pixabay.com  20 Websites To Find Free High-Quality Images  http://mazwai.com/#/",
-            "title": "Image Free Stock"
+            "location": "/tools/dev/#image-tools",
+            "text": "https://pixabay.com  20 Websites To Find Free High-Quality Images  http://mazwai.com/#/  https://dummyimage.com",
+            "title": "Image Tools"
         },
         {
             "location": "/tools/dev/#password-generators",
-            "text": "https://www.msdservices.com/apg/index.php  https://www.hongkiat.com/blog/password-generators",
+            "text": "Random password generator  password-generators",
             "title": "Password generators"
         },
         {
             "location": "/tools/dev/#guid",
-            "text": "https://www.guidgen.com/",
+            "text": "GUID Generator",
             "title": "Guid"
         },
         {
@@ -1707,7 +1702,7 @@
         },
         {
             "location": "/tools/dev/#ressourcen-files",
-            "text": "https://poeditor.com/  https://github.com/ypcode/spfx-dev-tools  (Ressourcen Files mit Excel editieren)  https://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources/",
+            "text": "https://poeditor.com/  https://github.com/ypcode/spfx-dev-tools  (Ressourcen Files mit Excel editieren)  Excel and PowerShell to maintain your SPFx localized resources",
             "title": "Ressourcen Files"
         },
         {
