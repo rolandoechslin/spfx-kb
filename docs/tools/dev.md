@@ -2,13 +2,17 @@
 
 ## Translation
 
-- <https://www.deepl.com/translator>
+- [deepl translator](https://www.deepl.com/translator)
 
 ## Dokumentation Site Generator
 
 - [mkdocs-material](https://squidfunk.github.io/mkdocs-material)
 - [docusaurus](https://docusaurus.io)
 - [dochameleon](https://dochameleon.io)
+
+## Convert / Format
+
+- [freeformatter.com](https://www.freeformatter.com)
 
 ## Content generators
 
@@ -17,20 +21,21 @@
 - [Office Ipsum](http://officeipsum.com/index.php)
 - <http://trollemipsum.appspot.com>
 
-## Image Free Stock
+## Image Tools
 
 - <https://pixabay.com>
 - [20 Websites To Find Free High-Quality Images](https://www.hongkiat.com/blog/free-stock-photo-websites/)
 - <http://mazwai.com/#/>
+- https://dummyimage.com
 
 ## Password generators
 
-- <https://www.msdservices.com/apg/index.php>
-- <https://www.hongkiat.com/blog/password-generators>
+- [Random password generator](https://www.msdservices.com/apg/index.php)
+- [password-generators](https://www.hongkiat.com/blog/password-generators)
 
 ## Guid
 
-- <https://www.guidgen.com/>
+- [GUID Generator](https://www.guidgen.com)
 
 ## Json
 
@@ -56,7 +61,7 @@
 
 - <https://poeditor.com/>
 - <https://github.com/ypcode/spfx-dev-tools> (Ressourcen Files mit Excel editieren)
-- <https://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources/>
+- [Excel and PowerShell to maintain your SPFx localized resources](https://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources)
 
 ## ULS
 
