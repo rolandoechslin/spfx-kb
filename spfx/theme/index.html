@@ -879,6 +879,26 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#debug" title="Debug" class="md-nav__link">
+    Debug
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#output-theme-variables" title="Output theme variables" class="md-nav__link">
+    Output theme variables
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -1416,6 +1436,26 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#debug" title="Debug" class="md-nav__link">
+    Debug
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#output-theme-variables" title="Output theme variables" class="md-nav__link">
+    Output theme variables
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -1459,6 +1499,41 @@
 <li><a href="https://jigsaw.w3.org/css-validator/">https://jigsaw.w3.org/css-validator/</a></li>
 <li><a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">https://addons.mozilla.org/en-US/firefox/addon/web-developer/</a></li>
 </ul>
+<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permanent link">&para;</a></h2>
+<h3 id="output-theme-variables">Output theme variables<a class="headerlink" href="#output-theme-variables" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://laurakokkarinen.com/how-to-create-a-multicolored-theme-for-a-modern-sharepoint-online-site/">Source Code</a></li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="kd">var</span> <span class="nx">palette</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">__themeState__</span><span class="p">.</span><span class="nx">theme</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">containerElement</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">);</span>
+<span class="nx">containerElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">padding</span> <span class="o">=</span> <span class="s2">&quot;1em&quot;</span><span class="p">;</span>
+<span class="nx">containerElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">fontFamily</span> <span class="o">=</span> <span class="s2">&quot;sans-serif&quot;</span><span class="p">;</span>
+<span class="nx">containerElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">columnCount</span> <span class="o">=</span> <span class="s2">&quot;3&quot;</span><span class="p">;</span>
+<span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">containerElement</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">arr</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">keys</span><span class="p">(</span><span class="nx">palette</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="nx">k</span> <span class="p">=&gt;</span> <span class="p">{</span>
+<span class="kd">var</span> <span class="nx">colorElement</span> <span class="o">=</span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">);</span>
+<span class="nx">colorElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">marginTop</span> <span class="o">=</span> <span class="s2">&quot;1ex&quot;</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">nameElement</span> <span class="o">=</span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;span&quot;</span><span class="p">);</span>
+<span class="nx">nameElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="s2">&quot;inline-block&quot;</span><span class="p">;</span>
+<span class="nx">nameElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">minWidth</span><span class="o">=</span> <span class="s2">&quot;150px&quot;</span><span class="p">;</span>
+<span class="nx">nameElement</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">k</span>
+<span class="nx">colorElement</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">nameElement</span> <span class="p">);</span>
+<span class="kd">var</span> <span class="nx">squareElement</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;span&quot;</span><span class="p">);</span>
+<span class="nx">squareElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span><span class="o">=</span> <span class="s2">&quot;inline-block&quot;</span><span class="p">;</span>
+<span class="nx">squareElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">border</span><span class="o">=</span> <span class="s2">&quot;solid 1px #888&quot;</span><span class="p">;</span>
+<span class="nx">squareElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="s2">&quot;12px&quot;</span><span class="p">;</span>
+<span class="nx">squareElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">height</span> <span class="o">=</span> <span class="s2">&quot;12px&quot;</span><span class="p">;</span>
+<span class="nx">squareElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">margin</span> <span class="o">=</span> <span class="s2">&quot;0 2px 0 1ex&quot;</span><span class="p">;</span>
+<span class="nx">squareElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">backgroundColor</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">__themeState__</span><span class="p">.</span><span class="nx">theme</span><span class="p">[</span><span class="nx">k</span><span class="p">];</span>
+<span class="nx">colorElement</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">squareElement</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">hexElement</span> <span class="o">=</span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;span&quot;</span><span class="p">);</span>
+<span class="nx">hexElement</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">__themeState__</span><span class="p">.</span><span class="nx">theme</span><span class="p">[</span><span class="nx">k</span><span class="p">];</span>
+<span class="nx">colorElement</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">hexElement</span><span class="p">);</span>
+<span class="nx">containerElement</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">colorElement</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+<p><img alt="Theme-Teamsite-Image" src="https://i2.wp.com/laurakokkarinen.com/wp-content/uploads/2018/01/rainbow-theme-with-pointers.png?ssl=1" /></p>
                 
                   
                 
