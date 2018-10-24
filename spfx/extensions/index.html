@@ -605,6 +605,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#placeholders" title="Placeholders" class="md-nav__link">
+    Placeholders
+  </a>
+  
+</li>
+      
       
       
       
@@ -1444,6 +1451,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#placeholders" title="Placeholders" class="md-nav__link">
+    Placeholders
+  </a>
+  
+</li>
+      
       
       
       
@@ -1490,6 +1504,36 @@
 <ul>
 <li><a href="https://www.eliostruyf.com/handling-navigation-in-a-sharepoint-framework-application-customizer">https://www.eliostruyf.com/handling-navigation-in-a-sharepoint-framework-application-customizer</a></li>
 </ul>
+<h2 id="placeholders">Placeholders<a class="headerlink" href="#placeholders" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/SharePoint/sp-dev-docs/wiki/Safely-using-Placeholders-in-an-extension">Safely using Placeholders in an extension</a></li>
+</ul>
+<div class="codehilite"><pre><span></span>private _topPlaceholder : PlaceholderContent;
+public onInit(void){
+    this.context.placeholderProvider.changedEvent.add(this, this._handlePlaceholderChange.bind(this));
+}
+
+private _handlePlaceholderChange(){
+  if (!this._topPlaceholder)
+  {
+    // We don&#39;t have a placeholder populated yet.  Let&#39;s try and get it.
+    this._topPlaceholder = this.context.placeholderProvider.tryCreateContent(PlaceholderName.Top);
+  } else {
+    // We have a placeholder - let&#39;s make sure that it still exists.
+    let index:number = this.context.placeholderProvider.placeholderNames.indexOf(PlaceholderName.Top);
+    if ( index &lt; 0)
+    {
+        // The placeholder is no longer here.
+        this._topPlaceholder.dispose();
+        this._topPlaceholder = undefined;
+    }
+  }
+  if ( this._topPlaceholder )
+  {
+      this._topPlaceholder.innerText = &#39;Hello World!&#39;;
+  }
+}
+</pre></div>
                 
                   
                 
