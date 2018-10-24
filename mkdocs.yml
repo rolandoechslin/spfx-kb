@@ -73,8 +73,7 @@ pages:
     - About:
       - Help: about/help.md
       - About: about/about.md
-      - Releasenotes: about/release-notes.md
-
+      
 copyright: 'Copyright &copy; 2018 Roland Oechslin'
 
 
