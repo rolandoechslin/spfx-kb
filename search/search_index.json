@@ -1742,7 +1742,7 @@
         },
         {
             "location": "/tools/powerapps/",
-            "text": "PowerApps\n\u00b6\n\n\nSharePoint custom forms and automated business workflow\n\n\nVideo Tutorials\n\u00b6\n\n\n\n\nYoutube Microsoft PowerApps Channel\n\n\n\n\nWebParts\n\u00b6\n\n\n\n\nhttps://www.jijitechnologies.com/blogs/powerapps-webpart-sharepoint\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://powerapps.microsoft.com/en-us/blog/tips-for-a-maintainable-extensible-app\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://resources.techcommunity.microsoft.com/business-applications-process/",
+            "text": "PowerApps\n\u00b6\n\n\nSharePoint custom forms and automated business workflow\n\n\nVideo Tutorials\n\u00b6\n\n\n\n\nYoutube Microsoft PowerApps Channel\n\n\n\n\nPrice\n\u00b6\n\n\n\n\nhttps://powerapps.microsoft.com/en-us/pricing/\n\n\n\n\nWebParts\n\u00b6\n\n\n\n\nhttps://www.jijitechnologies.com/blogs/powerapps-webpart-sharepoint\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://powerapps.microsoft.com/en-us/blog/tips-for-a-maintainable-extensible-app\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://resources.techcommunity.microsoft.com/business-applications-process/",
             "title": "Powerapps"
         },
         {
@@ -1754,6 +1754,11 @@
             "location": "/tools/powerapps/#video-tutorials",
             "text": "Youtube Microsoft PowerApps Channel",
             "title": "Video Tutorials"
+        },
+        {
+            "location": "/tools/powerapps/#price",
+            "text": "https://powerapps.microsoft.com/en-us/pricing/",
+            "title": "Price"
         },
         {
             "location": "/tools/powerapps/#webparts",
