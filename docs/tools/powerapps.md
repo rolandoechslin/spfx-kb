@@ -6,6 +6,10 @@ SharePoint custom forms and automated business workflow
 
 - [Youtube Microsoft PowerApps Channel](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg/playlists)
 
+## Price
+
+- https://powerapps.microsoft.com/en-us/pricing/
+
 ## WebParts
 
 - <https://www.jijitechnologies.com/blogs/powerapps-webpart-sharepoint>
