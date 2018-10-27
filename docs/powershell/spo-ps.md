@@ -41,6 +41,7 @@ get-splogevent -starttime (get-date).addminutes(-20) | where-object { $_.correla
 
 ## Security
 
+- [SPO Authentication in Powershell for CSOM when Legacy Authentication is disabled for tenant or Multi Factor Authentication is enabled for user](https://blogs.technet.microsoft.com/sharepointdevelopersupport/2018/10/27/sharepoint-online-authentication-in-powershell-for-csom-when-legacy-authentication-is-disabled-for-tenant-or-multi-factor-authentication-is-enabled-for-user/)
 - [sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful](http://www.wictorwilen.se/sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful)
 
 ```ps

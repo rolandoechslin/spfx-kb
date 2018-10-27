@@ -8,6 +8,10 @@
 - <http://www.sharepointnutsandbolts.com/2017/02/sharepoint-framework-web-part-properties-button-toggle-slider.html>
 - <http://julieturner.net/2017/07/creating-a-property-pane-for-editing-items-in-your-spfx-web-parts/>
 
+## Group WebPart
+
+- [SharePoint Online Group Calendar Web Part Tutorial](https://www.sharepointeurope.com/sharepoint-online-group-calendar-web-part-tutorial)
+
 ## Text WebPart
 
 - [Injecting HTML content with PnP PowerShell](https://medium.com/@zaab_it/digging-into-sharepoint-modern-page-text-webpart-8d3f304cd6c0)
