@@ -40,9 +40,9 @@
 - <https://github.com/waldekmastykarz/spfx-react-fabric-trendinginthissite>
 - <https://abdulazizfarooqi.wordpress.com/2018/02/28/employee-directory-with-spfx-reactjs-using-sharepoint-search-rest-api-modern-webpart>
 - [Puzzlepart presents the modern flexible Divider web part](https://www.techmikael.com/2018/09/puzzlepart-presents-modern-flexible.html)
-- [Vimeo w
+- [Vimeo webpart](https://n8d.at/blog/a-smart-stupid-web-part-consumes-a-third-party-api-through-azure-functions-part-3/)
+- [Filtered Documents webpart](https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls/final)
 
-ebpart](https://n8d.at/blog/a-smart-stupid-web-part-consumes-a-third-party-api-through-azure-functions-part-3/)
 
 ## Reusable React control
 - [SPFx reusable React control field-picker-list-data](https://jjm935611985.wordpress.com/2018/10/)
@@ -82,3 +82,7 @@ ebpart](https://n8d.at/blog/a-smart-stupid-web-part-consumes-a-third-party-api-t
 ## Products
 
 - <http://bindtuning.com/webparts>
+
+## Package bundling
+
+ - [Video Dynamic SPFx Package Bundling](http://warner.digital/dynamic-spfx-package-bundling)
