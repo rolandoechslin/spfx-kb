@@ -15,10 +15,11 @@
 - [Demo - Using Microsoft Flow to send monthly emails](https://youtu.be/NsJJYIaRbfw?t=513)
 - <http://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow>
 - [Calling Microsoft Flow from a site script](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial)
+- [Automating New User Account On-boarding Using SharePoint Online, Flow, and PowerApps](https://practical365.com/sharepoint-online/automated-user-creation-flow-powerapps)
 
 ## Error Messages
 
-- https://veenstra.me.uk/2018/08/30/sharepoint-microsoft-flow-common-error-message-when-using-send-an-http-request-to-sharepoint-action-in-microsoft-flow/
+- [SharePoint / Microsoft Flow – Common error message when using Send an HTTP request to SharePoint action in Microsoft Flow](https://veenstra.me.uk/2018/08/30/sharepoint-microsoft-flow-common-error-message-when-using-send-an-http-request-to-sharepoint-action-in-microsoft-flow)
 
 ## Disable Flow
 
