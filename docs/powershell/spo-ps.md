@@ -14,6 +14,18 @@ Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Objec
 
 - [Download](https://www.microsoft.com/en-us/download/details.aspx?id=35588)
 
+## Update Module to latest version
+
+```ps
+Update-Module Microsoft.Online.SharePoint.PowerShell
+```
+
+## Delete old version
+
+```Powershell
+Get-InstalledModule -Name "Microsoft.Online.SharePoint.PowerShell" -RequiredVersion 16.0.8119.0 | Uninstall-Module
+```
+
 ## Credential Manager
 
 - [How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell](https://github.com/SharePoint/PnP-PowerShell/wiki/How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell)
