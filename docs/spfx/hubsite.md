@@ -22,7 +22,7 @@
 - [security-trimmed-hub-navigation](http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation)
 - [manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell](https://mattipaukkonen.com/2018/08/22/manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell)
 
-```ps
+```Powershell
 cls
 
 $tenantAdmin = "https://contoso-admin.sharepoint.com"

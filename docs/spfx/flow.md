@@ -24,7 +24,7 @@
 
 - <https://www.toddklindt.com/PoshDisableFlowButton>
 
-```ps
+```Powershell
 Connect-PnPOnline -Url https://<teantUrl>/sites/<name>
 
 # disable

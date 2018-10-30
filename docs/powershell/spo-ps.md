@@ -8,7 +8,7 @@
 Latest Version
 - https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.8119.0
 
-```ps
+```Powershell
 Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending
 ```
 
@@ -16,7 +16,7 @@ Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Objec
 
 ## Update Module to latest version
 
-```ps
+```Powershell
 Update-Module Microsoft.Online.SharePoint.PowerShell
 ```
 
@@ -35,19 +35,19 @@ Get-InstalledModule -Name "Microsoft.Online.SharePoint.PowerShell" -RequiredVers
 - [connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication](https://absolute-sharepoint.com/2018/03/connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication.html)
 - [Connect to Office 365/Exchange Services Functions](https://gallery.technet.microsoft.com/Connect-to-Office-53f6eb07)
 
-```ps
+```Powershell
 Connect-SPOService https://devro-admin.sharepoint.com -Credential admin@devro.onmicrosoft.com
 ```
 
 ## Disconnect
 
-```ps
+```Powershell
 Disconnect-SPOService
 ```
 
 ## ULS-Correlation ID
 
-```ps
+```Powershell
 get-splogevent -starttime (get-date).addminutes(-20) | where-object { $_.correlation -eq "e434f79b-68bb-40d2-0000-03a47eae1bf9" } | fl message > c:\errors1.txt
 ```
 
@@ -56,7 +56,7 @@ get-splogevent -starttime (get-date).addminutes(-20) | where-object { $_.correla
 - [SPO Authentication in Powershell for CSOM when Legacy Authentication is disabled for tenant or Multi Factor Authentication is enabled for user](https://blogs.technet.microsoft.com/sharepointdevelopersupport/2018/10/27/sharepoint-online-authentication-in-powershell-for-csom-when-legacy-authentication-is-disabled-for-tenant-or-multi-factor-authentication-is-enabled-for-user/)
 - [sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful](http://www.wictorwilen.se/sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful)
 
-```ps
+```Powershell
 get-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}
  ```
 
@@ -68,6 +68,6 @@ get-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}
 
 ### Remove Feedback Button
 
-```ps
+```Powershell
 Set-SPOTenant -UserVoiceForFeedbackEnabled:$false
 ```

@@ -5,6 +5,10 @@
 - https://udilia.com/courses/learn-react-by-building-a-web-app
 - https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/
 
+## Lifecycle methods
+
+- [Interactive React Lifecycle Methods diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
 ## Roadmap
 
 - https://github.com/adam-golab/react-developer-roadmap

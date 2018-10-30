@@ -9,6 +9,6 @@ https://www.sharepointnutsandbolts.com/2018/06/powershell-script-cloud-azure-fun
 
 https://github.com/Microsoft/vscode-azurefunctions#windows
 
-```ps
+```Powershell
 npm i -g azure-functions-core-tools@1
 ```

@@ -28,26 +28,26 @@ https://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.Se
 
 To get the list of all the Office 365 groups in descending order:
 
-```ps
+```Powershell
 Get-UnifiedGroup | Select Id, DisplayName, ManagedBy, Alias, AccessType, WhenCreated, @{Expression={([array](Get-UnifiedGroupLinks -Identity $_.Id -LinkType Members)).Count }; Label=’Members’} | Sort-Object whencreated | Format-Table displayname, alias, managedby, Members, accesstype, whencreated
 ```
 
 To get the list of all private Office 365 groups in your tenant:
 
-```ps
+```Powershell
 Get-UnifiedGroup | Where-Object {$_.AccessType -eq ‘Private’} | Sort-Object whencreated | Format-Table displayname, alias, managedby, accesstype, whencreated
 ``` 
 
 To get list of deleted Office 365 groups in descending order:
 
-```PS
+```Powershell
 Get-AzureADMSDeletedGroup | Sort-Object DeletedDateTime -Descending | Format-Table Id, DisplayName, Description, Visibility, DeletedDateTime
 ```
 
 
 To get the list of orphaned Office 365 groups in your tenant:
 
-```PS
+```Powershell
 $Groups = Get-UnifiedGroup | Where-Object {([array](Get-UnifiedGroupLinks -Identity $_.Id -LinkType Owners)).Count -eq 0} `
 
 | Select Id, DisplayName, ManagedBy, WhenCreated
@@ -61,12 +61,12 @@ Write-Host “Warning! The following group has no owner:” $G.DisplayName
 
 To determine where a group was provisioned (Planner, Yammer, Teams etc.)
 
-```PS
+```Powershell
 Get-UnifiedGroup |Where-Object {$_.ProvisioningOption -eq ‘YammerProvisioning’} |select DisplayName,Alias,ProvisioningOption,GroupSKU,SharePointSiteUrl,SharePointDocumentsUrl,AccessType
 ```
 
 To get the list of Teams integrated Office 365 group list:
 
-```PS
+```Powershell
 Get-UnifiedGroup |Where-Object {$_.ProvisioningOption -eq ‘ExchangeProvisioningFlags:481’}|select DisplayName,Alias,ProvisioningOption,GroupSKU,SharePointSiteUrl,SharePointDocumentsUrl,AccessType
 ```
