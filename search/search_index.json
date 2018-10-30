@@ -1622,7 +1622,7 @@
         },
         {
             "location": "/powershell/spo-ps/",
-            "text": "SPO Powershell\n\u00b6\n\n\n\n\nSPO Index\n\n\nGetting started with SharePoint Online Management Shell\n\n\n\n\nCheck Version\n\u00b6\n\n\nLatest Version\n- \nhttps://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.8119.0\n\n\nGet-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending\n\n\n\n\n\n\nDownload\n\n\n\n\nCredential Manager\n\u00b6\n\n\n\n\nHow-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell\n\n\n\n\nConnect\n\u00b6\n\n\n\n\nconnecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication\n\n\nConnect to Office 365/Exchange Services Functions\n\n\n\n\nConnect-SPOService https://devro-admin.sharepoint.com -Credential admin@devro.onmicrosoft.com\n\n\n\n\nDisconnect\n\u00b6\n\n\nDisconnect-SPOService\n\n\n\n\nULS-Correlation ID\n\u00b6\n\n\nget-splogevent -starttime (get-date).addminutes(-20) | where-object { $_.correlation -eq \"e434f79b-68bb-40d2-0000-03a47eae1bf9\" } | fl message > c:\\errors1.txt\n\n\n\n\nSecurity\n\u00b6\n\n\n\n\nSPO Authentication in Powershell for CSOM when Legacy Authentication is disabled for tenant or Multi Factor Authentication is enabled for user\n\n\nsharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful\n\n\n\n\nget-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}\n ```\n\n## Ressources\n\n- [resources-to-learn-powershell-for-office-365](https://absolute-sharepoint.com/2018/03/resources-to-learn-powershell-for-office-365.html)\n\n## Tenant Configuration\n\n### Remove Feedback Button\n\n```ps\nSet-SPOTenant -UserVoiceForFeedbackEnabled:$false",
+            "text": "SPO Powershell\n\u00b6\n\n\n\n\nSPO Index\n\n\nGetting started with SharePoint Online Management Shell\n\n\n\n\nCheck Version\n\u00b6\n\n\nLatest Version\n- \nhttps://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.8119.0\n\n\nGet-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending\n\n\n\n\n\n\nDownload\n\n\n\n\nUpdate Module to latest version\n\u00b6\n\n\nUpdate-Module Microsoft.Online.SharePoint.PowerShell\n\n\n\n\nDelete old version\n\u00b6\n\n\nGet-InstalledModule\n \n-Name\n \n\"Microsoft.Online.SharePoint.PowerShell\"\n \n-RequiredVersion\n \n16\n.\n0\n.\n8119\n.\n0\n \n|\n \nUninstall-Module\n\n\n\n\n\nCredential Manager\n\u00b6\n\n\n\n\nHow-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell\n\n\n\n\nConnect\n\u00b6\n\n\n\n\nconnecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication\n\n\nConnect to Office 365/Exchange Services Functions\n\n\n\n\nConnect-SPOService https://devro-admin.sharepoint.com -Credential admin@devro.onmicrosoft.com\n\n\n\n\nDisconnect\n\u00b6\n\n\nDisconnect-SPOService\n\n\n\n\nULS-Correlation ID\n\u00b6\n\n\nget-splogevent -starttime (get-date).addminutes(-20) | where-object { $_.correlation -eq \"e434f79b-68bb-40d2-0000-03a47eae1bf9\" } | fl message > c:\\errors1.txt\n\n\n\n\nSecurity\n\u00b6\n\n\n\n\nSPO Authentication in Powershell for CSOM when Legacy Authentication is disabled for tenant or Multi Factor Authentication is enabled for user\n\n\nsharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful\n\n\n\n\nget-sposite | ?{$_.DenyAddAndCustomizePages -eq 'Disabled'}\n ```\n\n## Ressources\n\n- [resources-to-learn-powershell-for-office-365](https://absolute-sharepoint.com/2018/03/resources-to-learn-powershell-for-office-365.html)\n\n## Tenant Configuration\n\n### Remove Feedback Button\n\n```ps\nSet-SPOTenant -UserVoiceForFeedbackEnabled:$false",
             "title": "SPO-PS"
         },
         {
@@ -1634,6 +1634,16 @@
             "location": "/powershell/spo-ps/#check-version",
             "text": "Latest Version\n-  https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.8119.0  Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending   Download",
             "title": "Check Version"
+        },
+        {
+            "location": "/powershell/spo-ps/#update-module-to-latest-version",
+            "text": "Update-Module Microsoft.Online.SharePoint.PowerShell",
+            "title": "Update Module to latest version"
+        },
+        {
+            "location": "/powershell/spo-ps/#delete-old-version",
+            "text": "Get-InstalledModule   -Name   \"Microsoft.Online.SharePoint.PowerShell\"   -RequiredVersion   16 . 0 . 8119 . 0   |   Uninstall-Module",
+            "title": "Delete old version"
         },
         {
             "location": "/powershell/spo-ps/#credential-manager",
