@@ -1444,49 +1444,49 @@
 <li><a href="http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation">security-trimmed-hub-navigation</a></li>
 <li><a href="https://mattipaukkonen.com/2018/08/22/manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell">manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>cls
+<div class="codehilite"><pre><span></span><span class="n">cls</span>
 
-$tenantAdmin = &quot;https://contoso-admin.sharepoint.com&quot;
-$hubSite = &quot;https://contoso.sharepoint.com/sites/hub&quot;
-$extensionGUID = &quot;6da1a9e8-471d-4f39-80e6-a7ded02e8881&quot;
-$extensionName = &quot;Extension Name&quot;
-$extensionTitle = &quot;Extension Title&quot;
+<span class="nv">$tenantAdmin</span> <span class="p">=</span> <span class="s2">&quot;https://contoso-admin.sharepoint.com&quot;</span>
+<span class="nv">$hubSite</span> <span class="p">=</span> <span class="s2">&quot;https://contoso.sharepoint.com/sites/hub&quot;</span>
+<span class="nv">$extensionGUID</span> <span class="p">=</span> <span class="s2">&quot;6da1a9e8-471d-4f39-80e6-a7ded02e8881&quot;</span>
+<span class="nv">$extensionName</span> <span class="p">=</span> <span class="s2">&quot;Extension Name&quot;</span>
+<span class="nv">$extensionTitle</span> <span class="p">=</span> <span class="s2">&quot;Extension Title&quot;</span>
 
-try
-{
-Connect-PnPOnline -Url $tenantAdmin -UseWebLogin
-} catch {
-Write-Host &quot;Unable to connect.&quot;
-exit
-}
+<span class="k">try</span>
+<span class="p">{</span>
+<span class="nb">Connect-PnPOnline</span> <span class="n">-Url</span> <span class="nv">$tenantAdmin</span> <span class="n">-UseWebLogin</span>
+<span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+<span class="nb">Write-Host</span> <span class="s2">&quot;Unable to connect.&quot;</span>
+<span class="n">exit</span>
+<span class="p">}</span>
 
-$HubSite = Get-PnPHubSite $hubSite
-$HubSiteId = $HubSite.SiteId
-$ModernSites = (Get-PnPTenantSite -Template &#39;GROUP#0&#39;) + (Get-PnPTenantSite -Template &#39;SITEPAGEPUBLISHING#0&#39;)
-$SitesFromHub = New-Object System.Collections.ArrayList
+<span class="nv">$HubSite</span> <span class="p">=</span> <span class="nb">Get-PnPHubSite</span> <span class="nv">$hubSite</span>
+<span class="nv">$HubSiteId</span> <span class="p">=</span> <span class="nv">$HubSite</span><span class="p">.</span><span class="n">SiteId</span>
+<span class="nv">$ModernSites</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-PnPTenantSite</span> <span class="n">-Template</span> <span class="s1">&#39;GROUP#0&#39;</span><span class="p">)</span> <span class="p">+</span> <span class="p">(</span><span class="nb">Get-PnPTenantSite</span> <span class="n">-Template</span> <span class="s1">&#39;SITEPAGEPUBLISHING#0&#39;</span><span class="p">)</span>
+<span class="nv">$SitesFromHub</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="n">Collections</span><span class="p">.</span><span class="n">ArrayList</span>
 
-Write-Host (&quot;Searching {0} sites:&quot; -f $HubSite.Title) -BackgroundColor Gray
-foreach ($ModernSite in $ModernSites){
-    $site = Get-PnPHubSite $ModernSite.Url
-    if($site.SiteUrl){
-    if($site.SiteId -eq $HubSiteId){
-            Write-Host (&quot;* {0} - {1}&quot; -f $ModernSite.Title, $ModernSite.Url)
-            $SitesFromHub.Add($ModernSite) | Out-Null
-        }
-    }
-}
+<span class="nb">Write-Host</span> <span class="p">(</span><span class="s2">&quot;Searching {0} sites:&quot;</span> <span class="o">-f</span> <span class="nv">$HubSite</span><span class="p">.</span><span class="n">Title</span><span class="p">)</span> <span class="n">-BackgroundColor</span> <span class="n">Gray</span>
+<span class="k">foreach</span> <span class="p">(</span><span class="nv">$ModernSite</span> <span class="k">in</span> <span class="nv">$ModernSites</span><span class="p">){</span>
+    <span class="nv">$site</span> <span class="p">=</span> <span class="nb">Get-PnPHubSite</span> <span class="nv">$ModernSite</span><span class="p">.</span><span class="n">Url</span>
+    <span class="k">if</span><span class="p">(</span><span class="nv">$site</span><span class="p">.</span><span class="n">SiteUrl</span><span class="p">){</span>
+    <span class="k">if</span><span class="p">(</span><span class="nv">$site</span><span class="p">.</span><span class="n">SiteId</span> <span class="o">-eq</span> <span class="nv">$HubSiteId</span><span class="p">){</span>
+            <span class="nb">Write-Host</span> <span class="p">(</span><span class="s2">&quot;* {0} - {1}&quot;</span> <span class="o">-f</span> <span class="nv">$ModernSite</span><span class="p">.</span><span class="n">Title</span><span class="p">,</span> <span class="nv">$ModernSite</span><span class="p">.</span><span class="n">Url</span><span class="p">)</span>
+            <span class="nv">$SitesFromHub</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="nv">$ModernSite</span><span class="p">)</span> <span class="p">|</span> <span class="nb">Out-Null</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 
-Write-Host &quot;&quot;
-Write-Host &quot;Installing at:&quot; -BackgroundColor Gray
-foreach ($SiteHub in $SitesFromHub){
-    Write-Host (&quot;* {0} - {1} ... &quot; -f $SiteHub.Title, $SiteHub.Url) -NoNewline
-    Connect-PnPOnline -Url $SiteHub.Url -UseWebLogin
-    Add-PnPCustomAction -ClientSideComponentId $extensionGUID -Name $extensionName -Title $extensionTitle -Location ClientSideExtension.ApplicationCustomizer -Scope site
-    Write-Host &quot;Done&quot; -BackgroundColor Green
-    Disconnect-PnPOnline
-}
+<span class="nb">Write-Host</span> <span class="s2">&quot;&quot;</span>
+<span class="nb">Write-Host</span> <span class="s2">&quot;Installing at:&quot;</span> <span class="n">-BackgroundColor</span> <span class="n">Gray</span>
+<span class="k">foreach</span> <span class="p">(</span><span class="nv">$SiteHub</span> <span class="k">in</span> <span class="nv">$SitesFromHub</span><span class="p">){</span>
+    <span class="nb">Write-Host</span> <span class="p">(</span><span class="s2">&quot;* {0} - {1} ... &quot;</span> <span class="o">-f</span> <span class="nv">$SiteHub</span><span class="p">.</span><span class="n">Title</span><span class="p">,</span> <span class="nv">$SiteHub</span><span class="p">.</span><span class="n">Url</span><span class="p">)</span> <span class="n">-NoNewline</span>
+    <span class="nb">Connect-PnPOnline</span> <span class="n">-Url</span> <span class="nv">$SiteHub</span><span class="p">.</span><span class="n">Url</span> <span class="n">-UseWebLogin</span>
+    <span class="nb">Add-PnPCustomAction</span> <span class="n">-ClientSideComponentId</span> <span class="nv">$extensionGUID</span> <span class="n">-Name</span> <span class="nv">$extensionName</span> <span class="n">-Title</span> <span class="nv">$extensionTitle</span> <span class="n">-Location</span> <span class="n">ClientSideExtension</span><span class="p">.</span><span class="n">ApplicationCustomizer</span> <span class="n">-Scope</span> <span class="n">site</span>
+    <span class="nb">Write-Host</span> <span class="s2">&quot;Done&quot;</span> <span class="n">-BackgroundColor</span> <span class="n">Green</span>
+    <span class="nb">Disconnect-PnPOnline</span>
+<span class="p">}</span>
 
-Write-Host &quot;All Done&quot;
+<span class="nb">Write-Host</span> <span class="s2">&quot;All Done&quot;</span>
 </pre></div>
 
 <h2 id="csom">CSOM<a class="headerlink" href="#csom" title="Permanent link">&para;</a></h2>

@@ -1446,13 +1446,13 @@
 <ul>
 <li><a href="https://www.toddklindt.com/PoshDisableFlowButton">https://www.toddklindt.com/PoshDisableFlowButton</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>Connect-PnPOnline -Url https://&lt;teantUrl&gt;/sites/&lt;name&gt;
+<div class="codehilite"><pre><span></span><span class="nb">Connect-PnPOnline</span> <span class="n">-Url</span> <span class="n">https</span><span class="err">:</span><span class="p">//&lt;</span><span class="n">teantUrl</span><span class="p">&gt;/</span><span class="n">sites</span><span class="p">/&lt;</span><span class="n">name</span><span class="p">&gt;</span>
 
-# disable
-Set-PnPSite -DisableFlows:$true
+<span class="c"># disable</span>
+<span class="nb">Set-PnPSite</span> <span class="n">-DisableFlows</span><span class="err">:</span><span class="nv">$true</span>
 
-# enable
-Set-PnPSite -DisableFlows:$false
+<span class="c"># enable</span>
+<span class="nb">Set-PnPSite</span> <span class="n">-DisableFlows</span><span class="err">:</span><span class="nv">$false</span>
 </pre></div>
                 
                   

@@ -1470,14 +1470,14 @@
 <h2 id="check-version">Check Version<a class="headerlink" href="#check-version" title="Permanent link">&para;</a></h2>
 <p>Latest Version
 - <a href="https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.8119.0">https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.8119.0</a></p>
-<div class="codehilite"><pre><span></span>Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending
+<div class="codehilite"><pre><span></span><span class="nb">Get-Module</span> <span class="n">Microsoft</span><span class="p">.</span><span class="n">Online</span><span class="p">.</span><span class="n">SharePoint</span><span class="p">.</span><span class="n">PowerShell</span><span class="p">*</span> <span class="n">-ListAvailable</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span><span class="p">,</span><span class="n">Version</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">Version</span> <span class="n">-Descending</span>
 </pre></div>
 
 <ul>
 <li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=35588">Download</a></li>
 </ul>
 <h2 id="update-module-to-latest-version">Update Module to latest version<a class="headerlink" href="#update-module-to-latest-version" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>Update-Module Microsoft.Online.SharePoint.PowerShell
+<div class="codehilite"><pre><span></span><span class="nb">Update-Module</span> <span class="n">Microsoft</span><span class="p">.</span><span class="n">Online</span><span class="p">.</span><span class="n">SharePoint</span><span class="p">.</span><span class="n">PowerShell</span>
 </pre></div>
 
 <h2 id="delete-old-version">Delete old version<a class="headerlink" href="#delete-old-version" title="Permanent link">&para;</a></h2>
@@ -1493,15 +1493,15 @@
 <li><a href="https://absolute-sharepoint.com/2018/03/connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication.html">connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication</a></li>
 <li><a href="https://gallery.technet.microsoft.com/Connect-to-Office-53f6eb07">Connect to Office 365/Exchange Services Functions</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>Connect-SPOService https://devro-admin.sharepoint.com -Credential admin@devro.onmicrosoft.com
+<div class="codehilite"><pre><span></span><span class="nb">Connect-SPOService</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">devro-admin</span><span class="p">.</span><span class="n">sharepoint</span><span class="p">.</span><span class="n">com</span> <span class="n">-Credential</span> <span class="n">admin</span><span class="nv">@devro</span><span class="p">.</span><span class="n">onmicrosoft</span><span class="p">.</span><span class="n">com</span>
 </pre></div>
 
 <h2 id="disconnect">Disconnect<a class="headerlink" href="#disconnect" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>Disconnect-SPOService
+<div class="codehilite"><pre><span></span><span class="nb">Disconnect-SPOService</span>
 </pre></div>
 
 <h2 id="uls-correlation-id">ULS-Correlation ID<a class="headerlink" href="#uls-correlation-id" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>get-splogevent -starttime (get-date).addminutes(-20) | where-object { $_.correlation -eq &quot;e434f79b-68bb-40d2-0000-03a47eae1bf9&quot; } | fl message &gt; c:\errors1.txt
+<div class="codehilite"><pre><span></span><span class="nb">get-splogevent</span> <span class="n">-starttime</span> <span class="p">(</span><span class="nb">get-date</span><span class="p">).</span><span class="n">addminutes</span><span class="p">(-</span><span class="n">20</span><span class="p">)</span> <span class="p">|</span> <span class="nb">where-object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">correlation</span> <span class="o">-eq</span> <span class="s2">&quot;e434f79b-68bb-40d2-0000-03a47eae1bf9&quot;</span> <span class="p">}</span> <span class="p">|</span> <span class="n">fl</span> <span class="n">message</span> <span class="p">&gt;</span> <span class="n">c</span><span class="err">:</span><span class="p">\</span><span class="n">errors1</span><span class="p">.</span><span class="n">txt</span>
 </pre></div>
 
 <h2 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h2>
@@ -1509,19 +1509,19 @@
 <li><a href="https://blogs.technet.microsoft.com/sharepointdevelopersupport/2018/10/27/sharepoint-online-authentication-in-powershell-for-csom-when-legacy-authentication-is-disabled-for-tenant-or-multi-factor-authentication-is-enabled-for-user/">SPO Authentication in Powershell for CSOM when Legacy Authentication is disabled for tenant or Multi Factor Authentication is enabled for user</a></li>
 <li><a href="http://www.wictorwilen.se/sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful">sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>get-sposite | ?{$_.DenyAddAndCustomizePages -eq &#39;Disabled&#39;}
- ```
+<div class="codehilite"><pre><span></span><span class="nb">get-sposite</span> <span class="p">|</span> <span class="p">?{</span><span class="nv">$_</span><span class="p">.</span><span class="n">DenyAddAndCustomizePages</span> <span class="o">-eq</span> <span class="s1">&#39;Disabled&#39;</span><span class="p">}</span>
+ <span class="p">```</span>
 
-## Ressources
+<span class="c">## Ressources</span>
 
-- [resources-to-learn-powershell-for-office-365](https://absolute-sharepoint.com/2018/03/resources-to-learn-powershell-for-office-365.html)
+<span class="p">-</span> <span class="p">[</span><span class="n">resources-to-learn-powershell-for-office</span><span class="p">-</span><span class="n">365</span><span class="p">](</span><span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">absolute-sharepoint</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">2018</span><span class="p">/</span><span class="n">03</span><span class="p">/</span><span class="n">resources-to-learn-powershell-for-office</span><span class="p">-</span><span class="n">365</span><span class="p">.</span><span class="n">html</span><span class="p">)</span>
 
-## Tenant Configuration
+<span class="c">## Tenant Configuration</span>
 
-### Remove Feedback Button
+<span class="c">### Remove Feedback Button</span>
 
-```ps
-Set-SPOTenant -UserVoiceForFeedbackEnabled:$false
+<span class="p">```</span><span class="n">Powershell</span>
+<span class="nb">Set-SPOTenant</span> <span class="n">-UserVoiceForFeedbackEnabled</span><span class="err">:</span><span class="nv">$false</span>
 </pre></div>
                 
                   

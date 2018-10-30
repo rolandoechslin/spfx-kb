@@ -1404,35 +1404,35 @@
 <li><a href="https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups">https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups</a></li>
 </ul>
 <p>To get the list of all the Office 365 groups in descending order:</p>
-<div class="codehilite"><pre><span></span>Get-UnifiedGroup | Select Id, DisplayName, ManagedBy, Alias, AccessType, WhenCreated, @{Expression={([array](Get-UnifiedGroupLinks -Identity $_.Id -LinkType Members)).Count }; Label=’Members’} | Sort-Object whencreated | Format-Table displayname, alias, managedby, Members, accesstype, whencreated
+<div class="codehilite"><pre><span></span><span class="nb">Get-UnifiedGroup</span> <span class="p">|</span> <span class="n">Select</span> <span class="n">Id</span><span class="p">,</span> <span class="n">DisplayName</span><span class="p">,</span> <span class="n">ManagedBy</span><span class="p">,</span> <span class="k">Alias</span><span class="p">,</span> <span class="n">AccessType</span><span class="p">,</span> <span class="n">WhenCreated</span><span class="p">,</span> <span class="p">@{</span><span class="n">Expression</span><span class="p">={(</span><span class="no">[array]</span><span class="p">(</span><span class="nb">Get-UnifiedGroupLinks</span> <span class="n">-Identity</span> <span class="nv">$_</span><span class="p">.</span><span class="n">Id</span> <span class="n">-LinkType</span> <span class="n">Members</span><span class="p">)).</span><span class="n">Count</span> <span class="p">};</span> <span class="n">Label</span><span class="p">=</span><span class="err">’</span><span class="n">Members</span><span class="err">’</span><span class="p">}</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">whencreated</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">displayname</span><span class="p">,</span> <span class="k">alias</span><span class="p">,</span> <span class="n">managedby</span><span class="p">,</span> <span class="n">Members</span><span class="p">,</span> <span class="n">accesstype</span><span class="p">,</span> <span class="n">whencreated</span>
 </pre></div>
 
 <p>To get the list of all private Office 365 groups in your tenant:</p>
-<div class="codehilite"><pre><span></span>Get-UnifiedGroup | Where-Object {$_.AccessType -eq ‘Private’} | Sort-Object whencreated | Format-Table displayname, alias, managedby, accesstype, whencreated
+<div class="codehilite"><pre><span></span><span class="nb">Get-UnifiedGroup</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="n">AccessType</span> <span class="o">-eq</span> <span class="err">‘</span><span class="n">Private</span><span class="err">’</span><span class="p">}</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">whencreated</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">displayname</span><span class="p">,</span> <span class="k">alias</span><span class="p">,</span> <span class="n">managedby</span><span class="p">,</span> <span class="n">accesstype</span><span class="p">,</span> <span class="n">whencreated</span>
 </pre></div>
 
 <p>To get list of deleted Office 365 groups in descending order:</p>
-<div class="codehilite"><pre><span></span>Get-AzureADMSDeletedGroup | Sort-Object DeletedDateTime -Descending | Format-Table Id, DisplayName, Description, Visibility, DeletedDateTime
+<div class="codehilite"><pre><span></span><span class="nb">Get-AzureADMSDeletedGroup</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">DeletedDateTime</span> <span class="n">-Descending</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">Id</span><span class="p">,</span> <span class="n">DisplayName</span><span class="p">,</span> <span class="n">Description</span><span class="p">,</span> <span class="n">Visibility</span><span class="p">,</span> <span class="n">DeletedDateTime</span>
 </pre></div>
 
 <p>To get the list of orphaned Office 365 groups in your tenant:</p>
-<div class="codehilite"><pre><span></span>$Groups = Get-UnifiedGroup | Where-Object {([array](Get-UnifiedGroupLinks -Identity $_.Id -LinkType Owners)).Count -eq 0} `
+<div class="codehilite"><pre><span></span><span class="nv">$Groups</span> <span class="p">=</span> <span class="nb">Get-UnifiedGroup</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{(</span><span class="no">[array]</span><span class="p">(</span><span class="nb">Get-UnifiedGroupLinks</span> <span class="n">-Identity</span> <span class="nv">$_</span><span class="p">.</span><span class="n">Id</span> <span class="n">-LinkType</span> <span class="n">Owners</span><span class="p">)).</span><span class="n">Count</span> <span class="o">-eq</span> <span class="n">0</span><span class="p">}</span> <span class="p">`</span>
 
-| Select Id, DisplayName, ManagedBy, WhenCreated
+<span class="p">|</span> <span class="n">Select</span> <span class="n">Id</span><span class="p">,</span> <span class="n">DisplayName</span><span class="p">,</span> <span class="n">ManagedBy</span><span class="p">,</span> <span class="n">WhenCreated</span>
 
-ForEach ($G in $Groups) {
+<span class="k">ForEach</span> <span class="p">(</span><span class="nv">$G</span> <span class="k">in</span> <span class="nv">$Groups</span><span class="p">)</span> <span class="p">{</span>
 
-Write-Host “Warning! The following group has no owner:” $G.DisplayName
+<span class="nb">Write-Host</span> <span class="err">“</span><span class="n">Warning</span><span class="p">!</span> <span class="n">The</span> <span class="n">following</span> <span class="n">group</span> <span class="n">has</span> <span class="n">no</span> <span class="n">owner</span><span class="err">:”</span> <span class="nv">$G</span><span class="p">.</span><span class="n">DisplayName</span>
 
-}
+<span class="p">}</span>
 </pre></div>
 
 <p>To determine where a group was provisioned (Planner, Yammer, Teams etc.)</p>
-<div class="codehilite"><pre><span></span>Get-UnifiedGroup |Where-Object {$_.ProvisioningOption -eq ‘YammerProvisioning’} |select DisplayName,Alias,ProvisioningOption,GroupSKU,SharePointSiteUrl,SharePointDocumentsUrl,AccessType
+<div class="codehilite"><pre><span></span><span class="nb">Get-UnifiedGroup</span> <span class="p">|</span><span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="n">ProvisioningOption</span> <span class="o">-eq</span> <span class="err">‘</span><span class="n">YammerProvisioning</span><span class="err">’</span><span class="p">}</span> <span class="p">|</span><span class="n">select</span> <span class="n">DisplayName</span><span class="p">,</span><span class="k">Alias</span><span class="p">,</span><span class="n">ProvisioningOption</span><span class="p">,</span><span class="n">GroupSKU</span><span class="p">,</span><span class="n">SharePointSiteUrl</span><span class="p">,</span><span class="n">SharePointDocumentsUrl</span><span class="p">,</span><span class="n">AccessType</span>
 </pre></div>
 
 <p>To get the list of Teams integrated Office 365 group list:</p>
-<div class="codehilite"><pre><span></span>Get-UnifiedGroup |Where-Object {$_.ProvisioningOption -eq ‘ExchangeProvisioningFlags:481’}|select DisplayName,Alias,ProvisioningOption,GroupSKU,SharePointSiteUrl,SharePointDocumentsUrl,AccessType
+<div class="codehilite"><pre><span></span><span class="nb">Get-UnifiedGroup</span> <span class="p">|</span><span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="n">ProvisioningOption</span> <span class="o">-eq</span> <span class="err">‘</span><span class="n">ExchangeProvisioningFlags</span><span class="err">:</span><span class="n">481</span><span class="err">’</span><span class="p">}|</span><span class="n">select</span> <span class="n">DisplayName</span><span class="p">,</span><span class="k">Alias</span><span class="p">,</span><span class="n">ProvisioningOption</span><span class="p">,</span><span class="n">GroupSKU</span><span class="p">,</span><span class="n">SharePointSiteUrl</span><span class="p">,</span><span class="n">SharePointDocumentsUrl</span><span class="p">,</span><span class="n">AccessType</span>
 </pre></div>
                 
                   
