@@ -442,7 +442,7 @@
         },
         {
             "location": "/spfx/flow/",
-            "text": "Flow\n\u00b6\n\n\nConnectors\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors\n\n\n\n\nLimits\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/flow/limits-and-config\n\n\nhttps://veenstra.me.uk/2018/07/17/microsoft-flow-connector-limits\n\n\nhttps://veenstra.me.uk/2018/03/19/microsoft-flow-the-hidden-gems-are-you-aware-of-all-of-these\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/johnnliu/flow\n\n\nDemo - Using Microsoft Flow to send monthly emails\n\n\nhttp://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow\n\n\nCalling Microsoft Flow from a site script\n\n\n\n\nError Messages\n\u00b6\n\n\n\n\nhttps://veenstra.me.uk/2018/08/30/sharepoint-microsoft-flow-common-error-message-when-using-send-an-http-request-to-sharepoint-action-in-microsoft-flow/\n\n\n\n\nDisable Flow\n\u00b6\n\n\n\n\nhttps://www.toddklindt.com/PoshDisableFlowButton\n\n\n\n\nConnect-PnPOnline\n \n-Url\n \nhttps\n:\n//<\nteantUrl\n>/\nsites\n/<\nname\n>\n\n\n\n# disable\n\n\nSet-PnPSite\n \n-DisableFlows\n:\n$true\n\n\n\n# enable\n\n\nSet-PnPSite\n \n-DisableFlows\n:\n$false",
+            "text": "Flow\n\u00b6\n\n\nConnectors\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors\n\n\n\n\nLimits\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/flow/limits-and-config\n\n\nhttps://veenstra.me.uk/2018/07/17/microsoft-flow-connector-limits\n\n\nhttps://veenstra.me.uk/2018/03/19/microsoft-flow-the-hidden-gems-are-you-aware-of-all-of-these\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://github.com/johnnliu/flow\n\n\nDemo - Using Microsoft Flow to send monthly emails\n\n\nhttp://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow\n\n\nCalling Microsoft Flow from a site script\n\n\nAutomating New User Account On-boarding Using SharePoint Online, Flow, and PowerApps\n\n\n\n\nError Messages\n\u00b6\n\n\n\n\nSharePoint / Microsoft Flow \u2013 Common error message when using Send an HTTP request to SharePoint action in Microsoft Flow\n\n\n\n\nDisable Flow\n\u00b6\n\n\n\n\nhttps://www.toddklindt.com/PoshDisableFlowButton\n\n\n\n\nConnect-PnPOnline\n \n-Url\n \nhttps\n:\n//<\nteantUrl\n>/\nsites\n/<\nname\n>\n\n\n\n# disable\n\n\nSet-PnPSite\n \n-DisableFlows\n:\n$true\n\n\n\n# enable\n\n\nSet-PnPSite\n \n-DisableFlows\n:\n$false",
             "title": "Flow"
         },
         {
@@ -462,12 +462,12 @@
         },
         {
             "location": "/spfx/flow/#samples",
-            "text": "https://github.com/johnnliu/flow  Demo - Using Microsoft Flow to send monthly emails  http://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow  Calling Microsoft Flow from a site script",
+            "text": "https://github.com/johnnliu/flow  Demo - Using Microsoft Flow to send monthly emails  http://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow  Calling Microsoft Flow from a site script  Automating New User Account On-boarding Using SharePoint Online, Flow, and PowerApps",
             "title": "Samples"
         },
         {
             "location": "/spfx/flow/#error-messages",
-            "text": "https://veenstra.me.uk/2018/08/30/sharepoint-microsoft-flow-common-error-message-when-using-send-an-http-request-to-sharepoint-action-in-microsoft-flow/",
+            "text": "SharePoint / Microsoft Flow \u2013 Common error message when using Send an HTTP request to SharePoint action in Microsoft Flow",
             "title": "Error Messages"
         },
         {
@@ -1777,7 +1777,7 @@
         },
         {
             "location": "/tools/powerapps/",
-            "text": "PowerApps\n\u00b6\n\n\nSharePoint custom forms and automated business workflow\n\n\nVideo Tutorials\n\u00b6\n\n\n\n\nYoutube Microsoft PowerApps Channel\n\n\n\n\nPrice\n\u00b6\n\n\n\n\nhttps://powerapps.microsoft.com/en-us/pricing/\n\n\n\n\nWebParts\n\u00b6\n\n\n\n\nhttps://www.jijitechnologies.com/blogs/powerapps-webpart-sharepoint\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://powerapps.microsoft.com/en-us/blog/tips-for-a-maintainable-extensible-app\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://resources.techcommunity.microsoft.com/business-applications-process/",
+            "text": "PowerApps\n\u00b6\n\n\nSharePoint custom forms and automated business workflow\n\n\nVideo Tutorials\n\u00b6\n\n\n\n\nYoutube Microsoft PowerApps Channel\n\n\n\n\nPrice\n\u00b6\n\n\n\n\nhttps://powerapps.microsoft.com/en-us/pricing/\n\n\n\n\nWebParts\n\u00b6\n\n\n\n\nhttps://www.jijitechnologies.com/blogs/powerapps-webpart-sharepoint\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://powerapps.microsoft.com/en-us/blog/tips-for-a-maintainable-extensible-app\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://resources.techcommunity.microsoft.com/business-applications-process/\n\n\nFlow provisioning with azure function and pnp template",
             "title": "Powerapps"
         },
         {
@@ -1807,7 +1807,7 @@
         },
         {
             "location": "/tools/powerapps/#samples",
-            "text": "https://resources.techcommunity.microsoft.com/business-applications-process/",
+            "text": "https://resources.techcommunity.microsoft.com/business-applications-process/  Flow provisioning with azure function and pnp template",
             "title": "Samples"
         },
         {
