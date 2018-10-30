@@ -10,21 +10,25 @@
 
 ## ListView
 
-- <https://www.eliostruyf.com/showing-or-hiding-sharepoint-framework-listview-custom-actions-based-on-permissions-and-selected-items>
+- [Showing or hiding SharePoint Framework ListView custom actions based on permissions and selected items](https://www.eliostruyf.com/showing-or-hiding-sharepoint-framework-listview-custom-actions-based-on-permissions-and-selected-items)
 
 ## Comments
 
-- <http://sharepoint.handsontek.net/2018/08/13/receive-comment-notification-by-email-in-modern-sharepoint-pages/>
-- <https://github.com/joaoferreira/Comments-Notifications-On-Modern-SharePoint-Pages>
+- [Receive comment notifications by email in Modern SharePoint Pages](http://sharepoint.handsontek.net/2018/08/13/receive-comment-notification-by-email-in-modern-sharepoint-pages)
+- [Github: Receive comment notifications on Modern SharePoint pages by email](https://github.com/joaoferreira/Comments-Notifications-On-Modern-SharePoint-Pages)
 
 ## Change browser favicon icon
 
-- <http://sharepoint.handsontek.net/2018/08/24/change-favicon-on-modern-sharepoint-sites>
-- <https://github.com/joaoferreira/SPFx-favicon>
+- [Change favicon on Modern SharePoint sites](http://sharepoint.handsontek.net/2018/08/24/change-favicon-on-modern-sharepoint-sites)
+- [SPFx-favicon](https://github.com/joaoferreira/SPFx-favicon)
+
+## Inject CSS
+
+- [Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions](https://tahoeninjas.blog/2018/10/29/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/)
 
 ## Navigations
 
-- <https://www.eliostruyf.com/handling-navigation-in-a-sharepoint-framework-application-customizer>
+- [Handling navigation in a SharePoint Framework application customizer](https://www.eliostruyf.com/handling-navigation-in-a-sharepoint-framework-application-customizer)
 
 ## Placeholders
 
