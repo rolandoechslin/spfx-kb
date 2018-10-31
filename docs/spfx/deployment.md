@@ -9,6 +9,7 @@
 - https://github.com/estruyf/node-sp-alm
 - https://docs.microsoft.com/en-us/sharepoint/dev/apis/alm-api-for-spfx-add-ins
 - https://www.npmjs.com/package/node-sp-alm
+- [ALM API and installSolution SiteScript Action Demo](https://github.com/AJIXuMuK/demos/tree/master/alm)
 
 ## Deployment to CDN
 

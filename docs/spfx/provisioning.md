@@ -1,5 +1,10 @@
 # Provisioning
 
+## Reference
+
+- [Remote Provisioning Schema](https://github.com/SharePoint/PnP-Provisioning-Schema)
+- [PnP Core Component Provisioning Engine Tokens](https://github.com/SharePoint/PnP-Sites-Core/blob/master/Core/ProvisioningEngineTokens.md)
+
 ## Langugae
 
 - <https://www.eliostruyf.com/demystifying-the-mystery-behind-the-ui-language-in-sharepoint>
