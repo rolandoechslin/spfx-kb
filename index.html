@@ -401,22 +401,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#create-webpart" title="Create WebPart" class="md-nav__link">
-    Create WebPart
+  <a href="#create-project-pnpm" title="Create Project (pnpm)" class="md-nav__link">
+    Create Project (pnpm)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#development-local-workbench" title="Development - local workbench" class="md-nav__link">
-    Development - local workbench
+  <a href="#developmentlocal-workbench" title="Development(local workbench)" class="md-nav__link">
+    Development(local workbench)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#development-online-workbench" title="Development - online workbench" class="md-nav__link">
-    Development - online workbench
+  <a href="#developmentonline-workbench" title="Development(online workbench)" class="md-nav__link">
+    Development(online workbench)
   </a>
   
 </li>
@@ -1557,22 +1557,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#create-webpart" title="Create WebPart" class="md-nav__link">
-    Create WebPart
+  <a href="#create-project-pnpm" title="Create Project (pnpm)" class="md-nav__link">
+    Create Project (pnpm)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#development-local-workbench" title="Development - local workbench" class="md-nav__link">
-    Development - local workbench
+  <a href="#developmentlocal-workbench" title="Development(local workbench)" class="md-nav__link">
+    Development(local workbench)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#development-online-workbench" title="Development - online workbench" class="md-nav__link">
-    Development - online workbench
+  <a href="#developmentonline-workbench" title="Development(online workbench)" class="md-nav__link">
+    Development(online workbench)
   </a>
   
 </li>
@@ -1772,24 +1772,36 @@
 <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/community/community">SharePoint PnP resources</a></li>
 <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-glossary">Sharepoint Glossar</a></li>
 </ul>
-<h2 id="create-webpart">Create WebPart<a class="headerlink" href="#create-webpart" title="Permanent link">&para;</a></h2>
+<h2 id="create-project-pnpm">Create Project (pnpm)<a class="headerlink" href="#create-project-pnpm" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/scaffolding-projects-using-yeoman-sharepoint-generator">Scaffold projects by using Yeoman SharePoint generator</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>yo @microsoft/sharepoint
-git init
+<p>with pnpm manager</p>
+<ul>
+<li><a href="https://joelfmrodrigues.wordpress.com/2018/10/31/using-pnpm-with-spfx/">Using pnpm with SPFx</a></li>
+</ul>
+<div class="codehilite"><pre><span></span>yo @microsoft/sharepoint –package-manager pnpm
+</pre></div>
+
+<div class="codehilite"><pre><span></span>pnpm i tslint@5.9.1 -DE
+</pre></div>
+
+<div class="codehilite"><pre><span></span>pnpm i typescript@2.4.2 -DE
+</pre></div>
+
+<div class="codehilite"><pre><span></span>git init
 git add -A
 git commit -m &quot;init repo&quot;
 </pre></div>
 
-<h2 id="development-local-workbench">Development - local workbench<a class="headerlink" href="#development-local-workbench" title="Permanent link">&para;</a></h2>
+<h2 id="developmentlocal-workbench">Development(local workbench)<a class="headerlink" href="#developmentlocal-workbench" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>gulp serve
 </pre></div>
 
 <div class="codehilite"><pre><span></span>https://localhost:4321/temp/workbench.html
 </pre></div>
 
-<h2 id="development-online-workbench">Development - online workbench<a class="headerlink" href="#development-online-workbench" title="Permanent link">&para;</a></h2>
+<h2 id="developmentonline-workbench">Development(online workbench)<a class="headerlink" href="#developmentonline-workbench" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>gulp serve --nobrowser
 </pre></div>
 
