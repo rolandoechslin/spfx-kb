@@ -29,8 +29,21 @@
 
 with pnpm manager
 
+- [Using pnpm with SPFx](https://joelfmrodrigues.wordpress.com/2018/10/31/using-pnpm-with-spfx/)
+
 ```bs
 yo @microsoft/sharepoint –package-manager pnpm
+```
+
+```bs
+pnpm i tslint@5.9.1 -DE
+```
+
+```bs
+pnpm i typescript@2.4.2 -DE
+```
+
+```bs
 git init
 git add -A
 git commit -m "init repo"
