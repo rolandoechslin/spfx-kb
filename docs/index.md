@@ -23,7 +23,7 @@
 - [SharePoint PnP resources](https://docs.microsoft.com/en-us/sharepoint/dev/community/community)
 - [Sharepoint Glossar](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-glossary)
 
-## Create Project
+## Create Project (pnpm)
 
 - [Scaffold projects by using Yeoman SharePoint generator](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/scaffolding-projects-using-yeoman-sharepoint-generator)
 
@@ -49,7 +49,7 @@ git add -A
 git commit -m "init repo"
 ```
 
-## Development - local workbench
+## Development(local workbench)
 
 ```bs
 gulp serve
@@ -59,7 +59,7 @@ gulp serve
 https://localhost:4321/temp/workbench.html
 ```
 
-## Development - online workbench
+## Development(online workbench)
 
 ```bs
 gulp serve --nobrowser
