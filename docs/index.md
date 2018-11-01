@@ -23,12 +23,14 @@
 - [SharePoint PnP resources](https://docs.microsoft.com/en-us/sharepoint/dev/community/community)
 - [Sharepoint Glossar](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-glossary)
 
-## Create WebPart
+## Create Project
 
 - [Scaffold projects by using Yeoman SharePoint generator](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/scaffolding-projects-using-yeoman-sharepoint-generator)
 
+with pnpm manager
+
 ```bs
-yo @microsoft/sharepoint
+yo @microsoft/sharepoint –package-manager pnpm
 git init
 git add -A
 git commit -m "init repo"
