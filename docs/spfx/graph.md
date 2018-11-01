@@ -8,3 +8,4 @@
 ## Samples
 
 - [Using Microsoft Graph API to convert the format of your documents](https://blogs.technet.microsoft.com/sharepointdevelopersupport/2018/10/26/using-microsoft-graph-api-to-convert-the-format-of-your-documents)
+- [Azure Functions project that implements Microsoft Teams provisioning via Microsoft Graph](https://github.com/microsoftgraph/contoso-airlines-azure-functions-sample)

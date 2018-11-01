@@ -2,6 +2,7 @@
 
 ## Overview
 
+- [How to implement SharePoint Governance](https://sharepointmaven.com/implement-sharepoint-governance)
 - [overview-best-practices-for-managing-how-people-use-your-team-site](https://support.office.com/en-us/article/overview-best-practices-for-managing-how-people-use-your-team-site-95e83c3d-e1b0-4aae-9d08-e94dcaa4942e#__toc259623125)
 
 ## Permission
@@ -12,6 +13,10 @@
 ## User profile / Delete user
 
 - <http://nikcharlebois.com/user-profile-automated-removal-when-user-is-deleted-from-active-directory/>
+
+## External user
+
+- [4 ways to setup external users in SharePoint](https://sharepointmaven.com/setup-external-users-sharepoint)
 
 ## SiteCollections versus SubSites
 
