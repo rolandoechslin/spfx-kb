@@ -167,13 +167,18 @@
         },
         {
             "location": "/spfx/azure/",
-            "text": "Azure\n\u00b6\n\n\nAzure Functions\n\u00b6\n\n\n\n\nUsing Azure Automation for Modern SharePoint Site Provisioning\n\n\nAn Azure Function to keep other Functions/URLs warmed up\n\n\n3 ways to create and debug Azure Functions \u2013 CLI, VS Code and Visual Studio\n\n\n\n\nApp Register\n\u00b6\n\n\n\n\nRunning a PowerShell script in the cloud with an Azure Function, PnP and the Graph\n\n\nControl Office 365 Group creation \u2013 a simple no-code solution\n\n\n\n\nQuickstart\n\u00b6\n\n\n\n\nhttps://azure.microsoft.com/en-us/blog/get-the-azure-quick-start-guide-for-net-developers\n\n\n\n\nAAD\n\u00b6\n\n\nAzure Active Directory (AAD) Unified Groups, or better known as Office365 Groups\n- \nhttp://julieturner.net/2018/04/managing-the-unified-group-in-office-365-for-sharepoint-and-beyond\n\n\nManage Group Settings\n\u00b6\n\n\n\n\nhttps://support.office.com/en-us/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618\n\n\nhttps://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets\n\n\nHow to grant all employees access to a SharePoint site via Everyone except external users Group\n\n\nHow to grant the Everyone claim to external users in Office 365\n\n\n\n\nNaming Policiy\n\u00b6\n\n\n\n\nhttps://drewmadelung.com/category/office-365/groups/\n\n\n\n\nPermission Reference\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aadhttpclient\n\n\nhttps://github.com/microsoftgraph/microsoft-graph-docs/blob/master/concepts/permissions_reference.md\n\n\n\n\nScripts\n\u00b6\n\n\n\n\nhttps://github.com/dmadelung/O365GroupsScripts/blob/master/DrewO365GroupsScripts%20-%20Azure%20AD%20Cmdlets",
+            "text": "Azure\n\u00b6\n\n\nGranting access using SharePoint App-Only\n\u00b6\n\n\n\n\nSetting up an app-only principal with tenant permissions\n\n\n\n\nAzure Functions\n\u00b6\n\n\n\n\nUsing Azure Automation for Modern SharePoint Site Provisioning\n\n\nAn Azure Function to keep other Functions/URLs warmed up\n\n\n3 ways to create and debug Azure Functions \u2013 CLI, VS Code and Visual Studio\n\n\n\n\nApp Register\n\u00b6\n\n\n\n\nRunning a PowerShell script in the cloud with an Azure Function, PnP and the Graph\n\n\nControl Office 365 Group creation \u2013 a simple no-code solution\n\n\n\n\nQuickstart\n\u00b6\n\n\n\n\nhttps://azure.microsoft.com/en-us/blog/get-the-azure-quick-start-guide-for-net-developers\n\n\n\n\nAAD\n\u00b6\n\n\nAzure Active Directory (AAD) Unified Groups, or better known as Office365 Groups\n- \nhttp://julieturner.net/2018/04/managing-the-unified-group-in-office-365-for-sharepoint-and-beyond\n\n\nManage Group Settings\n\u00b6\n\n\n\n\nhttps://support.office.com/en-us/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618\n\n\nhttps://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets\n\n\nHow to grant all employees access to a SharePoint site via Everyone except external users Group\n\n\nHow to grant the Everyone claim to external users in Office 365\n\n\n\n\nNaming Policiy\n\u00b6\n\n\n\n\nhttps://drewmadelung.com/category/office-365/groups/\n\n\n\n\nPermission Reference\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aadhttpclient\n\n\nhttps://github.com/microsoftgraph/microsoft-graph-docs/blob/master/concepts/permissions_reference.md\n\n\n\n\nScripts\n\u00b6\n\n\n\n\nhttps://github.com/dmadelung/O365GroupsScripts/blob/master/DrewO365GroupsScripts%20-%20Azure%20AD%20Cmdlets",
             "title": "Azure"
         },
         {
             "location": "/spfx/azure/#azure",
             "text": "",
             "title": "Azure"
+        },
+        {
+            "location": "/spfx/azure/#granting-access-using-sharepoint-app-only",
+            "text": "Setting up an app-only principal with tenant permissions",
+            "title": "Granting access using SharePoint App-Only"
         },
         {
             "location": "/spfx/azure/#azure-functions",
@@ -567,7 +572,7 @@
         },
         {
             "location": "/spfx/graph/",
-            "text": "Microsoft Graph\n\u00b6\n\n\n\n\n\n\nConsuming SharePoint Online via the Microsoft Graph\n\n\n\n\n\n\ngraph explorer - start\n\n\n\n\ngrap webhooks - subscription\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nUsing Microsoft Graph API to convert the format of your documents",
+            "text": "Microsoft Graph\n\u00b6\n\n\n\n\n\n\nConsuming SharePoint Online via the Microsoft Graph\n\n\n\n\n\n\ngraph explorer - start\n\n\n\n\ngrap webhooks - subscription\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nUsing Microsoft Graph API to convert the format of your documents\n\n\nAzure Functions project that implements Microsoft Teams provisioning via Microsoft Graph",
             "title": "Graph"
         },
         {
@@ -577,7 +582,7 @@
         },
         {
             "location": "/spfx/graph/#samples",
-            "text": "Using Microsoft Graph API to convert the format of your documents",
+            "text": "Using Microsoft Graph API to convert the format of your documents  Azure Functions project that implements Microsoft Teams provisioning via Microsoft Graph",
             "title": "Samples"
         },
         {
