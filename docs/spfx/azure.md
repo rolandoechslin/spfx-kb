@@ -1,5 +1,9 @@
 # Azure
 
+## Granting access using SharePoint App-Only
+
+- [Setting up an app-only principal with tenant permissions](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
+
 ## Azure Functions
 
 - [Using Azure Automation for Modern SharePoint Site Provisioning](http://www.avtex.com/2018/06/azure-automation-provisioning)
