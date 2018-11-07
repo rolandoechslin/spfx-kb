@@ -2,7 +2,7 @@
 
 ## Header Banner
 
-- [Creating Banners for your SharePoint Online Pages(](https://tracyvanderschyff.com/2018/05/03/creating-banners-for-your-sharepoint-online-pages)
+- [Creating Banners for your SharePoint Online Pages](https://tracyvanderschyff.com/2018/05/03/creating-banners-for-your-sharepoint-online-pages)
 
 ## Tools
 
