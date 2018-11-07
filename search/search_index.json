@@ -757,7 +757,7 @@
         },
         {
             "location": "/spfx/sitescripts/",
-            "text": "SiteScripts\n\u00b6\n\n\n\n\nSharePoint Site Scripts and Site Designs - April 2018 release\n\n\nTHE ULTIMATE GUIDE TO SHAREPOINT SITE DESIGNS AND SITE SCRIPTS\n\n\nHow To: Create Modern SharePoint site templates using Office 365 Site Designs\n\n\n\n\nPnP or site scripts\n\u00b6\n\n\n\n\nUsing Site Designs or PnP templates for SharePoint site provisioning\n\n\n\n\nReference\n\u00b6\n\n\n\n\nSite design JSON schema\n\n\nCalling the PnP provisioning engine from a site script\n\n\n\n\nTools\n\u00b6\n\n\n\n\nSite Designs Studio 1.0\n\n\nConvert CAML List Schema to Site Scripts\n\n\nSharepoint Site Designer\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSharePoint Site Script samples\n\n\nTriggers Flow to run an Azure function containing PnP PowerShell",
+            "text": "SiteScripts\n\u00b6\n\n\n\n\nSharePoint Site Scripts and Site Designs - April 2018 release\n\n\nTHE ULTIMATE GUIDE TO SHAREPOINT SITE DESIGNS AND SITE SCRIPTS\n\n\nHow To: Create Modern SharePoint site templates using Office 365 Site Designs\n\n\n\n\nPnP or site scripts\n\u00b6\n\n\n\n\nUsing Site Designs or PnP templates for SharePoint site provisioning\n\n\n\n\nReference\n\u00b6\n\n\n\n\nSite design JSON schema\n\n\nCalling the PnP provisioning engine from a site script\n\n\n\n\nTools\n\u00b6\n\n\n\n\nSite Designs Studio 1.0\n\n\nConvert CAML List Schema to Site Scripts\n\n\nSharepoint Site Designer\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSharePoint Site Script samples\n\n\nTriggers Flow to run an Azure function containing PnP PowerShell\n\n\n\n\nFields\n\u00b6\n\n\n\n\nTaxonomie Field",
             "title": "SiteScripts"
         },
         {
@@ -784,6 +784,11 @@
             "location": "/spfx/sitescripts/#samples",
             "text": "SharePoint Site Script samples  Triggers Flow to run an Azure function containing PnP PowerShell",
             "title": "Samples"
+        },
+        {
+            "location": "/spfx/sitescripts/#fields",
+            "text": "Taxonomie Field",
+            "title": "Fields"
         },
         {
             "location": "/spfx/sitedesign/",
