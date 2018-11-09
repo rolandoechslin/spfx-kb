@@ -30,6 +30,12 @@ Update-Module SharePointPnPPowerShell*
 Get-InstalledModule -Name "SharePointPnPPowerShellOnline" -RequiredVersion 2.24.1803.0 | Uninstall-Module
 ```
 
+## Install specifix version
+
+```Powershell
+Install-Module -Name SharePointPnPPowerShellOnline -RequiredVersion 3.0.1808.1
+```
+
 ## List all commands
 
 ```Powershell
