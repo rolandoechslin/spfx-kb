@@ -5,6 +5,10 @@
 - [Remote Provisioning Schema](https://github.com/SharePoint/PnP-Provisioning-Schema)
 - [PnP Core Component Provisioning Engine Tokens](https://github.com/SharePoint/PnP-Sites-Core/blob/master/Core/ProvisioningEngineTokens.md)
 
+## PnP-Provisining Template
+
+- [Walkthrough of Site Provisioning process using PnP PowerShell](https://asishpadhy.com/2018/11/09/walkthrough-of-pnp-provisioning-process-using-powershell/) 
+
 ## Langugae
 
 - <https://www.eliostruyf.com/demystifying-the-mystery-behind-the-ui-language-in-sharepoint>
