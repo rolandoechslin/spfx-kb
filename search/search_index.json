@@ -702,7 +702,7 @@
         },
         {
             "location": "/spfx/provisioning/",
-            "text": "Provisioning\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nRemote Provisioning Schema\n\n\nPnP Core Component Provisioning Engine Tokens\n\n\n\n\nPnP-Provisining Template\n\u00b6\n\n\n\n\nWalkthrough of Site Provisioning process using PnP PowerShell\n \n\n\n\n\nLangugae\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/demystifying-the-mystery-behind-the-ui-language-in-sharepoint\n\n\n\n\nLinks\n\u00b6\n\n\n\n\nhttps://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html\n\n\nhttps://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.SelfHostedWithAzureWebJob\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps\n\n\nhttps://www.techmikael.com/2017/04/creating-pnp-provisioning-file.html\n\n\nhttps://de.slideshare.net/sharePTkarm/how-to-automate-the-sharepoint-provisioning\n\n\nhttps://de.slideshare.net/DIWUG/spsnl17-be-more-effective-with-the-pnp-provisioning-engine-erwin-van-hunen\n\n\n\n\nConvert PnP Files\n\u00b6\n\n\n\n\nhttps://github.com/Puzzlepart/prosjektportalen-program/tree/dev/.scripts\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps\n\n\n\n\nFlow / Azure Function\n\u00b6\n\n\n\n\nhttps://github.com/giuleon/O365ModernProvisioning\n\n\n\n\nOneDrive for Business\n\u00b6\n\n\n\n\nCreate OneDrive for Business Site Collections using PowerShell",
+            "text": "Provisioning\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nRemote Provisioning Schema\n\n\nPnP Core Component Provisioning Engine Tokens\n\n\nTemplate Provisioning - Handlers\n\n\n\n\nPnP-Provisining Template\n\u00b6\n\n\n\n\nWalkthrough of Site Provisioning process using PnP PowerShell\n\n\n\n\nLangugae\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/demystifying-the-mystery-behind-the-ui-language-in-sharepoint\n\n\n\n\nLinks\n\u00b6\n\n\n\n\nhttps://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html\n\n\nhttps://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.SelfHostedWithAzureWebJob\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps\n\n\nhttps://www.techmikael.com/2017/04/creating-pnp-provisioning-file.html\n\n\nhttps://de.slideshare.net/sharePTkarm/how-to-automate-the-sharepoint-provisioning\n\n\nhttps://de.slideshare.net/DIWUG/spsnl17-be-more-effective-with-the-pnp-provisioning-engine-erwin-van-hunen\n\n\n\n\nConvert PnP Files\n\u00b6\n\n\n\n\nhttps://github.com/Puzzlepart/prosjektportalen-program/tree/dev/.scripts\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps\n\n\n\n\nFlow / Azure Function\n\u00b6\n\n\n\n\nhttps://github.com/giuleon/O365ModernProvisioning\n\n\n\n\nOneDrive for Business\n\u00b6\n\n\n\n\nCreate OneDrive for Business Site Collections using PowerShell",
             "title": "Provisioning"
         },
         {
@@ -712,7 +712,7 @@
         },
         {
             "location": "/spfx/provisioning/#reference",
-            "text": "Remote Provisioning Schema  PnP Core Component Provisioning Engine Tokens",
+            "text": "Remote Provisioning Schema  PnP Core Component Provisioning Engine Tokens  Template Provisioning - Handlers",
             "title": "Reference"
         },
         {
