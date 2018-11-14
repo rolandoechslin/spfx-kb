@@ -1,4 +1,6 @@
 # https://absolute-sharepoint.com/2018/03/create-a-report-of-sharepoint-online-external-users-with-powershell.html
+# http://www.sharepointdiary.com/2017/11/sharepoint-online-find-all-external-users-using-powershell.html
+
 
 $SiteCollections = Get-SPOSite -Limit All
 foreach ($site in $SiteCollections) {
