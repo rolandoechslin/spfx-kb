@@ -9,6 +9,7 @@
 ## Training video
 
 - [Microsoft Teams video training](https://support.office.com/en-us/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-US&rs=en-US&ad=US)
+- [Governance, management and lifecycle in Microsoft Teams](https://www.youtube.com/watch?v=cOCWDYc_HLs&feature=youtu.be)
 
 ## Coding
 
