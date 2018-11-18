@@ -927,7 +927,7 @@
         },
         {
             "location": "/spfx/support/",
-            "text": "Support\n\u00b6\n\n\nAdmin O365\n\u00b6\n\n\n\n\nhttp://aka.ms/Office-Developer\n (alle wichtigen Office DEV Links)\n\n\nhttp://aka.ms/Office-TechGuide\n \n\n\nhttps://support.office.com/?ui=de-DE&rs=de-CH&ad=CH&fromAR=1\n\n\nhttps://technet.microsoft.com/de-ch/\n\n\nhttps://products.office.com/de-CH/\n\n\nAdmin-Help-O365\n\n\nhttps://support.office.com/en-us/\n\n\nfree-ebooks-microsoft\n\n\nClick-2-Run\n\n\nURLs-und-IP-Adressbereiche-von-Office-365\n\n\nsharepoint-licensing-overview\n\n\nfree-microsoft-training-resources\n\n\n\n\nSPO\n\u00b6\n\n\n\n\nNavigation options for SharePoint Online\n\n\n\n\nDiagnostics\n\u00b6\n\n\n\n\nuse-the-page-diagnostics-tool-for-sharepoint-online\n\n\n\n\nWebParts\n\u00b6\n\n\n\n\nopen-and-use-the-web-part-maintenance-page\n\n\n\n\nLists\n\u00b6\n\n\n\n\nOrganize-documents-and-sites-in-office-365\n\n\nManage-large-lists-and-libraries-in-SharePoint\n\n\n\n\nCreate Documentation\n\u00b6\n\n\n\n\narticle/ways-to-work-with-sharepoint\n\n\n\n\nAPI Throttling (Error 429)\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/simulating-throttling-sharepoint\n\n\n\n\nTips\n\u00b6\n\n\n\n\nhttps://sharepointdragons.com/2018/05/25/the-scientific-methodology-for-troubleshooting-sharepoint/",
+            "text": "Support\n\u00b6\n\n\nAdmin O365\n\u00b6\n\n\n\n\nhttp://aka.ms/Office-Developer\n (alle wichtigen Office DEV Links)\n\n\nhttp://aka.ms/Office-TechGuide\n \n\n\nhttps://support.office.com/?ui=de-DE&rs=de-CH&ad=CH&fromAR=1\n\n\nhttps://technet.microsoft.com/de-ch/\n\n\nhttps://products.office.com/de-CH/\n\n\nAdmin-Help-O365\n\n\nhttps://support.office.com/en-us/\n\n\nfree-ebooks-microsoft\n\n\nClick-2-Run\n\n\nURLs-und-IP-Adressbereiche-von-Office-365\n\n\nsharepoint-licensing-overview\n\n\nfree-microsoft-training-resources\n\n\n\n\nSPO\n\u00b6\n\n\n\n\nNavigation options for SharePoint Online\n\n\n\n\nDiagnostics\n\u00b6\n\n\n\n\nuse-the-page-diagnostics-tool-for-sharepoint-online\n\n\n\n\nWebParts\n\u00b6\n\n\n\n\nopen-and-use-the-web-part-maintenance-page\n\n\n\n\nLists\n\u00b6\n\n\n\n\nOrganize-documents-and-sites-in-office-365\n\n\nManage-large-lists-and-libraries-in-SharePoint\n\n\n\n\nCreate Documentation\n\u00b6\n\n\n\n\narticle/ways-to-work-with-sharepoint\n\n\n\n\nAPI Throttling (Error 429)\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/simulating-throttling-sharepoint\n\n\n\n\nTips\n\u00b6\n\n\n\n\nhttps://sharepointdragons.com/2018/05/25/the-scientific-methodology-for-troubleshooting-sharepoint/\n\n\n\n\nInvalid File Names\n\u00b6\n\n\n\n\nInvalid file names and file types in OneDrive, OneDrive for Business, and SharePoint",
             "title": "Support"
         },
         {
@@ -974,6 +974,11 @@
             "location": "/spfx/support/#tips",
             "text": "https://sharepointdragons.com/2018/05/25/the-scientific-methodology-for-troubleshooting-sharepoint/",
             "title": "Tips"
+        },
+        {
+            "location": "/spfx/support/#invalid-file-names",
+            "text": "Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint",
+            "title": "Invalid File Names"
         },
         {
             "location": "/spfx/starterkit/",
@@ -1542,7 +1547,7 @@
         },
         {
             "location": "/powershell/links/",
-            "text": "Links\n\u00b6\n\n\nSyntax\n\u00b6\n\n\n\n\npowershell basic cheat sheet\n\n\npowershell-ref\n\n\nPowerShell Cheat Sheet\n\n\n\n\nRessources\n\u00b6\n\n\n\n\njanikvonrotz-awesome-powershell\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nmikefrobbins\n\n\n\n\nOffice 365 Groups\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify\n\n\nhttps://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site\n\n\n\n\nhttps://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/\n\n\n\n\n\n\nhttps://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/\n\n\n\n\n\n\nSharePoint 2016\n\u00b6\n\n\n\n\nhttps://github.com/harbars/PnP-Tools/tree/master/Scripts\n\n\nhttps://github.com/harbars/SPAT16\n\n\n\n\nModules\n\u00b6\n\n\n\n\nhttp://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/\n\n\nhttps://github.com/mikefrobbins/Plaster/tree/master/Template\n\n\n\n\nSlides\n\u00b6\n\n\n\n\nhttps://github.com/mikefrobbins/Presentations",
+            "text": "Links\n\u00b6\n\n\nSyntax\n\u00b6\n\n\n\n\npowershell basic cheat sheet\n\n\npowershell-ref\n\n\nPowerShell Cheat Sheet\n\n\n\n\nHashtable\n\u00b6\n\n\n\n\nEverything you wanted to know about hashtables\n\n\n\n\nRessources\n\u00b6\n\n\n\n\njanikvonrotz-awesome-powershell\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nmikefrobbins\n\n\n\n\nOffice 365 Groups\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify\n\n\nhttps://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site\n\n\n\n\nhttps://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/\n\n\n\n\n\n\nhttps://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/\n\n\n\n\n\n\nSharePoint 2016\n\u00b6\n\n\n\n\nhttps://github.com/harbars/PnP-Tools/tree/master/Scripts\n\n\nhttps://github.com/harbars/SPAT16\n\n\n\n\nModules\n\u00b6\n\n\n\n\nhttp://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/\n\n\nhttps://github.com/mikefrobbins/Plaster/tree/master/Template\n\n\n\n\nSlides\n\u00b6\n\n\n\n\nhttps://github.com/mikefrobbins/Presentations",
             "title": "Links"
         },
         {
@@ -1554,6 +1559,11 @@
             "location": "/powershell/links/#syntax",
             "text": "powershell basic cheat sheet  powershell-ref  PowerShell Cheat Sheet",
             "title": "Syntax"
+        },
+        {
+            "location": "/powershell/links/#hashtable",
+            "text": "Everything you wanted to know about hashtables",
+            "title": "Hashtable"
         },
         {
             "location": "/powershell/links/#ressources",
