@@ -6,6 +6,10 @@
 - [powershell-ref](http://ligman.me/1n3mAUZ)
 - [PowerShell Cheat Sheet](https://www.sharepointeurope.com/powershell-cheat-sheet/)
 
+## Hashtable
+
+- [Everything you wanted to know about hashtables](https://kevinmarquette.github.io/2016-11-06-powershell-hashtable-everything-you-wanted-to-know-about)
+
 ## Ressources
 
 - [janikvonrotz-awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
