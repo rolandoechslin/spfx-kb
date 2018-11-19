@@ -27,6 +27,11 @@
 
 - [open-and-use-the-web-part-maintenance-page](https://support.office.com/en-us/article/open-and-use-the-web-part-maintenance-page-eff9ce22-d04a-44dd-ae83-ac29a5e396c2)
 
+
+```html
+?maintenancemode=true
+```
+
 ## Lists
 
 - [Organize-documents-and-sites-in-office-365](https://support.office.com/en-us/article/organize-documents-and-sites-in-office-365-1a36030f-3e54-4c43-8401-b7bcd0d1c16b)
