@@ -168,7 +168,7 @@ gulp serve --nobrowser
 
 ### Add importend pnp modules
 
-- <https://pnp.github.io/pnpjs/getting-started.html>
+- <https://pnp.github.io/pnpjs/>
 - <https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide>
 
 ```bs
