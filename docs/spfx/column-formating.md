@@ -4,6 +4,10 @@
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#style-guidelines)
 
+## Tools
+
+- [What’s new in Column Formatter 1.2](https://thechriskent.com/2018/03/22/whats-new-in-column-formatter-1-2/)
+
 ## Ressources
 
 - <https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting>
