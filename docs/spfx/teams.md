@@ -1,5 +1,9 @@
 # Teams
 
+## Support
+
+- [Keyboard shortcuts for Microsoft Teams](https://support.office.com/en-us/article/keyboard-shortcuts-for-microsoft-teams-2e8e2a70-e8d8-4a19-949b-4c36dd5292d2?utm_source=t.co&utm_medium=referral)
+
 ## Overview
 
 - <http://blog.ioz.ch/productivity-news-vom-1-3-2017-microsoft-teams-all-in-one-collaboration/>
