@@ -257,7 +257,7 @@
         },
         {
             "location": "/spfx/column-formating/",
-            "text": "Column Formating\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nUse column formatting to customize SharePoint\n\n\n\n\nRessources\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting\n\n\nhttp://www.sharepointing.co.uk/2017/11/10/customise-sharepoint-online-columns-using-json\n\n\nhttp://warner.digital/columnformattingintroduction\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart1/\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart2/\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart3/",
+            "text": "Column Formating\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nUse column formatting to customize SharePoint\n\n\n\n\nTools\n\u00b6\n\n\n\n\nWhat\u2019s new in Column Formatter 1.2\n\n\n\n\nRessources\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting\n\n\nhttp://www.sharepointing.co.uk/2017/11/10/customise-sharepoint-online-columns-using-json\n\n\nhttp://warner.digital/columnformattingintroduction\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart1/\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart2/\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart3/",
             "title": "Column-Formating"
         },
         {
@@ -269,6 +269,11 @@
             "location": "/spfx/column-formating/#reference",
             "text": "Use column formatting to customize SharePoint",
             "title": "Reference"
+        },
+        {
+            "location": "/spfx/column-formating/#tools",
+            "text": "What\u2019s new in Column Formatter 1.2",
+            "title": "Tools"
         },
         {
             "location": "/spfx/column-formating/#ressources",
