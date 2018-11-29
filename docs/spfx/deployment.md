@@ -11,6 +11,10 @@
 - https://www.npmjs.com/package/node-sp-alm
 - [ALM API and installSolution SiteScript Action Demo](https://github.com/AJIXuMuK/demos/tree/master/alm)
 
+## CI/CD
+
+- [SharePoint Framework Web Part – Continuous Integration and Delivery](https://blog.sprider.org/2018/09/16/sharepoint-framework-web-part-continuous-integration-and-delivery/)
+
 ## Deployment to CDN
 
 - [Choosing a CDN for SharePoint client-side solutions](https://bob1german.com/2017/12/04/choosing-a-cdn-for-sharepoint-client-side-solutions/)
