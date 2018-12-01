@@ -1557,7 +1557,7 @@
         },
         {
             "location": "/powershell/links/",
-            "text": "Links\n\u00b6\n\n\nSyntax\n\u00b6\n\n\n\n\npowershell basic cheat sheet\n\n\npowershell-ref\n\n\nPowerShell Cheat Sheet\n\n\n\n\nHashtable\n\u00b6\n\n\n\n\nEverything you wanted to know about hashtables\n\n\n\n\nRessources\n\u00b6\n\n\n\n\njanikvonrotz-awesome-powershell\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nmikefrobbins\n\n\n\n\nOffice 365 Groups\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify\n\n\nhttps://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site\n\n\n\n\nhttps://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/\n\n\n\n\n\n\nhttps://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/\n\n\n\n\n\n\nSharePoint 2016\n\u00b6\n\n\n\n\nhttps://github.com/harbars/PnP-Tools/tree/master/Scripts\n\n\nhttps://github.com/harbars/SPAT16\n\n\n\n\nModules\n\u00b6\n\n\n\n\nhttp://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/\n\n\nhttps://github.com/mikefrobbins/Plaster/tree/master/Template\n\n\n\n\nSlides\n\u00b6\n\n\n\n\nhttps://github.com/mikefrobbins/Presentations",
+            "text": "Links\n\u00b6\n\n\nSyntax\n\u00b6\n\n\n\n\npowershell basic cheat sheet\n\n\npowershell-ref\n\n\nPowerShell Cheat Sheet\n\n\n\n\nHashtable\n\u00b6\n\n\n\n\nEverything you wanted to know about hashtables\n\n\n\n\nRessources\n\u00b6\n\n\n\n\njanikvonrotz-awesome-powershell\n\n\nHow to: SnipScripts\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nmikefrobbins\n\n\n\n\nOffice 365 Groups\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify\n\n\nhttps://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site\n\n\n\n\nhttps://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/\n\n\n\n\n\n\nhttps://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/\n\n\n\n\n\n\nSharePoint 2016\n\u00b6\n\n\n\n\nhttps://github.com/harbars/PnP-Tools/tree/master/Scripts\n\n\nhttps://github.com/harbars/SPAT16\n\n\n\n\nModules\n\u00b6\n\n\n\n\nhttp://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/\n\n\nhttps://github.com/mikefrobbins/Plaster/tree/master/Template\n\n\n\n\nSlides\n\u00b6\n\n\n\n\nhttps://github.com/mikefrobbins/Presentations",
             "title": "Links"
         },
         {
@@ -1577,7 +1577,7 @@
         },
         {
             "location": "/powershell/links/#ressources",
-            "text": "janikvonrotz-awesome-powershell",
+            "text": "janikvonrotz-awesome-powershell  How to: SnipScripts",
             "title": "Ressources"
         },
         {
