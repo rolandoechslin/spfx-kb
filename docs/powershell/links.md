@@ -13,6 +13,7 @@
 ## Ressources
 
 - [janikvonrotz-awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
+- [How to: SnipScripts](https://github.com/TechSnips/SnipScripts)
 
 ## Blogs
 
@@ -37,4 +38,5 @@
 - <https://github.com/mikefrobbins/Plaster/tree/master/Template>
 
 ## Slides
+
 - https://github.com/mikefrobbins/Presentations
