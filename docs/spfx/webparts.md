@@ -42,6 +42,7 @@
 - [Puzzlepart presents the modern flexible Divider web part](https://www.techmikael.com/2018/09/puzzlepart-presents-modern-flexible.html)
 - [Vimeo webpart](https://n8d.at/blog/a-smart-stupid-web-part-consumes-a-third-party-api-through-azure-functions-part-3/)
 - [Filtered Documents webpart](https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls/final)
+- [Birthday SPFx, Web Part](https://jjm935611985.wordpress.com/2018/11/25/happy-birthday-spfx-web-part-azure-function-msgraph-pnp-pnpjs/)
 
 
 ## Reusable React control
