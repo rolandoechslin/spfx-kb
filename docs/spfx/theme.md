@@ -11,6 +11,10 @@
 - [two approaches to applying modern theme](http://www.techmikael.com/2018/03/two-approaches-to-applying-modern-theme.html)
 - [SPFX integration for theme support](https://github.com/StfBauer/spfx-uifabric-themes)
 
+## Office Fabric Tips
+
+- [How to handle table component of Office UI Fabric](https://n8d.at/blog/how-to-handle-table-component-of-office-ui-fabric/)
+
 ## CSS Tips
 
 - [CodyHouse is a library of HTML, CSS, JS nuggets](https://codyhouse.co)
