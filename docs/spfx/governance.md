@@ -39,3 +39,5 @@
 - [SPC18: What Options do You Have to Govern the Lifecycle of Office 365 Groups / Teams](https://github.com/wobba/espc18)
 [Ignite2018GroupsGovernanceToolkit](https://github.com/martinagrom/Ignite2018GroupsGovernanceToolkit)
 - [PowerShell scripts for Microsoft Office 365](https://github.com/martinagrom/Office365Scripts)
+- [Useful PowerShell cmdlets to administer Office 365 Groups – Part 1](https://blog.hubfly.com/office-365/useful-powershell-cmdlets-to-administer-office-365-groups-part-1)
+- [Useful PowerShell cmdlets to administer Office 365 Groups – Part 2](https://blog.hubfly.com/office-365/useful-powershell-cmdlets-to-administer-office-365-groups-part-2)
