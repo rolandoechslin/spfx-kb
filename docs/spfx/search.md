@@ -18,7 +18,10 @@
 
 - <http://blogs.catapultsystems.com/eskaggs/archive/2015/05/20/microsoft-guidance-on-search-crawls-in-sharepoint-online/>
 - <https://blogs.technet.microsoft.com/o365totd/2015/10/30/viewing-crawl-logs-in-sharepoint-online-office-365/>
-- <https://github.com/wobba/SPO-Trigger-Reindex>
+
+## Reindex
+
+- [Scripts to trigger re-indexing of user profiles and content in SharePoint Online](https://github.com/wobba/SPO-Trigger-Reindex)
 
 ## Content Source
 
