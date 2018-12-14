@@ -2,6 +2,7 @@
 
 ## Async
 
+- [Understand promises before you start using async/await](https://medium.com/@bluepnume/learn-about-promises-before-you-start-using-async-await-eb148164a9c8)
 - <https://blog.josequinto.com/2017/05/19/why-do-we-should-use-custom-business-objects-models-in-pnp-js-core/>
 - <https://github.com/jquintozamora/spfx-react-sp-pnp-js-property-decorators>
 - <https://sharepoint.stackexchange.com/questions/221325/how-to-enable-async-wait-in-spfx-typescript-tslint-missing-semicolon-ts1005>

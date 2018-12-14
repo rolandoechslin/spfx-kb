@@ -388,6 +388,7 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 - [Using PnPjs to send requests to MS Graph with SharePoint Framework 1.6](http://spblog.net/post/2018/09/09/Using-PnPjs-to-send-requests-to-MS-Graph-with-SharePoint-Framework-16)
 - [Example of wrapper to ease usage of Graph calls in SPFx](https://www.techmikael.com/2018/09/example-of-wrapper-to-ease-usage-of.html)
 - [msgraph-helper](https://github.com/olemp/msgraph-helper)
+- [SPFx webpart with MS Graph and PnPjs: step by step guide](https://spblog.net/post/2018/12/11/SPFx-webpart-with-MS-Graph-and-PnPjs-step-by-step-guide)
 
 ### Start Office Fabric React
 
