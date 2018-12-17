@@ -10,9 +10,10 @@
 
 ## Keyword Query Language (KQL) syntax reference
 
-- <https://support.office.com/en-us/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3>
-- <https://dev.office.com/sharepoint/docs/general-development/customizing-ranking-models-to-improve-relevance-in-sharepoint>
-- <http://sympmarc.com/series/create-a-simple-sharepoint-2013-employee-directory-on-office365/>
+- [Keyword queries and search conditions for Content Search](https://support.office.com/en-us/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3)
+- [Customizing ranking models to improve relevance in SharePoint](https://dev.office.com/sharepoint/docs/general-development/customizing-ranking-models-to-improve-relevance-in-sharepoint)
+- [Create a Simple SharePoint 2013 Employee Directory on Office365](http://sympmarc.com/series/create-a-simple-sharepoint-2013-employee-directory-on-office365/)
+- [Keyword Query Language (KQL) syntax reference](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
 ## Crawl Logs
 
