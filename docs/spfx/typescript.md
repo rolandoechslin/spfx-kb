@@ -1,5 +1,11 @@
 # Typescript
 
+## Reference
+
+- https://learnxinyminutes.com/docs/typescript/ 
+- http://www.typescriptlang.org/docs/handbook/basic-types.html
+- https://basarat.gitbooks.io/typescript/content/docs/why-typescript.html
+
 - [pluralsight typescript course](https://app.pluralsight.com/player?course=typescript&author=dan-wahlin&name=typescript-m1&clip=4&mode=live)
 - https://github.com/Microsoft/TypeScript/wiki
 - https://github.com/basarat/typescript-book
