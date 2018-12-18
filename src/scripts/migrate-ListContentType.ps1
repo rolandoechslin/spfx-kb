@@ -1,3 +1,5 @@
+# Original: https://ypcode.wordpress.com/2016/12/08/cross-sharepoint-platform-maintenance-tools-using-pnp-powershell/
+
 [CmdletBinding()]
 Param (
     [Parameter(Mandatory=$True)]
