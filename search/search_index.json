@@ -1917,7 +1917,7 @@
         },
         {
             "location": "/tools/git/",
-            "text": "Git\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nGit Documentation\n\n\n\n\nTips\n\u00b6\n\n\n\n\nUpdate a Severely Out of Date GitHub Repository Fork\n\n\nMerging 2 Different Git Repositories Without Losing your History\n\n\nPush your code into a git repo\n\n\n\n\nCommit Guidlines\n\u00b6\n\n\n\n\nHow We Do It - Keeping a Clean Commit Log",
+            "text": "Git\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nGit Documentation\n\n\n\n\nTips\n\u00b6\n\n\n\n\nUpdate a Severely Out of Date GitHub Repository Fork\n\n\nMerging 2 Different Git Repositories Without Losing your History\n\n\nPush your code into a git repo\n\n\n\n\nRebase / Merge\n\u00b6\n\n\n\n\nAn Introduction to Git Merge and Git Rebase: What They Do and When to Use Them\n\n\n\n\nCommit Guidlines\n\u00b6\n\n\n\n\nHow We Do It - Keeping a Clean Commit Log",
             "title": "Git"
         },
         {
@@ -1934,6 +1934,11 @@
             "location": "/tools/git/#tips",
             "text": "Update a Severely Out of Date GitHub Repository Fork  Merging 2 Different Git Repositories Without Losing your History  Push your code into a git repo",
             "title": "Tips"
+        },
+        {
+            "location": "/tools/git/#rebase-merge",
+            "text": "An Introduction to Git Merge and Git Rebase: What They Do and When to Use Them",
+            "title": "Rebase / Merge"
         },
         {
             "location": "/tools/git/#commit-guidlines",
