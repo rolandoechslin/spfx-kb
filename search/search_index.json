@@ -357,7 +357,7 @@
         },
         {
             "location": "/spfx/deployment/",
-            "text": "Deployment\n\u00b6\n\n\nALM\n\u00b6\n\n\n\n\nnode-sp-alm\n\n\nalm-for-widget-solutions\n\n\nhttp://julieturner.net/2016/09/code-creep-sharepoint-cdn/\n\n\nhttp://yannickborghmans.com/2017/12/28/sharepoint-application-lifecycle-management-api-how-to-use-it-in-your-code/\n\n\nhttps://github.com/estruyf/node-sp-alm\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/apis/alm-api-for-spfx-add-ins\n\n\nhttps://www.npmjs.com/package/node-sp-alm\n\n\nALM API and installSolution SiteScript Action Demo\n\n\n\n\nCI/CD\n\u00b6\n\n\n\n\nSharePoint Framework Web Part \u2013 Continuous Integration and Delivery\n\n\n\n\nDeployment to CDN\n\u00b6\n\n\n\n\nChoosing a CDN for SharePoint client-side solutions\n\n\nDeploy SPFx WebParts To Office 365 Public CDN\n\n\n\n\nwrite-manifests.json\n\n\n{\n\n  \n\"cdnBasePath\"\n:\n \n\"https://publiccdn.sharepointonline.com/cloud67.sharepoint.com/cdn/topnavmenu\"\n\n\n}\n\n\n\n\n\nDeployment to SP Library\n\u00b6\n\n\n\n\nDeploy SPFx WebParts to SharePoint Library\n\n\n\n\nDeployment to Azure Storage\n\u00b6\n\n\n\n\nAutomate publishing process of MkDocs to Static Website hosting in Azure Storage with VSTS\n\n\nDeploy SPFx WebParts To Azure CDN\n\n\n\n\nAppSettings\n\u00b6\n\n\n\n\nSharePoint Framework app settings\n\n\nAppSettings in SharePoint Framework (SPFx) and Staging",
+            "text": "Deployment\n\u00b6\n\n\nALM\n\u00b6\n\n\n\n\nnode-sp-alm\n\n\nalm-for-widget-solutions\n\n\nhttp://julieturner.net/2016/09/code-creep-sharepoint-cdn/\n\n\nhttp://yannickborghmans.com/2017/12/28/sharepoint-application-lifecycle-management-api-how-to-use-it-in-your-code/\n\n\nhttps://github.com/estruyf/node-sp-alm\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/apis/alm-api-for-spfx-add-ins\n\n\nhttps://www.npmjs.com/package/node-sp-alm\n\n\nALM API and installSolution SiteScript Action Demo\n\n\n\n\nARM\n\u00b6\n\n\n\n\nReusable ARM template for Web Application\n\n\nGitHub - ARMTemplates\n\n\n\n\nCI/CD\n\u00b6\n\n\n\n\nSharePoint Framework Web Part \u2013 Continuous Integration and Delivery\n\n\n\n\nDeployment to CDN\n\u00b6\n\n\n\n\nChoosing a CDN for SharePoint client-side solutions\n\n\nDeploy SPFx WebParts To Office 365 Public CDN\n\n\n\n\nwrite-manifests.json\n\n\n{\n\n  \n\"cdnBasePath\"\n:\n \n\"https://publiccdn.sharepointonline.com/cloud67.sharepoint.com/cdn/topnavmenu\"\n\n\n}\n\n\n\n\n\nDeployment to SP Library\n\u00b6\n\n\n\n\nDeploy SPFx WebParts to SharePoint Library\n\n\n\n\nDeployment to Azure Storage\n\u00b6\n\n\n\n\nAutomate publishing process of MkDocs to Static Website hosting in Azure Storage with VSTS\n\n\nDeploy SPFx WebParts To Azure CDN\n\n\n\n\nAppSettings\n\u00b6\n\n\n\n\nSharePoint Framework app settings\n\n\nAppSettings in SharePoint Framework (SPFx) and Staging",
             "title": "Deployment"
         },
         {
@@ -369,6 +369,11 @@
             "location": "/spfx/deployment/#alm",
             "text": "node-sp-alm  alm-for-widget-solutions  http://julieturner.net/2016/09/code-creep-sharepoint-cdn/  http://yannickborghmans.com/2017/12/28/sharepoint-application-lifecycle-management-api-how-to-use-it-in-your-code/  https://github.com/estruyf/node-sp-alm  https://docs.microsoft.com/en-us/sharepoint/dev/apis/alm-api-for-spfx-add-ins  https://www.npmjs.com/package/node-sp-alm  ALM API and installSolution SiteScript Action Demo",
             "title": "ALM"
+        },
+        {
+            "location": "/spfx/deployment/#arm",
+            "text": "Reusable ARM template for Web Application  GitHub - ARMTemplates",
+            "title": "ARM"
         },
         {
             "location": "/spfx/deployment/#cicd",
@@ -592,12 +597,12 @@
         },
         {
             "location": "/spfx/graph/",
-            "text": "Microsoft Graph\n\u00b6\n\n\n\n\n\n\nConsuming SharePoint Online via the Microsoft Graph\n\n\n\n\n\n\ngraph explorer - start\n\n\n\n\ngrap webhooks - subscription\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nUsing Microsoft Graph API to convert the format of your documents\n\n\nAzure Functions project that implements Microsoft Teams provisioning via Microsoft Graph",
+            "text": "Microsoft Graph\n\u00b6\n\n\n\n\n\n\nLearning\n\n\n\n\n\n\n30 Days of Microsoft Graph\n\n\n\n\n\n\nConsuming SharePoint Online via the Microsoft Graph\n\n\n\n\n\n\ngraph explorer - start\n\n\n\n\ngrap webhooks - subscription\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nUsing Microsoft Graph API to convert the format of your documents\n\n\nAzure Functions project that implements Microsoft Teams provisioning via Microsoft Graph",
             "title": "Graph"
         },
         {
             "location": "/spfx/graph/#microsoft-graph",
-            "text": "Consuming SharePoint Online via the Microsoft Graph    graph explorer - start   grap webhooks - subscription",
+            "text": "Learning    30 Days of Microsoft Graph    Consuming SharePoint Online via the Microsoft Graph    graph explorer - start   grap webhooks - subscription",
             "title": "Microsoft Graph"
         },
         {
@@ -1952,7 +1957,7 @@
         },
         {
             "location": "/tools/markdown/",
-            "text": "Markdown\n\u00b6\n\n\nTools\n\u00b6\n\n\n\n\nhttps://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint\n\n\nhttp://fuckyeahmarkdown.com\n\n\nhttp://pandoc.org/try\n\n\nhttps://devpen.io/editor",
+            "text": "Markdown\n\u00b6\n\n\nTools\n\u00b6\n\n\n\n\nVS.Code Extension: markdownlint\n\n\nMarkdown Website Conversion\n\n\nMarkdown Conversion\n\n\ndevpen.io - Editor\n\n\nMarkdown Plus - Editor",
             "title": "Markdown"
         },
         {
@@ -1962,7 +1967,7 @@
         },
         {
             "location": "/tools/markdown/#tools",
-            "text": "https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint  http://fuckyeahmarkdown.com  http://pandoc.org/try  https://devpen.io/editor",
+            "text": "VS.Code Extension: markdownlint  Markdown Website Conversion  Markdown Conversion  devpen.io - Editor  Markdown Plus - Editor",
             "title": "Tools"
         },
         {
