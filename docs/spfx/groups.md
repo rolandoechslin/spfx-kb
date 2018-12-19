@@ -19,6 +19,9 @@
 
 https://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.SelfHostedWithAzureWebJob/Engine
 
+## Permissions
+
+- [Copying Office 365 Group Permissions with PowerShell](https://www.toddklindt.com/blog/Lists/Posts/Post.aspx?List=56f96349-3bb6-4087-94f4-7f95ff4ca81f&ID=808&Web=48e6fdd1-17db-4543-b2f9-6fc7185484fc)
 
 ## Powershell
 
