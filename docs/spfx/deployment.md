@@ -11,6 +11,11 @@
 - https://www.npmjs.com/package/node-sp-alm
 - [ALM API and installSolution SiteScript Action Demo](https://github.com/AJIXuMuK/demos/tree/master/alm)
 
+## ARM
+
+- [Reusable ARM template for Web Application](https://joelfmrodrigues.wordpress.com/2018/11/19/reusable-arm-template-for-web-application/)
+- [GitHub - ARMTemplates](https://github.com/joelfmrodrigues/ARMTemplates)
+
 ## CI/CD
 
 - [SharePoint Framework Web Part – Continuous Integration and Delivery](https://blog.sprider.org/2018/09/16/sharepoint-framework-web-part-continuous-integration-and-delivery/)
