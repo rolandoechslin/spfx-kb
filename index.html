@@ -534,6 +534,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#get-search-data-with-asynchawait" title="Get Search Data with asynch/await" class="md-nav__link">
+    Get Search Data with asynch/await
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#get-data-from-msgraph" title="Get Data from MSGraph" class="md-nav__link">
     Get Data from MSGraph
   </a>
@@ -1690,6 +1697,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#get-search-data-with-asynchawait" title="Get Search Data with asynch/await" class="md-nav__link">
+    Get Search Data with asynch/await
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#get-data-from-msgraph" title="Get Data from MSGraph" class="md-nav__link">
     Get Data from MSGraph
   </a>
@@ -2096,6 +2110,43 @@ return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
 
 });
 }
+</pre></div>
+
+<h3 id="get-search-data-with-asynchawait">Get Search Data with asynch/await<a class="headerlink" href="#get-search-data-with-asynchawait" title="Permanent link">&para;</a></h3>
+<p><a href="https://sympmarc.com/2018/12/12/using-pnpjs-and-async-await-to-really-simplify-your-api-calls/#comment-167591">Using PnPJS and Async/Await to Really Simplify Your API Calls</a></p>
+<div class="codehilite"><pre><span></span>  private async _getSiteData(): Promise&lt;ISPSite[]&gt; {
+
+    var thisDomain: string = location.host.split(&quot;.&quot;)[0];
+    var exclusions: string[] = [&quot;https://&quot; + thisDomain + &quot;-my.sharepoint.com&quot;, &quot;https://&quot; + thisDomain + &quot;.sharepoint.com/portals/personal&quot;];
+    var exclusionString: string = &quot; -Path:&quot; + exclusions.join(&quot; -Path:&quot;);
+    exclusionString += &quot; -Path=https://&quot; + thisDomain + &quot;.sharepoint.com&quot;;
+
+    try {
+
+      let result = await sp.search(&amp;lt;SearchQuery&gt;{
+        Querytext: &quot;contentclass:sts_site &quot; + exclusionString,
+        RowLimit: 500,
+        TrimDuplicates: false,
+        Properties: [{
+          Name:&quot;EnableDynamicGroups&quot;,
+          Value: {
+            BoolVal: true,
+            QueryPropertyValueTypeIndex: QueryPropertyValueType.BooleanType
+          }
+        }],
+        SelectProperties: [&quot;Title&quot;, &quot;Path&quot;, &quot;SiteLogo&quot;]
+      });
+
+      return this.processSearchResults(result);
+
+    } catch (e) {
+
+      console.error(e);
+      return null;
+
+    }
+
+  }
 </pre></div>
 
 <h3 id="get-data-from-msgraph">Get Data from MSGraph<a class="headerlink" href="#get-data-from-msgraph" title="Permanent link">&para;</a></h3>
