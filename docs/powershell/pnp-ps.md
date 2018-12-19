@@ -1,16 +1,17 @@
 # PnP Powershell
 
+## Installation Options
+
+- [Running multiple versions of PnP-PowerShell](https://blog.pixelmill.com/3718/running-multiple-versions-of-pnp-powershell/)
 
 ## Documentation
 
 - [sharepoint-pnp-cmdlets](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps)
 
-
 ## Latest Version
 
 - [Latest Release Version](https://github.com/SharePoint/PnP-PowerShell/releases/latest)
 - [Change Log](https://github.com/SharePoint/PnP-PowerShell/blob/master/CHANGELOG.md)
-
 
 ## Check 
 

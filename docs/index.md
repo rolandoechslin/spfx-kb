@@ -383,6 +383,47 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 }
 ```
 
+### Get Search Data with asynch/await
+
+[Using PnPJS and Async/Await to Really Simplify Your API Calls](https://sympmarc.com/2018/12/12/using-pnpjs-and-async-await-to-really-simplify-your-api-calls/#comment-167591)
+
+```tsx
+  private async _getSiteData(): Promise<ISPSite[]> {
+
+    var thisDomain: string = location.host.split(".")[0];
+    var exclusions: string[] = ["https://" + thisDomain + "-my.sharepoint.com", "https://" + thisDomain + ".sharepoint.com/portals/personal"];
+    var exclusionString: string = " -Path:" + exclusions.join(" -Path:");
+    exclusionString += " -Path=https://" + thisDomain + ".sharepoint.com";
+
+    try {
+
+      let result = await sp.search(&lt;SearchQuery>{
+        Querytext: "contentclass:sts_site " + exclusionString,
+        RowLimit: 500,
+        TrimDuplicates: false,
+        Properties: [{
+          Name:"EnableDynamicGroups",
+          Value: {
+            BoolVal: true,
+            QueryPropertyValueTypeIndex: QueryPropertyValueType.BooleanType
+          }
+        }],
+        SelectProperties: ["Title", "Path", "SiteLogo"]
+      });
+
+      return this.processSearchResults(result);
+
+    } catch (e) {
+
+      console.error(e);
+      return null;
+
+    }
+
+  }
+```
+
+
 ### Get Data from MSGraph
 
 - [Using PnPjs to send requests to MS Graph with SharePoint Framework 1.6](http://spblog.net/post/2018/09/09/Using-PnPjs-to-send-requests-to-MS-Graph-with-SharePoint-Framework-16)
