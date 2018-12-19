@@ -1,5 +1,9 @@
 # Microsoft Graph
 
+- Learning
+
+- [30 Days of Microsoft Graph](https://developer.microsoft.com/en-us/graph/blogs/announcing-30-days-of-microsoft-graph-blog-series/#)
+
 - [Consuming SharePoint Online via the Microsoft Graph](https://dev.office.com/blogs/consuming-sharepoint-online-via-the-microsoft-graph)
 
 - [graph explorer - start](https://developer.microsoft.com/en-us/graph/graph-explorer)
