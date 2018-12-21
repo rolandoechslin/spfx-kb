@@ -7,3 +7,5 @@
 - [Markdown Conversion](http://pandoc.org/try)
 - [devpen.io - Editor](https://devpen.io/editor)
 - [Markdown Plus - Editor](http://mdp.tylingsoft.com/)
+- https://www.websequencediagrams.com/
+- https://www.planttext.com/
