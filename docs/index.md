@@ -460,6 +460,16 @@ yarn add office-ui-fabric-react --save
 
 - <https://github.com/koltyakov/generator-sppp>
 
+## Upgrade yo generator SPFx
+
+```bs
+npm outdated --global
+```
+
+```bs
+npm install @microsoft/generator-sharepoint --global
+```
+
 ## SPFx Version Upgrade
 
 - <https://github.com/pnp/office365-cli>
