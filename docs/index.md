@@ -87,6 +87,10 @@ gulp package-solution --ship
 - Select "packagename" and wait for it to be installed
 - Go to the front page, edit the page and add the webpart
 
+## Learning SPFx
+
+- [PnP Controls](https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls)
+
 ## Logging with sp-core-library
 
 - <https://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API>
@@ -422,7 +426,6 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 
   }
 ```
-
 
 ### Get Data from MSGraph
 
