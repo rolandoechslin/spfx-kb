@@ -480,8 +480,10 @@ git commit -m "Initial commit."
 
 add office fabric react
 
+- [office-ui-fabric-react@5.131.0](https://github.com/SharePoint/sp-dev-docs/issues/2936)
+
 ```bs
-yarn add office-ui-fabric-react --save
+npm install office-ui-fabric-react@5.131.0
 ```
 
 ## Create SP-App
