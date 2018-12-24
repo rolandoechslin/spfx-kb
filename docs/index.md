@@ -1,4 +1,3 @@
-
 # Tips and tricks
 
 ## Roadmap
@@ -20,6 +19,7 @@
 - https://docs.microsoft.com/de-ch/style-guide/welcome/
 
 ## SharePoint PNP Community
+
 - [SharePoint PnP resources](https://docs.microsoft.com/en-us/sharepoint/dev/community/community)
 - [Sharepoint Glossar](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-glossary)
 
@@ -69,7 +69,6 @@ gulp serve --nobrowser
 /_layouts/15/workbench.aspx
 ```
 
-
 ## Prepare Deployment Solution
 
 ```bs
@@ -98,7 +97,7 @@ gulp package-solution --ship
 Reference the Log class.
 
 ```tsx
-import { Log } from '@microsoft/sp-core-library';
+import { Log } from "@microsoft/sp-core-library";
 ```
 
 Log your message from your WebPart
@@ -117,7 +116,8 @@ Logging with @pnp/logging
 ## Logging with pnp-logging
 
 - <https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging>
-https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging
+
+  https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging
 
 ## Logging with AppInsights
 
@@ -142,12 +142,13 @@ gulp serve
 - <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode>
 
 Pre Steps
+
 - open vs.code
 - got to view extensions
 - install "Debugger for chrome"
 - create launch.json
 - select configuration
-    - Hosted workbench configuration
+  - Hosted workbench configuration
 
 Steps
 
@@ -168,7 +169,7 @@ gulp serve --nobrowser
 ### Fix version
 
 - edit version in package.json -> same as in package-solution.json
-    - to "version": "1.0.0",
+  - to "version": "1.0.0",
 
 ### Add importend pnp modules
 
@@ -197,12 +198,12 @@ npm install @pnp/spfx-property-controls --save --save-exact
 - They work similar as Resources files (XML) on VS Solution
 - The default language is English (en-us)
 - Developers can test the locale by:
-    - Updating write-manifests.json file
+  - Updating write-manifests.json file
 
 ```json
 {
-    "cdnBasePath": "<!-- PATH TO CDN -->",
-    "debugLocale": "de-de"
+  "cdnBasePath": "<!-- PATH TO CDN -->",
+  "debugLocale": "de-de"
 }
 ```
 
@@ -212,7 +213,6 @@ Or by using the "locale" command argument
 gulp serve --locale=de-de
 ```
 
-
 ## Data Service
 
 Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everywhere.pptx)
@@ -220,17 +220,16 @@ Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everyw
 Sample Folder structur
 
 - src
-    - models
-        - IHelpDeskItem.ts
-    - services
-        - IDataService.ts
-        - MockDataservice.ts
-        - SharepointDataService.ts
-    - webparts
-        - components
-        - loc
-        - 'webpartnameWebPart.ts'
-
+  - models
+    - IHelpDeskItem.ts
+  - services
+    - IDataService.ts
+    - MockDataservice.ts
+    - SharepointDataService.ts
+  - webparts
+    - components
+    - loc
+    - 'webpartnameWebPart.ts'
 
 ### Data Model
 
@@ -261,7 +260,6 @@ export default interface IDataService {
   addItem(item: IHelpDeskItem): Promise<void>;
   deleteItem(id: number): Promise<void>;
 }
-
 ```
 
 Mocking Service for testing in local Workbench development
@@ -391,6 +389,8 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 
 [Using PnPJS and Async/Await to Really Simplify Your API Calls](https://sympmarc.com/2018/12/12/using-pnpjs-and-async-await-to-really-simplify-your-api-calls/#comment-167591)
 
+asynch/await
+
 ```tsx
   private async _getSiteData(): Promise<ISPSite[]> {
 
@@ -425,6 +425,31 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
     }
 
   }
+```
+
+```tsx
+public async getShipmentStatuses(serviceProps: IServiceProperties): Promise<IStatus[]> {
+
+    try {
+
+      let items = await sp
+        .web
+        .lists
+        .getByTitle("SL_ShippingStatuses")
+        .items
+        .select("Id", "Title", "SortOrder", "CanBeCancelled")
+        .orderBy("SortOrder")
+        .get(spODataEntityArray<Item, IStatus>(Item));
+
+      return items;
+
+    } catch (e) {
+
+      console.error(e);
+      return null;
+
+    }
+}
 ```
 
 ### Get Data from MSGraph
@@ -479,11 +504,13 @@ npm install @microsoft/generator-sharepoint --global
 - <https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli>
 
 Office 365 CLI (next) installieren
+
 ```bs
 npm i -g @pnp/office365-cli@next
 ```
 
 Report erstellen
+
 ```bs
 o365 spfx project upgrade --output md > report.md
 ```
