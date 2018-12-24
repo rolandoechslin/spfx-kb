@@ -10,6 +10,7 @@
 - [28 REASONS WHY MODERN SHAREPOINT ONLINE SITE PERMISSIONS ARE A HOT MESS](http://www.letscollaborate.co.za/28-reasons-why-modern-sharepoint-online-site-permissions-are-a-hot-mess)
 - [Sharing and permissions in the SharePoint modern experience](https://docs.microsoft.com/en-us/sharepoint/sharing-permissions-modern-experience)
 - [How Broken Are Office 365 SharePoint Permissions](https://en.share-gate.com/blog/how-broken-are-office-365-sharepoint-permissions)
+- [GDPR Tool](http://o365blog.com/post/aadinternals/)
 
 ## User profile / Delete user
 
