@@ -4,6 +4,10 @@
 
 - [Git Documentation](https://git-scm.com/docs)
 
+## Learning
+
+- [Git Fundamentals](https://app.pluralsight.com/library/courses/git-fundamentals/table-of-contents)
+
 ## Tips
 
 - [How to write the perfect pull request](https://blog.github.com/2015-01-21-how-to-write-the-perfect-pull-request/)
