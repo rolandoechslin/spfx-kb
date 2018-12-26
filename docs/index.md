@@ -400,6 +400,8 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 
 [Using PnPJS and Async/Await to Really Simplify Your API Calls](https://sympmarc.com/2018/12/12/using-pnpjs-and-async-await-to-really-simplify-your-api-calls/#comment-167591)
 
+asynch/await
+
 ```tsx
   private async _getSiteData(): Promise<ISPSite[]> {
 
@@ -436,6 +438,31 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
   }
 ```
 
+```tsx
+public async getShipmentStatuses(serviceProps: IServiceProperties): Promise<IStatus[]> {
+
+    try {
+
+      let items = await sp
+        .web
+        .lists
+        .getByTitle("SL_ShippingStatuses")
+        .items
+        .select("Id", "Title", "SortOrder", "CanBeCancelled")
+        .orderBy("SortOrder")
+        .get(spODataEntityArray<Item, IStatus>(Item));
+
+      return items;
+
+    } catch (e) {
+
+      console.error(e);
+      return null;
+
+    }
+}
+```
+
 ### Get Data from MSGraph
 
 - [Using PnPjs to send requests to MS Graph with SharePoint Framework 1.6](http://spblog.net/post/2018/09/09/Using-PnPjs-to-send-requests-to-MS-Graph-with-SharePoint-Framework-16)
@@ -464,8 +491,10 @@ git commit -m "Initial commit."
 
 add office fabric react
 
+- [office-ui-fabric-react@5.131.0](https://github.com/SharePoint/sp-dev-docs/issues/2936)
+
 ```bs
-yarn add office-ui-fabric-react --save
+npm install office-ui-fabric-react@5.131.0
 ```
 
 ## Create SP-App
