@@ -387,8 +387,22 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#code-review" title="Code Review" class="md-nav__link">
+    Code Review
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#content-style-guide" title="Content Style Guide" class="md-nav__link">
     Content Style Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coding-patterns" title="Coding Patterns" class="md-nav__link">
+    Coding Patterns
   </a>
   
 </li>
@@ -1564,8 +1578,22 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#code-review" title="Code Review" class="md-nav__link">
+    Code Review
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#content-style-guide" title="Content Style Guide" class="md-nav__link">
     Content Style Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coding-patterns" title="Coding Patterns" class="md-nav__link">
+    Coding Patterns
   </a>
   
 </li>
@@ -1805,9 +1833,20 @@
 <li><a href="https://github.com/OfficeDev/office-ui-fabric-react/wiki/TypeScript-Guidelines">Office fabric react - TypeScript-Guidelines</a></li>
 <li><a href="https://github.com/sw-yx/react-typescript-cheatsheet">react-typescript-cheatsheet</a></li>
 </ul>
+<h2 id="code-review">Code Review<a class="headerlink" href="#code-review" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/prdxn/React-JS-Checklist">React-JS-Checklist</a></li>
+<li><a href="https://gist.github.com/bigsergey/aef64f68c22b3107ccbc439025ebba12">Front-end Code Review Checklist</a></li>
+</ul>
 <h2 id="content-style-guide">Content Style Guide<a class="headerlink" href="#content-style-guide" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://docs.microsoft.com/de-ch/style-guide/welcome/">https://docs.microsoft.com/de-ch/style-guide/welcome/</a></li>
+</ul>
+<h2 id="coding-patterns">Coding Patterns<a class="headerlink" href="#coding-patterns" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://reactjs.org/docs/design-principles.html">React Design Principles</a></li>
+<li><a href="https://github.com/kamranahmedse/design-patterns-for-humans">Design patterns</a></li>
+<li><a href="https://krasimir.gitbooks.io/react-in-patterns/">React inpatterns</a></li>
 </ul>
 <h2 id="sharepoint-pnp-community">SharePoint PNP Community<a class="headerlink" href="#sharepoint-pnp-community" title="Permanent link">&para;</a></h2>
 <ul>
@@ -1874,7 +1913,7 @@ gulp package-solution --ship
 <li><a href="https://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API">https://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API</a></li>
 </ul>
 <p>Reference the Log class.</p>
-<div class="codehilite"><pre><span></span>import { Log } from &#39;@microsoft/sp-core-library&#39;;
+<div class="codehilite"><pre><span></span>import { Log } from &quot;@microsoft/sp-core-library&quot;;
 </pre></div>
 
 <p>Log your message from your WebPart</p>
@@ -1890,9 +1929,9 @@ Logging with @pnp/logging
 
 <h2 id="logging-with-pnp-logging">Logging with pnp-logging<a class="headerlink" href="#logging-with-pnp-logging" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging">https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging</a>
-<a href="https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging">https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging</a></li>
+<li><a href="https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging">https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging</a></li>
 </ul>
+<p><a href="https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging">https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging</a></p>
 <h2 id="logging-with-appinsights">Logging with AppInsights<a class="headerlink" href="#logging-with-appinsights" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://www.sharepointnutsandbolts.com/2017/08/SPFx-App-Insights.html">Add Azure App Insights or Google Analytics to your SharePoint pages with an SPFx Application Customizer</a></li>
@@ -1914,13 +1953,15 @@ Logging with @pnp/logging
 <ul>
 <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode">https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode</a></li>
 </ul>
-<p>Pre Steps
-- open vs.code
-- got to view extensions
-- install "Debugger for chrome"
-- create launch.json
-- select configuration
-    - Hosted workbench configuration</p>
+<p>Pre Steps</p>
+<ul>
+<li>open vs.code</li>
+<li>got to view extensions</li>
+<li>install "Debugger for chrome"</li>
+<li>create launch.json</li>
+<li>select configuration</li>
+<li>Hosted workbench configuration</li>
+</ul>
 <p>Steps</p>
 <div class="codehilite"><pre><span></span>gulp serve --nobrowser
 </pre></div>
@@ -1938,10 +1979,8 @@ Logging with @pnp/logging
 </ul>
 <h3 id="fix-version">Fix version<a class="headerlink" href="#fix-version" title="Permanent link">&para;</a></h3>
 <ul>
-<li>edit version in package.json -&gt; same as in package-solution.json<ul>
+<li>edit version in package.json -&gt; same as in package-solution.json</li>
 <li>to "version": "1.0.0",</li>
-</ul>
-</li>
 </ul>
 <h3 id="add-importend-pnp-modules">Add importend pnp modules<a class="headerlink" href="#add-importend-pnp-modules" title="Permanent link">&para;</a></h3>
 <ul>
@@ -1968,14 +2007,12 @@ Logging with @pnp/logging
 <li>Location files are in JSON format</li>
 <li>They work similar as Resources files (XML) on VS Solution</li>
 <li>The default language is English (en-us)</li>
-<li>Developers can test the locale by:<ul>
+<li>Developers can test the locale by:</li>
 <li>Updating write-manifests.json file</li>
 </ul>
-</li>
-</ul>
 <div class="codehilite"><pre><span></span><span class="p">{</span>
-    <span class="nt">&quot;cdnBasePath&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;!-- PATH TO CDN --&gt;&quot;</span><span class="p">,</span>
-    <span class="nt">&quot;debugLocale&quot;</span><span class="p">:</span> <span class="s2">&quot;de-de&quot;</span>
+  <span class="nt">&quot;cdnBasePath&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;!-- PATH TO CDN --&gt;&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;debugLocale&quot;</span><span class="p">:</span> <span class="s2">&quot;de-de&quot;</span>
 <span class="p">}</span>
 </pre></div>
 
@@ -1987,7 +2024,7 @@ Logging with @pnp/logging
 <p>Very good overview from sebastien levert: <a href="./assets/APIs-Everywhere.pptx">APIs Everywhere</a></p>
 <p>Sample Folder structur</p>
 <ul>
-<li>src<ul>
+<li>src</li>
 <li>models<ul>
 <li>IHelpDeskItem.ts</li>
 </ul>
@@ -2002,8 +2039,6 @@ Logging with @pnp/logging
 <li>components</li>
 <li>loc</li>
 <li>'webpartnameWebPart.ts'</li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -2146,6 +2181,7 @@ return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
 
 <h3 id="get-search-data-with-asynchawait">Get Search Data with asynch/await<a class="headerlink" href="#get-search-data-with-asynchawait" title="Permanent link">&para;</a></h3>
 <p><a href="https://sympmarc.com/2018/12/12/using-pnpjs-and-async-await-to-really-simplify-your-api-calls/#comment-167591">Using PnPJS and Async/Await to Really Simplify Your API Calls</a></p>
+<p>asynch/await</p>
 <div class="codehilite"><pre><span></span>  private async _getSiteData(): Promise&lt;ISPSite[]&gt; {
 
     var thisDomain: string = location.host.split(&quot;.&quot;)[0];
@@ -2181,6 +2217,30 @@ return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
   }
 </pre></div>
 
+<div class="codehilite"><pre><span></span>public async getShipmentStatuses(serviceProps: IServiceProperties): Promise&lt;IStatus[]&gt; {
+
+    try {
+
+      let items = await sp
+        .web
+        .lists
+        .getByTitle(&quot;SL_ShippingStatuses&quot;)
+        .items
+        .select(&quot;Id&quot;, &quot;Title&quot;, &quot;SortOrder&quot;, &quot;CanBeCancelled&quot;)
+        .orderBy(&quot;SortOrder&quot;)
+        .get(spODataEntityArray&lt;Item, IStatus&gt;(Item));
+
+      return items;
+
+    } catch (e) {
+
+      console.error(e);
+      return null;
+
+    }
+}
+</pre></div>
+
 <h3 id="get-data-from-msgraph">Get Data from MSGraph<a class="headerlink" href="#get-data-from-msgraph" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="http://spblog.net/post/2018/09/09/Using-PnPjs-to-send-requests-to-MS-Graph-with-SharePoint-Framework-16">Using PnPjs to send requests to MS Graph with SharePoint Framework 1.6</a></li>
@@ -2204,7 +2264,10 @@ git commit -m &quot;Initial commit.&quot;
 </pre></div>
 
 <p>add office fabric react</p>
-<div class="codehilite"><pre><span></span>yarn add office-ui-fabric-react --save
+<ul>
+<li><a href="https://github.com/SharePoint/sp-dev-docs/issues/2936">office-ui-fabric-react@5.131.0</a></li>
+</ul>
+<div class="codehilite"><pre><span></span>npm install office-ui-fabric-react@5.131.0
 </pre></div>
 
 <h2 id="create-sp-app">Create SP-App<a class="headerlink" href="#create-sp-app" title="Permanent link">&para;</a></h2>
@@ -2223,12 +2286,14 @@ git commit -m &quot;Initial commit.&quot;
 <li><a href="https://github.com/pnp/office365-cli">https://github.com/pnp/office365-cli</a></li>
 <li><a href="https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli">https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli</a></li>
 </ul>
-<p>Office 365 CLI (next) installieren
+<p>Office 365 CLI (next) installieren</p>
 <div class="codehilite"><pre><span></span>npm i -g @pnp/office365-cli@next
-</pre></div></p>
-<p>Report erstellen
+</pre></div>
+
+<p>Report erstellen</p>
 <div class="codehilite"><pre><span></span>o365 spfx project upgrade --output md &gt; report.md
-</pre></div></p>
+</pre></div>
+
 <p>Code update</p>
 <ul>
 <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/update-latest-packages">update-latest-packages</a></li>
