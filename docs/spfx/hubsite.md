@@ -5,6 +5,7 @@
 - [the-intranet-managers-guide-to-office-365-sharepoint-hub-sites](https://www.habaneroconsulting.com/stories/insights/2018/the-intranet-managers-guide-to-office-365-sharepoint-hub-sites)
 - [common-use-cases-for-office-365-sharepoint-hub-sites](https://www.habaneroconsulting.com/stories/insights/2018/common-use-cases-for-office-365-sharepoint-hub-sites)
 - [architecture-considerations-and-quick-reference-tips-for-office-365s-sharepoint-hub-sites](https://www.habaneroconsulting.com/stories/insights/2018/architecture-considerations-and-quick-reference-tips-for-office-365s-sharepoint-hub-sites)
+- [How to Create Hub Sites in SharePoint Online](https://sharepointmaven.com/how-to-create-hub-sites-in-sharepoint-online/)
 
 ## Planning
 

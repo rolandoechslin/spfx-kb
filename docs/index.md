@@ -1,4 +1,3 @@
-
 # Tips and tricks
 
 ## Roadmap
@@ -15,11 +14,23 @@
 - [Office fabric react - TypeScript-Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/TypeScript-Guidelines)
 - [react-typescript-cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet)
 
+## Code Review
+
+- [React-JS-Checklist](https://github.com/prdxn/React-JS-Checklist)
+- [Front-end Code Review Checklist](https://gist.github.com/bigsergey/aef64f68c22b3107ccbc439025ebba12)
+
 ## Content Style Guide
 
 - https://docs.microsoft.com/de-ch/style-guide/welcome/
 
+## Coding Patterns
+
+- [React Design Principles](https://reactjs.org/docs/design-principles.html)
+- [Design patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
+- [React inpatterns](https://krasimir.gitbooks.io/react-in-patterns/)
+
 ## SharePoint PNP Community
+
 - [SharePoint PnP resources](https://docs.microsoft.com/en-us/sharepoint/dev/community/community)
 - [Sharepoint Glossar](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-glossary)
 
@@ -69,7 +80,6 @@ gulp serve --nobrowser
 /_layouts/15/workbench.aspx
 ```
 
-
 ## Prepare Deployment Solution
 
 ```bs
@@ -98,7 +108,7 @@ gulp package-solution --ship
 Reference the Log class.
 
 ```tsx
-import { Log } from '@microsoft/sp-core-library';
+import { Log } from "@microsoft/sp-core-library";
 ```
 
 Log your message from your WebPart
@@ -117,7 +127,8 @@ Logging with @pnp/logging
 ## Logging with pnp-logging
 
 - <https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging>
-https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging
+
+  https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging
 
 ## Logging with AppInsights
 
@@ -142,12 +153,13 @@ gulp serve
 - <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode>
 
 Pre Steps
+
 - open vs.code
 - got to view extensions
 - install "Debugger for chrome"
 - create launch.json
 - select configuration
-    - Hosted workbench configuration
+  - Hosted workbench configuration
 
 Steps
 
@@ -168,7 +180,7 @@ gulp serve --nobrowser
 ### Fix version
 
 - edit version in package.json -> same as in package-solution.json
-    - to "version": "1.0.0",
+  - to "version": "1.0.0",
 
 ### Add importend pnp modules
 
@@ -197,12 +209,12 @@ npm install @pnp/spfx-property-controls --save --save-exact
 - They work similar as Resources files (XML) on VS Solution
 - The default language is English (en-us)
 - Developers can test the locale by:
-    - Updating write-manifests.json file
+  - Updating write-manifests.json file
 
 ```json
 {
-    "cdnBasePath": "<!-- PATH TO CDN -->",
-    "debugLocale": "de-de"
+  "cdnBasePath": "<!-- PATH TO CDN -->",
+  "debugLocale": "de-de"
 }
 ```
 
@@ -212,7 +224,6 @@ Or by using the "locale" command argument
 gulp serve --locale=de-de
 ```
 
-
 ## Data Service
 
 Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everywhere.pptx)
@@ -220,17 +231,16 @@ Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everyw
 Sample Folder structur
 
 - src
-    - models
-        - IHelpDeskItem.ts
-    - services
-        - IDataService.ts
-        - MockDataservice.ts
-        - SharepointDataService.ts
-    - webparts
-        - components
-        - loc
-        - 'webpartnameWebPart.ts'
-
+  - models
+    - IHelpDeskItem.ts
+  - services
+    - IDataService.ts
+    - MockDataservice.ts
+    - SharepointDataService.ts
+  - webparts
+    - components
+    - loc
+    - 'webpartnameWebPart.ts'
 
 ### Data Model
 
@@ -261,7 +271,6 @@ export default interface IDataService {
   addItem(item: IHelpDeskItem): Promise<void>;
   deleteItem(id: number): Promise<void>;
 }
-
 ```
 
 Mocking Service for testing in local Workbench development
@@ -479,11 +488,13 @@ npm install @microsoft/generator-sharepoint --global
 - <https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli>
 
 Office 365 CLI (next) installieren
+
 ```bs
 npm i -g @pnp/office365-cli@next
 ```
 
 Report erstellen
+
 ```bs
 o365 spfx project upgrade --output md > report.md
 ```

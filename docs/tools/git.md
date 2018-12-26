@@ -6,6 +6,7 @@
 
 ## Tips
 
+- [How to write the perfect pull request](https://blog.github.com/2015-01-21-how-to-write-the-perfect-pull-request/)
 - [Update a Severely Out of Date GitHub Repository Fork](https://mikefrobbins.com/2018/06/28/update-a-severely-out-of-date-github-repository-fork/)
 - [Merging 2 Different Git Repositories Without Losing your History](https://thoughts.t37.net/merging-2-different-git-repositories-without-losing-your-history-de7a06bba804)
 - [Push your code into a git repo](https://winsmarts.com/push-your-code-into-a-git-repo-2de18f61ee8f)
