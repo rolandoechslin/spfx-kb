@@ -2241,6 +2241,35 @@ return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
 }
 </pre></div>
 
+<p><a href="https://github.com/joelfmrodrigues/demos/blob/master/PnP%20Controls/final/src/webparts/PnPControls/components/PnPControls.tsx">joelfmrodrigues - demos</a></p>
+<div class="codehilite"><pre><span></span>private async _getItems() {
+  let select = &#39;*&#39;;
+  let expand = &#39;File&#39;;
+  let filter = &#39;&#39;;
+
+  // filter by selected term if required
+  if (this.props.term !== undefined &amp;&amp; this.props.term !== null &amp;&amp; this.props.term.length &gt; 0) {
+    const term = this.props.term[0];
+
+    select = `${select},TaxCatchAll/Term`;
+    expand = `${expand},TaxCatchAll`;
+    filter = `TaxCatchAll/Term eq &#39;${term.name}&#39;`;
+  }
+
+  const items = await sp.web.lists.getById(this.props.list).items
+    .select(select)
+    .expand(expand)
+    .filter(filter)
+    .get();
+
+  // update state
+  this.setState({
+    items: items ? items : []
+  });
+  console.log(&#39;List Items:&#39;, this.state.items);
+}
+</pre></div>
+
 <h3 id="get-data-from-msgraph">Get Data from MSGraph<a class="headerlink" href="#get-data-from-msgraph" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="http://spblog.net/post/2018/09/09/Using-PnPjs-to-send-requests-to-MS-Graph-with-SharePoint-Framework-16">Using PnPjs to send requests to MS Graph with SharePoint Framework 1.6</a></li>
