@@ -463,6 +463,37 @@ public async getShipmentStatuses(serviceProps: IServiceProperties): Promise<ISta
 }
 ```
 
+[joelfmrodrigues - demos](https://github.com/joelfmrodrigues/demos/blob/master/PnP%20Controls/final/src/webparts/PnPControls/components/PnPControls.tsx)
+
+```tsx
+private async _getItems() {
+  let select = '*';
+  let expand = 'File';
+  let filter = '';
+
+  // filter by selected term if required
+  if (this.props.term !== undefined && this.props.term !== null && this.props.term.length > 0) {
+    const term = this.props.term[0];
+
+    select = `${select},TaxCatchAll/Term`;
+    expand = `${expand},TaxCatchAll`;
+    filter = `TaxCatchAll/Term eq '${term.name}'`;
+  }
+
+  const items = await sp.web.lists.getById(this.props.list).items
+    .select(select)
+    .expand(expand)
+    .filter(filter)
+    .get();
+
+  // update state
+  this.setState({
+    items: items ? items : []
+  });
+  console.log('List Items:', this.state.items);
+}
+```
+
 ### Get Data from MSGraph
 
 - [Using PnPjs to send requests to MS Graph with SharePoint Framework 1.6](http://spblog.net/post/2018/09/09/Using-PnPjs-to-send-requests-to-MS-Graph-with-SharePoint-Framework-16)
