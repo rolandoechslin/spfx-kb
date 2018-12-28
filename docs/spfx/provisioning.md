@@ -29,7 +29,10 @@
 
 ## Flow / Azure Function
 
-- <https://github.com/giuleon/O365ModernProvisioning>
+- [O365ModernProvisioning](https://github.com/giuleon/O365ModernProvisioning)
+- [Provisioning an Office 365 group with an approval flow and Azure functions-part 1](https://blog.atwork.at/post/2017/09/28/Provisioning-an-Office-365-group-with-an-approval-flow-and-Azure-functions-part-1)
+- [Provisioning an Office 365 group with an approval flow and Azure functions-part 2](https://blog.atwork.at/post/2017/10/01/Provisioning-an-Office-365-group-with-an-approval-flow-and-Azure-functions-part-2)
+- [Provisioning an Office 365 group with an approval flow and Azure functions-part 3](https://blog.atwork.at/post/2017/10/05/Provisioning-an-Office-365-group-with-an-approval-flow-and-Azure-functions-part-3)
 
 ## OneDrive for Business
 
