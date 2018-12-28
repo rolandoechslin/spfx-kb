@@ -1,5 +1,9 @@
 # Deployment
 
+## Azure DevOps / Azure Pipline
+
+- [Setting up Azure DevOps Pipelines for SharePoint Framework solutions](https://youtu.be/GqmbRpiTBXg?t=2278)
+
 ## ALM
 
 - [node-sp-alm](https://www.npmjs.com/package/node-sp-alm)
