@@ -16,6 +16,7 @@
 - <http://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow>
 - [Calling Microsoft Flow from a site script](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial)
 - [Automating New User Account On-boarding Using SharePoint Online, Flow, and PowerApps](https://practical365.com/sharepoint-online/automated-user-creation-flow-powerapps)
+- [control office365 group creation](https://www.sharepointnutsandbolts.com/2018/04/control-office-365-group-creation.html)
 
 ## Error Messages
 
