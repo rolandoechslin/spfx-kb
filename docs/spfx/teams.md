@@ -13,7 +13,7 @@
 ## Planing
 
 - [Microsoft Teams planning guide](https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams)
-- [ore components of Teams](https://www.youtube.com/watch?v=xJBvJTDiQqg)
+- [Core components of Teams](https://www.youtube.com/watch?v=xJBvJTDiQqg)
 -[Limits and specifications for Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/limits-specifications-teams)
 
 ## Training video
