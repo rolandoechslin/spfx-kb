@@ -10,6 +10,12 @@
 - <https://bob1german.com/2018/05/14/teams-and-sharepoint-better-together/>
 - <https://www.metalogix.com/blog/microsoft-365-teamwork-inner-outer-loop>
 
+## Planing
+
+- [Microsoft Teams planning guide](https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams)
+- [ore components of Teams](https://www.youtube.com/watch?v=xJBvJTDiQqg)
+-[Limits and specifications for Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/limits-specifications-teams)
+
 ## Training video
 
 - [Microsoft Teams video training](https://support.office.com/en-us/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-US&rs=en-US&ad=US)
