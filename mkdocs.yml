@@ -17,6 +17,7 @@ pages:
         - Configuration: spfx/configuration.md
         - Debug: spfx/debug.md
         - Deployment: spfx/deployment.md
+        - Delve: spfx/delve.md
         - Extensions: spfx/extensions.md
         - Events: spfx/events.md
         - Flow: spfx/flow.md
