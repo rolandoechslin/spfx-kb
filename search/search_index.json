@@ -426,6 +426,21 @@
             "title": "AppSettings"
         },
         {
+            "location": "/spfx/delve/",
+            "text": "Delve\n\u00b6\n\n\nSearch Konfiguration\n\u00b6\n\n\n\n\nHIDING FROM DELVE IN OFFICE 365",
+            "title": "Delve"
+        },
+        {
+            "location": "/spfx/delve/#delve",
+            "text": "",
+            "title": "Delve"
+        },
+        {
+            "location": "/spfx/delve/#search-konfiguration",
+            "text": "HIDING FROM DELVE IN OFFICE 365",
+            "title": "Search Konfiguration"
+        },
+        {
             "location": "/spfx/extensions/",
             "text": "Extensions\n\u00b6\n\n\nFull Page\n\u00b6\n\n\n\n\nhttps://github.com/aflyen/spfx-extension-fullpagecanvas\n\n\nhttps://github.com/StfBauer/spfx-appcust-removeFeeback\n\n\nhttp://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html\n (React slider field customizer)\n\n\nhttps://github.com/dannyjessee/SPFxHeaderFooter\n\n\nhttps://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions\n\n\n\n\nListView\n\u00b6\n\n\n\n\nShowing or hiding SharePoint Framework ListView custom actions based on permissions and selected items\n\n\n\n\nComments\n\u00b6\n\n\n\n\nReceive comment notifications by email in Modern SharePoint Pages\n\n\nGithub: Receive comment notifications on Modern SharePoint pages by email\n\n\n\n\nChange browser favicon icon\n\u00b6\n\n\n\n\nChange favicon on Modern SharePoint sites\n\n\nSPFx-favicon\n\n\n\n\nInject CSS\n\u00b6\n\n\n\n\nInject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions\n\n\n\n\nNavigations\n\u00b6\n\n\n\n\nHandling navigation in a SharePoint Framework application customizer\n\n\n\n\nPlaceholders\n\u00b6\n\n\n\n\nSafely using Placeholders in an extension\n\n\n\n\nprivate _topPlaceholder : PlaceholderContent;\npublic onInit(void){\n    this.context.placeholderProvider.changedEvent.add(this, this._handlePlaceholderChange.bind(this));\n}\n\nprivate _handlePlaceholderChange(){\n  if (!this._topPlaceholder)\n  {\n    // We don't have a placeholder populated yet.  Let's try and get it.\n    this._topPlaceholder = this.context.placeholderProvider.tryCreateContent(PlaceholderName.Top);\n  } else {\n    // We have a placeholder - let's make sure that it still exists.\n    let index:number = this.context.placeholderProvider.placeholderNames.indexOf(PlaceholderName.Top);\n    if ( index < 0)\n    {\n        // The placeholder is no longer here.\n        this._topPlaceholder.dispose();\n        this._topPlaceholder = undefined;\n    }\n  }\n  if ( this._topPlaceholder )\n  {\n      this._topPlaceholder.innerText = 'Hello World!';\n  }\n}",
             "title": "Extensions"
