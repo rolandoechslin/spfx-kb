@@ -1902,12 +1902,14 @@ git commit -m &quot;init repo&quot;
 </pre></div>
 
 <h2 id="prepare-deployment-solution">Prepare Deployment Solution<a class="headerlink" href="#prepare-deployment-solution" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>gulp clean
-gulp build
-gulp --ship
-gulp package-solution --ship
+<p><div class="codehilite"><pre><span></span>gulp clean
 </pre></div>
-
+<div class="codehilite"><pre><span></span>gulp build
+</pre></div>
+<div class="codehilite"><pre><span></span>gulp bundle --ship
+</pre></div>
+<div class="codehilite"><pre><span></span>gulp package-solution --ship
+</pre></div></p>
 <h2 id="manuel-upload-solution-deployment">Manuel Upload Solution Deployment<a class="headerlink" href="#manuel-upload-solution-deployment" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Upload the solution file "packagename.sppkg" from "/sharepoint/solution" to the App Catalog.</li>
