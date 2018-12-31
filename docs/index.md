@@ -84,8 +84,14 @@ gulp serve --nobrowser
 
 ```bs
 gulp clean
+```
+```bs
 gulp build
-gulp --ship
+```
+```bs
+gulp bundle --ship
+```
+```bs
 gulp package-solution --ship
 ```
 
