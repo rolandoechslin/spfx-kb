@@ -15,6 +15,7 @@
 - [Microsoft Teams planning guide](https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams)
 - [Core components of Teams](https://www.youtube.com/watch?v=xJBvJTDiQqg)
 -[Limits and specifications for Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/limits-specifications-teams)
+- [Difference in permission between an owner and a member](https://docs.microsoft.com/en-us/MicrosoftTeams/assign-roles-permissions)
 
 ## Training video
 
