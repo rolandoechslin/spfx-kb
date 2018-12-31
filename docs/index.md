@@ -194,13 +194,13 @@ npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
 - <https://sharepoint.github.io/sp-dev-fx-controls-react/>
 
 ```bs
-npm install @pnp/spfx-controls-react --save --save-exact
+npm install @pnp/spfx-controls-react@latest --save --save-exact
 ```
 
 - <https://sharepoint.github.io/sp-dev-fx-property-controls/>
 
 ```bs
-npm install @pnp/spfx-property-controls --save --save-exact
+npm install @pnp/spfx-property-controls@latest --save --save-exact
 ```
 
 ## Localizations
