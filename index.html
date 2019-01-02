@@ -530,6 +530,26 @@
     App Permission
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sharepoint-online-data" title="SharePoint Online Data" class="md-nav__link">
+    SharePoint Online Data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#msgraph-data" title="MSGraph Data" class="md-nav__link">
+    MSGraph Data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1740,6 +1760,26 @@
     App Permission
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sharepoint-online-data" title="SharePoint Online Data" class="md-nav__link">
+    SharePoint Online Data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#msgraph-data" title="MSGraph Data" class="md-nav__link">
+    MSGraph Data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1916,14 +1956,18 @@ git commit -m &quot;init repo&quot;
 </pre></div>
 
 <h2 id="prepare-deployment-solution">Prepare Deployment Solution<a class="headerlink" href="#prepare-deployment-solution" title="Permanent link">&para;</a></h2>
-<p><div class="codehilite"><pre><span></span>gulp clean
+<div class="codehilite"><pre><span></span>gulp clean
 </pre></div>
+
 <div class="codehilite"><pre><span></span>gulp build
 </pre></div>
+
 <div class="codehilite"><pre><span></span>gulp bundle --ship
 </pre></div>
+
 <div class="codehilite"><pre><span></span>gulp package-solution --ship
-</pre></div></p>
+</pre></div>
+
 <h2 id="manuel-upload-solution-deployment">Manuel Upload Solution Deployment<a class="headerlink" href="#manuel-upload-solution-deployment" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Upload the solution file "packagename.sppkg" from "/sharepoint/solution" to the App Catalog.</li>
@@ -2049,7 +2093,19 @@ Logging with @pnp/logging
 </pre></div>
 
 <h2 id="app-permission">App Permission<a class="headerlink" href="#app-permission" title="Permanent link">&para;</a></h2>
-<p>-<a href="https://www.vrdmn.com/2019/01/working-with-application-permissions.html">Working with Application Permissions (App-Only Auth) in SharePoint Online and the Microsoft Graph</a></p>
+<ul>
+<li><a href="https://www.vrdmn.com/2019/01/working-with-application-permissions.html">Working with Application Permissions (App-Only Auth) in SharePoint Online and the Microsoft Graph</a></li>
+<li><a href="https://spblog.net/post/2018/08/24/SharePoint-lifehacks-create-SharePoint-app-registration-with-client-secret-which-never-expires">SharePoint lifehacks: create SharePoint app registration with client secret which never expires</a></li>
+</ul>
+<h3 id="sharepoint-online-data">SharePoint Online Data<a class="headerlink" href="#sharepoint-online-data" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread">Granting access via Azure AD App-Only</a></li>
+<li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs">Granting access using SharePoint App-Only</a></li>
+</ul>
+<h3 id="msgraph-data">MSGraph Data<a class="headerlink" href="#msgraph-data" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#get-application-id-and-authentication-key">Get application ID and authentication key</a></li>
+</ul>
 <h2 id="data-service">Data Service<a class="headerlink" href="#data-service" title="Permanent link">&para;</a></h2>
 <p>Very good overview from sebastien levert: <a href="./assets/APIs-Everywhere.pptx">APIs Everywhere</a></p>
 <p>Sample Folder structur</p>
