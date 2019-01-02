@@ -85,12 +85,15 @@ gulp serve --nobrowser
 ```bs
 gulp clean
 ```
+
 ```bs
 gulp build
 ```
+
 ```bs
 gulp bundle --ship
 ```
+
 ```bs
 gulp package-solution --ship
 ```
@@ -232,15 +235,16 @@ gulp serve --locale=de-de
 
 ## App Permission
 
--[Working with Application Permissions (App-Only Auth) in SharePoint Online and the Microsoft Graph](https://www.vrdmn.com/2019/01/working-with-application-permissions.html)
+- [Working with Application Permissions (App-Only Auth) in SharePoint Online and the Microsoft Graph](https://www.vrdmn.com/2019/01/working-with-application-permissions.html)
+- [SharePoint lifehacks: create SharePoint app registration with client secret which never expires](https://spblog.net/post/2018/08/24/SharePoint-lifehacks-create-SharePoint-app-registration-with-client-secret-which-never-expires)
 
 ### SharePoint Online Data
 
--[Granting access via Azure AD App-Only](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)
+- [Granting access via Azure AD App-Only](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)
 - [Granting access using SharePoint App-Only](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
-- [SharePoint lifehacks: create SharePoint app registration with client secret which never expires](https://spblog.net/post/2018/08/24/SharePoint-lifehacks-create-SharePoint-app-registration-with-client-secret-which-never-expires)
 
 ### MSGraph Data
+
 - [Get application ID and authentication key](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#get-application-id-and-authentication-key)
 
 ## Data Service
