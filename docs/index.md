@@ -230,6 +230,10 @@ Or by using the "locale" command argument
 gulp serve --locale=de-de
 ```
 
+## App Permission
+
+-[Working with Application Permissions (App-Only Auth) in SharePoint Online and the Microsoft Graph](https://www.vrdmn.com/2019/01/working-with-application-permissions.html)
+
 ## Data Service
 
 Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everywhere.pptx)
