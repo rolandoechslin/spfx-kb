@@ -234,6 +234,15 @@ gulp serve --locale=de-de
 
 -[Working with Application Permissions (App-Only Auth) in SharePoint Online and the Microsoft Graph](https://www.vrdmn.com/2019/01/working-with-application-permissions.html)
 
+### SharePoint Online Data
+
+-[Granting access via Azure AD App-Only](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)
+- [Granting access using SharePoint App-Only](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
+- [SharePoint lifehacks: create SharePoint app registration with client secret which never expires](https://spblog.net/post/2018/08/24/SharePoint-lifehacks-create-SharePoint-app-registration-with-client-secret-which-never-expires)
+
+### MSGraph Data
+- [Get application ID and authentication key](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#get-application-id-and-authentication-key)
+
 ## Data Service
 
 Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everywhere.pptx)
