@@ -28,6 +28,7 @@ pages:
         - Graph: spfx/graph.md
         - JS: spfx/js.md
         - Listitem: spfx/listitem.md
+        - Logging: spfx/logging.md
         - Network: spfx/network.md
         - Communication-Site: spfx/communication-site.md
         - Patterns: spfx/patterns.md
