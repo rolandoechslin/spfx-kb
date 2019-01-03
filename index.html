@@ -457,27 +457,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#logging-with-sp-core-library" title="Logging with sp-core-library" class="md-nav__link">
-    Logging with sp-core-library
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#logging-with-pnp-logging" title="Logging with pnp-logging" class="md-nav__link">
-    Logging with pnp-logging
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#logging-with-appinsights" title="Logging with AppInsights" class="md-nav__link">
-    Logging with AppInsights
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#debug-in-browser" title="Debug in browser" class="md-nav__link">
     Debug in browser
   </a>
@@ -1687,27 +1666,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#logging-with-sp-core-library" title="Logging with sp-core-library" class="md-nav__link">
-    Logging with sp-core-library
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#logging-with-pnp-logging" title="Logging with pnp-logging" class="md-nav__link">
-    Logging with pnp-logging
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#logging-with-appinsights" title="Logging with AppInsights" class="md-nav__link">
-    Logging with AppInsights
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#debug-in-browser" title="Debug in browser" class="md-nav__link">
     Debug in browser
   </a>
@@ -1979,35 +1937,6 @@ git commit -m &quot;init repo&quot;
 <h2 id="learning-spfx">Learning SPFx<a class="headerlink" href="#learning-spfx" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls">PnP Controls</a></li>
-</ul>
-<h2 id="logging-with-sp-core-library">Logging with sp-core-library<a class="headerlink" href="#logging-with-sp-core-library" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API">https://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API</a></li>
-</ul>
-<p>Reference the Log class.</p>
-<div class="codehilite"><pre><span></span>import { Log } from &quot;@microsoft/sp-core-library&quot;;
-</pre></div>
-
-<p>Log your message from your WebPart</p>
-<div class="codehilite"><pre><span></span>Log.verbose(&quot;HelloWorld&quot;, &quot;Here is a verbose log&quot;, this.context.serviceScope);
-
-Log.info(&quot;HelloWorld&quot;, &quot;Here is an informational message.&quot;, this.context.serviceScope);
-
-Log.warn(&quot;HelloWorld&quot;, &quot;Oh Oh, this might be bad&quot;, this.context.serviceScope);
-
-Log.error(&quot;HelloWorld&quot;, new Error(&quot;Oh No!  Error!  Ahhhhhh!!!!&quot;), this.context.serviceScope);
-Logging with @pnp/logging
-</pre></div>
-
-<h2 id="logging-with-pnp-logging">Logging with pnp-logging<a class="headerlink" href="#logging-with-pnp-logging" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging">https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging</a></li>
-</ul>
-<p><a href="https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging">https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging</a></p>
-<h2 id="logging-with-appinsights">Logging with AppInsights<a class="headerlink" href="#logging-with-appinsights" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://www.sharepointnutsandbolts.com/2017/08/SPFx-App-Insights.html">Add Azure App Insights or Google Analytics to your SharePoint pages with an SPFx Application Customizer</a></li>
-<li><a href="https://www.sharepointnutsandbolts.com/2017/09/App-Insights-for-SPFx-and-provisioning.html">Use Azure App Insights to track events in your app/web part/provisioning code</a></li>
 </ul>
 <h2 id="debug-in-browser">Debug in browser<a class="headerlink" href="#debug-in-browser" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>gulp serve
