@@ -701,6 +701,31 @@
             "title": "Managing Lists"
         },
         {
+            "location": "/spfx/logging/",
+            "text": "Logging\n\u00b6\n\n\nLogging with sp-core-library\n\u00b6\n\n\n\n\nWorking with the Logging API\n\n\n\n\nReference the Log class\n\n\nimport { Log } from \"@microsoft/sp-core-library\";\n\n\n\n\nLog your message from your WebPart\n\n\nLog.verbose(\"HelloWorld\", \"Here is a verbose log\", this.context.serviceScope);\nLog.info(\"HelloWorld\", \"Here is an informational message.\", this.context.serviceScope);\nLog.warn(\"HelloWorld\", \"Oh Oh, this might be bad\", this.context.serviceScope);\nLog.error(\"HelloWorld\", new Error(\"Oh No!  Error!  Ahhhhhh!!!!\"), this.context.serviceScope);\nLogging with @pnp/logging\n\n\n\n\nLogging with pnp-logging\n\u00b6\n\n\n\n\nResolve to Log\n\n\nWorking With: Logging\n\n\nIntegrate Logging\n\n\n\n\nLogging with AppInsights\n\u00b6\n\n\n\n\nAdd Azure App Insights or Google Analytics to your SharePoint pages with an SPFx Application Customizer\n\n\nUse Azure App Insights to track events in your app/web part/provisioning code",
+            "title": "Logging"
+        },
+        {
+            "location": "/spfx/logging/#logging",
+            "text": "",
+            "title": "Logging"
+        },
+        {
+            "location": "/spfx/logging/#logging-with-sp-core-library",
+            "text": "Working with the Logging API   Reference the Log class  import { Log } from \"@microsoft/sp-core-library\";  Log your message from your WebPart  Log.verbose(\"HelloWorld\", \"Here is a verbose log\", this.context.serviceScope);\nLog.info(\"HelloWorld\", \"Here is an informational message.\", this.context.serviceScope);\nLog.warn(\"HelloWorld\", \"Oh Oh, this might be bad\", this.context.serviceScope);\nLog.error(\"HelloWorld\", new Error(\"Oh No!  Error!  Ahhhhhh!!!!\"), this.context.serviceScope);\nLogging with @pnp/logging",
+            "title": "Logging with sp-core-library"
+        },
+        {
+            "location": "/spfx/logging/#logging-with-pnp-logging",
+            "text": "Resolve to Log  Working With: Logging  Integrate Logging",
+            "title": "Logging with pnp-logging"
+        },
+        {
+            "location": "/spfx/logging/#logging-with-appinsights",
+            "text": "Add Azure App Insights or Google Analytics to your SharePoint pages with an SPFx Application Customizer  Use Azure App Insights to track events in your app/web part/provisioning code",
+            "title": "Logging with AppInsights"
+        },
+        {
             "location": "/spfx/network/",
             "text": "Network\n\u00b6\n\n\n\n\nURLs-und-IP-Adressbereiche-von-Office-365\n\n\n\n\nDNS-Basics\n\u00b6\n\n\n\n\nClientkonnektivit\u00e4t\n\n\nOffice 365 Connectivity Guidance\n\n\noffice-365-connectivity-guidance-part-2\n\n\noffice-365-connectivity-guidance-part-3\n\n\noffice-365-connectivity-guidance-part-4\n\n\n\n\nTools\n\u00b6\n\n\n\n\nPsPing v2.1\n\n\n\n\nIT Pro\n\u00b6\n\n\n\n\nprovisioning-office-365-services\n\n\n\n\nSSL\n\u00b6\n\n\n\n\ngenerating-wildcard-ssl-certs-for-development",
             "title": "Network"
