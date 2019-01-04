@@ -3,6 +3,7 @@
 ## Support
 
 - [Keyboard shortcuts for Microsoft Teams](https://support.office.com/en-us/article/keyboard-shortcuts-for-microsoft-teams-2e8e2a70-e8d8-4a19-949b-4c36dd5292d2?utm_source=t.co&utm_medium=referral)
+- [Microsoft Teams: How to clean cache](https://albandrodsmemory.wordpress.com/2019/01/04/microsoft-teams-how-to-clean-cache/)
 
 ## Overview
 
@@ -34,6 +35,7 @@
 - <https://delucagiuliano.com/selecting-users-for-your-microsoft-teams-pilot-phase/#.W1lo89IzZBA>
 
 ## Guest Users
+
 - <https://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users>
 
 ## Microsoft Teams versus Sharepoint Teams
