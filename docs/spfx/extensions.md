@@ -2,15 +2,16 @@
 
 ## Full Page
 
-- https://github.com/aflyen/spfx-extension-fullpagecanvas
-- https://github.com/StfBauer/spfx-appcust-removeFeeback
-- http://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html (React slider field customizer)
-- https://github.com/dannyjessee/SPFxHeaderFooter
-- https://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions
+- [SharePoint Full Page Canvas App](https://github.com/aflyen/spfx-extension-fullpagecanvas)
+- [spfx-appcust-removeFeeback](https://github.com/StfBauer/spfx-appcust-removeFeeback)
+- [React slider field customizer](http://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html)
+- [SharePoint Framework custom header and footer application customizer extension](https://github.com/dannyjessee/SPFxHeaderFooter)
+- [Check the page display mode from within your SharePoint Framework extensions](https://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions)
 
 ## ListView
 
 - [Showing or hiding SharePoint Framework ListView custom actions based on permissions and selected items](https://www.eliostruyf.com/showing-or-hiding-sharepoint-framework-listview-custom-actions-based-on-permissions-and-selected-items)
+- [SPFX ListView Command Set and Panel](https://ypcode.wordpress.com/2019/01/03/spfx-listview-command-set-and-panel/)
 
 ## Comments
 

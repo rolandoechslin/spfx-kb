@@ -88,8 +88,17 @@ gulp serve --nobrowser
 
 ```bs
 gulp clean
+```
+
+```bs
 gulp build
-gulp --ship
+```
+
+```bs
+gulp bundle --ship
+```
+
+```bs
 gulp package-solution --ship
 ```
 
@@ -104,40 +113,6 @@ gulp package-solution --ship
 ## Learning SPFx
 
 - [PnP Controls](https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls)
-
-## Logging with sp-core-library
-
-- <https://github.com/SharePoint/sp-dev-docs/wiki/Working-with-the-Logging-API>
-
-Reference the Log class.
-
-```tsx
-import { Log } from "@microsoft/sp-core-library";
-```
-
-Log your message from your WebPart
-
-```tsx
-Log.verbose("HelloWorld", "Here is a verbose log", this.context.serviceScope);
-
-Log.info("HelloWorld", "Here is an informational message.", this.context.serviceScope);
-
-Log.warn("HelloWorld", "Oh Oh, this might be bad", this.context.serviceScope);
-
-Log.error("HelloWorld", new Error("Oh No!  Error!  Ahhhhhh!!!!"), this.context.serviceScope);
-Logging with @pnp/logging
-```
-
-## Logging with pnp-logging
-
-- <https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging>
-
-  https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging
-
-## Logging with AppInsights
-
-- [Add Azure App Insights or Google Analytics to your SharePoint pages with an SPFx Application Customizer](https://www.sharepointnutsandbolts.com/2017/08/SPFx-App-Insights.html)
-- [Use Azure App Insights to track events in your app/web part/provisioning code](https://www.sharepointnutsandbolts.com/2017/09/App-Insights-for-SPFx-and-provisioning.html)
 
 ## Debug in browser
 
@@ -198,13 +173,13 @@ npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
 - <https://sharepoint.github.io/sp-dev-fx-controls-react/>
 
 ```bs
-npm install @pnp/spfx-controls-react --save --save-exact
+npm install @pnp/spfx-controls-react@latest --save --save-exact
 ```
 
 - <https://sharepoint.github.io/sp-dev-fx-property-controls/>
 
 ```bs
-npm install @pnp/spfx-property-controls --save --save-exact
+npm install @pnp/spfx-property-controls@latest --save --save-exact
 ```
 
 ## Localizations
@@ -227,6 +202,20 @@ Or by using the "locale" command argument
 ```bs
 gulp serve --locale=de-de
 ```
+
+## App Permission
+
+- [Working with Application Permissions (App-Only Auth) in SharePoint Online and the Microsoft Graph](https://www.vrdmn.com/2019/01/working-with-application-permissions.html)
+- [SharePoint lifehacks: create SharePoint app registration with client secret which never expires](https://spblog.net/post/2018/08/24/SharePoint-lifehacks-create-SharePoint-app-registration-with-client-secret-which-never-expires)
+
+### SharePoint Online Data
+
+- [Granting access via Azure AD App-Only](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)
+- [Granting access using SharePoint App-Only](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
+
+### MSGraph Data
+
+- [Get application ID and authentication key](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#get-application-id-and-authentication-key)
 
 ## Data Service
 
