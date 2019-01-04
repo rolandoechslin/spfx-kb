@@ -14,6 +14,10 @@
 - [Office fabric react - TypeScript-Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/TypeScript-Guidelines)
 - [react-typescript-cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet)
 
+## Design Guideline
+
+- [Official product colors for Microsoft apps](https://fluentfabric.azurewebsites.net/#/color/products)
+
 ## Code Review
 
 - [React-JS-Checklist](https://github.com/prdxn/React-JS-Checklist)
