@@ -62,6 +62,7 @@
 - <https://poeditor.com/>
 - <https://github.com/ypcode/spfx-dev-tools> (Ressourcen Files mit Excel editieren)
 - [Excel and PowerShell to maintain your SPFx localized resources](https://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources)
+- [JavaScript Internationalization Framework](https://github.com/facebookincubator/fbt)
 
 ## ULS
 

@@ -23,6 +23,10 @@
 - [Change favicon on Modern SharePoint sites](http://sharepoint.handsontek.net/2018/08/24/change-favicon-on-modern-sharepoint-sites)
 - [SPFx-favicon](https://github.com/joaoferreira/SPFx-favicon)
 
+## Google GA
+
+- [Tracking code in Tenant Wide Extensions list](http://www.expiscornovus.com/2019/01/02/tracking-code-in-tenant-wide-extensions-list/)
+
 ## Inject CSS
 
 - [Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions](https://tahoeninjas.blog/2018/10/29/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/)
