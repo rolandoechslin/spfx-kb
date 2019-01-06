@@ -847,18 +847,23 @@
         },
         {
             "location": "/spfx/migration/",
-            "text": "Migration\n\u00b6\n\n\nShowcase\n\u00b6\n\n\n\n\nhttps://msdn.microsoft.com/en-us/library/mt668814.aspx",
+            "text": "Migration\n\u00b6\n\n\n\n\nCloud Migration\n\n\n\n\nShowcase\n\u00b6\n\n\n\n\nLearn how Microsoft ran its own migration\n\n\n\n\nMigration Tool\n\u00b6\n\n\n\n\nMigrating to Microsoft Teams using the SharePoint Migration Tool",
             "title": "Migration"
         },
         {
             "location": "/spfx/migration/#migration",
-            "text": "",
+            "text": "Cloud Migration",
             "title": "Migration"
         },
         {
             "location": "/spfx/migration/#showcase",
-            "text": "https://msdn.microsoft.com/en-us/library/mt668814.aspx",
+            "text": "Learn how Microsoft ran its own migration",
             "title": "Showcase"
+        },
+        {
+            "location": "/spfx/migration/#migration-tool",
+            "text": "Migrating to Microsoft Teams using the SharePoint Migration Tool",
+            "title": "Migration Tool"
         },
         {
             "location": "/spfx/sitescripts/",
