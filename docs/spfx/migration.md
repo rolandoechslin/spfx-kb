@@ -1,5 +1,7 @@
 # Migration
 
+- [Cloud Migration](https://resources.techcommunity.microsoft.com/cloud-migration/)
+
 ## Showcase
 
 - [Learn how Microsoft ran its own migration](https://msdn.microsoft.com/en-us/library/mt668814.aspx)
