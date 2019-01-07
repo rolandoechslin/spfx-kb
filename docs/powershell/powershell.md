@@ -15,6 +15,10 @@
 - [janikvonrotz-awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
 - [How to: SnipScripts](https://github.com/TechSnips/SnipScripts)
 
+## VS.Code Settings
+
+- [How To Make Visual Studio Code Look And Behave Like The PowerShell ISE](https://blog.techsnips.io/how-to-make-visual-studio-code-look-and-behave-like-the-powershell-ise/)
+
 ## Blogs
 
 - [mikefrobbins](http://mikefrobbins.com)

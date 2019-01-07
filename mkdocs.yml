@@ -60,7 +60,7 @@ pages:
         - Npm: toolchain/spfx-npm.md
         - Gulp: toolchain/toolchain.md
     - Powershell:
-        - Links: powershell/links.md
+        - Powershell: powershell/powershell.md
         - PnP-PS: powershell/pnp-ps.md
         - SPO-PS: powershell/spo-ps.md
     - Tools:
