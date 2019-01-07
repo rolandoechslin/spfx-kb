@@ -240,6 +240,12 @@
     </url>
         
     <url>
+     <loc>/spfx/userprofile/</loc>
+     <lastmod>2019-01-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/spfx/ux/</loc>
      <lastmod>2019-01-07</lastmod>
      <changefreq>daily</changefreq>
