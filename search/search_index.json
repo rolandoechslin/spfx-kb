@@ -1666,53 +1666,58 @@
             "title": "Check package version"
         },
         {
-            "location": "/powershell/links/",
-            "text": "Links\n\u00b6\n\n\nSyntax\n\u00b6\n\n\n\n\npowershell basic cheat sheet\n\n\npowershell-ref\n\n\nPowerShell Cheat Sheet\n\n\n\n\nHashtable\n\u00b6\n\n\n\n\nEverything you wanted to know about hashtables\n\n\n\n\nRessources\n\u00b6\n\n\n\n\njanikvonrotz-awesome-powershell\n\n\nHow to: SnipScripts\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nmikefrobbins\n\n\n\n\nOffice 365 Groups\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify\n\n\nhttps://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site\n\n\n\n\nhttps://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/\n\n\n\n\n\n\nhttps://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/\n\n\n\n\n\n\nSharePoint 2016\n\u00b6\n\n\n\n\nhttps://github.com/harbars/PnP-Tools/tree/master/Scripts\n\n\nhttps://github.com/harbars/SPAT16\n\n\n\n\nModules\n\u00b6\n\n\n\n\nhttp://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/\n\n\nhttps://github.com/mikefrobbins/Plaster/tree/master/Template\n\n\n\n\nSlides\n\u00b6\n\n\n\n\nhttps://github.com/mikefrobbins/Presentations",
-            "title": "Links"
+            "location": "/powershell/powershell/",
+            "text": "Links\n\u00b6\n\n\nSyntax\n\u00b6\n\n\n\n\npowershell basic cheat sheet\n\n\npowershell-ref\n\n\nPowerShell Cheat Sheet\n\n\n\n\nHashtable\n\u00b6\n\n\n\n\nEverything you wanted to know about hashtables\n\n\n\n\nRessources\n\u00b6\n\n\n\n\njanikvonrotz-awesome-powershell\n\n\nHow to: SnipScripts\n\n\n\n\nVS.Code Settings\n\u00b6\n\n\n\n\nHow To Make Visual Studio Code Look And Behave Like The PowerShell ISE\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nmikefrobbins\n\n\n\n\nOffice 365 Groups\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify\n\n\nhttps://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site\n\n\n\n\nhttps://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/\n\n\n\n\n\n\nhttps://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/\n\n\n\n\n\n\nSharePoint 2016\n\u00b6\n\n\n\n\nhttps://github.com/harbars/PnP-Tools/tree/master/Scripts\n\n\nhttps://github.com/harbars/SPAT16\n\n\n\n\nModules\n\u00b6\n\n\n\n\nhttp://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/\n\n\nhttps://github.com/mikefrobbins/Plaster/tree/master/Template\n\n\n\n\nSlides\n\u00b6\n\n\n\n\nCode & Slides from my Presentations",
+            "title": "Powershell"
         },
         {
-            "location": "/powershell/links/#links",
+            "location": "/powershell/powershell/#links",
             "text": "",
             "title": "Links"
         },
         {
-            "location": "/powershell/links/#syntax",
+            "location": "/powershell/powershell/#syntax",
             "text": "powershell basic cheat sheet  powershell-ref  PowerShell Cheat Sheet",
             "title": "Syntax"
         },
         {
-            "location": "/powershell/links/#hashtable",
+            "location": "/powershell/powershell/#hashtable",
             "text": "Everything you wanted to know about hashtables",
             "title": "Hashtable"
         },
         {
-            "location": "/powershell/links/#ressources",
+            "location": "/powershell/powershell/#ressources",
             "text": "janikvonrotz-awesome-powershell  How to: SnipScripts",
             "title": "Ressources"
         },
         {
-            "location": "/powershell/links/#blogs",
+            "location": "/powershell/powershell/#vscode-settings",
+            "text": "How To Make Visual Studio Code Look And Behave Like The PowerShell ISE",
+            "title": "VS.Code Settings"
+        },
+        {
+            "location": "/powershell/powershell/#blogs",
             "text": "mikefrobbins",
             "title": "Blogs"
         },
         {
-            "location": "/powershell/links/#office-365-groups",
+            "location": "/powershell/powershell/#office-365-groups",
             "text": "https://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify  https://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site   https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/    https://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/",
             "title": "Office 365 Groups"
         },
         {
-            "location": "/powershell/links/#sharepoint-2016",
+            "location": "/powershell/powershell/#sharepoint-2016",
             "text": "https://github.com/harbars/PnP-Tools/tree/master/Scripts  https://github.com/harbars/SPAT16",
             "title": "SharePoint 2016"
         },
         {
-            "location": "/powershell/links/#modules",
+            "location": "/powershell/powershell/#modules",
             "text": "http://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/  https://github.com/mikefrobbins/Plaster/tree/master/Template",
             "title": "Modules"
         },
         {
-            "location": "/powershell/links/#slides",
-            "text": "https://github.com/mikefrobbins/Presentations",
+            "location": "/powershell/powershell/#slides",
+            "text": "Code & Slides from my Presentations",
             "title": "Slides"
         },
         {
