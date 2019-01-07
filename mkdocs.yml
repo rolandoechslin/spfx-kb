@@ -44,6 +44,7 @@ pages:
         - Typescript: spfx/typescript.md
         - Testing: spfx/testing.md
         - Theme: spfx/theme.md
+        - Userprofile: spfx/userprofile.md
         - UX: spfx/ux.md
         - Upgrade: spfx/upgrade.md
         - Webparts: spfx/webparts.md

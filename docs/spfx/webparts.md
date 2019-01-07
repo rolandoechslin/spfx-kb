@@ -43,6 +43,7 @@
 - [Vimeo webpart](https://n8d.at/blog/a-smart-stupid-web-part-consumes-a-third-party-api-through-azure-functions-part-3/)
 - [Filtered Documents webpart](https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls/final)
 - [Birthday SPFx, Web Part](https://jjm935611985.wordpress.com/2018/11/25/happy-birthday-spfx-web-part-azure-function-msgraph-pnp-pnpjs/)
+- [Celebrate work anniversaries on your SharePoint Intranet](http://sharepoint.handsontek.net/2018/10/06/celebrate-work-anniversaries-on-your-sharepoint-intranet/) 
 
 
 ## Reusable React control
