@@ -12,6 +12,7 @@
 
 - [Showing or hiding SharePoint Framework ListView custom actions based on permissions and selected items](https://www.eliostruyf.com/showing-or-hiding-sharepoint-framework-listview-custom-actions-based-on-permissions-and-selected-items)
 - [SPFX ListView Command Set and Panel](https://ypcode.wordpress.com/2019/01/03/spfx-listview-command-set-and-panel/)
+- [Let users get a simple link to a document or folder](https://jonasbjerke.wordpress.com/2019/01/06/extending-sharepoint-let-users-get-a-regular-link-to-a-document-or-folder/)
 
 ## Comments
 
