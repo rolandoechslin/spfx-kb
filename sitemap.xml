@@ -310,7 +310,7 @@
     
         
     <url>
-     <loc>/toolchain/webpack/</loc>
+     <loc>/toolchain/toolchain/</loc>
      <lastmod>2019-01-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -322,7 +322,7 @@
     </url>
         
     <url>
-     <loc>/toolchain/toolchain/</loc>
+     <loc>/toolchain/webpack/</loc>
      <lastmod>2019-01-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
