@@ -57,9 +57,9 @@ pages:
         - Must read: training/must-read.md
         - Course: training/course.md
     - Toolchain:
-        - Webpack: toolchain/webpack.md
+        - Toolchain: toolchain/toolchain.md
         - Npm: toolchain/spfx-npm.md
-        - Gulp: toolchain/toolchain.md
+        - Webpack: toolchain/webpack.md
     - Powershell:
         - Powershell: powershell/powershell.md
         - PnP-PS: powershell/pnp-ps.md
