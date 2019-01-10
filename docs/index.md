@@ -1,5 +1,7 @@
 # Tips and tricks
 
+- [SharePoint Development Community (PnP) – January 2019 update](https://developer.microsoft.com/en-us/graph/blogs/sharepoint-development-community-pnp-january-2019-update/)
+
 ## Roadmap
 
 - [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=SharePoint%2CIn%20Development)
