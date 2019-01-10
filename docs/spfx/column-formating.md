@@ -3,6 +3,7 @@
 ## Reference
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#style-guidelines)
+- [Special string values](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#special-string-values)
 
 ## Tools
 
