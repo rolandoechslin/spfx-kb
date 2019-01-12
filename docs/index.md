@@ -20,7 +20,7 @@
 
 - [Official product colors for Microsoft apps](https://fluentfabric.azurewebsites.net/#/color/products)
 
-## Code Review
+## Code Review Checklist
 
 - [React-JS-Checklist](https://github.com/prdxn/React-JS-Checklist)
 - [Front-end Code Review Checklist](https://gist.github.com/bigsergey/aef64f68c22b3107ccbc439025ebba12)
