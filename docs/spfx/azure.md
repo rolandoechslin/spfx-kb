@@ -4,6 +4,11 @@
 
 - [Setting up an app-only principal with tenant permissions](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
 
+## KeyVault
+
+- [Use Azure KeyVault Secrets when accessing Microsoft Graph](https://mmsharepoint.wordpress.com/2018/11/14/secure-azure-functions-part-1-use-azure-keyvault-secrets-when-accessing-microsoft-graph/)
+- [Handle certificates with Azure KeyVault when accessing SharePoint Online](https://mmsharepoint.wordpress.com/2019/01/11/secure-azure-functions-part-2-handle-certificates-with-azure-keyvault-when-accessing-sharepoint-online/)
+
 ## Azure Functions
 
 - [Using Azure Automation for Modern SharePoint Site Provisioning](http://www.avtex.com/2018/06/azure-automation-provisioning)
