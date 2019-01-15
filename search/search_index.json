@@ -1231,6 +1231,111 @@
             "title": "Output theme variables"
         },
         {
+            "location": "/spfx/toolchain/",
+            "text": "Toolchain\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain\n\n\nhttps://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md\n\n\n\n\nWebpack\n\u00b6\n\n\n\n\nwebpack-basics-part-1\n\n\ngetting-up-to-speed-with-webpack\n\n\n\n\nPrepare\n\u00b6\n\n\n\n\nPreparing development machine for client-side SharePoint projects\n\n\n\n\nGulp\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/getting-up-to-speed-with-gulp/\n\n\nhttps://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0\n\n\nhttps://thomasdaly.net/2018/08/12/spfx-automatically-generating-revision-numbers/\n\n\nhttps://thomasdaly.net/2018/08/21/update-spfx-automatically-generating-revision-numbers-versioning/\n\n\n\n\nDeployment\n\u00b6\n\n\n\n\nhttps://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js\n\n\nhttps://github.com/estruyf/gulp-spsync-creds\n\n\nhttps://n8d.at/blog/how-to-version-new-sharepoint-framework-projects/?platform=hootsuite\n\n\n\n\nNPM\n\u00b6\n\n\npackage-lock.json\n\u00b6\n\n\n\n\nhttps://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8\n\n\n\n\nOptimization packages\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production\n\n\nhttps://rencore.com/sharepoint-framework/script-check/\n\n\nhttps://www.techmikael.com/2018/08/an-adventure-into-optimizing-sharepoint.html\n\n\n\n\nUpdate packages\n\u00b6\n\n\n\n\nhttps://gist.github.com/iki/ec32bfdeeb23930efd15\n\n\n\n\n# check\n\nnpm outdated -g\n\n\n# install\n\nnpm -g i npm-check\n\n\n# interactive update of global packages\n\nnpm-check -u -g\n\n\n# interactive update for a project you are working on\n\nnpm-check -u\n\n\n# unistall package\n\nnpm uninstall -g <module>\n\n\n\n\nCheck package version\n\u00b6\n\n\n\n\nhttps://github.com/dylang/npm-check\n\n\n\n\nList global npm  packages versions\n\n\nnpm list -g --depth \n0\n\n\n\n\n\nList detail global npm  package versions from one package\n\n\nnpm view @microsoft/generator-sharepoint\n\n\n\n\nPNPM\n\u00b6\n\n\n\n\nhttps://www.voitanos.io/blog/npm-yarn-pnpm-which-package-manager-should-you-use-for-sharepoint-framework-projects\n\n\nhttps://github.com/pnpm/pnpm\n\n\n\n\nPackage.json\n\u00b6\n\n\n\n\nhttps://docs.npmjs.com/files/package.json\n\n\n\n\nSecurity\n\u00b6\n\n\n\n\nhave-you-ever-thought-about-checking-your-dependency-for-vulnerabilities\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\ngetting-up-to-speed-with-node-js-and-npm\n\n\n\n\nUpdate SPFx version\n\u00b6\n\n\n\n\ngo into solution folder\n\n\nsearch f\u00fcr \"@micorosoft/sp-\"\n\n\nupdate all package (latest or version)\n\n\n\n\nnpm outdated\n\n\n\n\nnpm install package-name@latest --save\n\n\n\n\nnpm install package-name@version --save\n\n\n\n\ngulp clean\n\n\n\n\ngulp build\n\n\n\n\nTest\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\nTips\n\u00b6\n\n\n\n\nhttps://pdemro.com/improve-sharepoint-framework-build-times-by-hacking-gulp-and-webpack\n\n\nhttps://github.com/pdemro/spfx-gulpfile-hack\n\n\n\n\nDepoyment\n\u00b6\n\n\nnpm i\ngulp clean\ngulp build\ngulp --ship\ngulp package-solution --ship\n\n\n\n\nDependencies\n\u00b6\n\n\n\n\nhttps://docs.npmjs.com/cli/install\n\n\n\n\nnpm install saves any specified packages into dependencies by default. Additionally, you can control where and how they get saved with some additional flags:\n\n-P, --save-prod: Package will appear in your dependencies. This is the default unless -D or -O are present.\n\n-D, --save-dev: Package will appear in your devDependencies.\n\n-O, --save-optional: Package will appear in your optionalDependencies.",
+            "title": "Toolchain"
+        },
+        {
+            "location": "/spfx/toolchain/#toolchain",
+            "text": "",
+            "title": "Toolchain"
+        },
+        {
+            "location": "/spfx/toolchain/#overview",
+            "text": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain  https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md",
+            "title": "Overview"
+        },
+        {
+            "location": "/spfx/toolchain/#webpack",
+            "text": "webpack-basics-part-1  getting-up-to-speed-with-webpack",
+            "title": "Webpack"
+        },
+        {
+            "location": "/spfx/toolchain/#prepare",
+            "text": "Preparing development machine for client-side SharePoint projects",
+            "title": "Prepare"
+        },
+        {
+            "location": "/spfx/toolchain/#gulp",
+            "text": "https://www.eliostruyf.com/getting-up-to-speed-with-gulp/  https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0  https://thomasdaly.net/2018/08/12/spfx-automatically-generating-revision-numbers/  https://thomasdaly.net/2018/08/21/update-spfx-automatically-generating-revision-numbers-versioning/",
+            "title": "Gulp"
+        },
+        {
+            "location": "/spfx/toolchain/#deployment",
+            "text": "https://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js  https://github.com/estruyf/gulp-spsync-creds  https://n8d.at/blog/how-to-version-new-sharepoint-framework-projects/?platform=hootsuite",
+            "title": "Deployment"
+        },
+        {
+            "location": "/spfx/toolchain/#npm",
+            "text": "",
+            "title": "NPM"
+        },
+        {
+            "location": "/spfx/toolchain/#package-lockjson",
+            "text": "https://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8",
+            "title": "package-lock.json"
+        },
+        {
+            "location": "/spfx/toolchain/#optimization-packages",
+            "text": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production  https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production  https://rencore.com/sharepoint-framework/script-check/  https://www.techmikael.com/2018/08/an-adventure-into-optimizing-sharepoint.html",
+            "title": "Optimization packages"
+        },
+        {
+            "location": "/spfx/toolchain/#update-packages",
+            "text": "https://gist.github.com/iki/ec32bfdeeb23930efd15   # check \nnpm outdated -g # install \nnpm -g i npm-check # interactive update of global packages \nnpm-check -u -g # interactive update for a project you are working on \nnpm-check -u # unistall package \nnpm uninstall -g <module>",
+            "title": "Update packages"
+        },
+        {
+            "location": "/spfx/toolchain/#check-package-version",
+            "text": "https://github.com/dylang/npm-check   List global npm  packages versions  npm list -g --depth  0   List detail global npm  package versions from one package  npm view @microsoft/generator-sharepoint",
+            "title": "Check package version"
+        },
+        {
+            "location": "/spfx/toolchain/#pnpm",
+            "text": "https://www.voitanos.io/blog/npm-yarn-pnpm-which-package-manager-should-you-use-for-sharepoint-framework-projects  https://github.com/pnpm/pnpm",
+            "title": "PNPM"
+        },
+        {
+            "location": "/spfx/toolchain/#packagejson",
+            "text": "https://docs.npmjs.com/files/package.json",
+            "title": "Package.json"
+        },
+        {
+            "location": "/spfx/toolchain/#security",
+            "text": "have-you-ever-thought-about-checking-your-dependency-for-vulnerabilities",
+            "title": "Security"
+        },
+        {
+            "location": "/spfx/toolchain/#installation",
+            "text": "getting-up-to-speed-with-node-js-and-npm",
+            "title": "Installation"
+        },
+        {
+            "location": "/spfx/toolchain/#update-spfx-version",
+            "text": "go into solution folder  search f\u00fcr \"@micorosoft/sp-\"  update all package (latest or version)   npm outdated  npm install package-name@latest --save  npm install package-name@version --save  gulp clean  gulp build",
+            "title": "Update SPFx version"
+        },
+        {
+            "location": "/spfx/toolchain/#test",
+            "text": "gulp serve --nobrowser",
+            "title": "Test"
+        },
+        {
+            "location": "/spfx/toolchain/#tips",
+            "text": "https://pdemro.com/improve-sharepoint-framework-build-times-by-hacking-gulp-and-webpack  https://github.com/pdemro/spfx-gulpfile-hack",
+            "title": "Tips"
+        },
+        {
+            "location": "/spfx/toolchain/#depoyment",
+            "text": "npm i\ngulp clean\ngulp build\ngulp --ship\ngulp package-solution --ship",
+            "title": "Depoyment"
+        },
+        {
+            "location": "/spfx/toolchain/#dependencies",
+            "text": "https://docs.npmjs.com/cli/install   npm install saves any specified packages into dependencies by default. Additionally, you can control where and how they get saved with some additional flags:\n\n-P, --save-prod: Package will appear in your dependencies. This is the default unless -D or -O are present.\n\n-D, --save-dev: Package will appear in your devDependencies.\n\n-O, --save-optional: Package will appear in your optionalDependencies.",
+            "title": "Dependencies"
+        },
+        {
             "location": "/spfx/userprofile/",
             "text": "User Profile\n\u00b6\n\n\nUser Picture\n\u00b6\n\n\n\n\nHow to get SharePoint profile picture",
             "title": "Userprofile"
@@ -1559,131 +1664,6 @@
             "location": "/training/course/#learning-tutorials",
             "text": "OfficeDev: TrainingContent  sp-dev-docs  dev-office.com: getting-started-with-sharepoint-framework-tutorials  techcommunity: Hidden-gems-at-Ignite-A-conference-guide-from-the-SharePoint",
             "title": "Learning / Tutorials"
-        },
-        {
-            "location": "/toolchain/toolchain/",
-            "text": "Toolchain\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain\n\n\nhttps://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md\n\n\n\n\nPrepare\n\u00b6\n\n\n\n\nPreparing development machine for client-side SharePoint projects\n\n\n\n\nGulp\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/getting-up-to-speed-with-gulp/\n\n\nhttps://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0\n\n\nhttps://thomasdaly.net/2018/08/12/spfx-automatically-generating-revision-numbers/\n\n\nhttps://thomasdaly.net/2018/08/21/update-spfx-automatically-generating-revision-numbers-versioning/\n\n\n\n\nDeployment\n\u00b6\n\n\n\n\nhttps://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js\n\n\nhttps://github.com/estruyf/gulp-spsync-creds\n\n\nhttps://n8d.at/blog/how-to-version-new-sharepoint-framework-projects/?platform=hootsuite\n\n\n\n\nNPM\n\u00b6\n\n\npackage-lock.json\n\u00b6\n\n\n\n\nhttps://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8\n\n\n\n\nOptimization packages\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production\n\n\nhttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production\n\n\nhttps://rencore.com/sharepoint-framework/script-check/\n\n\nhttps://www.techmikael.com/2018/08/an-adventure-into-optimizing-sharepoint.html\n\n\n\n\nUpdate packages\n\u00b6\n\n\n\n\nhttps://gist.github.com/iki/ec32bfdeeb23930efd15\n\n\n\n\n# check\n\nnpm outdated -g\n\n\n# install\n\nnpm -g i npm-check\n\n\n# interactive update of global packages\n\nnpm-check -u -g\n\n\n# interactive update for a project you are working on\n\nnpm-check -u\n\n\n# unistall package\n\nnpm uninstall -g <module>\n\n\n\n\nCheck package version\n\u00b6\n\n\n\n\nhttps://github.com/dylang/npm-check\n\n\n\n\nList global npm  packages versions\n\n\nnpm list -g --depth \n0\n\n\n\n\n\nList detail global npm  package versions from one package\n\n\nnpm view @microsoft/generator-sharepoint",
-            "title": "Toolchain"
-        },
-        {
-            "location": "/toolchain/toolchain/#toolchain",
-            "text": "",
-            "title": "Toolchain"
-        },
-        {
-            "location": "/toolchain/toolchain/#overview",
-            "text": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain  https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md",
-            "title": "Overview"
-        },
-        {
-            "location": "/toolchain/toolchain/#prepare",
-            "text": "Preparing development machine for client-side SharePoint projects",
-            "title": "Prepare"
-        },
-        {
-            "location": "/toolchain/toolchain/#gulp",
-            "text": "https://www.eliostruyf.com/getting-up-to-speed-with-gulp/  https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0  https://thomasdaly.net/2018/08/12/spfx-automatically-generating-revision-numbers/  https://thomasdaly.net/2018/08/21/update-spfx-automatically-generating-revision-numbers-versioning/",
-            "title": "Gulp"
-        },
-        {
-            "location": "/toolchain/toolchain/#deployment",
-            "text": "https://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js  https://github.com/estruyf/gulp-spsync-creds  https://n8d.at/blog/how-to-version-new-sharepoint-framework-projects/?platform=hootsuite",
-            "title": "Deployment"
-        },
-        {
-            "location": "/toolchain/toolchain/#npm",
-            "text": "",
-            "title": "NPM"
-        },
-        {
-            "location": "/toolchain/toolchain/#package-lockjson",
-            "text": "https://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8",
-            "title": "package-lock.json"
-        },
-        {
-            "location": "/toolchain/toolchain/#optimization-packages",
-            "text": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production  https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/optimize-builds-for-production  https://rencore.com/sharepoint-framework/script-check/  https://www.techmikael.com/2018/08/an-adventure-into-optimizing-sharepoint.html",
-            "title": "Optimization packages"
-        },
-        {
-            "location": "/toolchain/toolchain/#update-packages",
-            "text": "https://gist.github.com/iki/ec32bfdeeb23930efd15   # check \nnpm outdated -g # install \nnpm -g i npm-check # interactive update of global packages \nnpm-check -u -g # interactive update for a project you are working on \nnpm-check -u # unistall package \nnpm uninstall -g <module>",
-            "title": "Update packages"
-        },
-        {
-            "location": "/toolchain/toolchain/#check-package-version",
-            "text": "https://github.com/dylang/npm-check   List global npm  packages versions  npm list -g --depth  0   List detail global npm  package versions from one package  npm view @microsoft/generator-sharepoint",
-            "title": "Check package version"
-        },
-        {
-            "location": "/toolchain/spfx-npm/",
-            "text": "NPM\n\u00b6\n\n\nPNPM\n\u00b6\n\n\n\n\nhttps://www.voitanos.io/blog/npm-yarn-pnpm-which-package-manager-should-you-use-for-sharepoint-framework-projects\n\n\nhttps://github.com/pnpm/pnpm\n\n\n\n\nPackage.json\n\u00b6\n\n\n\n\nhttps://docs.npmjs.com/files/package.json\n\n\n\n\nSecurity\n\u00b6\n\n\n\n\nhave-you-ever-thought-about-checking-your-dependency-for-vulnerabilities\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\ngetting-up-to-speed-with-node-js-and-npm\n\n\n\n\nUpdate SPFx version\n\u00b6\n\n\n\n\ngo into solution folder\n\n\nsearch f\u00fcr \"@micorosoft/sp-\"\n\n\nupdate all package (latest or version)\n\n\n\n\nnpm outdated\n\n\n\n\nnpm install package-name@latest --save\n\n\n\n\nnpm install package-name@version --save\n\n\n\n\ngulp clean\n\n\n\n\ngulp build\n\n\n\n\nTest\n\u00b6\n\n\ngulp serve --nobrowser\n\n\n\n\nTips\n\u00b6\n\n\n\n\nhttps://pdemro.com/improve-sharepoint-framework-build-times-by-hacking-gulp-and-webpack\n\n\nhttps://github.com/pdemro/spfx-gulpfile-hack\n\n\n\n\nDepoyment\n\u00b6\n\n\nnpm i\ngulp clean\ngulp build\ngulp --ship\ngulp package-solution --ship\n\n\n\n\nDependencies\n\u00b6\n\n\n\n\nhttps://docs.npmjs.com/cli/install\n\n\n\n\nnpm install saves any specified packages into dependencies by default. Additionally, you can control where and how they get saved with some additional flags:\n\n-P, --save-prod: Package will appear in your dependencies. This is the default unless -D or -O are present.\n\n-D, --save-dev: Package will appear in your devDependencies.\n\n-O, --save-optional: Package will appear in your optionalDependencies.",
-            "title": "Npm"
-        },
-        {
-            "location": "/toolchain/spfx-npm/#npm",
-            "text": "",
-            "title": "NPM"
-        },
-        {
-            "location": "/toolchain/spfx-npm/#pnpm",
-            "text": "https://www.voitanos.io/blog/npm-yarn-pnpm-which-package-manager-should-you-use-for-sharepoint-framework-projects  https://github.com/pnpm/pnpm",
-            "title": "PNPM"
-        },
-        {
-            "location": "/toolchain/spfx-npm/#packagejson",
-            "text": "https://docs.npmjs.com/files/package.json",
-            "title": "Package.json"
-        },
-        {
-            "location": "/toolchain/spfx-npm/#security",
-            "text": "have-you-ever-thought-about-checking-your-dependency-for-vulnerabilities",
-            "title": "Security"
-        },
-        {
-            "location": "/toolchain/spfx-npm/#installation",
-            "text": "getting-up-to-speed-with-node-js-and-npm",
-            "title": "Installation"
-        },
-        {
-            "location": "/toolchain/spfx-npm/#update-spfx-version",
-            "text": "go into solution folder  search f\u00fcr \"@micorosoft/sp-\"  update all package (latest or version)   npm outdated  npm install package-name@latest --save  npm install package-name@version --save  gulp clean  gulp build",
-            "title": "Update SPFx version"
-        },
-        {
-            "location": "/toolchain/spfx-npm/#test",
-            "text": "gulp serve --nobrowser",
-            "title": "Test"
-        },
-        {
-            "location": "/toolchain/spfx-npm/#tips",
-            "text": "https://pdemro.com/improve-sharepoint-framework-build-times-by-hacking-gulp-and-webpack  https://github.com/pdemro/spfx-gulpfile-hack",
-            "title": "Tips"
-        },
-        {
-            "location": "/toolchain/spfx-npm/#depoyment",
-            "text": "npm i\ngulp clean\ngulp build\ngulp --ship\ngulp package-solution --ship",
-            "title": "Depoyment"
-        },
-        {
-            "location": "/toolchain/spfx-npm/#dependencies",
-            "text": "https://docs.npmjs.com/cli/install   npm install saves any specified packages into dependencies by default. Additionally, you can control where and how they get saved with some additional flags:\n\n-P, --save-prod: Package will appear in your dependencies. This is the default unless -D or -O are present.\n\n-D, --save-dev: Package will appear in your devDependencies.\n\n-O, --save-optional: Package will appear in your optionalDependencies.",
-            "title": "Dependencies"
-        },
-        {
-            "location": "/toolchain/webpack/",
-            "text": "Webpack\n\u00b6\n\n\nBasics\n\u00b6\n\n\n\n\nwebpack-basics-part-1\n\n\ngetting-up-to-speed-with-webpack",
-            "title": "Webpack"
-        },
-        {
-            "location": "/toolchain/webpack/#webpack",
-            "text": "",
-            "title": "Webpack"
-        },
-        {
-            "location": "/toolchain/webpack/#basics",
-            "text": "webpack-basics-part-1  getting-up-to-speed-with-webpack",
-            "title": "Basics"
         },
         {
             "location": "/powershell/powershell/",
