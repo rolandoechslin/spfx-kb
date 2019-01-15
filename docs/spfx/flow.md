@@ -1,5 +1,9 @@
 # Flow
 
+## Video
+
+- [Microsoft Flow Conference](https://www.youtube.com/playlist?list=PLwh1E-0OEEGI7sGTXzoy98RFFqsIoUAUw)
+
 ## Connectors
 
 - <https://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors>
