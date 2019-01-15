@@ -1,5 +1,9 @@
 # Extensions
 
+## Tipps
+
+- [How to properly add an Application Customizer to an existing SPFx Web Part Project](http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2019/01/08/how-to-properly-add-an-application-customizer-to-an-existing-spfx-web-part-project.aspx)
+
 ## Full Page
 
 - [SharePoint Full Page Canvas App](https://github.com/aflyen/spfx-extension-fullpagecanvas)
@@ -31,6 +35,7 @@
 ## Inject CSS
 
 - [Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions](https://tahoeninjas.blog/2018/10/29/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/)
+- [Add Google Analytics to SharePoint modern pages](https://joelfmrodrigues.wordpress.com/2019/01/10/add-google-analytics-to-sharepoint-modern-pages/)
 
 ## Navigations
 
