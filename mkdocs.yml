@@ -44,6 +44,7 @@ pages:
         - Typescript: spfx/typescript.md
         - Testing: spfx/testing.md
         - Theme: spfx/theme.md
+        - Toolchain: spfx/toolchain.md
         - Userprofile: spfx/userprofile.md
         - UX: spfx/ux.md
         - Upgrade: spfx/upgrade.md
@@ -56,10 +57,6 @@ pages:
     - Training:
         - Must read: training/must-read.md
         - Course: training/course.md
-    - Toolchain:
-        - Toolchain: toolchain/toolchain.md
-        - Npm: toolchain/spfx-npm.md
-        - Webpack: toolchain/webpack.md
     - Powershell:
         - Powershell: powershell/powershell.md
         - PnP-PS: powershell/pnp-ps.md
