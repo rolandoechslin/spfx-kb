@@ -3,6 +3,7 @@
 ## Azure DevOps / Azure Pipline
 
 - [Setting up Azure DevOps Pipelines for SharePoint Framework solutions](https://youtu.be/GqmbRpiTBXg?t=2278)
+- [Implement Continuous Integration and Continuous deployment using Azure DevOps](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/implement-ci-cd-with-azure-devops)
 
 ## ALM
 
