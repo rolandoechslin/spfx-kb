@@ -4,6 +4,7 @@
 
 ## Training Portal
 
+- [SharePoint Developer GitHub repositories](https://docs.microsoft.com/en-us/sharepoint/dev/community/repositories)
 - [Gateway to Office 365 Training Resources from Microsoft](https://office365trainingportal.com/)
 
 ## Roadmap
