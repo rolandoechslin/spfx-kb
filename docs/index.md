@@ -30,6 +30,11 @@
 - [React-JS-Checklist](https://github.com/prdxn/React-JS-Checklist)
 - [Front-end Code Review Checklist](https://gist.github.com/bigsergey/aef64f68c22b3107ccbc439025ebba12)
 
+## Security Guidline
+
+- [Security Scanning a SharePoint Framework Solution](https://rencore.com/blog/security-scanning-a-sharepoint-framework-solution/)
+
+
 ## Content Style Guide
 
 - https://docs.microsoft.com/de-ch/style-guide/welcome/
