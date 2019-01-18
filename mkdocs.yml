@@ -10,11 +10,12 @@ pages:
         - Azure: spfx/azure.md
         - AI: spfx/ai.md
         - Branding: spfx/branding.md
-        - Column-Formating: spfx/column-formating.md
         - Bot: spfx/bot.md
         - Business-Objects: spfx/businessobjects.md
         - Classic-Sites: spfx/classic.md
+        - Column-Formating: spfx/column-formating.md
         - Configuration: spfx/configuration.md
+        - Communication-Site: spfx/communication-site.md
         - Debug: spfx/debug.md
         - Deployment: spfx/deployment.md
         - Delve: spfx/delve.md
@@ -23,14 +24,14 @@ pages:
         - Flow: spfx/flow.md
         - Forms: spfx/forms.md
         - Groups: spfx/groups.md
+        - Governance: spfx/governance.md
+        - Graph: spfx/graph.md
         - Hubsite: spfx/hubsite.md
         - Intranet: spfx/intranet.md
-        - Graph: spfx/graph.md
         - JS: spfx/js.md
         - Listitem: spfx/listitem.md
         - Logging: spfx/logging.md
         - Network: spfx/network.md
-        - Communication-Site: spfx/communication-site.md
         - Patterns: spfx/patterns.md
         - Provisioning: spfx/provisioning.md
         - Migration: spfx/migration.md
@@ -43,11 +44,13 @@ pages:
         - Starter-Kit: spfx/starterkit.md
         - Typescript: spfx/typescript.md
         - Testing: spfx/testing.md
+        - Teams: spfx/teams.md
         - Theme: spfx/theme.md
         - Toolchain: spfx/toolchain.md
         - Userprofile: spfx/userprofile.md
         - UX: spfx/ux.md
         - Upgrade: spfx/upgrade.md
+        - Webhooks: spfx/webhooks.md
         - Webparts: spfx/webparts.md
     - React:
         - Learning: react/learning.md

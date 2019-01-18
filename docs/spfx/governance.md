@@ -14,7 +14,7 @@
 
 ## User profile / Delete user
 
-- <http://nikcharlebois.com/user-profile-automated-removal-when-user-is-deleted-from-active-directory/>
+- [User Profile Automated Removal when User is Deleted from Active Directory](http://nikcharlebois.com/user-profile-automated-removal-when-user-is-deleted-from-active-directory/)
 
 ## External user
 
@@ -22,7 +22,7 @@
 
 ## SiteCollections versus SubSites
 
-- <https://joannecklein.com/2017/11/03/sharepoint-site-collection-advantages/>
+- [ADVANTAGES OF A FLAT SHAREPOINT SITE ARCHITECTURE](https://joannecklein.com/2017/11/03/sharepoint-site-collection-advantages)
 
 ## Tipps Creating Sites
 
