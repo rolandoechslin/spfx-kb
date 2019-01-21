@@ -35,10 +35,13 @@
 
 - [Security Scanning a SharePoint Framework Solution](https://rencore.com/blog/security-scanning-a-sharepoint-framework-solution/)
 
-
 ## Content Style Guide
 
 - https://docs.microsoft.com/de-ch/style-guide/welcome/
+
+## Architecture Design
+
+-[Cloud IT architecture](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources)
 
 ## Coding Patterns
 
