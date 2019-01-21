@@ -4,9 +4,10 @@
 
 - <https://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-spfx-web-part-properties-dynamic-dropdown.html>
 - [simplify-adding-web-parts-with-preconfigured-entries](https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/web-parts/guidance/simplify-adding-web-parts-with-preconfigured-entries.md)
-- <http://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-web-part-properties-pages-groups-controls.html>
-- <http://www.sharepointnutsandbolts.com/2017/02/sharepoint-framework-web-part-properties-button-toggle-slider.html>
-- <http://julieturner.net/2017/07/creating-a-property-pane-for-editing-items-in-your-spfx-web-parts/>
+- [Web part properties in the SharePoint Framework – part 1](http://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-web-part-properties-pages-groups-controls.html)
+- [Web part properties in the SharePoint Framework – part 2](http://www.sharepointnutsandbolts.com/2017/02/sharepoint-framework-web-part-properties-button-toggle-slider.html)
+- [Creating a property pane for editing items in your SPFx web parts](http://julieturner.net/2017/07/creating-a-property-pane-for-editing-items-in-your-spfx-web-parts)
+- [Understanding manifest.js file in spx project](https://iamguptarishi.wordpress.com/2019/01/07/decoding-manifest-js-file-in-spx-webpart-solution/)
 
 ## Group WebPart
 
