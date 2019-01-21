@@ -41,7 +41,7 @@
 
 ## Architecture Design
 
--[Cloud IT architecture](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources)
+- [Cloud IT architecture](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources)
 
 ## Coding Patterns
 
