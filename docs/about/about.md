@@ -2,9 +2,9 @@
 
 ## Author
 
-Roland Oechslin
+Roland Oechslin, Senior Sharepoint Expert and Developer, Garaio AG, Bern, Switzerland
 :smile: :heart: :thumbsup:
 
-## E-Mail
+## Twitter
 
-roland.oechslin@garaio.com
+Roland Oechslin - [@rolandoechslin](https://twitter.com/rolandoechslin)
