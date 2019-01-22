@@ -21,3 +21,4 @@
 - https://appiconizer.com/
 - http://gifmaker.me/
 - https://www.base64-image.de/
+- https://shields.io
