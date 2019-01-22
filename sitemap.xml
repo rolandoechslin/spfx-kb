@@ -406,13 +406,13 @@
     
         
     <url>
-     <loc>/about/help/</loc>
+     <loc>/about/about/</loc>
      <lastmod>2019-01-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/about/about/</loc>
+     <loc>/about/help/</loc>
      <lastmod>2019-01-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
