@@ -74,8 +74,8 @@ pages:
     - Security:
         - Learning: security/learning.md
     - About:
-      - Help: about/help.md
       - About: about/about.md
+      - Help: about/help.md
       
 copyright: 'Copyright &copy; 2018 Roland Oechslin'
 
