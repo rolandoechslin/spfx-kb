@@ -1,5 +1,9 @@
 # Dev Tools
 
+## TweetDeck (Twitter)
+
+- [How to filter for SharePoint Framework #SPFx related tweets in TweetDeck](https://github.com/andikrueger/TweetDeckSPFxFilter)
+
 ## Translation
 
 - [deepl translator](https://www.deepl.com/translator)
