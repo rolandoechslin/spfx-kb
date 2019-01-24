@@ -107,7 +107,7 @@ gulp clean
 ```
 
 ```bs
-gulp build
+gulp build --ship
 ```
 
 ```bs
