@@ -20,6 +20,7 @@
 - <https://medium.com/@baranovskyyoleg/gulp-basic-usage-7afc460119f0>
 - <https://thomasdaly.net/2018/08/12/spfx-automatically-generating-revision-numbers/>
 - <https://thomasdaly.net/2018/08/21/update-spfx-automatically-generating-revision-numbers-versioning/>
+- [One command to create a clean solution package](https://n8d.at/blog/gulp-dist-in-spfx-one-command-to-create-a-clean-solution-package/)
 
 ### Deployment
 
