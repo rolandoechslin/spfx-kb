@@ -24,6 +24,9 @@
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
 - [MDN: Use CSS to solve common problems
 ](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto)
+- [Part 1: Style Options & How to Import](http://warner.digital/spfx-dynamic-styles-part1)
+- [Part 2: Dynamic Bundling of Styles](http://warner.digital/spfx-dynamic-styles-part2)
+- [CSS Specificity](https://dev.to/emmawedekind/css-specificity-1kca)
 
 ## Tools
 
