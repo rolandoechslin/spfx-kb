@@ -6,6 +6,7 @@
 
 ## Tools
 
+- [colors picker](https://www.w3schools.com/colors/colors_picker.asp)
 - http://dummyimage.com/
 - http://makephotogallery.net/
 - https://www.fotocollagen.de/
