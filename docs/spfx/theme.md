@@ -29,7 +29,8 @@
 
 ## CSS Specificiation
 
-- [CSS Specificity](https://dev.to/emmawedekind/css-specificity-1kca)
+- [Specificity Calculator](https://specificity.keegan.st)
+- [Specificity](https://dev.to/emmawedekind/css-specificity-1kca)
 
 ![Understand Specificity](../assets/images/css-specification.png)
 
