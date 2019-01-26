@@ -26,7 +26,12 @@
 ](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto)
 - [Part 1: Style Options & How to Import](http://warner.digital/spfx-dynamic-styles-part1)
 - [Part 2: Dynamic Bundling of Styles](http://warner.digital/spfx-dynamic-styles-part2)
+
+## CSS Specificiation
+
 - [CSS Specificity](https://dev.to/emmawedekind/css-specificity-1kca)
+
+![Understand Specificity](../assets/images/css-specification.png)
 
 ## Tools
 
