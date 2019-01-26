@@ -233,9 +233,14 @@ gulp serve --locale=de-de
 
 - [Get application ID and authentication key](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#get-application-id-and-authentication-key)
 
+## Scoped service
+
+- [Elegant Dependency Injection in SPFx](https://ypcode.wordpress.com/2018/07/30/elegant-di-in-spfx)
+- [SPFx WebPart scoped service](https://ypcode.wordpress.com/2019/01/25/spfx-webpart-scoped-service)
+
 ## Data Service
 
-Very good overview from sebastien levert: [APIs Everywhere](./assets/APIs-Everywhere.pptx)
+- [APIs Everywhere](./assets/APIs-Everywhere.pptx)
 
 Sample Folder structur
 
