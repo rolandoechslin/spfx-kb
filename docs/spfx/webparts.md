@@ -15,6 +15,10 @@
 
 ## Text WebPart
 
+## News WebPart
+
+- [EXPIRING NEWS ACROSS MODERN SHAREPOINT](https://joannecklein.com/2019/01/26/expiring-news-across-modern-sharepoint)
+
 - [Injecting HTML content with PnP PowerShell](https://medium.com/@zaab_it/digging-into-sharepoint-modern-page-text-webpart-8d3f304cd6c0)
 
 ## Samples
