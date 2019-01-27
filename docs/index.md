@@ -37,7 +37,7 @@
 
 ## Content Style Guide
 
-- https://docs.microsoft.com/de-ch/style-guide/welcome/
+- [Microsoft Writing Style Guide](https://docs.microsoft.com/de-ch/style-guide/welcome)
 
 ## Architecture Design
 
@@ -241,6 +241,7 @@ gulp serve --locale=de-de
 ## Data Service
 
 - [APIs Everywhere](./assets/APIs-Everywhere.pptx)
+- [RSS Reader](https://github.com/eoverfield/sp-dev-fx-webparts/tree/react-rss-reader/samples/react-rss-reader/src/services)
 
 Sample Folder structur
 
@@ -519,8 +520,8 @@ private async _getItems() {
 
 Create Sample
 
-- https://github.com/Microsoft/TypeScript-React-Starter
-- https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App
+- [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter)
+- [React app with an Office UI Fabric React DocumentCard](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App)
 
 ```bs
 create-react-app demo-office-fabric-react-ts --scripts-version=react-scripts-ts
