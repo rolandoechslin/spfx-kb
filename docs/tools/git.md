@@ -9,7 +9,7 @@
 - [Git Fundamentals](https://app.pluralsight.com/library/courses/git-fundamentals/table-of-contents)
 
 ## Tips
-
+- [How to be more productive on GitHub](https://medium.freecodecamp.org/how-to-be-more-productive-on-github-c3cedab043e3)
 - [How to write the perfect pull request](https://blog.github.com/2015-01-21-how-to-write-the-perfect-pull-request/)
 - [Update a Severely Out of Date GitHub Repository Fork](https://mikefrobbins.com/2018/06/28/update-a-severely-out-of-date-github-repository-fork/)
 - [Merging 2 Different Git Repositories Without Losing your History](https://thoughts.t37.net/merging-2-different-git-repositories-without-losing-your-history-de7a06bba804)
