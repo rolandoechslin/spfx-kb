@@ -241,7 +241,7 @@ gulp serve --locale=de-de
 ## Data Service
 
 - [APIs Everywhere](./assets/APIs-Everywhere.pptx)
-- [RSS Reader](https://github.com/eoverfield/sp-dev-fx-webparts/tree/react-rss-reader/samples/react-rss-reader/src/services)
+- [RSS Reader](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-rss-reader)
 
 Sample Folder structur
 
