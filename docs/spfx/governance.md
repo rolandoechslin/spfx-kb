@@ -29,6 +29,10 @@
 - [Exploring creating SharePoint TeamSites using SiteDesign and the REST API](https://www.mcd79.com/2018/07/21/exploring-creating-sharepoint-teamsites-using-sitedesign-and-the-rest-api.html)
 - [Balancing Self-Service with Governance and Control in Office 365](http://bostonmusicdave.com/balancing-self-service-with-governance-and-control-in-office-365/)
 
+## Backup
+
+- [Does Office 365, hosted by Microsoft requires a data backup solution](https://www.sharepointeurope.com/office-365-hosted-microsoft-requires-data-backup-solution)
+
 ## Audit/Usage Reports
 
 - [6 ways to check SharePoint Usage reports](https://sharepointmaven.com/6-ways-check-sharepoint-usage-reports/)
