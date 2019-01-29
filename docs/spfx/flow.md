@@ -21,6 +21,7 @@
 - [Calling Microsoft Flow from a site script](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial)
 - [Automating New User Account On-boarding Using SharePoint Online, Flow, and PowerApps](https://practical365.com/sharepoint-online/automated-user-creation-flow-powerapps)
 - [control office365 group creation](https://www.sharepointnutsandbolts.com/2018/04/control-office-365-group-creation.html)
+- [Building interactive feedback analysis system with MS Forms, MS Flow, Power BI and SharePoint Online](https://spblog.net/post/2019/01/29/building-interactive-feedback-analysis-system-with-ms-forms-ms-flow-power-bi-and-sharepoint-online)
 
 ## Error Messages
 
