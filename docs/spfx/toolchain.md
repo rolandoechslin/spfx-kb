@@ -22,6 +22,30 @@
 - [SPFx Automatically Generating Revision Numbers + Versioning](https://thomasdaly.net/2018/08/21/update-spfx-automatically-generating-revision-numbers-versioning)
 - [One command to create a clean solution package](https://n8d.at/blog/gulp-dist-in-spfx-one-command-to-create-a-clean-solution-package/)
 
+### gulp dir
+
+- [One command to create a clean solution package](https://n8d.at/blog/gulp-dist-in-spfx-one-command-to-create-a-clean-solution-package)
+
+install npm package
+
+```bs
+npm install gulp-sequence --save-dev
+```
+
+add to gulpfile.js
+
+```ts
+if (process.argv.indexOf('dist') !== -1){
+  process.argv.push('--ship');
+}
+
+const gulpSequence = require('gulp-sequence');
+
+gulp.task('dist', gulpSequence('clean', 'bundle', 'package-solution'));
+```
+
+
+
 ### Deployment
 
 - <https://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js>
