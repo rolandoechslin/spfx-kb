@@ -22,7 +22,7 @@
 - [SPFx Automatically Generating Revision Numbers + Versioning](https://thomasdaly.net/2018/08/21/update-spfx-automatically-generating-revision-numbers-versioning)
 - [One command to create a clean solution package](https://n8d.at/blog/gulp-dist-in-spfx-one-command-to-create-a-clean-solution-package/)
 
-### gulp dir
+### gulp dist
 
 - [One command to create a clean solution package](https://n8d.at/blog/gulp-dist-in-spfx-one-command-to-create-a-clean-solution-package)
 
