@@ -51,6 +51,7 @@
 - [Celebrate work anniversaries on your SharePoint Intranet](http://sharepoint.handsontek.net/2018/10/06/celebrate-work-anniversaries-on-your-sharepoint-intranet/)
 - [Add Google Charts into SharePoint Framework Web Part](http://blog.aterentiev.com/2019/01/add-google-charts-into-sharepoint.html)
 - [Display Google Fit Information](https://www.c-sharpcorner.com/article/sharepoint-framework-display-google-fit-information/) | [Getting Started With Google Fitness REST API](https://www.c-sharpcorner.com/article/getting-started-with-google-fitness-rest-api-part-2/)
+- [How to let users fill out new documents based on a template in Office client directly from SharePoint](https://jonasbjerke.wordpress.com/2019/01/25/how-to-let-users-fill-out-new-documents-based-on-a-template-directly-in-office-client-using-sharepoint) | [Office URI Schemes](https://docs.microsoft.com/en-us/office/client-developer/office-uri-schemes)
 
 
 ## Reusable React control
