@@ -904,6 +904,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#gulp-dir" title="gulp dir" class="md-nav__link">
+    gulp dir
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#deployment" title="Deployment" class="md-nav__link">
     Deployment
   </a>
@@ -1517,6 +1524,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#gulp-dir" title="gulp dir" class="md-nav__link">
+    gulp dir
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#deployment" title="Deployment" class="md-nav__link">
     Deployment
   </a>
@@ -1674,6 +1688,24 @@
 <li><a href="https://thomasdaly.net/2018/08/21/update-spfx-automatically-generating-revision-numbers-versioning">SPFx Automatically Generating Revision Numbers + Versioning</a></li>
 <li><a href="https://n8d.at/blog/gulp-dist-in-spfx-one-command-to-create-a-clean-solution-package/">One command to create a clean solution package</a></li>
 </ul>
+<h3 id="gulp-dir">gulp dir<a class="headerlink" href="#gulp-dir" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://n8d.at/blog/gulp-dist-in-spfx-one-command-to-create-a-clean-solution-package">One command to create a clean solution package</a></li>
+</ul>
+<p>install npm package</p>
+<div class="codehilite"><pre><span></span>npm install gulp-sequence --save-dev
+</pre></div>
+
+<p>add to gulpfile.js</p>
+<div class="codehilite"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="nx">process</span><span class="p">.</span><span class="nx">argv</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s1">&#39;dist&#39;</span><span class="p">)</span> <span class="o">!==</span> <span class="o">-</span><span class="mi">1</span><span class="p">){</span>
+  <span class="nx">process</span><span class="p">.</span><span class="nx">argv</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;--ship&#39;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kr">const</span> <span class="nx">gulpSequence</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;gulp-sequence&#39;</span><span class="p">);</span>
+
+<span class="nx">gulp</span><span class="p">.</span><span class="nx">task</span><span class="p">(</span><span class="s1">&#39;dist&#39;</span><span class="p">,</span> <span class="nx">gulpSequence</span><span class="p">(</span><span class="s1">&#39;clean&#39;</span><span class="p">,</span> <span class="s1">&#39;bundle&#39;</span><span class="p">,</span> <span class="s1">&#39;package-solution&#39;</span><span class="p">));</span>
+</pre></div>
+
 <h3 id="deployment">Deployment<a class="headerlink" href="#deployment" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="https://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js">https://github.com/estruyf/UploadToOffice365SPFx/blob/master/gulpfile.js</a></li>
