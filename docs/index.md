@@ -244,19 +244,22 @@ gulp serve --locale=de-de
 - [APIs Everywhere](./assets/APIs-Everywhere.pptx)
 - [RSS Reader](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-rss-reader)
 
-Sample Folder structur
+Sample Folder structur 
+- [barrel: each folder should has a index.ts file](https://basarat.gitbooks.io/typescript/docs/tips/barrel.html)
 
 - src
   - models
     - IHelpDeskItem.ts
+    - index.ts
   - services
     - IDataService.ts
     - MockDataservice.ts
     - SharepointDataService.ts
+    - index.ts
   - webparts
     - components
     - loc
-    - 'webpartnameWebPart.ts'
+    - WebpartNameWebPart.ts
 
 ### Data Model
 
