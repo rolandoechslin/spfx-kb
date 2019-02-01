@@ -23,6 +23,18 @@ https://github.com/SharePoint/PnP-PowerShell/tree/master/Samples/Provisioning.Se
 
 - [Copying Office 365 Group Permissions with PowerShell](https://www.toddklindt.com/blog/Lists/Posts/Post.aspx?List=56f96349-3bb6-4087-94f4-7f95ff4ca81f&ID=808&Web=48e6fdd1-17db-4543-b2f9-6fc7185484fc)
 
+## Tipps
+
+- [Generic URLs for all Office 365 Group connected workloads](https://blog.yannickreekmans.be/generic-urls-for-all-office-365-group-connected-workloads/)
+
+```Powershell
+# SiteCollection URL <site>
+<site>/_layouts/15/groupstatus.aspx?Target=PLANNER
+
+# XML Provisioning Engine - SiteCollection Token {site}
+{site}/_layouts/15/groupstatus.aspx?Target=PLANNER
+```
+
 ## Powershell
 
 - <https://github.com/mikemcleanlive/Ignite-2018-BRK3098-Demo-Scripts>
