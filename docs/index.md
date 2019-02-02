@@ -576,6 +576,8 @@ npm i -g @pnp/office365-cli@next
 
 Create report for upgrade
 
+- [spfx project upgrade](https://pnp.github.io/office365-cli/cmd/spfx/project/project-upgrade/)
+
 ```bs
 o365 spfx project upgrade --output md > report.md
 ```
