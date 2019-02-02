@@ -568,6 +568,8 @@ npm install @microsoft/generator-sharepoint --global
 
 ## Office 365 CLI
 
+- [Comparison to SharePoint PowerShell](https://pnp.github.io/office365-cli/about/comparison-powershell/)
+
 Latest version
 
 ```bs
