@@ -566,13 +566,15 @@ npm install @microsoft/generator-sharepoint --global
 - <https://github.com/pnp/office365-cli>
 - <https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli>
 
-Office 365 CLI (next) installieren
+## Office 365 CLI
+
+Latest version
 
 ```bs
 npm i -g @pnp/office365-cli@next
 ```
 
-Report erstellen
+Create report for upgrade
 
 ```bs
 o365 spfx project upgrade --output md > report.md
