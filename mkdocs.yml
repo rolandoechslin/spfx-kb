@@ -19,6 +19,7 @@ pages:
         - Debug: spfx/debug.md
         - Deployment: spfx/deployment.md
         - Delve: spfx/delve.md
+        - Docker: spfx/docker.md
         - Extensions: spfx/extensions.md
         - Events: spfx/events.md
         - Flow: spfx/flow.md

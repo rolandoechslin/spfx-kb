@@ -27,6 +27,12 @@
 - [Part 1: Style Options & How to Import](http://warner.digital/spfx-dynamic-styles-part1)
 - [Part 2: Dynamic Bundling of Styles](http://warner.digital/spfx-dynamic-styles-part2)
 
+## CSS Box Model
+- [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
+
+![CSS Box Modell](../assets/images/css-boxing-model.png)
+
+
 ## CSS Specificiation
 
 - [Specificity Calculator](https://specificity.keegan.st)
