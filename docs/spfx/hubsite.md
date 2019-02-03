@@ -1,5 +1,6 @@
 # HubSite
 
+- [What is a SharePoint hub site](http://aftabsharepoint.blogspot.com/2018/12/sharepoint-hub-sites.html)
 - [Video - SharePoint hub sites — What intranet managers need to know](https://www.youtube.com/watch?v=_8RCBsrpLg4)
 - [spsnyc-how-hub-sites-raise-sharepoints-intranet-potential](https://www.slideshare.net/sharePTkarm/spsnyc-how-hub-sites-raise-sharepoints-intranet-potential-107836497)
 - [the-intranet-managers-guide-to-office-365-sharepoint-hub-sites](https://www.habaneroconsulting.com/stories/insights/2018/the-intranet-managers-guide-to-office-365-sharepoint-hub-sites)
@@ -19,7 +20,7 @@
 
 ## Navigation
 
-- https://beaucameron.net/2018/04/17/security-trimmed-hub-site-navigation-updates/
+- [Security Trimmed Hub Site Navigation Updates!](https://beaucameron.net/2018/04/17/security-trimmed-hub-site-navigation-updates/)
 - [security-trimmed-hub-navigation](http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation)
 - [manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell](https://mattipaukkonen.com/2018/08/22/manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell)
 
