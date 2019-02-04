@@ -1,5 +1,10 @@
 # Webparts
 
+## Localize web parts
+
+- [Localize SharePoint Framework client-side web parts](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/localize-web-parts#localize-web-part-contents)
+- [Implementing localization file checks to prevent issues in SharePoint Framework solutions](https://www.eliostruyf.com/implementing-localization-file-checks-to-prevent-issues-in-sharepoint-framework-solutions/)
+
 ## Properties
 
 - <https://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-spfx-web-part-properties-dynamic-dropdown.html>
