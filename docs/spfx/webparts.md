@@ -60,8 +60,12 @@
 - [Google search web part](https://github.com/CloudDesignBox/cdbGoogleSearchSPFxWebPart)
  -[Promoted Links Web Part](https://github.com/CloudDesignBox/cdb-promoted-links)
 
+## Terms Sets
+
+- [Display hierarchical Term Sets to your Web Part](https://blog.lsonline.fr/2019/01/13/display-hierarchical-term-sets-to-your-web-part/)
 
 ## Reusable React control
+
 - [SPFx reusable React control field-picker-list-data](https://jjm935611985.wordpress.com/2018/10/)
 
 ## Dynamic Load Webpart
