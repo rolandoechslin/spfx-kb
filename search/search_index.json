@@ -317,13 +317,18 @@
         },
         {
             "location": "/spfx/bot/",
-            "text": "BOT\n\u00b6\n\n\n\n\nbuilding-a-microsoft-teams-bot\n\n\nhttps://www.cloudguy.pro/learn-to-bot",
+            "text": "BOT\n\u00b6\n\n\n\n\nbuilding-a-microsoft-teams-bot\n\n\nhttps://www.cloudguy.pro/learn-to-bot\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx",
             "title": "Bot"
         },
         {
             "location": "/spfx/bot/#bot",
             "text": "building-a-microsoft-teams-bot  https://www.cloudguy.pro/learn-to-bot",
             "title": "BOT"
+        },
+        {
+            "location": "/spfx/bot/#samples",
+            "text": "Add AtBot to your SharePoint site using SPFx",
+            "title": "Samples"
         },
         {
             "location": "/spfx/businessobjects/",
@@ -1327,7 +1332,7 @@
         },
         {
             "location": "/spfx/teams/",
-            "text": "Teams\n\u00b6\n\n\nSupport\n\u00b6\n\n\n\n\nKeyboard shortcuts for Microsoft Teams\n\n\nMicrosoft Teams: How to clean cache\n\n\n\n\nOverview\n\u00b6\n\n\n\n\nhttp://blog.ioz.ch/productivity-news-vom-1-3-2017-microsoft-teams-all-in-one-collaboration/\n\n\nhttps://bob1german.com/2018/05/14/teams-and-sharepoint-better-together/\n\n\nhttps://www.metalogix.com/blog/microsoft-365-teamwork-inner-outer-loop\n\n\n\n\nPlaning\n\u00b6\n\n\n\n\nMicrosoft Teams planning guide\n\n\nCore components of Teams\n\n-\nLimits and specifications for Microsoft Teams\n\n\nDifference in permission between an owner and a member\n\n\n\n\nTraining video\n\u00b6\n\n\n\n\nMicrosoft Teams video training\n\n\nGovernance, management and lifecycle in Microsoft Teams\n\n\n\n\nCoding\n\u00b6\n\n\n\n\nhttps://github.com/wictorwilen/generator-teams\n\n\n\n\nAdmins\n\u00b6\n\n\n\n\nhttps://support.office.com/en-us/article/Frequently-asked-questions-about-Microsoft-Teams-%25E2%2580%2593-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc?ui=en-US&rs=en-US&ad=US\n\n\n\n\nhttp://blog.avanade.com/avanade-insights/collaboration/microsoft-teams-supercharges-collaboration-for-millennials-to-boomers/\n\n\n\n\n\n\nhttps://delucagiuliano.com/selecting-users-for-your-microsoft-teams-pilot-phase/#.W1lo89IzZBA\n\n\n\n\n\n\nGuest Users\n\u00b6\n\n\n\n\nhttps://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users\n\n\n\n\nMicrosoft Teams versus Sharepoint Teams\n\u00b6\n\n\n\n\nhttp://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work\n\n\nhttps://www.avepoint.com/blog/microsoft-teams/office-365-groups-vs-teams/\n\n\nhttp://blog.pixelmill.com/3580/microsoft-teams-sharepoint-destined-lifelong-partners/\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://collab365.community/microsoft-teams-hacks\n\n\nOffice 365 Groups Naming Policy\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\nhttps://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations\n\n\n\n\nQuerys\n\u00b6\n\n\nGet all Teams Groups\n\n\nhttps://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nhttp://drewmadelung.com/tag/teams/",
+            "text": "Teams\n\u00b6\n\n\nSupport\n\u00b6\n\n\n\n\nKeyboard shortcuts for Microsoft Teams\n\n\nMicrosoft Teams: How to clean cache\n\n\n\n\nOverview\n\u00b6\n\n\n\n\nhttp://blog.ioz.ch/productivity-news-vom-1-3-2017-microsoft-teams-all-in-one-collaboration/\n\n\nhttps://bob1german.com/2018/05/14/teams-and-sharepoint-better-together/\n\n\nhttps://www.metalogix.com/blog/microsoft-365-teamwork-inner-outer-loop\n\n\n\n\nPlaning\n\u00b6\n\n\n\n\nMicrosoft Teams planning guide\n\n\nCore components of Teams\n\n-\nLimits and specifications for Microsoft Teams\n\n\nDifference in permission between an owner and a member\n\n\n\n\nTraining video\n\u00b6\n\n\n\n\nMicrosoft Teams video training\n\n\nGovernance, management and lifecycle in Microsoft Teams\n\n\n\n\nCoding\n\u00b6\n\n\n\n\nA Yeoman Generator for Microsoft Teams\n\n\nGet started with Teams templates\n\n\n\n\nAdmins\n\u00b6\n\n\n\n\nOverview of Teams\n\n\n\n\nWhich Office 365 Service to Use\n\n\n\n\n\n\nSelecting users for your Microsoft Teams pilot phase\n\n\n\n\n\n\nGuest Users\n\u00b6\n\n\n\n\nhttps://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users\n\n\n\n\nMicrosoft Teams versus Sharepoint Teams\n\u00b6\n\n\n\n\nhttp://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work\n\n\nhttps://www.avepoint.com/blog/microsoft-teams/office-365-groups-vs-teams/\n\n\nhttp://blog.pixelmill.com/3580/microsoft-teams-sharepoint-destined-lifelong-partners/\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://collab365.community/microsoft-teams-hacks\n\n\nOffice 365 Groups Naming Policy\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\nhttps://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations\n\n\n\n\nQuerys\n\u00b6\n\n\nGet all Teams Groups\n\n\nhttps://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nhttp://drewmadelung.com/tag/teams/",
             "title": "Teams"
         },
         {
@@ -1357,12 +1362,12 @@
         },
         {
             "location": "/spfx/teams/#coding",
-            "text": "https://github.com/wictorwilen/generator-teams",
+            "text": "A Yeoman Generator for Microsoft Teams  Get started with Teams templates",
             "title": "Coding"
         },
         {
             "location": "/spfx/teams/#admins",
-            "text": "https://support.office.com/en-us/article/Frequently-asked-questions-about-Microsoft-Teams-%25E2%2580%2593-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc?ui=en-US&rs=en-US&ad=US   http://blog.avanade.com/avanade-insights/collaboration/microsoft-teams-supercharges-collaboration-for-millennials-to-boomers/    https://delucagiuliano.com/selecting-users-for-your-microsoft-teams-pilot-phase/#.W1lo89IzZBA",
+            "text": "Overview of Teams   Which Office 365 Service to Use    Selecting users for your Microsoft Teams pilot phase",
             "title": "Admins"
         },
         {
@@ -2207,7 +2212,7 @@
         },
         {
             "location": "/tools/powerapps/",
-            "text": "PowerApps\n\u00b6\n\n\nSharePoint custom forms and automated business workflow\n\n\nVideo Tutorials\n\u00b6\n\n\n\n\nYoutube Microsoft PowerApps Channel\n\n\n\n\nPrice\n\u00b6\n\n\n\n\nhttps://powerapps.microsoft.com/en-us/pricing/\n\n\n\n\nWebParts\n\u00b6\n\n\n\n\nhttps://www.jijitechnologies.com/blogs/powerapps-webpart-sharepoint\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://powerapps.microsoft.com/en-us/blog/tips-for-a-maintainable-extensible-app\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nhttps://resources.techcommunity.microsoft.com/business-applications-process/\n\n\nFlow provisioning with azure function and pnp template",
+            "text": "PowerApps\n\u00b6\n\n\nSharePoint custom forms and automated business workflow\n\n\nVideo Tutorials\n\u00b6\n\n\n\n\nYoutube Microsoft PowerApps Channel\n\n\n\n\nPrice\n\u00b6\n\n\n\n\nhttps://powerapps.microsoft.com/en-us/pricing/\n\n\n\n\nWebParts\n\u00b6\n\n\n\n\nhttps://www.jijitechnologies.com/blogs/powerapps-webpart-sharepoint\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nTips for making your apps more maintainable\n\n\nEmbed PowerApps in Modern SharePoint Online Site Page\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSharePoint PowerApps Solution samples\n\n\nSharePoint custom forms and automated business workflow\n\n\nFlow provisioning with azure function and pnp template",
             "title": "Powerapps"
         },
         {
@@ -2232,12 +2237,12 @@
         },
         {
             "location": "/tools/powerapps/#tipps",
-            "text": "https://powerapps.microsoft.com/en-us/blog/tips-for-a-maintainable-extensible-app",
+            "text": "Tips for making your apps more maintainable  Embed PowerApps in Modern SharePoint Online Site Page",
             "title": "Tipps"
         },
         {
             "location": "/tools/powerapps/#samples",
-            "text": "https://resources.techcommunity.microsoft.com/business-applications-process/  Flow provisioning with azure function and pnp template",
+            "text": "SharePoint PowerApps Solution samples  SharePoint custom forms and automated business workflow  Flow provisioning with azure function and pnp template",
             "title": "Samples"
         },
         {
