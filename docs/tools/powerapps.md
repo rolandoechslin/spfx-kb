@@ -16,7 +16,8 @@ SharePoint custom forms and automated business workflow
 
 ## Tipps
 
-- <https://powerapps.microsoft.com/en-us/blog/tips-for-a-maintainable-extensible-app>
+- [Tips for making your apps more maintainable](https://powerapps.microsoft.com/en-us/blog/tips-for-a-maintainable-extensible-app)
+- [Embed PowerApps in Modern SharePoint Online Site Page](https://www.sharepointsky.com/embed-powerapps-in-sharepoint-online/)
 
 ## Samples
 
