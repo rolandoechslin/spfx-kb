@@ -100,6 +100,10 @@
 
 - <http://www.sharepointnutsandbolts.com/2016/08/async-rest-calls-promises-httpclient-jquery.html> (REST call with Promises)
 
+## CORS
+
+- [Getting around CORS issues in SPFx with SPHttpClient](https://tahoeninjas.blog/2019/02/05/getting-around-cors-issues-in-spfx-with-sphttpclient/)
+
 ## Products
 
 - <http://bindtuning.com/webparts>

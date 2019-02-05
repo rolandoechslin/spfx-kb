@@ -246,6 +246,7 @@ gulp serve --locale=de-de
 
 Sample Folder structur 
 - [barrel: each folder should has a index.ts file](https://basarat.gitbooks.io/typescript/docs/tips/barrel.html)
+- [prettify your imports](https://spblog.net/post/2019/02/05/sharepoint-framework-development-tips-prettify-your-imports)
 
 - src
   - models
