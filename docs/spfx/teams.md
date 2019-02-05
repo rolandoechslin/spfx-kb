@@ -25,14 +25,15 @@
 
 ## Coding
 
-- <https://github.com/wictorwilen/generator-teams>
+- [A Yeoman Generator for Microsoft Teams](https://github.com/wictorwilen/generator-teams)
+- [Get started with Teams templates](https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates)
 
 ## Admins
 
-- <https://support.office.com/en-us/article/Frequently-asked-questions-about-Microsoft-Teams-%25E2%2580%2593-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc?ui=en-US&rs=en-US&ad=US>
-- <http://blog.avanade.com/avanade-insights/collaboration/microsoft-teams-supercharges-collaboration-for-millennials-to-boomers/>
+- [Overview of Teams](https://support.office.com/en-us/article/Frequently-asked-questions-about-Microsoft-Teams-%25E2%2580%2593-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc?ui=en-US&rs=en-US&ad=US)
+- [Which Office 365 Service to Use](http://blog.avanade.com/avanade-insights/collaboration/microsoft-teams-supercharges-collaboration-for-millennials-to-boomers/)
 
-- <https://delucagiuliano.com/selecting-users-for-your-microsoft-teams-pilot-phase/#.W1lo89IzZBA>
+- [Selecting users for your Microsoft Teams pilot phase](https://delucagiuliano.com/selecting-users-for-your-microsoft-teams-pilot-phase/#.W1lo89IzZBA)
 
 ## Guest Users
 
