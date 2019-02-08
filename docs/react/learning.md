@@ -21,11 +21,9 @@
 - https://survivejs.com/react/
 - https://github.com/markerikson/react-redux-links
 
-
 ## Styleguide
 
-- [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/blob/master/react/README.md
-)
+- [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/blob/master/react/README.md)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 ## Cheatsheet
@@ -37,6 +35,10 @@
 ## Patterns
 
 - <https://legacy.gitbook.com/book/krasimir/react-in-patterns/details>
+
+## JS/React VS.Code Extensions
+
+- [The Ultimate VSCode Setup for Front End/JS/React](https://medium.com/productivity-freak/the-ultimate-vscode-setup-for-js-react-6a4f7bd51a2)
 
 ## SP2016
 
