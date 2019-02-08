@@ -8,6 +8,7 @@
 ## Content Type
 
 - [Content Type Benefits in Modern SharePoint](https://www.valointranet.com/blog/general/content-type-benefits-in-modern-sharepoint)
+- [CHOICE, LOOKUP OR MANAGED METADATA?](https://joannecklein.com/2016/06/21/choice-lookup-or-managed-metadata/)
 
 ## Permission
 
