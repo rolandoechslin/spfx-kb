@@ -27,7 +27,6 @@
 
 - [open-and-use-the-web-part-maintenance-page](https://support.office.com/en-us/article/open-and-use-the-web-part-maintenance-page-eff9ce22-d04a-44dd-ae83-ac29a5e396c2)
 
-
 ```html
 ?maintenancemode=true
 ```
@@ -52,3 +51,8 @@
 ## Invalid File Names
 
 - [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/en-us/article/Invalid-file-names-and-file-types-in-OneDrive-OneDrive-for-Business-and-SharePoint-64883a5d-228e-48f5-b3d2-eb39e07630fa#filenamepathlengths)
+
+## No-Scripts / embedding-scripts
+
+-[Don't allow embedding scripts on modern sites](https://blog.mastykarz.nl/dont-allow-embedding-scripts-modern-sites/)
+- [Advice on using unsupported customisations (and more) in a SharePoint Online environment](https://medium.com/@Lumpie/graffiti-guidance-e0eb520a5392)
