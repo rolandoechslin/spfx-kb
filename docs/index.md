@@ -76,10 +76,18 @@ pnpm i tslint@5.9.1 -DE
 pnpm i typescript@2.4.2 -DE
 ```
 
+Init and add Files to repo
+
 ```bs
 git init
 git add -A
 git commit -m "init repo"
+```
+
+Show last commit
+
+```bs
+git show --name-only
 ```
 
 ## Development(local workbench)
