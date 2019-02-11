@@ -517,7 +517,7 @@
         },
         {
             "location": "/spfx/extensions/",
-            "text": "Extensions\n\u00b6\n\n\nTipps\n\u00b6\n\n\n\n\nHow to properly add an Application Customizer to an existing SPFx Web Part Project\n\n\n\n\nFull Page\n\u00b6\n\n\n\n\nSharePoint Full Page Canvas App\n\n\nspfx-appcust-removeFeeback\n\n\nReact slider field customizer\n\n\nSharePoint Framework custom header and footer application customizer extension\n\n\nCheck the page display mode from within your SharePoint Framework extensions\n\n\n\n\nListView\n\u00b6\n\n\n\n\nShowing or hiding SharePoint Framework ListView custom actions based on permissions and selected items\n\n\nSPFX ListView Command Set and Panel\n\n\nLet users get a simple link to a document or folder\n\n\n\n\nComments\n\u00b6\n\n\n\n\nReceive comment notifications by email in Modern SharePoint Pages\n\n\nGithub: Receive comment notifications on Modern SharePoint pages by email\n\n\n\n\nChange browser favicon icon\n\u00b6\n\n\n\n\nChange favicon on Modern SharePoint sites\n\n\nSPFx-favicon\n\n\n\n\nGoogle GA\n\u00b6\n\n\n\n\nTracking code in Tenant Wide Extensions list\n\n\n\n\nInject CSS\n\u00b6\n\n\n\n\nInject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions\n\n\nAdd Google Analytics to SharePoint modern pages\n\n\n\n\nNavigations\n\u00b6\n\n\n\n\nHandling navigation in a SharePoint Framework application customizer\n\n\n\n\nPlaceholders\n\u00b6\n\n\n\n\nSafely using Placeholders in an extension\n\n\n\n\nprivate _topPlaceholder : PlaceholderContent;\npublic onInit(void){\n    this.context.placeholderProvider.changedEvent.add(this, this._handlePlaceholderChange.bind(this));\n}\n\nprivate _handlePlaceholderChange(){\n  if (!this._topPlaceholder)\n  {\n    // We don't have a placeholder populated yet.  Let's try and get it.\n    this._topPlaceholder = this.context.placeholderProvider.tryCreateContent(PlaceholderName.Top);\n  } else {\n    // We have a placeholder - let's make sure that it still exists.\n    let index:number = this.context.placeholderProvider.placeholderNames.indexOf(PlaceholderName.Top);\n    if ( index < 0)\n    {\n        // The placeholder is no longer here.\n        this._topPlaceholder.dispose();\n        this._topPlaceholder = undefined;\n    }\n  }\n  if ( this._topPlaceholder )\n  {\n      this._topPlaceholder.innerText = 'Hello World!';\n  }\n}",
+            "text": "Extensions\n\u00b6\n\n\nTipps\n\u00b6\n\n\n\n\nHow to properly add an Application Customizer to an existing SPFx Web Part Project\n\n\n\n\nFull Page\n\u00b6\n\n\n\n\nSharePoint Full Page Canvas App\n\n\nspfx-appcust-removeFeeback\n\n\nReact slider field customizer\n\n\nSharePoint Framework custom header and footer application customizer extension\n\n\nCheck the page display mode from within your SharePoint Framework extensions\n\n\n\n\nListView\n\u00b6\n\n\n\n\nShowing or hiding SharePoint Framework ListView custom actions based on permissions and selected items\n\n\nSPFX ListView Command Set and Panel\n\n\nLet users get a simple link to a document or folder\n\n\n\n\nComments\n\u00b6\n\n\n\n\nReceive comment notifications by email in Modern SharePoint Pages\n\n\nGithub: Receive comment notifications on Modern SharePoint pages by email\n\n\n\n\nChange browser favicon icon\n\u00b6\n\n\n\n\nChange favicon on Modern SharePoint sites\n\n\nSPFx-favicon\n\n\n\n\nGoogle GA\n\u00b6\n\n\n\n\nTracking code in Tenant Wide Extensions list\n\n\nSPFx-Google-Analytics\n\n\n\n\nInject CSS\n\u00b6\n\n\n\n\nInject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions\n\n\nAdd Google Analytics to SharePoint modern pages\n\n\n\n\nNavigations\n\u00b6\n\n\n\n\nHandling navigation in a SharePoint Framework application customizer\n\n\n\n\nPlaceholders\n\u00b6\n\n\n\n\nSafely using Placeholders in an extension\n\n\n\n\nprivate _topPlaceholder : PlaceholderContent;\npublic onInit(void){\n    this.context.placeholderProvider.changedEvent.add(this, this._handlePlaceholderChange.bind(this));\n}\n\nprivate _handlePlaceholderChange(){\n  if (!this._topPlaceholder)\n  {\n    // We don't have a placeholder populated yet.  Let's try and get it.\n    this._topPlaceholder = this.context.placeholderProvider.tryCreateContent(PlaceholderName.Top);\n  } else {\n    // We have a placeholder - let's make sure that it still exists.\n    let index:number = this.context.placeholderProvider.placeholderNames.indexOf(PlaceholderName.Top);\n    if ( index < 0)\n    {\n        // The placeholder is no longer here.\n        this._topPlaceholder.dispose();\n        this._topPlaceholder = undefined;\n    }\n  }\n  if ( this._topPlaceholder )\n  {\n      this._topPlaceholder.innerText = 'Hello World!';\n  }\n}",
             "title": "Extensions"
         },
         {
@@ -552,7 +552,7 @@
         },
         {
             "location": "/spfx/extensions/#google-ga",
-            "text": "Tracking code in Tenant Wide Extensions list",
+            "text": "Tracking code in Tenant Wide Extensions list  SPFx-Google-Analytics",
             "title": "Google GA"
         },
         {
@@ -987,12 +987,12 @@
         },
         {
             "location": "/spfx/migration/",
-            "text": "Migration\n\u00b6\n\n\n\n\nCloud Migration\n\n\n\n\nShowcase\n\u00b6\n\n\n\n\nLearn how Microsoft ran its own migration\n\n\n\n\nMigration Tool\n\u00b6\n\n\n\n\nMigrating to Microsoft Teams using the SharePoint Migration Tool",
+            "text": "Migration\n\u00b6\n\n\n\n\n33 things that can cause a hassle when migrating to SharePoint Online\n\n\nSharePoint Migration Infographic\n\n\nCloud Migration\n\n\n\n\nShowcase\n\u00b6\n\n\n\n\nLearn how Microsoft ran its own migration\n\n\n\n\nMigration Tool\n\u00b6\n\n\n\n\nMigrating to Microsoft Teams using the SharePoint Migration Tool",
             "title": "Migration"
         },
         {
             "location": "/spfx/migration/#migration",
-            "text": "Cloud Migration",
+            "text": "33 things that can cause a hassle when migrating to SharePoint Online  SharePoint Migration Infographic  Cloud Migration",
             "title": "Migration"
         },
         {
@@ -1827,7 +1827,7 @@
         },
         {
             "location": "/js/guide/",
-            "text": "Guide\n\u00b6\n\n\nRef\n\u00b6\n\n\n\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript\n\n\n\n\nStyleguide\n\u00b6\n\n\n\n\nhttps://google.github.io/styleguide/jsguide.html\n\n\nhttps://github.com/airbnb/javascript\n\n\nhttp://2ality.com/2011/10/javascript-overview.html\n\n\n\n\nBooks\n\u00b6\n\n\n\n\nhttps://frontendmasters.com/books/front-end-handbook/2018/",
+            "text": "Guide\n\u00b6\n\n\nRef\n\u00b6\n\n\n\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript\n\n\n\n\nStyleguide\n\u00b6\n\n\n\n\nhttps://google.github.io/styleguide/jsguide.html\n\n\nhttps://github.com/airbnb/javascript\n\n\nhttp://2ality.com/2011/10/javascript-overview.html\n\n\n\n\nBooks\n\u00b6\n\n\n\n\nhttps://frontendmasters.com/books/front-end-handbook/2018/\n\n\n\n\nArrays\n\u00b6\n\n\n\n\nEleven Ways To Learn Javascript Array Iteration Effectively",
             "title": "Guide"
         },
         {
@@ -1849,6 +1849,11 @@
             "location": "/js/guide/#books",
             "text": "https://frontendmasters.com/books/front-end-handbook/2018/",
             "title": "Books"
+        },
+        {
+            "location": "/js/guide/#arrays",
+            "text": "Eleven Ways To Learn Javascript Array Iteration Effectively",
+            "title": "Arrays"
         },
         {
             "location": "/js/pwa/",
