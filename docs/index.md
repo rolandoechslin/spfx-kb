@@ -8,6 +8,7 @@
 - [Updated SharePoint Framework developer training package now available (2019)](https://developer.microsoft.com/en-us/sharepoint/blogs/updated-sharepoint-framework-developer-training-package-now-available-2019/)
 - [SharePoint Developer GitHub repositories](https://docs.microsoft.com/en-us/sharepoint/dev/community/repositories)
 - [Gateway to Office 365 Training Resources from Microsoft](https://office365trainingportal.com/)
+- [Set up an Office 365 developer subscription](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program-get-started)
 
 ## Roadmap
 
