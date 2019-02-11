@@ -31,6 +31,7 @@
 ## Google GA
 
 - [Tracking code in Tenant Wide Extensions list](http://www.expiscornovus.com/2019/01/02/tracking-code-in-tenant-wide-extensions-list/)
+- [SPFx-Google-Analytics](https://github.com/joaoferreira/SPFx-Google-Analytics/)
 
 ## Inject CSS
 

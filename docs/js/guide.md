@@ -13,3 +13,7 @@
 ## Books
 
 - https://frontendmasters.com/books/front-end-handbook/2018/
+
+## Arrays
+
+- [Eleven Ways To Learn Javascript Array Iteration Effectively](https://www.zeptobook.com/eleven-ways-to-learn-javascript-array-iteration-effectively/)

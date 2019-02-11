@@ -1,5 +1,7 @@
 # Migration
 
+- [33 things that can cause a hassle when migrating to SharePoint Online](https://engineerer.ch/2019/02/08/33-things-that-can-cause-a-hassle-when-migrating-to-sharepoint-online/)
+- [SharePoint Migration Infographic](https://joannecklein.com/2019/02/10/sharepoint-migration-infographic/)
 - [Cloud Migration](https://resources.techcommunity.microsoft.com/cloud-migration/)
 
 ## Showcase
