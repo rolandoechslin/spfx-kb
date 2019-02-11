@@ -54,5 +54,5 @@
 
 ## No-Scripts / embedding-scripts
 
--[Don't allow embedding scripts on modern sites](https://blog.mastykarz.nl/dont-allow-embedding-scripts-modern-sites/)
+- [Don't allow embedding scripts on modern sites](https://blog.mastykarz.nl/dont-allow-embedding-scripts-modern-sites/)
 - [Advice on using unsupported customisations (and more) in a SharePoint Online environment](https://medium.com/@Lumpie/graffiti-guidance-e0eb520a5392)
