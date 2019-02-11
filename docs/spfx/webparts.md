@@ -60,6 +60,7 @@
 - [Google search web part](https://github.com/CloudDesignBox/cdbGoogleSearchSPFxWebPart)
 - [Promoted Links Web Part](https://github.com/CloudDesignBox/cdb-promoted-links)
 - [List Pivot Table – WebPart](https://github.com/joaojmendes/React-List-PivotTable-WebPart)
+- [SPFX Image Gallery with filtering](https://www.ejazhussain.com/2019/02/08/spfx-image-gallery/)
 
 ## Terms Sets
 
