@@ -3,6 +3,7 @@
 ## Frameworks
 
 - [State of JS-Frameworks](https://stateofjs.com)
+- [JavaScript library that creates PowerPoint presentations](https://gitbrent.github.io/PptxGenJS/)
 
 ## Common Cheatsheets
 
