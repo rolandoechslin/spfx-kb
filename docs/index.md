@@ -36,6 +36,7 @@
 ## Security Guidline
 
 - [Security Scanning a SharePoint Framework Solution](https://rencore.com/blog/security-scanning-a-sharepoint-framework-solution/)
+- [Security Engineering Portal](https://www.microsoft.com/en-us/securityengineering)
 
 ## Content Style Guide
 
