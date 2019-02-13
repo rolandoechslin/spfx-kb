@@ -762,17 +762,22 @@
         },
         {
             "location": "/spfx/graph/",
-            "text": "Microsoft Graph\n\u00b6\n\n\n\n\n\n\nLearning\n\n\n\n\n\n\n30 Days of Microsoft Graph\n\n\n\n\n\n\nConsuming SharePoint Online via the Microsoft Graph\n\n\n\n\n\n\ngraph explorer - start\n\n\n\n\ngrap webhooks - subscription\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nUsing Microsoft Graph API to convert the format of your documents\n\n\nAzure Functions project that implements Microsoft Teams provisioning via Microsoft Graph",
+            "text": "Microsoft Graph\n\u00b6\n\n\nLearning\n\u00b6\n\n\n\n\n30 Days of Microsoft Graph\n\n\nConsuming SharePoint Online via the Microsoft Graph\n\n\ngraph explorer - start\n\n\ngrap webhooks - subscription\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nUsing Microsoft Graph API to convert the format of your documents\n\n\nAzure Functions project that implements Microsoft Teams provisioning via Microsoft Graph\n\n\nHow to get data from Microsoft Graph \u2013 SPFx",
             "title": "Graph"
         },
         {
             "location": "/spfx/graph/#microsoft-graph",
-            "text": "Learning    30 Days of Microsoft Graph    Consuming SharePoint Online via the Microsoft Graph    graph explorer - start   grap webhooks - subscription",
+            "text": "",
             "title": "Microsoft Graph"
         },
         {
+            "location": "/spfx/graph/#learning",
+            "text": "30 Days of Microsoft Graph  Consuming SharePoint Online via the Microsoft Graph  graph explorer - start  grap webhooks - subscription",
+            "title": "Learning"
+        },
+        {
             "location": "/spfx/graph/#samples",
-            "text": "Using Microsoft Graph API to convert the format of your documents  Azure Functions project that implements Microsoft Teams provisioning via Microsoft Graph",
+            "text": "Using Microsoft Graph API to convert the format of your documents  Azure Functions project that implements Microsoft Teams provisioning via Microsoft Graph  How to get data from Microsoft Graph \u2013 SPFx",
             "title": "Samples"
         },
         {
