@@ -50,7 +50,7 @@
 ## REST
 
 - [postman-and-office-365](https://www.helloitsliam.com/2016/02/04/postman-and-office-365)
-- <https://s-kainet.github.io/sp-rest-explorer>
+- [SharePoint REST API Metadata Explorer](https://s-kainet.github.io/sp-rest-explorer)
 
 ## Change Log
 
