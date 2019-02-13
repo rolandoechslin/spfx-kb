@@ -38,6 +38,23 @@
 - [Security Scanning a SharePoint Framework Solution](https://rencore.com/blog/security-scanning-a-sharepoint-framework-solution/)
 - [Security Engineering Portal](https://www.microsoft.com/en-us/securityengineering)
 
+### Granting Permission
+
+- [Avoiding Declarative Permissions with Azure AD Services in SharePoint Framework Projects](https://www.voitanos.io/blog/consider-avoiding-declarative-permissions-with-azure-ad-services-in-sharepoint-framework-projects)
+- [Easily grant API permissions with the Office 365 CLI](https://blog.mastykarz.nl/grant-api-permissions-office-365-cli/)
+
+- [Logging in to Office 365](https://pnp.github.io/office365-cli/user-guide/connecting-office-365/)
+
+```bs
+o365 spo login https://<tenant>-admin.sharepoint.com
+```
+
+- [spo serviceprincipal grant add](https://pnp.github.io/office365-cli/cmd/spo/serviceprincipal/serviceprincipal-grant-add/)
+
+```bs
+spo serviceprincipal grant add --resource 'Microsoft Graph' --scope 'Mail.Read'
+```
+
 ## Content Style Guide
 
 - [Microsoft Writing Style Guide](https://docs.microsoft.com/de-ch/style-guide/welcome)
