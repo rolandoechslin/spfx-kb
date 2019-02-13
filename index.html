@@ -399,6 +399,19 @@
     Security Guidline
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#granting-permission" title="Granting Permission" class="md-nav__link">
+    Granting Permission
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1674,6 +1687,19 @@
     Security Guidline
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#granting-permission" title="Granting Permission" class="md-nav__link">
+    Granting Permission
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1975,7 +2001,27 @@
 <h2 id="security-guidline">Security Guidline<a class="headerlink" href="#security-guidline" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://rencore.com/blog/security-scanning-a-sharepoint-framework-solution/">Security Scanning a SharePoint Framework Solution</a></li>
+<li><a href="https://www.microsoft.com/en-us/securityengineering">Security Engineering Portal</a></li>
 </ul>
+<h3 id="granting-permission">Granting Permission<a class="headerlink" href="#granting-permission" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.voitanos.io/blog/consider-avoiding-declarative-permissions-with-azure-ad-services-in-sharepoint-framework-projects">Avoiding Declarative Permissions with Azure AD Services in SharePoint Framework Projects</a></li>
+<li>
+<p><a href="https://blog.mastykarz.nl/grant-api-permissions-office-365-cli/">Easily grant API permissions with the Office 365 CLI</a></p>
+</li>
+<li>
+<p><a href="https://pnp.github.io/office365-cli/user-guide/connecting-office-365/">Logging in to Office 365</a></p>
+</li>
+</ul>
+<div class="codehilite"><pre><span></span>o365 spo login https://&lt;tenant&gt;-admin.sharepoint.com
+</pre></div>
+
+<ul>
+<li><a href="https://pnp.github.io/office365-cli/cmd/spo/serviceprincipal/serviceprincipal-grant-add/">spo serviceprincipal grant add</a></li>
+</ul>
+<div class="codehilite"><pre><span></span>spo serviceprincipal grant add --resource &#39;Microsoft Graph&#39; --scope &#39;Mail.Read&#39;
+</pre></div>
+
 <h2 id="content-style-guide">Content Style Guide<a class="headerlink" href="#content-style-guide" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://docs.microsoft.com/de-ch/style-guide/welcome">Microsoft Writing Style Guide</a></li>
