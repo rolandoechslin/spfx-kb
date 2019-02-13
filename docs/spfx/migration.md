@@ -11,3 +11,7 @@
 ## Migration Tool
 
 - [Migrating to Microsoft Teams using the SharePoint Migration Tool](https://blogs.technet.microsoft.com/wbaer/2019/01/05/migrating-to-microsoft-teams-using-the-sharepoint-migration-tool/)
+
+## Permission
+
+- [Leave Those SharePoint Permissions for Office 365 Groups Alone](https://www.petri.com/leave-sharepoint-permissions-office-365-groups-alone?utm_source=rss&utm_medium=rss&utm_campaign=leave-sharepoint-permissions-office-365-groups-alone)
