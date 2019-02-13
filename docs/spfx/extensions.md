@@ -4,6 +4,10 @@
 
 - [How to properly add an Application Customizer to an existing SPFx Web Part Project](http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2019/01/08/how-to-properly-add-an-application-customizer-to-an-existing-spfx-web-part-project.aspx)
 
+## Samples
+
+- [React-application-profile-meter](https://github.com/sprider/spfx-extensions/tree/master/react-application-profile-meter)
+
 ## Full Page
 
 - [SharePoint Full Page Canvas App](https://github.com/aflyen/spfx-extension-fullpagecanvas)
