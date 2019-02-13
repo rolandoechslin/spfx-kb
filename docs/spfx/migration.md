@@ -10,6 +10,7 @@
 
 ## Migration Tool
 
+- [Overview of the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool)
 - [Migrating to Microsoft Teams using the SharePoint Migration Tool](https://blogs.technet.microsoft.com/wbaer/2019/01/05/migrating-to-microsoft-teams-using-the-sharepoint-migration-tool/)
 
 ## Permission
