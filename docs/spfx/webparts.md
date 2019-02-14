@@ -14,6 +14,10 @@
 - [Creating a property pane for editing items in your SPFx web parts](http://julieturner.net/2017/07/creating-a-property-pane-for-editing-items-in-your-spfx-web-parts)
 - [Understanding manifest.js file in spx project](https://iamguptarishi.wordpress.com/2019/01/07/decoding-manifest-js-file-in-spx-webpart-solution/)
 
+## Dynamic default properties
+
+- [Dynamic default properties in SPFx web parts](https://tahoeninjas.blog/2019/02/13/dynamic-default-properties-in-spfx-web-parts/)
+
 ## Group WebPart
 
 - [SharePoint Online Group Calendar Web Part Tutorial](https://www.sharepointeurope.com/sharepoint-online-group-calendar-web-part-tutorial)
