@@ -570,18 +570,20 @@ add office fabric react
 npm install office-ui-fabric-react@5.131.0
 ```
 
-## Create SP-App
+## Generator for SP applications
 
-- <https://github.com/koltyakov/generator-sppp>
+- [SP Pull-n-Push - Yeoman generator for SharePoint client-side applications](https://github.com/koltyakov/generator-sppp)
 
 ## Upgrade yo generator SPFx
+
+- [Use the Yeoman SharePoint generator](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/scaffolding-projects-using-yeoman-sharepoint-generator)
 
 ```bs
 npm outdated --global
 ```
 
 ```bs
-npm install @microsoft/generator-sharepoint --global
+npm install @microsoft/generator-sharepoint -g
 ```
 
 ## SPFx Version Upgrade
