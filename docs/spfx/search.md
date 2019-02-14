@@ -1,12 +1,13 @@
 # Search
 
 ## Search Tips
-- <http://icansharepoint.com/how-to-improve-your-sharepoint-search-results>
-- <http://icansharepoint.com/how-to-search-in-sharepoint>
+
+- [How to improve your SharePoint search results](http://icansharepoint.com/how-to-improve-your-sharepoint-search-results)
+- [How to search in SharePoint](http://icansharepoint.com/how-to-search-in-sharepoint)
 
 ## Managed Properties
 
-- <https://www.sharepointeurope.com/display-search-results-sharepoint-online>
+- [Display Search Results in SharePoint Online](https://www.sharepointeurope.com/display-search-results-sharepoint-online)
 
 ## Keyword Query Language (KQL) syntax reference
 
@@ -23,6 +24,7 @@
 ## Reindex
 
 - [Scripts to trigger re-indexing of user profiles and content in SharePoint Online](https://github.com/wobba/SPO-Trigger-Reindex)
+- [How to Trigger Full Reindex using PowerShell](http://www.sharepointdiary.com/2018/02/sharepoint-online-reindex-site-using-powershell.html)
 
 ## Content Source
 
