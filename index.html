@@ -450,6 +450,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#git-basics" title="Git Basics" class="md-nav__link">
+    Git Basics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#developmentlocal-workbench" title="Development(local workbench)" class="md-nav__link">
     Development(local workbench)
   </a>
@@ -466,20 +473,6 @@
         <li class="md-nav__item">
   <a href="#prepare-deployment-solution" title="Prepare Deployment Solution" class="md-nav__link">
     Prepare Deployment Solution
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manuel-upload-solution-deployment" title="Manuel Upload Solution Deployment" class="md-nav__link">
-    Manuel Upload Solution Deployment
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#learning-spfx" title="Learning SPFx" class="md-nav__link">
-    Learning SPFx
   </a>
   
 </li>
@@ -1738,6 +1731,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#git-basics" title="Git Basics" class="md-nav__link">
+    Git Basics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#developmentlocal-workbench" title="Development(local workbench)" class="md-nav__link">
     Development(local workbench)
   </a>
@@ -1754,20 +1754,6 @@
         <li class="md-nav__item">
   <a href="#prepare-deployment-solution" title="Prepare Deployment Solution" class="md-nav__link">
     Prepare Deployment Solution
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manuel-upload-solution-deployment" title="Manuel Upload Solution Deployment" class="md-nav__link">
-    Manuel Upload Solution Deployment
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#learning-spfx" title="Learning SPFx" class="md-nav__link">
-    Learning SPFx
   </a>
   
 </li>
@@ -2058,9 +2044,13 @@
 <div class="codehilite"><pre><span></span>pnpm i typescript@2.4.2 -DE
 </pre></div>
 
-<p>Init and add Files to repo</p>
+<h2 id="git-basics">Git Basics<a class="headerlink" href="#git-basics" title="Permanent link">&para;</a></h2>
+<p>Init local repo</p>
 <div class="codehilite"><pre><span></span>git init
-git add -A
+</pre></div>
+
+<p>Add all Files to local repo</p>
+<div class="codehilite"><pre><span></span>git add -A
 git commit -m &quot;init repo&quot;
 </pre></div>
 
@@ -2095,18 +2085,6 @@ git commit -m &quot;init repo&quot;
 <div class="codehilite"><pre><span></span>gulp package-solution --ship
 </pre></div>
 
-<h2 id="manuel-upload-solution-deployment">Manuel Upload Solution Deployment<a class="headerlink" href="#manuel-upload-solution-deployment" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Upload the solution file "packagename.sppkg" from "/sharepoint/solution" to the App Catalog.</li>
-<li>Go to either a modern Communication or Team Site.</li>
-<li>Go to "Site contents" and add new "App"</li>
-<li>Select "packagename" and wait for it to be installed</li>
-<li>Go to the front page, edit the page and add the webpart</li>
-</ul>
-<h2 id="learning-spfx">Learning SPFx<a class="headerlink" href="#learning-spfx" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls">PnP Controls</a></li>
-</ul>
 <h2 id="debug-in-browser">Debug in browser<a class="headerlink" href="#debug-in-browser" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>gulp serve
 </pre></div>
@@ -2186,7 +2164,7 @@ git commit -m &quot;init repo&quot;
 <span class="p">}</span>
 </pre></div>
 
-<p>Or by using the "locale" command argument</p>
+<p>or by using the "locale" command argument</p>
 <div class="codehilite"><pre><span></span>gulp serve --locale=de-de
 </pre></div>
 
