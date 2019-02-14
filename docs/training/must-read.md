@@ -7,6 +7,8 @@
 ## SPFx
 
 - [FutureofSPDev-SPFxExtensions.pptx](../assets/FutureofSPDev-SPFxExtensions.pptx)
+- [PnP Controls](https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls)
+
 
 ## Office Fabric
 

@@ -94,10 +94,17 @@ pnpm i tslint@5.9.1 -DE
 pnpm i typescript@2.4.2 -DE
 ```
 
-Init and add Files to repo
+## Git Basics
+
+Init local repo
 
 ```bs
 git init
+```
+
+Add all Files to local repo
+
+```bs
 git add -A
 git commit -m "init repo"
 ```
@@ -145,18 +152,6 @@ gulp bundle --ship
 ```bs
 gulp package-solution --ship
 ```
-
-## Manuel Upload Solution Deployment
-
-- Upload the solution file "packagename.sppkg" from "/sharepoint/solution" to the App Catalog.
-- Go to either a modern Communication or Team Site.
-- Go to "Site contents" and add new "App"
-- Select "packagename" and wait for it to be installed
-- Go to the front page, edit the page and add the webpart
-
-## Learning SPFx
-
-- [PnP Controls](https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls)
 
 ## Debug in browser
 
@@ -241,7 +236,7 @@ npm install @pnp/spfx-property-controls@latest --save --save-exact
 }
 ```
 
-Or by using the "locale" command argument
+or by using the "locale" command argument
 
 ```bs
 gulp serve --locale=de-de
