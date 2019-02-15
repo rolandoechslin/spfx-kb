@@ -115,6 +115,8 @@ Show last commit
 git show --name-only
 ```
 
+- [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/)
+
 ## Development(local workbench)
 
 ```bs
