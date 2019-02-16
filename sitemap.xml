@@ -252,6 +252,12 @@
     </url>
         
     <url>
+     <loc>/spfx/teams-adoption/</loc>
+     <lastmod>2019-02-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/spfx/theme/</loc>
      <lastmod>2019-02-16</lastmod>
      <changefreq>daily</changefreq>
