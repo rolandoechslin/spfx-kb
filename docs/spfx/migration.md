@@ -4,6 +4,8 @@
 - [SharePoint Migration Infographic](https://joannecklein.com/2019/02/10/sharepoint-migration-infographic/)
 - [Cloud Migration](https://resources.techcommunity.microsoft.com/cloud-migration/)
 
+![Anatomy of a sharepoint migration](https://joannecklein.com/wp-content/uploads/2019/02/SharePoint-Migration-Infographic-1.png)
+
 ## Showcase
 
 - [Learn how Microsoft ran its own migration](https://msdn.microsoft.com/en-us/library/mt668814.aspx)
@@ -16,3 +18,4 @@
 ## Permission
 
 - [Leave Those SharePoint Permissions for Office 365 Groups Alone](https://www.petri.com/leave-sharepoint-permissions-office-365-groups-alone?utm_source=rss&utm_medium=rss&utm_campaign=leave-sharepoint-permissions-office-365-groups-alone)
+
