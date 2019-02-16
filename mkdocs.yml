@@ -46,6 +46,7 @@ pages:
         - Typescript: spfx/typescript.md
         - Testing: spfx/testing.md
         - Teams: spfx/teams.md
+        - Teams-Adoption: spfx/teams-adoption.md
         - Theme: spfx/theme.md
         - Toolchain: spfx/toolchain.md
         - Userprofile: spfx/userprofile.md
