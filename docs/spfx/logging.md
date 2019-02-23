@@ -30,3 +30,4 @@ Logging with @pnp/logging
 
 - [Add Azure App Insights or Google Analytics to your SharePoint pages with an SPFx Application Customizer](https://www.sharepointnutsandbolts.com/2017/08/SPFx-App-Insights.html)
 - [Use Azure App Insights to track events in your app/web part/provisioning code](https://www.sharepointnutsandbolts.com/2017/09/App-Insights-for-SPFx-and-provisioning.html)
+- [Deploy Application Insights globally on modern SharePoint](https://sharepoint.handsontek.net/2019/02/23/deploy-application-insights-globally-on-modern-sharepoint/)
