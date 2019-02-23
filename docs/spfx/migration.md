@@ -19,3 +19,6 @@
 
 - [Leave Those SharePoint Permissions for Office 365 Groups Alone](https://www.petri.com/leave-sharepoint-permissions-office-365-groups-alone?utm_source=rss&utm_medium=rss&utm_campaign=leave-sharepoint-permissions-office-365-groups-alone)
 
+## WSP Repackage
+
+- [SharePoint WSP Repackage](https://github.com/joaoferreira/sharepoint-wsp-repackage)
