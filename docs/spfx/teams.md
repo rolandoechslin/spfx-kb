@@ -67,3 +67,7 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 ## Governance with teams
 
 - [Automate governance in Microsoft Teams: Context and Goals](https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-context-and-goals/)
+- [Automate governance in Microsoft Teams: The Result](https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-the-result/)
+- [Automate governance in Microsoft Teams: Implementation, v1
+- 
+- ](https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-implementation-v1/)
