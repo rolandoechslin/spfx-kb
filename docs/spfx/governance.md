@@ -5,6 +5,12 @@
 - [How to implement SharePoint Governance](https://sharepointmaven.com/implement-sharepoint-governance)
 - [overview-best-practices-for-managing-how-people-use-your-team-site](https://support.office.com/en-us/article/overview-best-practices-for-managing-how-people-use-your-team-site-95e83c3d-e1b0-4aae-9d08-e94dcaa4942e#__toc259623125)
 
+## Information Architecture
+
+- [One Size Does Not Fit All](https://tahoeninjas.blog/2019/02/18/information-architecture-in-sharepoint-one-size-does-not-fit-all/)
+- [3 Dimensions of IA](https://tahoeninjas.blog/2019/02/20/information-architecture-in-sharepoint-3-dimensions-of-ia/)
+- [The Logical Dimension](https://tahoeninjas.blog/2019/02/22/information-architecture-in-sharepoint-the-logical-dimension/)
+
 ## Content Type
 
 - [Content Type Benefits in Modern SharePoint](https://www.valointranet.com/blog/general/content-type-benefits-in-modern-sharepoint)

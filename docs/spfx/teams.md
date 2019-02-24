@@ -62,4 +62,8 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 
 ## Blogs
 
-- <http://drewmadelung.com/tag/teams/>
+- [http://drewmadelung.com](http://drewmadelung.com/tag/teams)
+
+## Governance with teams
+
+- [Automate governance in Microsoft Teams: Context and Goals](https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-context-and-goals/)
