@@ -19,6 +19,7 @@
 - [Export and import your flows across environments with packaging](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/)
 
 ## Samples
+
 - <https://github.com/johnnliu/flow>
 - [Demo - Using Microsoft Flow to send monthly emails](https://youtu.be/NsJJYIaRbfw?t=513)
 - <http://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow>
@@ -30,6 +31,10 @@
 ## Error Messages
 
 - [SharePoint / Microsoft Flow – Common error message when using Send an HTTP request to SharePoint action in Microsoft Flow](https://veenstra.me.uk/2018/08/30/sharepoint-microsoft-flow-common-error-message-when-using-send-an-http-request-to-sharepoint-action-in-microsoft-flow)
+
+## Handling JSON in Flow
+
+- [Handling JSON in Microsoft Flow](https://spmaestro.com/handling-json-in-microsoft-flow/)
 
 ## Disable Flow
 
