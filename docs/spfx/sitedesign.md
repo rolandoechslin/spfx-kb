@@ -16,3 +16,7 @@
 - [Provisioning complex Modern Sites with Azure Functions and Flow – Part 3 – Post Provisioning Site Configuration](https://asishpadhy.com/2018/10/02/provisioning-complex-modern-sites-with-azure-functions-and-flow-part-3-post-provisioning-site-configuration/)
 ![modernsitesprovisioningflow](https://asishpadhyblog.files.wordpress.com/2018/08/modernsitesprovisioningflow_provisioningprocess.png?w=1024&h=733&crop=1)
 - [Building SharePoint Site Designs with Themes and Azure Functions](https://bob1german.com/2018/07/31/building-sharepoint-site-designs-with-themes-and-azure-functions)
+
+## Sample
+
+- [Modern SharePoint site creation with site designs and REST](https://simonagren.github.io/sites-sitedesign-rest/)

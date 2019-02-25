@@ -10,6 +10,7 @@
 - [One Size Does Not Fit All](https://tahoeninjas.blog/2019/02/18/information-architecture-in-sharepoint-one-size-does-not-fit-all/)
 - [3 Dimensions of IA](https://tahoeninjas.blog/2019/02/20/information-architecture-in-sharepoint-3-dimensions-of-ia/)
 - [The Logical Dimension](https://tahoeninjas.blog/2019/02/22/information-architecture-in-sharepoint-the-logical-dimension/)
+- [The Metadata Dimension](https://tahoeninjas.blog/2019/02/24/information-architecture-in-sharepoint-the-metadata-dimension/)
 
 ## Content Type
 
