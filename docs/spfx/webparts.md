@@ -67,6 +67,7 @@
 - [SPFX Image Gallery with filtering](https://www.ejazhussain.com/2019/02/08/spfx-image-gallery/)
 - [React Flow Diagram Web Parts](https://github.com/hugoabernier/react-diagram-webparts)
 - [Fabric UI React GroupedLists inside Pivot Tabs](https://spmaestro.com/fabric-ui-react-groupedlists-inside-pivot-tabs/)
+- [React Tree Organization Web Part](https://github.com/joaojmendes/React-Tree-Organization-Chart)
 
 ## Terms Sets
 
