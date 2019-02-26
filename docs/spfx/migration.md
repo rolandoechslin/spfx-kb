@@ -22,3 +22,7 @@
 ## WSP Repackage
 
 - [SharePoint WSP Repackage](https://github.com/joaoferreira/sharepoint-wsp-repackage)
+
+## Tipps
+
+- [SharePoint Migration: Mind the URL Length](https://tahoeninjas.blog/2019/02/25/sharepoint-migration-mind-the-url-length/)
