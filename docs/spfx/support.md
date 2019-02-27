@@ -56,3 +56,7 @@
 
 - [Don't allow embedding scripts on modern sites](https://blog.mastykarz.nl/dont-allow-embedding-scripts-modern-sites/)
 - [Advice on using unsupported customisations (and more) in a SharePoint Online environment](https://medium.com/@Lumpie/graffiti-guidance-e0eb520a5392)
+
+## Followed Sites
+
+- [Social Following Sites on behalf of a user](https://julieturner.net/2019/02/curate-the-news-social-following-sites-on-behalf-of-a-user/)
