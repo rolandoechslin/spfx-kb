@@ -7,6 +7,7 @@
 
 ## Information Architecture
 
+- [Information architecture in modern SharePoint](https://docs.microsoft.com/en-us/sharepoint/information-architecture-modern-experience)
 - [One Size Does Not Fit All](https://tahoeninjas.blog/2019/02/18/information-architecture-in-sharepoint-one-size-does-not-fit-all/)
 - [3 Dimensions of IA](https://tahoeninjas.blog/2019/02/20/information-architecture-in-sharepoint-3-dimensions-of-ia/)
 - [The Logical Dimension](https://tahoeninjas.blog/2019/02/22/information-architecture-in-sharepoint-the-logical-dimension/)
