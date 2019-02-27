@@ -43,6 +43,10 @@
 - [Add Google Analytics to SharePoint modern pages](https://joelfmrodrigues.wordpress.com/2019/01/10/add-google-analytics-to-sharepoint-modern-pages/)
 - [Whitespace – Regain distraction-free working in SharePoint](https://n8d.at/blog/whitespace-regain-distraction-free-working-in-sharepoint/?utm_content=bufferd23ab&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
+## SPA
+
+- [Single Page App In SharePoint Using React](https://www.c-sharpcorner.com/article/single-page-app-in-sharepoint/)
+
 ## Navigations
 
 - [Handling navigation in a SharePoint Framework application customizer](https://www.eliostruyf.com/handling-navigation-in-a-sharepoint-framework-application-customizer)
