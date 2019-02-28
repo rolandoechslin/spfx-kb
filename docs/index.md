@@ -197,10 +197,21 @@ gulp serve --nobrowser
 
 - <https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/>
 
-### Fix version
+## Update Version
 
-- edit version in package.json -> same as in package-solution.json
-  - to "version": "1.0.0",
+- [Use `npm version` to upgrade the version of your SPFx solution](https://n8d.at/blog/use-npm-version-to-upgrade-version-of-your-spfx-solution)
+
+```powershell
+npm version major
+```
+
+```powershell
+npm version minor
+```
+
+```powershell
+npm version patch
+```
 
 ### Add importend pnp modules
 
