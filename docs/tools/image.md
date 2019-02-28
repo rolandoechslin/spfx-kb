@@ -23,3 +23,9 @@
 - http://gifmaker.me/
 - https://www.base64-image.de/
 - https://shields.io
+
+## Image File Types
+
+![Image](
+https://4.bp.blogspot.com/-Z_RhViocmv8/XHPSPPKNvJI/AAAAAAAAC24/CersgUH2AOQBzT22ztg0tYTRwYDWYuQgQCKgBGAs/s0/image-file-types-decoded-infographic.jpg
+)

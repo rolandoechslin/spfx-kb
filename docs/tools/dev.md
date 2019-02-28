@@ -52,6 +52,17 @@
 - [postman-and-office-365](https://www.helloitsliam.com/2016/02/04/postman-and-office-365)
 - [SharePoint REST API Metadata Explorer](https://s-kainet.github.io/sp-rest-explorer)
 
+Testing in chrome console
+
+```ts
+fetch(`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$select=Id,Title,gwRequestSiteAlias&$orderby=Id desc`, {
+    headers: {
+        Accept: 'application/json;odata=verbose;'
+    }
+})
+```
+
+
 ## Change Log
 
 - [keepachangelog](http://keepachangelog.com/en/1.0.0)
