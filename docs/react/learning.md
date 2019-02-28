@@ -61,3 +61,7 @@
 ## Tutorials
 
 - [React & Redux Tutorial - Build a Hacker News Clone](https://gitconnected.com/courses/learn-react-redux-tutorial-build-a-hacker-news-clone)
+
+## Multi Step Form
+
+- [React Wizard Form](https://css-tricks.com/the-magic-of-react-based-multi-step-forms/)

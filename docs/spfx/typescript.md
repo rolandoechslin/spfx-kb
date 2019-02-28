@@ -2,9 +2,10 @@
 
 ## Reference
 
-- https://learnxinyminutes.com/docs/typescript/ 
-- http://www.typescriptlang.org/docs/handbook/basic-types.html
-- https://basarat.gitbooks.io/typescript/content/docs/why-typescript.html
+- [TypeScript Cheatsheet](https://github.com/rmolinamir/typescript-cheatsheet)
+- [Learn X in Y minutes](https://learnxinyminutes.com/docs/typescript/)
+- [TypeScript Handbook](http://www.typescriptlang.org/docs/handbook/basic-types.html)
+- [Why TypeScript](https://basarat.gitbooks.io/typescript/content/docs/why-typescript.html)
 
 - [pluralsight typescript course](https://app.pluralsight.com/player?course=typescript&author=dan-wahlin&name=typescript-m1&clip=4&mode=live)
 - https://github.com/Microsoft/TypeScript/wiki
