@@ -1704,6 +1704,14 @@
 <li><a href="https://www.helloitsliam.com/2016/02/04/postman-and-office-365">postman-and-office-365</a></li>
 <li><a href="https://s-kainet.github.io/sp-rest-explorer">SharePoint REST API Metadata Explorer</a></li>
 </ul>
+<p>Testing in chrome console</p>
+<div class="codehilite"><pre><span></span><span class="nx">fetch</span><span class="p">(</span><span class="sb">`/sites/gridworks/_api/web/lists/getbytitle(&#39;SiteRequestsQueue&#39;)/items?$select=Id,Title,gwRequestSiteAlias&amp;$orderby=Id desc`</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nx">headers</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">Accept</span><span class="o">:</span> <span class="s1">&#39;application/json;odata=verbose;&#39;</span>
+    <span class="p">}</span>
+<span class="p">})</span>
+</pre></div>
+
 <h2 id="change-log">Change Log<a class="headerlink" href="#change-log" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="http://keepachangelog.com/en/1.0.0">keepachangelog</a></li>
