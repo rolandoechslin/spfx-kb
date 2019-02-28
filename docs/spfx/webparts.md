@@ -119,4 +119,9 @@
 
 ## Package bundling
 
- - [Video Dynamic SPFx Package Bundling](http://warner.digital/dynamic-spfx-package-bundling)
+- [Video Dynamic SPFx Package Bundling](http://warner.digital/dynamic-spfx-package-bundling)
+
+## Redirecting
+
+- [SPFx Anchor Tags](https://julieturner.net/2018/08/spfx-anchor-tags-hitting-the-target/)
+- [Navigating to other pages in SharePoint Framework from code](https://www.eliostruyf.com/navigating-to-other-pages-in-sharepoint-framework-from-code)
