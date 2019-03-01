@@ -120,6 +120,7 @@ git show --name-only
 ```
 
 - [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/)
+- [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 
 ## Development(local workbench)
 
