@@ -1709,7 +1709,11 @@
     <span class="nx">headers</span><span class="o">:</span> <span class="p">{</span>
         <span class="nx">Accept</span><span class="o">:</span> <span class="s1">&#39;application/json;odata=verbose;&#39;</span>
     <span class="p">}</span>
-<span class="p">})</span>
+<span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">json</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">json</span><span class="p">.</span><span class="nx">d</span><span class="p">.</span><span class="nx">results</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">item</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`item: </span><span class="si">${</span><span class="nx">item</span><span class="p">.</span><span class="nx">Title</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+    <span class="p">});</span>
+<span class="p">}));</span>
 </pre></div>
 
 <h2 id="change-log">Change Log<a class="headerlink" href="#change-log" title="Permanent link">&para;</a></h2>
