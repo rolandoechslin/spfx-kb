@@ -69,6 +69,10 @@ spo serviceprincipal grant add --resource 'Microsoft Graph' --scope 'Mail.Read'
 - [Design patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
 - [React inpatterns](https://krasimir.gitbooks.io/react-in-patterns/)
 
+## SPFX Workflow
+
+- [Walkthrough: use Azure DevOps with SPFx, GitFlow and GitVersion](http://thecollaborationcorner.com/2019/02/28/azure-devops-with-spfx-gitflow-gitversion/)
+
 ## SharePoint PNP Community
 
 - [SharePoint PnP resources](https://docs.microsoft.com/en-us/sharepoint/dev/community/community)
