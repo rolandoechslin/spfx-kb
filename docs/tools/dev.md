@@ -59,7 +59,11 @@ fetch(`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$se
     headers: {
         Accept: 'application/json;odata=verbose;'
     }
-})
+}).then(res => res.json().then(json => {
+    json.d.results.forEach(item => {
+        console.log(`item: ${item.Title}`);
+    });
+}));
 ```
 
 
