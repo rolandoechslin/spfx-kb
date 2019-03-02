@@ -98,6 +98,17 @@ pnpm i tslint@5.9.1 -DE
 pnpm i typescript@2.4.2 -DE
 ```
 
+## Check Package Version
+
+```bs
+node –v
+npm –v
+yo --generators
+gulp –v
+tsc –v
+tsd --version
+```
+
 ## Git Basics
 
 Init local repo

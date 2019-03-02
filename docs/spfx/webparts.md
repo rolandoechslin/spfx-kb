@@ -68,6 +68,7 @@
 - [React Flow Diagram Web Parts](https://github.com/hugoabernier/react-diagram-webparts)
 - [Fabric UI React GroupedLists inside Pivot Tabs](https://spmaestro.com/fabric-ui-react-groupedlists-inside-pivot-tabs/)
 - [React Tree Organization Web Part](https://github.com/joaojmendes/React-Tree-Organization-Chart)
+- [react-display-hierarchy](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-display-hierarchy)
 
 ## Terms Sets
 
