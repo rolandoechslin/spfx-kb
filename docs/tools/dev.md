@@ -84,23 +84,23 @@ fetch(`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$se
 
 ## ULS
 
-- <https://sharepointring.com/>
+- [sharepointring](https://sharepointring.com)
 
 ## VS.Code Extensions
 
-- <https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint>
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Introducing SharePoint Typed Item](https://spblog.net/post/2019/02/28/introducing-sharepoint-typed-item-visual-studio-code-extension)
 
 ## CLI App Generator
 
-- <https://github.com/koltyakov/generator-sppp>
-- <http://blog.arvosys.com/2017/10/04/sharepoint-front-end-projects-automation-and-tasks-tool-belt/index.html>
+- [generator-sppp](https://github.com/koltyakov/generator-sppp)
+- [SharePoint front-end projects automation and tasks tool-belt](http://blog.arvosys.com/2017/10/04/sharepoint-front-end-projects-automation-and-tasks-tool-belt/index.html)
 - https://github.com/facebook/create-react-app
 - <https://github.com/StfBauer/generator-simplestyle>
 
 ## Fabric Icons
 
 - [Render Office Fabric UI Icons into Canvas](https://codepen.io/joshmcrty/pen/GOBWeV)
-
 - <https://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon>
 - <https://developer.microsoft.com/en-us/fabric#/styles/icons>
 
