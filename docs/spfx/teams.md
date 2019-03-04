@@ -71,3 +71,7 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 - [Automate governance in Microsoft Teams: The Result](https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-the-result/)
 - [Automate governance in Microsoft Teams: Implementation, v1](https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-implementation-v1/)
 - [Automate governance in Microsoft Teams: Implementation, v2](https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-implementation-v2/)
+
+## DevOps
+
+- [Create Azure DevOps pipelines for a Microsoft Teams app built with SPFx](https://www.vrdmn.com/2019/03/create-azure-devops-build-and-release.html)
