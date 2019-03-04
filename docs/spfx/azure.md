@@ -9,10 +9,14 @@
 - [Use Azure KeyVault Secrets when accessing Microsoft Graph](https://mmsharepoint.wordpress.com/2018/11/14/secure-azure-functions-part-1-use-azure-keyvault-secrets-when-accessing-microsoft-graph/)
 - [Handle certificates with Azure KeyVault when accessing SharePoint Online](https://mmsharepoint.wordpress.com/2019/01/11/secure-azure-functions-part-2-handle-certificates-with-azure-keyvault-when-accessing-sharepoint-online/)
 
-## Azure Functions
+## Azure-Automation
 
 - [SharePoint Online PnP PowerShell Provisioning using Flow and Azure Automation](https://spmaestro.com/sharepoint-pnp-provisioning-using-flow-and-azure-automation/)
 - [Using Azure Automation for Modern SharePoint Site Provisioning](http://www.avtex.com/2018/06/azure-automation-provisioning)
+- [Fun with Azure Automation and Table Service REST API](https://www.cgoosen.com/2018/02/fun-with-azure-automation-and-table-service-rest-api/)
+
+## Azure-Functions
+
 - [An Azure Function to keep other Functions/URLs warmed up](https://www.sharepointnutsandbolts.com/2018/09/Azure-Function-Warmup-Cold-Start.html)
 - [3 ways to create and debug Azure Functions – CLI, VS Code and Visual Studio](https://www.sharepointnutsandbolts.com/2018/10/Azure-Functions-Visual-Studio-Code-CLI.html)
 
