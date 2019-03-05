@@ -62,6 +62,8 @@
 - [Useful PowerShell cmdlets to administer Office 365 Groups – Part 1](https://blog.hubfly.com/office-365/useful-powershell-cmdlets-to-administer-office-365-groups-part-1)
 - [Useful PowerShell cmdlets to administer Office 365 Groups – Part 2](https://blog.hubfly.com/office-365/useful-powershell-cmdlets-to-administer-office-365-groups-part-2)
 - [THR2131 - Three PowerShell reports every Office 365 admin needs to have](https://github.com/vladcatrinescu/Ignite-2018/tree/master/THR2131)
+- [Manage your SharePoint Team Sites to Excel](http://sharepoint-tricks.com/manage-your-sharepoint-team-sites/)
+- [Extract information of Communication sites to Excel](http://sharepoint-tricks.com/extract-communication-sites-to-excel/)
 
 ## AD Mistakes
 
