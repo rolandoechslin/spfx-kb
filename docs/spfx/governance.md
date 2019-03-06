@@ -38,7 +38,7 @@
 
 - [ADVANTAGES OF A FLAT SHAREPOINT SITE ARCHITECTURE](https://joannecklein.com/2017/11/03/sharepoint-site-collection-advantages)
 
-## Tipps Creating Sites
+## Tips Creating Sites
 
 - [Exploring creating SharePoint TeamSites using SiteDesign and the REST API](https://www.mcd79.com/2018/07/21/exploring-creating-sharepoint-teamsites-using-sitedesign-and-the-rest-api.html)
 - [Balancing Self-Service with Governance and Control in Office 365](http://bostonmusicdave.com/balancing-self-service-with-governance-and-control-in-office-365/)
@@ -70,3 +70,9 @@
 - [Most Common Mistakes in Active Directory and Domain Services – Part 1](https://blogs.technet.microsoft.com/meamcs/2018/12/31/most-common-mistakes-in-active-directory-and-domain-services-part-1/)
 - [Most Common Mistakes in Active Directory and Domain Services – Part 2](https://blogs.technet.microsoft.com/meamcs/2019/01/08/most-common-mistakes-in-active-directory-and-domain-services-part-2/)
 - [Most Common Mistakes in Active Directory and Domain Services - Part 3](https://blogs.technet.microsoft.com/meamcs/2019/01/27/most-common-mistakes-in-active-directory-and-domain-services-part-3)
+
+## Handling Teams and Groups
+
+- [Governance and consciousness around handling Teams and Groups](https://www.techmikael.com/2019/03/governance-and-consciousness-around.html)
+- [Three reasons why you should take control of Office 365 Groups creation](https://www.techmikael.com/2017/05/three-reasons-why-you-should-take.html)
+- [Automating Office 365 Groups Lifecycle/Expiration management](https://www.techmikael.com/2018/01/automating-office-365-groups.html)
