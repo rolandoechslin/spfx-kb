@@ -2492,7 +2492,7 @@
         },
         {
             "location": "/security/learning/",
-            "text": "Security\n\u00b6\n\n\nRessources\n\u00b6\n\n\n\n\nhttps://www.owasp.org\n\n\nhttps://danielmiessler.com/projects/webappsec_testing_resources/\n\n\n\n\nChecklist\n\u00b6\n\n\n\n\nhttps://www.owasp.org/index.php/Testing_Checklist\n\n\nhttps://portswigger.net/kb/issues\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://secapps.com/appbandit\n\n\n\n\nFirewall\n\u00b6\n\n\n\n\nhttps://blogs.msdn.microsoft.com/mvpawardprogram/2018/05/15/powershell-windows-firewall/\n\n\n\n\nOffice 365\n\u00b6\n\n\n\n\nhttps://resources.techcommunity.microsoft.com/security-compliance-and-administration/\n\n\nhttps://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/Idle-Session-Timeout-Policy-in-SharePoint-Online-amp-OneDrive-is/ba-p/211274\n\n\nhttps://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions\n\n\n\n\nFile\n\u00b6\n\n\n\n\nhttps://sharepointmaven.com/6-locations-can-set-security-files-sharepoint-office-365\n\n\n\n\nSPFx Tooling\n\u00b6\n\n\n\n\nhttps://www.helloitsliam.com/2018/07/04/security-scanning-a-sharepoint-framework-solution/\n\n\nhttps://rencore.com/blog/is-javascript-safe-for-sharepoint/",
+            "text": "Security\n\u00b6\n\n\nRessources\n\u00b6\n\n\n\n\nhttps://www.owasp.org\n\n\nhttps://danielmiessler.com/projects/webappsec_testing_resources/\n\n\n\n\nChecklist\n\u00b6\n\n\n\n\nhttps://www.owasp.org/index.php/Testing_Checklist\n\n\nhttps://portswigger.net/kb/issues\n\n\n\n\nPassword Check\n\u00b6\n\n\n\n\nhaveibeenpwned\n\n\nIs someone spying on you?\n\n\n\n\nTools\n\u00b6\n\n\n\n\nhttps://secapps.com/appbandit\n\n\n\n\nFirewall\n\u00b6\n\n\n\n\nhttps://blogs.msdn.microsoft.com/mvpawardprogram/2018/05/15/powershell-windows-firewall/\n\n\n\n\nOffice 365\n\u00b6\n\n\n\n\nhttps://resources.techcommunity.microsoft.com/security-compliance-and-administration/\n\n\nhttps://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/Idle-Session-Timeout-Policy-in-SharePoint-Online-amp-OneDrive-is/ba-p/211274\n\n\nhttps://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions\n\n\n\n\nFile\n\u00b6\n\n\n\n\nhttps://sharepointmaven.com/6-locations-can-set-security-files-sharepoint-office-365\n\n\n\n\nSPFx Tooling\n\u00b6\n\n\n\n\nhttps://www.helloitsliam.com/2018/07/04/security-scanning-a-sharepoint-framework-solution/\n\n\nhttps://rencore.com/blog/is-javascript-safe-for-sharepoint/",
             "title": "Learning"
         },
         {
@@ -2509,6 +2509,11 @@
             "location": "/security/learning/#checklist",
             "text": "https://www.owasp.org/index.php/Testing_Checklist  https://portswigger.net/kb/issues",
             "title": "Checklist"
+        },
+        {
+            "location": "/security/learning/#password-check",
+            "text": "haveibeenpwned  Is someone spying on you?",
+            "title": "Password Check"
         },
         {
             "location": "/security/learning/#tools",
