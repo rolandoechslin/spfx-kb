@@ -10,6 +10,11 @@
 - <https://www.owasp.org/index.php/Testing_Checklist>
 - <https://portswigger.net/kb/issues>
 
+## Password Check
+
+- [haveibeenpwned](https://haveibeenpwned.com/)
+- [Is someone spying on you?](https://sec.hpi.uni-potsdam.de/ilc/search?)
+
 ## Tools
 
 - <https://secapps.com/appbandit>
