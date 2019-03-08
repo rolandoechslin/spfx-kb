@@ -23,7 +23,13 @@
 - https://de.slideshare.net/sharePTkarm/how-to-automate-the-sharepoint-provisioning
 - <https://de.slideshare.net/DIWUG/spsnl17-be-more-effective-with-the-pnp-provisioning-engine-erwin-van-hunen>
 
+## Export multiple pages
+
+- [Create a modern SharePoint site template with multiple pages using PnP provisioning engine](https://sharepoint.handsontek.net/2018/02/04/create-a-modern-sharepoint-site-template-with-multiple-pages-using-the-pnp-provisioning-engine/)
+- [Exporting PnP Site Templates Including Modern Pages](https://www.youtube.com/watch?v=xXhf3Eb4ras)
+
 ## Convert PnP Files
+
 - <https://github.com/Puzzlepart/prosjektportalen-program/tree/dev/.scripts>
 - <https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps>
 
