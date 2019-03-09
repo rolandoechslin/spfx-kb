@@ -86,29 +86,14 @@ fetch(`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$se
 
 - [sharepointring](https://sharepointring.com)
 
-## VS.Code Extensions
+## VS.Code
+
+### VS.Code Extensions
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [Introducing SharePoint Typed Item](https://spblog.net/post/2019/02/28/introducing-sharepoint-typed-item-visual-studio-code-extension)
 
-## CLI App Generator
-
-- [generator-sppp](https://github.com/koltyakov/generator-sppp)
-- [SharePoint front-end projects automation and tasks tool-belt](http://blog.arvosys.com/2017/10/04/sharepoint-front-end-projects-automation-and-tasks-tool-belt/index.html)
-- https://github.com/facebook/create-react-app
-- <https://github.com/StfBauer/generator-simplestyle>
-
-## Fabric Icons
-
-- [Render Office Fabric UI Icons into Canvas](https://codepen.io/joshmcrty/pen/GOBWeV)
-- <https://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon>
-- <https://developer.microsoft.com/en-us/fabric#/styles/icons>
-
-## Favicons
-
-- [favicon-generator](https://www.favicon-generator.org/)
-
-## Remove git integrations from VSCode
+### Remove git integrations from VSCode
 
 settings.json
 
@@ -126,4 +111,26 @@ settings.json
 // Whether auto fetching is enabled.
 "git.autofetch": false,
 ```
+
 Info: https://stackoverflow.com/questions/30331338/remove-git-integrations-from-vscode
+
+### Exclude Folders from VS.Code
+
+- [How can I exclude a directory from Visual Studio Code 'Explore' tab](https://stackoverflow.com/questions/33258543/how-can-i-exclude-a-directory-from-visual-studio-code-explore-tab)
+
+## CLI App Generator
+
+- [generator-sppp](https://github.com/koltyakov/generator-sppp)
+- [SharePoint front-end projects automation and tasks tool-belt](http://blog.arvosys.com/2017/10/04/sharepoint-front-end-projects-automation-and-tasks-tool-belt/index.html)
+- https://github.com/facebook/create-react-app
+- <https://github.com/StfBauer/generator-simplestyle>
+
+## Fabric Icons
+
+- [Render Office Fabric UI Icons into Canvas](https://codepen.io/joshmcrty/pen/GOBWeV)
+- <https://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon>
+- <https://developer.microsoft.com/en-us/fabric#/styles/icons>
+
+## Favicons
+
+- [favicon-generator](https://www.favicon-generator.org/)
