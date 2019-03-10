@@ -3,6 +3,7 @@
 ## Azure DevOps / Azure Pipline
 
 - [Setting up Azure DevOps Pipelines for SharePoint Framework solutions](https://youtu.be/GqmbRpiTBXg?t=2278)
+- [Setting up multiple environments with your DevOps pipeline](https://www.youtube.com/watch?v=8gQFUQzDzSs)
 - [Implement Continuous Integration and Continuous deployment using Azure DevOps](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/implement-ci-cd-with-azure-devops)
 - [Managing projects in a modern world (Part 1)](https://ionallthethings.wordpress.com/2019/02/22/managing-projects-in-a-modern-world-part-1/)
 - [Walkthrough: use Azure DevOps with SPFx, GitFlow and GitVersion](http://thecollaborationcorner.com/2019/02/28/azure-devops-with-spfx-gitflow-gitversion/)
