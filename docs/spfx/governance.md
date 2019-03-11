@@ -18,6 +18,10 @@
 
 - [Content Type Benefits in Modern SharePoint](https://www.valointranet.com/blog/general/content-type-benefits-in-modern-sharepoint)
 - [CHOICE, LOOKUP OR MANAGED METADATA?](https://joannecklein.com/2016/06/21/choice-lookup-or-managed-metadata/)
+- [BUILD TARGETED TRAINING ON OFFICE 365 ADOPTION CENTER](https://joannecklein.com/2017/12/13/targeted-training-on-office-365-adoption-center-build)
+- [BUILD A MODERN COMPANY LOCATIONS PAGE IN MINUTES](https://joannecklein.com/2018/06/26/build-a-modern-company-locations-page-in-minutes)
+- [CONTENT TYPE FILTERS IN MODERN SHAREPOINT](https://joannecklein.com/2018/09/12/content-type-filters-in-modern-sharepoint)
+- [MULTIPLE LIBRARIES, FOLDERS OR METADATA](https://joannecklein.com/2017/03/22/multiple-libraries-folders-or-metadata)
 
 ## Permission
 
