@@ -32,7 +32,6 @@
 
 ![CSS Box Modell](../assets/images/css-boxing-model.png)
 
-
 ## CSS Specificiation
 
 - [Specificity Calculator](https://specificity.keegan.st)
@@ -49,6 +48,7 @@
 
 ## Testing
 
+- [Panthema web part](https://n8d.at/blog/panthema-web-part-is-now-release-know-your-sharepoint-theme-colours/)
 - [How to test SPFx web part theming](https://n8d.at/blog/how-to-test-spfx-web-part-theming)
 
 ## Debug
