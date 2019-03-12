@@ -41,6 +41,7 @@
 
 ## Tools
 
+- [SPFxThemeWiz](https://github.com/spcph/SPFxThemeWiz)
 - https://codepen.io/pen/
 - https://caniuse.com
 - https://jigsaw.w3.org/css-validator/
