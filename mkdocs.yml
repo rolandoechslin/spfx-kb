@@ -32,6 +32,7 @@ pages:
         - JS: spfx/js.md
         - Listitem: spfx/listitem.md
         - Logging: spfx/logging.md
+        - MUI: spfx/mui.md
         - Network: spfx/network.md
         - Patterns: spfx/patterns.md
         - Provisioning: spfx/provisioning.md

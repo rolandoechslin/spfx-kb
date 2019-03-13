@@ -69,6 +69,7 @@
 - [Fabric UI React GroupedLists inside Pivot Tabs](https://spmaestro.com/fabric-ui-react-groupedlists-inside-pivot-tabs/)
 - [React Tree Organization Web Part](https://github.com/joaojmendes/React-Tree-Organization-Chart)
 - [react-display-hierarchy](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-display-hierarchy)
+- [react-cs-images-suggestion: a SPFX sample webpart using Azure Cognitive Services](http://www.federicoporceddu.com/2019/03/10/react-ai-images-suggestion-a-spfx-sample-webpart-using-azure-cognitive-services/)
 
 ## Terms Sets
 
