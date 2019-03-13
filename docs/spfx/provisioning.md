@@ -10,10 +10,6 @@
 
 - [Walkthrough of Site Provisioning process using PnP PowerShell](https://asishpadhy.com/2018/11/09/walkthrough-of-pnp-provisioning-process-using-powershell/)
 
-## Langugae
-
-- <https://www.eliostruyf.com/demystifying-the-mystery-behind-the-ui-language-in-sharepoint>
-
 ## Links
 
 - <https://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html>
