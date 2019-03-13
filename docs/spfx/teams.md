@@ -76,3 +76,8 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 ## DevOps
 
 - [Create Azure DevOps pipelines for a Microsoft Teams app built with SPFx](https://www.vrdmn.com/2019/03/create-azure-devops-build-and-release.html)
+
+## Provisioning with Template
+
+- [Create Teams with template](https://www.sharepointnutsandbolts.com/2019/03/create-microsoft-teams-from-template.html)
+- [Provisioning Teams with Azure Functions and Microsoft Flow Part 1: Solution Overview](https://bob1german.com/2019/03/12/provisioning-teams-with-azure-functions-and-microsoft-flow-part-1-solution-overview/)
