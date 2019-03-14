@@ -1,5 +1,7 @@
 # Dev Tools
 
+- [Ultimate Developer Tool List for SPFx](https://tahoeninjas.blog/2019/03/14/ultimate-developer-tool-list-for-spfx/)
+
 ## TweetDeck (Twitter)
 
 - [How to filter for SharePoint Framework #SPFx related tweets in TweetDeck](https://github.com/andikrueger/TweetDeckSPFxFilter)
