@@ -53,6 +53,7 @@ pages:
         - Userprofile: spfx/userprofile.md
         - UX: spfx/ux.md
         - Upgrade: spfx/upgrade.md
+        - Versions: spfx/versions.md
         - Webhooks: spfx/webhooks.md
         - Webparts: spfx/webparts.md
     - React:
