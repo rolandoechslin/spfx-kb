@@ -1772,7 +1772,7 @@
         },
         {
             "location": "/spfx/versions/",
-            "text": "SPFx Versions\n\u00b6\n\n\nv1.8\n\u00b6\n\n\n\n\nRelease notes for SharePoint Framework 1.8\n\n\nUsing the full potential of React in SharePoint Framework 1.8.0\n\n\nSPFx 1.8 now supports Office Fabric React 6.156.0\n\n\nSharePoint Framework 1.8 Has Been Released!",
+            "text": "SPFx Versions\n\u00b6\n\n\nv1.8\n\u00b6\n\n\n\n\nRelease notes for SharePoint Framework 1.8\n\n\nUsing the full potential of React in SharePoint Framework 1.8.0\n\n\nSPFx 1.8 now supports Office Fabric React 6.156.0\n\n\nSharePoint Framework 1.8 Has Been Released!\n\n\nCommon Issues in SPFx 1.8.0 with TypeScript 3.3",
             "title": "Versions"
         },
         {
@@ -1782,7 +1782,7 @@
         },
         {
             "location": "/spfx/versions/#v18",
-            "text": "Release notes for SharePoint Framework 1.8  Using the full potential of React in SharePoint Framework 1.8.0  SPFx 1.8 now supports Office Fabric React 6.156.0  SharePoint Framework 1.8 Has Been Released!",
+            "text": "Release notes for SharePoint Framework 1.8  Using the full potential of React in SharePoint Framework 1.8.0  SPFx 1.8 now supports Office Fabric React 6.156.0  SharePoint Framework 1.8 Has Been Released!  Common Issues in SPFx 1.8.0 with TypeScript 3.3",
             "title": "v1.8"
         },
         {
