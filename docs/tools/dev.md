@@ -90,6 +90,22 @@ fetch(`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$se
 
 ## VS.Code
 
+### Command Line
+
+- [Command Line Interface (CLI)](https://code.visualstudio.com/docs/editor/command-line)
+
+open last active window
+
+```ps
+code -r .
+```
+
+open in new window
+
+```ps
+code -n
+```
+
 ### VS.Code Extensions
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
