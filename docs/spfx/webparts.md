@@ -127,3 +127,7 @@
 
 - [SPFx Anchor Tags](https://julieturner.net/2018/08/spfx-anchor-tags-hitting-the-target/)
 - [Navigating to other pages in SharePoint Framework from code](https://www.eliostruyf.com/navigating-to-other-pages-in-sharepoint-framework-from-code)
+
+## Dialog
+
+- [Modal Dialog, show classic SharePoint forms](http://www.sharepointtweaks.com/2019/03/spfx-modal-dialog-show-classic-SharePoint-forms.html)
