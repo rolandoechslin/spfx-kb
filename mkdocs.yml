@@ -33,6 +33,7 @@ pages:
         - Listitem: spfx/listitem.md
         - Logging: spfx/logging.md
         - MUI: spfx/mui.md
+        - Modern-page: spfx/modernpage.md
         - Network: spfx/network.md
         - Patterns: spfx/patterns.md
         - Provisioning: spfx/provisioning.md

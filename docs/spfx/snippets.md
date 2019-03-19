@@ -55,11 +55,3 @@ sp.web.siteUsers.getByLoginName('i:0#.f|membership|john.doe@contoso.onmicrosoft.
 sp.web.siteUsers.getByLoginName('i:0#.f|membership|john.doe@contoso.onmicrosoft.com')
     .update({ IsSiteAdmin: true }).then(console.log);
 ```
-
-### All news pages
-
-- <https://blog.hubfly.com/sharepoint/how-to-read-the-sharepoint-news-using-rest-api-in-spfx>
-
-```ts
-/_api/search/query?querytext='IsDocument:True AND FileExtension:aspx AND PromotedState:2'
-```
