@@ -153,3 +153,7 @@ Info: https://stackoverflow.com/questions/30331338/remove-git-integrations-from-
 ## Favicons
 
 - [favicon-generator](https://www.favicon-generator.org/)
+
+## WebSite Builder
+
+- [weebly.com](https://www.weebly.com)
