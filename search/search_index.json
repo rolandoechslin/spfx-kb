@@ -311,6 +311,26 @@
             "title": "Text Analyse"
         },
         {
+            "location": "/spfx/adaptive-cards/",
+            "text": "Adaptive Cards\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nadaptivecards.io\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nTeamify with Adaptive Cards and Microsoft Flow",
+            "title": "Adaptive-Cards"
+        },
+        {
+            "location": "/spfx/adaptive-cards/#adaptive-cards",
+            "text": "",
+            "title": "Adaptive Cards"
+        },
+        {
+            "location": "/spfx/adaptive-cards/#reference",
+            "text": "adaptivecards.io",
+            "title": "Reference"
+        },
+        {
+            "location": "/spfx/adaptive-cards/#samples",
+            "text": "Teamify with Adaptive Cards and Microsoft Flow",
+            "title": "Samples"
+        },
+        {
             "location": "/spfx/branding/",
             "text": "Branding\n\u00b6\n\n\nDocs\n\u00b6\n\n\n\n\nDesigning great SharePoint experiences\n\n\nCustomizing the \"modern\" experiences in SharePoint Online\n\n\n\n\nCSS\n\u00b6\n\n\n\n\nIgnite 2016 - Customizing and Branding SharePoint Online Team Sites Demos\n\n\nSPTechCon2016-SanFrancisco\n\n\nEinf\u00fcgen von Bildern im RTE steuern\n\n\nHow to use Bootstrap in SharePoint Framework projects\n\n\nSPFx WebParts responsive to Modern Page sections",
             "title": "Branding"
@@ -2322,7 +2342,7 @@
         },
         {
             "location": "/tools/dev/",
-            "text": "Dev Tools\n\u00b6\n\n\n\n\nUltimate Developer Tool List for SPFx\n\n\n\n\nTweetDeck (Twitter)\n\u00b6\n\n\n\n\nHow to filter for SharePoint Framework #SPFx related tweets in TweetDeck\n\n\n\n\nTranslation\n\u00b6\n\n\n\n\ndeepl translator\n\n\n\n\nDokumentation Site Generator\n\u00b6\n\n\n\n\nmkdocs-material\n\n\ndocusaurus\n\n\ndochameleon\n\n\n\n\nConvert / Format\n\u00b6\n\n\n\n\nfreeformatter.com\n\n\n\n\nContent generators\n\u00b6\n\n\n\n\nhttp://spaceipsum.com\n\n\nhttp://socialgoodipsum.com\n\n\nOffice Ipsum\n\n\nhttp://trollemipsum.appspot.com\n\n\n\n\nImage Tools\n\u00b6\n\n\n\n\nhttps://pixabay.com\n\n\n20 Websites To Find Free High-Quality Images\n\n\nhttp://mazwai.com/#/\n\n\nhttps://dummyimage.com\n\n\n\n\nPassword generators\n\u00b6\n\n\n\n\nRandom password generator\n\n\npassword-generators\n\n\n\n\nGuid\n\u00b6\n\n\n\n\nGUID Generator\n\n\n\n\nJson\n\u00b6\n\n\n\n\nOnline Json viewer\n\n\nFake Json Generator\n\n\nhttps://json-csv.com\n\n\n\n\nREST\n\u00b6\n\n\n\n\npostman-and-office-365\n\n\nSharePoint REST API Metadata Explorer\n\n\n\n\nTesting in chrome console\n\n\nfetch\n(\n`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$select=Id,Title,gwRequestSiteAlias&$orderby=Id desc`\n,\n \n{\n\n    \nheaders\n:\n \n{\n\n        \nAccept\n:\n \n'application/json;odata=verbose;'\n\n    \n}\n\n\n}).\nthen\n(\nres\n \n=>\n \nres\n.\njson\n().\nthen\n(\njson\n \n=>\n \n{\n\n    \njson\n.\nd\n.\nresults\n.\nforEach\n(\nitem\n \n=>\n \n{\n\n        \nconsole\n.\nlog\n(\n`item: \n${\nitem\n.\nTitle\n}\n`\n);\n\n    \n});\n\n\n}));\n\n\n\n\n\nChange Log\n\u00b6\n\n\n\n\nkeepachangelog\n\n\n\n\nEmail\n\u00b6\n\n\n\n\nhttps://foundation.zurb.com/emails.html\n\n\nhttps://mailchimp.com/\n\n\n\n\nRessourcen Files\n\u00b6\n\n\n\n\nhttps://poeditor.com/\n\n\nhttps://github.com/ypcode/spfx-dev-tools\n (Ressourcen Files mit Excel editieren)\n\n\nExcel and PowerShell to maintain your SPFx localized resources\n\n\nJavaScript Internationalization Framework\n\n\n\n\nULS\n\u00b6\n\n\n\n\nsharepointring\n\n\n\n\nVS.Code\n\u00b6\n\n\nCommand Line\n\u00b6\n\n\n\n\nCommand Line Interface (CLI)\n\n\n\n\nopen last active window\n\n\ncode -r .\n\n\n\n\nopen in new window\n\n\ncode -n\n\n\n\n\nVS.Code Extensions\n\u00b6\n\n\n\n\nmarkdownlint\n\n\nIntroducing SharePoint Typed Item\n\n\n\n\nRemove git integrations from VSCode\n\u00b6\n\n\nsettings.json\n\n\n//\n \nIs\n \ngit\n \nenabled\n\n\n\"git.enabled\"\n:\n \nfalse\n,\n\n\n\n\n\n//\n \nPath\n \nto\n \nthe\n \ngit\n \nexecutable\n\n\n\"git.path\"\n:\n \nnull\n,\n\n\n\n\n\n//\n \nWhether\n \nauto\n \nfetching\n \nis\n \nenabled.\n\n\n\"git.autofetch\"\n:\n \nfalse\n,\n\n\n\n\n\nInfo: \nhttps://stackoverflow.com/questions/30331338/remove-git-integrations-from-vscode\n\n\nExclude Folders from VS.Code\n\u00b6\n\n\n\n\nHow can I exclude a directory from Visual Studio Code 'Explore' tab\n\n\n\n\nCLI App Generator\n\u00b6\n\n\n\n\ngenerator-sppp\n\n\nSharePoint front-end projects automation and tasks tool-belt\n\n\nhttps://github.com/facebook/create-react-app\n\n\nhttps://github.com/StfBauer/generator-simplestyle\n\n\n\n\nFabric Icons\n\u00b6\n\n\n\n\nRender Office Fabric UI Icons into Canvas\n\n\nhttps://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon\n\n\nhttps://developer.microsoft.com/en-us/fabric#/styles/icons\n\n\n\n\nFavicons\n\u00b6\n\n\n\n\nfavicon-generator",
+            "text": "Dev Tools\n\u00b6\n\n\n\n\nUltimate Developer Tool List for SPFx\n\n\n\n\nTweetDeck (Twitter)\n\u00b6\n\n\n\n\nHow to filter for SharePoint Framework #SPFx related tweets in TweetDeck\n\n\n\n\nTranslation\n\u00b6\n\n\n\n\ndeepl translator\n\n\n\n\nDokumentation Site Generator\n\u00b6\n\n\n\n\nmkdocs-material\n\n\ndocusaurus\n\n\ndochameleon\n\n\n\n\nConvert / Format\n\u00b6\n\n\n\n\nfreeformatter.com\n\n\n\n\nContent generators\n\u00b6\n\n\n\n\nhttp://spaceipsum.com\n\n\nhttp://socialgoodipsum.com\n\n\nOffice Ipsum\n\n\nhttp://trollemipsum.appspot.com\n\n\n\n\nImage Tools\n\u00b6\n\n\n\n\nunsplash - free images\n\n\n(\npixabay - free images\n\n\n20 Websites To Find Free High-Quality Images\n\n\nmazwai - free background images\n\n\ndummyimage\n\n\n\n\nPassword generators\n\u00b6\n\n\n\n\nRandom password generator\n\n\npassword-generators\n\n\n\n\nGuid\n\u00b6\n\n\n\n\nGUID Generator\n\n\n\n\nJson\n\u00b6\n\n\n\n\nOnline Json viewer\n\n\nFake Json Generator\n\n\nhttps://json-csv.com\n\n\n\n\nREST\n\u00b6\n\n\n\n\npostman-and-office-365\n\n\nSharePoint REST API Metadata Explorer\n\n\n\n\nTesting in chrome console\n\n\nfetch\n(\n`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$select=Id,Title,gwRequestSiteAlias&$orderby=Id desc`\n,\n \n{\n\n    \nheaders\n:\n \n{\n\n        \nAccept\n:\n \n'application/json;odata=verbose;'\n\n    \n}\n\n\n}).\nthen\n(\nres\n \n=>\n \nres\n.\njson\n().\nthen\n(\njson\n \n=>\n \n{\n\n    \njson\n.\nd\n.\nresults\n.\nforEach\n(\nitem\n \n=>\n \n{\n\n        \nconsole\n.\nlog\n(\n`item: \n${\nitem\n.\nTitle\n}\n`\n);\n\n    \n});\n\n\n}));\n\n\n\n\n\nChange Log\n\u00b6\n\n\n\n\nkeepachangelog\n\n\n\n\nEmail\n\u00b6\n\n\n\n\nhttps://foundation.zurb.com/emails.html\n\n\nhttps://mailchimp.com/\n\n\n\n\nRessourcen Files\n\u00b6\n\n\n\n\nhttps://poeditor.com/\n\n\nhttps://github.com/ypcode/spfx-dev-tools\n (Ressourcen Files mit Excel editieren)\n\n\nExcel and PowerShell to maintain your SPFx localized resources\n\n\nJavaScript Internationalization Framework\n\n\n\n\nULS\n\u00b6\n\n\n\n\nsharepointring\n\n\n\n\nVS.Code\n\u00b6\n\n\nCommand Line\n\u00b6\n\n\n\n\nCommand Line Interface (CLI)\n\n\n\n\nopen last active window\n\n\ncode -r .\n\n\n\n\nopen in new window\n\n\ncode -n\n\n\n\n\nVS.Code Extensions\n\u00b6\n\n\n\n\nmarkdownlint\n\n\nIntroducing SharePoint Typed Item\n\n\n\n\nRemove git integrations from VSCode\n\u00b6\n\n\nsettings.json\n\n\n//\n \nIs\n \ngit\n \nenabled\n\n\n\"git.enabled\"\n:\n \nfalse\n,\n\n\n\n\n\n//\n \nPath\n \nto\n \nthe\n \ngit\n \nexecutable\n\n\n\"git.path\"\n:\n \nnull\n,\n\n\n\n\n\n//\n \nWhether\n \nauto\n \nfetching\n \nis\n \nenabled.\n\n\n\"git.autofetch\"\n:\n \nfalse\n,\n\n\n\n\n\nInfo: \nhttps://stackoverflow.com/questions/30331338/remove-git-integrations-from-vscode\n\n\nExclude Folders from VS.Code\n\u00b6\n\n\n\n\nHow can I exclude a directory from Visual Studio Code 'Explore' tab\n\n\n\n\nCLI App Generator\n\u00b6\n\n\n\n\ngenerator-sppp\n\n\nSharePoint front-end projects automation and tasks tool-belt\n\n\nhttps://github.com/facebook/create-react-app\n\n\nhttps://github.com/StfBauer/generator-simplestyle\n\n\n\n\nFabric Icons\n\u00b6\n\n\n\n\nRender Office Fabric UI Icons into Canvas\n\n\nhttps://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon\n\n\nhttps://developer.microsoft.com/en-us/fabric#/styles/icons\n\n\n\n\nFavicons\n\u00b6\n\n\n\n\nfavicon-generator\n\n\n\n\nWebSite Builder\n\u00b6\n\n\n\n\nweebly.com",
             "title": "Dev"
         },
         {
@@ -2357,7 +2377,7 @@
         },
         {
             "location": "/tools/dev/#image-tools",
-            "text": "https://pixabay.com  20 Websites To Find Free High-Quality Images  http://mazwai.com/#/  https://dummyimage.com",
+            "text": "unsplash - free images  ( pixabay - free images  20 Websites To Find Free High-Quality Images  mazwai - free background images  dummyimage",
             "title": "Image Tools"
         },
         {
@@ -2439,6 +2459,11 @@
             "location": "/tools/dev/#favicons",
             "text": "favicon-generator",
             "title": "Favicons"
+        },
+        {
+            "location": "/tools/dev/#website-builder",
+            "text": "weebly.com",
+            "title": "WebSite Builder"
         },
         {
             "location": "/tools/powerapps/",
