@@ -46,13 +46,13 @@
 
 - [Logging in to Office 365](https://pnp.github.io/office365-cli/user-guide/connecting-office-365/)
 
-```bs
+```ps
 o365 spo login https://<tenant>-admin.sharepoint.com
 ```
 
 - [spo serviceprincipal grant add](https://pnp.github.io/office365-cli/cmd/spo/serviceprincipal/serviceprincipal-grant-add/)
 
-```bs
+```ps
 spo serviceprincipal grant add --resource 'Microsoft Graph' --scope 'Mail.Read'
 ```
 
@@ -87,21 +87,21 @@ with pnpm manager
 
 - [Using pnpm with SPFx](https://joelfmrodrigues.wordpress.com/2018/10/31/using-pnpm-with-spfx/)
 
-```bs
+```ps
 yo @microsoft/sharepoint –package-manager pnpm
 ```
 
-```bs
+```ps
 pnpm i tslint@5.9.1 -DE
 ```
 
-```bs
+```ps
 pnpm i typescript@2.4.2 -DE
 ```
 
 ## Check Package Version
 
-```bs
+```ps
 node –v
 npm –v
 yo --generators
@@ -114,20 +114,20 @@ tsd --version
 
 Init local repo
 
-```bs
+```ps
 git init
 ```
 
 Add all Files to local repo
 
-```bs
+```ps
 git add -A
 git commit -m "init repo"
 ```
 
 Show last commit
 
-```bs
+```ps
 git show --name-only
 ```
 
@@ -136,7 +136,7 @@ git show --name-only
 
 ## Development(local workbench)
 
-```bs
+```ps
 gulp serve
 ```
 
@@ -146,7 +146,7 @@ https://localhost:4321/temp/workbench.html
 
 ## Development(online workbench)
 
-```bs
+```ps
 gulp serve --nobrowser
 ```
 
@@ -156,25 +156,25 @@ gulp serve --nobrowser
 
 ## Prepare Deployment Solution
 
-```bs
+```ps
 gulp clean
 ```
 
-```bs
+```ps
 gulp build --ship
 ```
 
-```bs
+```ps
 gulp bundle --ship
 ```
 
-```bs
+```ps
 gulp package-solution --ship
 ```
 
 ## Debug in browser
 
-```bs
+```ps
 gulp serve
 ```
 
@@ -200,7 +200,7 @@ Pre Steps
 
 Steps
 
-```bs
+```ps
 gulp serve --nobrowser
 ```
 
@@ -235,19 +235,19 @@ npm version patch
 - <https://pnp.github.io/pnpjs/>
 - <https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide>
 
-```bs
+```ps
 npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
 ```
 
 - <https://sharepoint.github.io/sp-dev-fx-controls-react/>
 
-```bs
+```ps
 npm install @pnp/spfx-controls-react@latest --save --save-exact
 ```
 
 - <https://sharepoint.github.io/sp-dev-fx-property-controls/>
 
-```bs
+```ps
 npm install @pnp/spfx-property-controls@latest --save --save-exact
 ```
 
@@ -268,7 +268,7 @@ npm install @pnp/spfx-property-controls@latest --save --save-exact
 
 or by using the "locale" command argument
 
-```bs
+```ps
 gulp serve --locale=de-de
 ```
 
@@ -580,13 +580,13 @@ Create Sample
 - [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter)
 - [React app with an Office UI Fabric React DocumentCard](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App)
 
-```bs
+```ps
 create-react-app demo-office-fabric-react-ts --scripts-version=react-scripts-ts
 ```
 
 init git
 
-```bs
+```ps
 git init
 git add .
 git commit -m "Initial commit."
@@ -596,7 +596,7 @@ add office fabric react
 
 - [office-ui-fabric-react@5.131.0](https://github.com/SharePoint/sp-dev-docs/issues/2936)
 
-```bs
+```ps
 npm install office-ui-fabric-react@5.131.0
 ```
 
@@ -608,11 +608,15 @@ npm install office-ui-fabric-react@5.131.0
 
 - [Use the Yeoman SharePoint generator](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/scaffolding-projects-using-yeoman-sharepoint-generator)
 
-```bs
+```ps
+npm list -g --depth=0
+```
+
+```ps
 npm outdated --global
 ```
 
-```bs
+```ps
 npm install @microsoft/generator-sharepoint -g
 ```
 
@@ -627,7 +631,7 @@ npm install @microsoft/generator-sharepoint -g
 
 Latest version
 
-```bs
+```ps
 npm i -g @pnp/office365-cli@next
 ```
 
@@ -635,7 +639,7 @@ Create report for upgrade
 
 - [spfx project upgrade](https://pnp.github.io/office365-cli/cmd/spfx/project/project-upgrade/)
 
-```bs
+```ps
 o365 spfx project upgrade --output md > report.md
 ```
 
