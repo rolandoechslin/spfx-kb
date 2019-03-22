@@ -622,8 +622,8 @@ npm install @microsoft/generator-sharepoint -g
 
 ## SPFx Version Upgrade
 
-- <https://github.com/pnp/office365-cli>
-- <https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli>
+- [office365-cli](https://github.com/pnp/office365-cli)
+- [Easily upgrade SharePoint Framework projects with the Office 365 CLI](https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli)
 
 ## Office 365 CLI
 
@@ -643,10 +643,10 @@ Create report for upgrade
 o365 spfx project upgrade --output md > report.md
 ```
 
-Code update
+## Update SPFx packages
 
-- [update-latest-packages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/update-latest-packages)
+- [Update SharePoint Framework packages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/update-latest-packages)
 
 ## Custom yo spfx generator
 
-- <https://pnp.github.io/generator-spfx/#installation>
+- [PnP SPFx Yeoman generator](https://pnp.github.io/generator-spfx/#installation)
