@@ -9,6 +9,7 @@
 
 ## Multilingual Intranet
 
+- [MULTILINGUAL AND MODERN SHAREPOINT](https://joannecklein.com/2018/10/05/multilingual-and-modern-sharepoint/)
 - [Building Multilingual SharePoint views using SPFx Field Customizers](https://www.aerieconsulting.com/blog/building-multi-lingual-sharepoint-views)
 - [SharePoint Online Multi-language Modern Sites – real case, pros and cons](https://devscopeninjas.azurewebsites.net/2019/01/29/sharepoint-online-multi-language-modern-sites-real-case-pros-and-cons/)
 - [SharePoint Localization – a (somewhat) comprehensive how-to!](https://www.koskila.net/how-to-sharepoint-localization/)
