@@ -111,6 +111,7 @@ code -n
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [Introducing SharePoint Typed Item](https://spblog.net/post/2019/02/28/introducing-sharepoint-typed-item-visual-studio-code-extension)
+- [Backup and Synchronize VSCode Settings with a GitHub Gist](https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-a-github-gist/)
 
 ### Remove git integrations from VSCode
 
