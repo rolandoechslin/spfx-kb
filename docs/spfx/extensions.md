@@ -7,6 +7,7 @@
 ## Samples
 
 - [React-application-profile-meter](https://github.com/sprider/spfx-extensions/tree/master/react-application-profile-meter)
+- [How to create news ticker, SPFx-extension](https://letslearnoffice365.wordpress.com/2019/03/22/news-ticker-spfx-extension/)
 
 ## Full Page
 
