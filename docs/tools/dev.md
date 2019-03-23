@@ -75,8 +75,9 @@ fetch(`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$se
 
 ## Email
 
-- <https://foundation.zurb.com/emails.html>
-- <https://mailchimp.com/>
+- [Responsive Email Foundation Zurb](https://foundation.zurb.com/emails.html)
+- [mailchimp - newsletter](https://mailchimp.com)
+- [10MinuteMail](https://www.10MinuteMail.com/)
 
 ## Ressourcen Files
 
