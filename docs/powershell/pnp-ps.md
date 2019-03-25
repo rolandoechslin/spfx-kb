@@ -134,3 +134,7 @@ Disable-PnPSiteClassification
 ## Tips
 
 - [Add QuickLinks with powershell-pnp](https://sharepoint.stackexchange.com/questions/241689/add-quicklinks-with-powershell-pnp/241707#241707)
+
+## Documents List
+
+- [Change the New Menu in SharePoint Online Documents List](https://cann0nf0dder.wordpress.com/2019/03/24/programmatically-change-the-new-menu-in-sharepoint-online-using-powershell/)
