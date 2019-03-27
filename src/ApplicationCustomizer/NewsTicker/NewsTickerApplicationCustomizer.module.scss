@@ -1,0 +1,11 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+ 
+  .app {
+    .top {
+        height:50px;
+        font-weight:bold;
+        background-color: transparent;
+        opacity: 0.5;
+        color: black;
+    }
+  }
