@@ -131,3 +131,7 @@
 ## Dialog
 
 - [Modal Dialog, show classic SharePoint forms](http://www.sharepointtweaks.com/2019/03/spfx-modal-dialog-show-classic-SharePoint-forms.html)
+
+## Wiki Pages
+
+- [Create a TOC for your SharePoint Wiki pages](https://blog.lsonline.fr/2018/12/23/create-a-dynamic-table-of-content-for-your-sharepoint-wiki-pages/)
