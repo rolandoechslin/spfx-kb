@@ -82,3 +82,4 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 - [Create Teams with template](https://www.sharepointnutsandbolts.com/2019/03/create-microsoft-teams-from-template.html)
 - [Provisioning Teams with Azure Functions and Microsoft Flow Part 1: Solution Overview](https://bob1german.com/2019/03/12/provisioning-teams-with-azure-functions-and-microsoft-flow-part-1-solution-overview/)
 - [Microsoft Teams – Automation of Teams Creation](https://www.robertjgates.com/microsoft-teams-automation-of-teams-creation/)
+- [Provision Microsoft Teams with Azure Automation – Part I](https://mmsharepoint.wordpress.com/2019/03/22/provision-microsoft-teams-with-azure-automation-part-i/)
