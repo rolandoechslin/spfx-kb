@@ -29,7 +29,7 @@
 - [Building interactive feedback analysis system with MS Forms, MS Flow, Power BI and SharePoint Online](https://spblog.net/post/2019/01/29/building-interactive-feedback-analysis-system-with-ms-forms-ms-flow-power-bi-and-sharepoint-online)
 - [RUN A FLOW AS PART OF A SHAREPOINT SITE DESIGN](https://wonderlaura.com/2019/03/14/run-a-flow-as-part-of-a-sharepoint-site-design/)
 
-## Cooy / Move Documents
+## Copy / Move Documents
 
 - [A modern “transfer to another location” in office 365](https://joannecklein.com/2018/01/02/a-modern-transfer-to-another-location-in-office-365/)
 

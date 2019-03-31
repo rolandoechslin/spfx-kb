@@ -17,6 +17,11 @@
 ![modernsitesprovisioningflow](https://asishpadhyblog.files.wordpress.com/2018/08/modernsitesprovisioningflow_provisioningprocess.png?w=1024&h=733&crop=1)
 - [Building SharePoint Site Designs with Themes and Azure Functions](https://bob1german.com/2018/07/31/building-sharepoint-site-designs-with-themes-and-azure-functions)
 
+## Flow / REST
+
+- [Invoking a Site Design Task using REST](https://beaucameron.net/2019/01/10/invoking-a-site-design-task-using-rest/)
+- [Invoking unlimited actions with Site Design Tasks and Microsoft Flow](http://rezadorrani.com/index.php/2019/01/14/invoking-unlimited-actions-with-site-design-tasks-and-microsoft-flow/)
+
 ## Sample
 
 - [Modern SharePoint site creation with site designs and REST](https://simonagren.github.io/sites-sitedesign-rest/)
