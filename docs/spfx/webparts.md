@@ -71,6 +71,10 @@
 - [react-display-hierarchy](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-display-hierarchy)
 - [react-cs-images-suggestion: a SPFX sample webpart using Azure Cognitive Services](http://www.federicoporceddu.com/2019/03/10/react-ai-images-suggestion-a-spfx-sample-webpart-using-azure-cognitive-services/)
 
+## External Lib
+
+- [How to add external libraries and assets in SharePoint client-side web part](http://mundrisoft.com/tech-bytes/how-to-add-external-libraries-and-assets-in-sharepoint-client-side-web-part/)
+
 ## Terms Sets
 
 - [Display hierarchical Term Sets to your Web Part](https://blog.lsonline.fr/2019/01/13/display-hierarchical-term-sets-to-your-web-part/)
