@@ -18,6 +18,7 @@
 - <https://www.techmikael.com/2017/04/creating-pnp-provisioning-file.html>
 - https://de.slideshare.net/sharePTkarm/how-to-automate-the-sharepoint-provisioning
 - <https://de.slideshare.net/DIWUG/spsnl17-be-more-effective-with-the-pnp-provisioning-engine-erwin-van-hunen>
+- [Categories, organize and layout your Office 365 intranet with PnP Templates](http://blogs.if-blueprint.de/hailender/2019/03/10/categories-your-office-365-intranet-with-pnp-templates/)
 
 ## Export multiple pages
 
