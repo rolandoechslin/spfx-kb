@@ -7,6 +7,7 @@
 ## Learning
 
 - [Git Fundamentals](https://app.pluralsight.com/library/courses/git-fundamentals/table-of-contents)
+- [Git Real](https://www.pluralsight.com/courses/code-school-git-real)
 
 ## Tips
 - [How to be more productive on GitHub](https://medium.freecodecamp.org/how-to-be-more-productive-on-github-c3cedab043e3)
