@@ -6,6 +6,10 @@
 
 - [How to filter for SharePoint Framework #SPFx related tweets in TweetDeck](https://github.com/andikrueger/TweetDeckSPFxFilter)
 
+## PowerShell Module Installs
+
+- [Office 365 PowerShell Module Installs](https://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=826)
+
 ## Translation
 
 - [deepl translator](https://www.deepl.com/translator)
