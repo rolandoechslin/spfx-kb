@@ -159,3 +159,37 @@ Info: https://stackoverflow.com/questions/30331338/remove-git-integrations-from-
 ## WebSite Builder
 
 - [weebly.com](https://www.weebly.com)
+
+## SP bookmarklets
+
+- [Manage SharePoint using bookmarklets](https://sharepoint.handsontek.net/2019/03/31/manage-sharepoint-using-bookmarklets/)
+
+Open Site Settings
+
+```js
+javascript:(function(){var url = document.location.href.split('/Pages')[0].split('/SitePages')[0].split('/_layouts')[0];if(url.endsWith('.aspx')){url = url.replace(new RegExp('\/[a-z A-Z 0-1 \- _]*.aspx'),'')}location.replace(url+"/_layouts/15/settings.aspx")}());
+```
+
+Open Page in Maintenance Mode
+
+```js
+javascript:(function(){location.replace(window.location.href+"?maintenancemode=true")})();
+```
+
+Go to Classic
+
+```js
+javascript:(function(){document.cookie="splnu=0;domain="+window.location.hostname+";"; location.href=location.href;})();
+```
+
+Go to Modern
+
+```js
+javascript:(function(){document.cookie="splnu=1;domain="+window.location.hostname+";"; location.href= location.href})();
+```
+
+Open Web Part Manager
+
+```js
+javascript:(function(){location.replace(window.location.href+"?contents=1")})();
+```
