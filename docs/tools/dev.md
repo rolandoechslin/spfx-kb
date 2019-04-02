@@ -2,6 +2,10 @@
 
 - [Ultimate Developer Tool List for SPFx](https://tahoeninjas.blog/2019/03/14/ultimate-developer-tool-list-for-spfx/)
 
+## Debug
+
+- [easily debug production version](https://spblog.net/post/2019/04/02/sharepoint-framework-development-tips-even-more-easily-debug-production-version-of-your-sharepoint-framework-solution)
+
 ## TweetDeck (Twitter)
 
 - [How to filter for SharePoint Framework #SPFx related tweets in TweetDeck](https://github.com/andikrueger/TweetDeckSPFxFilter)
