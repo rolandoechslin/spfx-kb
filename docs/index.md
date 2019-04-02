@@ -12,6 +12,7 @@
 - [Set up an Office 365 developer subscription](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program-get-started)
 - [Frontend Workshop from HTML/CSS/JS to TypeScript/React/Redux](https://github.com/Microsoft/frontend-bootcamp)
 - [Microsoft Learning Module](https://docs.microsoft.com/en-us/learn/browse/?utm_source=flow-sidebar&utm_medium=web)
+- [Azure Edu DevCamp](https://github.com/Microsoft/edu-devcamp)
 
 ## Roadmap
 
