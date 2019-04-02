@@ -4,7 +4,8 @@
 
 ## Debug
 
-- [easily debug production version](https://spblog.net/post/2019/04/02/sharepoint-framework-development-tips-even-more-easily-debug-production-version-of-your-sharepoint-framework-solution)
+- [mastykarz: easily debug production version](https://blog.mastykarz.nl/debug-production-version-sharepoint-framework-solution/)
+- [sergei-sergeev: easily debug production version](https://spblog.net/post/2019/04/02/sharepoint-framework-development-tips-even-more-easily-debug-production-version-of-your-sharepoint-framework-solution)
 
 ## TweetDeck (Twitter)
 
