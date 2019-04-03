@@ -1,5 +1,7 @@
 # Search
 
+[SharePoint Search REST API overview](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-search-rest-api-overview)
+
 ## Search Tips
 
 - [How to improve your SharePoint search results](http://icansharepoint.com/how-to-improve-your-sharepoint-search-results)
@@ -59,3 +61,7 @@
 - https://social.technet.microsoft.com/Forums/sharepoint/en-US/942979d0-358a-4aac-9953-b2192decdfa4/creating-a-mapped-driveuser-folder-permission-problems?forum=winserverGP
 - http://www.collabshow.com/2008/10/31/best-practices-for-enterprise-user-scalability-in-sharepoint
 - https://profadmins.com/2014/04/07/sharepoint-doesnt-accept-the-universal-security-groups-for-granting-permissions
+
+## Teamsites / Groups
+
+- [Retrieving search results from private Groups in Office 365 via REST](https://www.techmikael.com/2017/01/retrieving-search-results-from-private.html)
