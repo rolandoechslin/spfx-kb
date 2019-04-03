@@ -1,6 +1,8 @@
 # Search
 
-[SharePoint Search REST API overview](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-search-rest-api-overview)
+- [SharePoint Search REST API overview](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-search-rest-api-overview)
+- [SharePoint Search REST API. GET and POST requests](http://blog.vitalyzhukov.ru/en/sharepoint-search-rest-api-get-and-post-requests.aspx)
+
 
 ## Search Tips
 
