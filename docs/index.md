@@ -598,9 +598,10 @@ git commit -m "Initial commit."
 add office fabric react
 
 - [office-ui-fabric-react@5.131.0](https://github.com/SharePoint/sp-dev-docs/issues/2936)
+- [Use Office UI Fabric React components in your SharePoint client-side web part](https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/web-parts/get-started/use-fabric-react-components.md#create-a-new-web-part-project)
 
 ```ps
-npm install office-ui-fabric-react@5.131.0
+npm install office-ui-fabric-react@5.132.0 --save
 ```
 
 ## Generator for SP applications
