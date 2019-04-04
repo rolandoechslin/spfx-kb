@@ -9,12 +9,12 @@
 - [FutureofSPDev-SPFxExtensions.pptx](../assets/FutureofSPDev-SPFxExtensions.pptx)
 - [PnP Controls](https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls)
 
-
 ## Office Fabric
 
 - <https://github.com/guzmonne/office-ui-layout>
 - <https://github.com/eoverfield/SP-Office-UI-Fabric>
-- <https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App>
+- [Sample App](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App)
+- [DetailsList.Advanced.Example](https://github.com/OfficeDev/office-ui-fabric-react/blob/master/packages/office-ui-fabric-react/src/components/DetailsList/examples/DetailsList.Advanced.Example.tsx)
 
 ## Office Fabric / React / Redux
 
