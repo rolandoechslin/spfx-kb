@@ -46,7 +46,8 @@
 
 ## Tips
 
-- https://sharepointdragons.com/2018/05/25/the-scientific-methodology-for-troubleshooting-sharepoint/
+- [The scientific methodology for troubleshooting SharePoint](https://sharepointdragons.com/2018/05/25/the-scientific-methodology-for-troubleshooting-sharepoint)
+- [Open in Explorer or View with File Explorer in SharePoint](https://support.office.com/en-us/article/open-in-explorer-or-view-with-file-explorer-in-sharepoint-66b574bb-08b4-46b6-a6a0-435fd98194cc)
 
 ## Invalid File Names
 
@@ -60,3 +61,4 @@
 ## Followed Sites
 
 - [Social Following Sites on behalf of a user](https://julieturner.net/2019/02/curate-the-news-social-following-sites-on-behalf-of-a-user/)
+
