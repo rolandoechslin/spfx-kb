@@ -2157,7 +2157,7 @@
         },
         {
             "location": "/training/must-read/",
-            "text": "Must read\n\u00b6\n\n\nGuidance\n\u00b6\n\n\n\n\noffice-365-development-patterns-and-practices-solution-guidance\n\n\n\n\nSPFx\n\u00b6\n\n\n\n\nFutureofSPDev-SPFxExtensions.pptx\n\n\nPnP Controls\n\n\n\n\nOffice Fabric\n\u00b6\n\n\n\n\nhttps://github.com/guzmonne/office-ui-layout\n\n\nhttps://github.com/eoverfield/SP-Office-UI-Fabric\n\n\nhttps://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App\n\n\n\n\nOffice Fabric / React / Redux\n\u00b6\n\n\n\n\nhttp://dattabase.com/office-fabric-reactredux-sp-starter-project/\n\n\nhttp://dattabase.com/office-fabric-ui-reactredux-part-1-5/\n\n\nhttps://github.com/gunjandatta/sp-react-redux\n\n\n\n\nCloud\n\u00b6\n\n\n\n\nhttps://it.arvato.com/cloud-blog/de/2018/06/softwareentwicklung-in-der-cloud--was-aendert-sich-.html\n\n\n\n\nGoogle Engineering\n\u00b6\n\n\n\n\nSite Reliability Engineering",
+            "text": "Must read\n\u00b6\n\n\nGuidance\n\u00b6\n\n\n\n\noffice-365-development-patterns-and-practices-solution-guidance\n\n\n\n\nSPFx\n\u00b6\n\n\n\n\nFutureofSPDev-SPFxExtensions.pptx\n\n\nPnP Controls\n\n\n\n\nOffice Fabric\n\u00b6\n\n\n\n\nhttps://github.com/guzmonne/office-ui-layout\n\n\nhttps://github.com/eoverfield/SP-Office-UI-Fabric\n\n\nSample App\n\n\nDetailsList.Advanced.Example\n\n\n\n\nOffice Fabric / React / Redux\n\u00b6\n\n\n\n\nhttp://dattabase.com/office-fabric-reactredux-sp-starter-project/\n\n\nhttp://dattabase.com/office-fabric-ui-reactredux-part-1-5/\n\n\nhttps://github.com/gunjandatta/sp-react-redux\n\n\n\n\nCloud\n\u00b6\n\n\n\n\nhttps://it.arvato.com/cloud-blog/de/2018/06/softwareentwicklung-in-der-cloud--was-aendert-sich-.html\n\n\n\n\nGoogle Engineering\n\u00b6\n\n\n\n\nSite Reliability Engineering",
             "title": "Must read"
         },
         {
@@ -2177,7 +2177,7 @@
         },
         {
             "location": "/training/must-read/#office-fabric",
-            "text": "https://github.com/guzmonne/office-ui-layout  https://github.com/eoverfield/SP-Office-UI-Fabric  https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App",
+            "text": "https://github.com/guzmonne/office-ui-layout  https://github.com/eoverfield/SP-Office-UI-Fabric  Sample App  DetailsList.Advanced.Example",
             "title": "Office Fabric"
         },
         {
