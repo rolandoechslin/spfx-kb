@@ -1,5 +1,6 @@
 # Migration
 
+- [Compilation of SharePoint to Office 365 Migration Best Practices](https://tahoeninjas.blog/2019/04/05/compilation-of-sharepoint-to-office-365-migration-best-practices/)
 - [33 things that can cause a hassle when migrating to SharePoint Online](https://engineerer.ch/2019/02/08/33-things-that-can-cause-a-hassle-when-migrating-to-sharepoint-online/)
 - [SharePoint Migration Infographic](https://joannecklein.com/2019/02/10/sharepoint-migration-infographic/)
 - [Cloud Migration](https://resources.techcommunity.microsoft.com/cloud-migration/)
