@@ -14,8 +14,12 @@
 - [SharePoint Full Page Canvas App](https://github.com/aflyen/spfx-extension-fullpagecanvas)
 - [spfx-appcust-removeFeeback](https://github.com/StfBauer/spfx-appcust-removeFeeback)
 - [React slider field customizer](http://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html)
-- [SharePoint Framework custom header and footer application customizer extension](https://github.com/dannyjessee/SPFxHeaderFooter)
 - [Check the page display mode from within your SharePoint Framework extensions](https://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions)
+
+## Site footer
+
+- [SharePoint Site Footer](https://docs.microsoft.com/en-us/sharepoint/dev/features/site-footer)
+- [SharePoint Framework custom header and footer application customizer extension](https://github.com/dannyjessee/SPFxHeaderFooter)
 
 ## ListView
 
