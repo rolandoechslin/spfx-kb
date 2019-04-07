@@ -59,26 +59,6 @@
 - [Fake Json Generator](https://jsonplaceholder.typicode.com)
 - <https://json-csv.com>
 
-## REST
-
-- [postman-and-office-365](https://www.helloitsliam.com/2016/02/04/postman-and-office-365)
-- [SharePoint REST API Metadata Explorer](https://s-kainet.github.io/sp-rest-explorer)
-- [Announcing Microsoft Graph Postman Collections](https://developer.microsoft.com/en-us/sharepoint/blogs/postman-collections/)
-
-Testing in chrome console
-
-```ts
-fetch(`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$select=Id,Title,gwRequestSiteAlias&$orderby=Id desc`, {
-    headers: {
-        Accept: 'application/json;odata=verbose;'
-    }
-}).then(res => res.json().then(json => {
-    json.d.results.forEach(item => {
-        console.log(`item: ${item.Title}`);
-    });
-}));
-```
-
 ## Change Log
 
 - [keepachangelog](http://keepachangelog.com/en/1.0.0)
