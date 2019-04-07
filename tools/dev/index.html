@@ -1324,13 +1324,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#rest" title="REST" class="md-nav__link">
-    REST
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#change-log" title="Change Log" class="md-nav__link">
     Change Log
   </a>
@@ -1692,13 +1685,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#rest" title="REST" class="md-nav__link">
-    REST
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#change-log" title="Change Log" class="md-nav__link">
     Change Log
   </a>
@@ -1882,24 +1868,6 @@
 <li><a href="https://jsonplaceholder.typicode.com">Fake Json Generator</a></li>
 <li><a href="https://json-csv.com">https://json-csv.com</a></li>
 </ul>
-<h2 id="rest">REST<a class="headerlink" href="#rest" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://www.helloitsliam.com/2016/02/04/postman-and-office-365">postman-and-office-365</a></li>
-<li><a href="https://s-kainet.github.io/sp-rest-explorer">SharePoint REST API Metadata Explorer</a></li>
-<li><a href="https://developer.microsoft.com/en-us/sharepoint/blogs/postman-collections/">Announcing Microsoft Graph Postman Collections</a></li>
-</ul>
-<p>Testing in chrome console</p>
-<div class="codehilite"><pre><span></span><span class="nx">fetch</span><span class="p">(</span><span class="sb">`/sites/gridworks/_api/web/lists/getbytitle(&#39;SiteRequestsQueue&#39;)/items?$select=Id,Title,gwRequestSiteAlias&amp;$orderby=Id desc`</span><span class="p">,</span> <span class="p">{</span>
-    <span class="nx">headers</span><span class="o">:</span> <span class="p">{</span>
-        <span class="nx">Accept</span><span class="o">:</span> <span class="s1">&#39;application/json;odata=verbose;&#39;</span>
-    <span class="p">}</span>
-<span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">json</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="nx">json</span><span class="p">.</span><span class="nx">d</span><span class="p">.</span><span class="nx">results</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">item</span> <span class="o">=&gt;</span> <span class="p">{</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`item: </span><span class="si">${</span><span class="nx">item</span><span class="p">.</span><span class="nx">Title</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
-    <span class="p">});</span>
-<span class="p">}));</span>
-</pre></div>
-
 <h2 id="change-log">Change Log<a class="headerlink" href="#change-log" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="http://keepachangelog.com/en/1.0.0">keepachangelog</a></li>

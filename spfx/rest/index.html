@@ -797,6 +797,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#tools" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing" title="Testing" class="md-nav__link">
+    Testing
+  </a>
+  
+</li>
+      
       
       
       
@@ -1440,6 +1454,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#tools" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing" title="Testing" class="md-nav__link">
+    Testing
+  </a>
+  
+</li>
+      
       
       
       
@@ -1467,6 +1495,24 @@
 <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/use-odata-query-operations-in-sharepoint-rest-requests">Use OData query operations in SharePoint REST requests</a></li>
 <li><a href="https://github.com/andrewconnell/sp-o365-rest">SharePoint &amp; Office 365 REST API Resources</a></li>
 </ul>
+<h2 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.helloitsliam.com/2016/02/04/postman-and-office-365">postman-and-office-365</a></li>
+<li><a href="https://s-kainet.github.io/sp-rest-explorer">SharePoint REST API Metadata Explorer</a></li>
+<li><a href="https://developer.microsoft.com/en-us/sharepoint/blogs/postman-collections/">Announcing Microsoft Graph Postman Collections</a></li>
+</ul>
+<h2 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">&para;</a></h2>
+<p>Testing in chrome console</p>
+<div class="codehilite"><pre><span></span><span class="nx">fetch</span><span class="p">(</span><span class="sb">`/sites/gridworks/_api/web/lists/getbytitle(&#39;SiteRequestsQueue&#39;)/items?$select=Id,Title,gwRequestSiteAlias&amp;$orderby=Id desc`</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nx">headers</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">Accept</span><span class="o">:</span> <span class="s1">&#39;application/json;odata=verbose;&#39;</span>
+    <span class="p">}</span>
+<span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">json</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">json</span><span class="p">.</span><span class="nx">d</span><span class="p">.</span><span class="nx">results</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">item</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`item: </span><span class="si">${</span><span class="nx">item</span><span class="p">.</span><span class="nx">Title</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+    <span class="p">});</span>
+<span class="p">}));</span>
+</pre></div>
                 
                   
                 
