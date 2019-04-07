@@ -17,6 +17,7 @@ pages:
         - Column-Formating: spfx/column-formating.md
         - Configuration: spfx/configuration.md
         - Communication-Site: spfx/communication-site.md
+        - Dev-Ops: dev-ops.md
         - Debug: spfx/debug.md
         - Deployment: spfx/deployment.md
         - Delve: spfx/delve.md
