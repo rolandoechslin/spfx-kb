@@ -78,6 +78,12 @@
     </url>
         
     <url>
+     <loc>/spfx/dev-ops/</loc>
+     <lastmod>2019-04-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/spfx/debug/</loc>
      <lastmod>2019-04-07</lastmod>
      <changefreq>daily</changefreq>
