@@ -1,5 +1,6 @@
 # Tips and tricks
 
+- [SharePoint PnP Dev General SIG Call – April 4th, 2019 – Screenshot Summary](http://warner.digital/pnpsummary04042019/)
 - [SharePoint Dev Weekly – Episode 32](https://developer.microsoft.com/en-us/sharepoint/blogs/sharepoint-dev-weekly-episode-32/)
 - [January 2019 SharePoint Modernization News](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/January-2019-SharePoint-Modernization-News/ba-p/320552)
 - [SharePoint Development Community (PnP) – January 2019 update](https://developer.microsoft.com/en-us/graph/blogs/sharepoint-development-community-pnp-january-2019-update/)
