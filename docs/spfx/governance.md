@@ -30,6 +30,8 @@
 - [How Broken Are Office 365 SharePoint Permissions](https://en.share-gate.com/blog/how-broken-are-office-365-sharepoint-permissions)
 - [Azure AD Internal - GDPR Tool](http://o365blog.com/post/aadinternals/)
 - [Making a real world sharing strategy for SharePoint, OneDrive & Teams](https://www.slideshare.net/dmadelung/making-a-real-world-sharing-strategy-for-sharepoint-onedrive-teams)
+- [A quick guide to secure Office 365_DE.pdf](http://www.sharepointtalk.net/2018/07/a-quick-guide-to-secure-office-365.html)
+- [Coaching your users through the External Sharing Experience](http://www.sharepointtalk.net/2019/01/coaching-your-users-through-external.html)
 
 ## User profile / Delete user
 
