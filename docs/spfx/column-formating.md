@@ -16,3 +16,7 @@
 - http://warner.digital/sharepointcolumnformattinggettingstartedpart1/
 - http://warner.digital/sharepointcolumnformattinggettingstartedpart2/
 - http://warner.digital/sharepointcolumnformattinggettingstartedpart3/
+
+## Samples
+
+-[Show Holidays/Events, with no of days to go using ListView Formatting](https://sharepointhd.wordpress.com/2019/04/07/show-holidays-events-with-no-of-days-to-go-using-listview-formatting/)
