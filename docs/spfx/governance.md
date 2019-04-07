@@ -5,6 +5,7 @@
 - [Plan for governance to transform teamwork with Microsoft 365](https://resources.techcommunity.microsoft.com/teamwork-governance/)
 - [How to implement SharePoint Governance](https://sharepointmaven.com/implement-sharepoint-governance)
 - [overview-best-practices-for-managing-how-people-use-your-team-site](https://support.office.com/en-us/article/overview-best-practices-for-managing-how-people-use-your-team-site-95e83c3d-e1b0-4aae-9d08-e94dcaa4942e#__toc259623125)
+- [Naming policy features](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-naming-policy?_lrsc=018aa503-3b80-4738-a978-9d1164b944c8)
 
 ## Information Architecture
 
