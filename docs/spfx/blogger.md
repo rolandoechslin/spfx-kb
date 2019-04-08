@@ -7,6 +7,10 @@
 - [tricky-sharepoint.blogspot.ch](http://tricky-sharepoint.blogspot.ch)
 - [blog.arvosys.com](http://blog.arvosys.com)
 
+## Teams
+
+- [teams.handsontek.net](https://teams.handsontek.net/)
+
 ## List Formatting
 
 - [sharepointhd.wordpress.com](https://sharepointhd.wordpress.com/)
