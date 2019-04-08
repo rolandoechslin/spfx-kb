@@ -72,6 +72,7 @@ pages:
         - Powershell: powershell/powershell.md
         - PnP-PS: powershell/pnp-ps.md
         - SPO-PS: powershell/spo-ps.md
+        - Teams: powershell/teams.md
     - Tools:
         - Dev: tools/dev.md
         - Powerapps: tools/powerapps.md
