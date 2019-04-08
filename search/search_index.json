@@ -597,7 +597,7 @@
         },
         {
             "location": "/spfx/extensions/",
-            "text": "Extensions\n\u00b6\n\n\nTipps\n\u00b6\n\n\n\n\nHow to properly add an Application Customizer to an existing SPFx Web Part Project\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nReact-application-profile-meter\n\n\nHow to create news ticker, SPFx-extension\n\n\n\n\nFull Page\n\u00b6\n\n\n\n\nSharePoint Full Page Canvas App\n\n\nspfx-appcust-removeFeeback\n\n\nReact slider field customizer\n\n\nCheck the page display mode from within your SharePoint Framework extensions\n\n\n\n\nSite footer\n\u00b6\n\n\n\n\nSharePoint Site Footer\n\n\nSharePoint Framework custom header and footer application customizer extension\n\n\n\n\nListView\n\u00b6\n\n\n\n\nShowing or hiding SharePoint Framework ListView custom actions based on permissions and selected items\n\n\nSPFX ListView Command Set and Panel\n\n\nLet users get a simple link to a document or folder\n\n\nCreate Modern Page Model with PnP/PnPjs\n\n\n\n\nBots\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx\n\n\n\n\nComments\n\u00b6\n\n\n\n\nReceive comment notifications by email in Modern SharePoint Pages\n\n\nGithub: Receive comment notifications on Modern SharePoint pages by email\n\n\n\n\nChange browser favicon icon\n\u00b6\n\n\n\n\nChange favicon on Modern SharePoint sites\n\n\nSPFx-favicon\n\n\n\n\nGoogle GA\n\u00b6\n\n\n\n\nTracking code in Tenant Wide Extensions list\n\n\nSPFx-Google-Analytics\n\n\n\n\nInject CSS\n\u00b6\n\n\n\n\nInject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions\n\n\nAdd Google Analytics to SharePoint modern pages\n\n\nWhitespace \u2013 Regain distraction-free working in SharePoint\n\n\n\n\nSPA\n\u00b6\n\n\n\n\nSingle Page App In SharePoint Using React\n\n\n\n\nNavigations\n\u00b6\n\n\n\n\nHandling navigation in a SharePoint Framework application customizer\n\n\n\n\nPlaceholders\n\u00b6\n\n\n\n\nSafely using Placeholders in an extension\n\n\n\n\nprivate _topPlaceholder : PlaceholderContent;\npublic onInit(void){\n    this.context.placeholderProvider.changedEvent.add(this, this._handlePlaceholderChange.bind(this));\n}\n\nprivate _handlePlaceholderChange(){\n  if (!this._topPlaceholder)\n  {\n    // We don't have a placeholder populated yet.  Let's try and get it.\n    this._topPlaceholder = this.context.placeholderProvider.tryCreateContent(PlaceholderName.Top);\n  } else {\n    // We have a placeholder - let's make sure that it still exists.\n    let index:number = this.context.placeholderProvider.placeholderNames.indexOf(PlaceholderName.Top);\n    if ( index < 0)\n    {\n        // The placeholder is no longer here.\n        this._topPlaceholder.dispose();\n        this._topPlaceholder = undefined;\n    }\n  }\n  if ( this._topPlaceholder )\n  {\n      this._topPlaceholder.innerText = 'Hello World!';\n  }\n}",
+            "text": "Extensions\n\u00b6\n\n\nTipps\n\u00b6\n\n\n\n\nHow to properly add an Application Customizer to an existing SPFx Web Part Project\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nReact-application-profile-meter\n\n\nHow to create news ticker, SPFx-extension\n\n\n\n\nFull Page\n\u00b6\n\n\n\n\nSharePoint Full Page Canvas App\n\n\nspfx-appcust-removeFeeback\n\n\nReact slider field customizer\n\n\nCheck the page display mode from within your SharePoint Framework extensions\n\n\n\n\nSite footer\n\u00b6\n\n\n\n\nSharePoint Site Footer\n\n\nSharePoint Framework custom header and footer application customizer extension\n\n\n\n\nListView\n\u00b6\n\n\n\n\nShowing or hiding SharePoint Framework ListView custom actions based on permissions and selected items\n\n\nSPFX ListView Command Set and Panel\n\n\nLet users get a simple link to a document or folder\n\n\nCreate Modern Page Model with PnP/PnPjs\n\n\nCreate ECB Menu Items\n\n\n\n\nBots\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx\n\n\n\n\nComments\n\u00b6\n\n\n\n\nReceive comment notifications by email in Modern SharePoint Pages\n\n\nGithub: Receive comment notifications on Modern SharePoint pages by email\n\n\n\n\nChange browser favicon icon\n\u00b6\n\n\n\n\nChange favicon on Modern SharePoint sites\n\n\nSPFx-favicon\n\n\n\n\nGoogle GA\n\u00b6\n\n\n\n\nTracking code in Tenant Wide Extensions list\n\n\nSPFx-Google-Analytics\n\n\n\n\nInject CSS\n\u00b6\n\n\n\n\nInject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions\n\n\nAdd Google Analytics to SharePoint modern pages\n\n\nWhitespace \u2013 Regain distraction-free working in SharePoint\n\n\n\n\nSPA\n\u00b6\n\n\n\n\nSingle Page App In SharePoint Using React\n\n\n\n\nNavigations\n\u00b6\n\n\n\n\nHandling navigation in a SharePoint Framework application customizer\n\n\n\n\nPlaceholders\n\u00b6\n\n\n\n\nSafely using Placeholders in an extension\n\n\n\n\nprivate _topPlaceholder : PlaceholderContent;\npublic onInit(void){\n    this.context.placeholderProvider.changedEvent.add(this, this._handlePlaceholderChange.bind(this));\n}\n\nprivate _handlePlaceholderChange(){\n  if (!this._topPlaceholder)\n  {\n    // We don't have a placeholder populated yet.  Let's try and get it.\n    this._topPlaceholder = this.context.placeholderProvider.tryCreateContent(PlaceholderName.Top);\n  } else {\n    // We have a placeholder - let's make sure that it still exists.\n    let index:number = this.context.placeholderProvider.placeholderNames.indexOf(PlaceholderName.Top);\n    if ( index < 0)\n    {\n        // The placeholder is no longer here.\n        this._topPlaceholder.dispose();\n        this._topPlaceholder = undefined;\n    }\n  }\n  if ( this._topPlaceholder )\n  {\n      this._topPlaceholder.innerText = 'Hello World!';\n  }\n}",
             "title": "Extensions"
         },
         {
@@ -627,7 +627,7 @@
         },
         {
             "location": "/spfx/extensions/#listview",
-            "text": "Showing or hiding SharePoint Framework ListView custom actions based on permissions and selected items  SPFX ListView Command Set and Panel  Let users get a simple link to a document or folder  Create Modern Page Model with PnP/PnPjs",
+            "text": "Showing or hiding SharePoint Framework ListView custom actions based on permissions and selected items  SPFX ListView Command Set and Panel  Let users get a simple link to a document or folder  Create Modern Page Model with PnP/PnPjs  Create ECB Menu Items",
             "title": "ListView"
         },
         {
@@ -2292,7 +2292,7 @@
         },
         {
             "location": "/powershell/powershell/",
-            "text": "Links\n\u00b6\n\n\nSyntax\n\u00b6\n\n\n\n\npowershell basic cheat sheet\n\n\npowershell-ref\n\n\nPowerShell Cheat Sheet\n\n\nawesome-powershell\n\n\n\n\nHashtable\n\u00b6\n\n\n\n\nEverything you wanted to know about hashtables\n\n\n\n\nRessources\n\u00b6\n\n\n\n\njanikvonrotz-awesome-powershell\n\n\nHow to: SnipScripts\n\n\n\n\nVS.Code Settings\n\u00b6\n\n\n\n\nHow To Make Visual Studio Code Look And Behave Like The PowerShell ISE\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nmikefrobbins\n\n\n\n\nOffice 365 Groups\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify\n\n\nhttps://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site\n\n\n\n\nhttps://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/\n\n\n\n\n\n\nhttps://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/\n\n\n\n\n\n\nSharePoint 2016\n\u00b6\n\n\n\n\nhttps://github.com/harbars/PnP-Tools/tree/master/Scripts\n\n\nhttps://github.com/harbars/SPAT16\n\n\n\n\nModules\n\u00b6\n\n\n\n\nhttp://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/\n\n\nhttps://github.com/mikefrobbins/Plaster/tree/master/Template\n\n\n\n\nSlides\n\u00b6\n\n\n\n\nCode & Slides from my Presentations",
+            "text": "Links\n\u00b6\n\n\nSyntax\n\u00b6\n\n\n\n\npowershell basic cheat sheet\n\n\npowershell-ref\n\n\nPowerShell Cheat Sheet\n\n\nawesome-powershell\n\n\n\n\nHashtable\n\u00b6\n\n\n\n\nEverything you wanted to know about hashtables\n\n\n\n\nRessources\n\u00b6\n\n\n\n\njanikvonrotz-awesome-powershell\n\n\nHow to: SnipScripts\n\n\n\n\nVS.Code Settings\n\u00b6\n\n\n\n\nHow To Make Visual Studio Code Look And Behave Like The PowerShell ISE\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nmikefrobbins\n\n\n\n\nOffice 365 Groups\n\u00b6\n\n\n\n\nhttps://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify\n\n\nhttps://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site\n\n\n\n\nhttps://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/\n\n\n\n\n\n\nhttps://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/\n\n\n\n\n\n\nSharePoint 2016\n\u00b6\n\n\n\n\nhttps://github.com/harbars/PnP-Tools/tree/master/Scripts\n\n\nhttps://github.com/harbars/SPAT16\n\n\n\n\nModules\n\u00b6\n\n\n\n\nhttp://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/\n\n\nhttps://github.com/mikefrobbins/Plaster/tree/master/Template\n\n\n\n\nGet-InstalledModule | select name, version\n\n\n\n\nSlides\n\u00b6\n\n\n\n\nCode & Slides from my Presentations",
             "title": "Powershell"
         },
         {
@@ -2337,7 +2337,7 @@
         },
         {
             "location": "/powershell/powershell/#modules",
-            "text": "http://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/  https://github.com/mikefrobbins/Plaster/tree/master/Template",
+            "text": "http://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/  https://github.com/mikefrobbins/Plaster/tree/master/Template   Get-InstalledModule | select name, version",
             "title": "Modules"
         },
         {
@@ -2469,6 +2469,41 @@
             "location": "/powershell/spo-ps/#security",
             "text": "SPO Authentication in Powershell for CSOM when Legacy Authentication is disabled for tenant or Multi Factor Authentication is enabled for user  sharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful   get-sposite   |   ?{ $_ . DenyAddAndCustomizePages   -eq   'Disabled' } \n  ```  ## Ressources  -   [ resources-to-learn-powershell-for-office - 365 ]( https : // absolute-sharepoint . com / 2018 / 03 / resources-to-learn-powershell-for-office - 365 . html )  ## Tenant Configuration  ### Remove Feedback Button  ``` Powershell  Set-SPOTenant   -UserVoiceForFeedbackEnabled : $false",
             "title": "Security"
+        },
+        {
+            "location": "/powershell/teams/",
+            "text": "Teams Powershell\n\u00b6\n\n\n\n\nPowerShell Reference for Office Products\n\n\n\n\nCheck Version\n\u00b6\n\n\nLatest Version\n\n\n\n\nhttps://www.powershellgallery.com/packages/MicrosoftTeams/0.9.6\n\n\n\n\nGet-Module\n \nMicrosoftTeams\n*\n \n-ListAvailable\n \n|\n \nSelect-Object\n \nName\n,\nVersion\n \n|\n \nSort-Object\n \nVersion\n \n-Descending\n\n\n\n\n\nUpdate Module to latest version\n\u00b6\n\n\nUpdate-Module\n \nMicrosoftTeams\n\n\n\n\n\nDelete old version\n\u00b6\n\n\nGet-InstalledModule\n \n-Name\n \n\"MicrosoftTeams\"\n \n-RequiredVersion\n \n0\n.\n9\n.\n0\n \n|\n \nUninstall-Module\n\n\n\n\n\nConnect\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/teams/connect-microsoftteams?view=teams-ps\n\n\n\n\nDisconnect\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/teams/disconnect-microsoftteams?view=teams-ps",
+            "title": "Teams"
+        },
+        {
+            "location": "/powershell/teams/#teams-powershell",
+            "text": "PowerShell Reference for Office Products",
+            "title": "Teams Powershell"
+        },
+        {
+            "location": "/powershell/teams/#check-version",
+            "text": "Latest Version   https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.6   Get-Module   MicrosoftTeams *   -ListAvailable   |   Select-Object   Name , Version   |   Sort-Object   Version   -Descending",
+            "title": "Check Version"
+        },
+        {
+            "location": "/powershell/teams/#update-module-to-latest-version",
+            "text": "Update-Module   MicrosoftTeams",
+            "title": "Update Module to latest version"
+        },
+        {
+            "location": "/powershell/teams/#delete-old-version",
+            "text": "Get-InstalledModule   -Name   \"MicrosoftTeams\"   -RequiredVersion   0 . 9 . 0   |   Uninstall-Module",
+            "title": "Delete old version"
+        },
+        {
+            "location": "/powershell/teams/#connect",
+            "text": "https://docs.microsoft.com/en-us/powershell/module/teams/connect-microsoftteams?view=teams-ps",
+            "title": "Connect"
+        },
+        {
+            "location": "/powershell/teams/#disconnect",
+            "text": "https://docs.microsoft.com/en-us/powershell/module/teams/disconnect-microsoftteams?view=teams-ps",
+            "title": "Disconnect"
         },
         {
             "location": "/tools/dev/",
