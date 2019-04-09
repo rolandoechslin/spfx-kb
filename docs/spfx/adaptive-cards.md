@@ -7,6 +7,7 @@
 ## Samples
 
 - [Teamify with Adaptive Cards and Microsoft Flow](https://mattipaukkonen.com/2019/03/19/teamify-with-adaptive-cards-and-microsoft-flow/)
+- [Using MS Graph API and Adaptive Cards for Search/Render User Details with SPFx solutions](http://www.techwithnakkeeran.com/2019/04/using-ms-graph-api-and-adaptive-cards.html) | [nakkeerann/navspfxsoln](https://github.com/nakkeerann/navspfxsoln)
 
 ## Community Demo
 

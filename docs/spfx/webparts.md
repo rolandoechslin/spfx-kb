@@ -57,10 +57,10 @@
 - <https://github.com/hugoabernier/react-calendar-feed>
 - <https://github.com/aflyen/spfx-webpart-sitesifollow>
 - <https://github.com/aflyen/spfx-extension-fullpagecanvas>
-- <https://rasper87.wordpress.com/2018/07/27/office-ui-fabric-persona-with-skype-for-business-status-integration>
-- <http://www.sharepointtweaks.com/2018/07/spfx-facebook-feed-webpart-with-custom-UI.html>
-- <https://github.com/waldekmastykarz/spfx-react-fabric-trendinginthissite>
-- <https://abdulazizfarooqi.wordpress.com/2018/02/28/employee-directory-with-spfx-reactjs-using-sharepoint-search-rest-api-modern-webpart>
+- [Office UI Fabric Persona with Skype for Business status integration](https://rasper87.wordpress.com/2018/07/27/office-ui-fabric-persona-with-skype-for-business-status-integration)
+- [Facebook Feed webpart with custom UI](http://www.sharepointtweaks.com/2018/07/spfx-facebook-feed-webpart-with-custom-UI.html)
+- [Web Part built using React showing documents trending in the current site](https://github.com/waldekmastykarz/spfx-react-fabric-trendinginthissite)
+- [Employee Directory with SPFX ReactJS Using SharePoint Search Rest Api – Modern Webpart](https://abdulazizfarooqi.wordpress.com/2018/02/28/employee-directory-with-spfx-reactjs-using-sharepoint-search-rest-api-modern-webpart)
 - [Puzzlepart presents the modern flexible Divider web part](https://www.techmikael.com/2018/09/puzzlepart-presents-modern-flexible.html)
 - [Vimeo webpart](https://n8d.at/blog/a-smart-stupid-web-part-consumes-a-third-party-api-through-azure-functions-part-3/)
 - [Filtered Documents webpart](https://github.com/joelfmrodrigues/demos/tree/master/PnP%20Controls/final)
@@ -79,6 +79,7 @@
 - [react-display-hierarchy](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-display-hierarchy)
 - [react-cs-images-suggestion: a SPFX sample webpart using Azure Cognitive Services](http://www.federicoporceddu.com/2019/03/10/react-ai-images-suggestion-a-spfx-sample-webpart-using-azure-cognitive-services)
 - [Share data between SPFx webpart](https://social.technet.microsoft.com/wiki/contents/articles/52725.share-data-between-spfx-webpart.aspx#Download_this_solution)
+- [Office 365 Usage Reports using Microsoft Graph API](https://www.ejazhussain.com/2019/04/07/spfx-office365-reports)
 
 ## External Lib
 
