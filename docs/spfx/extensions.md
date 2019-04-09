@@ -14,8 +14,12 @@
 - [SharePoint Full Page Canvas App](https://github.com/aflyen/spfx-extension-fullpagecanvas)
 - [spfx-appcust-removeFeeback](https://github.com/StfBauer/spfx-appcust-removeFeeback)
 - [React slider field customizer](http://tricky-sharepoint.blogspot.ch/2017/07/sharepoint-framework-extensions-react.html)
-- [SharePoint Framework custom header and footer application customizer extension](https://github.com/dannyjessee/SPFxHeaderFooter)
 - [Check the page display mode from within your SharePoint Framework extensions](https://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions)
+
+## Site footer
+
+- [SharePoint Site Footer](https://docs.microsoft.com/en-us/sharepoint/dev/features/site-footer)
+- [SharePoint Framework custom header and footer application customizer extension](https://github.com/dannyjessee/SPFxHeaderFooter)
 
 ## ListView
 
@@ -23,6 +27,7 @@
 - [SPFX ListView Command Set and Panel](https://ypcode.wordpress.com/2019/01/03/spfx-listview-command-set-and-panel/)
 - [Let users get a simple link to a document or folder](https://jonasbjerke.wordpress.com/2019/01/06/extending-sharepoint-let-users-get-a-regular-link-to-a-document-or-folder/)
 - [Create Modern Page Model with PnP/PnPjs](http://www.federicoporceddu.com/2019/03/16/modern-page-model-with-pnp-pnpjs/)
+- [Create ECB Menu Items](http://www.sharepointpals.com/post/Step-by-Step-Procedure-to-Create-Custom-Context-Menu-in-Edit-Control-Block-Using-SPFx-Extension-in-SharePoint-Modern-Lists)
 
 ## Bots
 

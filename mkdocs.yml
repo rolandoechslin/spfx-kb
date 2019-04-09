@@ -17,6 +17,7 @@ pages:
         - Column-Formating: spfx/column-formating.md
         - Configuration: spfx/configuration.md
         - Communication-Site: spfx/communication-site.md
+        - Dev-Ops: spfx/dev-ops.md
         - Debug: spfx/debug.md
         - Deployment: spfx/deployment.md
         - Delve: spfx/delve.md
@@ -39,6 +40,7 @@ pages:
         - Patterns: spfx/patterns.md
         - Provisioning: spfx/provisioning.md
         - Migration: spfx/migration.md
+        - REST: spfx/rest.md
         - SiteScripts: spfx/sitescripts.md
         - SiteDesign: spfx/sitedesign.md
         - Search: spfx/search.md
@@ -70,6 +72,7 @@ pages:
         - Powershell: powershell/powershell.md
         - PnP-PS: powershell/pnp-ps.md
         - SPO-PS: powershell/spo-ps.md
+        - Teams: powershell/teams.md
     - Tools:
         - Dev: tools/dev.md
         - Powerapps: tools/powerapps.md

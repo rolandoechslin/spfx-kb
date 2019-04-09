@@ -34,6 +34,10 @@
 
 - [Injecting HTML content with PnP PowerShell](https://medium.com/@zaab_it/digging-into-sharepoint-modern-page-text-webpart-8d3f304cd6c0)
 
+## Help / Tutorial WebPart
+
+- [Add in-place scripted tutorials in your SPFx components](https://ypcode.wordpress.com/2019/04/08/add-in-place-scripted-tutorials-in-your-spfx-components/)
+
 ## Samples
 
 - <https://github.com/wobba/spfx4fun/tree/master/react-pageheaderconfigurator>

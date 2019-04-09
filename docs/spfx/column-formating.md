@@ -11,9 +11,12 @@
 
 ## Ressources
 
-- <https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting>
 - <http://www.sharepointing.co.uk/2017/11/10/customise-sharepoint-online-columns-using-json>
 - <http://warner.digital/columnformattingintroduction>
 - http://warner.digital/sharepointcolumnformattinggettingstartedpart1/
 - http://warner.digital/sharepointcolumnformattinggettingstartedpart2/
 - http://warner.digital/sharepointcolumnformattinggettingstartedpart3/
+
+## Samples
+
+-[Show Holidays/Events, with no of days to go using ListView Formatting](https://sharepointhd.wordpress.com/2019/04/07/show-holidays-events-with-no-of-days-to-go-using-listview-formatting/)

@@ -5,6 +5,7 @@
 - [Plan for governance to transform teamwork with Microsoft 365](https://resources.techcommunity.microsoft.com/teamwork-governance/)
 - [How to implement SharePoint Governance](https://sharepointmaven.com/implement-sharepoint-governance)
 - [overview-best-practices-for-managing-how-people-use-your-team-site](https://support.office.com/en-us/article/overview-best-practices-for-managing-how-people-use-your-team-site-95e83c3d-e1b0-4aae-9d08-e94dcaa4942e#__toc259623125)
+- [Naming policy features](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-naming-policy?_lrsc=018aa503-3b80-4738-a978-9d1164b944c8)
 
 ## Information Architecture
 
@@ -29,6 +30,9 @@
 - [Sharing and permissions in the SharePoint modern experience](https://docs.microsoft.com/en-us/sharepoint/sharing-permissions-modern-experience)
 - [How Broken Are Office 365 SharePoint Permissions](https://en.share-gate.com/blog/how-broken-are-office-365-sharepoint-permissions)
 - [Azure AD Internal - GDPR Tool](http://o365blog.com/post/aadinternals/)
+- [Making a real world sharing strategy for SharePoint, OneDrive & Teams](https://www.slideshare.net/dmadelung/making-a-real-world-sharing-strategy-for-sharepoint-onedrive-teams)
+- [A quick guide to secure Office 365_DE.pdf](http://www.sharepointtalk.net/2018/07/a-quick-guide-to-secure-office-365.html)
+- [Coaching your users through the External Sharing Experience](http://www.sharepointtalk.net/2019/01/coaching-your-users-through-external.html)
 
 ## User profile / Delete user
 

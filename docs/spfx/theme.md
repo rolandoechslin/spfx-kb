@@ -1,7 +1,7 @@
 # Theme
 
-- [BRK3090 - Customizing Modern SharePoint Sites: Branding, Site Scripts and Site Designs](https://myignite.techcommunity.microsoft.com/sessions/65682)
 - [How to create a multicolored theme fora modern sharepoint online site](https://laurakokkarinen.com/how-to-create-a-multicolored-theme-for-a-modern-sharepoint-online-site/)
+- [BRK3090 - Customizing Modern SharePoint Sites: Branding, Site Scripts and Site Designs](https://myignite.techcommunity.microsoft.com/sessions/65682)
 - https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-themes
 - http://tricky-sharepoint.blogspot.ch/2017/04/using-sharepoint-themes-colors-in-spfx.html
 - http://sass-lang.com/guideaspx
@@ -28,6 +28,7 @@
 - [Part 2: Dynamic Bundling of Styles](http://warner.digital/spfx-dynamic-styles-part2)
 
 ## CSS Box Model
+
 - [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
 
 ![CSS Box Modell](../assets/images/css-boxing-model.png)
