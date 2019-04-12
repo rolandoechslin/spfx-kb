@@ -7,7 +7,7 @@
 
 ![Demystifying MUI](../assets/sharepoint-language-ui-flow.png)
 
-## Multilingual Intranet
+## Definition Multilingual Intranet
 
 - [MULTILINGUAL AND MODERN SHAREPOINT](https://joannecklein.com/2018/10/05/multilingual-and-modern-sharepoint/)
 - [Building Multilingual SharePoint views using SPFx Field Customizers](https://www.aerieconsulting.com/blog/building-multi-lingual-sharepoint-views)
