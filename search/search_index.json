@@ -1207,7 +1207,7 @@
         },
         {
             "location": "/spfx/rest/",
-            "text": "REST\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nHow the SharePoint REST service works\n\n\nDetermine SharePoint REST service endpoint URIs\n\n\nUse OData query operations in SharePoint REST requests\n\n\nSharePoint & Office 365 REST API Resources\n\n\n\n\nTools\n\u00b6\n\n\n\n\npostman-and-office-365\n\n\nSharePoint REST API Metadata Explorer\n\n\nAnnouncing Microsoft Graph Postman Collections\n\n\nPowerful HTTP and GraphQL tool belt\n\n\n\n\nTesting\n\u00b6\n\n\nTesting in chrome console\n\n\nfetch\n(\n`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$select=Id,Title,gwRequestSiteAlias&$orderby=Id desc`\n,\n \n{\n\n    \nheaders\n:\n \n{\n\n        \nAccept\n:\n \n'application/json;odata=verbose;'\n\n    \n}\n\n\n}).\nthen\n(\nres\n \n=>\n \nres\n.\njson\n().\nthen\n(\njson\n \n=>\n \n{\n\n    \njson\n.\nd\n.\nresults\n.\nforEach\n(\nitem\n \n=>\n \n{\n\n        \nconsole\n.\nlog\n(\n`item: \n${\nitem\n.\nTitle\n}\n`\n);\n\n    \n});\n\n\n}));",
+            "text": "REST\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nHow the SharePoint REST service works\n\n\nDetermine SharePoint REST service endpoint URIs\n\n\nUse OData query operations in SharePoint REST requests\n\n\nSharePoint & Office 365 REST API Resources\n\n\nUsing REST API For Selecting, Filtering, Sorting And Pagination in SharePoint List\n\n\n\n\nTools\n\u00b6\n\n\n\n\npostman-and-office-365\n\n\nSharePoint REST API Metadata Explorer\n\n\nAnnouncing Microsoft Graph Postman Collections\n\n\nPowerful HTTP and GraphQL tool belt\n\n\n\n\nTesting\n\u00b6\n\n\nTesting in chrome console\n\n\nfetch\n(\n`/sites/gridworks/_api/web/lists/getbytitle('SiteRequestsQueue')/items?$select=Id,Title,gwRequestSiteAlias&$orderby=Id desc`\n,\n \n{\n\n    \nheaders\n:\n \n{\n\n        \nAccept\n:\n \n'application/json;odata=verbose;'\n\n    \n}\n\n\n}).\nthen\n(\nres\n \n=>\n \nres\n.\njson\n().\nthen\n(\njson\n \n=>\n \n{\n\n    \njson\n.\nd\n.\nresults\n.\nforEach\n(\nitem\n \n=>\n \n{\n\n        \nconsole\n.\nlog\n(\n`item: \n${\nitem\n.\nTitle\n}\n`\n);\n\n    \n});\n\n\n}));",
             "title": "REST"
         },
         {
@@ -1217,7 +1217,7 @@
         },
         {
             "location": "/spfx/rest/#reference",
-            "text": "How the SharePoint REST service works  Determine SharePoint REST service endpoint URIs  Use OData query operations in SharePoint REST requests  SharePoint & Office 365 REST API Resources",
+            "text": "How the SharePoint REST service works  Determine SharePoint REST service endpoint URIs  Use OData query operations in SharePoint REST requests  SharePoint & Office 365 REST API Resources  Using REST API For Selecting, Filtering, Sorting And Pagination in SharePoint List",
             "title": "Reference"
         },
         {
