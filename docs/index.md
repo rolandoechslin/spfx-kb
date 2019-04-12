@@ -16,6 +16,11 @@
 - [Microsoft Learning Module](https://docs.microsoft.com/en-us/learn/browse/?utm_source=flow-sidebar&utm_medium=web)
 - [Azure Edu DevCamp](https://github.com/Microsoft/edu-devcamp)
 
+## DEV-Tenant
+
+- [Welcome to the Office 365 Developer Program](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program)
+- [New renewable Office 365 developer subscriptions launch on April 3rd](https://developer.microsoft.com/en-us/graph/blogs/new-renewable-office-365-developer-subscriptions-launch-on-april-3rd/)
+
 ## Roadmap
 
 - [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=SharePoint%2CIn%20Development)

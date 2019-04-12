@@ -72,7 +72,6 @@
 - [Google search web part](https://github.com/CloudDesignBox/cdbGoogleSearchSPFxWebPart)
 - [Promoted Links Web Part](https://github.com/CloudDesignBox/cdb-promoted-links)
 - [List Pivot Table – WebPart](https://github.com/joaojmendes/React-List-PivotTable-WebPart)
-- [SPFX Image Gallery with filtering](https://www.ejazhussain.com/2019/02/08/spfx-image-gallery/)
 - [React Flow Diagram Web Parts](https://github.com/hugoabernier/react-diagram-webparts)
 - [Fabric UI React GroupedLists inside Pivot Tabs](https://spmaestro.com/fabric-ui-react-groupedlists-inside-pivot-tabs/)
 - [React Tree Organization Web Part](https://github.com/joaojmendes/React-Tree-Organization-Chart)
@@ -80,6 +79,10 @@
 - [react-cs-images-suggestion: a SPFX sample webpart using Azure Cognitive Services](http://www.federicoporceddu.com/2019/03/10/react-ai-images-suggestion-a-spfx-sample-webpart-using-azure-cognitive-services)
 - [Share data between SPFx webpart](https://social.technet.microsoft.com/wiki/contents/articles/52725.share-data-between-spfx-webpart.aspx#Download_this_solution)
 - [Office 365 Usage Reports using Microsoft Graph API](https://www.ejazhussain.com/2019/04/07/spfx-office365-reports)
+
+## Filtering WebParts
+
+- [SPFX Image Gallery with filtering](https://www.ejazhussain.com/2019/02/08/spfx-image-gallery/)
 
 ## External Lib
 
