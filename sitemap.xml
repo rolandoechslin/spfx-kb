@@ -222,6 +222,12 @@
     </url>
         
     <url>
+     <loc>/spfx/recipes/</loc>
+     <lastmod>2019-04-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/spfx/sitescripts/</loc>
      <lastmod>2019-04-13</lastmod>
      <changefreq>daily</changefreq>
