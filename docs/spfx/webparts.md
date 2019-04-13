@@ -152,3 +152,21 @@
 ## Wiki Pages
 
 - [Create a TOC for your SharePoint Wiki pages](https://blog.lsonline.fr/2018/12/23/create-a-dynamic-table-of-content-for-your-sharepoint-wiki-pages/)
+
+## Replacing the out of the box web part
+
+- [Replacing the out of the box divider web part with this one](https://github.com/Puzzlepart/spfx-solutions/tree/master/Pzl.Part.Divider)
+
+```Powershell
+Connect-PnPOnline https://tenantname-admin.sharepoint.com
+$ctx = Get-PnPContext
+$tenant = New-Object -TypeName "Microsoft.Online.SharePoint.TenantAdministration.Tenant" -ArgumentList $ctx
+# Get existing list of blocked web parts
+$ids = @($tenant.DisabledWebPartIds)
+# Add the id for the out of the box Divider web part
+$ids += [Guid]'2161a1c6-db61-4731-b97c-3cdb303f7cbb'
+$ids = $ids | Where-Object {$_}
+$tenant.DisabledWebPartIds = $ids
+$tenant.Update()
+Invoke-PnPQuery
+```
