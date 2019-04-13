@@ -41,6 +41,7 @@ pages:
         - Provisioning: spfx/provisioning.md
         - Migration: spfx/migration.md
         - REST: spfx/rest.md
+        - Recipes: spfx/recipes.md 
         - SiteScripts: spfx/sitescripts.md
         - SiteDesign: spfx/sitedesign.md
         - Search: spfx/search.md
