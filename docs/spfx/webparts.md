@@ -13,6 +13,7 @@
 - [Web part properties in the SharePoint Framework – part 2](http://www.sharepointnutsandbolts.com/2017/02/sharepoint-framework-web-part-properties-button-toggle-slider.html)
 - [Creating a property pane for editing items in your SPFx web parts](http://julieturner.net/2017/07/creating-a-property-pane-for-editing-items-in-your-spfx-web-parts)
 - [Understanding manifest.js file in spx project](https://iamguptarishi.wordpress.com/2019/01/07/decoding-manifest-js-file-in-spx-webpart-solution/)
+- [Restrict Permissions on Editing SharePoint SPFx Property Pane Configurations](http://www.techwithnakkeeran.com/2019/04/restrict-permissions-on-editing.html)
 
 ## spPageContextInfo
 
