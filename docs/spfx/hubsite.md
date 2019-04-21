@@ -24,6 +24,10 @@
 - [security-trimmed-hub-navigation](http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation)
 - [manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell](https://mattipaukkonen.com/2018/08/22/manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell)
 
+## Tips
+
+-[Introducing the idea of Archive Hub Sites](https://n8d.at/blog/introducing-the-idea-of-archive-hub-sites/)
+
 ```Powershell
 cls
 
