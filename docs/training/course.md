@@ -1,5 +1,9 @@
 # Training
 
+## O365
+
+- [Customize the Learning Experience](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview)
+
 ## News
 
 - http://icansharepoint.com/how-to-stay-up-to-date-with-office-365/
