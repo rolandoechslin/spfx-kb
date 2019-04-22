@@ -2,8 +2,12 @@
 
 ## Intro
 
--[SharePoint Library Components – Introduction](http://warner.digital/sharepoint-library-components-introduction/)
+- [SharePoint Library Components – Introduction](http://warner.digital/sharepoint-library-components-introduction/)
 - [Community Call Demo - Introduction on using the library component in SharePoint Framework solutions](https://www.youtube.com/watch?v=Psvo1FiMBPw&feature=youtu.be)
+
+## Service Locator pattern
+
+- [Service Locator pattern in SPFx: Using Service Scopes](https://www.vrdmn.com/2019/03/using-service-scopes-to-decouple.html)
 
 ## Tips
 
