@@ -48,6 +48,7 @@
 
 - [Tracking code in Tenant Wide Extensions list](http://www.expiscornovus.com/2019/01/02/tracking-code-in-tenant-wide-extensions-list/)
 - [SPFx-Google-Analytics](https://github.com/joaoferreira/SPFx-Google-Analytics/)
+- [How to add Google Tag Manager to modern SharePoint](https://sharepoint.handsontek.net/2019/04/21/how-to-add-google-tag-manager-globally-to-sharepoint-online/)
 
 ## Inject CSS
 
