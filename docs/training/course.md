@@ -4,6 +4,10 @@
 
 - [Customize the Learning Experience](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview)
 
+## MS-900
+
+- [Microsoft 365 Fundamentals - Cloud deployment models](https://knowledge-junction.com/2019/04/22/m365-certification-preparing-ms-900-microsoft-365-fundamentals-study-material-cloud-deployment-models-understand-cloud-concepts15-20/)
+
 ## News
 
 - http://icansharepoint.com/how-to-stay-up-to-date-with-office-365/
