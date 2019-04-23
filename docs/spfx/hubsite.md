@@ -81,6 +81,7 @@ Write-Host "All Done"
 ## Search API
 
 - [working-with-hub-sites-and-search-api](https://www.techmikael.com/2018/04/working-with-hub-sites-and-search-api.html)
+- [How to get all sites](https://sharepoint.stackexchange.com/questions/261222/spfx-and-pnp-sp-how-to-get-all-sites?atw=1)
 
 ```Powershell
  # List all sites being a hub site or associate to a hub site
