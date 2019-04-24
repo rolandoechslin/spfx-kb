@@ -37,6 +37,7 @@
 
 ## Design Guideline
 
+- [sharepoint look book](https://sharepointlookbook.azurewebsites.net/)
 - [Official product colors for Microsoft apps](https://fluentfabric.azurewebsites.net/#/color/products)
 
 ## Code Review Checklist
