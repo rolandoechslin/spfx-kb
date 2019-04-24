@@ -1645,6 +1645,7 @@
 <h2 id="search-api">Search API<a class="headerlink" href="#search-api" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://www.techmikael.com/2018/04/working-with-hub-sites-and-search-api.html">working-with-hub-sites-and-search-api</a></li>
+<li><a href="https://sharepoint.stackexchange.com/questions/261222/spfx-and-pnp-sp-how-to-get-all-sites?atw=1">How to get all sites</a></li>
 </ul>
 <div class="codehilite"><pre><span></span> <span class="c"># List all sites being a hub site or associate to a hub site</span>
 <span class="nv">$results</span> <span class="p">=</span> <span class="n">Submit-PnPSearchQuery</span> <span class="n">-Query</span> <span class="s1">&#39;contentclass=sts_site&#39;</span> <span class="n">-RefinementFilters</span> <span class="s1">&#39;departmentid:string(&quot;{*&quot;,linguistics=off)&#39;</span> <span class="n">-TrimDuplicates</span> <span class="nv">$false</span> <span class="n">-SelectProperties</span> <span class="p">@(</span><span class="s2">&quot;Title&quot;</span><span class="p">,</span><span class="s2">&quot;Path&quot;</span><span class="p">,</span><span class="s2">&quot;DepartmentId&quot;</span><span class="p">,</span><span class="s2">&quot;SiteId&quot;</span><span class="p">)</span> <span class="n">-All</span> <span class="n">-RelevantResults</span>
