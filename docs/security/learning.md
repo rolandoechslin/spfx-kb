@@ -23,6 +23,10 @@
 
 - <https://blogs.msdn.microsoft.com/mvpawardprogram/2018/05/15/powershell-windows-firewall/>
 
+## Sharepoint OnPrem
+
+- [Penetration Testing SharePoint](https://www.pluralsight.com/courses/penetration-testing-sharepoint)
+
 ## Office 365
 
 - <https://resources.techcommunity.microsoft.com/security-compliance-and-administration/>
