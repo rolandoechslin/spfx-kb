@@ -15,6 +15,10 @@
 - [Understanding manifest.js file in spx project](https://iamguptarishi.wordpress.com/2019/01/07/decoding-manifest-js-file-in-spx-webpart-solution/)
 - [Restrict Permissions on Editing SharePoint SPFx Property Pane Configurations](http://www.techwithnakkeeran.com/2019/04/restrict-permissions-on-editing.html)
 
+## Edit Mode
+
+- [Trigger the edit page experience from your SharePoint Framework solution](https://www.eliostruyf.com/trigger-the-edit-page-experience-from-your-sharepoint-framework-solution/)
+
 ## spPageContextInfo
 
 - [Access _spPageContextInfo details in SharePoint Framework](https://medium.com/@rjesh/access-sppagecontextinfo-details-in-sharepoint-framework-8daa3479bf27)
