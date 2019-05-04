@@ -28,6 +28,7 @@
 - [control office365 group creation](https://www.sharepointnutsandbolts.com/2018/04/control-office-365-group-creation.html)
 - [Building interactive feedback analysis system with MS Forms, MS Flow, Power BI and SharePoint Online](https://spblog.net/post/2019/01/29/building-interactive-feedback-analysis-system-with-ms-forms-ms-flow-power-bi-and-sharepoint-online)
 - [RUN A FLOW AS PART OF A SHAREPOINT SITE DESIGN](https://wonderlaura.com/2019/03/14/run-a-flow-as-part-of-a-sharepoint-site-design/)
+- [Creating a Formatted Identifier in Flow](https://mikehatheway.com/2019/05/03/creating-a-formatted-identifier-in-flow/)
 
 ## Copy / Move Documents
 
