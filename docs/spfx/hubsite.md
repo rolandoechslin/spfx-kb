@@ -23,6 +23,7 @@
 - [Security Trimmed Hub Site Navigation Updates!](https://beaucameron.net/2018/04/17/security-trimmed-hub-site-navigation-updates/)
 - [security-trimmed-hub-navigation](http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation)
 - [manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell](https://mattipaukkonen.com/2018/08/22/manage-sharepoint-communication-sites-megamenu-with-csom-and-powershell)
+- [6 tips to get mega value from the new megamenu navigation for SharePoint](https://www.nngroup.com/articles/mega-menus-work-well/)
 
 ## Tips
 
