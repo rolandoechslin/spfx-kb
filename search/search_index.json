@@ -2347,7 +2347,7 @@
         },
         {
             "location": "/training/course/",
-            "text": "Training\n\u00b6\n\n\nO365\n\u00b6\n\n\n\n\nCustomize the Learning Experience\n\n\n\n\nMS-900\n\u00b6\n\n\n\n\nMicrosoft 365 Fundamentals - Cloud deployment models\n\n\n\n\nNews\n\u00b6\n\n\n\n\nhttp://icansharepoint.com/how-to-stay-up-to-date-with-office-365/\n\n\n\n\nProgramming\n\u00b6\n\n\n\n\nhttps://guide.freecodecamp.org\n\n\n\n\nTypescript\n\u00b6\n\n\nOnline course\n\u00b6\n\n\n\n\nPluralsight - sharepoint-framework-tooling\n\n\n\n\nLearning / Tutorials\n\u00b6\n\n\n\n\nOfficeDev: TrainingContent\n\n\nsp-dev-docs\n\n\ndev-office.com: getting-started-with-sharepoint-framework-tutorials\n\n\ntechcommunity: Hidden-gems-at-Ignite-A-conference-guide-from-the-SharePoint",
+            "text": "Training\n\u00b6\n\n\nO365\n\u00b6\n\n\n\n\nCustomize the Learning Experience\n\n\n\n\nMS-Certification\n\u00b6\n\n\n\n\nAzure Solutions Architect vs. Azure Administrator\n\n\nMicrosoft 365 Fundamentals - Cloud deployment models\n\n\n\n\nNews\n\u00b6\n\n\n\n\nhttp://icansharepoint.com/how-to-stay-up-to-date-with-office-365/\n\n\n\n\nProgramming\n\u00b6\n\n\n\n\nhttps://guide.freecodecamp.org\n\n\n\n\nTypescript\n\u00b6\n\n\nOnline course\n\u00b6\n\n\n\n\nPluralsight - sharepoint-framework-tooling\n\n\n\n\nLearning / Tutorials\n\u00b6\n\n\n\n\nOfficeDev: TrainingContent\n\n\nsp-dev-docs\n\n\ndev-office.com: getting-started-with-sharepoint-framework-tutorials\n\n\ntechcommunity: Hidden-gems-at-Ignite-A-conference-guide-from-the-SharePoint",
             "title": "Course"
         },
         {
@@ -2361,9 +2361,9 @@
             "title": "O365"
         },
         {
-            "location": "/training/course/#ms-900",
-            "text": "Microsoft 365 Fundamentals - Cloud deployment models",
-            "title": "MS-900"
+            "location": "/training/course/#ms-certification",
+            "text": "Azure Solutions Architect vs. Azure Administrator  Microsoft 365 Fundamentals - Cloud deployment models",
+            "title": "MS-Certification"
         },
         {
             "location": "/training/course/#news",
