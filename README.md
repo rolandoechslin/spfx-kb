@@ -1,4 +1,5 @@
-# spfx-kb
+# SPFx-KB
+
 Knowledge base for SharePoint Framework (SPFx) snippets and links.
 https://rolandoechslin.github.io/spfx-kb/
 
@@ -10,7 +11,7 @@ https://rolandoechslin.github.io/spfx-kb/
 
 ## Project layout
 
-```
+```Powershell
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
@@ -18,11 +19,13 @@ https://rolandoechslin.github.io/spfx-kb/
 ```
 
 ## Installation
+
 choco install mkdocs
 pip install pymdown-extensions
 pip install mkdocs-material
 
 ## Build
+
 mkdocs build
 
 ## Deployment
