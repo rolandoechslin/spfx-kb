@@ -24,6 +24,10 @@
 - [CONTENT TYPE FILTERS IN MODERN SHAREPOINT](https://joannecklein.com/2018/09/12/content-type-filters-in-modern-sharepoint)
 - [MULTIPLE LIBRARIES, FOLDERS OR METADATA](https://joannecklein.com/2017/03/22/multiple-libraries-folders-or-metadata)
 
+## ImageMap
+
+-[Create Simple ImageMap in SPO](https://tracyvanderschyff.com/2019/05/09/how-to-create-image-maps-with-hotspots-in-sharepoint-online/)
+
 ## Permission
 
 - [28 REASONS WHY MODERN SHAREPOINT ONLINE SITE PERMISSIONS ARE A HOT MESS](http://www.letscollaborate.co.za/28-reasons-why-modern-sharepoint-online-site-permissions-are-a-hot-mess)
