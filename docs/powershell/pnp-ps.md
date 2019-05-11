@@ -13,7 +13,11 @@
 - [Latest Release Version](https://github.com/SharePoint/PnP-PowerShell/releases/latest)
 - [Change Log](https://github.com/SharePoint/PnP-PowerShell/blob/master/CHANGELOG.md)
 
-## Check 
+## Check
+
+```Powershell
+Get-InstalledModule | foreach { $b = (find-module $_.name).version ; if ($b -ne $_.version) { Write-host "$($_.name) has an update from $($_.version) to $b" } }
+```
 
 ```Powershell
 Get-Module SharePointPnPPowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending
@@ -22,13 +26,13 @@ Get-Module SharePointPnPPowerShell* -ListAvailable | Select-Object Name,Version 
 ## Update Module to latest version
 
 ```Powershell
-Update-Module SharePointPnPPowerShell*  
+Update-Module SharePointPnPPowerShell*
 ```
 
 ## Delete old version
 
 ```Powershell
-Get-InstalledModule -Name "SharePointPnPPowerShellOnline" -RequiredVersion 2.24.1803.0 | Uninstall-Module
+Get-InstalledModule -Name "SharePointPnPPowerShellOnline" -RequiredVersion 3.8.1904.0 | Uninstall-Module
 ```
 
 ## Install specifix version
