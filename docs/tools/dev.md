@@ -18,6 +18,7 @@
 ## PowerShell Module Installs
 
 - [Office 365 PowerShell Module Installs](https://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=826)
+- [O365 PowerShell Module Installs](https://albandrodsmemory.wordpress.com/2019/05/10/o365-powershell-module-installs/)
 
 ## Translation
 
