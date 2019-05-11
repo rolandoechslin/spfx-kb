@@ -1690,15 +1690,18 @@
 <li><a href="https://github.com/SharePoint/PnP-PowerShell/blob/master/CHANGELOG.md">Change Log</a></li>
 </ul>
 <h2 id="check">Check<a class="headerlink" href="#check" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><span class="nb">Get-InstalledModule</span> <span class="p">|</span> <span class="k">foreach</span> <span class="p">{</span> <span class="nv">$b</span> <span class="p">=</span> <span class="p">(</span><span class="n">find-module</span> <span class="nv">$_</span><span class="p">.</span><span class="n">name</span><span class="p">).</span><span class="n">version</span> <span class="p">;</span> <span class="k">if</span> <span class="p">(</span><span class="nv">$b</span> <span class="o">-ne</span> <span class="nv">$_</span><span class="p">.</span><span class="n">version</span><span class="p">)</span> <span class="p">{</span> <span class="nb">Write-host</span> <span class="s2">&quot;</span><span class="p">$(</span><span class="nv">$_</span><span class="p">.</span><span class="n">name</span><span class="p">)</span><span class="s2"> has an update from </span><span class="p">$(</span><span class="nv">$_</span><span class="p">.</span><span class="n">version</span><span class="p">)</span><span class="s2"> to $b&quot;</span> <span class="p">}</span> <span class="p">}</span>
+</pre></div>
+
 <div class="codehilite"><pre><span></span><span class="nb">Get-Module</span> <span class="n">SharePointPnPPowerShell</span><span class="p">*</span> <span class="n">-ListAvailable</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span><span class="p">,</span><span class="n">Version</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">Version</span> <span class="n">-Descending</span>
 </pre></div>
 
 <h2 id="update-module-to-latest-version">Update Module to latest version<a class="headerlink" href="#update-module-to-latest-version" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="nb">Update-Module</span> <span class="n">SharePointPnPPowerShell</span><span class="p">*</span>  
+<div class="codehilite"><pre><span></span><span class="nb">Update-Module</span> <span class="n">SharePointPnPPowerShell</span><span class="p">*</span>
 </pre></div>
 
 <h2 id="delete-old-version">Delete old version<a class="headerlink" href="#delete-old-version" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="nb">Get-InstalledModule</span> <span class="n">-Name</span> <span class="s2">&quot;SharePointPnPPowerShellOnline&quot;</span> <span class="n">-RequiredVersion</span> <span class="n">2</span><span class="p">.</span><span class="n">24</span><span class="p">.</span><span class="n">1803</span><span class="p">.</span><span class="n">0</span> <span class="p">|</span> <span class="n">Uninstall-Module</span>
+<div class="codehilite"><pre><span></span><span class="nb">Get-InstalledModule</span> <span class="n">-Name</span> <span class="s2">&quot;SharePointPnPPowerShellOnline&quot;</span> <span class="n">-RequiredVersion</span> <span class="n">3</span><span class="p">.</span><span class="n">8</span><span class="p">.</span><span class="n">1904</span><span class="p">.</span><span class="n">0</span> <span class="p">|</span> <span class="n">Uninstall-Module</span>
 </pre></div>
 
 <h2 id="install-specifix-version">Install specifix version<a class="headerlink" href="#install-specifix-version" title="Permanent link">&para;</a></h2>
