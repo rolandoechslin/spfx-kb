@@ -85,6 +85,7 @@
 - [Share data between SPFx webpart](https://social.technet.microsoft.com/wiki/contents/articles/52725.share-data-between-spfx-webpart.aspx#Download_this_solution)
 - [Office 365 Usage Reports using Microsoft Graph API](https://www.ejazhussain.com/2019/04/07/spfx-office365-reports)
 - [Group People Web Part](https://blog.lsonline.fr/2019/04/20/sharepoint-framework-group-people-web-part/) | [gitlab.lsonline.fr](https://gitlab.lsonline.fr/SharePoint/sp-dev-fx-webparts/group-people/)
+- [How To Create/ Generate QRcode In SPFx Web Part](https://www.c-sharpcorner.com/article/how-to-create-generate-qrcode-in-spfx-web-part/)
 
 ## Filtering WebParts
 
