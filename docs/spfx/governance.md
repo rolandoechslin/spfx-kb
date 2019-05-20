@@ -58,6 +58,7 @@
 
 ## Backup
 
+- [Does Office 365 require a backup solution?](https://blog.ioz.ch/backup-office-365/)
 - [Does Office 365, hosted by Microsoft requires a data backup solution](https://www.sharepointeurope.com/office-365-hosted-microsoft-requires-data-backup-solution)
 
 ## Audit/Usage Reports
