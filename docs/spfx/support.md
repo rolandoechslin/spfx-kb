@@ -1,5 +1,9 @@
 # Support
 
+## Sharepoint IDs
+
+- [Sharepoint 2019 Feature Ids](https://kolislab.com/sharepoint-2019-feature-ids/)
+
 ## Admin O365
 
 - http://aka.ms/Office-Developer (alle wichtigen Office DEV Links)
