@@ -30,6 +30,10 @@
 - <https://github.com/Puzzlepart/prosjektportalen-program/tree/dev/.scripts>
 - <https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/convert-pnpfoldertoprovisioningtemplate?view=sharepoint-ps>
 
+## Create Page-Templates
+
+- [Creating modern page templates](https://www.techmikael.com/2019/05/how-to-creating-modern-page-templates.html)
+
 ## Flow / Azure Function
 
 - [O365ModernProvisioning](https://github.com/giuleon/O365ModernProvisioning)
