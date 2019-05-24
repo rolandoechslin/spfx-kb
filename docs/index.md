@@ -58,13 +58,13 @@
 
 - [Logging in to Office 365](https://pnp.github.io/office365-cli/user-guide/connecting-office-365/)
 
-```ps
+```Powershell
 o365 spo login https://<tenant>-admin.sharepoint.com
 ```
 
 - [spo serviceprincipal grant add](https://pnp.github.io/office365-cli/cmd/spo/serviceprincipal/serviceprincipal-grant-add/)
 
-```ps
+```Powershell
 spo serviceprincipal grant add --resource 'Microsoft Graph' --scope 'Mail.Read'
 ```
 
@@ -99,21 +99,21 @@ with pnpm manager
 
 - [Using pnpm with SPFx](https://joelfmrodrigues.wordpress.com/2018/10/31/using-pnpm-with-spfx/)
 
-```ps
+```Powershell
 yo @microsoft/sharepoint –package-manager pnpm
 ```
 
-```ps
+```Powershell
 pnpm i tslint@5.9.1 -DE
 ```
 
-```ps
+```Powershell
 pnpm i typescript@2.4.2 -DE
 ```
 
 ## Check Package Version
 
-```ps
+```Powershell
 node –v
 npm –v
 yo --generators
@@ -126,20 +126,20 @@ tsd --version
 
 Init local repo
 
-```ps
+```Powershell
 git init
 ```
 
 Add all Files to local repo
 
-```ps
+```Powershell
 git add -A
 git commit -m "init repo"
 ```
 
 Show last commit
 
-```ps
+```Powershell
 git show --name-only
 ```
 
@@ -148,7 +148,7 @@ git show --name-only
 
 ## Development(local workbench)
 
-```ps
+```Powershell
 gulp serve
 ```
 
@@ -158,7 +158,7 @@ https://localhost:4321/temp/workbench.html
 
 ## Development(online workbench)
 
-```ps
+```Powershell
 gulp serve --nobrowser
 ```
 
@@ -168,25 +168,25 @@ gulp serve --nobrowser
 
 ## Prepare Deployment Solution
 
-```ps
+```Powershell
 gulp clean
 ```
 
-```ps
+```Powershell
 gulp build --ship
 ```
 
-```ps
+```Powershell
 gulp bundle --ship
 ```
 
-```ps
+```Powershell
 gulp package-solution --ship
 ```
 
 ## Debug in browser
 
-```ps
+```Powershell
 gulp serve
 ```
 
@@ -212,7 +212,7 @@ Pre Steps
 
 Steps
 
-```ps
+```Powershell
 gulp serve --nobrowser
 ```
 
@@ -247,19 +247,19 @@ npm version patch
 - <https://pnp.github.io/pnpjs/>
 - <https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide>
 
-```ps
+```Powershell
 npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
 ```
 
 - <https://sharepoint.github.io/sp-dev-fx-controls-react/>
 
-```ps
+```Powershell
 npm install @pnp/spfx-controls-react@latest --save --save-exact
 ```
 
 - <https://sharepoint.github.io/sp-dev-fx-property-controls/>
 
-```ps
+```Powershell
 npm install @pnp/spfx-property-controls@latest --save --save-exact
 ```
 
@@ -280,7 +280,7 @@ npm install @pnp/spfx-property-controls@latest --save --save-exact
 
 or by using the "locale" command argument
 
-```ps
+```Powershell
 gulp serve --locale=de-de
 ```
 
@@ -592,13 +592,13 @@ Create Sample
 - [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter)
 - [React app with an Office UI Fabric React DocumentCard](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App)
 
-```ps
+```Powershell
 create-react-app demo-office-fabric-react-ts --scripts-version=react-scripts-ts
 ```
 
 init git
 
-```ps
+```Powershell
 git init
 git add .
 git commit -m "Initial commit."
@@ -609,7 +609,7 @@ add office fabric react
 - [office-ui-fabric-react@5.131.0](https://github.com/SharePoint/sp-dev-docs/issues/2936)
 - [Use Office UI Fabric React components in your SharePoint client-side web part](https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/web-parts/get-started/use-fabric-react-components.md#create-a-new-web-part-project)
 
-```ps
+```Powershell
 npm install office-ui-fabric-react@5.132.0 --save
 ```
 
@@ -621,15 +621,15 @@ npm install office-ui-fabric-react@5.132.0 --save
 
 - [Use the Yeoman SharePoint generator](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/scaffolding-projects-using-yeoman-sharepoint-generator)
 
-```ps
+```Powershell
 npm list -g --depth=0
 ```
 
-```ps
+```Powershell
 npm outdated --global
 ```
 
-```ps
+```Powershell
 npm install @microsoft/generator-sharepoint -g
 ```
 
@@ -644,7 +644,7 @@ npm install @microsoft/generator-sharepoint -g
 
 Latest version
 
-```ps
+```Powershell
 npm i -g @pnp/office365-cli@next
 ```
 
@@ -652,7 +652,7 @@ Create report for upgrade
 
 - [spfx project upgrade](https://pnp.github.io/office365-cli/cmd/spfx/project/project-upgrade/)
 
-```ps
+```Powershell
 o365 spfx project upgrade --output md > report.md
 ```
 

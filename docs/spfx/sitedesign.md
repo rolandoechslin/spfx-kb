@@ -26,3 +26,31 @@
 ## Sample
 
 - [Modern SharePoint site creation with site designs and REST](https://simonagren.github.io/sites-sitedesign-rest/)
+
+## Reports
+
+Success runs
+
+```Powershell
+Get-SPOSite -Limit All | ForEach-Object {  
+  $failedRuns = Get-SPOSiteDesignRun $_.Url | Get-SPOSiteDesignRunStatus | Where-Object {$_.OutcomeCode -ne "Success"};
+ 
+  if($failedRuns) {
+    Write-Output $_.Url
+    $failedRuns
+  }
+}
+```
+
+Failed runs
+
+```Powershell
+Get-SPOSite -Limit All | ForEach-Object {  
+  $failedRuns = Get-SPOSiteDesignRun $_.Url | Get-SPOSiteDesignRunStatus | Where-Object {$_.OutcomeCode -eq "Faulure"};
+ 
+  if($failedRuns) {
+    Write-Output $_.Url
+    $failedRuns
+  }
+}
+```
