@@ -1,3 +1,5 @@
+# https://techcommunity.microsoft.com/t5/SharePoint/SharePoint-How-to-create-a-set-of-Modern-Pages-from-CSV-list/td-p/274395
+
 $HelpAndQAUrl = "https://[YourTenant].sharepoint.com/sites/SiteCollection/helpsite"
 $CSVFilePath = "C:\Business-CheckList.csv"
 
