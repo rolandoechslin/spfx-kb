@@ -16,6 +16,11 @@
 - [How to handle table component of Office UI Fabric](https://n8d.at/blog/how-to-handle-table-component-of-office-ui-fabric/)
 - [Office UI Fabric Table Example](https://gist.github.com/andrewconnell/18477c10edb7f9a32198)
 
+## Responsive Tips
+
+- [How to test responsiveness and user experience for SPFx web parts properly](https://n8d.at/blog/how-to-test-responsiveness-and-user-experience-for-spfx-web-parts-properly/)
+- [Simulate Mobile Devices with Device Mode in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/device-mode/)
+
 ## CSS Tips
 
 - [CodyHouse is a library of HTML, CSS, JS nuggets](https://codyhouse.co)
