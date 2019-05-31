@@ -2188,13 +2188,13 @@
 <p><a href="https://pnp.github.io/office365-cli/user-guide/connecting-office-365/">Logging in to Office 365</a></p>
 </li>
 </ul>
-<div class="codehilite"><pre><span></span>o365 spo login https://&lt;tenant&gt;-admin.sharepoint.com
+<div class="codehilite"><pre><span></span><span class="n">o365</span> <span class="n">spo</span> <span class="n">login</span> <span class="n">https</span><span class="err">:</span><span class="p">//&lt;</span><span class="n">tenant</span><span class="p">&gt;</span><span class="n">-admin</span><span class="p">.</span><span class="n">sharepoint</span><span class="p">.</span><span class="n">com</span>
 </pre></div>
 
 <ul>
 <li><a href="https://pnp.github.io/office365-cli/cmd/spo/serviceprincipal/serviceprincipal-grant-add/">spo serviceprincipal grant add</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>spo serviceprincipal grant add --resource &#39;Microsoft Graph&#39; --scope &#39;Mail.Read&#39;
+<div class="codehilite"><pre><span></span><span class="n">spo</span> <span class="n">serviceprincipal</span> <span class="n">grant</span> <span class="n">add</span> <span class="p">-</span><span class="n">-resource</span> <span class="s1">&#39;Microsoft Graph&#39;</span> <span class="p">-</span><span class="n">-scope</span> <span class="s1">&#39;Mail.Read&#39;</span>
 </pre></div>
 
 <h2 id="content-style-guide">Content Style Guide<a class="headerlink" href="#content-style-guide" title="Permanent link">&para;</a></h2>
@@ -2228,36 +2228,36 @@
 <ul>
 <li><a href="https://joelfmrodrigues.wordpress.com/2018/10/31/using-pnpm-with-spfx/">Using pnpm with SPFx</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>yo @microsoft/sharepoint –package-manager pnpm
+<div class="codehilite"><pre><span></span><span class="n">yo</span> <span class="nv">@microsoft</span><span class="p">/</span><span class="n">sharepoint</span> <span class="err">–</span><span class="n">package-manager</span> <span class="n">pnpm</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>pnpm i tslint@5.9.1 -DE
+<div class="codehilite"><pre><span></span><span class="n">pnpm</span> <span class="n">i</span> <span class="n">tslint</span><span class="nv">@5</span><span class="p">.</span><span class="n">9</span><span class="p">.</span><span class="n">1</span> <span class="n">-DE</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>pnpm i typescript@2.4.2 -DE
+<div class="codehilite"><pre><span></span><span class="n">pnpm</span> <span class="n">i</span> <span class="n">typescript</span><span class="nv">@2</span><span class="p">.</span><span class="n">4</span><span class="p">.</span><span class="n">2</span> <span class="n">-DE</span>
 </pre></div>
 
 <h2 id="check-package-version">Check Package Version<a class="headerlink" href="#check-package-version" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>node –v
-npm –v
-yo --generators
-gulp –v
-tsc –v
-tsd --version
+<div class="codehilite"><pre><span></span><span class="n">node</span> <span class="err">–</span><span class="n">v</span>
+<span class="n">npm</span> <span class="err">–</span><span class="n">v</span>
+<span class="n">yo</span> <span class="p">-</span><span class="n">-generators</span>
+<span class="n">gulp</span> <span class="err">–</span><span class="n">v</span>
+<span class="n">tsc</span> <span class="err">–</span><span class="n">v</span>
+<span class="n">tsd</span> <span class="p">-</span><span class="n">-version</span>
 </pre></div>
 
 <h2 id="git-basics">Git Basics<a class="headerlink" href="#git-basics" title="Permanent link">&para;</a></h2>
 <p>Init local repo</p>
-<div class="codehilite"><pre><span></span>git init
+<div class="codehilite"><pre><span></span><span class="n">git</span> <span class="n">init</span>
 </pre></div>
 
 <p>Add all Files to local repo</p>
-<div class="codehilite"><pre><span></span>git add -A
-git commit -m &quot;init repo&quot;
+<div class="codehilite"><pre><span></span><span class="n">git</span> <span class="n">add</span> <span class="n">-A</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="n">-m</span> <span class="s2">&quot;init repo&quot;</span>
 </pre></div>
 
 <p>Show last commit</p>
-<div class="codehilite"><pre><span></span>git show --name-only
+<div class="codehilite"><pre><span></span><span class="n">git</span> <span class="n">show</span> <span class="p">-</span><span class="n">-name-only</span>
 </pre></div>
 
 <ul>
@@ -2265,34 +2265,34 @@ git commit -m &quot;init repo&quot;
 <li><a href="https://nvie.com/posts/a-successful-git-branching-model/">A successful Git branching model</a></li>
 </ul>
 <h2 id="developmentlocal-workbench">Development(local workbench)<a class="headerlink" href="#developmentlocal-workbench" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>gulp serve
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">serve</span>
 </pre></div>
 
 <div class="codehilite"><pre><span></span>https://localhost:4321/temp/workbench.html
 </pre></div>
 
 <h2 id="developmentonline-workbench">Development(online workbench)<a class="headerlink" href="#developmentonline-workbench" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>gulp serve --nobrowser
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">serve</span> <span class="p">-</span><span class="n">-nobrowser</span>
 </pre></div>
 
 <div class="codehilite"><pre><span></span>/_layouts/15/workbench.aspx
 </pre></div>
 
 <h2 id="prepare-deployment-solution">Prepare Deployment Solution<a class="headerlink" href="#prepare-deployment-solution" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>gulp clean
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">clean</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>gulp build --ship
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">build</span> <span class="p">-</span><span class="n">-ship</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>gulp bundle --ship
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">bundle</span> <span class="p">-</span><span class="n">-ship</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>gulp package-solution --ship
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">package-solution</span> <span class="p">-</span><span class="n">-ship</span>
 </pre></div>
 
 <h2 id="debug-in-browser">Debug in browser<a class="headerlink" href="#debug-in-browser" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>gulp serve
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">serve</span>
 </pre></div>
 
 <ul>
@@ -2317,7 +2317,7 @@ git commit -m &quot;init repo&quot;
 <li>Hosted workbench configuration</li>
 </ul>
 <p>Steps</p>
-<div class="codehilite"><pre><span></span>gulp serve --nobrowser
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">serve</span> <span class="p">-</span><span class="n">-nobrowser</span>
 </pre></div>
 
 <ul>
@@ -2349,19 +2349,19 @@ git commit -m &quot;init repo&quot;
 <li><a href="https://pnp.github.io/pnpjs/">https://pnp.github.io/pnpjs/</a></li>
 <li><a href="https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide">https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="nv">@pnp</span><span class="p">/</span><span class="n">logging</span> <span class="nv">@pnp</span><span class="p">/</span><span class="n">common</span> <span class="nv">@pnp</span><span class="p">/</span><span class="n">odata</span> <span class="nv">@pnp</span><span class="p">/</span><span class="n">sp</span> <span class="nv">@pnp</span><span class="p">/</span><span class="n">graph</span> <span class="p">-</span><span class="n">-save</span>
 </pre></div>
 
 <ul>
 <li><a href="https://sharepoint.github.io/sp-dev-fx-controls-react/">https://sharepoint.github.io/sp-dev-fx-controls-react/</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>npm install @pnp/spfx-controls-react@latest --save --save-exact
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="nv">@pnp</span><span class="p">/</span><span class="n">spfx-controls-react</span><span class="nv">@latest</span> <span class="p">-</span><span class="n">-save</span> <span class="p">-</span><span class="n">-save</span><span class="o">-exact</span>
 </pre></div>
 
 <ul>
 <li><a href="https://sharepoint.github.io/sp-dev-fx-property-controls/">https://sharepoint.github.io/sp-dev-fx-property-controls/</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>npm install @pnp/spfx-property-controls@latest --save --save-exact
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="nv">@pnp</span><span class="p">/</span><span class="n">spfx-property-controls</span><span class="nv">@latest</span> <span class="p">-</span><span class="n">-save</span> <span class="p">-</span><span class="n">-save</span><span class="o">-exact</span>
 </pre></div>
 
 <h2 id="localizations">Localizations<a class="headerlink" href="#localizations" title="Permanent link">&para;</a></h2>
@@ -2379,7 +2379,7 @@ git commit -m &quot;init repo&quot;
 </pre></div>
 
 <p>or by using the "locale" command argument</p>
-<div class="codehilite"><pre><span></span>gulp serve --locale=de-de
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">serve</span> <span class="p">-</span><span class="n">-locale</span><span class="p">=</span><span class="n">de-de</span>
 </pre></div>
 
 <h2 id="app-permission">App Permission<a class="headerlink" href="#app-permission" title="Permanent link">&para;</a></h2>
@@ -2671,13 +2671,13 @@ return new Promise&lt;IHelpDeskItem[]&gt;((resolve, reject) =&gt; {
 <li><a href="https://github.com/Microsoft/TypeScript-React-Starter">TypeScript React Starter</a></li>
 <li><a href="https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App">React app with an Office UI Fabric React DocumentCard</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>create-react-app demo-office-fabric-react-ts --scripts-version=react-scripts-ts
+<div class="codehilite"><pre><span></span><span class="n">create-react-app</span> <span class="n">demo-office-fabric-react-ts</span> <span class="p">-</span><span class="n">-scripts-version</span><span class="p">=</span><span class="n">react-scripts-ts</span>
 </pre></div>
 
 <p>init git</p>
-<div class="codehilite"><pre><span></span>git init
-git add .
-git commit -m &quot;Initial commit.&quot;
+<div class="codehilite"><pre><span></span><span class="n">git</span> <span class="n">init</span>
+<span class="n">git</span> <span class="n">add</span> <span class="p">.</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="n">-m</span> <span class="s2">&quot;Initial commit.&quot;</span>
 </pre></div>
 
 <p>add office fabric react</p>
@@ -2685,7 +2685,7 @@ git commit -m &quot;Initial commit.&quot;
 <li><a href="https://github.com/SharePoint/sp-dev-docs/issues/2936">office-ui-fabric-react@5.131.0</a></li>
 <li><a href="https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/web-parts/get-started/use-fabric-react-components.md#create-a-new-web-part-project">Use Office UI Fabric React components in your SharePoint client-side web part</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>npm install office-ui-fabric-react@5.132.0 --save
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="n">office-ui-fabric-react</span><span class="nv">@5</span><span class="p">.</span><span class="n">132</span><span class="p">.</span><span class="n">0</span> <span class="p">-</span><span class="n">-save</span>
 </pre></div>
 
 <h2 id="generator-for-sp-applications">Generator for SP applications<a class="headerlink" href="#generator-for-sp-applications" title="Permanent link">&para;</a></h2>
@@ -2696,13 +2696,13 @@ git commit -m &quot;Initial commit.&quot;
 <ul>
 <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/scaffolding-projects-using-yeoman-sharepoint-generator">Use the Yeoman SharePoint generator</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>npm list -g --depth=0
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">list</span> <span class="n">-g</span> <span class="p">-</span><span class="n">-depth</span><span class="p">=</span><span class="n">0</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>npm outdated --global
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">outdated</span> <span class="p">-</span><span class="n">-global</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>npm install @microsoft/generator-sharepoint -g
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="nv">@microsoft</span><span class="p">/</span><span class="n">generator-sharepoint</span> <span class="n">-g</span>
 </pre></div>
 
 <h2 id="spfx-version-upgrade">SPFx Version Upgrade<a class="headerlink" href="#spfx-version-upgrade" title="Permanent link">&para;</a></h2>
@@ -2715,14 +2715,14 @@ git commit -m &quot;Initial commit.&quot;
 <li><a href="https://pnp.github.io/office365-cli/about/comparison-powershell/">Comparison to SharePoint PowerShell</a></li>
 </ul>
 <p>Latest version</p>
-<div class="codehilite"><pre><span></span>npm i -g @pnp/office365-cli@next
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">i</span> <span class="n">-g</span> <span class="nv">@pnp</span><span class="p">/</span><span class="n">office365-cli</span><span class="nv">@next</span>
 </pre></div>
 
 <p>Create report for upgrade</p>
 <ul>
 <li><a href="https://pnp.github.io/office365-cli/cmd/spfx/project/project-upgrade/">spfx project upgrade</a></li>
 </ul>
-<div class="codehilite"><pre><span></span>o365 spfx project upgrade --output md &gt; report.md
+<div class="codehilite"><pre><span></span><span class="n">o365</span> <span class="n">spfx</span> <span class="n">project</span> <span class="n">upgrade</span> <span class="p">-</span><span class="n">-output</span> <span class="n">md</span> <span class="p">&gt;</span> <span class="n">report</span><span class="p">.</span><span class="n">md</span>
 </pre></div>
 
 <h2 id="update-spfx-packages">Update SPFx packages<a class="headerlink" href="#update-spfx-packages" title="Permanent link">&para;</a></h2>

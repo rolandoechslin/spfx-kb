@@ -866,6 +866,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#reports" title="Reports" class="md-nav__link">
+    Reports
+  </a>
+  
+</li>
+      
       
       
       
@@ -1530,6 +1537,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#reports" title="Reports" class="md-nav__link">
+    Reports
+  </a>
+  
+</li>
+      
       
       
       
@@ -1580,6 +1594,28 @@
 <ul>
 <li><a href="https://simonagren.github.io/sites-sitedesign-rest/">Modern SharePoint site creation with site designs and REST</a></li>
 </ul>
+<h2 id="reports">Reports<a class="headerlink" href="#reports" title="Permanent link">&para;</a></h2>
+<p>Success runs</p>
+<div class="codehilite"><pre><span></span><span class="nb">Get-SPOSite</span> <span class="n">-Limit</span> <span class="n">All</span> <span class="p">|</span> <span class="k">ForEach</span><span class="n">-Object</span> <span class="p">{</span>  
+  <span class="nv">$failedRuns</span> <span class="p">=</span> <span class="nb">Get-SPOSiteDesignRun</span> <span class="nv">$_</span><span class="p">.</span><span class="n">Url</span> <span class="p">|</span> <span class="nb">Get-SPOSiteDesignRunStatus</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="n">OutcomeCode</span> <span class="o">-ne</span> <span class="s2">&quot;Success&quot;</span><span class="p">};</span>
+
+  <span class="k">if</span><span class="p">(</span><span class="nv">$failedRuns</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">Write-Output</span> <span class="nv">$_</span><span class="p">.</span><span class="n">Url</span>
+    <span class="nv">$failedRuns</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+<p>Failed runs</p>
+<div class="codehilite"><pre><span></span><span class="nb">Get-SPOSite</span> <span class="n">-Limit</span> <span class="n">All</span> <span class="p">|</span> <span class="k">ForEach</span><span class="n">-Object</span> <span class="p">{</span>  
+  <span class="nv">$failedRuns</span> <span class="p">=</span> <span class="nb">Get-SPOSiteDesignRun</span> <span class="nv">$_</span><span class="p">.</span><span class="n">Url</span> <span class="p">|</span> <span class="nb">Get-SPOSiteDesignRunStatus</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="n">OutcomeCode</span> <span class="o">-eq</span> <span class="s2">&quot;Faulure&quot;</span><span class="p">};</span>
+
+  <span class="k">if</span><span class="p">(</span><span class="nv">$failedRuns</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">Write-Output</span> <span class="nv">$_</span><span class="p">.</span><span class="n">Url</span>
+    <span class="nv">$failedRuns</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
                 
                   
                 
