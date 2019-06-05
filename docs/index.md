@@ -307,6 +307,7 @@ gulp serve --locale=de-de
 
 - [APIs Everywhere](./assets/APIs-Everywhere.pptx)
 - [RSS Reader](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-rss-reader)
+- [Sample FieldVisitTab](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-teams-tab-field-visit-mashup/src/webparts/fieldVisitTab/services)
 
 Sample Folder structur 
 - [barrel: each folder should has a index.ts file](https://basarat.gitbooks.io/typescript/docs/tips/barrel.html)
