@@ -14,6 +14,10 @@
 - <https://veenstra.me.uk/2018/07/17/microsoft-flow-connector-limits>
 - <https://veenstra.me.uk/2018/03/19/microsoft-flow-the-hidden-gems-are-you-aware-of-all-of-these>
 
+## Admin Security
+
+- [Management of Flows](https://rencore.com/blog/inconvenient-management-flows/)
+
 ## Export / Import Flows
 
 - [Export and import your flows across environments with packaging](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/)
