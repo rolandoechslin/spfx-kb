@@ -13,6 +13,7 @@
 - [postman-and-office-365](https://www.helloitsliam.com/2016/02/04/postman-and-office-365)
 - [SharePoint REST API Metadata Explorer](https://s-kainet.github.io/sp-rest-explorer)
 - [Announcing Microsoft Graph Postman Collections](https://developer.microsoft.com/en-us/sharepoint/blogs/postman-collections/)
+- [Using Postman with the Microsoft Graph](https://www.youtube.com/watch?v=7Sx2pFY21YQ)
 - [Powerful HTTP and GraphQL tool belt](https://insomnia.rest/)
 
 ## Testing
