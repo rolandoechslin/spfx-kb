@@ -377,7 +377,7 @@
         },
         {
             "location": "/spfx/bot/",
-            "text": "BOT\n\u00b6\n\n\n\n\nbuilding-a-microsoft-teams-bot\n\n\nhttps://www.cloudguy.pro/learn-to-bot\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx\n\n\nMicrosoft Bot Framework Web Chat\n\n\nreact-chat-widget\n\n\nspfx-react-bot-qna",
+            "text": "BOT\n\u00b6\n\n\n\n\nbuilding-a-microsoft-teams-bot\n\n\nhttps://www.cloudguy.pro/learn-to-bot\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx\n\n\nMicrosoft Bot Framework Web Chat\n\n\nreact-chat-widget\n\n\nspfx-react-bot-qna\n\n\nSearch for your SharePoint content from a bot using the Bot Framework, OAuth2 and Node.js\n\n\nSPFx MSAL Bot Extension",
             "title": "Bot"
         },
         {
@@ -387,7 +387,7 @@
         },
         {
             "location": "/spfx/bot/#samples",
-            "text": "Add AtBot to your SharePoint site using SPFx  Microsoft Bot Framework Web Chat  react-chat-widget  spfx-react-bot-qna",
+            "text": "Add AtBot to your SharePoint site using SPFx  Microsoft Bot Framework Web Chat  react-chat-widget  spfx-react-bot-qna  Search for your SharePoint content from a bot using the Bot Framework, OAuth2 and Node.js  SPFx MSAL Bot Extension",
             "title": "Samples"
         },
         {
