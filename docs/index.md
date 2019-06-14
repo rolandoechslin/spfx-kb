@@ -667,4 +667,4 @@ o365 spfx project upgrade --output md > report.md
 
 ## Add External JS-Frameworks
 
-- [Loading dependent JS files (e.g. JQuery Plugins) into SPFx Solution in right order](https://rasper87.wordpress.com/2018/06/15/loading-dependent-js-files-e-g-jquery-plugins-into-spfx-solution-in-right-order/)
+- [Loading dependent JS files into SPFx Solution in right order](https://rasper87.wordpress.com/2018/06/15/loading-dependent-js-files-e-g-jquery-plugins-into-spfx-solution-in-right-order)

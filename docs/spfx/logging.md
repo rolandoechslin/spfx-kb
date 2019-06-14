@@ -17,11 +17,11 @@ Log.verbose("HelloWorld", "Here is a verbose log", this.context.serviceScope);
 Log.info("HelloWorld", "Here is an informational message.", this.context.serviceScope);
 Log.warn("HelloWorld", "Oh Oh, this might be bad", this.context.serviceScope);
 Log.error("HelloWorld", new Error("Oh No!  Error!  Ahhhhhh!!!!"), this.context.serviceScope);
-Logging with @pnp/logging
 ```
 
 ## Logging with pnp-logging
 
+- [Resolve to Log-PnPLogger](https://github.com/juliemturner/Public-Samples/blob/master/PnPLogger)
 - [Resolve to Log](https://julieturner.net/2018/12/resolve-to-log/)
 - [Working With: Logging](https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging)
 - [Integrate Logging](https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging)
