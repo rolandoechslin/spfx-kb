@@ -28,7 +28,7 @@
 
 install npm package
 
-```bs
+```powershell
 npm install gulp-sequence --save-dev
 ```
 
@@ -69,7 +69,7 @@ gulp.task('dist', gulpSequence('clean', 'bundle', 'package-solution'));
 
 - https://gist.github.com/iki/ec32bfdeeb23930efd15
 
-```bash
+```powershell
 # check
 npm outdated -g
 
@@ -92,13 +92,13 @@ npm uninstall -g <module>
 
 List global npm  packages versions
 
-```bash
+```powershell
 npm list -g --depth 0
 ```
 
 List detail global npm  package versions from one package
 
-```bash
+```powershell
 npm view @microsoft/generator-sharepoint
 ```
 
@@ -125,29 +125,29 @@ npm view @microsoft/generator-sharepoint
 - search für "@micorosoft/sp-"
 - update all package (latest or version)
 
-```
+```powershell
 npm outdated
 ```
 
-```
+```powershell
 npm install package-name@latest --save
 ```
 
-```
+```powershell
 npm install package-name@version --save
 ```
 
-```
+```powershell
 gulp clean
 ```
 
-```
+```powershell
 gulp build
 ```
 
 ## Test
 
-```bash
+```powershell
 gulp serve --nobrowser
 ```
 
@@ -173,7 +173,6 @@ gulp package-solution --ship
 - <https://docs.npmjs.com/cli/install>
 
 ```bash
-
 npm install saves any specified packages into dependencies by default. Additionally, you can control where and how they get saved with some additional flags:
 
 -P, --save-prod: Package will appear in your dependencies. This is the default unless -D or -O are present.
@@ -181,5 +180,4 @@ npm install saves any specified packages into dependencies by default. Additiona
 -D, --save-dev: Package will appear in your devDependencies.
 
 -O, --save-optional: Package will appear in your optionalDependencies.
-
 ```
