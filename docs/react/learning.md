@@ -8,6 +8,8 @@
 ## Lifecycle methods
 
 - [Interactive React Lifecycle Methods diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+- [SharePoint Framework Client-Side Webparts mit React](https://techblog.novacapta.de/blog/sharepoint-framework-client-side-webparts-mit-react/)
+- [React Best Practices](https://techblog.novacapta.de/blog/react-best-practices/)
 
 ## Roadmap
 
