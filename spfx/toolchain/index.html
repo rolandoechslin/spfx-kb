@@ -1825,7 +1825,7 @@
 <li><a href="https://n8d.at/blog/gulp-dist-in-spfx-one-command-to-create-a-clean-solution-package">One command to create a clean solution package</a></li>
 </ul>
 <p>install npm package</p>
-<div class="codehilite"><pre><span></span>npm install gulp-sequence --save-dev
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="n">gulp-sequence</span> <span class="p">-</span><span class="n">-save-dev</span>
 </pre></div>
 
 <p>add to gulpfile.js</p>
@@ -1860,20 +1860,20 @@
 <ul>
 <li><a href="https://gist.github.com/iki/ec32bfdeeb23930efd15">https://gist.github.com/iki/ec32bfdeeb23930efd15</a></li>
 </ul>
-<div class="codehilite"><pre><span></span><span class="c1"># check</span>
-npm outdated -g
+<div class="codehilite"><pre><span></span><span class="c"># check</span>
+<span class="n">npm</span> <span class="n">outdated</span> <span class="n">-g</span>
 
-<span class="c1"># install</span>
-npm -g i npm-check
+<span class="c"># install</span>
+<span class="n">npm</span> <span class="n">-g</span> <span class="n">i</span> <span class="n">npm-check</span>
 
-<span class="c1"># interactive update of global packages</span>
-npm-check -u -g
+<span class="c"># interactive update of global packages</span>
+<span class="n">npm-check</span> <span class="n">-u</span> <span class="n">-g</span>
 
-<span class="c1"># interactive update for a project you are working on</span>
-npm-check -u
+<span class="c"># interactive update for a project you are working on</span>
+<span class="n">npm-check</span> <span class="n">-u</span>
 
-<span class="c1"># unistall package</span>
-npm uninstall -g &lt;module&gt;
+<span class="c"># unistall package</span>
+<span class="n">npm</span> <span class="n">uninstall</span> <span class="n">-g</span> <span class="p">&lt;</span><span class="n">module</span><span class="p">&gt;</span>
 </pre></div>
 
 <h3 id="check-package-version">Check package version<a class="headerlink" href="#check-package-version" title="Permanent link">&para;</a></h3>
@@ -1881,11 +1881,11 @@ npm uninstall -g &lt;module&gt;
 <li><a href="https://github.com/dylang/npm-check">https://github.com/dylang/npm-check</a></li>
 </ul>
 <p>List global npm  packages versions</p>
-<div class="codehilite"><pre><span></span>npm list -g --depth <span class="m">0</span>
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">list</span> <span class="n">-g</span> <span class="p">-</span><span class="n">-depth</span> <span class="n">0</span>
 </pre></div>
 
 <p>List detail global npm  package versions from one package</p>
-<div class="codehilite"><pre><span></span>npm view @microsoft/generator-sharepoint
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">view</span> <span class="nv">@microsoft</span><span class="p">/</span><span class="n">generator-sharepoint</span>
 </pre></div>
 
 <h2 id="pnpm">PNPM<a class="headerlink" href="#pnpm" title="Permanent link">&para;</a></h2>
@@ -1911,23 +1911,23 @@ npm uninstall -g &lt;module&gt;
 <li>search für "@micorosoft/sp-"</li>
 <li>update all package (latest or version)</li>
 </ul>
-<div class="codehilite"><pre><span></span>npm outdated
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">outdated</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>npm install package-name@latest --save
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="n">package-name</span><span class="nv">@latest</span> <span class="p">-</span><span class="n">-save</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>npm install package-name@version --save
+<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="n">package-name</span><span class="nv">@version</span> <span class="p">-</span><span class="n">-save</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>gulp clean
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">clean</span>
 </pre></div>
 
-<div class="codehilite"><pre><span></span>gulp build
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">build</span>
 </pre></div>
 
 <h2 id="test">Test<a class="headerlink" href="#test" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>gulp serve --nobrowser
+<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">serve</span> <span class="p">-</span><span class="n">-nobrowser</span>
 </pre></div>
 
 <h2 id="tips">Tips<a class="headerlink" href="#tips" title="Permanent link">&para;</a></h2>
