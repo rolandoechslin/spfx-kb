@@ -26,3 +26,5 @@
 ## Tipps
 
 - [SharePoint Migration: Mind the URL Length](https://tahoeninjas.blog/2019/02/25/sharepoint-migration-mind-the-url-length/)
+- - [Migrating to Office 365 Checklist](https://blog.syskit.com/office-365-migration-checklist)
+
