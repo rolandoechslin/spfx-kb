@@ -47,8 +47,9 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 
 ## Permission Reference
 
-- <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aadhttpclient>
-- <https://github.com/microsoftgraph/microsoft-graph-docs/blob/master/concepts/permissions_reference.md>
+- [Connect to Azure AD-secured APIs in SharePoint Framework solutions](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aadhttpclient)
+- [Microsoft Graph permissions reference](https://docs.microsoft.com/en-us/graph/permissions-reference)
+- [User_impersonation scope issue when working with SharePoint Framework API permissions](https://robertschouten.com/2019/06/19/user_impersonation-scope-issue-when-working-with-sharepoint-framework-api-permissions/)
 
 ## Scripts
 
