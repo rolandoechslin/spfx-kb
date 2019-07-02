@@ -18,3 +18,4 @@
 ## Samples
 
 - [React Templates using SPFx Library Component](https://github.com/AJIXuMuK/SPFx/tree/master/react-templates)
+- [SVG Library Helper](https://www.youtube.com/watch?v=adjQ6-X_PPk&feature=youtu.be&t=1279)
