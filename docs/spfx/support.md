@@ -29,10 +29,20 @@
 
 ## WebParts
 
+Maintenancemode
+
 - [open-and-use-the-web-part-maintenance-page](https://support.office.com/en-us/article/open-and-use-the-web-part-maintenance-page-eff9ce22-d04a-44dd-ae83-ac29a5e396c2)
 
 ```html
 ?maintenancemode=true
+```
+
+DisableTelemetry
+
+- [Disabling Telemetry network traffic on SPFx workbench](https://tahoeninjas.blog/2019/07/02/disabling-telemetry-network-traffic-on-spfx-workbench/)
+ 
+```html
+?disableTelemetry=true
 ```
 
 ## Lists
