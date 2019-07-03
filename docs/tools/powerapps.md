@@ -28,3 +28,7 @@ SharePoint custom forms and automated business workflow
 ## Localization
 
 - [Building multilingual apps in PowerApps](https://powerapps.microsoft.com/en-us/blog/building-multilingual-apps-in-powerapps/)
+
+## Custom Forms
+
+- [Getting started with custom forms in SharePoint build with PowerApps](https://www.youtube.com/watch?v=A9uZholjaHo)
