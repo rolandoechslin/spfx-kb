@@ -114,6 +114,7 @@ npm view @microsoft/generator-sharepoint
 ## Security
 
 - [have-you-ever-thought-about-checking-your-dependency-for-vulnerabilities](https://www.eliostruyf.com/have-you-ever-thought-about-checking-your-dependency-for-vulnerabilities/)
+- [5 ways to manage and monitor your digital workplace](https://www.valointranet.com/blog/5-ways-to-manage-and-monitor-your-digital-workplace/)
 
 ## Installation
 
