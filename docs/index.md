@@ -627,6 +627,10 @@ npm list -g --depth=0
 ```
 
 ```Powershell
+npm ls -g --depth=0 @microsoft/generator-sharepoint
+```
+
+```Powershell
 npm outdated --global
 ```
 
