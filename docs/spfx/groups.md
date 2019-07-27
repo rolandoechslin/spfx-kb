@@ -59,6 +59,11 @@ To get list of deleted Office 365 groups in descending order:
 Get-AzureADMSDeletedGroup | Sort-Object DeletedDateTime -Descending | Format-Table Id, DisplayName, Description, Visibility, DeletedDateTime
 ```
 
+How to resolve the error The alias is being used by another group in your organization
+
+```Powershell
+Get-AzureADMSDeletedGroup -All:$true | Remove-AzureADMSDeletedDirectoryObject
+```
 
 To get the list of orphaned Office 365 groups in your tenant:
 

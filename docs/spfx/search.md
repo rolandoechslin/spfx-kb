@@ -3,6 +3,9 @@
 - [SharePoint Search REST API overview](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-search-rest-api-overview)
 - [SharePoint Search REST API. GET and POST requests](http://blog.vitalyzhukov.ru/en/sharepoint-search-rest-api-get-and-post-requests.aspx)
 
+## Microsoft Search
+
+- [MICROSOFT SEARCH BOOKMARKS](https://joannecklein.com/2019/07/06/microsoft-search-bookmarks/)
 
 ## Search Tips
 
@@ -67,3 +70,4 @@
 ## Teamsites / Groups
 
 - [Retrieving search results from private Groups in Office 365 via REST](https://www.techmikael.com/2017/01/retrieving-search-results-from-private.html)
+- 
