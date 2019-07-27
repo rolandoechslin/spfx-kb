@@ -1601,6 +1601,10 @@
 <div class="codehilite"><pre><span></span><span class="nb">Get-AzureADMSDeletedGroup</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">DeletedDateTime</span> <span class="n">-Descending</span> <span class="p">|</span> <span class="nb">Format-Table</span> <span class="n">Id</span><span class="p">,</span> <span class="n">DisplayName</span><span class="p">,</span> <span class="n">Description</span><span class="p">,</span> <span class="n">Visibility</span><span class="p">,</span> <span class="n">DeletedDateTime</span>
 </pre></div>
 
+<p>How to resolve the error The alias is being used by another group in your organization</p>
+<div class="codehilite"><pre><span></span><span class="nb">Get-AzureADMSDeletedGroup</span> <span class="n">-All</span><span class="err">:</span><span class="nv">$true</span> <span class="p">|</span> <span class="nb">Remove-AzureADMSDeletedDirectoryObject</span>
+</pre></div>
+
 <p>To get the list of orphaned Office 365 groups in your tenant:</p>
 <div class="codehilite"><pre><span></span><span class="nv">$Groups</span> <span class="p">=</span> <span class="nb">Get-UnifiedGroup</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{(</span><span class="no">[array]</span><span class="p">(</span><span class="nb">Get-UnifiedGroupLinks</span> <span class="n">-Identity</span> <span class="nv">$_</span><span class="p">.</span><span class="n">Id</span> <span class="n">-LinkType</span> <span class="n">Owners</span><span class="p">)).</span><span class="n">Count</span> <span class="o">-eq</span> <span class="n">0</span><span class="p">}</span> <span class="p">`</span>
 
