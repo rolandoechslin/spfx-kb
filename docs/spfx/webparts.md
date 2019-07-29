@@ -3,6 +3,10 @@
 ## Design
 
 - [Designing a SharePoint web part](https://docs.microsoft.com/en-us/sharepoint/dev/design/design-a-web-part)
+- [SharePoint Framework Design Series: Property Panes — Part I](https://tahoeninjas.blog/2019/07/12/sharepoint-framework-design-series-property-panes-part-1/)
+- [SharePoint Framework Design Series: Property Panes — Part II](https://tahoeninjas.blog/2019/07/15/sharepoint-framework-design-series-property-panes-part-ii/)
+- [SharePoint Framework Design Series: Property Panes — Part III](https://tahoeninjas.blog/2019/07/17/sharepoint-framework-design-series-property-panes-part-iii/)
+- [SharePoint Framework Design Series: Web Part Titles and Descriptions](https://tahoeninjas.blog/2019/07/10/sharepoint-framework-design-series-web-part-titles-and-descriptions/)
 - [harePoint Framework Design Series: Layout Patterns — Part I](https://tahoeninjas.blog/2019/07/28/sharepoint-framework-design-series-layout-patterns-i/)
 
 ## Localize
