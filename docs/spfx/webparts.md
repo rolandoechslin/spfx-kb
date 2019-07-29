@@ -1,6 +1,11 @@
 # Webparts
 
-## Localize web parts
+## Design
+
+- [Designing a SharePoint web part](https://docs.microsoft.com/en-us/sharepoint/dev/design/design-a-web-part)
+- [harePoint Framework Design Series: Layout Patterns — Part I](https://tahoeninjas.blog/2019/07/28/sharepoint-framework-design-series-layout-patterns-i/)
+
+## Localize
 
 - [Localize SharePoint Framework client-side web parts](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/localize-web-parts#localize-web-part-contents)
 - [Implementing localization file checks to prevent issues in SharePoint Framework solutions](https://www.eliostruyf.com/implementing-localization-file-checks-to-prevent-issues-in-sharepoint-framework-solutions/)
@@ -152,6 +157,7 @@
 
 - [SPFx Anchor Tags](https://julieturner.net/2018/08/spfx-anchor-tags-hitting-the-target/)
 - [Navigating to other pages in SharePoint Framework from code](https://www.eliostruyf.com/navigating-to-other-pages-in-sharepoint-framework-from-code)
+- [sp-starter-kit: redirect](https://github.com/SharePoint/sp-starter-kit/tree/master/solution/src/extensions/redirect)
 
 ## Dialog
 
