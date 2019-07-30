@@ -12,3 +12,4 @@
 - [Einfügen von Bildern im RTE steuern](http://www.brandmysharepoint.de/einfuegen-von-bildern-im-rte-steuern/#.WLaMB_k1_Zs)
 - [How to use Bootstrap in SharePoint Framework projects](https://n8d.at/blog/how-to-use-bootstrap-in-sharepoint-framework-projects/?utm_content=buffer162f5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - [SPFx WebParts responsive to Modern Page sections](https://ypcode.wordpress.com/2019/01/10/spfx-webparts-responsive-to-modern-page-sections/)
+- [Prevent SCSS from changing your CSS class names](https://tahoeninjas.blog/2019/07/28/prevent-scss-from-changing-your-css-class-names/)
