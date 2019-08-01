@@ -1,5 +1,9 @@
 # Tips and tricks
 
+## SPFx Timeline
+
+- [Overview SPFx Versions](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1946wZk4utpdY75buZGqQ-JdNdLWDemErFKcp2alh6rA&font=Default&lang=en&initial_zoom=2&height=650)
+
 - [SharePoint PnP Monthly Call – April 9th, 2019 – Screenshot Summary](http://warner.digital/pnpsummary04092019/)
 - [SharePoint PnP Dev General SIG Call – Screenshot Summary](http://warner.digital/category/sharepoint/patterns-and-practices/)
 - [SharePoint Dev Weekly – Episode 32](https://developer.microsoft.com/en-us/sharepoint/blogs/sharepoint-dev-weekly-episode-32/)
