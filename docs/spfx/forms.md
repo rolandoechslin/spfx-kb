@@ -17,3 +17,7 @@
 - [Create an intelligent Form with React Redux Form](https://www.o365recipes.com/create-an-intelligent-form-with-react-redux-form/)
 - https://blogs.perficient.com/2017/08/10/using-react-and-redux-in-sharepoint-frameworkspfx/
 - https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-reduxform
+
+## Tips
+
+- [Tips for building a custom form](https://www.sharepointnutsandbolts.com/2019/07/custom-spfx-forms.html)
