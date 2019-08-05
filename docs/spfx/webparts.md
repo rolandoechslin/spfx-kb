@@ -2,6 +2,7 @@
 
 ## Design
 
+- [SharePointWireframes](https://github.com/hugoabernier/SharePointWireframes)
 - [Designing a SharePoint web part](https://docs.microsoft.com/en-us/sharepoint/dev/design/design-a-web-part)
 - [SharePoint Framework Design Series: Property Panes — Part I](https://tahoeninjas.blog/2019/07/12/sharepoint-framework-design-series-property-panes-part-1/)
 - [SharePoint Framework Design Series: Property Panes — Part II](https://tahoeninjas.blog/2019/07/15/sharepoint-framework-design-series-property-panes-part-ii/)
