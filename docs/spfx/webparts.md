@@ -28,6 +28,7 @@
 ## Edit Mode
 
 - [Trigger the edit page experience from your SharePoint Framework solution](https://www.eliostruyf.com/trigger-the-edit-page-experience-from-your-sharepoint-framework-solution/)
+- [Check the page display mode from within your SharePoint Framework extensions](https://www.eliostruyf.com/check-page-mode-from-within-spfx-extensions/)
 
 ## spPageContextInfo
 
