@@ -7,6 +7,7 @@
 - [Implement Continuous Integration and Continuous deployment using Azure DevOps](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/implement-ci-cd-with-azure-devops)
 - [Managing projects in a modern world (Part 1)](https://ionallthethings.wordpress.com/2019/02/22/managing-projects-in-a-modern-world-part-1/)
 - [Walkthrough: use Azure DevOps with SPFx, GitFlow and GitVersion](http://thecollaborationcorner.com/2019/02/28/azure-devops-with-spfx-gitflow-gitversion/)
+- [How to: Setup CI / CD in Azure DevOps with the help of SPFx Generator](https://coreyroth.com/2019/05/06/how-to-setup-ci-cd-in-azure-devops-with-the-help-of-spfx-generator/)
 
 ## ALM
 
