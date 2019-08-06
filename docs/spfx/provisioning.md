@@ -10,6 +10,10 @@
 
 - [Walkthrough of Site Provisioning process using PnP PowerShell](https://asishpadhy.com/2018/11/09/walkthrough-of-pnp-provisioning-process-using-powershell/)
 
+## Fields
+
+- [How to: Provision Lookup Columns and Projected Fields using PnP PowerShell](https://coreyroth.com/2019/06/27/how-to-provision-lookup-columns-and-projected-fields-using-pnp-powershell/)
+
 ## Links
 
 - <https://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html>
