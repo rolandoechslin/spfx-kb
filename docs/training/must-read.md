@@ -24,7 +24,8 @@
 
 ## Cloud
 
-- <https://it.arvato.com/cloud-blog/de/2018/06/softwareentwicklung-in-der-cloud--was-aendert-sich-.html>
+- [IaaS vs. PaaS: which one is best?](https://sharegate.com/blog/iaas-saas-paas-faas-a-look-at-cloud-service-models#what-is-paas)
+- [What are the main cloud service models?](https://sharegate.com/blog/what-are-the-main-cloud-service-models)
 
 ## Google Engineering
 
