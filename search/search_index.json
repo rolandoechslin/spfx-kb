@@ -2972,13 +2972,18 @@
         },
         {
             "location": "/tools/markdown/",
-            "text": "Markdown\n\u00b6\n\n\nTools\n\u00b6\n\n\n\n\nVS.Code Extension: markdownlint\n\n\nMarkdown Website Conversion\n\n\nMarkdown Conversion\n\n\ndevpen.io - Editor\n\n\nMarkdown Plus - Editor\n\n\nhttps://www.websequencediagrams.com/\n\n\nhttps://www.planttext.com/",
+            "text": "Markdown\n\u00b6\n\n\nCheatsheet\n\u00b6\n\n\n\n\nMarkdown Cheatsheet\n\n\n\n\nTools\n\u00b6\n\n\n\n\nVS.Code Extension: markdownlint\n\n\nMarkdown Website Conversion\n\n\nMarkdown Conversion\n\n\ndevpen.io - Editor\n\n\nMarkdown Plus - Editor\n\n\nhttps://www.websequencediagrams.com/\n\n\nhttps://www.planttext.com/",
             "title": "Markdown"
         },
         {
             "location": "/tools/markdown/#markdown",
             "text": "",
             "title": "Markdown"
+        },
+        {
+            "location": "/tools/markdown/#cheatsheet",
+            "text": "Markdown Cheatsheet",
+            "title": "Cheatsheet"
         },
         {
             "location": "/tools/markdown/#tools",
