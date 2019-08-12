@@ -10,10 +10,11 @@
 - [SharePoint Framework Design Series: Web Part Titles and Descriptions](https://tahoeninjas.blog/2019/07/10/sharepoint-framework-design-series-web-part-titles-and-descriptions/)
 - [harePoint Framework Design Series: Layout Patterns — Part I](https://tahoeninjas.blog/2019/07/28/sharepoint-framework-design-series-layout-patterns-i/)
 
-## Localize
+## Localization
 
 - [Localize SharePoint Framework client-side web parts](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/localize-web-parts#localize-web-part-contents)
 - [Implementing localization file checks to prevent issues in SharePoint Framework solutions](https://www.eliostruyf.com/implementing-localization-file-checks-to-prevent-issues-in-sharepoint-framework-solutions/)
+- [Simplify localization in SharePoint Framework projects](https://www.eliostruyf.com/simplify-localization-in-sharepoint-framework-projects/)
 
 ## Properties
 
