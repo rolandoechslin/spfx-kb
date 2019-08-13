@@ -16,6 +16,11 @@
 - [The Logical Dimension](https://tahoeninjas.blog/2019/02/22/information-architecture-in-sharepoint-the-logical-dimension/)
 - [The Metadata Dimension](https://tahoeninjas.blog/2019/02/24/information-architecture-in-sharepoint-the-metadata-dimension/)
 
+## SharePoint Home Site
+
+- [SharePoint Home, Hub, Sites, Start… What?](https://www.koskila.net/sharepoint-home-sharepoint-hub-sharepoint-sites-sharepoint-start-what/)
+- [SHAREPOINT HOME SITES AND HUBS: A PRIMER](https://blog.splibrarian.com/2019/06/10/sharepoint-home-sites-and-hub-sites-a-primer/)
+
 ## Content Type
 
 - [Content Type Benefits in Modern SharePoint](https://www.valointranet.com/blog/general/content-type-benefits-in-modern-sharepoint)
