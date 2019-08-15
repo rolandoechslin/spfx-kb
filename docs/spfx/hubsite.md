@@ -28,6 +28,7 @@
 ## Tips
 
 -[Introducing the idea of Archive Hub Sites](https://n8d.at/blog/introducing-the-idea-of-archive-hub-sites/)
+- [How to get the hub site ID in SharePoint Framework](https://www.eliostruyf.com/how-to-get-the-hub-site-id-in-sharepoint-framework/)
 
 ```Powershell
 cls
