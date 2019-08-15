@@ -6,6 +6,7 @@
 
 ## Tips
 
+- [Testing and debugging your SPFx solutions in production without causing any impact](https://www.eliostruyf.com/testing-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact/)
 - [debug-production-version-sharepoint-framework-solution](https://blog.mastykarz.nl/debug-production-version-sharepoint-framework-solution)
 - [how-debug-sharepoint-framework-webpart-visual-studio-code](http://blog.velingeorgiev.pro/how-debug-sharepoint-framework-webpart-visual-studio-code)
 - [debug-in-vscode](https://dev.office.com/sharepoint/docs/spfx/debug-in-vscode)
