@@ -1,5 +1,9 @@
 # Microsoft Graph
 
+## Permission
+
+- [Microsoft Graph permissions reference](https://docs.microsoft.com/de-de/graph/permissions-reference)
+
 ## Learning
 
 - [30 Days of Microsoft Graph](https://developer.microsoft.com/en-us/graph/blogs/announcing-30-days-of-microsoft-graph-blog-series/#)
