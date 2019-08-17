@@ -14,6 +14,15 @@
 - [SharePoint Online PnP PowerShell Provisioning using Flow and Azure Automation](https://spmaestro.com/sharepoint-pnp-provisioning-using-flow-and-azure-automation/)
 - [Using Azure Automation for Modern SharePoint Site Provisioning](http://www.avtex.com/2018/06/azure-automation-provisioning)
 - [Fun with Azure Automation and Table Service REST API](https://www.cgoosen.com/2018/02/fun-with-azure-automation-and-table-service-rest-api/)
+- [Build your PnP Site Provisioning with PowerShell in Azure Functions and run it from Flow](http://johnliu.net/blog/2016/11/build-your-pnp-site-provisioning-with-powershell-in-azure-functions-and-run-it-from-flow)
+- [PROVISIONING TEAMS WITH A SITE DESIGN, FLOW AND MICROSOFT GRAPH](https://laurakokkarinen.com/provisioning-teams-with-a-site-design-flow-and-microsoft-graph)
+- [https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-the-result/](https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-the-result)
+- [Provision Microsoft Teams with Azure Automation – Part I](https://mmsharepoint.wordpress.com/2019/03/22/provision-microsoft-teams-with-azure-automation-part-i)
+- [Provision Microsoft Teams with Azure Automation – Part II](https://mmsharepoint.wordpress.com/tag/azure-automation)
+- [Community Demo - Using Azure automation for provisioning of your SharePoint and Teams structures](https://www.youtube.com/watch?v=cS3F7JsQQIg)
+- [From start to finish: How to create your modern SharePoint site provisioning solution - BRK3273](https://www.youtube.com/watch?v=g9c9cMx9W3E)
+- [BUILDING A MODERN FLAT PROJECT HUB USING SITE DESIGNS](https://joannecklein.com/2018/07/29/modern-project-sites-using-site-designs)
+
 
 ## Azure-Functions
 
