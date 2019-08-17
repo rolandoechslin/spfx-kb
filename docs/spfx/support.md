@@ -47,6 +47,7 @@ DisableTelemetry
 
 ## Lists
 
+- [Switch to classic mode](https://infosharepoint.com/switch-back-to-modern-view-in-sharepoint-online/)
 - [Organize-documents-and-sites-in-office-365](https://support.office.com/en-us/article/organize-documents-and-sites-in-office-365-1a36030f-3e54-4c43-8401-b7bcd0d1c16b)
 - [Manage-large-lists-and-libraries-in-SharePoint](https://support.office.com/en-us/article/Manage-large-lists-and-libraries-in-SharePoint-B8588DAE-9387-48C2-9248-C24122F07C59)
 
