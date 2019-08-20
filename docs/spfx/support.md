@@ -1,5 +1,7 @@
 # Support
 
+- [SharePoint Online Troubleshooting](https://docs.microsoft.com/en-us/sharepoint/support/online)
+
 ## Sharepoint IDs
 
 - [Sharepoint 2019 Feature Ids](https://kolislab.com/sharepoint-2019-feature-ids/)
