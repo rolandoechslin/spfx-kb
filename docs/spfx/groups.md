@@ -1,5 +1,8 @@
 # Groups
 
+## Overview
+
+- [Infographic - An everyday guide to Office 365 Groups](http://icansharepoint.com/everyday-guide-office-365-groups/)
 - http://www.techmikael.com/2017/03/enable-usage-policy-for-office-365.html
 - http://www.techmikael.com/2017/03/controlling-groups-creation-in-tenant.html
 - http://www.techmikael.com/2017/05/three-reasons-why-you-should-take.html
