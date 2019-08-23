@@ -40,7 +40,7 @@
 
 ## Content generators
 
-- <http://spaceipsum.com>
+- [loremipsum generator](https://loremipsum.io/de/ultimate-list-of-lorem-ipsum-generators/)
 - [http://socialgoodipsum.com](http://socialgoodipsum.com/#/)
 - [Office Ipsum](http://officeipsum.com/index.php)
 - <http://trollemipsum.appspot.com>
@@ -48,7 +48,7 @@
 ## Image Tools
 
 - [unsplash - free images](https://unsplash.com)
-- ([pixabay - free images](https://pixabay.com)
+- [pixabay - free images](https://pixabay.com)
 - [20 Websites To Find Free High-Quality Images](https://www.hongkiat.com/blog/free-stock-photo-websites/)
 - [mazwai - free background images](http://mazwai.com)
 - [dummyimage](https://dummyimage.com)
