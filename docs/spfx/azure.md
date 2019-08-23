@@ -23,7 +23,6 @@
 - [From start to finish: How to create your modern SharePoint site provisioning solution - BRK3273](https://www.youtube.com/watch?v=g9c9cMx9W3E)
 - [BUILDING A MODERN FLAT PROJECT HUB USING SITE DESIGNS](https://joannecklein.com/2018/07/29/modern-project-sites-using-site-designs)
 
-
 ## Azure-Functions
 
 - [An Azure Function to keep other Functions/URLs warmed up](https://www.sharepointnutsandbolts.com/2018/09/Azure-Function-Warmup-Cold-Start.html)
@@ -59,6 +58,10 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 - [Connect to Azure AD-secured APIs in SharePoint Framework solutions](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aadhttpclient)
 - [Microsoft Graph permissions reference](https://docs.microsoft.com/en-us/graph/permissions-reference)
 - [User_impersonation scope issue when working with SharePoint Framework API permissions](https://robertschouten.com/2019/06/19/user_impersonation-scope-issue-when-working-with-sharepoint-framework-api-permissions/)
+
+## Security
+
+- [What is Conditional Access?](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
 
 ## Scripts
 

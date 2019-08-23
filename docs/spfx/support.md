@@ -79,3 +79,7 @@ DisableTelemetry
 
 - [Social Following Sites on behalf of a user](https://julieturner.net/2019/02/curate-the-news-social-following-sites-on-behalf-of-a-user/)
 
+## O365 Network planning
+
+- [Network planning and performance tuning for Office 365](https://docs.microsoft.com/de-de/office365/enterprise/network-planning-and-performance)
+- [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges)
