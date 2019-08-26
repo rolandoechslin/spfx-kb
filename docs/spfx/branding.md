@@ -1,5 +1,9 @@
 # Branding
 
+## Overview
+
+- [Branding SharePoint - The New Normal](https://bob1german.com/2018/09/04/branding-sharepoint-the-new-normal/)
+
 ## Docs
 
 - [Designing great SharePoint experiences](https://docs.microsoft.com/en-us/sharepoint/dev/design/design-guidance-overview)
