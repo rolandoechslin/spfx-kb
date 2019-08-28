@@ -9,3 +9,7 @@
 ## Managing Lists
 
 - [Managing Lists with SharePoint PnP JS in SPFx](https://www.youtube.com/watch?v=Pnt4wbQZmw4&t=337s)
+
+## Audience Targeting
+
+- [Target Content on Modern SharePoint](https://mattipaukkonen.com/2019/08/27/target-content-on-modern-sharepoint/)
