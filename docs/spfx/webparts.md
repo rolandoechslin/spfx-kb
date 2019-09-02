@@ -43,8 +43,6 @@
 
 - [SharePoint Online Group Calendar Web Part Tutorial](https://www.sharepointeurope.com/sharepoint-online-group-calendar-web-part-tutorial)
 
-## Text WebPart
-
 ## News WebPart
 
 - [EXPIRING NEWS ACROSS MODERN SHAREPOINT](https://joannecklein.com/2019/01/26/expiring-news-across-modern-sharepoint)
@@ -142,11 +140,13 @@
 
 ## CSS Tips
 
-- <http://www.n8d.at/blog/alternative-to-innerhtml-in-sharepoint-framework-web-parts/> (innerHTML)
+- [Alternative to innerHTML in SharePoint Framework web parts](http://www.n8d.at/blog/alternative-to-innerhtml-in-sharepoint-framework-web-parts)
 
 ## Rest Call
 
-- <http://www.sharepointnutsandbolts.com/2016/08/async-rest-calls-promises-httpclient-jquery.html> (REST call with Promises)
+- [async rest calls with promises httpclient jquery](http://www.sharepointnutsandbolts.com/2016/08/async-rest-calls-promises-httpclient-jquery.html)
+- [Get list of frequent sites in SharePoint](https://joelfmrodrigues.wordpress.com/2019/08/30/get-list-of-frequent-sites-in-sharepoint/)
+- [Get list of recent documents in SharePoint](https://joelfmrodrigues.wordpress.com/2019/08/30/get-list-of-recent-documents-in-sharepoint/)
 
 ## CORS
 
