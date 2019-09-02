@@ -10,8 +10,9 @@
 
 - [Overview SPFx Versions](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1946wZk4utpdY75buZGqQ-JdNdLWDemErFKcp2alh6rA&font=Default&lang=en&initial_zoom=2&height=650)
 
-## Training Portal
+## Start with SPFx (Training)
 
+- [SharePoint Framework - Getting started](https://blog.mastykarz.nl/sharepoint-framework-getting-started/)
 - [SharePoint Developer Community - Open-source projects](https://docs.microsoft.com/en-us/sharepoint/dev/community/open-source-projects)
 - [Updated SharePoint Framework developer training package now available (2019)](https://developer.microsoft.com/en-us/sharepoint/blogs/updated-sharepoint-framework-developer-training-package-now-available-2019/)
 - [SharePoint Developer GitHub repositories](https://docs.microsoft.com/en-us/sharepoint/dev/community/repositories)
