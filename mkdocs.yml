@@ -46,6 +46,7 @@ pages:
         - SiteDesign: spfx/sitedesign.md
         - Search: spfx/search.md
         - Snippets: spfx/snippets.md
+        - SP2016: spfx/sp2016.md
         - SP2019: spfx/sp2019.md
         - Support: spfx/support.md
         - Starter-Kit: spfx/starterkit.md
