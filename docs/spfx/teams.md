@@ -7,16 +7,17 @@
 
 ## Overview
 
-- <http://blog.ioz.ch/productivity-news-vom-1-3-2017-microsoft-teams-all-in-one-collaboration/>
-- <https://bob1german.com/2018/05/14/teams-and-sharepoint-better-together/>
-- <https://www.metalogix.com/blog/microsoft-365-teamwork-inner-outer-loop>
+- [All-in-One Collaboration](http://blog.ioz.ch/productivity-news-vom-1-3-2017-microsoft-teams-all-in-one-collaboration)
+- [Teams and SharePoint: Better Together](https://bob1german.com/2018/05/14/teams-and-sharepoint-better-together)
+- [Everything You Need to Know About Microsoft Teams](https://www.quest.com/community/quest/microsoft-platform-management/b/microsoft-platform-management-blog/posts/getting-started-everything-you-need-to-know-about-microsoft-teams)
+- [Inner Loop & Outer Loop](https://blog.ioz.ch/was-es-mit-inner-loop-outer-loop-auf-sich-hat-und-worin-sich-teams-und-yammer-unterscheiden/)
 
 ## Planing
 
 - [Modern Governance für SharePoint Team Sites sind zu beachten](https://blog.ioz.ch/modern-governance-fuer-sharepoint-team-sites-8-punkte-gilt-es-zu-beachten/)
 - [Microsoft Teams planning guide](https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams)
 - [Core components of Teams](https://www.youtube.com/watch?v=xJBvJTDiQqg)
--[Limits and specifications for Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/limits-specifications-teams)
+- [Limits and specifications for Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/limits-specifications-teams)
 - [Difference in permission between an owner and a member](https://docs.microsoft.com/en-us/MicrosoftTeams/assign-roles-permissions)
 
 ## Training video
