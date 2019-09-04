@@ -1506,6 +1506,51 @@
             "title": "Admin User"
         },
         {
+            "location": "/spfx/sp2016/",
+            "text": "SP2016\n\u00b6\n\n\nOverview Facts\n\u00b6\n\n\n\n\nSharePoint-Framework (SPFx): Enterprise-Leitfaden\n\n\n\u00dcbersicht \u00fcber das SharePoint-Framework\n\n\nSharePoint Framework development with SharePoint 2016 Feature Pack 2\n\n\nAll about SharePoint Framework For SharePoint Server 2016\n\n\nHow to use SharePoint FrameWork for SharePoint 2016 on premise\n\n\n\n\nSetup Development\n\u00b6\n\n\n\n\nSet up your SharePoint Framework development environment\n\n\nBuild your first SharePoint client-side web part (Hello World part 1)\n\n\nConnect your client-side web part to SharePoint (Hello World part 2)\n\n\nDeploy your client-side web part to a SharePoint page (Hello World part 3)\n\n\n\n\nDevelopment(local workbench)\n\u00b6\n\n\ngulp\n \nserve\n\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment(online workbench)\n\u00b6\n\n\ngulp\n \nserve\n \n-\n-nobrowser\n\n\n\n\n\n/_layouts/15/workbench.aspx\n\n\n\n\nDeployment\n\u00b6\n\n\ngulp\n \nclean\n\n\n\n\n\ngulp\n \nbuild\n \n-\n-ship\n\n\n\n\n\ngulp\n \nbundle\n \n-\n-ship\n\n\n\n\n\ngulp\n \npackage-solution\n \n-\n-ship\n\n\n\n\n\nTroubleshooting\n\u00b6\n\n\n\n\nSPFx Development for SharePoint Server 2016\n\n\nTSLint, VS Cod\n\n\n\n\nCheck Package Version\n\u00b6\n\n\nnode\n \n\u2013\nv\n\n\nnpm\n \n\u2013\nv\n\n\nyo\n \n-\n-generators\n\n\ngulp\n \n\u2013\nv\n\n\ntsc\n \n\u2013\nv\n\n\ntsd\n \n-\n-version",
+            "title": "SP2016"
+        },
+        {
+            "location": "/spfx/sp2016/#sp2016",
+            "text": "",
+            "title": "SP2016"
+        },
+        {
+            "location": "/spfx/sp2016/#overview-facts",
+            "text": "SharePoint-Framework (SPFx): Enterprise-Leitfaden  \u00dcbersicht \u00fcber das SharePoint-Framework  SharePoint Framework development with SharePoint 2016 Feature Pack 2  All about SharePoint Framework For SharePoint Server 2016  How to use SharePoint FrameWork for SharePoint 2016 on premise",
+            "title": "Overview Facts"
+        },
+        {
+            "location": "/spfx/sp2016/#setup-development",
+            "text": "Set up your SharePoint Framework development environment  Build your first SharePoint client-side web part (Hello World part 1)  Connect your client-side web part to SharePoint (Hello World part 2)  Deploy your client-side web part to a SharePoint page (Hello World part 3)",
+            "title": "Setup Development"
+        },
+        {
+            "location": "/spfx/sp2016/#developmentlocal-workbench",
+            "text": "gulp   serve   https://localhost:4321/temp/workbench.html",
+            "title": "Development(local workbench)"
+        },
+        {
+            "location": "/spfx/sp2016/#developmentonline-workbench",
+            "text": "gulp   serve   - -nobrowser   /_layouts/15/workbench.aspx",
+            "title": "Development(online workbench)"
+        },
+        {
+            "location": "/spfx/sp2016/#deployment",
+            "text": "gulp   clean   gulp   build   - -ship   gulp   bundle   - -ship   gulp   package-solution   - -ship",
+            "title": "Deployment"
+        },
+        {
+            "location": "/spfx/sp2016/#troubleshooting",
+            "text": "SPFx Development for SharePoint Server 2016  TSLint, VS Cod",
+            "title": "Troubleshooting"
+        },
+        {
+            "location": "/spfx/sp2016/#check-package-version",
+            "text": "node   \u2013 v  npm   \u2013 v  yo   - -generators  gulp   \u2013 v  tsc   \u2013 v  tsd   - -version",
+            "title": "Check Package Version"
+        },
+        {
             "location": "/spfx/sp2019/",
             "text": "SP2019\n\u00b6\n\n\nNew Features\n\u00b6\n\n\n\n\n15 facts about SharePoint 2019 (German)\n\n\nNew and improved features in SharePoint Server 2019\n\n\nDifferences between SharePoint Server 2016 and 2019\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\nhttp://nikcharlebois.com/sharepointdsc-starter-template-for-sharepoint-2019\n\n\n\n\nUpgrade\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/de-ch/sharepoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019\n\n\n\n\nAppLauncher\n\u00b6\n\n\n\n\nSharePoint Hybrid App Launcher Explained\n\n\n\n\nNot so good\n\u00b6\n\n\n\n\nThe TypeScript for SPFX is so out of date.... ( 2.4 ) really MS\n\n\n\n\nWSA - Customer Experience Improvement Program\n\u00b6\n\n\n\n\nDisabling requests to WsaUpload.ashx (Customer Experience Improvement Program)\n\n\n\n\nContent Script WebPart (TypeScript)\n\u00b6\n\n\n\n\nUsing TypeScript with SharePoint Content/Script editor web parts\n\n\n\n\nCustom Action\n\u00b6\n\n\n\n\nSharePoint Sticky Footer for classic experience\n\n\nSharePoint.UI.StickyFooter\n\n\n\n\nCertificates\n\u00b6\n\n\n-\nRenewing SharePoint Certificates on premise\n\n\nUserprofile\n\u00b6\n\n\n\n\nAll about non-imported user profiles\n\n\nCheck user profiles\n\n\n\n\nCode Tips\n\u00b6\n\n\n\n\nBuild SharePoint Framework solutions for on-premises SharePoint with ANY version of React, TypeScript or Office UI Fabric React",
             "title": "SP2019"
@@ -1747,7 +1792,7 @@
         },
         {
             "location": "/spfx/teams/",
-            "text": "Teams\n\u00b6\n\n\nSupport\n\u00b6\n\n\n\n\nKeyboard shortcuts for Microsoft Teams\n\n\nMicrosoft Teams: How to clean cache\n\n\n\n\nOverview\n\u00b6\n\n\n\n\nhttp://blog.ioz.ch/productivity-news-vom-1-3-2017-microsoft-teams-all-in-one-collaboration/\n\n\nhttps://bob1german.com/2018/05/14/teams-and-sharepoint-better-together/\n\n\nhttps://www.metalogix.com/blog/microsoft-365-teamwork-inner-outer-loop\n\n\n\n\nPlaning\n\u00b6\n\n\n\n\nModern Governance f\u00fcr SharePoint Team Sites sind zu beachten\n\n\nMicrosoft Teams planning guide\n\n\nCore components of Teams\n\n-\nLimits and specifications for Microsoft Teams\n\n\nDifference in permission between an owner and a member\n\n\n\n\nTraining video\n\u00b6\n\n\n\n\nMicrosoft Teams video training\n\n\nGovernance, management and lifecycle in Microsoft Teams\n\n\n\n\nCoding\n\u00b6\n\n\n\n\nA Yeoman Generator for Microsoft Teams\n\n\nGet started with Teams templates\n\n\n\n\nAdmins\n\u00b6\n\n\n\n\nOverview of Teams\n\n\nWhich Office 365 Service to Use\n\n\nSelecting users for your Microsoft Teams pilot phase\n\n\nTop 10 Office 365 Best Practices Every Admin Should Know\n\n\n\n\nGuest Users\n\u00b6\n\n\n\n\nhttps://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users\n\n\n\n\nMicrosoft Teams versus Sharepoint Teams\n\u00b6\n\n\n\n\nhttp://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work\n\n\nhttps://www.avepoint.com/blog/microsoft-teams/office-365-groups-vs-teams/\n\n\nhttp://blog.pixelmill.com/3580/microsoft-teams-sharepoint-destined-lifelong-partners/\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://collab365.community/microsoft-teams-hacks\n\n\nOffice 365 Groups Naming Policy\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\nhttps://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations\n\n\n\n\nQuerys\n\u00b6\n\n\n\n\nGet all Teams Groups\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\n\n\nhttps://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nhttp://drewmadelung.com\n\n\n\n\nGovernance with teams\n\u00b6\n\n\n\n\nAutomate governance in Microsoft Teams: Context and Goals\n\n\nAutomate governance in Microsoft Teams: The Result\n\n\nAutomate governance in Microsoft Teams: Implementation, v1\n\n\nAutomate governance in Microsoft Teams: Implementation, v2\n\n\n\n\nDevOps\n\u00b6\n\n\n\n\nCreate Azure DevOps pipelines for a Microsoft Teams app built with SPFx\n\n\n\n\nProvisioning with Template\n\u00b6\n\n\n\n\nCreate Teams with template\n\n\nProvisioning Teams with Azure Functions and Microsoft Flow Part 1: Solution Overview\n\n\nMicrosoft Teams \u2013 Automation of Teams Creation\n\n\nProvision Microsoft Teams with Azure Automation \u2013 Part I\n\n\n\n\nRenaming Teams\n\u00b6\n\n\n\n\nRenaming Teams and Channels Can Be Messy",
+            "text": "Teams\n\u00b6\n\n\nSupport\n\u00b6\n\n\n\n\nKeyboard shortcuts for Microsoft Teams\n\n\nMicrosoft Teams: How to clean cache\n\n\n\n\nOverview\n\u00b6\n\n\n\n\nAll-in-One Collaboration\n\n\nTeams and SharePoint: Better Together\n\n\nEverything You Need to Know About Microsoft Teams\n\n\nInner Loop & Outer Loop\n\n\n\n\nPlaning\n\u00b6\n\n\n\n\nModern Governance f\u00fcr SharePoint Team Sites sind zu beachten\n\n\nMicrosoft Teams planning guide\n\n\nCore components of Teams\n\n\nLimits and specifications for Microsoft Teams\n\n\nDifference in permission between an owner and a member\n\n\n\n\nTraining video\n\u00b6\n\n\n\n\nMicrosoft Teams video training\n\n\nGovernance, management and lifecycle in Microsoft Teams\n\n\n\n\nCoding\n\u00b6\n\n\n\n\nA Yeoman Generator for Microsoft Teams\n\n\nGet started with Teams templates\n\n\n\n\nAdmins\n\u00b6\n\n\n\n\nOverview of Teams\n\n\nWhich Office 365 Service to Use\n\n\nSelecting users for your Microsoft Teams pilot phase\n\n\nTop 10 Office 365 Best Practices Every Admin Should Know\n\n\n\n\nGuest Users\n\u00b6\n\n\n\n\nhttps://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users\n\n\n\n\nMicrosoft Teams versus Sharepoint Teams\n\u00b6\n\n\n\n\nhttp://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work\n\n\nhttps://www.avepoint.com/blog/microsoft-teams/office-365-groups-vs-teams/\n\n\nhttp://blog.pixelmill.com/3580/microsoft-teams-sharepoint-destined-lifelong-partners/\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://collab365.community/microsoft-teams-hacks\n\n\nOffice 365 Groups Naming Policy\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\nhttps://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations\n\n\n\n\nQuerys\n\u00b6\n\n\n\n\nGet all Teams Groups\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\n\n\nhttps://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nhttp://drewmadelung.com\n\n\n\n\nGovernance with teams\n\u00b6\n\n\n\n\nAutomate governance in Microsoft Teams: Context and Goals\n\n\nAutomate governance in Microsoft Teams: The Result\n\n\nAutomate governance in Microsoft Teams: Implementation, v1\n\n\nAutomate governance in Microsoft Teams: Implementation, v2\n\n\n\n\nDevOps\n\u00b6\n\n\n\n\nCreate Azure DevOps pipelines for a Microsoft Teams app built with SPFx\n\n\n\n\nProvisioning with Template\n\u00b6\n\n\n\n\nCreate Teams with template\n\n\nProvisioning Teams with Azure Functions and Microsoft Flow Part 1: Solution Overview\n\n\nMicrosoft Teams \u2013 Automation of Teams Creation\n\n\nProvision Microsoft Teams with Azure Automation \u2013 Part I\n\n\n\n\nRenaming Teams\n\u00b6\n\n\n\n\nRenaming Teams and Channels Can Be Messy",
             "title": "Teams"
         },
         {
@@ -1762,12 +1807,12 @@
         },
         {
             "location": "/spfx/teams/#overview",
-            "text": "http://blog.ioz.ch/productivity-news-vom-1-3-2017-microsoft-teams-all-in-one-collaboration/  https://bob1german.com/2018/05/14/teams-and-sharepoint-better-together/  https://www.metalogix.com/blog/microsoft-365-teamwork-inner-outer-loop",
+            "text": "All-in-One Collaboration  Teams and SharePoint: Better Together  Everything You Need to Know About Microsoft Teams  Inner Loop & Outer Loop",
             "title": "Overview"
         },
         {
             "location": "/spfx/teams/#planing",
-            "text": "Modern Governance f\u00fcr SharePoint Team Sites sind zu beachten  Microsoft Teams planning guide  Core components of Teams \n- Limits and specifications for Microsoft Teams  Difference in permission between an owner and a member",
+            "text": "Modern Governance f\u00fcr SharePoint Team Sites sind zu beachten  Microsoft Teams planning guide  Core components of Teams  Limits and specifications for Microsoft Teams  Difference in permission between an owner and a member",
             "title": "Planing"
         },
         {
