@@ -97,6 +97,12 @@
 - [Group People Web Part](https://blog.lsonline.fr/2019/04/20/sharepoint-framework-group-people-web-part/) | [gitlab.lsonline.fr](https://gitlab.lsonline.fr/SharePoint/sp-dev-fx-webparts/group-people/)
 - [How To Create/ Generate QRcode In SPFx Web Part](https://www.c-sharpcorner.com/article/how-to-create-generate-qrcode-in-spfx-web-part/)
 
+## Project WebParts
+
+- [Modern Project Site Example](https://myspquestions.wordpress.com/2019/03/20/modern-sharepoint-modern-project-site-example/)
+- [VerticalTimeline](https://github.com/OlivierCC/spfx-40-fantastics/tree/master/src/webparts/verticalTimeline)
+- [react-google-charts - timeline](https://github.com/rakannimer/react-google-charts/blob/master/sandboxes/timeline/index.js)
+
 ## Filtering WebParts
 
 - [SPFX Image Gallery with filtering](https://www.ejazhussain.com/2019/02/08/spfx-image-gallery/)
