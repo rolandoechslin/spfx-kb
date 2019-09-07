@@ -14,7 +14,8 @@
 
 - [Localize SharePoint Framework client-side web parts](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/localize-web-parts#localize-web-part-contents)
 - [Implementing localization file checks to prevent issues in SharePoint Framework solutions](https://www.eliostruyf.com/implementing-localization-file-checks-to-prevent-issues-in-sharepoint-framework-solutions/)
-- [Simplify localization in SharePoint Framework projects](https://www.eliostruyf.com/simplify-localization-in-sharepoint-framework-projects/)
+- [Simplify localization in SharePoint Framework projects](https://www.eliostruyf.com/simplify-localization-in-sharepoint-framework-projects)
+- [Using the SFPx library component for simplifing the localization experience](https://www.eliostruyf.com/blog/sfpx-library-component-simplifing-localization-experience/)
 
 ## Properties
 
