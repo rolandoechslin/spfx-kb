@@ -25,6 +25,10 @@
 - https://survivejs.com/react/
 - https://github.com/markerikson/react-redux-links
 
+## Blogs
+
+- [overreacted - Personal blog by Dan Abramov](https://overreacted.io/)
+
 ## Styleguide
 
 - [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/blob/master/react/README.md)
@@ -43,10 +47,6 @@
 ## JS/React VS.Code Extensions
 
 - [The Ultimate VSCode Setup for Front End/JS/React](https://medium.com/productivity-freak/the-ultimate-vscode-setup-for-js-react-6a4f7bd51a2)
-
-## SP2016
-
-- [sharepoint-application-pages-with-react-office-fabric-ui-interface](https://rasper87.wordpress.com/2018/04/03/sharepoint-application-pages-with-react-office-fabric-ui-interface)
 
 ## Boilerplates
 
