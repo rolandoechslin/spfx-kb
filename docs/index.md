@@ -1,10 +1,12 @@
 # Tips and tricks
 
+- [SharePoint Development Community (PnP) – September 2019 update](https://developer.microsoft.com/en-us/sharepoint/blogs/sharepoint-development-community-pnp-september-2019-update/)
+- [SharePoint Development Community (PnP) – June 2019 update](https://developer.microsoft.com/en-us/office/blogs/sharepoint-development-community-pnp-june-2019-update/)
+- [SharePoint Development Community (PnP) – January 2019 update](https://developer.microsoft.com/en-us/graph/blogs/sharepoint-development-community-pnp-january-2019-update/)
 - [SharePoint PnP Monthly Call – April 9th, 2019 – Screenshot Summary](http://warner.digital/pnpsummary04092019/)
 - [SharePoint PnP Dev General SIG Call – Screenshot Summary](http://warner.digital/category/sharepoint/patterns-and-practices/)
 - [SharePoint Dev Weekly – Episode 32](https://developer.microsoft.com/en-us/sharepoint/blogs/sharepoint-dev-weekly-episode-32/)
 - [January 2019 SharePoint Modernization News](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/January-2019-SharePoint-Modernization-News/ba-p/320552)
-- [SharePoint Development Community (PnP) – January 2019 update](https://developer.microsoft.com/en-us/graph/blogs/sharepoint-development-community-pnp-january-2019-update/)
 
 ## SPFx Timeline
 
