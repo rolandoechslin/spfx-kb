@@ -6,7 +6,6 @@ site_author: 'Roland Oechslin'
 pages:
     - Home: index.md
     - SPFx:
-        architecture
         - Start: spfx/start.md
         - Architecture: spfx/architecture.md
         - Azure: spfx/azure.md
