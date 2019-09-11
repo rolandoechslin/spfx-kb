@@ -121,6 +121,10 @@
 
 - [SPFx reusable React control field-picker-list-data](https://jjm935611985.wordpress.com/2018/10/)
 
+## Share Data in WebPart
+
+- [Share data between SPFx webpart](https://www.linkedin.com/pulse/share-data-between-spfx-webpart-ramakrishnan-raman)
+
 ## Dynamic Load Webpart
 
 - <https://github.com/wobba/spfx4fun/blob/master/DynamicLoad>
