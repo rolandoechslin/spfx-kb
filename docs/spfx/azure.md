@@ -1,5 +1,9 @@
 # Azure
 
+## Administation with Azure-CLI
+
+- [The Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
+
 ## Granting access using SharePoint App-Only
 
 - [Setting up an app-only principal with tenant permissions](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
