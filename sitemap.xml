@@ -18,6 +18,12 @@
     </url>
         
     <url>
+     <loc>/spfx/architecture/</loc>
+     <lastmod>2019-09-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/spfx/azure/</loc>
      <lastmod>2019-09-11</lastmod>
      <changefreq>daily</changefreq>

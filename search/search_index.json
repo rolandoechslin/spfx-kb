@@ -232,7 +232,7 @@
         },
         {
             "location": "/spfx/start/",
-            "text": "Dev Start\n\u00b6\n\n\nDevelopment starting\n\u00b6\n\n\n\n\nSet up your Office 365 tenant\n\n\nSet up your SharePoint Framework development environment\n\n\nSPFx developer guide \u2013 setup and solution structure overview\n\n\n\n\nChecklist\n\u00b6\n\n\n\n\nhttps://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/\n\n\nhttps://rencore.com/sharepoint-customizations-guide/",
+            "text": "Dev Start\n\u00b6\n\n\nDevelopment starting\n\u00b6\n\n\n\n\nSet up your Office 365 tenant\n\n\nSet up your SharePoint Framework development environment\n\n\nSPFx developer guide \u2013 setup and solution structure overview",
             "title": "Start"
         },
         {
@@ -246,9 +246,19 @@
             "title": "Development starting"
         },
         {
-            "location": "/spfx/start/#checklist",
-            "text": "https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/  https://rencore.com/sharepoint-customizations-guide/",
-            "title": "Checklist"
+            "location": "/spfx/architecture/",
+            "text": "Architecture\n\u00b6\n\n\nChecklist Solution\n\u00b6\n\n\n\n\nQuestion / Checklist SPFx Solution\n\n\nSharePoint Framework \u2013 new project checklist\n\n\nhttps://rencore.com/software/tools/sharepoint-customizations-guide/",
+            "title": "Architecture"
+        },
+        {
+            "location": "/spfx/architecture/#architecture",
+            "text": "",
+            "title": "Architecture"
+        },
+        {
+            "location": "/spfx/architecture/#checklist-solution",
+            "text": "Question / Checklist SPFx Solution  SharePoint Framework \u2013 new project checklist  https://rencore.com/software/tools/sharepoint-customizations-guide/",
+            "title": "Checklist Solution"
         },
         {
             "location": "/spfx/azure/",
