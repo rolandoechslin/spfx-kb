@@ -83,3 +83,7 @@ DisableTelemetry
 
 - [Network planning and performance tuning for Office 365](https://docs.microsoft.com/de-de/office365/enterprise/network-planning-and-performance)
 - [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges)
+
+## Clean O365
+
+- [POWERSHELL SCRIPTS FOR KEEPING YOUR DEVELOPMENT ENVIRONMENT TIDY AND SPOTLESS](https://laurakokkarinen.com/does-it-spark-joy-powershell-scripts-for-keeping-your-development-environment-tidy-and-spotless/#empty-the-tenant-recycle-bin)
