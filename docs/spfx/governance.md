@@ -2,6 +2,7 @@
 
 ## Overview
 
+- [Plan for governance in Office 365 Groups](https://docs.microsoft.com/en-us/office365/admin/create-groups/plan-for-groups-governance?view=o365-worldwide)
 - [Plan for governance to transform teamwork with Microsoft 365](https://resources.techcommunity.microsoft.com/teamwork-governance/)
 - [How to implement SharePoint Governance](https://sharepointmaven.com/implement-sharepoint-governance)
 - [overview-best-practices-for-managing-how-people-use-your-team-site](https://support.office.com/en-us/article/overview-best-practices-for-managing-how-people-use-your-team-site-95e83c3d-e1b0-4aae-9d08-e94dcaa4942e#__toc259623125)
