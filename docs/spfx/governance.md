@@ -2,6 +2,7 @@
 
 ## Overview
 
+- [SharePoint governance questions](http://tiny.cc/SharePointGovQuestions)
 - [Plan for governance in Office 365 Groups](https://docs.microsoft.com/en-us/office365/admin/create-groups/plan-for-groups-governance?view=o365-worldwide)
 - [Plan for governance to transform teamwork with Microsoft 365](https://resources.techcommunity.microsoft.com/teamwork-governance/)
 - [How to implement SharePoint Governance](https://sharepointmaven.com/implement-sharepoint-governance)
