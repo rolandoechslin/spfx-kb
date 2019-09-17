@@ -8,6 +8,10 @@
 - [SharePoint Dev Weekly – Episode 32](https://developer.microsoft.com/en-us/sharepoint/blogs/sharepoint-dev-weekly-episode-32/)
 - [January 2019 SharePoint Modernization News](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/January-2019-SharePoint-Modernization-News/ba-p/320552)
 
+## Wish List
+
+- [Summer 2019 Wish List](https://www.andrewconnell.com/blog/sharepoint-framework-summer-2019-wish-list/)
+
 ## SPFx Timeline
 
 - [Overview SPFx Versions](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1946wZk4utpdY75buZGqQ-JdNdLWDemErFKcp2alh6rA&font=Default&lang=en&initial_zoom=2&height=650)
