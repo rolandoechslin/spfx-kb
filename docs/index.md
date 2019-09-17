@@ -10,7 +10,7 @@
 
 ## Wish List
 
-- [Summer 2019 Wish List](https://www.andrewconnell.com/blog/sharepoint-framework-summer-2019-wish-list/)
+- [Summer 2019 Wish List - Andrew Connell](https://www.andrewconnell.com/blog/sharepoint-framework-summer-2019-wish-list/)
 
 ## SPFx Timeline
 
