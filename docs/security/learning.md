@@ -2,8 +2,9 @@
 
 ## Ressources
 
-- <https://www.owasp.org>
-- <https://danielmiessler.com/projects/webappsec_testing_resources/>
+- [OWASP™ Foundation](https://www.owasp.org)
+- [danielmiessler - Web Application Security Testing Resources](https://danielmiessler.com/projects/webappsec_testing_resources)
+- [Hacking-Security-Ebooks](https://github.com/yeahhub/Hacking-Security-Ebooks)
 
 ## Checklist
 
