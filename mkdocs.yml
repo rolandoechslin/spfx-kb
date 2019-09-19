@@ -39,6 +39,7 @@ pages:
         - Modern-page: spfx/modernpage.md
         - Network: spfx/network.md
         - Patterns: spfx/patterns.md
+        - Planner: spfx/planner.md
         - Provisioning: spfx/provisioning.md
         - Migration: spfx/migration.md
         - REST: spfx/rest.md
