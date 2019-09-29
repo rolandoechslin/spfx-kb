@@ -7,6 +7,7 @@
 - [SharePoint PnP Dev General SIG Call – Screenshot Summary](http://warner.digital/category/sharepoint/patterns-and-practices/)
 - [SharePoint Dev Weekly – Episode 32](https://developer.microsoft.com/en-us/sharepoint/blogs/sharepoint-dev-weekly-episode-32/)
 - [January 2019 SharePoint Modernization News](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/January-2019-SharePoint-Modernization-News/ba-p/320552)
+- [SharePoint Framework Client-Side Web Part Samples & Tutorial Materials](https://sharepoint.github.io/sp-dev-fx-webparts/)
 
 ## Wish List
 
