@@ -452,7 +452,7 @@
         },
         {
             "location": "/spfx/column-formating/",
-            "text": "Column Formating\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nUse column formatting to customize SharePoint\n\n\nSpecial string values\n\n\n\n\nTools\n\u00b6\n\n\n\n\nWhat\u2019s new in Column Formatter 1.2\n\n\n\n\nRessources\n\u00b6\n\n\n\n\nhttp://www.sharepointing.co.uk/2017/11/10/customise-sharepoint-online-columns-using-json\n\n\nhttp://warner.digital/columnformattingintroduction\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart1/\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart2/\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart3/\n\n\n\n\nSamples\n\u00b6\n\n\n-\nShow Holidays/Events, with no of days to go using ListView Formatting",
+            "text": "Column Formating\n\u00b6\n\n\nReference\n\u00b6\n\n\n\n\nUse column formatting to customize SharePoint\n\n\nSpecial string values\n\n\n\n\nTools\n\u00b6\n\n\n\n\nWhat\u2019s new in Column Formatter 1.2\n\n\n\n\nRessources\n\u00b6\n\n\n\n\nhttp://www.sharepointing.co.uk/2017/11/10/customise-sharepoint-online-columns-using-json\n\n\nhttp://warner.digital/columnformattingintroduction\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart1/\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart2/\n\n\nhttp://warner.digital/sharepointcolumnformattinggettingstartedpart3/\n\n\n\n\nSamples\n\u00b6\n\n\n-\nShow Holidays/Events, with no of days to go using ListView Formatting\n\n\nAdd Scripts for formating\n\u00b6\n\n\n\n\nSharePoint List Formatting Tabs",
             "title": "Column-Formating"
         },
         {
@@ -479,6 +479,11 @@
             "location": "/spfx/column-formating/#samples",
             "text": "- Show Holidays/Events, with no of days to go using ListView Formatting",
             "title": "Samples"
+        },
+        {
+            "location": "/spfx/column-formating/#add-scripts-for-formating",
+            "text": "SharePoint List Formatting Tabs",
+            "title": "Add Scripts for formating"
         },
         {
             "location": "/spfx/configuration/",
@@ -1662,7 +1667,7 @@
         },
         {
             "location": "/spfx/support/",
-            "text": "Support\n\u00b6\n\n\n\n\nSharePoint Online Troubleshooting\n\n\n\n\nSharepoint IDs\n\u00b6\n\n\n\n\nSharepoint 2019 Feature Ids\n\n\n\n\nAdmin O365\n\u00b6\n\n\n\n\nhttp://aka.ms/Office-Developer\n (alle wichtigen Office DEV Links)\n\n\nhttp://aka.ms/Office-TechGuide\n \n\n\nhttps://support.office.com/?ui=de-DE&rs=de-CH&ad=CH&fromAR=1\n\n\nhttps://technet.microsoft.com/de-ch/\n\n\nhttps://products.office.com/de-CH/\n\n\nAdmin-Help-O365\n\n\nhttps://support.office.com/en-us/\n\n\nfree-ebooks-microsoft\n\n\nClick-2-Run\n\n\nURLs-und-IP-Adressbereiche-von-Office-365\n\n\nsharepoint-licensing-overview\n\n\nfree-microsoft-training-resources\n\n\n\n\nSPO\n\u00b6\n\n\n\n\nNavigation options for SharePoint Online\n\n\n\n\nDiagnostics\n\u00b6\n\n\n\n\nuse-the-page-diagnostics-tool-for-sharepoint-online\n\n\n\n\nWebParts\n\u00b6\n\n\nMaintenancemode\n\n\n\n\nopen-and-use-the-web-part-maintenance-page\n\n\n\n\n?maintenancemode=true\n\n\n\n\nDisableTelemetry\n\n\n\n\nDisabling Telemetry network traffic on SPFx workbench\n\n\n\n\n?disableTelemetry=true\n\n\n\n\nLists\n\u00b6\n\n\n\n\nSwitch to classic mode\n\n\nOrganize-documents-and-sites-in-office-365\n\n\nManage-large-lists-and-libraries-in-SharePoint\n\n\n\n\nCreate Documentation\n\u00b6\n\n\n\n\narticle/ways-to-work-with-sharepoint\n\n\n\n\nAPI Throttling (Error 429)\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/simulating-throttling-sharepoint\n\n\n\n\nTips\n\u00b6\n\n\n\n\nThe scientific methodology for troubleshooting SharePoint\n\n\nOpen in Explorer or View with File Explorer in SharePoint\n\n\n\n\nInvalid File Names\n\u00b6\n\n\n\n\nInvalid file names and file types in OneDrive, OneDrive for Business, and SharePoint\n\n\n\n\nNo-Scripts / embedding-scripts\n\u00b6\n\n\n\n\nDon't allow embedding scripts on modern sites\n\n\nAdvice on using unsupported customisations (and more) in a SharePoint Online environment\n\n\n\n\nFollowed Sites\n\u00b6\n\n\n\n\nSocial Following Sites on behalf of a user\n\n\n\n\nO365 Network planning\n\u00b6\n\n\n\n\nNetwork planning and performance tuning for Office 365\n\n\nOffice 365 URLs and IP address ranges\n\n\n\n\nClean O365\n\u00b6\n\n\n\n\nPOWERSHELL SCRIPTS FOR KEEPING YOUR DEVELOPMENT ENVIRONMENT TIDY AND SPOTLESS",
+            "text": "Support\n\u00b6\n\n\n\n\nSharePoint Online Troubleshooting\n\n\n\n\nLicence Changes\n\u00b6\n\n\n\n\nNeue Lizenzierung von PowerApps\n\n\nPowerApps Licence Changes in terms that Matt Weston understands!\n\n\nPowerApps and Microsoft Flow licensing FAQs for October 2019\n\n\n\n\nSharepoint IDs\n\u00b6\n\n\n\n\nSharepoint 2019 Feature Ids\n\n\n\n\nAdmin O365\n\u00b6\n\n\n\n\nTechNet Gallery - Office365\n\n\nhttp://aka.ms/Office-Developer\n (alle wichtigen Office DEV Links)\n\n\nhttp://aka.ms/Office-TechGuide\n \n\n\nhttps://support.office.com/?ui=de-DE&rs=de-CH&ad=CH&fromAR=1\n\n\nhttps://technet.microsoft.com/de-ch/\n\n\nhttps://products.office.com/de-CH/\n\n\nAdmin-Help-O365\n\n\nhttps://support.office.com/en-us/\n\n\nfree-ebooks-microsoft\n\n\nClick-2-Run\n\n\nURLs-und-IP-Adressbereiche-von-Office-365\n\n\nsharepoint-licensing-overview\n\n\nfree-microsoft-training-resources\n\n\n\n\nSPO\n\u00b6\n\n\n\n\nNavigation options for SharePoint Online\n\n\n\n\nDiagnostics\n\u00b6\n\n\n\n\nuse-the-page-diagnostics-tool-for-sharepoint-online\n\n\n\n\nWebParts\n\u00b6\n\n\nMaintenancemode\n\n\n\n\nopen-and-use-the-web-part-maintenance-page\n\n\n\n\n?maintenancemode=true\n\n\n\n\nDisableTelemetry\n\n\n\n\nDisabling Telemetry network traffic on SPFx workbench\n\n\n\n\n?disableTelemetry=true\n\n\n\n\nLists\n\u00b6\n\n\n\n\nSwitch to classic mode\n\n\nOrganize-documents-and-sites-in-office-365\n\n\nManage-large-lists-and-libraries-in-SharePoint\n\n\n\n\nCreate Documentation\n\u00b6\n\n\n\n\narticle/ways-to-work-with-sharepoint\n\n\n\n\nAPI Throttling (Error 429)\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/simulating-throttling-sharepoint\n\n\n\n\nTips\n\u00b6\n\n\n\n\nThe scientific methodology for troubleshooting SharePoint\n\n\nOpen in Explorer or View with File Explorer in SharePoint\n\n\n\n\nInvalid File Names\n\u00b6\n\n\n\n\nInvalid file names and file types in OneDrive, OneDrive for Business, and SharePoint\n\n\n\n\nNo-Scripts / embedding-scripts\n\u00b6\n\n\n\n\nDon't allow embedding scripts on modern sites\n\n\nAdvice on using unsupported customisations (and more) in a SharePoint Online environment\n\n\n\n\nFollowed Sites\n\u00b6\n\n\n\n\nSocial Following Sites on behalf of a user\n\n\n\n\nO365 Network planning\n\u00b6\n\n\n\n\nNetwork planning and performance tuning for Office 365\n\n\nOffice 365 URLs and IP address ranges\n\n\n\n\nClean O365\n\u00b6\n\n\n\n\nPOWERSHELL SCRIPTS FOR KEEPING YOUR DEVELOPMENT ENVIRONMENT TIDY AND SPOTLESS",
             "title": "Support"
         },
         {
@@ -1671,13 +1676,18 @@
             "title": "Support"
         },
         {
+            "location": "/spfx/support/#licence-changes",
+            "text": "Neue Lizenzierung von PowerApps  PowerApps Licence Changes in terms that Matt Weston understands!  PowerApps and Microsoft Flow licensing FAQs for October 2019",
+            "title": "Licence Changes"
+        },
+        {
             "location": "/spfx/support/#sharepoint-ids",
             "text": "Sharepoint 2019 Feature Ids",
             "title": "Sharepoint IDs"
         },
         {
             "location": "/spfx/support/#admin-o365",
-            "text": "http://aka.ms/Office-Developer  (alle wichtigen Office DEV Links)  http://aka.ms/Office-TechGuide    https://support.office.com/?ui=de-DE&rs=de-CH&ad=CH&fromAR=1  https://technet.microsoft.com/de-ch/  https://products.office.com/de-CH/  Admin-Help-O365  https://support.office.com/en-us/  free-ebooks-microsoft  Click-2-Run  URLs-und-IP-Adressbereiche-von-Office-365  sharepoint-licensing-overview  free-microsoft-training-resources",
+            "text": "TechNet Gallery - Office365  http://aka.ms/Office-Developer  (alle wichtigen Office DEV Links)  http://aka.ms/Office-TechGuide    https://support.office.com/?ui=de-DE&rs=de-CH&ad=CH&fromAR=1  https://technet.microsoft.com/de-ch/  https://products.office.com/de-CH/  Admin-Help-O365  https://support.office.com/en-us/  free-ebooks-microsoft  Click-2-Run  URLs-und-IP-Adressbereiche-von-Office-365  sharepoint-licensing-overview  free-microsoft-training-resources",
             "title": "Admin O365"
         },
         {
