@@ -2,6 +2,12 @@
 
 - [SharePoint Online Troubleshooting](https://docs.microsoft.com/en-us/sharepoint/support/online)
 
+## Licence Changes
+
+- [Neue Lizenzierung von PowerApps](https://blog.ioz.ch/neue-lizenzierung-von-powerapps)
+- [PowerApps Licence Changes in terms that Matt Weston understands!](https://blog.mattweston365.com/2019/09/powerapps-licence-changes-in-terms-that.html)
+- [PowerApps and Microsoft Flow licensing FAQs for October 2019](https://docs.microsoft.com/de-de/power-platform/admin/powerapps-flow-licensing-faq)
+
 ## Sharepoint IDs
 
 - [Sharepoint 2019 Feature Ids](https://kolislab.com/sharepoint-2019-feature-ids/)
