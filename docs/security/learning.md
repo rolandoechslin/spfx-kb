@@ -8,8 +8,8 @@
 
 ## Checklist
 
-- <https://www.owasp.org/index.php/Testing_Checklist>
-- <https://portswigger.net/kb/issues>
+- [OWASP Testing Checklist](https://www.owasp.org/index.php/Testing_Checklist)
+- [Security KB Issues - portswigger.net](https://portswigger.net/kb/issues)
 
 ## Password Check
 
@@ -18,11 +18,11 @@
 
 ## Tools
 
-- <https://secapps.com/appbandit>
+- [Advanced Web Security Proxy](https://secapps.com/appbandit)
 
 ## Firewall
 
-- <https://blogs.msdn.microsoft.com/mvpawardprogram/2018/05/15/powershell-windows-firewall/>
+- [Using PowerShell To Maintain Windows Firewall Rules For Remote Access](https://blogs.msdn.microsoft.com/mvpawardprogram/2018/05/15/powershell-windows-firewall)
 
 ## Sharepoint OnPrem
 
@@ -36,7 +36,7 @@
 
 ## File
 
-- <https://sharepointmaven.com/6-locations-can-set-security-files-sharepoint-office-365>
+- [6 locations where you can set security for files in SharePoint and Office 365](https://sharepointmaven.com/6-locations-can-set-security-files-sharepoint-office-365)
 
 ## SPFx Tooling
 
