@@ -34,11 +34,15 @@
 - <https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/Idle-Session-Timeout-Policy-in-SharePoint-Online-amp-OneDrive-is/ba-p/211274>
 - https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions
 
-### File
+## File
 
 - <https://sharepointmaven.com/6-locations-can-set-security-files-sharepoint-office-365>
 
 ## SPFx Tooling
 
-- <https://www.helloitsliam.com/2018/07/04/security-scanning-a-sharepoint-framework-solution/>
-- <https://rencore.com/blog/is-javascript-safe-for-sharepoint/>
+- [Security Scanning a SharePoint Framework Solution](https://www.helloitsliam.com/2018/07/04/security-scanning-a-sharepoint-framework-solution)
+- [Is JavaScript Safe for SharePoint](https://rencore.com/blog/is-javascript-safe-for-sharepoint)
+
+## Lockfiles
+
+- [Why npm lockfiles can be a security blindspot for injecting malicious modules](https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/)
