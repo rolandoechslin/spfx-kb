@@ -8,6 +8,7 @@
 
 ## Admin O365
 
+- [TechNet Gallery - Office365](https://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=RootCategory&f%5B0%5D.Value=Office365)
 - http://aka.ms/Office-Developer (alle wichtigen Office DEV Links)
 - http://aka.ms/Office-TechGuide 
 - https://support.office.com/?ui=de-DE&rs=de-CH&ad=CH&fromAR=1
