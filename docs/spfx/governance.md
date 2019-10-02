@@ -10,6 +10,7 @@
 - [Naming policy features](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-naming-policy?_lrsc=018aa503-3b80-4738-a978-9d1164b944c8)
 - [The Ultimate SharePoint Governance Template](https://sharepointmaven.com/the-ultimate-sharepoint-governance-template/)
 - [Office 365 Group Naming Policy: Deciding if it’s Right For You](https://www.jamielaporte.com/home/2019/9/17/considerations-a-quick-overview-on-office-365-groups-naming-policies-for-2019)
+- [8 Ways to Create Office 365 Groups – Overview and Differences](https://www.syskit.com/blog/8-ways-to-create-office-365-groups-understand-differences)
 
 ## Information Architecture
 
