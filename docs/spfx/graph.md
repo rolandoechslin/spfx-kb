@@ -13,6 +13,7 @@
 
 ## Working with Sharepoint
 
+- [Microsoft Graph API or SharePoint REST API?](https://blog.lsonline.fr/2019/10/04/microsoft-graph-api-or-sharepoint-rest-api/)
 - [SharePoint API in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/resources/sharepoint?view=graph-rest-1.0)
 
 ## Samples
