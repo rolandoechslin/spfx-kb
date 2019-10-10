@@ -1,5 +1,10 @@
 # SPFx Versions
 
+## Check versions
+
+- [What SharePoint Framework version can I use?](https://blog.mastykarz.nl/sharepoint-framework-version/)
+- [How to check SharePoint Framework version](https://blog.mastykarz.nl/how-to-check-sharepoint-framework-version/)
+
 ## v1.8
 
 - [What's in the latest Update of SPFx 1.8.0?](http://www.andrewconnell.com/blog/sharepoint-framework-v1-8-0-what-s-in-the-latest-update-of-spfx)

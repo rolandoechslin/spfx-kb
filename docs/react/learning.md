@@ -69,3 +69,9 @@
 ## Multi Step Form
 
 - [React Wizard Form](https://css-tricks.com/the-magic-of-react-based-multi-step-forms/)
+- [React-Stepzilla](https://github.com/newbreedofgeek/react-stepzilla)
+- [React multi-page poll webpart](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-multipage)
+
+## Errors
+
+- [Dealing with Undefined 'this' in React Event Handlers in a Performant Way](https://www.andrewconnell.com/blog/deal-with-undefined-this-react-event-handler-performant-way/)

@@ -3,6 +3,8 @@
 ## Overview
 
 - [Branding SharePoint - The New Normal](https://bob1german.com/2018/09/04/branding-sharepoint-the-new-normal/)
+- [SharePoint design principles](https://spdesign.azurewebsites.net/)
+- [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/)
 
 ## Docs
 

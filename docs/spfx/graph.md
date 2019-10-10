@@ -11,6 +11,11 @@
 - [graph explorer - start](https://developer.microsoft.com/en-us/graph/graph-explorer)
 - [grap webhooks - subscription](https://graph.microsoft.com/v1.0/subscriptions)
 
+## Working with Sharepoint
+
+- [Microsoft Graph API or SharePoint REST API?](https://blog.lsonline.fr/2019/10/04/microsoft-graph-api-or-sharepoint-rest-api/)
+- [SharePoint API in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/resources/sharepoint?view=graph-rest-1.0)
+
 ## Samples
 
 - [Using Microsoft Graph API to convert the format of your documents](https://blogs.technet.microsoft.com/sharepointdevelopersupport/2018/10/26/using-microsoft-graph-api-to-convert-the-format-of-your-documents)

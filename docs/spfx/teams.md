@@ -30,12 +30,13 @@
 - [A Yeoman Generator for Microsoft Teams](https://github.com/wictorwilen/generator-teams)
 - [Get started with Teams templates](https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates)
 
-## Admins
+## Administration
 
 - [Overview of Teams](https://support.office.com/en-us/article/Frequently-asked-questions-about-Microsoft-Teams-%25E2%2580%2593-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc?ui=en-US&rs=en-US&ad=US)
 - [Which Office 365 Service to Use](http://blog.avanade.com/avanade-insights/collaboration/microsoft-teams-supercharges-collaboration-for-millennials-to-boomers/)
 - [Selecting users for your Microsoft Teams pilot phase](https://delucagiuliano.com/selecting-users-for-your-microsoft-teams-pilot-phase/#.W1lo89IzZBA)
 - [Top 10 Office 365 Best Practices Every Admin Should Know](https://blog.syskit.com/top-10-office-365-best-practices)
+- [Getting Started with Microsoft Teams Administration](https://tracyvanderschyff.com/2019/10/02/getting-started-with-microsoft-teams-administration/)
 
 ## Guest Users
 
