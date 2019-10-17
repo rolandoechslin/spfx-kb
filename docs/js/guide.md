@@ -19,3 +19,10 @@
 ## Arrays
 
 - [Eleven Ways To Learn Javascript Array Iteration Effectively](https://www.zeptobook.com/eleven-ways-to-learn-javascript-array-iteration-effectively/)
+
+## Technologie Radar
+
+- https://lihsmi.ch/learning/2015/04/25/skill-radar-technology-radar.html
+- https://github.com/schoeffm/techradar
+- https://github.com/zalando/tech-radar
+- https://github.com/bdargan/techradar

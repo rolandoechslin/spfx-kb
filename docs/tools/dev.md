@@ -57,6 +57,10 @@
 - [mazwai - free background images](http://mazwai.com)
 - [dummyimage](https://dummyimage.com)
 
+## Sound Tools
+
+- [Sound effects](https://www.hongkiat.com/blog/download-free-sound-effects/)
+
 ## Password generators
 
 - [Random password generator](https://www.msdservices.com/apg/index.php)
