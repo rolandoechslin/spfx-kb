@@ -70,4 +70,3 @@
 ## Teamsites / Groups
 
 - [Retrieving search results from private Groups in Office 365 via REST](https://www.techmikael.com/2017/01/retrieving-search-results-from-private.html)
-- 
