@@ -1,5 +1,9 @@
 # Dev Tools
 
+## Framework Trends
+
+- [npmtrends](https://www.npmtrends.com/)
+
 ## RegExp
 
 - [regex101](https://regex101.com/)
