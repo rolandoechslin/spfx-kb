@@ -4,7 +4,7 @@
 - https://www.cloudguy.pro/learn-to-bot
 - [Integrating Bot Framework v4 bots to SharePoint using SharePoint Framework](https://www.youtube.com/watch?v=NYICQINeUFU&feature=youtu.be&t=2531)
 
-Bot Framework & Cognitive Service
+## Bot Framework & Cognitive Service
 
 ![Bot Framework & Cognitive Service](../assets/images/BotFrameworkDiagram-1.png)
 
@@ -14,7 +14,7 @@ Bot Framework & Cognitive Service
 
 ## QnA Makers
 
-- [](https://bisser.io/qna-maker-lessons-learned-limits-infographic/)
+- [QnA Maker Lessons Learned + Limits Infographic](https://bisser.io/qna-maker-lessons-learned-limits-infographic/)
 
 ## Samples
 
