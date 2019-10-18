@@ -16,6 +16,7 @@
 
 - [webpack-basics-part-1](https://medium.com/@baranovskyyoleg/webpack-basics-part-1-fcecae438ebe)
 - [getting-up-to-speed-with-webpack](https://www.eliostruyf.com/getting-up-to-speed-with-webpack)
+- ([Update the Webpack Config](https://www.andrewconnell.com/blog/leverage-webpack-define-plugin-spfx/)
 
 ## Prepare
 
@@ -50,8 +51,6 @@ const gulpSequence = require('gulp-sequence');
 
 gulp.task('dist', gulpSequence('clean', 'bundle', 'package-solution'));
 ```
-
-
 
 ### Deployment
 
