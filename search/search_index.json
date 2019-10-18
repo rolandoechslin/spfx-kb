@@ -412,13 +412,18 @@
         },
         {
             "location": "/spfx/bot/",
-            "text": "BOT\n\u00b6\n\n\n\n\nbuilding-a-microsoft-teams-bot\n\n\nhttps://www.cloudguy.pro/learn-to-bot\n\n\nIntegrating Bot Framework v4 bots to SharePoint using SharePoint Framework\n\n\n\n\nBot Framework & Cognitive Service\n\n\n\n\nAI\n\u00b6\n\n\n\n\nMicrosoft Build 2019 updates on Conversational AI \n\n\n\n\nQnA Makers\n\u00b6\n\n\n\n\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx\n\n\nGithub Source - AtBot Protype\n\n\nMicrosoft Bot Framework Web Chat\n\n\nreact-chat-widget\n\n\nspfx-react-bot-qna\n\n\nSearch for your SharePoint content from a bot using the Bot Framework, OAuth2 and Node.js\n\n\nSPFx MSAL Bot Extension\n\n\nBot Framework v4 SPFX Web Part Released\n\n\nreact-bot-framework",
+            "text": "BOT\n\u00b6\n\n\n\n\nbuilding-a-microsoft-teams-bot\n\n\nhttps://www.cloudguy.pro/learn-to-bot\n\n\nIntegrating Bot Framework v4 bots to SharePoint using SharePoint Framework\n\n\n\n\nBot Framework & Cognitive Service\n\u00b6\n\n\n\n\nAI\n\u00b6\n\n\n\n\nMicrosoft Build 2019 updates on Conversational AI\n\n\n\n\nQnA Makers\n\u00b6\n\n\n\n\nQnA Maker Lessons Learned + Limits Infographic\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx\n\n\nGithub Source - AtBot Protype\n\n\nMicrosoft Bot Framework Web Chat\n\n\nreact-chat-widget\n\n\nspfx-react-bot-qna\n\n\nSearch for your SharePoint content from a bot using the Bot Framework, OAuth2 and Node.js\n\n\nSPFx MSAL Bot Extension\n\n\nBot Framework v4 SPFX Web Part Released\n\n\nreact-bot-framework",
             "title": "Bot"
         },
         {
             "location": "/spfx/bot/#bot",
-            "text": "building-a-microsoft-teams-bot  https://www.cloudguy.pro/learn-to-bot  Integrating Bot Framework v4 bots to SharePoint using SharePoint Framework   Bot Framework & Cognitive Service",
+            "text": "building-a-microsoft-teams-bot  https://www.cloudguy.pro/learn-to-bot  Integrating Bot Framework v4 bots to SharePoint using SharePoint Framework",
             "title": "BOT"
+        },
+        {
+            "location": "/spfx/bot/#bot-framework-cognitive-service",
+            "text": "",
+            "title": "Bot Framework &amp; Cognitive Service"
         },
         {
             "location": "/spfx/bot/#ai",
@@ -427,7 +432,7 @@
         },
         {
             "location": "/spfx/bot/#qna-makers",
-            "text": "",
+            "text": "QnA Maker Lessons Learned + Limits Infographic",
             "title": "QnA Makers"
         },
         {
