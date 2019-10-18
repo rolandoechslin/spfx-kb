@@ -1,5 +1,7 @@
 # Tips and tricks
 
+- [SharePoint Videos](https://developer.microsoft.com/en-us/sharepoint/gallery/?filterBy=Videos,SharePoint,React)
+- [SharePoint Blogs](https://developer.microsoft.com/en-us/sharepoint/blogs/)
 - [SharePoint Development Community (PnP) – September 2019 update](https://developer.microsoft.com/en-us/sharepoint/blogs/sharepoint-development-community-pnp-september-2019-update/)
 - [SharePoint Development Community (PnP) – June 2019 update](https://developer.microsoft.com/en-us/office/blogs/sharepoint-development-community-pnp-june-2019-update/)
 - [SharePoint Development Community (PnP) – January 2019 update](https://developer.microsoft.com/en-us/graph/blogs/sharepoint-development-community-pnp-january-2019-update/)
