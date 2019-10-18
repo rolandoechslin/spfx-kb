@@ -10,7 +10,7 @@
 
 ## AI
 
-- [Microsoft Build 2019 updates on Conversational AI ](https://bisser.io/microsoft-build-2019-updates-on-conversational-ai/)
+- [Microsoft Build 2019 updates on Conversational AI](https://bisser.io/microsoft-build-2019-updates-on-conversational-ai/)
 
 ## QnA Makers
 
