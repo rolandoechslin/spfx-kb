@@ -43,3 +43,5 @@
 ## Tips
 
 - [Make Sure to Add Owners as Members When Creating New Teams](https://office365itpros.com/2018/11/23/creating-teams-powershell/)
+- [Planner Does Multiplan](https://www.petri.com/planner-does-multiplan)
+- [Planner Supports Export to Excel](https://www.petri.com/planner-export-to-excel)
