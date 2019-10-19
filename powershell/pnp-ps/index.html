@@ -1334,6 +1334,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#delete-all-listitems" title="Delete all listitems" class="md-nav__link">
+    Delete all listitems
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#upload-documents" title="Upload Documents" class="md-nav__link">
     Upload Documents
   </a>
@@ -1665,6 +1672,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#delete-all-listitems" title="Delete all listitems" class="md-nav__link">
+    Delete all listitems
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#upload-documents" title="Upload Documents" class="md-nav__link">
     Upload Documents
   </a>
@@ -1750,6 +1764,11 @@
 
 <h2 id="create-guid">Create Guid<a class="headerlink" href="#create-guid" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span><span class="no">[guid]</span><span class="p">::</span><span class="n">NewGuid</span><span class="p">()</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">Guid</span> <span class="p">|</span> <span class="n">clip</span>
+</pre></div>
+
+<h2 id="delete-all-listitems">Delete all listitems<a class="headerlink" href="#delete-all-listitems" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><span class="nb">Get-PnPList</span> <span class="n">-Identity</span> <span class="n">Lists</span><span class="p">/</span><span class="n">MyList</span> <span class="p">|</span> <span class="nb">Get-PnPListItem</span> <span class="n">-PageSize</span> <span class="n">100</span> <span class="n">-ScriptBlock</span> <span class="p">{</span> <span class="k">Param</span><span class="p">(</span><span class="nv">$items</span><span class="p">)</span> 
+<span class="nv">$items</span><span class="p">.</span><span class="n">Context</span><span class="p">.</span><span class="n">ExecuteQuery</span><span class="p">()</span> <span class="p">}</span> <span class="p">|</span> <span class="p">%</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="n">DeleteObject</span><span class="p">()}</span>
 </pre></div>
 
 <h2 id="upload-documents">Upload Documents<a class="headerlink" href="#upload-documents" title="Permanent link">&para;</a></h2>
