@@ -13,7 +13,7 @@
 
 ## Get Theme
 
-```ps
+```Powershell
 $t = Get-PnPTenantTheme -Name "Contoso Team Theme"
 $t.Palette | ConvertTo-Json | Clip
 ```

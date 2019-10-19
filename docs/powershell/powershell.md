@@ -42,7 +42,7 @@
 - <http://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/>
 - <https://github.com/mikefrobbins/Plaster/tree/master/Template>
 
-```ps
+```Powershell
 Get-InstalledModule | select name, version
 ```
 

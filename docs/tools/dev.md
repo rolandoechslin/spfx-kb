@@ -105,13 +105,13 @@
 
 open last active window
 
-```ps
+```Powershell
 code -r .
 ```
 
 open in new window
 
-```ps
+```Powershell
 code -n
 ```
 

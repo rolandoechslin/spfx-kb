@@ -17,6 +17,14 @@
 - [](https://www.scconfigmgr.com/2019/06/06/powershell-module-for-microsoft-planner/)
 - [Duplicate Microsoft Planner Plans](https://lazyadmin.nl/powershell/duplicate-microsoft-planner-plan/)
 
+## Powershell Module
+
+- [Getting started with Microsoft Graph and PowerShell](https://www.lee-ford.co.uk/getting-started-with-microsoft-graph-with-powershell/)
+- [PowerShell and the Microsoft Graph API : Part 1, signing in](https://jamesone111.wordpress.com/2019/02/28/powershell-and-microsoft-graph-api-part-1-signing-in/)
+- [PowerShell and the Microsoft Graph API : Part 2 – Starting to explore](https://jamesone111.wordpress.com/2019/03/03/powershell-and-the-microsoft-graph-api-part-2-starting-to-explore/)
+- [PowerShell formatting [not just] Part 3 of the Graph API series](https://jamesone111.wordpress.com/2019/03/06/powershell-formatting-not-just-part-3-of-the-graph-api-series/)
+- [MsftGraph](https://www.powershellgallery.com/packages/MSFTGraph/1.0.1)
+
 ## Blogs
 
 - [MS Planner Blog](https://techcommunity.microsoft.com/t5/Planner-Blog/bg-p/PlannerBlog)

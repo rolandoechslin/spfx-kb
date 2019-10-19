@@ -53,6 +53,13 @@ Get-Command | ? { $_.ModuleName -eq "SharePointPnPPowerShellOnline" }
 [guid]::NewGuid() | Select-Object -ExpandProperty Guid | clip
 ```
 
+## Delete all listitems 
+
+```Powershell
+Get-PnPList -Identity Lists/MyList | Get-PnPListItem -PageSize 100 -ScriptBlock { Param($items) 
+$items.Context.ExecuteQuery() } | % {$_.DeleteObject()}
+```
+
 ## Upload Documents
 
 - https://gallery.technet.microsoft.com/office/Upload-Multiple-Documents-4c4aa989
