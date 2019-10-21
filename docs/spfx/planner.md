@@ -46,7 +46,8 @@
 - [Planner Does Multiplan](https://www.petri.com/planner-does-multiplan)
 - [Planner Supports Export to Excel](https://www.petri.com/planner-export-to-excel)
 
-## Tools
+## Tools / Frameworks
 
 - [Apps4.Pro Planner Manager](https://apps4.pro/planner-manager-resources.aspx)
 - [DHTMLX](https://github.com/DHTMLX/react-gantt-demo)
+- [react-jsgantt](https://github.com/jsGanttImproved/react-jsgantt)
