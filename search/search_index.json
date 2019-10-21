@@ -1247,7 +1247,7 @@
         },
         {
             "location": "/spfx/planner/",
-            "text": "Planner\n\u00b6\n\n\nPlaner API\n\u00b6\n\n\n\n\nUse the Planner REST API\n\n\n\n\nSupport\n\u00b6\n\n\n\n\nMicrosoft Planner for admins\n\n\n\n\nCreating Planner\n\u00b6\n\n\n\n\nCreating a Planner with Flow\n\n\nA Change Management Solution for Office 365\n\n-\nOffice 365 Message Center to Planner\n\n\nGithub - O365 Message Center to Planner integration\n\n\n\n\nDuplicate Microsoft Planner Plans\n\n\n\n\nPowershell Module\n\u00b6\n\n\n\n\nGetting started with Microsoft Graph and PowerShell\n\n\nPowerShell and the Microsoft Graph API : Part 1, signing in\n\n\nPowerShell and the Microsoft Graph API : Part 2 \u2013 Starting to explore\n\n\nPowerShell formatting [not just] Part 3 of the Graph API series\n\n\nMsftGraph\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nMS Planner Blog\n\n\nHOW TO SORT PLANNER TASKS USING ORDER HINT AND MICROSOFT GRAPH\n\n\n\n\nVideo\n\u00b6\n\n\n\n\nPlanner APIs in Microsoft Graph\n\n\n\n\nPlanner Architecture\n\u00b6\n\n\n\n\n\n\nTips\n\u00b6\n\n\n\n\nMake Sure to Add Owners as Members When Creating New Teams\n\n\nPlanner Does Multiplan\n\n\nPlanner Supports Export to Excel",
+            "text": "Planner\n\u00b6\n\n\nPlaner API\n\u00b6\n\n\n\n\nUse the Planner REST API\n\n\n\n\nSupport\n\u00b6\n\n\n\n\nMicrosoft Planner for admins\n\n\n\n\nCreating Planner\n\u00b6\n\n\n\n\nCreating a Planner with Flow\n\n\nA Change Management Solution for Office 365\n\n-\nOffice 365 Message Center to Planner\n\n\nGithub - O365 Message Center to Planner integration\n\n\n\n\nDuplicate Microsoft Planner Plans\n\n\n\n\nPowershell Module\n\u00b6\n\n\n\n\nGetting started with Microsoft Graph and PowerShell\n\n\nPowerShell and the Microsoft Graph API : Part 1, signing in\n\n\nPowerShell and the Microsoft Graph API : Part 2 \u2013 Starting to explore\n\n\nPowerShell formatting [not just] Part 3 of the Graph API series\n\n\nMsftGraph\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nMS Planner Blog\n\n\nHOW TO SORT PLANNER TASKS USING ORDER HINT AND MICROSOFT GRAPH\n\n\n\n\nVideo\n\u00b6\n\n\n\n\nPlanner APIs in Microsoft Graph\n\n\n\n\nPlanner Architecture\n\u00b6\n\n\n\n\n\n\nTips\n\u00b6\n\n\n\n\nMake Sure to Add Owners as Members When Creating New Teams\n\n\nPlanner Does Multiplan\n\n\nPlanner Supports Export to Excel\n\n\n\n\nTools\n\u00b6\n\n\n\n\nApps4.Pro Planner Manager\n\n\nDHTMLX",
             "title": "Planner"
         },
         {
@@ -1294,6 +1294,11 @@
             "location": "/spfx/planner/#tips",
             "text": "Make Sure to Add Owners as Members When Creating New Teams  Planner Does Multiplan  Planner Supports Export to Excel",
             "title": "Tips"
+        },
+        {
+            "location": "/spfx/planner/#tools",
+            "text": "Apps4.Pro Planner Manager  DHTMLX",
+            "title": "Tools"
         },
         {
             "location": "/spfx/provisioning/",
@@ -1597,7 +1602,7 @@
         },
         {
             "location": "/spfx/sp2016/",
-            "text": "SP2016\n\u00b6\n\n\nLifecycle\n\u00b6\n\n\n\n\nProduct lifecycle\n\n\n\n\nOverview Facts\n\u00b6\n\n\n\n\nSharePoint-Framework (SPFx): Enterprise-Leitfaden\n\n\n\u00dcbersicht \u00fcber das SharePoint-Framework\n\n\nSharePoint Framework development with SharePoint 2016 Feature Pack 2\n\n\nAll about SharePoint Framework For SharePoint Server 2016\n\n\nHow to use SharePoint FrameWork for SharePoint 2016 on premise\n\n\n\n\nSetup Development\n\u00b6\n\n\n\n\nSet up your SharePoint Framework development environment\n\n\nBuild your first SharePoint client-side web part (Hello World part 1)\n\n\nConnect your client-side web part to SharePoint (Hello World part 2)\n\n\nDeploy your client-side web part to a SharePoint page (Hello World part 3)\n\n\n\n\nDevelopment(local workbench)\n\u00b6\n\n\ngulp\n \nserve\n\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment(online workbench)\n\u00b6\n\n\ngulp\n \nserve\n \n-\n-nobrowser\n\n\n\n\n\n/_layouts/15/workbench.aspx\n\n\n\n\nDeployment\n\u00b6\n\n\ngulp\n \nclean\n\n\n\n\n\ngulp\n \nbuild\n \n-\n-ship\n\n\n\n\n\ngulp\n \nbundle\n \n-\n-ship\n\n\n\n\n\ngulp\n \npackage-solution\n \n-\n-ship\n\n\n\n\n\nTroubleshooting\n\u00b6\n\n\n\n\nSPFx Development for SharePoint Server 2016\n\n\nTSLint, VS Cod\n\n\n\n\nCheck Package Version\n\u00b6\n\n\nnode\n \n\u2013\nv\n\n\nnpm\n \n\u2013\nv\n\n\nyo\n \n-\n-generators\n\n\ngulp\n \n\u2013\nv\n\n\ntsc\n \n\u2013\nv\n\n\ntsd\n \n-\n-version\n\n\n\n\n\nReact\n\u00b6\n\n\n\n\nsharepoint-application-pages-with-react-office-fabric-ui-interface",
+            "text": "SP2016\n\u00b6\n\n\nLifecycle\n\u00b6\n\n\n\n\nProduct lifecycle\n\n\n\n\nOverview Facts\n\u00b6\n\n\n\n\nSharePoint-Framework (SPFx): Enterprise-Leitfaden\n\n\n\u00dcbersicht \u00fcber das SharePoint-Framework\n\n\nSharePoint Framework development with SharePoint 2016 Feature Pack 2\n\n\nAll about SharePoint Framework For SharePoint Server 2016\n\n\nHow to use SharePoint FrameWork for SharePoint 2016 on premise\n\n\n\n\nSetup Development\n\u00b6\n\n\n\n\nSet up your SharePoint Framework development environment\n\n\nBuild your first SharePoint client-side web part (Hello World part 1)\n\n\nConnect your client-side web part to SharePoint (Hello World part 2)\n\n\nDeploy your client-side web part to a SharePoint page (Hello World part 3)\n\n\n\n\nDevelopment(local workbench)\n\u00b6\n\n\ngulp\n \nserve\n\n\n\n\n\nhttps://localhost:4321/temp/workbench.html\n\n\n\n\nDevelopment(online workbench)\n\u00b6\n\n\ngulp\n \nserve\n \n-\n-nobrowser\n\n\n\n\n\n/_layouts/15/workbench.aspx\n\n\n\n\nDeployment\n\u00b6\n\n\ngulp\n \nclean\n\n\n\n\n\ngulp\n \nbuild\n \n-\n-ship\n\n\n\n\n\ngulp\n \nbundle\n \n-\n-ship\n\n\n\n\n\ngulp\n \npackage-solution\n \n-\n-ship\n\n\n\n\n\nTroubleshooting\n\u00b6\n\n\n\n\nSPFx Development for SharePoint Server 2016\n\n\nTSLint, VS Cod\n\n\n\n\nCheck Package Version\n\u00b6\n\n\nnode\n \n\u2013\nv\n\n\nnpm\n \n\u2013\nv\n\n\nyo\n \n-\n-generators\n\n\ngulp\n \n\u2013\nv\n\n\ntsc\n \n\u2013\nv\n\n\ntsd\n \n-\n-version\n\n\n\n\n\nReact\n\u00b6\n\n\n\n\nsharepoint-application-pages-with-react-office-fabric-ui-interface\n\n\n\n\nIE Support\n\u00b6\n\n\n\n\nPolyfills\n\n\nPlanning IE11 compatibility with SPFx components and PnPJS library\n\n\nPerform other types of HTTP requests with HttpClient and SPHttpClient in SPFx projects",
             "title": "SP2016"
         },
         {
@@ -1649,6 +1654,11 @@
             "location": "/spfx/sp2016/#react",
             "text": "sharepoint-application-pages-with-react-office-fabric-ui-interface",
             "title": "React"
+        },
+        {
+            "location": "/spfx/sp2016/#ie-support",
+            "text": "Polyfills  Planning IE11 compatibility with SPFx components and PnPJS library  Perform other types of HTTP requests with HttpClient and SPHttpClient in SPFx projects",
+            "title": "IE Support"
         },
         {
             "location": "/spfx/sp2019/",
