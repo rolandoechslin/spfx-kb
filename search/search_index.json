@@ -1247,7 +1247,7 @@
         },
         {
             "location": "/spfx/planner/",
-            "text": "Planner\n\u00b6\n\n\nPlaner API\n\u00b6\n\n\n\n\nUse the Planner REST API\n\n\n\n\nSupport\n\u00b6\n\n\n\n\nMicrosoft Planner for admins\n\n\n\n\nCreating Planner\n\u00b6\n\n\n\n\nCreating a Planner with Flow\n\n\nA Change Management Solution for Office 365\n\n-\nOffice 365 Message Center to Planner\n\n\nGithub - O365 Message Center to Planner integration\n\n\n\n\nDuplicate Microsoft Planner Plans\n\n\n\n\nPowershell Module\n\u00b6\n\n\n\n\nGetting started with Microsoft Graph and PowerShell\n\n\nPowerShell and the Microsoft Graph API : Part 1, signing in\n\n\nPowerShell and the Microsoft Graph API : Part 2 \u2013 Starting to explore\n\n\nPowerShell formatting [not just] Part 3 of the Graph API series\n\n\nMsftGraph\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nMS Planner Blog\n\n\nHOW TO SORT PLANNER TASKS USING ORDER HINT AND MICROSOFT GRAPH\n\n\n\n\nVideo\n\u00b6\n\n\n\n\nPlanner APIs in Microsoft Graph\n\n\n\n\nPlanner Architecture\n\u00b6\n\n\n\n\n\n\nTips\n\u00b6\n\n\n\n\nMake Sure to Add Owners as Members When Creating New Teams\n\n\nPlanner Does Multiplan\n\n\nPlanner Supports Export to Excel\n\n\n\n\nTools\n\u00b6\n\n\n\n\nApps4.Pro Planner Manager\n\n\nDHTMLX",
+            "text": "Planner\n\u00b6\n\n\nPlaner API\n\u00b6\n\n\n\n\nUse the Planner REST API\n\n\n\n\nSupport\n\u00b6\n\n\n\n\nMicrosoft Planner for admins\n\n\n\n\nCreating Planner\n\u00b6\n\n\n\n\nCreating a Planner with Flow\n\n\nA Change Management Solution for Office 365\n\n-\nOffice 365 Message Center to Planner\n\n\nGithub - O365 Message Center to Planner integration\n\n\n\n\nDuplicate Microsoft Planner Plans\n\n\n\n\nPowershell Module\n\u00b6\n\n\n\n\nGetting started with Microsoft Graph and PowerShell\n\n\nPowerShell and the Microsoft Graph API : Part 1, signing in\n\n\nPowerShell and the Microsoft Graph API : Part 2 \u2013 Starting to explore\n\n\nPowerShell formatting [not just] Part 3 of the Graph API series\n\n\nMsftGraph\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nMS Planner Blog\n\n\nHOW TO SORT PLANNER TASKS USING ORDER HINT AND MICROSOFT GRAPH\n\n\n\n\nVideo\n\u00b6\n\n\n\n\nPlanner APIs in Microsoft Graph\n\n\n\n\nPlanner Architecture\n\u00b6\n\n\n\n\n\n\nTips\n\u00b6\n\n\n\n\nMake Sure to Add Owners as Members When Creating New Teams\n\n\nPlanner Does Multiplan\n\n\nPlanner Supports Export to Excel\n\n\n\n\nTools / Frameworks\n\u00b6\n\n\n\n\nApps4.Pro Planner Manager\n\n\nDHTMLX\n\n\nreact-jsgantt",
             "title": "Planner"
         },
         {
@@ -1296,9 +1296,9 @@
             "title": "Tips"
         },
         {
-            "location": "/spfx/planner/#tools",
-            "text": "Apps4.Pro Planner Manager  DHTMLX",
-            "title": "Tools"
+            "location": "/spfx/planner/#tools-frameworks",
+            "text": "Apps4.Pro Planner Manager  DHTMLX  react-jsgantt",
+            "title": "Tools / Frameworks"
         },
         {
             "location": "/spfx/provisioning/",
