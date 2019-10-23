@@ -47,6 +47,7 @@
 - [Making a real world sharing strategy for SharePoint, OneDrive & Teams](https://www.slideshare.net/dmadelung/making-a-real-world-sharing-strategy-for-sharepoint-onedrive-teams)
 - [A quick guide to secure Office 365_DE.pdf](http://www.sharepointtalk.net/2018/07/a-quick-guide-to-secure-office-365.html)
 - [Coaching your users through the External Sharing Experience](http://www.sharepointtalk.net/2019/01/coaching-your-users-through-external.html)
+- [How to secure external sharing in SharePoint Online and Office 365](https://sharegate.com/blog/how-to-secure-external-sharing-sharepoint-online-onedrive-office-365)
 
 ## User profile / Delete user
 
