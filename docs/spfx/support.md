@@ -1,6 +1,7 @@
 # Support
 
 - [SharePoint Online Troubleshooting](https://docs.microsoft.com/en-us/sharepoint/support/online)
+- [Docs SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/sharepoint-server)
 
 ## Licence Changes
 
