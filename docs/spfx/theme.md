@@ -18,6 +18,10 @@ $t = Get-PnPTenantTheme -Name "Contoso Team Theme"
 $t.Palette | ConvertTo-Json | Clip
 ```
 
+## Section Backgrounds
+
+- [Using Custom Color for Section Backgrounds and Page Headers](https://spdcp.com/2019/06/27/custom-header-colors/)
+
 ## Office Fabric Tips
 
 - [How to handle table component of Office UI Fabric](https://n8d.at/blog/how-to-handle-table-component-of-office-ui-fabric/)
