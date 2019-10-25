@@ -18,6 +18,10 @@
 - [Building SharePoint Site Designs with Themes and Azure Functions](https://bob1german.com/2018/07/31/building-sharepoint-site-designs-with-themes-and-azure-functions)
 - [Update site design to all of your sites](https://letslearnoffice365.wordpress.com/2019/04/16/update-site-design-to-all-of-your-sites/)
 
+## Deploying
+
+- [Deploying Application Customizers with a Site Design](https://spdcp.com/2019/10/24/deploying-application-customizers-with-a-site-design/)
+
 ## Flow / REST
 
 - [Invoking a Site Design Task using REST](https://beaucameron.net/2019/01/10/invoking-a-site-design-task-using-rest/)
