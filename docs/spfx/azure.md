@@ -41,6 +41,10 @@
 
 - https://azure.microsoft.com/en-us/blog/get-the-azure-quick-start-guide-for-net-developers
 
+## Tips
+
+ -[Azure Readiness Checklist](https://github.com/ghostinthewires/Azure-Readiness-Checklist)
+
 ## AAD
 
 Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
