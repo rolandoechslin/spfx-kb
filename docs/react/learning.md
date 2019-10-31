@@ -71,6 +71,7 @@
 - [React Wizard Form](https://css-tricks.com/the-magic-of-react-based-multi-step-forms/)
 - [React-Stepzilla](https://github.com/newbreedofgeek/react-stepzilla)
 - [React multi-page poll webpart](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-multipage)
+ -[React Reusable Wizard component for SPFx](https://ypcode.wordpress.com/2019/10/31/build-a-reusable-wizard-component-for-your-spfx-solutions-using-react-and-office-ui-fabric/)
 
 ## Errors
 
