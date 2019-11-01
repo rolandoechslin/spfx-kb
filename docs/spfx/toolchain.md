@@ -22,6 +22,10 @@
 
 - [Preparing development machine for client-side SharePoint projects](https://www.linkedin.com/pulse/preparing-development-machine-client-side-sharepoint-mac-koltyakov)
 
+## Commands
+
+- [SPFx Commands Cheat Sheet](https://www.c-sharpcorner.com/article/spfx-commands-cheat-sheet/)
+
 ## Gulp
 
 - [Getting up to speed with Gulp](https://www.eliostruyf.com/getting-up-to-speed-with-gulp)
@@ -162,8 +166,6 @@ gulp serve --nobrowser
 
 - <https://pdemro.com/improve-sharepoint-framework-build-times-by-hacking-gulp-and-webpack>
 - <https://github.com/pdemro/spfx-gulpfile-hack>
-
-
 
 ## Depoyment
 
