@@ -69,6 +69,7 @@
 ## Backup
 
 - [Does Office 365 require a backup solution?](https://blog.ioz.ch/backup-office-365/)
+- [Compare Backup Solutions SkyKick and Veeam](https://blog.ioz.ch/office365-backup-skykick-und-veeam-im-vergleich/)
 - [Does Office 365, hosted by Microsoft requires a data backup solution](https://www.sharepointeurope.com/office-365-hosted-microsoft-requires-data-backup-solution)
 
 ## Audit/Usage Reports
