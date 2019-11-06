@@ -7,6 +7,7 @@
 - [tricky-sharepoint.blogspot.ch](http://tricky-sharepoint.blogspot.ch)
 - [blog.arvosys.com](http://blog.arvosys.com)
 - [techwithnakkeeran.com](http://www.techwithnakkeeran.com)
+- [afrait.com](https://afrait.com/infographics/)
 
 ## Teams
 
