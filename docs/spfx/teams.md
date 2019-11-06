@@ -49,6 +49,10 @@
 - <https://www.avepoint.com/blog/microsoft-teams/office-365-groups-vs-teams/>
 - <http://blog.pixelmill.com/3580/microsoft-teams-sharepoint-destined-lifelong-partners/>
 
+## Private Channels
+
+- [Top 5 things to know about private channels in Microsoft Teams](https://robertschouten.com/2019/11/04/top-5-things-to-know-about-private-channels-in-microsoft-teams/)
+
 ## Tipps
 
 - <https://collab365.community/microsoft-teams-hacks>
