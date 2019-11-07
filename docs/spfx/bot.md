@@ -11,6 +11,7 @@
 ## AI
 
 - [Microsoft Build 2019 updates on Conversational AI](https://bisser.io/microsoft-build-2019-updates-on-conversational-ai/)
+- [Ignite 2019 News on the Conversational AI Platform ](https://bisser.io/ignite-2019-news-on-the-conversational-ai-platform/)
 
 ## QnA Makers
 
