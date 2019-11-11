@@ -24,6 +24,7 @@
 - [PowerShell and the Microsoft Graph API : Part 2 – Starting to explore](https://jamesone111.wordpress.com/2019/03/03/powershell-and-the-microsoft-graph-api-part-2-starting-to-explore/)
 - [PowerShell formatting [not just] Part 3 of the Graph API series](https://jamesone111.wordpress.com/2019/03/06/powershell-formatting-not-just-part-3-of-the-graph-api-series/)
 - [MsftGraph](https://www.powershellgallery.com/packages/MSFTGraph/1.0.1)
+- [Unified PowerShell experience for Microsoft Graph](https://myignite.techcommunity.microsoft.com/sessions/83012?source=sessions)
 
 ## Blogs
 
