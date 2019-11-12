@@ -60,8 +60,9 @@
 - [Get Office 365 Groups with Teams via PowerShell and the Microsoft Graph](https://drewmadelung.com/get-office-365-groups-with-teams-via-powershell-and-the-microsoft-graph)
 - https://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations
 
-## Querys
+## Querys / Reports
 
+- [How to find inactive Microsoft Teams you no longer need](https://sharegate.com/blog/find-inactive-microsoft-teams-office-365-groups)
 - [Get all Teams Groups](https://sharepoint-specialist.nu/get-all-teams-in-a-tenant-using-microsoft-graph-255f374d5c3a)
 - [Get Office 365 Groups with Teams via PowerShell and the Microsoft Graph](https://drewmadelung.com/get-office-365-groups-with-teams-via-powershell-and-the-microsoft-graph/)
 
@@ -94,3 +95,5 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 ## Renaming Teams
 
 - [Renaming Teams and Channels Can Be Messy](https://www.petri.com/renaming-teams-can-be-messy)
+
+

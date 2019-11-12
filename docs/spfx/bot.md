@@ -17,6 +17,11 @@
 
 - [QnA Maker Lessons Learned + Limits Infographic](https://bisser.io/qna-maker-lessons-learned-limits-infographic/)
 
+## Bot Framework Composer
+
+- [Bot Framework Composer - Github](https://github.com/microsoft/BotFramework-Composer)
+- [Bot Framework Composer - Weather Bot](https://www.loom.com/share/ad336fb900254e8eb9847dd0dc5f18e1)
+
 ## Samples
 
 - [Add AtBot to your SharePoint site using SPFx](https://blog.getbizzy.io/add-bizzy-to-your-sharepoint-site-using-spfx-ab7ed97b856c)
