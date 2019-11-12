@@ -417,7 +417,7 @@
         },
         {
             "location": "/spfx/bot/",
-            "text": "BOT\n\u00b6\n\n\n\n\nbuilding-a-microsoft-teams-bot\n\n\nhttps://www.cloudguy.pro/learn-to-bot\n\n\nIntegrating Bot Framework v4 bots to SharePoint using SharePoint Framework\n\n\n\n\nBot Framework & Cognitive Service\n\u00b6\n\n\n\n\nAI\n\u00b6\n\n\n\n\nMicrosoft Build 2019 updates on Conversational AI\n\n\n\n\nQnA Makers\n\u00b6\n\n\n\n\nQnA Maker Lessons Learned + Limits Infographic\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx\n\n\nGithub Source - AtBot Protype\n\n\nMicrosoft Bot Framework Web Chat\n\n\nreact-chat-widget\n\n\nspfx-react-bot-qna\n\n\nSearch for your SharePoint content from a bot using the Bot Framework, OAuth2 and Node.js\n\n\nSPFx MSAL Bot Extension\n\n\nBot Framework v4 SPFX Web Part Released\n\n\nreact-bot-framework",
+            "text": "BOT\n\u00b6\n\n\n\n\nbuilding-a-microsoft-teams-bot\n\n\nhttps://www.cloudguy.pro/learn-to-bot\n\n\nIntegrating Bot Framework v4 bots to SharePoint using SharePoint Framework\n\n\n\n\nBot Framework & Cognitive Service\n\u00b6\n\n\n\n\nAI\n\u00b6\n\n\n\n\nMicrosoft Build 2019 updates on Conversational AI\n\n\nIgnite 2019 News on the Conversational AI Platform \n\n\n\n\nQnA Makers\n\u00b6\n\n\n\n\nQnA Maker Lessons Learned + Limits Infographic\n\n\n\n\nBot Framework Composer\n\u00b6\n\n\n\n\nBot Framework Composer - Github\n\n\nBot Framework Composer - Weather Bot\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx\n\n\nGithub Source - AtBot Protype\n\n\nMicrosoft Bot Framework Web Chat\n\n\nreact-chat-widget\n\n\nspfx-react-bot-qna\n\n\nSearch for your SharePoint content from a bot using the Bot Framework, OAuth2 and Node.js\n\n\nSPFx MSAL Bot Extension\n\n\nBot Framework v4 SPFX Web Part Released\n\n\nreact-bot-framework",
             "title": "Bot"
         },
         {
@@ -432,13 +432,18 @@
         },
         {
             "location": "/spfx/bot/#ai",
-            "text": "Microsoft Build 2019 updates on Conversational AI",
+            "text": "Microsoft Build 2019 updates on Conversational AI  Ignite 2019 News on the Conversational AI Platform",
             "title": "AI"
         },
         {
             "location": "/spfx/bot/#qna-makers",
             "text": "QnA Maker Lessons Learned + Limits Infographic",
             "title": "QnA Makers"
+        },
+        {
+            "location": "/spfx/bot/#bot-framework-composer",
+            "text": "Bot Framework Composer - Github  Bot Framework Composer - Weather Bot",
+            "title": "Bot Framework Composer"
         },
         {
             "location": "/spfx/bot/#samples",
@@ -1252,7 +1257,7 @@
         },
         {
             "location": "/spfx/planner/",
-            "text": "Planner\n\u00b6\n\n\nPlaner API\n\u00b6\n\n\n\n\nUse the Planner REST API\n\n\n\n\nSupport\n\u00b6\n\n\n\n\nMicrosoft Planner for admins\n\n\n\n\nCreating Planner\n\u00b6\n\n\n\n\nCreating a Planner with Flow\n\n\nA Change Management Solution for Office 365\n\n-\nOffice 365 Message Center to Planner\n\n\nGithub - O365 Message Center to Planner integration\n\n\n\n\nDuplicate Microsoft Planner Plans\n\n\n\n\nPowershell Module\n\u00b6\n\n\n\n\nGetting started with Microsoft Graph and PowerShell\n\n\nPowerShell and the Microsoft Graph API : Part 1, signing in\n\n\nPowerShell and the Microsoft Graph API : Part 2 \u2013 Starting to explore\n\n\nPowerShell formatting [not just] Part 3 of the Graph API series\n\n\nMsftGraph\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nMS Planner Blog\n\n\nHOW TO SORT PLANNER TASKS USING ORDER HINT AND MICROSOFT GRAPH\n\n\n\n\nVideo\n\u00b6\n\n\n\n\nPlanner APIs in Microsoft Graph\n\n\n\n\nPlanner Architecture\n\u00b6\n\n\n\n\n\n\nTips\n\u00b6\n\n\n\n\nMake Sure to Add Owners as Members When Creating New Teams\n\n\nPlanner Does Multiplan\n\n\nPlanner Supports Export to Excel\n\n\n\n\nTools / Frameworks\n\u00b6\n\n\n\n\nApps4.Pro Planner Manager\n\n\nDHTMLX\n\n\nreact-jsgantt",
+            "text": "Planner\n\u00b6\n\n\nPlaner API\n\u00b6\n\n\n\n\nUse the Planner REST API\n\n\n\n\nSupport\n\u00b6\n\n\n\n\nMicrosoft Planner for admins\n\n\n\n\nCreating Planner\n\u00b6\n\n\n\n\nCreating a Planner with Flow\n\n\nA Change Management Solution for Office 365\n\n-\nOffice 365 Message Center to Planner\n\n\nGithub - O365 Message Center to Planner integration\n\n\n\n\nDuplicate Microsoft Planner Plans\n\n\n\n\nPowershell Module\n\u00b6\n\n\n\n\nGetting started with Microsoft Graph and PowerShell\n\n\nPowerShell and the Microsoft Graph API : Part 1, signing in\n\n\nPowerShell and the Microsoft Graph API : Part 2 \u2013 Starting to explore\n\n\nPowerShell formatting [not just] Part 3 of the Graph API series\n\n\nMsftGraph\n\n\nUnified PowerShell experience for Microsoft Graph\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nMS Planner Blog\n\n\nHOW TO SORT PLANNER TASKS USING ORDER HINT AND MICROSOFT GRAPH\n\n\n\n\nVideo\n\u00b6\n\n\n\n\nPlanner APIs in Microsoft Graph\n\n\n\n\nPlanner Architecture\n\u00b6\n\n\n\n\n\n\nTips\n\u00b6\n\n\n\n\nMake Sure to Add Owners as Members When Creating New Teams\n\n\nPlanner Does Multiplan\n\n\nPlanner Supports Export to Excel\n\n\n\n\nTools / Frameworks\n\u00b6\n\n\n\n\nApps4.Pro Planner Manager\n\n\nDHTMLX\n\n\nreact-jsgantt",
             "title": "Planner"
         },
         {
@@ -1277,7 +1282,7 @@
         },
         {
             "location": "/spfx/planner/#powershell-module",
-            "text": "Getting started with Microsoft Graph and PowerShell  PowerShell and the Microsoft Graph API : Part 1, signing in  PowerShell and the Microsoft Graph API : Part 2 \u2013 Starting to explore  PowerShell formatting [not just] Part 3 of the Graph API series  MsftGraph",
+            "text": "Getting started with Microsoft Graph and PowerShell  PowerShell and the Microsoft Graph API : Part 1, signing in  PowerShell and the Microsoft Graph API : Part 2 \u2013 Starting to explore  PowerShell formatting [not just] Part 3 of the Graph API series  MsftGraph  Unified PowerShell experience for Microsoft Graph",
             "title": "Powershell Module"
         },
         {
@@ -1932,7 +1937,7 @@
         },
         {
             "location": "/spfx/teams/",
-            "text": "Teams\n\u00b6\n\n\nSupport\n\u00b6\n\n\n\n\nKeyboard shortcuts for Microsoft Teams\n\n\nMicrosoft Teams: How to clean cache\n\n\nA guide to troubleshooting Teams\n\n\n\n\nOverview\n\u00b6\n\n\n\n\nAll-in-One Collaboration\n\n\nTeams and SharePoint: Better Together\n\n\nEverything You Need to Know About Microsoft Teams\n\n\nInner Loop & Outer Loop\n\n\n\n\nPlaning\n\u00b6\n\n\n\n\nModern Governance f\u00fcr SharePoint Team Sites sind zu beachten\n\n\nMicrosoft Teams planning guide\n\n\nCore components of Teams\n\n\nLimits and specifications for Microsoft Teams\n\n\nDifference in permission between an owner and a member\n\n\n\n\nTraining video\n\u00b6\n\n\n\n\nMicrosoft Teams video training\n\n\nGovernance, management and lifecycle in Microsoft Teams\n\n\n\n\nCoding\n\u00b6\n\n\n\n\nA Yeoman Generator for Microsoft Teams\n\n\nGet started with Teams templates\n\n\n\n\nAdministration\n\u00b6\n\n\n\n\nOverview of Teams\n\n\nWhich Office 365 Service to Use\n\n\nSelecting users for your Microsoft Teams pilot phase\n\n\nTop 10 Office 365 Best Practices Every Admin Should Know\n\n\nGetting Started with Microsoft Teams Administration\n\n\n\n\nGuest Users\n\u00b6\n\n\n\n\nhttps://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users\n\n\n\n\nMicrosoft Teams versus Sharepoint Teams\n\u00b6\n\n\n\n\nhttp://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work\n\n\nhttps://www.avepoint.com/blog/microsoft-teams/office-365-groups-vs-teams/\n\n\nhttp://blog.pixelmill.com/3580/microsoft-teams-sharepoint-destined-lifelong-partners/\n\n\n\n\nPrivate Channels\n\u00b6\n\n\n\n\nTop 5 things to know about private channels in Microsoft Teams\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://collab365.community/microsoft-teams-hacks\n\n\nOffice 365 Groups Naming Policy\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\nhttps://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations\n\n\n\n\nQuerys\n\u00b6\n\n\n\n\nGet all Teams Groups\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\n\n\nhttps://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nhttp://drewmadelung.com\n\n\n\n\nGovernance with teams\n\u00b6\n\n\n\n\nAutomate governance in Microsoft Teams: Context and Goals\n\n\nAutomate governance in Microsoft Teams: The Result\n\n\nAutomate governance in Microsoft Teams: Implementation, v1\n\n\nAutomate governance in Microsoft Teams: Implementation, v2\n\n\n\n\nDevOps\n\u00b6\n\n\n\n\nCreate Azure DevOps pipelines for a Microsoft Teams app built with SPFx\n\n\n\n\nProvisioning with Template\n\u00b6\n\n\n\n\nCreate Teams with template\n\n\nProvisioning Teams with Azure Functions and Microsoft Flow Part 1: Solution Overview\n\n\nMicrosoft Teams \u2013 Automation of Teams Creation\n\n\nProvision Microsoft Teams with Azure Automation \u2013 Part I\n\n\n\n\nRenaming Teams\n\u00b6\n\n\n\n\nRenaming Teams and Channels Can Be Messy",
+            "text": "Teams\n\u00b6\n\n\nSupport\n\u00b6\n\n\n\n\nKeyboard shortcuts for Microsoft Teams\n\n\nMicrosoft Teams: How to clean cache\n\n\nA guide to troubleshooting Teams\n\n\n\n\nOverview\n\u00b6\n\n\n\n\nAll-in-One Collaboration\n\n\nTeams and SharePoint: Better Together\n\n\nEverything You Need to Know About Microsoft Teams\n\n\nInner Loop & Outer Loop\n\n\n\n\nPlaning\n\u00b6\n\n\n\n\nModern Governance f\u00fcr SharePoint Team Sites sind zu beachten\n\n\nMicrosoft Teams planning guide\n\n\nCore components of Teams\n\n\nLimits and specifications for Microsoft Teams\n\n\nDifference in permission between an owner and a member\n\n\n\n\nTraining video\n\u00b6\n\n\n\n\nMicrosoft Teams video training\n\n\nGovernance, management and lifecycle in Microsoft Teams\n\n\n\n\nCoding\n\u00b6\n\n\n\n\nA Yeoman Generator for Microsoft Teams\n\n\nGet started with Teams templates\n\n\n\n\nAdministration\n\u00b6\n\n\n\n\nOverview of Teams\n\n\nWhich Office 365 Service to Use\n\n\nSelecting users for your Microsoft Teams pilot phase\n\n\nTop 10 Office 365 Best Practices Every Admin Should Know\n\n\nGetting Started with Microsoft Teams Administration\n\n\n\n\nGuest Users\n\u00b6\n\n\n\n\nhttps://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users\n\n\n\n\nMicrosoft Teams versus Sharepoint Teams\n\u00b6\n\n\n\n\nhttp://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work\n\n\nhttps://www.avepoint.com/blog/microsoft-teams/office-365-groups-vs-teams/\n\n\nhttp://blog.pixelmill.com/3580/microsoft-teams-sharepoint-destined-lifelong-partners/\n\n\n\n\nPrivate Channels\n\u00b6\n\n\n\n\nTop 5 things to know about private channels in Microsoft Teams\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://collab365.community/microsoft-teams-hacks\n\n\nOffice 365 Groups Naming Policy\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\nhttps://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations\n\n\n\n\nQuerys / Reports\n\u00b6\n\n\n\n\nHow to find inactive Microsoft Teams you no longer need\n\n\nGet all Teams Groups\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\n\n\nhttps://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nhttp://drewmadelung.com\n\n\n\n\nGovernance with teams\n\u00b6\n\n\n\n\nAutomate governance in Microsoft Teams: Context and Goals\n\n\nAutomate governance in Microsoft Teams: The Result\n\n\nAutomate governance in Microsoft Teams: Implementation, v1\n\n\nAutomate governance in Microsoft Teams: Implementation, v2\n\n\n\n\nDevOps\n\u00b6\n\n\n\n\nCreate Azure DevOps pipelines for a Microsoft Teams app built with SPFx\n\n\n\n\nProvisioning with Template\n\u00b6\n\n\n\n\nCreate Teams with template\n\n\nProvisioning Teams with Azure Functions and Microsoft Flow Part 1: Solution Overview\n\n\nMicrosoft Teams \u2013 Automation of Teams Creation\n\n\nProvision Microsoft Teams with Azure Automation \u2013 Part I\n\n\n\n\nRenaming Teams\n\u00b6\n\n\n\n\nRenaming Teams and Channels Can Be Messy",
             "title": "Teams"
         },
         {
@@ -1991,9 +1996,9 @@
             "title": "Tipps"
         },
         {
-            "location": "/spfx/teams/#querys",
-            "text": "Get all Teams Groups  Get Office 365 Groups with Teams via PowerShell and the Microsoft Graph   https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')",
-            "title": "Querys"
+            "location": "/spfx/teams/#querys-reports",
+            "text": "How to find inactive Microsoft Teams you no longer need  Get all Teams Groups  Get Office 365 Groups with Teams via PowerShell and the Microsoft Graph   https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')",
+            "title": "Querys / Reports"
         },
         {
             "location": "/spfx/teams/#blogs",
@@ -2312,7 +2317,7 @@
         },
         {
             "location": "/spfx/versions/",
-            "text": "SPFx Versions\n\u00b6\n\n\nCheck versions\n\u00b6\n\n\n\n\nWhat SharePoint Framework version can I use?\n\n\nHow to check SharePoint Framework version\n\n\n\n\nv1.8\n\u00b6\n\n\n\n\nWhat's in the latest Update of SPFx 1.8.0?\n\n\nRelease notes for SharePoint Framework 1.8\n\n\nUsing the full potential of React in SharePoint Framework 1.8.0\n\n\nSPFx 1.8 now supports Office Fabric React 6.156.0\n\n\nSharePoint Framework 1.8 Has Been Released!\n\n\nCommon Issues in SPFx 1.8.0 with TypeScript 3.3",
+            "text": "SPFx Versions\n\u00b6\n\n\nCheck versions\n\u00b6\n\n\n\n\nWhat version of Node can I use for SharePoint Framework?\n\n\nWhat SharePoint Framework version can I use?\n\n\nHow to check SharePoint Framework version\n\n\n\n\nv1.8\n\u00b6\n\n\n\n\nWhat's in the latest Update of SPFx 1.8.0?\n\n\nRelease notes for SharePoint Framework 1.8\n\n\nUsing the full potential of React in SharePoint Framework 1.8.0\n\n\nSPFx 1.8 now supports Office Fabric React 6.156.0\n\n\nSharePoint Framework 1.8 Has Been Released!\n\n\nCommon Issues in SPFx 1.8.0 with TypeScript 3.3",
             "title": "Versions"
         },
         {
@@ -2322,7 +2327,7 @@
         },
         {
             "location": "/spfx/versions/#check-versions",
-            "text": "What SharePoint Framework version can I use?  How to check SharePoint Framework version",
+            "text": "What version of Node can I use for SharePoint Framework?  What SharePoint Framework version can I use?  How to check SharePoint Framework version",
             "title": "Check versions"
         },
         {
