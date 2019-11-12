@@ -2,6 +2,7 @@
 
 ## Check versions
 
+- [What version of Node can I use for SharePoint Framework?](https://blog.mastykarz.nl/node-version-sharepoint-framework/)
 - [What SharePoint Framework version can I use?](https://blog.mastykarz.nl/sharepoint-framework-version/)
 - [How to check SharePoint Framework version](https://blog.mastykarz.nl/how-to-check-sharepoint-framework-version/)
 
