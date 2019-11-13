@@ -43,6 +43,10 @@
 
 - <https://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users>
 
+## Teams Adviser
+
+- [Overview Microsoft Teams Advisor](https://www.jamielaporte.com/home/2019/11/11/microsoft-teams-advisor)
+
 ## Microsoft Teams versus Sharepoint Teams
 
 - <http://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work>
