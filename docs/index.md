@@ -176,7 +176,7 @@ https://localhost:4321/temp/workbench.html
 ## Development(online workbench)
 
 ```Powershell
-gulp serve --nobrowser
+gulp serve --nobrowser --locale=de-de
 ```
 
 ```html
