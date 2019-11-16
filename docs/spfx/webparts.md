@@ -104,6 +104,7 @@
 - [Modern Project Site Example](https://myspquestions.wordpress.com/2019/03/20/modern-sharepoint-modern-project-site-example/)
 - [VerticalTimeline](https://github.com/OlivierCC/spfx-40-fantastics/tree/master/src/webparts/verticalTimeline)
 - [react-google-charts - timeline](https://github.com/rakannimer/react-google-charts/blob/master/sandboxes/timeline/index.js)
+- [JavaScript Calendar React](https://fullcalendar.io/)
 
 ## Filtering WebParts
 
