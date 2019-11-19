@@ -150,3 +150,21 @@ Disable-PnPSiteClassification
 ## Documents List
 
 - [Change the New Menu in SharePoint Online Documents List](https://cann0nf0dder.wordpress.com/2019/03/24/programmatically-change-the-new-menu-in-sharepoint-online-using-powershell/)
+
+## List Properties
+
+- [Finding Missing Properties in PnP PowerShell](https://www.toddklindt.com/blog/Lists/Posts/Post.aspx?List=56f96349%2D3bb6%2D4087%2D94f4%2D7f95ff4ca81f&ID=851&Web=48e6fdd1%2D17db%2D4543%2Db2f9%2D6fc7185484fc)
+
+```Powershell
+Connect-PnPOnline -Url https://toddklindt.sharepoint.com/sites/8884aced -Credentials Me
+Get-PnPView -List Documents
+Get-PnPView -List Documents -Identity 3c4126aa-d2fe-4b57-9a70-e03ebb9c76ef
+$view = Get-PnPView -List Documents -Identity 3c4126aa-d2fe-4b57-9a70-e03ebb9c76ef
+$view
+$view | select *
+$view.ViewQuery
+Get-PnPProperty -ClientObject $view -Property ViewQuery
+$view.ViewQuery
+$view
+$view | select *
+```
