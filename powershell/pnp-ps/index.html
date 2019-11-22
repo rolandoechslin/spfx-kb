@@ -1368,6 +1368,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#list-properties" title="List Properties" class="md-nav__link">
+    List Properties
+  </a>
+  
+</li>
+      
       
       
       
@@ -1706,6 +1713,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#list-properties" title="List Properties" class="md-nav__link">
+    List Properties
+  </a>
+  
+</li>
+      
       
       
       
@@ -1855,6 +1869,22 @@
 <ul>
 <li><a href="https://cann0nf0dder.wordpress.com/2019/03/24/programmatically-change-the-new-menu-in-sharepoint-online-using-powershell/">Change the New Menu in SharePoint Online Documents List</a></li>
 </ul>
+<h2 id="list-properties">List Properties<a class="headerlink" href="#list-properties" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.toddklindt.com/blog/Lists/Posts/Post.aspx?List=56f96349%2D3bb6%2D4087%2D94f4%2D7f95ff4ca81f&amp;ID=851&amp;Web=48e6fdd1%2D17db%2D4543%2Db2f9%2D6fc7185484fc">Finding Missing Properties in PnP PowerShell</a></li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="nb">Connect-PnPOnline</span> <span class="n">-Url</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">toddklindt</span><span class="p">.</span><span class="n">sharepoint</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">sites</span><span class="p">/</span><span class="n">8884aced</span> <span class="n">-Credentials</span> <span class="n">Me</span>
+<span class="nb">Get-PnPView</span> <span class="n">-List</span> <span class="n">Documents</span>
+<span class="nb">Get-PnPView</span> <span class="n">-List</span> <span class="n">Documents</span> <span class="n">-Identity</span> <span class="n">3c4126aa-d2fe</span><span class="p">-</span><span class="n">4b57</span><span class="p">-</span><span class="n">9a70-e03ebb9c76ef</span>
+<span class="nv">$view</span> <span class="p">=</span> <span class="nb">Get-PnPView</span> <span class="n">-List</span> <span class="n">Documents</span> <span class="n">-Identity</span> <span class="n">3c4126aa-d2fe</span><span class="p">-</span><span class="n">4b57</span><span class="p">-</span><span class="n">9a70-e03ebb9c76ef</span>
+<span class="nv">$view</span>
+<span class="nv">$view</span> <span class="p">|</span> <span class="n">select</span> <span class="p">*</span>
+<span class="nv">$view</span><span class="p">.</span><span class="n">ViewQuery</span>
+<span class="nb">Get-PnPProperty</span> <span class="n">-ClientObject</span> <span class="nv">$view</span> <span class="n">-Property</span> <span class="n">ViewQuery</span>
+<span class="nv">$view</span><span class="p">.</span><span class="n">ViewQuery</span>
+<span class="nv">$view</span>
+<span class="nv">$view</span> <span class="p">|</span> <span class="n">select</span> <span class="p">*</span>
+</pre></div>
                 
                   
                 
