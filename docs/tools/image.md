@@ -24,6 +24,7 @@
 - http://gifmaker.me/
 - https://www.base64-image.de/
 - https://shields.io
+- [CSS clip path macker - clippy](https://bennettfeely.com/clippy/)
 
 ## Image File Types
 
