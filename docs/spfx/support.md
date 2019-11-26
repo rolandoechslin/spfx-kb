@@ -65,6 +65,10 @@ DisableTelemetry
 
 - [article/ways-to-work-with-sharepoint](https://support.office.com/en-gb/article/ways-to-work-with-sharepoint-11de936c-8fed-4474-ac58-583d0c38ac12?ui=en-US&rs=en-GB&ad=GB)
 
+## Login Error
+
+ - [How to log in to Microsoft’s websites (MSDN forums, Azure Portal, SharePoint Online) when you get a 'Bad Request' error?](https://www.koskila.net/how-to-log-in-to-microsofts-websites-msdn-forums-azure-portal-sharepoint-online-when-you-get-a-bad-request-error/)
+
 ## API Throttling (Error 429)
 
 - <https://blog.mastykarz.nl/simulating-throttling-sharepoint>
