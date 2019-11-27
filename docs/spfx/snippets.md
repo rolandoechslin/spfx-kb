@@ -1,5 +1,9 @@
 # Code Snippets
 
+## Check URL
+
+ [Use Microsoft Graph to evaluate SharePoint Urls](https://github.com/SharePoint/sp-dev-fx-webparts/blob/dev/samples/react-graph-evalurl/src/webparts/graphEvalUrl/components/GraphEvalClient.ts)
+
 ## QueryString
 
 - [How to get a querystring value](http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2018/09/11/spfx-basics-how-to-get-a-query-string-value.aspx)
