@@ -63,6 +63,7 @@
 - [Office 365 Groups Naming Policy](https://drewmadelung.com/office-365-groups-naming-policy)
 - [Get Office 365 Groups with Teams via PowerShell and the Microsoft Graph](https://drewmadelung.com/get-office-365-groups-with-teams-via-powershell-and-the-microsoft-graph)
 - https://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations
+- [PowerShell scripts for manging Office 365 Groups and Microsoft Teams](https://github.com/martinagrom/Ignite-PowerShell-Masterclass)
 
 ## Querys / Reports
 
