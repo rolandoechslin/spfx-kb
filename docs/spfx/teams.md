@@ -99,5 +99,4 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 ## Renaming Teams
 
 - [Renaming Teams and Channels Can Be Messy](https://www.petri.com/renaming-teams-can-be-messy)
-
-
+- [Renaming a Microsoft Team and the associated SharePoint site](https://www.cps.co.uk/blog-posts/renaming-a-microsoft-team-and-the-associated-sharepoint-site/)
