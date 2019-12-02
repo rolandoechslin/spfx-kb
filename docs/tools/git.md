@@ -29,3 +29,7 @@
 ## Gitflow
 
 - [Introducing GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
+
+## GitHub Actions
+
+- [Create GitHub actions for SPFx solution](https://medium.com/@anoopt/create-github-actions-for-spfx-solution-cc4a810b87db)
