@@ -27,6 +27,7 @@
 - [Understanding manifest.js file in spx project](https://iamguptarishi.wordpress.com/2019/01/07/decoding-manifest-js-file-in-spx-webpart-solution/)
 - [Understanding spfx Solution Structure](https://iamguptarishi.wordpress.com/2019/09/26/understanding-spfx-solution-structure)
 - [Restrict Permissions on Editing SharePoint SPFx Property Pane Configurations](http://www.techwithnakkeeran.com/2019/04/restrict-permissions-on-editing.html)
+- [SharePoint Framework Web Part and Property Pane Lifecycles](https://www.vrdmn.com/2019/12/sharepoint-framework-web-part-and.html)
 
 ## Edit Mode
 
