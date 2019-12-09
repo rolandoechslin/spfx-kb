@@ -70,6 +70,7 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 ## Security
 
 - [What is Conditional Access?](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
+- [Minimizing the Risk of Compromise](https://sharepointgeoff.com/a-behind-the-scenes-look-at-how-we-secure-the-microsoft-365-platform/)
 
 ## Scripts
 
