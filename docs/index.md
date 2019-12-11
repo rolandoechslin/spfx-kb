@@ -2,6 +2,7 @@
 
 - [SharePoint Developer Community (SharePoint PnP) resources](http://aka.ms/sppnp)
 - [SharePoint Videos](https://developer.microsoft.com/en-us/sharepoint/gallery/?filterBy=Videos,SharePoint,React)
+- [SharePoint Development Community (PnP) – December 2019 update](https://developer.microsoft.com/en-us/sharepoint/blogs/sharepoint-development-community-pnp-december-2019-update/)
 - [SharePoint Blogs](https://developer.microsoft.com/en-us/sharepoint/blogs/)
 - [SharePoint Development Community (PnP) – September 2019 update](https://developer.microsoft.com/en-us/sharepoint/blogs/sharepoint-development-community-pnp-september-2019-update/)
 - [SharePoint Development Community (PnP) – June 2019 update](https://developer.microsoft.com/en-us/office/blogs/sharepoint-development-community-pnp-june-2019-update/)
