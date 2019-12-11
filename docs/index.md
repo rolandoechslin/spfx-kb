@@ -32,6 +32,7 @@
 - [Frontend Workshop from HTML/CSS/JS to TypeScript/React/Redux](https://github.com/Microsoft/frontend-bootcamp)
 - [Microsoft Learning Module](https://docs.microsoft.com/en-us/learn/browse/?utm_source=flow-sidebar&utm_medium=web)
 - [Azure Edu DevCamp](https://github.com/Microsoft/edu-devcamp)
+- [HOW TO GET STARTED WITH REACT FOR BUILDING ADVANCED SPFX SOLUTIONS](https://laurakokkarinen.com/how-to-get-started-with-react-for-building-advanced-spfx-solutions/)
 
 ## DEV-Tenant
 
