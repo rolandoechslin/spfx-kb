@@ -90,9 +90,8 @@ pages:
     - About:
       - About: about/about.md
       - Help: about/help.md
-      
-copyright: 'Copyright &copy; 2018 Roland Oechslin'
 
+copyright: 'Copyright &copy; 2018 Roland Oechslin'
 
 extra:
     version: 1.0.0
@@ -110,7 +109,6 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-
 
 # Extensions
 markdown_extensions:
@@ -140,4 +138,5 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-edit_uri: blob/master/docs
+repo_url: https://github.com/rolandoechslin/spfx-kb
+edit_uri: blob/master/docs/
