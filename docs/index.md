@@ -13,14 +13,6 @@
 - [January 2019 SharePoint Modernization News](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/January-2019-SharePoint-Modernization-News/ba-p/320552)
 - [SharePoint Framework Client-Side Web Part Samples & Tutorial Materials](https://sharepoint.github.io/sp-dev-fx-webparts/)
 
-## Wish List
-
-- [Summer 2019 Wish List - Andrew Connell](https://www.andrewconnell.com/blog/sharepoint-framework-summer-2019-wish-list/)
-
-## SPFx Timeline
-
-- [Overview SPFx Versions](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1946wZk4utpdY75buZGqQ-JdNdLWDemErFKcp2alh6rA&font=Default&lang=en&initial_zoom=2&height=650)
-
 ## Start with SPFx (Training)
 
 - [SharePoint Framework - Getting started](https://blog.mastykarz.nl/sharepoint-framework-getting-started/)
@@ -40,7 +32,15 @@
 - [New renewable Office 365 developer subscriptions launch on April 3rd](https://developer.microsoft.com/en-us/graph/blogs/new-renewable-office-365-developer-subscriptions-launch-on-april-3rd/)
 - [10 Tips for Demo/Dev Tenant](https://thomy.tech/10-things-you-should-do-with-your-office365-demo-or-dev-tenant/)
 
-## Roadmap
+## Wish List
+
+- [Summer 2019 Wish List - Andrew Connell](https://www.andrewconnell.com/blog/sharepoint-framework-summer-2019-wish-list/)
+
+## SPFx Timeline
+
+- [Overview SPFx Versions](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1946wZk4utpdY75buZGqQ-JdNdLWDemErFKcp2alh6rA&font=Default&lang=en&initial_zoom=2&height=650)
+
+## Development Roadmap
 
 - [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=SharePoint%2CIn%20Development)
 
@@ -89,10 +89,6 @@ spo serviceprincipal grant add --resource 'Microsoft Graph' --scope 'Mail.Read'
 ## Content Style Guide
 
 - [Microsoft Writing Style Guide](https://docs.microsoft.com/de-ch/style-guide/welcome)
-
-## Architecture Design
-
-- [Cloud IT architecture](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources)
 
 ## Coding Patterns
 
