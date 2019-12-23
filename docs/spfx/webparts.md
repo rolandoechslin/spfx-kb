@@ -58,6 +58,7 @@
 
 ## Samples
 
+- [SharePoint Framework Client-Side Web Part Samples](https://sharepoint.github.io/sp-dev-fx-webparts/)
 - <https://github.com/wobba/spfx4fun/tree/master/react-pageheaderconfigurator>
 - <https://github.com/wobba/sp-dev-fx-webparts/tree/modernscripted/samples/react-script-editor>
 - <http://www.sharepointnutsandbolts.com/2017/03/provisioning-modern-pages-and-spfx-web-parts.html>
