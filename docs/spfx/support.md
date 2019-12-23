@@ -29,6 +29,12 @@
 - [sharepoint-licensing-overview](https://products.office.com/en-us/sharepoint/sharepoint-licensing-overview)
 - [free-microsoft-training-resources](http://blog.fpweb.net/free-microsoft-training-resources)
 
+## Azure Error Codes
+
+- [All AADSTS Errors](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-aadsts-error-codes)
+- [Search AADSTS Nummer](https://login.microsoftonline.com/error)
+- [Resolving error AADSTS90056](https://www.koskila.net/resolving-error-aadsts90056/)
+
 ## SPO
 
 - [Navigation options for SharePoint Online](https://support.office.com/en-us/article/Navigation-options-for-SharePoint-Online-adb92b80-b342-4ecb-99a1-da2a2b4782eb)
@@ -50,7 +56,7 @@ Maintenancemode
 DisableTelemetry
 
 - [Disabling Telemetry network traffic on SPFx workbench](https://tahoeninjas.blog/2019/07/02/disabling-telemetry-network-traffic-on-spfx-workbench/)
- 
+
 ```html
 ?disableTelemetry=true
 ```
