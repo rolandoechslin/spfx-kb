@@ -8,3 +8,8 @@
 ```ts
 /_api/search/query?querytext='IsDocument:True AND FileExtension:aspx AND PromotedState:2'
 ```
+
+## News digest
+
+- [How to create an internal newsletter](https://sharepoint.handsontek.net/2018/09/02/create-internal-newsletters-using-sharepoint-news/)
+- [10 things to know about the SharePoint News digest](https://mydigitalworkplace.wordpress.com/2019/07/28/10-things-about-sharepoint-news-digest)
