@@ -36,10 +36,6 @@
 
 - [Summer 2019 Wish List - Andrew Connell](https://www.andrewconnell.com/blog/sharepoint-framework-summer-2019-wish-list/)
 
-## SPFx Timeline
-
-- [Overview SPFx Versions](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1946wZk4utpdY75buZGqQ-JdNdLWDemErFKcp2alh6rA&font=Default&lang=en&initial_zoom=2&height=650)
-
 ## Development Roadmap
 
 - [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=SharePoint%2CIn%20Development)
