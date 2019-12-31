@@ -1192,7 +1192,7 @@
         },
         {
             "location": "/spfx/modernpage/",
-            "text": "Modern page\n\u00b6\n\n\nNews pages\n\u00b6\n\n\n\n\nWhat makes a page to be a news page on SharePoint Online\n\n\nHow to read the SharePoint news using Rest API in SPFx\n\n\n\n\n/_api/search/query?querytext='IsDocument:True AND FileExtension:aspx AND PromotedState:2'\n\n\n\n\n\nNews digest\n\u00b6\n\n\n\n\nHow to create an internal newsletter\n\n\n10 things to know about the SharePoint News digest",
+            "text": "Modern page\n\u00b6\n\n\nNews pages\n\u00b6\n\n\n\n\nWhat makes a page to be a news page on SharePoint Online\n\n\nHow to read the SharePoint news using Rest API in SPFx\n\n\nKeep your team in the loop with modern SharePoint news\n\n\n\n\n/_api/search/query?querytext='IsDocument:True AND FileExtension:aspx AND PromotedState:2'\n\n\n\n\n\nNews digest\n\u00b6\n\n\n\n\nHow to create an internal newsletter\n\n\n10 things to know about the SharePoint News digest",
             "title": "Modern-page"
         },
         {
@@ -1202,7 +1202,7 @@
         },
         {
             "location": "/spfx/modernpage/#news-pages",
-            "text": "What makes a page to be a news page on SharePoint Online  How to read the SharePoint news using Rest API in SPFx   /_api/search/query?querytext='IsDocument:True AND FileExtension:aspx AND PromotedState:2'",
+            "text": "What makes a page to be a news page on SharePoint Online  How to read the SharePoint news using Rest API in SPFx  Keep your team in the loop with modern SharePoint news   /_api/search/query?querytext='IsDocument:True AND FileExtension:aspx AND PromotedState:2'",
             "title": "News pages"
         },
         {
@@ -2347,12 +2347,12 @@
         },
         {
             "location": "/spfx/versions/",
-            "text": "SPFx Versions\n\u00b6\n\n\nCheck versions\n\u00b6\n\n\n\n\nWhat version of Node can I use for SharePoint Framework?\n\n\nSharePoint 2016, 2019 & SharePoint Online: Which Version of the SharePoint Framework Should You Install?\n\n\nWhat SharePoint Framework version can I use?\n\n\nHow to check SharePoint Framework version\n\n\n\n\nv1.8\n\u00b6\n\n\n\n\nWhat's in the latest Update of SPFx 1.8.0?\n\n\nRelease notes for SharePoint Framework 1.8\n\n\nUsing the full potential of React in SharePoint Framework 1.8.0\n\n\nSPFx 1.8 now supports Office Fabric React 6.156.0\n\n\nSharePoint Framework 1.8 Has Been Released!\n\n\nCommon Issues in SPFx 1.8.0 with TypeScript 3.3",
+            "text": "SPFx Versions\n\u00b6\n\n\n\n\nSPFx Compatibility Matrix\n\n\n\n\nCheck versions\n\u00b6\n\n\n\n\nWhat version of Node can I use for SharePoint Framework?\n\n\nSharePoint 2016, 2019 & SharePoint Online: Which Version of the SharePoint Framework Should You Install?\n\n\nWhat SharePoint Framework version can I use?\n\n\nHow to check SharePoint Framework version\n\n\n\n\nv1.8\n\u00b6\n\n\n\n\nWhat's in the latest Update of SPFx 1.8.0?\n\n\nRelease notes for SharePoint Framework 1.8\n\n\nUsing the full potential of React in SharePoint Framework 1.8.0\n\n\nSPFx 1.8 now supports Office Fabric React 6.156.0\n\n\nSharePoint Framework 1.8 Has Been Released!\n\n\nCommon Issues in SPFx 1.8.0 with TypeScript 3.3",
             "title": "Versions"
         },
         {
             "location": "/spfx/versions/#spfx-versions",
-            "text": "",
+            "text": "SPFx Compatibility Matrix",
             "title": "SPFx Versions"
         },
         {
