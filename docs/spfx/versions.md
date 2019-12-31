@@ -1,5 +1,7 @@
 # SPFx Versions
 
+- [SPFx Compatibility Matrix](https://tahoeninjas.blog/2019/12/30/spfx-compatibility-matrix/)
+
 ## Check versions
 
 - [What version of Node can I use for SharePoint Framework?](https://blog.mastykarz.nl/node-version-sharepoint-framework/)
