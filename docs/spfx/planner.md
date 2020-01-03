@@ -2,6 +2,7 @@
 
 ## Planer API
 
+- [Create plans, buckets, and tasks in Planner](https://developer.microsoft.com/en-us/graph/blogs/30daysmsgraph-day-21-use-case-create-plans-buckets-and-tasks-in-planner/)
 - [Use the Planner REST API](https://docs.microsoft.com/en-us/graph/api/resources/planner-overview?view=graph-rest-1.0)
 
 ## Support
