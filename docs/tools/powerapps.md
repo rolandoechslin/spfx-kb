@@ -1,6 +1,8 @@
 # PowerApps
 
-SharePoint custom forms and automated business workflow
+## Learning
+
+- [Microsoft Power Platform: Learning Resources](https://powerapps.microsoft.com/en-us/blog/microsoft-powerapps-learning-resources/)
 
 ## Video Tutorials
 
