@@ -10,6 +10,10 @@
 
 - [Walkthrough of Site Provisioning process using PnP PowerShell](https://asishpadhy.com/2018/11/09/walkthrough-of-pnp-provisioning-process-using-powershell/)
 
+## Site TemplateId
+
+- [SharePoint Online Site Template ID list for PowerShell](https://vladtalkstech.com/2019/12/sharepoint-online-site-template-id-list-for-powershell.html)
+
 ## Fields
 
 - [How to: Provision Lookup Columns and Projected Fields using PnP PowerShell](https://coreyroth.com/2019/06/27/how-to-provision-lookup-columns-and-projected-fields-using-pnp-powershell/)
