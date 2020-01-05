@@ -60,3 +60,7 @@ Set-PnPSite -DisableFlows:$true
 # enable
 Set-PnPSite -DisableFlows:$false
 ```
+
+## Azure Logic App
+
+- [Integrate Azure Logic Apps with SharePoint Site Designs ](http://www.devjhorst.com/2019/10/integrate-azure-logic-apps-with-sharepoint-site-designs.html)
