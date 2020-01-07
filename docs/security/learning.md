@@ -46,3 +46,7 @@
 ## Lockfiles
 
 - [Why npm lockfiles can be a security blindspot for injecting malicious modules](https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/)
+
+## Block websites
+
+- [How to Block a Single Website and more](https://www.howtogeek.com/319700/how-to-use-your-computers-hosts-file-to-block-tons-of-malware-porn-and-other-types-of-websites/)
