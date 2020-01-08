@@ -65,6 +65,7 @@
 ## SiteCollections versus SubSites
 
 - [ADVANTAGES OF A FLAT SHAREPOINT SITE ARCHITECTURE](https://joannecklein.com/2017/11/03/sharepoint-site-collection-advantages)
+- [Benefits to creating a flat site structure](https://sharegate.com/blog/sharepoint-information-architecture-benefits-flat-site-structure)
 
 ## Tips Creating Sites
 
