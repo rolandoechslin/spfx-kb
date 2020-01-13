@@ -59,3 +59,34 @@ Get-SPOSite -Limit All | ForEach-Object {
   }
 }
 ```
+
+## Tips
+
+Know how many Site Designs and Site Scripts you have:
+
+```Powershell
+(Get-SPOSiteDesign | Measure).Count
+```
+
+```Powershell
+(Get-SPOSiteScript | Measure).Count
+```
+
+Delete a Site Design or a Site Script based on its unique identifier:
+
+```Powershell
+Remove-SPOSiteDesign -Identity $siteDesignId
+```
+
+```Powershell
+Remove-SPOSiteScript -Identity $siteScriptId
+
+Delete all Site Designs or Site Scripts at once:
+
+```Powershell
+Get-SPOSiteDesign | foreach { Remove-SPOSiteDesign -Identity $_.Id }
+```
+
+```Powershell
+Get-SPOSiteScript | foreach { Remove-SPOSiteScript -Identity $_.Id }
+```
