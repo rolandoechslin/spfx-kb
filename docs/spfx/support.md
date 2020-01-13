@@ -9,8 +9,9 @@
 - [PowerApps Licence Changes in terms that Matt Weston understands!](https://blog.mattweston365.com/2019/09/powerapps-licence-changes-in-terms-that.html)
 - [PowerApps and Microsoft Flow licensing FAQs for October 2019](https://docs.microsoft.com/de-de/power-platform/admin/powerapps-flow-licensing-faq)
 
-## Sharepoint IDs
+## SharePoint SPO
 
+- [SharePoint Online Support Info](https://docs.microsoft.com/de-ch/archive/blogs/sposupport/)
 - [Sharepoint 2019 Feature Ids](https://kolislab.com/sharepoint-2019-feature-ids/)
 
 ## Admin O365
