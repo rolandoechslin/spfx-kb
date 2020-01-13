@@ -3,6 +3,8 @@
 ## O365
 
 - [Customize the Learning Experience](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview)
+- [Microsoft 365 learning pathways](https://github.com/pnp/custom-learning-office-365)
+- [Adding Partner Custom Content to Microsoft Learning Pathways Portals](https://capacreative.co.uk/2020/01/09/adding-partner-custom-content-to-microsoft-learning-pathways-portals/)
 
 ## MS-Certification
 
