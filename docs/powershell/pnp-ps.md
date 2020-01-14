@@ -8,6 +8,10 @@
 
 - [sharepoint-pnp-cmdlets](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps)
 
+## Specific Version
+
+- [Import a specific module from the installed SharePoint PnP PowerShell modules (2013, 2016, 2019 & Online)](http://blog.meenavalli.in/post/powershell-import-a-specific-module-from-the-installed-sharepoint-pnp-powershell-modules-2013-2016-2019-and-online)
+
 ## Latest Version
 
 - [Latest Release Version](https://github.com/SharePoint/PnP-PowerShell/releases/latest)
