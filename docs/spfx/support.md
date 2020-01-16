@@ -62,6 +62,12 @@ DisableTelemetry
 ?disableTelemetry=true
 ```
 
+Debug localization
+
+```html
+?forceLocale=fr-fr
+```
+
 ## Lists
 
 - [Switch to classic mode](https://infosharepoint.com/switch-back-to-modern-view-in-sharepoint-online/)
