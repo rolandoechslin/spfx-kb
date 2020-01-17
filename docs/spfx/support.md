@@ -68,6 +68,14 @@ Debug localization
 ?forceLocale=fr-fr
 ```
 
+News Links
+
+- [Edit news links](https://emilymancini.com/2020/01/16/editing-a-news-link-in-sharepoint-online/)
+
+```html
+?stay=true
+```
+
 ## Lists
 
 - [Switch to classic mode](https://infosharepoint.com/switch-back-to-modern-view-in-sharepoint-online/)
