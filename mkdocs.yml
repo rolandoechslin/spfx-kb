@@ -17,6 +17,7 @@ pages:
         - Classic-Sites: spfx/classic.md
         - Column-Formating: spfx/column-formating.md
         - Configuration: spfx/configuration.md
+        - Cortex: spfx/cortex.md
         - Communication-Site: spfx/communication-site.md
         - Dev-Ops: spfx/dev-ops.md
         - Debug: spfx/debug.md
