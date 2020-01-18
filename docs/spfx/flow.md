@@ -1,5 +1,9 @@
 # Flow
 
+## Support
+
+- [Microsoft Power Automate Community](https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity)
+
 ## Video
 
 - [Microsoft Flow Conference](https://www.youtube.com/playlist?list=PLwh1E-0OEEGI7sGTXzoy98RFFqsIoUAUw)
