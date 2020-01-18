@@ -511,6 +511,21 @@
             "title": "Configuration"
         },
         {
+            "location": "/spfx/cortex/",
+            "text": "Project Cortex\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nSharePoint Developer Monthly Community Call - January 2020 - Cortex",
+            "title": "Cortex"
+        },
+        {
+            "location": "/spfx/cortex/#project-cortex",
+            "text": "",
+            "title": "Project Cortex"
+        },
+        {
+            "location": "/spfx/cortex/#overview",
+            "text": "SharePoint Developer Monthly Community Call - January 2020 - Cortex",
+            "title": "Overview"
+        },
+        {
             "location": "/spfx/communication-site/",
             "text": "Communication Site\n\u00b6\n\n\nSiteColoums Format\n\u00b6\n\n\n\n\n[Show me the news (pages)]\n(\nhttps://capacreative.co.uk/2018/10/16/show-me-the-news-pages/\n)",
             "title": "Communication-Site"
