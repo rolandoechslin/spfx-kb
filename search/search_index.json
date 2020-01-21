@@ -572,7 +572,7 @@
         },
         {
             "location": "/spfx/debug/",
-            "text": "Debug\n\u00b6\n\n\nWebcast\n\u00b6\n\n\n\n\nPnP Webcast - Debugging SharePoint Framework Solutions\n\n\n\n\nTips\n\u00b6\n\n\n\n\nTesting and debugging your SPFx solutions in production without causing any impact\n\n\nSharePoint Framework bookmarklet tool for quick and easy debugging\n\n\ndebug-production-version-sharepoint-framework-solution\n\n\nhow-debug-sharepoint-framework-webpart-visual-studio-code\n\n\ndebug-in-vscode\n\n\nSPFx-breakpoints-and-debugging-from-Visual-Studio-Code\n\n\nquick-tip-easily-test-sharepoint\n\n\ntesting-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact\n\n\nBe schizophrenic at debugging SPFx too\n\n\n\n\nExclude mock data\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/exclude-your-mock-data-and-other-modules-from-your-production-bundle-in-spfx/",
+            "text": "Debug\n\u00b6\n\n\nWebcast\n\u00b6\n\n\n\n\nPnP Webcast - Debugging SharePoint Framework Solutions\n\n\n\n\nTips\n\u00b6\n\n\n\n\nTesting and debugging your SPFx solutions in production without causing any impact\n\n\nSharePoint Framework bookmarklet tool for quick and easy debugging\n\n\ndebug-production-version-sharepoint-framework-solution\n\n\nhow-debug-sharepoint-framework-webpart-visual-studio-code\n\n\ndebug-in-vscode\n\n\nSPFx-breakpoints-and-debugging-from-Visual-Studio-Code\n\n\nquick-tip-easily-test-sharepoint\n\n\ntesting-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact\n\n\nBe schizophrenic at debugging SPFx too\n\n\nSPFx/React DEBUG vs PRODUCTION builds\n\n\n\n\nExclude mock data\n\u00b6\n\n\n\n\nhttps://www.eliostruyf.com/exclude-your-mock-data-and-other-modules-from-your-production-bundle-in-spfx/",
             "title": "Debug"
         },
         {
@@ -587,7 +587,7 @@
         },
         {
             "location": "/spfx/debug/#tips",
-            "text": "Testing and debugging your SPFx solutions in production without causing any impact  SharePoint Framework bookmarklet tool for quick and easy debugging  debug-production-version-sharepoint-framework-solution  how-debug-sharepoint-framework-webpart-visual-studio-code  debug-in-vscode  SPFx-breakpoints-and-debugging-from-Visual-Studio-Code  quick-tip-easily-test-sharepoint  testing-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact  Be schizophrenic at debugging SPFx too",
+            "text": "Testing and debugging your SPFx solutions in production without causing any impact  SharePoint Framework bookmarklet tool for quick and easy debugging  debug-production-version-sharepoint-framework-solution  how-debug-sharepoint-framework-webpart-visual-studio-code  debug-in-vscode  SPFx-breakpoints-and-debugging-from-Visual-Studio-Code  quick-tip-easily-test-sharepoint  testing-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact  Be schizophrenic at debugging SPFx too  SPFx/React DEBUG vs PRODUCTION builds",
             "title": "Tips"
         },
         {
