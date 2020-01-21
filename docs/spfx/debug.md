@@ -15,6 +15,7 @@
 - [quick-tip-easily-test-sharepoint](http://www.techmikael.com/2018/03/quick-tip-easily-test-sharepoint.html)
 - [testing-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact](https://www.eliostruyf.com/testing-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact)
 - [Be schizophrenic at debugging SPFx too](https://ypcode.wordpress.com/2019/02/08/be-schizophrenic-at-debugging-spfx-too/)
+- [SPFx/React DEBUG vs PRODUCTION builds](https://ypcode.wordpress.com/2019/12/18/spfx-react-debug-vs-production-builds/)
 
 ## Exclude mock data
 
