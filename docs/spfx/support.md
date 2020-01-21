@@ -13,6 +13,8 @@
 
 - [SharePoint Online Support Info](https://docs.microsoft.com/de-ch/archive/blogs/sposupport/)
 - [Sharepoint 2019 Feature Ids](https://kolislab.com/sharepoint-2019-feature-ids/)
+- [Change a site address](https://docs.microsoft.com/en-us/sharepoint/change-site-address)
+- [Set up a home site for your organization](https://docs.microsoft.com/en-us/sharepoint/home-site)
 
 ## Admin O365
 
