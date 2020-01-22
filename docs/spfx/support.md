@@ -1,7 +1,12 @@
 # Support
 
+## Sharepoint Documentation
+
+- [SharePoint help center](https://support.office.com/en-us/sharepoint)
+- [SharePoint Online admin](https://docs.microsoft.com/en-us/sharepoint/sharepoint-online)
 - [SharePoint Online Troubleshooting](https://docs.microsoft.com/en-us/sharepoint/support/online)
-- [Docs SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/sharepoint-server)
+- [Office troubleshooting for admins and IT professionals](https://docs.microsoft.com/en-us/sharepoint/support/)
+- [SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/sharepoint-server)
 
 ## Licence Changes
 
