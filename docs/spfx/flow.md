@@ -2,6 +2,7 @@
 
 ## Support
 
+- [Troubleshooting a flow](https://docs.microsoft.com/en-us/power-automate/fix-flow-failures)
 - [Microsoft Power Automate Community](https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity)
 
 ## Video
@@ -10,7 +11,7 @@
 
 ## Connectors
 
-- <https://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors>
+- [What you should know about building Microsoft Flow connectors](https://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors)
 
 ## Limits
 
