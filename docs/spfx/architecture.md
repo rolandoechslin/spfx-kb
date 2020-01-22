@@ -1,6 +1,7 @@
 # Architecture
 
 - [Microsoft cloud IT architecture resources](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources)
+- [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
 
 ## Checklist Solution
 
