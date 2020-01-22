@@ -1,6 +1,6 @@
 # Support
 
-## Sharepoint Documentation
+## SharePoint Documentation
 
 - [SharePoint help center](https://support.office.com/en-us/sharepoint)
 - [SharePoint Online admin](https://docs.microsoft.com/en-us/sharepoint/sharepoint-online)
