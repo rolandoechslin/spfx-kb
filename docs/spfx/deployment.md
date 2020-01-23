@@ -29,6 +29,7 @@
 ## CI/CD
 
 - [SharePoint Framework Web Part – Continuous Integration and Delivery](https://blog.sprider.org/2018/09/16/sharepoint-framework-web-part-continuous-integration-and-delivery/)
+- [Implement CI/CD with Office 365 CLI for SPFx Solution for MS Teams](https://www.c-sharpcorner.com/article/implement-cicd-with-office-365-cli-for-spfx-solution-for-ms-teams/)
 
 ## Deployment to CDN
 
