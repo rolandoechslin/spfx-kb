@@ -118,6 +118,10 @@
 - [How to add external libraries and assets in SharePoint client-side web part](http://mundrisoft.com/tech-bytes/how-to-add-external-libraries-and-assets-in-sharepoint-client-side-web-part/)
 - [React Templates using SPFx Library Component](https://github.com/AJIXuMuK/SPFx/tree/master/react-templates)
 
+## Create PDF
+
+- [Generate PDF Document In Spfx](https://www.c-sharpcorner.com/article/generate-pdf-document-in-spfx/)
+
 ## Terms Sets
 
 - [Display hierarchical Term Sets to your Web Part](https://blog.lsonline.fr/2019/01/13/display-hierarchical-term-sets-to-your-web-part/)
