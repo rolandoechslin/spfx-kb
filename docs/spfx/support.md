@@ -95,7 +95,7 @@ News Links
 
 ## Login Error
 
- - [How to log in to Microsoft’s websites (MSDN forums, Azure Portal, SharePoint Online) when you get a 'Bad Request' error?](https://www.koskila.net/how-to-log-in-to-microsofts-websites-msdn-forums-azure-portal-sharepoint-online-when-you-get-a-bad-request-error/)
+- [How to log in to Microsoft’s websites (MSDN forums, Azure Portal, SharePoint Online) when you get a 'Bad Request' error?](https://www.koskila.net/how-to-log-in-to-microsofts-websites-msdn-forums-azure-portal-sharepoint-online-when-you-get-a-bad-request-error/)
 
 ## API Throttling (Error 429)
 
