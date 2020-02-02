@@ -5,6 +5,7 @@
 - [Best Practices on SharePoint Site Design](https://sharepointmaven.com/best-practices-sharepoint-site-design)
 - [SharePoint Modern Page Best Practices](https://sharepointmaven.com/sharepoint-modern-page-best-practices)
 - [Site Designs for Good Information Architecture](https://sympmarc.com/2019/12/08/dear-microsoft-site-designs-for-good-information-architecture-too-brittle/)
+- [Site Design Deployment Made Easy](https://blog.eardley.org.uk/2020/02/site-design-deployment-made-easy/)
 
 ## Modern Site Provisioning
 
