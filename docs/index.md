@@ -682,4 +682,5 @@ o365 spfx project upgrade --shell powershell --toVersion 1.8.2 --output md > rep
 
 ## Add External JS-Frameworks
 
+- [How to add external libraries and assets in SharePoint client-side web part](http://mundrisoft.com/tech-bytes/how-to-add-external-libraries-and-assets-in-sharepoint-client-side-web-part/)
 - [Loading dependent JS files into SPFx Solution in right order](https://rasper87.wordpress.com/2018/06/15/loading-dependent-js-files-e-g-jquery-plugins-into-spfx-solution-in-right-order)
