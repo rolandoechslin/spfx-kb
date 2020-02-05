@@ -1727,7 +1727,7 @@
         },
         {
             "location": "/spfx/sp2019/",
-            "text": "SP2019\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nGetting started with creating SharePoint Framework solutions for SharePoint 2019\n YouTube video\n\n\nCommunity call where SharePoint 2019 developer platform is covered\n YouTube video\n\n\n\n\nNew Features\n\u00b6\n\n\n\n\n15 facts about SharePoint 2019 (German)\n\n\nNew and improved features in SharePoint Server 2019\n\n\nDifferences between SharePoint Server 2016 and 2019\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\nhttp://nikcharlebois.com/sharepointdsc-starter-template-for-sharepoint-2019\n\n\n\n\nUpgrade\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/de-ch/sharepoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019\n\n\n\n\nAppLauncher\n\u00b6\n\n\n\n\nSharePoint Hybrid App Launcher Explained\n\n\n\n\nNot so good\n\u00b6\n\n\n\n\nThe TypeScript for SPFX is so out of date.... ( 2.4 ) really MS\n\n\n\n\nWSA - Customer Experience Improvement Program\n\u00b6\n\n\n\n\nDisabling requests to WsaUpload.ashx (Customer Experience Improvement Program)\n\n\n\n\nContent Script WebPart (TypeScript)\n\u00b6\n\n\n\n\nUsing TypeScript with SharePoint Content/Script editor web parts\n\n\n\n\nCustom Action\n\u00b6\n\n\n\n\nSharePoint Sticky Footer for classic experience\n\n\nSharePoint.UI.StickyFooter\n\n\n\n\nCertificates\n\u00b6\n\n\n-\nRenewing SharePoint Certificates on premise\n\n\nUserprofile\n\u00b6\n\n\n\n\nAll about non-imported user profiles\n\n\nCheck user profiles\n\n\n\n\nCode Tips\n\u00b6\n\n\n\n\nBuild SharePoint Framework solutions for on-premises SharePoint with ANY version of React, TypeScript or Office UI Fabric React",
+            "text": "SP2019\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nGetting started with creating SharePoint Framework solutions for SharePoint 2019\n YouTube video\n\n\nCommunity call where SharePoint 2019 developer platform is covered\n YouTube video\n\n\n\n\nNew Features\n\u00b6\n\n\n\n\n15 facts about SharePoint 2019 (German)\n\n\nNew and improved features in SharePoint Server 2019\n\n\nDifferences between SharePoint Server 2016 and 2019\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\nSharePointDSC Starter Template for SharePoint 2019\n\n\n\n\nUpgrade\n\u00b6\n\n\n\n\nHigh level overview to upgrade from SharePoint 2013 to SharePoint Server 2019\n\n\n\n\nHybrid\n\u00b6\n\n\n\n\nSharePoint Server hybrid configuration roadmaps\n\n\n\n\nConfigure cloud hybrid search\n\u00b6\n\n\n\n\nConfigure cloud hybrid search - roadmap\n\n\nCloud hybrid search service (Cloud SSA) FAQ\n\n\n\n\nAppLauncher\n\u00b6\n\n\n\n\nSharePoint Hybrid App Launcher Explained\n\n\n\n\nNot so good\n\u00b6\n\n\n\n\nThe TypeScript for SPFX is so out of date.... ( 2.4 ) really MS\n\n\n\n\nWSA - Customer Experience Improvement Program\n\u00b6\n\n\n\n\nDisabling requests to WsaUpload.ashx (Customer Experience Improvement Program)\n\n\n\n\nContent Script WebPart (TypeScript)\n\u00b6\n\n\n\n\nUsing TypeScript with SharePoint Content/Script editor web parts\n\n\n\n\nCustom Action\n\u00b6\n\n\n\n\nSharePoint Sticky Footer for classic experience\n\n\nSharePoint.UI.StickyFooter\n\n\n\n\nCertificates\n\u00b6\n\n\n-\nRenewing SharePoint Certificates on premise\n\n\nUserprofile\n\u00b6\n\n\n\n\nAll about non-imported user profiles\n\n\nCheck user profiles\n\n\n\n\nCode Tips\n\u00b6\n\n\n\n\nBuild SharePoint Framework solutions for on-premises SharePoint with ANY version of React, TypeScript or Office UI Fabric React",
             "title": "SP2019"
         },
         {
@@ -1747,13 +1747,23 @@
         },
         {
             "location": "/spfx/sp2019/#installation",
-            "text": "http://nikcharlebois.com/sharepointdsc-starter-template-for-sharepoint-2019",
+            "text": "SharePointDSC Starter Template for SharePoint 2019",
             "title": "Installation"
         },
         {
             "location": "/spfx/sp2019/#upgrade",
-            "text": "https://docs.microsoft.com/de-ch/sharepoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019",
+            "text": "High level overview to upgrade from SharePoint 2013 to SharePoint Server 2019",
             "title": "Upgrade"
+        },
+        {
+            "location": "/spfx/sp2019/#hybrid",
+            "text": "SharePoint Server hybrid configuration roadmaps",
+            "title": "Hybrid"
+        },
+        {
+            "location": "/spfx/sp2019/#configure-cloud-hybrid-search",
+            "text": "Configure cloud hybrid search - roadmap  Cloud hybrid search service (Cloud SSA) FAQ",
+            "title": "Configure cloud hybrid search"
         },
         {
             "location": "/spfx/sp2019/#applauncher",
