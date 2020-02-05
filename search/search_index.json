@@ -2687,13 +2687,18 @@
         },
         {
             "location": "/react/redux/",
-            "text": "Redux\n\u00b6\n\n\nConnect Redux to SPFx\n\u00b6\n\n\n\n\nConnect React Redux to SharePoint Framework\n\n\nUsing Redux Async Actions and ImmutableJS in SharePoint Framework\n\n\nUsing React and Redux in SharePoint Framework (SPFx)\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSPFx webpart using Redux-Form library and React\n\n\nWebpart with React and Redux\n\n\n\n\nTips\n\u00b6\n\n\n\n\nHow do I change SPFx and Reactjs to SPFx React-Redux?\n\n\nCombine async redux actions in SPFx react components",
+            "text": "Redux\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nA reduced explanation of Redux(Reducers, Actions, and Store)\n\n\n\n\nConnect Redux to SPFx\n\u00b6\n\n\n\n\nConnect React Redux to SharePoint Framework\n\n\nUsing Redux Async Actions and ImmutableJS in SharePoint Framework\n\n\nUsing React and Redux in SharePoint Framework (SPFx)\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSPFx webpart using Redux-Form library and React\n\n\nWebpart with React and Redux\n\n\n\n\nTips\n\u00b6\n\n\n\n\nHow do I change SPFx and Reactjs to SPFx React-Redux?\n\n\nCombine async redux actions in SPFx react components",
             "title": "Redux"
         },
         {
             "location": "/react/redux/#redux",
             "text": "",
             "title": "Redux"
+        },
+        {
+            "location": "/react/redux/#overview",
+            "text": "A reduced explanation of Redux(Reducers, Actions, and Store)",
+            "title": "Overview"
         },
         {
             "location": "/react/redux/#connect-redux-to-spfx",
