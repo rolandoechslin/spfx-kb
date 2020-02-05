@@ -6,6 +6,7 @@
 - https://udilia.com/courses/learn-react-by-building-a-web-app
 - https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/
 - [frontendmasters - learn - react](https://frontendmasters.com/learn/react/)
+- [reactscreencasts](https://www.reactscreencasts.com/video_docs)
 
 ## Lifecycle methods
 

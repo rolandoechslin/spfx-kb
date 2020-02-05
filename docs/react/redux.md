@@ -1,5 +1,9 @@
 # Redux
 
+## Overview
+
+- [A reduced explanation of Redux(Reducers, Actions, and Store)](https://levelup.gitconnected.com/a-reduced-explanation-of-redux-reducers-actions-and-store-9b7819c5d064)
+
 ## Connect Redux to SPFx
 
 - [Connect React Redux to SharePoint Framework](https://sergeiaslanov.com/2018/07/23/connect-react-redux-to-sharepoint-framework/)

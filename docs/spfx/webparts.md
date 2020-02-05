@@ -19,7 +19,7 @@
 
 ## Properties
 
-- <https://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-spfx-web-part-properties-dynamic-dropdown.html>
+- [spfx-web-part-properties-dynamic-dropdown](https://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-spfx-web-part-properties-dynamic-dropdown.html)
 - [simplify-adding-web-parts-with-preconfigured-entries](https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/web-parts/guidance/simplify-adding-web-parts-with-preconfigured-entries.md)
 - [Web part properties in the SharePoint Framework – part 1](http://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-web-part-properties-pages-groups-controls.html)
 - [Web part properties in the SharePoint Framework – part 2](http://www.sharepointnutsandbolts.com/2017/02/sharepoint-framework-web-part-properties-button-toggle-slider.html)
@@ -111,7 +111,11 @@
 
 ## Filtering WebParts
 
-- [SPFX Image Gallery with filtering](https://www.ejazhussain.com/2019/02/08/spfx-image-gallery/)
+- [SPFx - Image Gallery with filtering](https://www.ejazhussain.com/2019/02/08/spfx-image-gallery/)
+
+## Send Mail
+
+- [SPFx - Send Emails & Attachments With Graph API](https://letslearnoffice365.wordpress.com/2020/02/02/spfxsendemailandattachmentswithgraphapi/)
 
 ## External Lib
 

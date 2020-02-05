@@ -25,6 +25,7 @@
 - [Microsoft Learning Module](https://docs.microsoft.com/en-us/learn/browse/?utm_source=flow-sidebar&utm_medium=web)
 - [Azure Edu DevCamp](https://github.com/Microsoft/edu-devcamp)
 - [HOW TO GET STARTED WITH REACT FOR BUILDING ADVANCED SPFX SOLUTIONS](https://laurakokkarinen.com/how-to-get-started-with-react-for-building-advanced-spfx-solutions/)
+- [HOW TO USE THE SERVICE PATTERN IN SPFX REACT SOLUTIONS](https://laurakokkarinen.com/how-to-use-the-service-pattern-in-spfx-react-solutions/)
 
 ## DEV-Tenant
 
@@ -682,4 +683,5 @@ o365 spfx project upgrade --shell powershell --toVersion 1.8.2 --output md > rep
 
 ## Add External JS-Frameworks
 
+- [How to add external libraries and assets in SharePoint client-side web part](http://mundrisoft.com/tech-bytes/how-to-add-external-libraries-and-assets-in-sharepoint-client-side-web-part/)
 - [Loading dependent JS files into SPFx Solution in right order](https://rasper87.wordpress.com/2018/06/15/loading-dependent-js-files-e-g-jquery-plugins-into-spfx-solution-in-right-order)
