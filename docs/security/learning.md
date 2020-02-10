@@ -50,3 +50,7 @@
 ## Block websites
 
 - [How to Block a Single Website and more](https://www.howtogeek.com/319700/how-to-use-your-computers-hosts-file-to-block-tons-of-malware-porn-and-other-types-of-websites/)
+
+## Cookies
+
+- [SameSite cookies explained](https://web.dev/samesite-cookies-explained/)
