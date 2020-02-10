@@ -28,6 +28,17 @@
 - [Microsoft Teams video training](https://support.office.com/en-us/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-US&rs=en-US&ad=US)
 - [Governance, management and lifecycle in Microsoft Teams](https://www.youtube.com/watch?v=cOCWDYc_HLs&feature=youtu.be)
 
+## Developing
+
+- [Overview and Concepts - Part 1](https://asishpadhy.com/2020/01/16/simplify-development-in-microsoft-teams-part-1-overview-and-concepts/)
+
+![DEV Teams 1](../assets/images/teams-1.png)
+
+- [Features and Components analysis - Part 2](https://asishpadhy.com/2020/02/05/simplify-building-apps-in-microsoft-teams-part-2-features-and-components-analysis/)
+
+![DEV Teams 2](../assets/images/teams-2.png)
+![DEV Teams 3](../assets/images/teams-3.png)
+
 ## Coding
 
 - [A Yeoman Generator for Microsoft Teams](https://github.com/wictorwilen/generator-teams)

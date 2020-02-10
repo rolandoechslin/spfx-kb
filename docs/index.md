@@ -652,12 +652,15 @@ npm install @microsoft/generator-sharepoint -g
 
 ## SPFx Version Upgrade
 
-- [office365-cli](https://github.com/pnp/office365-cli)
+- [Project-upgrade](https://pnp.github.io/office365-cli/cmd/spfx/project/project-upgrade/)
 - [Easily upgrade SharePoint Framework projects with the Office 365 CLI](https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli)
 
 ## Office 365 CLI
 
+- [Office 365 User Guide](https://pnp.github.io/office365-cli/)
 - [Comparison to SharePoint PowerShell](https://pnp.github.io/office365-cli/about/comparison-powershell/)
+- [github-actions](https://pnp.github.io/office365-cli/concepts/github-actions/)
+- [Office 365 GitHhub Actions](https://github.com/marketplace?utf8=%E2%9C%93&query=office+365+cli)
 
 Latest version
 
