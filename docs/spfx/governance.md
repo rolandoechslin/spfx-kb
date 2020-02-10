@@ -54,6 +54,11 @@
 
 - [How to properly configure sharing settings in the SharePoint Admin Center](https://sharepointmaven.com/how-to-properly-configure-sharing-settings-in-the-sharepoint-admin-center/)
 
+## Organization Asset Libraries
+
+- [SharePoint Organization Asset Libraries Explained](https://mattipaukkonen.com/2019/09/26/sharepoint-organization-asset-libraries-explained/)
+- [nable Organization assets on SharePoint Online](https://sharepoint-tricks.com/enable-organization-assets-on-sharepoint-online/)
+
 ## User profile / Delete user
 
 - [User Profile Automated Removal when User is Deleted from Active Directory](http://nikcharlebois.com/user-profile-automated-removal-when-user-is-deleted-from-active-directory/)
