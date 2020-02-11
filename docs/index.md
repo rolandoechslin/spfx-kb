@@ -314,6 +314,7 @@ gulp serve --locale=de-de
 
 - [Elegant Dependency Injection in SPFx](https://ypcode.wordpress.com/2018/07/30/elegant-di-in-spfx)
 - [SPFx WebPart scoped service](https://ypcode.wordpress.com/2019/01/25/spfx-webpart-scoped-service)
+- [Using React hooks to globally share service scope between components](https://www.vrdmn.com/2020/02/spfx-using-react-hooks-to-globally.html)
 
 ## Data Service
 
