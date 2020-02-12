@@ -114,6 +114,7 @@
 - [Governance and consciousness around handling Teams and Groups](https://www.techmikael.com/2019/03/governance-and-consciousness-around.html)
 - [Three reasons why you should take control of Office 365 Groups creation](https://www.techmikael.com/2017/05/three-reasons-why-you-should-take.html)
 - [Automating Office 365 Groups Lifecycle/Expiration management](https://www.techmikael.com/2018/01/automating-office-365-groups.html)
+- [Stop using Power Automate to govern Microsoft Teams](https://baddaz.com/stop-using-power-automate-to-govern-microsoft-teams-30460cea6f10)
 
 ## Tipps
 
