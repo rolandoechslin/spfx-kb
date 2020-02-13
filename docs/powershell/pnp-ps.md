@@ -45,6 +45,13 @@ Get-InstalledModule -Name "SharePointPnPPowerShellOnline" -RequiredVersion 3.8.1
 Install-Module -Name SharePointPnPPowerShellOnline -RequiredVersion 3.0.1808.1
 ```
 
+```Powershell
+# Load PNP the Right Way
+$pnp = Get-Command Connect-Stuff -ErrorAction SilentlyContinue
+if (!$pnp) {Install-Module SharePointPnPPowerShellOnline -Force}
+Import-Module SharePointPnPPowerShellOnline
+```
+
 ## List all commands
 
 ```Powershell
