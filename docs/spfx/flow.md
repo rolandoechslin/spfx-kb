@@ -29,6 +29,7 @@
 
 ## Samples
 
+- [Power Automate Cookbook](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/bd-p/MPA_Cookbook)
 - <https://github.com/johnnliu/flow>
 - [Demo - Using Microsoft Flow to send monthly emails](https://youtu.be/NsJJYIaRbfw?t=513)
 - <http://johnliu.net/blog/2018/4/run-any-pnp-powershell-in-one-azurefunction-from-microsoft-flow>
