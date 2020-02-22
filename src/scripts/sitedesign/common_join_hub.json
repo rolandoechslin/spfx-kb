@@ -1,0 +1,11 @@
+{
+    "$schema": "schema.json",
+    "actions": [
+        {
+            "verb": "joinHubSite",
+            "hubSiteId": "##hubSiteId##"
+        }
+    ],
+    "bindata": {},
+    "version": 1
+}

@@ -1,0 +1,14 @@
+{
+    "$schema": "schema.json",
+    "actions": [
+        {
+            "verb": "setRegionalSettings",
+            "hourFormat": "24",
+            "locale": 2057,
+            "sortOrder": 25,
+            "timeZone": 2
+        }
+    ],
+    "bindata": {},
+    "version": 1
+}

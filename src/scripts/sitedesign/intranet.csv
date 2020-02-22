@@ -1,0 +1,3 @@
+Title,Description,File,HubJoin
+Join Intranet Hub Site,Joins the site to the Intranet Site Hub,\JSON\SiteScripts\Common_JoinHubSite.json,Yes
+Set UK regional settings,"Sets locale, sort order and 24 hour format - error setting timezone so that is not set",\JSON\SiteScripts\Common_RegionalSettings.json,No
