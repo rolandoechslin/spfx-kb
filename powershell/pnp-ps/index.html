@@ -1833,6 +1833,12 @@
 <div class="codehilite"><pre><span></span><span class="n">Install-Module</span> <span class="n">-Name</span> <span class="n">SharePointPnPPowerShellOnline</span> <span class="n">-RequiredVersion</span> <span class="n">3</span><span class="p">.</span><span class="n">0</span><span class="p">.</span><span class="n">1808</span><span class="p">.</span><span class="n">1</span>
 </pre></div>
 
+<div class="codehilite"><pre><span></span><span class="c"># Load PNP the Right Way</span>
+<span class="nv">$pnp</span> <span class="p">=</span> <span class="nb">Get-Command</span> <span class="nb">Connect-Stuff</span> <span class="n">-ErrorAction</span> <span class="n">SilentlyContinue</span>
+<span class="k">if</span> <span class="p">(!</span><span class="nv">$pnp</span><span class="p">)</span> <span class="p">{</span><span class="n">Install-Module</span> <span class="n">SharePointPnPPowerShellOnline</span> <span class="n">-Force</span><span class="p">}</span>
+<span class="nb">Import-Module</span> <span class="n">SharePointPnPPowerShellOnline</span>
+</pre></div>
+
 <h2 id="list-all-commands">List all commands<a class="headerlink" href="#list-all-commands" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span><span class="nb">Get-Command</span> <span class="p">|</span> <span class="p">?</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">ModuleName</span> <span class="o">-eq</span> <span class="s2">&quot;SharePointPnPPowerShellOnline&quot;</span> <span class="p">}</span>
 </pre></div>
