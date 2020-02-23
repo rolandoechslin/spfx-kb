@@ -57,7 +57,8 @@
 ## Organization Asset Libraries
 
 - [SharePoint Organization Asset Libraries Explained](https://mattipaukkonen.com/2019/09/26/sharepoint-organization-asset-libraries-explained/)
-- [nable Organization assets on SharePoint Online](https://sharepoint-tricks.com/enable-organization-assets-on-sharepoint-online/)
+- [Enable Organization assets on SharePoint Online](https://sharepoint-tricks.com/enable-organization-assets-on-sharepoint-online/)
+- [How to create an Organisation Assets library in SharePoint Online to store Office Templates](https://ian-moran.com/2020/01/31/how-to-create-an-organisation-assets-library-in-sharepoint-online-to-store-office-templates/)
 
 ## User profile / Delete user
 
