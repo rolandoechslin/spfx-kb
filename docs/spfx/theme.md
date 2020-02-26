@@ -38,6 +38,7 @@ $t.Palette | ConvertTo-Json | Clip
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid)
 - [CSS Grid — Responsive layouts and components](https://medium.com/deemaze-software/css-grid-responsive-layouts-and-components-eee1badd5a2f)
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+- [Interactive Flex Generator](http://www.csstutorial.org/)
 - [MDN: Use CSS to solve common problems
 ](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto)
 - [Part 1: Style Options & How to Import](http://warner.digital/spfx-dynamic-styles-part1)
