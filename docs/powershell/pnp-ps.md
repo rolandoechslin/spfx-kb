@@ -179,3 +179,8 @@ $view.ViewQuery
 $view
 $view | select *
 ```
+
+## LookUp Fields
+
+- [How to: Provision Lookup Columns and Projected Fields using PnP PowerShell](https://coreyroth.com/2019/06/27/how-to-provision-lookup-columns-and-projected-fields-using-pnp-powershell/)
+- [PnPPowerShellLookupColumns](https://github.com/coreyroth/PnPPowerShellLookupColumns)
