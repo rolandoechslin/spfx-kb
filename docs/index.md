@@ -1,5 +1,6 @@
 # Tips and tricks
 
+- [SharePoint For IT Professionals](https://docs.microsoft.com/en-us/sharepoint/)
 - [SharePoint development](https://docs.microsoft.com/en-us/sharepoint/dev/)
 - [SharePoint Developer Community (SharePoint PnP) resources](http://aka.ms/sppnp)
 - [SharePoint Videos](https://developer.microsoft.com/en-us/sharepoint/gallery/?filterBy=Videos,SharePoint,React)
