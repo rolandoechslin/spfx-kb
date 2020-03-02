@@ -130,6 +130,7 @@
 
 - [Display hierarchical Term Sets to your Web Part](https://blog.lsonline.fr/2019/01/13/display-hierarchical-term-sets-to-your-web-part/)
 - [Get all child terms from term group in SharePoint Taxonomy using PnP JS](https://www.ktskumar.com/2019/07/get-child-terms-term-group-sharepoint-taxonomy-using-pnp-js/)
+- [How to filter list items by Managed Metadata Fields or Taxonomy Columns](http://blog.meenavalli.in/post/sharepoint-pnpjs-how-to-filter-list-items-by-managed-metadata-fields-or-taxonomy-columns)
 
 ## Reusable React control
 
