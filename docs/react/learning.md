@@ -77,3 +77,9 @@
 ## Errors
 
 - [Dealing with Undefined 'this' in React Event Handlers in a Performant Way](https://www.andrewconnell.com/blog/deal-with-undefined-this-react-event-handler-performant-way/)
+
+## Hooks
+
+- [Using React hooks to globally share service scope between components](https://www.vrdmn.com/2020/02/spfx-using-react-hooks-to-globally.html)
+- [Hooks FAQ](https://reactjs.org/docs/hooks-faq.html#should-i-use-hooks-classes-or-a-mix-of-both)
+- [SharePoint Framework and React hooks. Should I care?](https://spblog.net/post/2020/03/10/sharepoint-framework-and-react-hooks-should-i-care)
