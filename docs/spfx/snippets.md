@@ -1,5 +1,9 @@
 # Code Snippets
 
+## Tips and Tricks
+
+- [How to get Tenant & User’s AD ID](https://www.ktskumar.com/2020/03/secrets-behind-sharepoint-online-day-4/)
+
 ## Check URL
 
  [Use Microsoft Graph to evaluate SharePoint Urls](https://github.com/SharePoint/sp-dev-fx-webparts/blob/dev/samples/react-graph-evalurl/src/webparts/graphEvalUrl/components/GraphEvalClient.ts)
