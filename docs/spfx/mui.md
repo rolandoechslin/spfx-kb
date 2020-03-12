@@ -16,6 +16,7 @@
 - [Creating a Multi-lingual Intranet using Communication Sites](https://capacreative.co.uk/2018/11/18/series-creating-a-multi-lingual-intranet-using-communication-sites/)
 - [CUSTOMIZE SHAREPOINT MODERN PAGES USING MICROSOFT FLOW](http://www.sites.se/2018/08/sharepoint-modern-pages-microsoft-flow/)
 - [Using the SFPx library component for simplifying the localization experience](https://www.eliostruyf.com/sfpx-library-component-simplifying-localization-experience/)
+- [Webinar Recording: Deep Dive into SharePoint Multilingual with Divyachapan (DC) Padur](https://www.youtube.com/watch?v=Xwxhi4CY0_E&feature=youtu.be)
 
 ## Samples
 
