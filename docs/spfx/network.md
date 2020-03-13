@@ -1,6 +1,8 @@
 # Network
 
 - [URLs-und-IP-Adressbereiche-von-Office-365](https://support.office.com/de-de/article/URLs-und-IP-Adressbereiche-von-Office-365-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=de-DE&rs=de-DE&ad=DE)
+- [Office365NetworkTools](https://github.com/microsoft/Office365NetworkTools/blob/master/Scripts/Display%20URL-IPs-Ports%20per%20Category/DisplayURLs-IPs-Ports-PerCategory.ps1)
+- [How to quickly optimize Office 365 traffic for remote staff & reduce the load on your infrastructure ](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571#.XmrAeCH5-KQ.twitter)
 
 ## DNS-Basics
 
