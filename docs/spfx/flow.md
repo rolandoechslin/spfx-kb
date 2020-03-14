@@ -45,6 +45,7 @@
 ## Copy / Move Documents
 
 - [A modern “transfer to another location” in office 365](https://joannecklein.com/2018/01/02/a-modern-transfer-to-another-location-in-office-365/)
+- [Generate Word documents from a template using Power Automate](https://tahoeninjas.blog/2020/03/13/generate-word-documents-from-a-template-using-power-automate/)
 
 ## Error Messages
 
