@@ -1,5 +1,10 @@
 # PowerApps
 
+## Frameworks
+
+- [PowerApps Tools](https://github.com/microsoft/powerapps-tools)
+- [5 Power Platform projects developers must know!](https://sharepains.com/2020/03/18/power-platform-projects-developers-must-know/)
+
 ## Learning
 
 - [Microsoft Power Platform: Learning Resources](https://powerapps.microsoft.com/en-us/blog/microsoft-powerapps-learning-resources/)
