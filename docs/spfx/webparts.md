@@ -101,6 +101,7 @@
 - [Group People Web Part](https://blog.lsonline.fr/2019/04/20/sharepoint-framework-group-people-web-part/) | [gitlab.lsonline.fr](https://gitlab.lsonline.fr/SharePoint/sp-dev-fx-webparts/group-people/)
 - [How To Create/ Generate QRcode In SPFx Web Part](https://www.c-sharpcorner.com/article/how-to-create-generate-qrcode-in-spfx-web-part/)
 - [Create a simple a – z in page](https://sharepointstuff621190718.wordpress.com/2019/11/19/create-a-simple-a-z-in-sharepoint-modern-sharepoint/)
+- [spfx-react-covid-19 - chart](https://github.com/serdarketenci/spfx-react-covid-19)
 
 ## Project WebParts
 
