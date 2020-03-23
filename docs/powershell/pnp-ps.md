@@ -11,6 +11,7 @@
 ## Specific Version
 
 - [Import a specific module from the installed SharePoint PnP PowerShell modules (2013, 2016, 2019 & Online)](http://blog.meenavalli.in/post/powershell-import-a-specific-module-from-the-installed-sharepoint-pnp-powershell-modules-2013-2016-2019-and-online)
+- [Run PnP PowerShell with saved module](https://sharepoint-tricks.com/run-pnp-powershell-without-install-module/)
 
 ## Latest Version
 
