@@ -157,9 +157,9 @@ Info: https://stackoverflow.com/questions/30331338/remove-git-integrations-from-
 ## Fabric Icons
 
 - [Render Office Fabric UI Icons into Canvas](https://codepen.io/joshmcrty/pen/GOBWeV)
-- <https://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon>
-- <https://developer.microsoft.com/en-us/fabric#/styles/icons>
-- http://uifabricicons.azurewebsites.net
+- [Tool to Generate Images Using Office UI Fabric Icons](https://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon)
+- [Fabric Icons](https://developer.microsoft.com/en-us/fabric#/styles/icons)
+- [Office UI Fabric Icons](http://uifabricicons.azurewebsites.net)
 
 ## Favicons
 
