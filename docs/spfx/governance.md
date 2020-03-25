@@ -51,6 +51,7 @@
 - [A quick guide to secure Office 365_DE.pdf](http://www.sharepointtalk.net/2018/07/a-quick-guide-to-secure-office-365.html)
 - [Coaching your users through the External Sharing Experience](http://www.sharepointtalk.net/2019/01/coaching-your-users-through-external.html)
 - [How to secure external sharing in SharePoint Online and Office 365](https://sharegate.com/blog/how-to-secure-external-sharing-sharepoint-online-onedrive-office-365)
+- [Change External Sharing Settings Across a Hub Site with PowerShell](https://vladtalkstech.com/2019/03/change-external-sharing-settings-across-a-hub-site-with-powershell.html)
 
 - [How to properly configure sharing settings in the SharePoint Admin Center](https://sharepointmaven.com/how-to-properly-configure-sharing-settings-in-the-sharepoint-admin-center/)
 
