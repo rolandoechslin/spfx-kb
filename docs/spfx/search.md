@@ -74,3 +74,7 @@
 ## Teamsites / Groups
 
 - [Retrieving search results from private Groups in Office 365 via REST](https://www.techmikael.com/2017/01/retrieving-search-results-from-private.html)
+
+## Search HubSite
+
+- [Search all Document under a hubsite](https://www.sharepointnutsandbolts.com/2019/10/search-sharepoint-hub-sites.html)
