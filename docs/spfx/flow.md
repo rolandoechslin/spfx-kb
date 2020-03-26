@@ -1,4 +1,4 @@
-# Flow
+# Power Automate (aka. Flow)
 
 ## Support
 
@@ -41,6 +41,7 @@
 - [RUN A FLOW AS PART OF A SHAREPOINT SITE DESIGN](https://wonderlaura.com/2019/03/14/run-a-flow-as-part-of-a-sharepoint-site-design/)
 - [Creating a Formatted Identifier in Flow](https://mikehatheway.com/2019/05/03/creating-a-formatted-identifier-in-flow/)
 - [Disable event firing when flow updates](https://www.techmikael.com/2019/04/disable-event-firing-when-flow-updates.html)
+- [How to add text to any part of a SharePoint Page using Power Automate](https://collab365.community/how-to-add-text-to-any-part-of-a-sharepoint-page-using-power-automate/ )
 
 ## Copy / Move Documents
 
