@@ -28,6 +28,8 @@
 - [Understanding spfx Solution Structure](https://iamguptarishi.wordpress.com/2019/09/26/understanding-spfx-solution-structure)
 - [Restrict Permissions on Editing SharePoint SPFx Property Pane Configurations](http://www.techwithnakkeeran.com/2019/04/restrict-permissions-on-editing.html)
 - [SharePoint Framework Web Part and Property Pane Lifecycles](https://www.vrdmn.com/2019/12/sharepoint-framework-web-part-and.html)
+- [Integrate PnP SPFx React controls inside the Property Pane collection data control](https://gautamdsheth.wordpress.com/2020/04/07/integrate-pnp-spfx-react-controls-with-property-pane-collection-data-control/)
+- [an SPFX Tour sample WebPart](https://www.federicoporceddu.com/2019/11/23/sharepoint-modern-page-tutorial-an-spfx-tour-sample-webpart/)
 
 ## Edit Mode
 
