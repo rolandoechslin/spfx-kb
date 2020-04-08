@@ -67,6 +67,7 @@
 
 - [Security Scanning a SharePoint Framework Solution](https://rencore.com/blog/security-scanning-a-sharepoint-framework-solution/)
 - [Security Engineering Portal](https://www.microsoft.com/en-us/securityengineering)
+- [Automate Azure DevOps code security analysis with the Microsoft Security Code Analysis extensions](https://zimmergren.net/automate-security-code-analysis-azure-devops-microsoft-msca-extension/)
 
 ### Granting Permission
 
