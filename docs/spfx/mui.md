@@ -18,6 +18,13 @@
 - [Using the SFPx library component for simplifying the localization experience](https://www.eliostruyf.com/sfpx-library-component-simplifying-localization-experience/)
 - [Webinar Recording: Deep Dive into SharePoint Multilingual with Divyachapan (DC) Padur](https://www.youtube.com/watch?v=Xwxhi4CY0_E&feature=youtu.be)
 - [Using the new multilingual APIs in Modern SharePoint](https://www.eliostruyf.com/multilingual-apis-modern-sharepoint/)
+- [Working with SharePoint Online modern multilingual with the search Keyword Query Language, Query variables and the modern search webpart](https://mahmoudhhassan.wordpress.com/2020/04/12/working-with-sharepoint-online-modern-multilingual-with-the-search-keyword-query-language-query-variables-and-the-modern-search-webpart/)
+
+Search Query for multilingual news
+
+```Powershell
+PromotedState:2 AND (SPTranslationLanguage:{CurrentDisplayLanguage} OR (NOT SPTranslatedLanguages:{CurrentDisplayLanguage} AND NOT SPIsTranslation:true))
+```
 
 ## Samples
 
