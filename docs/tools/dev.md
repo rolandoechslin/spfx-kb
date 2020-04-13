@@ -1,5 +1,9 @@
 # Dev Tools
 
+## Tools List
+
+- [Useful Developer Tools](https://dev.to/lucasgdb/useful-tools-for-developers-2c00)
+
 ## Framework Trends
 
 - [npmtrends](https://www.npmtrends.com/)
