@@ -2,7 +2,7 @@
 
 ## Tools List
 
-- [Useful Developer Tools](https://dev.to/lucasgdb/useful-tools-for-developers-2c00)
+- [Useful Developer Tools](https://github.com/lucasgdb/useful-dev-tools)
 
 ## Framework Trends
 
