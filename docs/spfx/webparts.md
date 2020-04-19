@@ -194,6 +194,10 @@
 
 - [Video Dynamic SPFx Package Bundling](http://warner.digital/dynamic-spfx-package-bundling)
 
+## Web accessibility (a11y)
+
+- [Web accessibility (also referred to as a11y) in React components](https://rabiawilliams.com/spfx/accessible-components/)
+
 ## Redirecting
 
 - [SPFx Anchor Tags](https://julieturner.net/2018/08/spfx-anchor-tags-hitting-the-target/)
