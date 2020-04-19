@@ -60,6 +60,7 @@
 - [20 Websites To Find Free High-Quality Images](https://www.hongkiat.com/blog/free-stock-photo-websites/)
 - [mazwai - free background images](http://mazwai.com)
 - [dummyimage](https://dummyimage.com)
+- [Screenshots](https://github.com/greenshot/greenshot/)
 
 ## Sound Tools
 
