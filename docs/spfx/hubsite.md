@@ -10,7 +10,8 @@
 
 ## Planning
 
-- <https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites>
+- [Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
+- [Tips for getting started with SharePoint hubs](https://blog.splibrarian.com/2020/02/12/tips-for-getting-started-with-sharepoint-hubs/)
 
 ## Integration
 
