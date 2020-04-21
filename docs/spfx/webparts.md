@@ -120,6 +120,8 @@
 ## Send Mail
 
 - [SPFx - Send Emails & Attachments With Graph API](https://letslearnoffice365.wordpress.com/2020/02/02/spfxsendemailandattachmentswithgraphapi/)
+- [How to Send an Email Using a Graph API in SharePoint Framework (SPFx)](https://www.c-sharpcorner.com/article/how-to-send-email-using-graph-api-in-sharepoint-framework-spfx/)
+- [How To Attach A File While Sending Email Using Graph API In SharePoint Framework (SPFx)](https://www.c-sharpcorner.com/article/how-to-attach-a-file-while-sending-email-using-graph-api-in-sharepoint-framework/)
 
 ## External Lib
 

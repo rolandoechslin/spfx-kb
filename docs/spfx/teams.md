@@ -114,3 +114,7 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 
 - [Renaming Teams and Channels Can Be Messy](https://www.petri.com/renaming-teams-can-be-messy)
 - [Renaming a Microsoft Team and the associated SharePoint site](https://www.cps.co.uk/blog-posts/renaming-a-microsoft-team-and-the-associated-sharepoint-site/)
+
+## Teams for Education
+
+- [Teams for Education, Fundamentals](https://blog.yannickreekmans.be/teams-for-education-fundamentals-april-2020/)
