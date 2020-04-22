@@ -15,6 +15,7 @@
 
 ## Price
 
+- [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq)
 - [Power Apps pricing](https://emea.flow.microsoft.com/en-us/pricing/#plan-feature-table)
 - [Licensing overview for Power Platform](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus)
 - [The comprehensive licensing guide to Microsoft Power Automate (formerly Flow) and Power Apps](https://jussiroine.com/2019/01/the-comprehensive-licensing-guide-to-microsoft-flow-and-powerapps/)
