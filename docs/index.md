@@ -666,6 +666,7 @@ npm install @microsoft/generator-sharepoint -g
 - [Comparison to SharePoint PowerShell](https://pnp.github.io/office365-cli/about/comparison-powershell/)
 - [github-actions](https://pnp.github.io/office365-cli/concepts/github-actions/)
 - [Office 365 GitHhub Actions](https://github.com/marketplace?utf8=%E2%9C%93&query=office+365+cli)
+- [GETTING STARTED WITH THE OFFICE 365 CLI](https://www.thelazyadministrator.com/2019/06/21/getting-started-with-the-office-365-cli/)
 
 Latest version
 
