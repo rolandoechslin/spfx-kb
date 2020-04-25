@@ -671,6 +671,12 @@ npm install @microsoft/generator-sharepoint -g
 Latest version
 
 ```Powershell
+npm i -g @pnp/office365-cli@latest
+```
+
+Latest Beta version
+
+```Powershell
 npm i -g @pnp/office365-cli@next
 ```
 
