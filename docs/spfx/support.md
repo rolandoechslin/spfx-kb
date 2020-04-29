@@ -133,3 +133,7 @@ edge://settings/siteData?search=cookie
 ## Clean O365
 
 - [POWERSHELL SCRIPTS FOR KEEPING YOUR DEVELOPMENT ENVIRONMENT TIDY AND SPOTLESS](https://laurakokkarinen.com/does-it-spark-joy-powershell-scripts-for-keeping-your-development-environment-tidy-and-spotless/#empty-the-tenant-recycle-bin)
+
+## Classic Features
+
+- [Classic Administration Links](https://thechriskent.com/2020/04/28/spo-classic-admin-links/)
