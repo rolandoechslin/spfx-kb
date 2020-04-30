@@ -1,5 +1,6 @@
 # Tips and tricks
 
+- [Microsoft 365 Community Content](https://docs.microsoft.com/en-us/microsoft-365/community/)
 - [SharePoint For IT Professionals](https://docs.microsoft.com/en-us/sharepoint/)
 - [SharePoint development](https://docs.microsoft.com/en-us/sharepoint/dev/)
 - [SharePoint Developer Community (SharePoint PnP) resources](http://aka.ms/sppnp)
