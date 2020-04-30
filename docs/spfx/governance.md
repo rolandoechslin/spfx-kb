@@ -118,6 +118,6 @@
 - [Automating Office 365 Groups Lifecycle/Expiration management](https://www.techmikael.com/2018/01/automating-office-365-groups.html)
 - [Stop using Power Automate to govern Microsoft Teams](https://baddaz.com/stop-using-power-automate-to-govern-microsoft-teams-30460cea6f10)
 
-## Tipps
+## Tips
 
 -[SharePoint Online Can Now Rename Site URLs](https://office365itpros.com/2019/05/02/sharepoint-online-rename-site-names/)
