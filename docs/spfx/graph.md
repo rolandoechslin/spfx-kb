@@ -26,3 +26,9 @@
 
 - [Building business applications to Microsoft Teams using Microsoft Graph and SPFx](https://youtu.be/wVMKScByuDg)
 - [Get DriveItem by File Absolute Url](http://blog.aterentiev.com/2019/04/ms-graph-get-driveitem-by-file-absolute.html)
+
+## Microsoft Graph Toolkit
+
+- [microsoft-graph-toolkit](https://github.com/microsoftgraph/microsoft-graph-toolkit)
+- [A Lap Around Microsoft Graph Toolkit](https://developer.microsoft.com/en-us/graph/blogs/announcing-a-lap-around-microsoft-graph-toolkit-blog-series/)
+- [Microsoft Graph Toolkit](https://docs.microsoft.com/en-us/graph/toolkit/overview)
