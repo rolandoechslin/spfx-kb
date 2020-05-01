@@ -1,5 +1,9 @@
 # Training
 
+## Trainer
+
+- [Why SharePoint Training is Important](https://veronicageek.com/extras/why-sharepoint-training-is-important/2020/05/)
+
 ## O365
 
 - [Customize the Learning Experience](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview)
