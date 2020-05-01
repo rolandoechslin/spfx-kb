@@ -27,8 +27,20 @@
 - [Building business applications to Microsoft Teams using Microsoft Graph and SPFx](https://youtu.be/wVMKScByuDg)
 - [Get DriveItem by File Absolute Url](http://blog.aterentiev.com/2019/04/ms-graph-get-driveitem-by-file-absolute.html)
 
-## Microsoft Graph Toolkit
+## Microsoft Graph Toolkit (MGT)
 
 - [microsoft-graph-toolkit](https://github.com/microsoftgraph/microsoft-graph-toolkit)
+- [Microsoft Graph Toolkit Playground](https://mgt.dev/?path=/story/components-mgt-agenda--simple)
 - [A Lap Around Microsoft Graph Toolkit](https://developer.microsoft.com/en-us/graph/blogs/announcing-a-lap-around-microsoft-graph-toolkit-blog-series/)
 - [Microsoft Graph Toolkit](https://docs.microsoft.com/en-us/graph/toolkit/overview)
+- [Exploring The Microsoft Graph Toolkit](https://spblog.net/post/2019/10/01/exploring-microsoft-graph-toolkit)
+- [Exploring Microsoft Graph Toolkit Lap as non Developer](https://regarding365.com/exploring-microsoft-graph-toolkit-lap-as-non-developer-b9eda1bee616)
+- [Exploring Microsoft Graph Toolkit Lap as a non-developer — Part 2](https://regarding365.com/exploring-microsoft-graph-toolkit-lap-as-a-non-developer-part-2-f33e9b64c7cd)
+- [Exploring Microsoft Graph Toolkit Lap as a non-developer -Part 3](https://regarding365.com/exploring-microsoft-graph-toolkit-lap-as-a-non-developer-part-3-85b95c9c9d8b)
+- [Exploring Microsoft Graph Toolkit as a non-Developer — Part 4](https://medium.com/@LuiseFreese/exploring-microsoft-graph-toolkit-as-a-non-developer-part-4-828fb6f56d69)
+
+## MGT Samples
+
+- [msgraphtoolkitsamples](https://github.com/ktskumar/msgraphtoolkitsamples)
+- [SPFx - ms-graph-toolkit-agenda-panel](https://github.com/rabwill/msgraph-myagenda-panel)
+- [SPFx - Exploring Microsoft Graph Toolkit](https://github.com/spblog/mgt-intro)
