@@ -1,5 +1,9 @@
 # Support
 
+## Troubleshoot
+
+- [SharePoint Online Troubleshooting](https://docs.microsoft.com/en-us/sharepoint/troubleshoot/online)
+
 ## SharePoint Documentation
 
 - [SharePoint help center](https://support.office.com/en-us/sharepoint)
