@@ -177,6 +177,7 @@
 ## CSS Tips
 
 - [Alternative to innerHTML in SharePoint Framework web parts](http://www.n8d.at/blog/alternative-to-innerhtml-in-sharepoint-framework-web-parts)
+- [Add SPFx Web Part to a Full Width Column](https://joaojmendes.com/2020/05/07/add-spfx-web-part-to-a-full-width-column/)
 
 ## Rest Call
 
