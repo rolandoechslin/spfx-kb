@@ -12,8 +12,9 @@
 - [Markdown Conversion](http://pandoc.org/try)
 - [devpen.io - Editor](https://devpen.io/editor)
 - [Markdown Plus - Editor](http://mdp.tylingsoft.com/)
-- https://www.websequencediagrams.com/
-- https://www.planttext.com/
+- [WebSequenceDiagrams](https://www.websequencediagrams.com/)
+- [PlantText](https://www.planttext.com/)
+- [Word to Markdown Converter](https://word2md.com/)
 
 ## Technical Writing Courses for Engineers
 
