@@ -1,5 +1,6 @@
 # Tips and tricks
 
+- [Pattern & Practises](https://pnp.github.io/)
 - [Microsoft 365 Community Content](https://docs.microsoft.com/en-us/microsoft-365/community/)
 - [SharePoint For IT Professionals](https://docs.microsoft.com/en-us/sharepoint/)
 - [SharePoint development](https://docs.microsoft.com/en-us/sharepoint/dev/)
