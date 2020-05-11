@@ -1,8 +1,8 @@
 # Source: https://www.sharepointdiary.com/2019/03/sharepoint-online-run-search-query-using-pnp-powershell.html
 
 #Config Variables
-$SiteURL = "https://bls.sharepoint.com/sites/CloudSerachTest"
-$SearchQuery = "Title:document* Path:" + $SiteURL
+$SiteURL = "https://<domain>/sites/CloudSerachTest"
+$SearchQuery = "Title:Austausch* Path:" + $SiteURL
  
 #Connect to PNP Online
 Connect-PnPOnline -Url $SiteURL -UseWebLogin
