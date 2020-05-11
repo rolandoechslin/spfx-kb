@@ -76,3 +76,7 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 ## Scripts
 
 - https://github.com/dmadelung/O365GroupsScripts/blob/master/DrewO365GroupsScripts%20-%20Azure%20AD%20Cmdlets
+
+## Remote working
+
+- [Practical guide to securing remote work using Microsoft 365 Business Premium](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/practical-guide-to-securing-remote-work-using-microsoft-365/ba-p/1354772)
