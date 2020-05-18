@@ -26,11 +26,10 @@
 
 ## Office 365 Groups
 
-- <https://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Modernization/Scripts/Groupify>
-- <https://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site>
-- <https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/>
-
-- <https://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/>
+- [Adding a New Office 365 Group to an Existing (Classic) SharePoint Online Site](https://www.petri.com/adding-new-office-365-group-existing-classic-sharepoint-online-site)
+- [Useful PowerShell cmdlets to administer Office 365 Groups](https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/)
+- [MY MOST USED POWERSHELL SCRIPTS FOR MANAGING SHAREPOINT ONLINE](https://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/)
+- [Undocumented Features](https://www.undocumented-features.com/2019/01/31/getting-around-the-basics-of-azure-automation-for-office-365/)
 
 ## SharePoint 2016
 
