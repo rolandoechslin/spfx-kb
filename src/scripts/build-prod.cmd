@@ -1,3 +1,5 @@
+REM  Source : https://thomasdaly.net/2018/05/07/simple-build-script-for-the-sharepoint-framework/
+
 cls
 call gulp clean
 call gulp build --ship
