@@ -70,6 +70,11 @@
 
 - [4 ways to setup external users in SharePoint](https://sharepointmaven.com/setup-external-users-sharepoint)
 
+## Permission Difference
+
+- [SharePoint Modern Sites permission handling (Communication versus Teamsite)](https://williamvanstrien.blogspot.com/2020/04/sharepoint-governance-complicated-due.html)
+- [MS Teams Channel / SharePoint permission inconsistency](https://williamvanstrien.blogspot.com/2020/05/ms-teams-channels-yet-another.html)
+
 ## SiteCollections versus SubSites
 
 - [ADVANTAGES OF A FLAT SHAREPOINT SITE ARCHITECTURE](https://joannecklein.com/2017/11/03/sharepoint-site-collection-advantages)
