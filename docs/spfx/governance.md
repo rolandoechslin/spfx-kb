@@ -46,6 +46,9 @@
 - [How Broken Are Office 365 SharePoint Permissions](https://en.share-gate.com/blog/how-broken-are-office-365-sharepoint-permissions)
 - [Azure AD Internal - GDPR Tool](http://o365blog.com/post/aadinternals/)
 - [Making a real world sharing strategy for SharePoint, OneDrive & Teams](https://www.slideshare.net/dmadelung/making-a-real-world-sharing-strategy-for-sharepoint-onedrive-teams)
+- [SharePoint Modern Sites permission difference handling (Communication versus Teamsite)](https://williamvanstrien.blogspot.com/2020/04/sharepoint-governance-complicated-due.html)
+- [MS Teams Channel / SharePoint permission inconsistency](https://williamvanstrien.blogspot.com/2020/05/ms-teams-channels-yet-another.html)
+- [Modern Authentication](https://codemag.com/Article/2005021/Modern-Authentication)
 
 ## External Sharing
 
@@ -69,11 +72,6 @@
 ## External user
 
 - [4 ways to setup external users in SharePoint](https://sharepointmaven.com/setup-external-users-sharepoint)
-
-## Permission Difference
-
-- [SharePoint Modern Sites permission handling (Communication versus Teamsite)](https://williamvanstrien.blogspot.com/2020/04/sharepoint-governance-complicated-due.html)
-- [MS Teams Channel / SharePoint permission inconsistency](https://williamvanstrien.blogspot.com/2020/05/ms-teams-channels-yet-another.html)
 
 ## SiteCollections versus SubSites
 
