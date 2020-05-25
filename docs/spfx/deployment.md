@@ -2,7 +2,8 @@
 
 ## Azure DevOps / Azure Pipline
 
-- [Getting Started with Git and Azure DevOps: The Ultimate Guide](https://www.sharepointeurope.com/getting-started-with-git-and-azure-devops-the-ultimate-guide/) | [https://cloudskills.io/blog/git-azure-devops](https://cloudskills.io/blog/git-azure-devops)
+- [Getting Started with Git and Azure DevOps](https://www.sharepointeurope.com/getting-started-with-git-and-azure-devops-the-ultimate-guide/) | [Getting Started with Git and Azure DevOps: The Ultimate Guide](https://cloudskills.io/blog/git-azure-devops)
+- [Feature Branch Workflow and Pull Requests](https://cloudskills.io/blog/git-azure-devops-2)
 - [Setting up Azure DevOps Pipelines for SharePoint Framework solutions](https://youtu.be/GqmbRpiTBXg?t=2278)
 - [Setting up multiple environments with your DevOps pipeline](https://www.youtube.com/watch?v=8gQFUQzDzSs)
 - [Implement Continuous Integration and Continuous deployment using Azure DevOps](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/implement-ci-cd-with-azure-devops)
