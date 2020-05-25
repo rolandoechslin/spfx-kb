@@ -44,6 +44,12 @@
 - [A Yeoman Generator for Microsoft Teams](https://github.com/wictorwilen/generator-teams)
 - [Get started with Teams templates](https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates)
 
+## Personal Apps
+
+- [Personal apps](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/design/personal-apps)
+- [Building Microsoft Teams tab using SharePoint Framework - Tutorial](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-web-part-as-ms-teams-tab)
+- [Create Microsoft Teams manifest manually for a web part and deploy it to Microsoft Teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/creating-team-manifest-manually-for-webpart)
+
 ## Administration
 
 - [Overview of Teams](https://support.office.com/en-us/article/Frequently-asked-questions-about-Microsoft-Teams-%25E2%2580%2593-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc?ui=en-US&rs=en-US&ad=US)
