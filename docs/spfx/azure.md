@@ -38,9 +38,11 @@
 - [Running a PowerShell script in the cloud with an Azure Function, PnP and the Graph](http://www.sharepointnutsandbolts.com/2018/06/powershell-script-cloud-azure-function-pnp.html)
 - [Control Office 365 Group creation – a simple no-code solution](http://www.sharepointnutsandbolts.com/2018/04/control-office-365-group-creation.html)
 
-## Quickstart
+## Azure Services
 
-- https://azure.microsoft.com/en-us/blog/get-the-azure-quick-start-guide-for-net-developers
+- [Get the Azure Quick Start Guide for .NET Developers](https://azure.microsoft.com/en-us/blog/get-the-azure-quick-start-guide-for-net-developers)
+- [10 Azure Cloud services that every Developers, Consultant, and Architects should Know and Learn it well – Part I](https://abhijitjana.net/2020/04/18/10-azure-cloud-services-that-every-developers-consultant-and-architects-should-know-and-learn-it-well/)
+- [10 Azure services that every .NET Developers, Consultant, and Architects should know and learn it well – Part II](https://abhijitjana.net/2020/05/16/10-azure-services-that-every-net-developers-consultant-and-architects-should-know-and-learn-it-well-part-ii/)
 
 ## Tips
 
