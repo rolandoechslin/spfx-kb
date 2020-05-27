@@ -1,0 +1,86 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "width": "30px",
+          "height": "30px",
+          "min-width": "30px",
+          "overflow": "hidden",
+          "border-radius": "50%",
+          "margin-right": "5px",
+          "vertical-align": "middle",
+          "display": "=if(@currentField.id == '', 'none', '')"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "attributes": {
+              "href": "='https://reshive.sharepoint.com/_layouts/15/me.aspx/?p=' + @currentField.email + '&v=work'",
+              "target": "_blank"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + @currentField.email",
+                  "title": "View Profile in Delve"
+                },
+                "style": {
+                  "position": "relative",
+                  "top": "50%",
+                  "left": "50%",
+                  "width": "100%",
+                  "height": "auto",
+                  "margin-left": "-50%",
+                  "margin-top": "-50%"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "block",
+          "white-space": "nowrap"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "txtContent": "@currentField.title",
+            "attributes": {
+              "href": "='https://reshive.sharepoint.com/_layouts/15/me.aspx/?p=' + @currentField.email + '&v=work'",
+              "target": "_blank"
+            },
+            "style": {
+              "display": "flex",
+              "text-decoration": "none",
+              "color": "inherit",
+              "margin-top": "3px"
+            }
+          },
+          {
+            "elmType": "span",
+            "txtContent": "@currentField.jobTitle",
+            "attributes": {
+              "href": "='https://reshive.sharepoint.com/_layouts/15/me.aspx/?p=' + @currentField.email + '&v=work'",
+              "target": "_blank",
+              "title": "@currentField.jobTitle"
+            },
+            "style": {
+              "display": "flex",
+              "text-decoration": "none",
+              "color": "#BABAB9",
+              "margin-bottom": "3px"
+            }
+          }
+        ]
+      }
+    ],
+    "defaultHoverField": "@currentField"
+  }
+  
