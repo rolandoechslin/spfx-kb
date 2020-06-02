@@ -1,5 +1,9 @@
 # PnP Powershell
 
+## Login with Application admin
+
+ -[The required Office 365 role to run PnP Powershell with Scopes](https://sharepoint-tricks.com/the-required-office-365-role-to-run-pnp-powershell-with-scopes/)
+
 ## Installation Options
 
 - [Running multiple versions of PnP-PowerShell](https://blog.pixelmill.com/3718/running-multiple-versions-of-pnp-powershell/)
