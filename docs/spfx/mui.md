@@ -1,5 +1,9 @@
 # MUI
 
+## Multilingual Pages
+
+- [Multilingual publishing for pages and news posts](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/new-sharepoint-feature-multilingual-publishing-for-pages-and/ba-p/1432445)
+
 ## Localisation of the user interface
 
 - [Understanding the Multilingual User Interface (MUI)](https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ff800886(v=office.14))
