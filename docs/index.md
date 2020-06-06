@@ -30,6 +30,7 @@
 - [Azure Edu DevCamp](https://github.com/Microsoft/edu-devcamp)
 - [HOW TO GET STARTED WITH REACT FOR BUILDING ADVANCED SPFX SOLUTIONS](https://laurakokkarinen.com/how-to-get-started-with-react-for-building-advanced-spfx-solutions/)
 - [HOW TO USE THE SERVICE PATTERN IN SPFX REACT SOLUTIONS](https://laurakokkarinen.com/how-to-use-the-service-pattern-in-spfx-react-solutions/)
+- [Nanddeepn-Getting Started Slides](https://github.com/nanddeepn/code-samples/tree/master/SPFx/Getting%20Started%20Slides)
 
 ## DEV-Tenant
 
