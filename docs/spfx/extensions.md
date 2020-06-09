@@ -68,6 +68,7 @@
 ## Navigations
 
 - [Handling navigation in a SharePoint Framework application customizer](https://www.eliostruyf.com/handling-navigation-in-a-sharepoint-framework-application-customizer)
+- [SPFx Side Navigation Project for Modern Sites](https://thomasdaly.net/2020/06/09/spfx-side-navigation-project-for-modern-sites/)
 
 ## Placeholders
 
