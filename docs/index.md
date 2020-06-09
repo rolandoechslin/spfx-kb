@@ -32,6 +32,7 @@
 - [HOW TO USE THE SERVICE PATTERN IN SPFX REACT SOLUTIONS](https://laurakokkarinen.com/how-to-use-the-service-pattern-in-spfx-react-solutions/)
 - [Nanddeepn-Getting Started Slides](https://github.com/nanddeepn/code-samples/tree/master/SPFx/Getting%20Started%20Slides)
 - [Recap of Getting Started SharePoint Framework (SPFx) Webinar Series 2020](https://siddharthvaghasia.com/2020/06/06/recap-of-getting-started-spfx-webinar-series/)
+- [PiaSys: Conferences-Samples](https://github.com/PiaSys/Conferences-Samples)
 
 ## DEV-Tenant
 
