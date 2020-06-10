@@ -12,6 +12,11 @@
 - [Test-Driven Development with React, Jest, and Enzyme - Part 1](https://testdriven.io/blog/tdd-with-react-jest-and-enzyme-part-one/)
 - [PiaSys: Episode #33 - Testing SharePoint Framework Solutions with Jest and Enzyme](https://www.youtube.com/watch?v=iDt7MJX9Lj0)
 - [PiaSys: spfx-testing-v-1-9-1](https://github.com/PiaSys/spfx-testing-v.1.9.1)
+- [Extend SPFx solution testability: Let’s start](https://mgwdevcom.wordpress.com/2020/02/17/extend-spfx-solution-testability-lets-start/)
+- [Extend SPFx solution testability: TDD in Data Access Layer](https://mgwdevcom.wordpress.com/2020/02/23/extend-spfx-solution-testability-tdd-in-data-access-layer/)
+- [Extend SPFx solution testability: TDD in View Layer](https://mgwdevcom.wordpress.com/2020/03/01/extend-spfx-solution-testability-tdd-in-view-layer/)
+- [Extend SPFx solution testability: TDD in View Layer part 2](https://mgwdevcom.wordpress.com/2020/03/04/extend-spfx-solution-testability-tdd-in-view-layer-part-2/)
+- [Extend SPFx solution testability: dealing with legacy code and async components](https://mgwdevcom.wordpress.com/2020/03/17/extend-spfx-solution-testability-dealing-with-legacy-code-and-async-components/)
 
 ## Samples
 
