@@ -23,6 +23,7 @@
 - [Webinar Recording: Deep Dive into SharePoint Multilingual with Divyachapan (DC) Padur](https://www.youtube.com/watch?v=Xwxhi4CY0_E&feature=youtu.be)
 - [Using the new multilingual APIs in Modern SharePoint](https://www.eliostruyf.com/multilingual-apis-modern-sharepoint/)
 - [Working with SharePoint Online modern multilingual with the search Keyword Query Language, Query variables and the modern search webpart](https://mahmoudhhassan.wordpress.com/2020/04/12/working-with-sharepoint-online-modern-multilingual-with-the-search-keyword-query-language-query-variables-and-the-modern-search-webpart/)
+- [7 tips to help create and manage multilingual SharePoint communication sites](https://www.computerworld.com/article/3562354/7-tips-to-help-create-and-manage-multilingual-sharepoint-communication-sites.html)
 
 Search Query for multilingual news
 
