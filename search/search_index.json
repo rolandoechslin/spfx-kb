@@ -242,7 +242,7 @@
         },
         {
             "location": "/spfx/architecture/",
-            "text": "Architecture\n\u00b6\n\n\n\n\nMicrosoft cloud IT architecture resources\n\n\nAzure Architecture Center\n\n\n\n\nChecklist Solution\n\u00b6\n\n\n\n\nQuestion / Checklist SPFx Solution\n\n\nSharePoint Framework \u2013 new project checklist\n\n\nhttps://rencore.com/software/tools/sharepoint-customizations-guide/",
+            "text": "Architecture\n\u00b6\n\n\n\n\nMicrosoft cloud IT architecture resources\n\n\nAzure Architecture Center\n\n\n\n\nChecklist Solution\n\u00b6\n\n\n\n\nQuestion / Checklist SPFx Solution\n\n\nSharePoint Framework \u2013 new project checklist\n\n\nhttps://rencore.com/software/tools/sharepoint-customizations-guide/\n\n\n\n\nUser Settings\n\u00b6\n\n\n\n\nThe easiest way to store user settings of your Microsoft 365 app",
             "title": "Architecture"
         },
         {
@@ -254,6 +254,11 @@
             "location": "/spfx/architecture/#checklist-solution",
             "text": "Question / Checklist SPFx Solution  SharePoint Framework \u2013 new project checklist  https://rencore.com/software/tools/sharepoint-customizations-guide/",
             "title": "Checklist Solution"
+        },
+        {
+            "location": "/spfx/architecture/#user-settings",
+            "text": "The easiest way to store user settings of your Microsoft 365 app",
+            "title": "User Settings"
         },
         {
             "location": "/spfx/azure/",
@@ -2042,7 +2047,7 @@
         },
         {
             "location": "/spfx/testing/",
-            "text": "Testing\n\u00b6\n\n\nJest\n\u00b6\n\n\n\n\nSharePoint Framework unit-tests with Jest\n\n\nWriting unit tests for your SharePoint Framework components\n\n\nUnit Test your SharePoint Framework solution with Jest\n\n\nDemo: Simplify SPFx test configuration with Jest Presets\n\n\njest-preset-spfx-react16\n\n\nSPFx Deep Dive Webinar Series: Unit Test SPFx Solutions using Jest and Enzyme\n\n\nCommunity Demo - Simplify SPFx test configuration with Jest Presets\n\n\nTest-Driven Development with React, Jest, and Enzyme - Part 1\n\n\nPiaSys: Episode #33 - Testing SharePoint Framework Solutions with Jest and Enzyme\n\n\nPiaSys: spfx-testing-v-1-9-1\n\n\nExtend SPFx solution testability: Let\u2019s start\n\n\nExtend SPFx solution testability: TDD in Data Access Layer\n\n\nExtend SPFx solution testability: TDD in View Layer\n\n\nExtend SPFx solution testability: TDD in View Layer part 2\n\n\nExtend SPFx solution testability: dealing with legacy code and async components\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSharePoint Framework Unit-Tests Sample with Jest\n\n\nPFx-Jest-Enzyme-Sinon unit testing starter kit\n\n\nReact Inversion Of Control Web Part with Unit Tests using Jest and Enzyme\n\n\n\n\nTDD\n\u00b6\n\n\n\n\nIntroduction to Test driven development(TDD) of SharePoint Framework solution using Jest & Enzyme\n\n\n\n\nGenerate test data\n\u00b6\n\n\n\n\nMockaroo",
+            "text": "Testing\n\u00b6\n\n\nJest\n\u00b6\n\n\n\n\nSharePoint Framework unit-tests with Jest\n\n\nWriting unit tests for your SharePoint Framework components\n\n\nUnit Test your SharePoint Framework solution with Jest\n\n\nDemo: Simplify SPFx test configuration with Jest Presets\n\n\njest-preset-spfx-react16\n\n\nSPFx Deep Dive Webinar Series: Unit Test SPFx Solutions using Jest and Enzyme\n\n\nCommunity Demo - Simplify SPFx test configuration with Jest Presets\n\n\nTest-Driven Development with React, Jest, and Enzyme - Part 1\n\n\nPiaSys: Episode #33 - Testing SharePoint Framework Solutions with Jest and Enzyme\n\n\nPiaSys: spfx-testing-v-1-9-1\n\n\nExtend SPFx solution testability: Let\u2019s start\n\n\nExtend SPFx solution testability: TDD in Data Access Layer\n\n\nExtend SPFx solution testability: TDD in View Layer\n\n\nExtend SPFx solution testability: TDD in View Layer part 2\n\n\nExtend SPFx solution testability: dealing with legacy code and async components\n\n\nMock teams library in SPFx project\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSharePoint Framework Unit-Tests Sample with Jest\n\n\nPFx-Jest-Enzyme-Sinon unit testing starter kit\n\n\nReact Inversion Of Control Web Part with Unit Tests using Jest and Enzyme\n\n\nmessage-bar\n\n\n\n\nTDD\n\u00b6\n\n\n\n\nIntroduction to Test driven development(TDD) of SharePoint Framework solution using Jest & Enzyme\n\n\n\n\nGenerate test data\n\u00b6\n\n\n\n\nMockaroo",
             "title": "Testing"
         },
         {
@@ -2052,12 +2057,12 @@
         },
         {
             "location": "/spfx/testing/#jest",
-            "text": "SharePoint Framework unit-tests with Jest  Writing unit tests for your SharePoint Framework components  Unit Test your SharePoint Framework solution with Jest  Demo: Simplify SPFx test configuration with Jest Presets  jest-preset-spfx-react16  SPFx Deep Dive Webinar Series: Unit Test SPFx Solutions using Jest and Enzyme  Community Demo - Simplify SPFx test configuration with Jest Presets  Test-Driven Development with React, Jest, and Enzyme - Part 1  PiaSys: Episode #33 - Testing SharePoint Framework Solutions with Jest and Enzyme  PiaSys: spfx-testing-v-1-9-1  Extend SPFx solution testability: Let\u2019s start  Extend SPFx solution testability: TDD in Data Access Layer  Extend SPFx solution testability: TDD in View Layer  Extend SPFx solution testability: TDD in View Layer part 2  Extend SPFx solution testability: dealing with legacy code and async components",
+            "text": "SharePoint Framework unit-tests with Jest  Writing unit tests for your SharePoint Framework components  Unit Test your SharePoint Framework solution with Jest  Demo: Simplify SPFx test configuration with Jest Presets  jest-preset-spfx-react16  SPFx Deep Dive Webinar Series: Unit Test SPFx Solutions using Jest and Enzyme  Community Demo - Simplify SPFx test configuration with Jest Presets  Test-Driven Development with React, Jest, and Enzyme - Part 1  PiaSys: Episode #33 - Testing SharePoint Framework Solutions with Jest and Enzyme  PiaSys: spfx-testing-v-1-9-1  Extend SPFx solution testability: Let\u2019s start  Extend SPFx solution testability: TDD in Data Access Layer  Extend SPFx solution testability: TDD in View Layer  Extend SPFx solution testability: TDD in View Layer part 2  Extend SPFx solution testability: dealing with legacy code and async components  Mock teams library in SPFx project",
             "title": "Jest"
         },
         {
             "location": "/spfx/testing/#samples",
-            "text": "SharePoint Framework Unit-Tests Sample with Jest  PFx-Jest-Enzyme-Sinon unit testing starter kit  React Inversion Of Control Web Part with Unit Tests using Jest and Enzyme",
+            "text": "SharePoint Framework Unit-Tests Sample with Jest  PFx-Jest-Enzyme-Sinon unit testing starter kit  React Inversion Of Control Web Part with Unit Tests using Jest and Enzyme  message-bar",
             "title": "Samples"
         },
         {
