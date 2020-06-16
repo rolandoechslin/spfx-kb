@@ -17,6 +17,7 @@
 - [Extend SPFx solution testability: TDD in View Layer](https://mgwdevcom.wordpress.com/2020/03/01/extend-spfx-solution-testability-tdd-in-view-layer/)
 - [Extend SPFx solution testability: TDD in View Layer part 2](https://mgwdevcom.wordpress.com/2020/03/04/extend-spfx-solution-testability-tdd-in-view-layer-part-2/)
 - [Extend SPFx solution testability: dealing with legacy code and async components](https://mgwdevcom.wordpress.com/2020/03/17/extend-spfx-solution-testability-dealing-with-legacy-code-and-async-components/)
+- [Mock teams library in SPFx project](https://mgwdevcom.wordpress.com/2020/06/15/mock-teams-library-in-spfx-project/)
 
 ## Samples
 
