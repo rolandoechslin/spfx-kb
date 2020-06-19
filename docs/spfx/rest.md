@@ -15,6 +15,7 @@
 - [Announcing Microsoft Graph Postman Collections](https://developer.microsoft.com/en-us/sharepoint/blogs/postman-collections/)
 - [Using Postman with the Microsoft Graph](https://www.youtube.com/watch?v=7Sx2pFY21YQ)
 - [Powerful HTTP and GraphQL tool belt](https://insomnia.rest/)
+- [Explore SharePoint REST API with Chrome F12 cURL (bash) to Postman](https://www.spjeff.com/2020/06/16/explore-sharepoint-rest-api-with-chrome-f12-curl-bash-to-postman/)
 
 ## Testing
 
