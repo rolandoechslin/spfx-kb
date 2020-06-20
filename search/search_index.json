@@ -3537,7 +3537,7 @@
         },
         {
             "location": "/security/learning/",
-            "text": "Security\n\u00b6\n\n\nRessources\n\u00b6\n\n\n\n\nOWASP\u2122 Foundation\n\n\ndanielmiessler - Web Application Security Testing Resources\n\n\nHacking-Security-Ebooks\n\n\n\n\nChecklist\n\u00b6\n\n\n\n\nOWASP Testing Checklist\n\n\nSecurity KB Issues - portswigger.net\n\n\n\n\nPassword Check\n\u00b6\n\n\n\n\nhaveibeenpwned\n\n\nIs someone spying on you?\n\n\n\n\nTools\n\u00b6\n\n\n\n\nAdvanced Web Security Proxy\n\n\n\n\nFirewall\n\u00b6\n\n\n\n\nUsing PowerShell To Maintain Windows Firewall Rules For Remote Access\n\n\n\n\nSharepoint OnPrem\n\u00b6\n\n\n\n\nPenetration Testing SharePoint\n\n\n\n\nOffice 365\n\u00b6\n\n\n\n\nhttps://resources.techcommunity.microsoft.com/security-compliance-and-administration/\n\n\nhttps://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/Idle-Session-Timeout-Policy-in-SharePoint-Online-amp-OneDrive-is/ba-p/211274\n\n\nhttps://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions\n\n\n\n\nFile\n\u00b6\n\n\n\n\n6 locations where you can set security for files in SharePoint and Office 365\n\n\n\n\nSPFx Tooling\n\u00b6\n\n\n\n\nSecurity Scanning a SharePoint Framework Solution\n\n\nIs JavaScript Safe for SharePoint\n\n\n\n\nLockfiles\n\u00b6\n\n\n\n\nWhy npm lockfiles can be a security blindspot for injecting malicious modules\n\n\n\n\nBlock websites\n\u00b6\n\n\n\n\nHow to Block a Single Website and more\n\n\n\n\nCookies\n\u00b6\n\n\n\n\nSameSite cookies explained",
+            "text": "Security\n\u00b6\n\n\nRessources\n\u00b6\n\n\n\n\nOWASP\u2122 Foundation\n\n\ndanielmiessler - Web Application Security Testing Resources\n\n\nHacking-Security-Ebooks\n\n\n\n\nChecklist\n\u00b6\n\n\n\n\nOWASP Testing Checklist\n\n\nSecurity KB Issues - portswigger.net\n\n\n\n\nPassword Check\n\u00b6\n\n\n\n\nhaveibeenpwned\n\n\nIs someone spying on you?\n\n\n\n\nTools\n\u00b6\n\n\n\n\nAdvanced Web Security Proxy\n\n\nOWASP Zed Attack Proxy (ZAP)\n\n\nBurp\n\n\n\n\nFirewall\n\u00b6\n\n\n\n\nUsing PowerShell To Maintain Windows Firewall Rules For Remote Access\n\n\n\n\nSharepoint OnPrem\n\u00b6\n\n\n\n\nPenetration Testing SharePoint\n\n\n\n\nOffice 365\n\u00b6\n\n\n\n\nhttps://resources.techcommunity.microsoft.com/security-compliance-and-administration/\n\n\nhttps://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/Idle-Session-Timeout-Policy-in-SharePoint-Online-amp-OneDrive-is/ba-p/211274\n\n\nhttps://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions\n\n\n\n\nFile\n\u00b6\n\n\n\n\n6 locations where you can set security for files in SharePoint and Office 365\n\n\n\n\nSPFx Tooling\n\u00b6\n\n\n\n\nSecurity Scanning a SharePoint Framework Solution\n\n\nIs JavaScript Safe for SharePoint\n\n\n\n\nLockfiles\n\u00b6\n\n\n\n\nWhy npm lockfiles can be a security blindspot for injecting malicious modules\n\n\n\n\nBlock websites\n\u00b6\n\n\n\n\nHow to Block a Single Website and more\n\n\n\n\nCookies\n\u00b6\n\n\n\n\nSameSite cookies explained",
             "title": "Learning"
         },
         {
@@ -3562,7 +3562,7 @@
         },
         {
             "location": "/security/learning/#tools",
-            "text": "Advanced Web Security Proxy",
+            "text": "Advanced Web Security Proxy  OWASP Zed Attack Proxy (ZAP)  Burp",
             "title": "Tools"
         },
         {
