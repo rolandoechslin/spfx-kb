@@ -19,7 +19,9 @@
 ## Tools
 
 - [Advanced Web Security Proxy](https://secapps.com/appbandit)
-
+- [OWASP Zed Attack Proxy (ZAP)](https://www.zaproxy.org/)
+- [Burp](https://portswigger.net/burp)
+- 
 ## Firewall
 
 - [Using PowerShell To Maintain Windows Firewall Rules For Remote Access](https://blogs.msdn.microsoft.com/mvpawardprogram/2018/05/15/powershell-windows-firewall)
