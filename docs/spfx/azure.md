@@ -27,6 +27,7 @@
 - [From start to finish: How to create your modern SharePoint site provisioning solution - BRK3273](https://www.youtube.com/watch?v=g9c9cMx9W3E)
 - [BUILDING A MODERN FLAT PROJECT HUB USING SITE DESIGNS](https://joannecklein.com/2018/07/29/modern-project-sites-using-site-designs)
 - [office365-azureautomation](https://github.com/garrytrinder/office365-azureautomation)
+- [office365-azureautomation-runbooks](https://github.com/garrytrinder/office365-azureautomation)
 
 ## Azure-Functions
 
