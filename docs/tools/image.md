@@ -4,6 +4,7 @@
 
 - [Creating Banners for your SharePoint Online Pages](https://tracyvanderschyff.com/2018/05/03/creating-banners-for-your-sharepoint-online-pages)
 - [Image Sizing und Scaling](https://support.office.com/en-us/article/image-sizing-and-scaling-in-sharepoint-modern-pages-dc510065-b5a5-4654-bc94-e3ecbbb57d8d)
+- [Convert Modern SharePoint Page Banner Images to Base-64 using PowerShell](https://thechriskent.com/2020/06/30/convert-modern-sharepoint-page-banner-images-to-base-64-using-powershell/)
 
 ## Tools
 
