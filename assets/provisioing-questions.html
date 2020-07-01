@@ -1,0 +1,171 @@
+<!-- Source: https://laurakokkarinen.com/30-questions-you-should-ask-your-customer-about-teams-provisioning/ -->
+
+What are you looking for from a Teams provisioning solution?
+Do you want all the teams in the tenant to be named based on some unified naming conventions? E.g., add a prefix or a suffix to the team name based on what the team is used for or by whom (unit, country, etc.) *
+
+    Yes
+    No
+    I don't know yet
+
+If you selected 'Yes' in the previous question, please tell us what kind of prefixes and suffixes you'd like to use in the team names? Just the basic idea: are they going to be country codes, unit abbreviations or the like. Any information is helpful. You can also leave the field blank for now.
+Can the team names contain characters that are not in the English alphabet, such as accented characters (á, é, ö, etc.)? *
+
+    Yes
+    No
+    I don't know yet
+
+If you selected 'Yes' in the previous question, please tell what all the different languages that can be used in team names are.
+Do you want to allow users to order both Private and Public teams with the form, or only Private or Public? *
+
+    Both Private and Public
+    Only Private
+    Only Public
+    I don't know yet
+
+If the user is creating a Private team, do you want to offer them an option to make the team visible in search results and team suggestions to other users? When a private team is made visible in these places, users can request access to the teams on demand. By default, all Private teams are hidden from search results and suggestions. Public teams are always visible in both. *
+
+    Yes
+    No
+    I don't know yet
+
+We can ask the user to specify if the team going to be for internal use only or if there is going to be external collaboration. If the user selects "internal only", we can disable external sharing for that team so that no external users can be invited to the team nor any team documents can be shared to people outside of the organization. Does this sound like a useful feature for you? *
+
+    Yes
+    No
+    I don't know yet
+
+How do you want to specify the team owners? You can select multiple options. *
+
+    There is an Owners field for specifying one or more owners
+    The user who is filling the form is automatically added to the Owners field
+    The user who fills the form automatically always becomes the team owner. Note that this setting can be problematic if people ever need to order teams for others.
+
+Should the initial team members be specified already on the team order form, or will the owners add the members to the team after the team has been created? *
+
+    Add a field on the form where the user can specify the initial team members
+    The owners will add the team members after the team has been created
+    I don't know yet
+
+By default, all users who get added to teams receive a welcome message to their email inbox. Some customers consider these messages to be annoying spam. Would you like us to disable these emails for all the teams that get provisioned? Users still get notifications on Teams whenever they are added as members. *
+
+    Yes
+    No
+    I don't know yet
+
+Do you want there to be an approval step where a certain group of admins review and either approve or reject the team order? The team only gets provisioned if the order gets approved. *
+
+    Yes
+    No
+    I don't know yet
+
+If you selected 'Yes' in the previous question, do you want the approval requests to get sent as an email or as a message in Teams? *
+
+    Email
+    Teams channel message
+    Teams private message
+    I don't know yet
+
+If you selected 'Teams channel message' in the previous question, what is the name of the team where you want the approval requests to get sent to? If you selected Email, what are the email addresses? If you don't know yet, leave the field empty.
+Do you want to use one or more team templates to automatically provision certain channels and tabs to all the teams that get created with the templates? *
+
+    Yes, one template for creating all teams
+    Yes, multiple different kinds of templates for creating different types of teams
+    No
+    I don't know yet
+
+If you selected 'Yes' in the previous question, tell us a little bit about what kind of templates you have in mind?
+Do you want the Files tab on each channel to automatically have a certain subfolder structure? *
+
+    Yes
+    No
+    I don't know yet
+
+Would you like the Wiki tab to get automatically removed from the channels when the team gets created? Generally, we recommend using OneNote instead of the Wiki, because if someone removes the Wiki tab from the channel, the content of the Wiki also gets deleted, and it cannot be easily restored. *
+
+    Yes, delete the Wiki tab during provisioning
+    No, keep the Wiki tab
+    I don't know yet
+
+Do you have a template Planner plan that you'd like to get automatically copied to new teams? *
+
+    Yes
+    No
+    I don't know yet
+
+Do you want to add metadata to the team which is only accessible programmatically (via Microsoft Graph schema extensions)? This can be a useful thing to do if you want to build views that list teams based on a certain criterion (the metadata value), or if you want to utilize the information in reporting. *
+
+    Yes
+    No
+    I don't know yet
+
+If you selected 'Yes' in the previous question, tell us a little bit more about what kind of metadata you'd like to get added to the teams?
+If you are already using group sensitivity labels in your tenant (or would like to start using them), do you want to offer the user a chance to select a sensitivity label for the team on the order form? The label would then get automatically added for the team. The sensitivity labels indicate the level of sensitivity of the content processed within the team (e.g., Internal, External, Confidential, Secret, Unofficial — whatever you want to call them). *
+
+    Yes, and we are already using sensitivity labels
+    Yes, but we need to create the sensitivity labels first
+    No
+    I don't know yet
+
+Are you using, or would you like to start using a group expiration policy? If yes, would you like all the new teams to get added to the expiration policy scope? The group expiration policy automatically deletes teams that are no longer actively used after a certain period of time. *
+
+    Yes, and we are already using a group expiration policy
+    Yes, but we need to set up the group expiration policy first
+    No
+    I don't know yet
+
+We can ask the user to consent to have read certain "team owner's responsibilities/guidelines" before they are able to submit the team order. Does this sound like a useful feature for you?
+
+    Yes
+    No
+    I don't know yet
+
+Where should the team order form be located? I.e. what is the place where the users would access the form? You can select multiple options. *
+
+    The Teams left-hand navigation
+    A page on SharePoint
+    Somewhere else
+
+If you selected 'Somewhere else' in the previous question, please specify.
+How important is it that the form conforms to company branding? *
+
+    The form must follow the company brand guidelines when it comes to colors and fonts
+    It is enough if the form matches the Microsoft 365 look-and-feel
+    I don't know yet
+
+Anything else you are hoping for from a Teams provisioning solution?
+There's always a chance that an error occurs during the provisioning process. Where would you like the error messages to get sent to? *
+
+    The same team or email addresses where the approval requests get sent (if approval is used)
+    Somewhere else
+    I don't know yet
+
+If you selected 'Somewhere else' in the previous question, please specify.
+Your Office 365 tenant type *
+
+    Commercial (Default)
+    Education
+    Government
+    Other
+    I don't know yet
+
+Do you already have an existing Azure subscription in case we need to set up some resources to be run in Azure? *
+
+    Yes
+    No, but we can create one
+    We aren't allowed to use Azure
+    I don't know yet
+
+Is it possible to give the developer the required administrator rights for deploying and configuring the solution, or should an organization administrator do the configurations based on provided instructions? *
+
+    The developer can have all the required admin rights
+    An organization administrator will do all of the configurations based on instructions
+    Some admin roles can be given, but not global admin
+    Something else
+    I don't know yet
+
+If you selected "Some admin roles can be given, but not global admin" or "Something else" in the previous question, please specify. *
+What is your email address, so I can reach out to you regarding this matter? *
+Your name (just in case it's not apparent from the email address), so I know how to address you. *
+First
+Last
+What is the name of your organization, so I can look into your line-of-business in advance? *

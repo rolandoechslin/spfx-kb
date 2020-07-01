@@ -3427,7 +3427,7 @@
         },
         {
             "location": "/tools/image/",
-            "text": "Image\n\u00b6\n\n\nHeader Banner\n\u00b6\n\n\n\n\nCreating Banners for your SharePoint Online Pages\n\n\nImage Sizing\u00a0und Scaling\n\n\n\n\nTools\n\u00b6\n\n\n\n\ncolors picker\n\n\nhttp://dummyimage.com/\n\n\nhttp://makephotogallery.net/\n\n\nhttps://www.fotocollagen.de/\n\n\nhttp://wearekiss.com/spritepad\n\n\nhttp://www.colorzilla.com/gradient-editor/\n\n\nhttp://iconbench.com/\n\n\nhttp://www.drweb.de/magazin/fontello-icomoon-konkurrent-hilft-beim-zusammenstellen-eigener-iconfonts/\n\n\nhttp://www.imagemagick.org/script/index.php\n\n\nhttp://www.maschek.hu/imagemap/imgmap\n\n\nhttps://github.com/heyalexej/awesome-images\n\n\nhttp://www.screenpresso.com/de/\n\n\nhttp://free.zoner.com/\n\n\nhttps://appiconizer.com/\n\n\nhttp://gifmaker.me/\n\n\nhttps://www.base64-image.de/\n\n\nhttps://shields.io\n\n\nCSS clip path macker - clippy\n\n\nResponsive Image Breakpoints Generator\n\n\n\n\nImage File Types\n\u00b6",
+            "text": "Image\n\u00b6\n\n\nHeader Banner\n\u00b6\n\n\n\n\nCreating Banners for your SharePoint Online Pages\n\n\nImage Sizing\u00a0und Scaling\n\n\nConvert Modern SharePoint Page Banner Images to Base-64 using PowerShell\n\n\n\n\nTools\n\u00b6\n\n\n\n\ncolors picker\n\n\nhttp://dummyimage.com/\n\n\nhttp://makephotogallery.net/\n\n\nhttps://www.fotocollagen.de/\n\n\nhttp://wearekiss.com/spritepad\n\n\nhttp://www.colorzilla.com/gradient-editor/\n\n\nhttp://iconbench.com/\n\n\nhttp://www.drweb.de/magazin/fontello-icomoon-konkurrent-hilft-beim-zusammenstellen-eigener-iconfonts/\n\n\nhttp://www.imagemagick.org/script/index.php\n\n\nhttp://www.maschek.hu/imagemap/imgmap\n\n\nhttps://github.com/heyalexej/awesome-images\n\n\nhttp://www.screenpresso.com/de/\n\n\nhttp://free.zoner.com/\n\n\nhttps://appiconizer.com/\n\n\nhttp://gifmaker.me/\n\n\nhttps://www.base64-image.de/\n\n\nhttps://shields.io\n\n\nCSS clip path macker - clippy\n\n\nResponsive Image Breakpoints Generator\n\n\n\n\nImage File Types\n\u00b6",
             "title": "Image"
         },
         {
@@ -3437,7 +3437,7 @@
         },
         {
             "location": "/tools/image/#header-banner",
-            "text": "Creating Banners for your SharePoint Online Pages  Image Sizing\u00a0und Scaling",
+            "text": "Creating Banners for your SharePoint Online Pages  Image Sizing\u00a0und Scaling  Convert Modern SharePoint Page Banner Images to Base-64 using PowerShell",
             "title": "Header Banner"
         },
         {
