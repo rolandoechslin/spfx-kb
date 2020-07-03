@@ -1,4 +1,5 @@
-# Source : https://github.com/mpaukkon/SharePoint/blob/master/PowerShell/Copy-SharePointPageTemplateFromHub.ps1
+# Source: https://github.com/mpaukkon/SharePoint/blob/master/PowerShell/Copy-SharePointPageTemplateFromHub.ps1
+# Blog: https://mattipaukkonen.com/2020/07/02/distribute-sharepoint-page-templates-with-pnp-powershell-and-provisioning-templates/
 
 #Parameters
 $tenant = "<tenant>.onmicrosoft.com"
