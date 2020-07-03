@@ -19,6 +19,7 @@
 
 ## Start with SPFx (Training)
 
+- [Microsoft Learn](https://docs.microsoft.com/en-en/learn/)
 - [SharePoint Framework - Getting started](https://blog.mastykarz.nl/sharepoint-framework-getting-started/)
 - [SharePoint Developer Community - Open-source projects](https://docs.microsoft.com/en-us/sharepoint/dev/community/open-source-projects)
 - [Updated SharePoint Framework developer training package now available (2019)](https://developer.microsoft.com/en-us/sharepoint/blogs/updated-sharepoint-framework-developer-training-package-now-available-2019/)
