@@ -102,7 +102,7 @@ spo serviceprincipal grant add --resource 'Microsoft Graph' --scope 'Mail.Read'
 - [Design patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
 - [React inpatterns](https://krasimir.gitbooks.io/react-in-patterns/)
 
-## SPFX Workflow
+## SPFx Workflow
 
 - [Walkthrough: use Azure DevOps with SPFx, GitFlow and GitVersion](http://thecollaborationcorner.com/2019/02/28/azure-devops-with-spfx-gitflow-gitversion/)
 
@@ -263,7 +263,7 @@ npm version minor
 npm version patch
 ```
 
-### Add importend pnp modules
+### Add imported pnp modules
 
 - <https://pnp.github.io/pnpjs/>
 - <https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide>
@@ -332,7 +332,8 @@ gulp serve --locale=de-de
 - [RSS Reader](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-rss-reader)
 - [Sample FieldVisitTab](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-teams-tab-field-visit-mashup/src/webparts/fieldVisitTab/services)
 
-Sample Folder structur 
+Sample Folder structure
+
 - [barrel: each folder should has a index.ts file](https://basarat.gitbooks.io/typescript/docs/tips/barrel.html)
 - [prettify your imports](https://spblog.net/post/2019/02/05/sharepoint-framework-development-tips-prettify-your-imports)
 
@@ -504,11 +505,11 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 }
 ```
 
-### Get Search Data with asynch/await
+### Get Search Data with async/await
 
 [Using PnPJS and Async/Await to Really Simplify Your API Calls](https://sympmarc.com/2018/12/12/using-pnpjs-and-async-await-to-really-simplify-your-api-calls/#comment-167591)
 
-asynch/await
+async/await
 
 ```tsx
   private async _getSiteData(): Promise<ISPSite[]> {
@@ -708,3 +709,7 @@ o365 spfx project upgrade --shell powershell --toVersion 1.8.2 --output md > rep
 - [How to add external libraries and assets in SharePoint client-side web part](http://mundrisoft.com/tech-bytes/how-to-add-external-libraries-and-assets-in-sharepoint-client-side-web-part/)
 - [Loading dependent JS files into SPFx Solution in right order](https://rasper87.wordpress.com/2018/06/15/loading-dependent-js-files-e-g-jquery-plugins-into-spfx-solution-in-right-order)
 - [How To Include JavaScript Files In SharePoint Framework Solutions?](https://vinodscodes.wordpress.com/2017/10/25/how-to-include-javascript-files-in-sharepoint-framework-solutions/)
+
+## SPFx Utilities
+
+- [Utility functions which you might not know existed in SPFx](https://www.eliostruyf.com/utility-functions-install-extra-dependencies-sharepoint-framework/)
