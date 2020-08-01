@@ -27,6 +27,7 @@ $t.Palette | ConvertTo-Json | Clip
 
 - [How to handle table component of Office UI Fabric](https://n8d.at/blog/how-to-handle-table-component-of-office-ui-fabric/)
 - [Office UI Fabric Table Example](https://gist.github.com/andrewconnell/18477c10edb7f9a32198)
+- [sp-modern-classes](https://zerg00s.github.io/sp-modern-classes/)
 
 ## Responsive Tips
 
