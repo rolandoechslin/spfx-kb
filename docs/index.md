@@ -41,6 +41,7 @@
 - [New renewable Office 365 developer subscriptions launch on April 3rd](https://developer.microsoft.com/en-us/graph/blogs/new-renewable-office-365-developer-subscriptions-launch-on-april-3rd/)
 - [10 Tips for Demo/Dev Tenant](https://thomy.tech/10-things-you-should-do-with-your-office365-demo-or-dev-tenant/)
 - [how-to-use-the-complimentary-azure-credits-in-a-microsoft-365-developer-tenant-step-by-step](https://laurakokkarinen.com/how-to-use-the-complimentary-azure-credits-in-a-microsoft-365-developer-tenant-step-by-step/)
+- [SPFx Fast Serve Tool](https://github.com/s-KaiNet/spfx-fast-serve)
 
 ## Wish List
 
