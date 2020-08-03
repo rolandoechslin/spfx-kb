@@ -15,6 +15,10 @@
 
 - [How to improve your SharePoint search results](http://icansharepoint.com/how-to-improve-your-sharepoint-search-results)
 - [How to search in SharePoint](http://icansharepoint.com/how-to-search-in-sharepoint)
+- [How to use Boolean Operators in SharePoint Search](https://sharepointmaven.com/how-to-use-boolean-operators-in-sharepoint-search/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-use-boolean-operators-in-sharepoint-search)
+- [4 Levels of Search in SharePoint Online](https://sharepointmaven.com/4-levels-of-search-in-sharepoint-online/)
+- [7 ways to search for content in SharePoint and Office 365](https://sharepointmaven.com/7-ways-to-search-for-content-in-sharepoint-and-office-365/)
+- [SharePoint Knowledge Base: Search](https://sharepointmaven.com/tag/search/)
 
 ## Managed Properties
 
