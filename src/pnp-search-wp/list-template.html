@@ -49,6 +49,8 @@
                                             </span>
                                         </span>
                                         <span>{{getDate Created "LL"}}</span> 
+                                        
+                                        
                                         <div class="template_tags example-themePrimary">
                                             {{#if owstaxidmetadataalltagsinfo}}
                                                 <i class="ms-Icon ms-Icon--Tag" aria-hidden="true"></i>
@@ -57,6 +59,15 @@
                                                 {{/each}}
                                             {{/if}}
                                         </div>
+
+                                        <div class="template_tags example-themePrimary">
+                                            {{#if ParentLink}}
+                                                <i class="ms-Icon ms-Icon--OpenFolderHorizontal" aria-hidden="true"></i>
+                                                    <a href="{{ParentLink}}">Open Folder</a>
+                                            {{/if}}
+                                        </div>
+
+
                                     </div>
                                     <div class="template_previewContainer ms-hiddenSm">
                                     {{#if (getPreviewSrc item)}}
