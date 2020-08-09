@@ -124,3 +124,7 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 ## Teams for Education
 
 - [Teams for Education, Fundamentals](https://blog.yannickreekmans.be/teams-for-education-fundamentals-april-2020/)
+
+## Presenting in Teams
+
+- [The right way to present a PowerPoint file during a Microsoft Teams meeting](https://www.jumpto365.com/blog/the-right-way-to-present-a-powerpoint-file-during-a-microsoft-teams-meeting)
