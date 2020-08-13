@@ -50,6 +50,7 @@
 ## Development Roadmap
 
 - [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=SharePoint%2CIn%20Development)
+- [Monthly Updates about M365 News](https://sharepointstuff.com/)
 
 ## Code Guideline
 
