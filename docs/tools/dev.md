@@ -1,5 +1,9 @@
 # Dev Tools
 
+## MSDN 
+
+- [MSDM-Subscriptions](https://my.visualstudio.com/Subscriptions)
+
 ## Tools List
 
 - [Useful Developer Tools](https://github.com/lucasgdb/useful-dev-tools)
