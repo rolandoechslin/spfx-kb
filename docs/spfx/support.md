@@ -14,6 +14,7 @@
 
 ## Licence Changes
 
+- [Understanding Power Platform Licensing](https://docs.microsoft.com/en-us/microsoft-365/community/powerplatformlicensingforcitizendeveloper)
 - [Neue Lizenzierung von PowerApps](https://blog.ioz.ch/neue-lizenzierung-von-powerapps)
 - [PowerApps Licence Changes in terms that Matt Weston understands!](https://blog.mattweston365.com/2019/09/powerapps-licence-changes-in-terms-that.html)
 - [PowerApps and Microsoft Flow licensing FAQs for October 2019](https://docs.microsoft.com/de-de/power-platform/admin/powerapps-flow-licensing-faq)
