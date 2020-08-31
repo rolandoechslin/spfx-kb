@@ -108,6 +108,10 @@
 
 ## VS.Code
 
+### C# Development
+
+- [Basic dotnet commands to create a C# Project in Visual Studio Code](https://cann0nf0dder.wordpress.com/2020/08/30/basic-dotnet-command-calls-to-create-a-c-project-in-visual-studio-code/)
+
 ### Command Line
 
 - [Command Line Interface (CLI)](https://code.visualstudio.com/docs/editor/command-line)
