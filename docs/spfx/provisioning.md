@@ -56,3 +56,7 @@
 ## Tools
 
 - [provisionpoint.com](https://www.provisionpoint.com/provision-office365-groups/)
+
+## Logic App & Azure Queue
+
+- [SharePoint event receiver to Azure storage queue](https://www.m365-dev.com/2020/08/30/sharepoint-event-receiver-to-azure-storage-queue/)
