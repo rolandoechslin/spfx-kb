@@ -17,6 +17,7 @@
 ## Fields
 
 - [How to: Provision Lookup Columns and Projected Fields using PnP PowerShell](https://coreyroth.com/2019/06/27/how-to-provision-lookup-columns-and-projected-fields-using-pnp-powershell/)
+- [SharePoint Column Validation Examples](https://techtrainingnotes.blogspot.com/2015/10/sharepoint-column-validation-examples.html)
 
 ## Links
 
