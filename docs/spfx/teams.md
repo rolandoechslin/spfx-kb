@@ -43,6 +43,7 @@
 
 - [A Yeoman Generator for Microsoft Teams](https://github.com/wictorwilen/generator-teams)
 - [Get started with Teams templates](https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates)
+- [App Templates for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/samples/app-templates?WT.mc_id=-github-rogerman#expert-finder)
 
 ## Personal Apps
 
