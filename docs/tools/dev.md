@@ -1,5 +1,9 @@
 # Dev Tools
 
+## MSDN 
+
+- [MSDM-Subscriptions](https://my.visualstudio.com/Subscriptions)
+
 ## Tools List
 
 - [Useful Developer Tools](https://github.com/lucasgdb/useful-dev-tools)
@@ -103,6 +107,10 @@
 - [sharepointring](https://sharepointring.com)
 
 ## VS.Code
+
+### C# Development
+
+- [Basic dotnet commands to create a C# Project in Visual Studio Code](https://cann0nf0dder.wordpress.com/2020/08/30/basic-dotnet-command-calls-to-create-a-c-project-in-visual-studio-code/)
 
 ### Command Line
 
