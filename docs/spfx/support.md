@@ -1,5 +1,9 @@
 # Support
 
+## Content & Video
+
+- [How to present your video and content side by side in a Microsoft Teams meeting](https://www.jumpto365.com/blog/how-to-present-your-video-and-content-side-by-side-in-a-microsoft-teams-meeting)
+
 ## Troubleshoot
 
 - [SharePoint Online Troubleshooting](https://docs.microsoft.com/en-us/sharepoint/troubleshoot/online)
