@@ -34,6 +34,7 @@
 - [Nanddeepn-Getting Started Slides](https://github.com/nanddeepn/code-samples/tree/master/SPFx/Getting%20Started%20Slides)
 - [Recap of Getting Started SharePoint Framework (SPFx) Webinar Series 2020](https://siddharthvaghasia.com/2020/06/06/recap-of-getting-started-spfx-webinar-series/)
 - [PiaSys: Conferences-Samples](https://github.com/PiaSys/Conferences-Samples)
+- [PnP Virtual Conference – September 2020 – Summary and Recordings](https://developer.microsoft.com/en-us/office/blogs/pnp-virtual-conference-september-2020-summary-and-recordings/)
 
 ## DEV-Tenant
 
@@ -61,6 +62,13 @@
 - [Office fabric react - React-Guideline](https://github.com/OfficeDev/office-ui-fabric-react/wiki/React-Guidelines)
 - [Office fabric react - TypeScript-Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/TypeScript-Guidelines)
 - [react-typescript-cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet)
+
+## Performance Guidline
+
+- [PnP Virtual Conference - 09/2020 - Ways to optimize SharePoint Framework highly custom Intranet](https://www.youtube.com/watch?v=b574ish9IAM&list=PLR9nK3mnD-OVtYPolswzDjun3g78jN8OE&index=8)
+- [SharePoint Framework performance optimization list](https://blog.velingeorgiev.com/sharepoint-framework-performance-optimization)
+- [Performance guidance for SharePoint Online portals](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-performance)
+- [Optimize SPFx Sample](https://github.com/VelinGeorgiev/Ways-to-Optimzie-SPFx-Demos)
 
 ## Design Guideline
 
