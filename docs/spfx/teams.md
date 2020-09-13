@@ -45,6 +45,10 @@
 - [Get started with Teams templates](https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates)
 - [App Templates for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/samples/app-templates?WT.mc_id=-github-rogerman#expert-finder)
 
+## Message Extensions
+
+- [Where to start developing your messaging extension using Microsoft Teams Toolkit](https://rabiawilliams.com/teams/message-extensions/)
+
 ## Personal Apps
 
 - [Personal apps](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/design/personal-apps)
