@@ -108,6 +108,7 @@ News Links
 
 - [How to log in to Microsoft’s websites (MSDN forums, Azure Portal, SharePoint Online) when you get a 'Bad Request' error?](https://www.koskila.net/how-to-log-in-to-microsofts-websites-msdn-forums-azure-portal-sharepoint-online-when-you-get-a-bad-request-error/)
 - [Inconvenient Microsoft Teams Authentication Error – Clear all Cookies](https://sympmarc.com/2020/04/22/inconvenient-microsoft-teams-authentication-error-resolution/)
+- [SPFx App webpart is blocked in various browsers](https://blog.atwork.at/post/Blocked-SPFx-App-webpart-in-browsers)
 
 ```Powershell
 edge://settings/siteData?search=cookie
