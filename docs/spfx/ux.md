@@ -11,3 +11,7 @@
 ## UX Tools
 
 - [SP Axure Library Downloads](https://github.com/pnp/sp-design-assets)
+
+## Page layout
+
+- [Design Review: Page layout and typography of communication sites](https://n8d.at/design-review-page-layout-and-typography-of-communication-sites/)
