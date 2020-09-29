@@ -62,6 +62,11 @@
 
 - [use-the-page-diagnostics-tool-for-sharepoint-online](https://support.office.com/en-us/article/use-the-page-diagnostics-tool-for-sharepoint-online-dbab2593-dc6a-40f7-adfe-031b9baa620f?ui=en-US&rs=en-US&ad=US)
 
+## Performance
+
+- [Creating and launching a healthy SharePoint portal](https://docs.microsoft.com/de-de/SharePoint/portal-health)
+- [Best practices for optimizing performance of SharePoint sites and portals in Microsoft 365](https://techcommunity.microsoft.com/t5/video-hub/best-practices-for-optimizing-performance-of-sharepoint-sites/m-p/1681293)
+
 ## WebParts
 
 Maintenancemode
