@@ -30,6 +30,7 @@
 
 ## Developing
 
+- [Build apps for Microsoft Teams](https://docs.microsoft.com/de-de/microsoftteams/platform/overview)
 - [Overview and Concepts - Part 1](https://asishpadhy.com/2020/01/16/simplify-development-in-microsoft-teams-part-1-overview-and-concepts/)
 
 ![DEV Teams 1](../assets/images/teams-1.png)
