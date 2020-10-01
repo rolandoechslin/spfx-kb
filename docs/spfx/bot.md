@@ -33,3 +33,7 @@
 - [SPFx MSAL Bot Extension](https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-msal-bot)
 - [Bot Framework v4 SPFX Web Part Released](https://bisser.io/bot-framework-v4-spfx-web-part-released/)
 - [react-bot-framework](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-bot-framework)
+
+## Power Virtual Agent
+
+- [How to: create #nocode bots to teams super-easily in 5 minutes using Power Virtual Agents app in Teams](https://myteamsday.com/2020/09/30/pvateamsbots/)
