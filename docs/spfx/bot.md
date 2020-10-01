@@ -1,7 +1,6 @@
 # BOT
 
 - [building-a-microsoft-teams-bot](https://www.delucagiuliano.com/building-a-microsoft-teams-bot/#.Wq9HWqjwZBA)
-- https://www.cloudguy.pro/learn-to-bot
 - [Integrating Bot Framework v4 bots to SharePoint using SharePoint Framework](https://www.youtube.com/watch?v=NYICQINeUFU&feature=youtu.be&t=2531)
 
 ## Bot Framework & Cognitive Service

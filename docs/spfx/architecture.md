@@ -10,4 +10,5 @@
 - [https://rencore.com/software/tools/sharepoint-customizations-guide/](https://rencore.com/sharepoint-customizations-guide)
 
 ## User Settings
- - [The easiest way to store user settings of your Microsoft 365 app](https://blog.mastykarz.nl/easiest-store-user-settings-microsoft-365-app/)
+
+- [The easiest way to store user settings of your Microsoft 365 app](https://blog.mastykarz.nl/easiest-store-user-settings-microsoft-365-app/)
