@@ -82,6 +82,7 @@ pages:
     - Tools:
         - Dev: tools/dev.md
         - Powerapps: tools/powerapps.md
+        - Powerapps-Portal: tools/powerappsportal.md
         - Image: tools/image.md
         - Gatspy: tools/gatspy.md
         - Git: tools/git.md
