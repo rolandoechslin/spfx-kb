@@ -427,12 +427,12 @@
         },
         {
             "location": "/spfx/bot/",
-            "text": "BOT\n\u00b6\n\n\n\n\nbuilding-a-microsoft-teams-bot\n\n\nhttps://www.cloudguy.pro/learn-to-bot\n\n\nIntegrating Bot Framework v4 bots to SharePoint using SharePoint Framework\n\n\n\n\nBot Framework & Cognitive Service\n\u00b6\n\n\n\n\nAI\n\u00b6\n\n\n\n\nMicrosoft Build 2019 updates on Conversational AI\n\n\nIgnite 2019 News on the Conversational AI Platform \n\n\n\n\nQnA Makers\n\u00b6\n\n\n\n\nQnA Maker Lessons Learned + Limits Infographic\n\n\n\n\nBot Framework Composer\n\u00b6\n\n\n\n\nBot Framework Composer - Github\n\n\nBot Framework Composer - Weather Bot\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx\n\n\nGithub Source - AtBot Protype\n\n\nMicrosoft Bot Framework Web Chat\n\n\nreact-chat-widget\n\n\nspfx-react-bot-qna\n\n\nSearch for your SharePoint content from a bot using the Bot Framework, OAuth2 and Node.js\n\n\nSPFx MSAL Bot Extension\n\n\nBot Framework v4 SPFX Web Part Released\n\n\nreact-bot-framework",
+            "text": "BOT\n\u00b6\n\n\n\n\nbuilding-a-microsoft-teams-bot\n\n\nIntegrating Bot Framework v4 bots to SharePoint using SharePoint Framework\n\n\n\n\nBot Framework & Cognitive Service\n\u00b6\n\n\n\n\nAI\n\u00b6\n\n\n\n\nMicrosoft Build 2019 updates on Conversational AI\n\n\nIgnite 2019 News on the Conversational AI Platform \n\n\n\n\nQnA Makers\n\u00b6\n\n\n\n\nQnA Maker Lessons Learned + Limits Infographic\n\n\n\n\nBot Framework Composer\n\u00b6\n\n\n\n\nBot Framework Composer - Github\n\n\nBot Framework Composer - Weather Bot\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nAdd AtBot to your SharePoint site using SPFx\n\n\nGithub Source - AtBot Protype\n\n\nMicrosoft Bot Framework Web Chat\n\n\nreact-chat-widget\n\n\nspfx-react-bot-qna\n\n\nSearch for your SharePoint content from a bot using the Bot Framework, OAuth2 and Node.js\n\n\nSPFx MSAL Bot Extension\n\n\nBot Framework v4 SPFX Web Part Released\n\n\nreact-bot-framework\n\n\n\n\nPower Virtual Agent\n\u00b6\n\n\n\n\nHow to: create #nocode bots to teams super-easily in 5 minutes using Power Virtual Agents app in Teams",
             "title": "Bot"
         },
         {
             "location": "/spfx/bot/#bot",
-            "text": "building-a-microsoft-teams-bot  https://www.cloudguy.pro/learn-to-bot  Integrating Bot Framework v4 bots to SharePoint using SharePoint Framework",
+            "text": "building-a-microsoft-teams-bot  Integrating Bot Framework v4 bots to SharePoint using SharePoint Framework",
             "title": "BOT"
         },
         {
@@ -459,6 +459,11 @@
             "location": "/spfx/bot/#samples",
             "text": "Add AtBot to your SharePoint site using SPFx  Github Source - AtBot Protype  Microsoft Bot Framework Web Chat  react-chat-widget  spfx-react-bot-qna  Search for your SharePoint content from a bot using the Bot Framework, OAuth2 and Node.js  SPFx MSAL Bot Extension  Bot Framework v4 SPFX Web Part Released  react-bot-framework",
             "title": "Samples"
+        },
+        {
+            "location": "/spfx/bot/#power-virtual-agent",
+            "text": "How to: create #nocode bots to teams super-easily in 5 minutes using Power Virtual Agents app in Teams",
+            "title": "Power Virtual Agent"
         },
         {
             "location": "/spfx/businessobjects/",
@@ -1882,7 +1887,7 @@
         },
         {
             "location": "/spfx/support/",
-            "text": "Support\n\u00b6\n\n\nContent & Video\n\u00b6\n\n\n\n\nHow to present your video and content side by side in a Microsoft Teams meeting\n\n\n\n\nTroubleshoot\n\u00b6\n\n\n\n\nSharePoint Online Troubleshooting\n\n\n\n\nSharePoint Documentation\n\u00b6\n\n\n\n\nSharePoint help center\n\n\nSharePoint Online admin\n\n\nSharePoint Online Troubleshooting\n\n\nOffice troubleshooting for admins and IT professionals\n\n\nSharePoint Server\n\n\n\n\nLicence Changes\n\u00b6\n\n\n\n\nUnderstanding Power Platform Licensing\n\n\nNeue Lizenzierung von PowerApps\n\n\nPowerApps Licence Changes in terms that Matt Weston understands!\n\n\nPowerApps and Microsoft Flow licensing FAQs for October 2019\n\n\nMicrosoft 365 Compliance Licensing Comparison\n\n\n\n\nSharePoint SPO\n\u00b6\n\n\n\n\nSharePoint Online Support Info\n\n\nSharepoint 2019 Feature Ids\n\n\nChange a site address\n\n\nSet up a home site for your organization\n\n\nSharePoint Admin API Access\n\n\n\n\nAdmin O365\n\u00b6\n\n\n\n\nTechNet Gallery - Office365\n\n\nhttp://aka.ms/Office-Developer\n (alle wichtigen Office DEV Links)\n\n\nhttp://aka.ms/Office-TechGuide\n \n\n\nhttps://support.office.com/?ui=de-DE&rs=de-CH&ad=CH&fromAR=1\n\n\nhttps://technet.microsoft.com/de-ch/\n\n\nhttps://products.office.com/de-CH/\n\n\nAdmin-Help-O365\n\n\nhttps://support.office.com/en-us/\n\n\nfree-ebooks-microsoft\n\n\nClick-2-Run\n\n\nURLs-und-IP-Adressbereiche-von-Office-365\n\n\nsharepoint-licensing-overview\n\n\nfree-microsoft-training-resources\n\n\n\n\nAzure Error Codes\n\u00b6\n\n\n\n\nAll AADSTS Errors\n\n\nSearch AADSTS Nummer\n\n\nResolving error AADSTS90056\n\n\n\n\nSPO\n\u00b6\n\n\n\n\nNavigation options for SharePoint Online\n\n\n\n\nDiagnostics\n\u00b6\n\n\n\n\nuse-the-page-diagnostics-tool-for-sharepoint-online\n\n\n\n\nWebParts\n\u00b6\n\n\nMaintenancemode\n\n\n\n\nopen-and-use-the-web-part-maintenance-page\n\n\n\n\n?maintenancemode=true\n\n\n\n\nDisableTelemetry\n\n\n\n\nDisabling Telemetry network traffic on SPFx workbench\n\n\n\n\n?disableTelemetry=true\n\n\n\n\nDebug localization\n\n\n?forceLocale=fr-fr\n\n\n\n\nNews Links\n\n\n\n\nEdit news links\n\n\n\n\n?stay=true\n\n\n\n\nLists\n\u00b6\n\n\n\n\nSwitch to classic mode\n\n\nOrganize-documents-and-sites-in-office-365\n\n\nManage-large-lists-and-libraries-in-SharePoint\n\n\n\n\nCreate Documentation\n\u00b6\n\n\n\n\narticle/ways-to-work-with-sharepoint\n\n\n\n\nLogin Error\n\u00b6\n\n\n\n\nHow to log in to Microsoft\u2019s websites (MSDN forums, Azure Portal, SharePoint Online) when you get a 'Bad Request' error?\n\n\nInconvenient Microsoft Teams Authentication Error \u2013 Clear all Cookies\n\n\n\n\nedge\n:\n//\nsettings\n/\nsiteData\n?\nsearch\n=\ncookie\n\n\n\n\n\nAPI Throttling (Error 429)\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/simulating-throttling-sharepoint\n\n\n\n\nTips\n\u00b6\n\n\n\n\nThe scientific methodology for troubleshooting SharePoint\n\n\nOpen in Explorer or View with File Explorer in SharePoint\n\n\n\n\nInvalid File Names\n\u00b6\n\n\n\n\nInvalid file names and file types in OneDrive, OneDrive for Business, and SharePoint\n\n\nFile naming restrictions in SharePoint\n\n\nSharePoint Naming Guidelines\n\n\n\n\nNo-Scripts / embedding-scripts\n\u00b6\n\n\n\n\nDon't allow embedding scripts on modern sites\n\n\nAdvice on using unsupported customisations (and more) in a SharePoint Online environment\n\n\n\n\nFollowed Sites\n\u00b6\n\n\n\n\nSocial Following Sites on behalf of a user\n\n\n\n\nO365 Network planning\n\u00b6\n\n\n\n\nNetwork planning and performance tuning for Office 365\n\n\nOffice 365 URLs and IP address ranges\n\n\n\n\nClean O365\n\u00b6\n\n\n\n\nPOWERSHELL SCRIPTS FOR KEEPING YOUR DEVELOPMENT ENVIRONMENT TIDY AND SPOTLESS\n\n\n\n\nClassic Features\n\u00b6\n\n\n\n\nClassic Administration Links",
+            "text": "Support\n\u00b6\n\n\nContent & Video\n\u00b6\n\n\n\n\nHow to present your video and content side by side in a Microsoft Teams meeting\n\n\n\n\nTroubleshoot\n\u00b6\n\n\n\n\nSharePoint Online Troubleshooting\n\n\n\n\nSharePoint Documentation\n\u00b6\n\n\n\n\nSharePoint help center\n\n\nSharePoint Online admin\n\n\nSharePoint Online Troubleshooting\n\n\nOffice troubleshooting for admins and IT professionals\n\n\nSharePoint Server\n\n\n\n\nLicence Changes\n\u00b6\n\n\n\n\nUnderstanding Power Platform Licensing\n\n\nNeue Lizenzierung von PowerApps\n\n\nPowerApps Licence Changes in terms that Matt Weston understands!\n\n\nPowerApps and Microsoft Flow licensing FAQs for October 2019\n\n\nMicrosoft 365 Compliance Licensing Comparison\n\n\n\n\nSharePoint SPO\n\u00b6\n\n\n\n\nSharePoint Online Support Info\n\n\nSharepoint 2019 Feature Ids\n\n\nChange a site address\n\n\nSet up a home site for your organization\n\n\nSharePoint Admin API Access\n\n\n\n\nAdmin O365\n\u00b6\n\n\n\n\nTechNet Gallery - Office365\n\n\nhttp://aka.ms/Office-Developer\n (alle wichtigen Office DEV Links)\n\n\nhttp://aka.ms/Office-TechGuide\n \n\n\nhttps://support.office.com/?ui=de-DE&rs=de-CH&ad=CH&fromAR=1\n\n\nhttps://technet.microsoft.com/de-ch/\n\n\nhttps://products.office.com/de-CH/\n\n\nAdmin-Help-O365\n\n\nhttps://support.office.com/en-us/\n\n\nfree-ebooks-microsoft\n\n\nClick-2-Run\n\n\nURLs-und-IP-Adressbereiche-von-Office-365\n\n\nsharepoint-licensing-overview\n\n\nfree-microsoft-training-resources\n\n\n\n\nAzure Error Codes\n\u00b6\n\n\n\n\nAll AADSTS Errors\n\n\nSearch AADSTS Nummer\n\n\nResolving error AADSTS90056\n\n\n\n\nSPO\n\u00b6\n\n\n\n\nNavigation options for SharePoint Online\n\n\n\n\nDiagnostics\n\u00b6\n\n\n\n\nuse-the-page-diagnostics-tool-for-sharepoint-online\n\n\n\n\nPerformance\n\u00b6\n\n\n\n\nCreating and launching a healthy SharePoint portal\n\n\nBest practices for optimizing performance of SharePoint sites and portals in Microsoft 365\n\n\n\n\nWebParts\n\u00b6\n\n\nMaintenancemode\n\n\n\n\nopen-and-use-the-web-part-maintenance-page\n\n\nHow to open SharePoint pages in maintenance mode\n\n\n\n\n?maintenancemode=true\n\n\n\n\nDisableTelemetry\n\n\n\n\nDisabling Telemetry network traffic on SPFx workbench\n\n\n\n\n?disableTelemetry=true\n\n\n\n\nDebug localization\n\n\n?forceLocale=fr-fr\n\n\n\n\nNews Links\n\n\n\n\nEdit news links\n\n\n\n\n?stay=true\n\n\n\n\nLists\n\u00b6\n\n\n\n\nSwitch to classic mode\n\n\nOrganize-documents-and-sites-in-office-365\n\n\nManage-large-lists-and-libraries-in-SharePoint\n\n\n\n\nCreate Documentation\n\u00b6\n\n\n\n\narticle/ways-to-work-with-sharepoint\n\n\n\n\nLogin Error\n\u00b6\n\n\n\n\nHow to log in to Microsoft\u2019s websites (MSDN forums, Azure Portal, SharePoint Online) when you get a 'Bad Request' error?\n\n\nInconvenient Microsoft Teams Authentication Error \u2013 Clear all Cookies\n\n\nSPFx App webpart is blocked in various browsers\n\n\n\n\nedge\n:\n//\nsettings\n/\nsiteData\n?\nsearch\n=\ncookie\n\n\n\n\n\nAPI Throttling (Error 429)\n\u00b6\n\n\n\n\nhttps://blog.mastykarz.nl/simulating-throttling-sharepoint\n\n\n\n\nTips\n\u00b6\n\n\n\n\nThe scientific methodology for troubleshooting SharePoint\n\n\nOpen in Explorer or View with File Explorer in SharePoint\n\n\n\n\nInvalid File Names\n\u00b6\n\n\n\n\nInvalid file names and file types in OneDrive, OneDrive for Business, and SharePoint\n\n\nFile naming restrictions in SharePoint\n\n\nSharePoint Naming Guidelines\n\n\n\n\nNo-Scripts / embedding-scripts\n\u00b6\n\n\n\n\nDon't allow embedding scripts on modern sites\n\n\nAdvice on using unsupported customisations (and more) in a SharePoint Online environment\n\n\n\n\nFollowed Sites\n\u00b6\n\n\n\n\nSocial Following Sites on behalf of a user\n\n\n\n\nO365 Network planning\n\u00b6\n\n\n\n\nNetwork planning and performance tuning for Office 365\n\n\nOffice 365 URLs and IP address ranges\n\n\n\n\nClean O365\n\u00b6\n\n\n\n\nPOWERSHELL SCRIPTS FOR KEEPING YOUR DEVELOPMENT ENVIRONMENT TIDY AND SPOTLESS\n\n\n\n\nClassic Features\n\u00b6\n\n\n\n\nClassic Administration Links",
             "title": "Support"
         },
         {
@@ -1936,8 +1941,13 @@
             "title": "Diagnostics"
         },
         {
+            "location": "/spfx/support/#performance",
+            "text": "Creating and launching a healthy SharePoint portal  Best practices for optimizing performance of SharePoint sites and portals in Microsoft 365",
+            "title": "Performance"
+        },
+        {
             "location": "/spfx/support/#webparts",
-            "text": "Maintenancemode   open-and-use-the-web-part-maintenance-page   ?maintenancemode=true  DisableTelemetry   Disabling Telemetry network traffic on SPFx workbench   ?disableTelemetry=true  Debug localization  ?forceLocale=fr-fr  News Links   Edit news links   ?stay=true",
+            "text": "Maintenancemode   open-and-use-the-web-part-maintenance-page  How to open SharePoint pages in maintenance mode   ?maintenancemode=true  DisableTelemetry   Disabling Telemetry network traffic on SPFx workbench   ?disableTelemetry=true  Debug localization  ?forceLocale=fr-fr  News Links   Edit news links   ?stay=true",
             "title": "WebParts"
         },
         {
@@ -1952,7 +1962,7 @@
         },
         {
             "location": "/spfx/support/#login-error",
-            "text": "How to log in to Microsoft\u2019s websites (MSDN forums, Azure Portal, SharePoint Online) when you get a 'Bad Request' error?  Inconvenient Microsoft Teams Authentication Error \u2013 Clear all Cookies   edge : // settings / siteData ? search = cookie",
+            "text": "How to log in to Microsoft\u2019s websites (MSDN forums, Azure Portal, SharePoint Online) when you get a 'Bad Request' error?  Inconvenient Microsoft Teams Authentication Error \u2013 Clear all Cookies  SPFx App webpart is blocked in various browsers   edge : // settings / siteData ? search = cookie",
             "title": "Login Error"
         },
         {
@@ -2077,7 +2087,7 @@
         },
         {
             "location": "/spfx/testing/",
-            "text": "Testing\n\u00b6\n\n\nJest\n\u00b6\n\n\n\n\nSharePoint Framework unit-tests with Jest\n\n\nWriting unit tests for your SharePoint Framework components\n\n\nUnit Test your SharePoint Framework solution with Jest\n\n\nDemo: Simplify SPFx test configuration with Jest Presets\n\n\njest-preset-spfx-react16\n\n\nSPFx Deep Dive Webinar Series: Unit Test SPFx Solutions using Jest and Enzyme\n\n\nCommunity Demo - Simplify SPFx test configuration with Jest Presets\n\n\nTest-Driven Development with React, Jest, and Enzyme - Part 1\n\n\nPiaSys: Episode #33 - Testing SharePoint Framework Solutions with Jest and Enzyme\n\n\nPiaSys: spfx-testing-v-1-9-1\n\n\nExtend SPFx solution testability: Let\u2019s start\n\n\nExtend SPFx solution testability: TDD in Data Access Layer\n\n\nExtend SPFx solution testability: TDD in View Layer\n\n\nExtend SPFx solution testability: TDD in View Layer part 2\n\n\nExtend SPFx solution testability: dealing with legacy code and async components\n\n\nMock teams library in SPFx project\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSharePoint Framework Unit-Tests Sample with Jest\n\n\nPFx-Jest-Enzyme-Sinon unit testing starter kit\n\n\nReact Inversion Of Control Web Part with Unit Tests using Jest and Enzyme\n\n\nmessage-bar\n\n\n\n\nTDD\n\u00b6\n\n\n\n\nIntroduction to Test driven development(TDD) of SharePoint Framework solution using Jest & Enzyme\n\n\n\n\nGenerate test data\n\u00b6\n\n\n\n\nMockaroo",
+            "text": "Testing\n\u00b6\n\n\nJest\n\u00b6\n\n\n\n\nSharePoint Framework unit-tests with Jest\n\n\nWriting unit tests for your SharePoint Framework components\n\n\nUnit Test your SharePoint Framework solution with Jest\n\n\nDemo: Simplify SPFx test configuration with Jest Presets\n\n\njest-preset-spfx-react16\n\n\nSPFx Deep Dive Webinar Series: Unit Test SPFx Solutions using Jest and Enzyme\n\n\nCommunity Demo - Simplify SPFx test configuration with Jest Presets\n\n\nTest-Driven Development with React, Jest, and Enzyme - Part 1\n\n\nPiaSys: Episode #33 - Testing SharePoint Framework Solutions with Jest and Enzyme\n\n\nPiaSys: spfx-testing-v-1-9-1\n\n\nExtend SPFx solution testability: Let\u2019s start\n\n\nExtend SPFx solution testability: TDD in Data Access Layer\n\n\nExtend SPFx solution testability: TDD in View Layer\n\n\nExtend SPFx solution testability: TDD in View Layer part 2\n\n\nExtend SPFx solution testability: dealing with legacy code and async components\n\n\nMock teams library in SPFx project\n\n\nPublish Code Coverage Results in Azure DevOps Pipeline for React\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSharePoint Framework Unit-Tests Sample with Jest\n\n\nPFx-Jest-Enzyme-Sinon unit testing starter kit\n\n\nReact Inversion Of Control Web Part with Unit Tests using Jest and Enzyme\n\n\nmessage-bar\n\n\n\n\nTDD\n\u00b6\n\n\n\n\nIntroduction to Test driven development(TDD) of SharePoint Framework solution using Jest & Enzyme\n\n\n\n\nGenerate test data\n\u00b6\n\n\n\n\nMockaroo",
             "title": "Testing"
         },
         {
@@ -2087,7 +2097,7 @@
         },
         {
             "location": "/spfx/testing/#jest",
-            "text": "SharePoint Framework unit-tests with Jest  Writing unit tests for your SharePoint Framework components  Unit Test your SharePoint Framework solution with Jest  Demo: Simplify SPFx test configuration with Jest Presets  jest-preset-spfx-react16  SPFx Deep Dive Webinar Series: Unit Test SPFx Solutions using Jest and Enzyme  Community Demo - Simplify SPFx test configuration with Jest Presets  Test-Driven Development with React, Jest, and Enzyme - Part 1  PiaSys: Episode #33 - Testing SharePoint Framework Solutions with Jest and Enzyme  PiaSys: spfx-testing-v-1-9-1  Extend SPFx solution testability: Let\u2019s start  Extend SPFx solution testability: TDD in Data Access Layer  Extend SPFx solution testability: TDD in View Layer  Extend SPFx solution testability: TDD in View Layer part 2  Extend SPFx solution testability: dealing with legacy code and async components  Mock teams library in SPFx project",
+            "text": "SharePoint Framework unit-tests with Jest  Writing unit tests for your SharePoint Framework components  Unit Test your SharePoint Framework solution with Jest  Demo: Simplify SPFx test configuration with Jest Presets  jest-preset-spfx-react16  SPFx Deep Dive Webinar Series: Unit Test SPFx Solutions using Jest and Enzyme  Community Demo - Simplify SPFx test configuration with Jest Presets  Test-Driven Development with React, Jest, and Enzyme - Part 1  PiaSys: Episode #33 - Testing SharePoint Framework Solutions with Jest and Enzyme  PiaSys: spfx-testing-v-1-9-1  Extend SPFx solution testability: Let\u2019s start  Extend SPFx solution testability: TDD in Data Access Layer  Extend SPFx solution testability: TDD in View Layer  Extend SPFx solution testability: TDD in View Layer part 2  Extend SPFx solution testability: dealing with legacy code and async components  Mock teams library in SPFx project  Publish Code Coverage Results in Azure DevOps Pipeline for React",
             "title": "Jest"
         },
         {
@@ -2107,7 +2117,7 @@
         },
         {
             "location": "/spfx/teams/",
-            "text": "Teams\n\u00b6\n\n\n\n\nAn Everyday Guide to Office 365 Groups\n\n\n\n\nSupport\n\u00b6\n\n\n\n\nKeyboard shortcuts for Microsoft Teams\n\n\nMicrosoft Teams: How to clean cache\n\n\nA guide to troubleshooting Teams\n\n\n\n\nOverview\n\u00b6\n\n\n\n\nAll-in-One Collaboration\n\n\nTeams and SharePoint: Better Together\n\n\nEverything You Need to Know About Microsoft Teams\n\n\nInner Loop & Outer Loop\n\n\n\n\nPlaning\n\u00b6\n\n\n\n\nModern Governance f\u00fcr SharePoint Team Sites sind zu beachten\n\n\nMicrosoft Teams planning guide\n\n\nCore components of Teams\n\n\nLimits and specifications for Microsoft Teams\n\n\nDifference in permission between an owner and a member\n\n\n\n\nTraining video\n\u00b6\n\n\n\n\nMicrosoft Teams video training\n\n\nGovernance, management and lifecycle in Microsoft Teams\n\n\n\n\nDeveloping\n\u00b6\n\n\n\n\nOverview and Concepts - Part 1\n\n\n\n\n\n\n\n\nFeatures and Components analysis - Part 2\n\n\n\n\n\n\n\n\nCoding\n\u00b6\n\n\n\n\nA Yeoman Generator for Microsoft Teams\n\n\nGet started with Teams templates\n\n\nApp Templates for Microsoft Teams\n\n\n\n\nPersonal Apps\n\u00b6\n\n\n\n\nPersonal apps\n\n\nBuilding Microsoft Teams tab using SharePoint Framework - Tutorial\n\n\nCreate Microsoft Teams manifest manually for a web part and deploy it to Microsoft Teams\n\n\n\n\nAdministration\n\u00b6\n\n\n\n\nOverview of Teams\n\n\nWhich Office 365 Service to Use\n\n\nSelecting users for your Microsoft Teams pilot phase\n\n\nTop 10 Office 365 Best Practices Every Admin Should Know\n\n\nGetting Started with Microsoft Teams Administration\n\n\n\n\nGuest Users\n\u00b6\n\n\n\n\nhttps://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users\n\n\n\n\nTeams Adviser\n\u00b6\n\n\n\n\nOverview Microsoft Teams Advisor\n\n\n\n\nMicrosoft Teams versus Sharepoint Teams\n\u00b6\n\n\n\n\nhttp://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work\n\n\nhttps://www.avepoint.com/blog/microsoft-teams/office-365-groups-vs-teams/\n\n\nhttp://blog.pixelmill.com/3580/microsoft-teams-sharepoint-destined-lifelong-partners/\n\n\n\n\nPrivate Channels\n\u00b6\n\n\n\n\nTop 5 things to know about private channels in Microsoft Teams\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://collab365.community/microsoft-teams-hacks\n\n\nOffice 365 Groups Naming Policy\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\nhttps://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations\n\n\nPowerShell scripts for manging Office 365 Groups and Microsoft Teams\n\n\n\n\nQuerys / Reports\n\u00b6\n\n\n\n\nHow to find inactive Microsoft Teams you no longer need\n\n\nGet all Teams Groups\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\n\n\nhttps://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nhttp://drewmadelung.com\n\n\n\n\nGovernance with teams\n\u00b6\n\n\n\n\nAutomate governance in Microsoft Teams: Context and Goals\n\n\nAutomate governance in Microsoft Teams: The Result\n\n\nAutomate governance in Microsoft Teams: Implementation, v1\n\n\nAutomate governance in Microsoft Teams: Implementation, v2\n\n\n\n\nDevOps\n\u00b6\n\n\n\n\nCreate Azure DevOps pipelines for a Microsoft Teams app built with SPFx\n\n\n\n\nProvisioning with Template\n\u00b6\n\n\n\n\nCreate Teams with template\n\n\nProvisioning Teams with Azure Functions and Microsoft Flow Part 1: Solution Overview\n\n\nMicrosoft Teams \u2013 Automation of Teams Creation\n\n\nProvision Microsoft Teams with Azure Automation \u2013 Part I\n\n\n\n\nRenaming Teams\n\u00b6\n\n\n\n\nRenaming Teams and Channels Can Be Messy\n\n\nRenaming a Microsoft Team and the associated SharePoint site\n\n\n\n\nTeams for Education\n\u00b6\n\n\n\n\nTeams for Education, Fundamentals\n\n\n\n\nPresenting in Teams\n\u00b6\n\n\n\n\nThe right way to present a PowerPoint file during a Microsoft Teams meeting",
+            "text": "Teams\n\u00b6\n\n\n\n\nAn Everyday Guide to Office 365 Groups\n\n\n\n\nSupport\n\u00b6\n\n\n\n\nKeyboard shortcuts for Microsoft Teams\n\n\nMicrosoft Teams: How to clean cache\n\n\nA guide to troubleshooting Teams\n\n\n\n\nOverview\n\u00b6\n\n\n\n\nAll-in-One Collaboration\n\n\nTeams and SharePoint: Better Together\n\n\nEverything You Need to Know About Microsoft Teams\n\n\nInner Loop & Outer Loop\n\n\n\n\nPlaning\n\u00b6\n\n\n\n\nModern Governance f\u00fcr SharePoint Team Sites sind zu beachten\n\n\nMicrosoft Teams planning guide\n\n\nCore components of Teams\n\n\nLimits and specifications for Microsoft Teams\n\n\nDifference in permission between an owner and a member\n\n\n\n\nTraining video\n\u00b6\n\n\n\n\nMicrosoft Teams video training\n\n\nGovernance, management and lifecycle in Microsoft Teams\n\n\n\n\nDeveloping\n\u00b6\n\n\n\n\nBuild apps for Microsoft Teams\n\n\nOverview and Concepts - Part 1\n\n\n\n\n\n\n\n\nFeatures and Components analysis - Part 2\n\n\n\n\n\n\n\n\nCoding\n\u00b6\n\n\n\n\nA Yeoman Generator for Microsoft Teams\n\n\nGet started with Teams templates\n\n\nApp Templates for Microsoft Teams\n\n\n\n\nMessage Extensions\n\u00b6\n\n\n\n\nWhere to start developing your messaging extension using Microsoft Teams Toolkit\n\n\n\n\nPersonal Apps\n\u00b6\n\n\n\n\nPersonal apps\n\n\nBuilding Microsoft Teams tab using SharePoint Framework - Tutorial\n\n\nCreate Microsoft Teams manifest manually for a web part and deploy it to Microsoft Teams\n\n\n\n\nAdministration\n\u00b6\n\n\n\n\nOverview of Teams\n\n\nWhich Office 365 Service to Use\n\n\nSelecting users for your Microsoft Teams pilot phase\n\n\nTop 10 Office 365 Best Practices Every Admin Should Know\n\n\nGetting Started with Microsoft Teams Administration\n\n\n\n\nGuest Users\n\u00b6\n\n\n\n\nhttps://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users\n\n\n\n\nTeams Adviser\n\u00b6\n\n\n\n\nOverview Microsoft Teams Advisor\n\n\n\n\nMicrosoft Teams versus Sharepoint Teams\n\u00b6\n\n\n\n\nhttp://blog.intlock.com/microsoft-teams-vs-sharepoint-teams-enhance-collaboration-work\n\n\nhttps://www.avepoint.com/blog/microsoft-teams/office-365-groups-vs-teams/\n\n\nhttp://blog.pixelmill.com/3580/microsoft-teams-sharepoint-destined-lifelong-partners/\n\n\n\n\nPrivate Channels\n\u00b6\n\n\n\n\nTop 5 things to know about private channels in Microsoft Teams\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nhttps://collab365.community/microsoft-teams-hacks\n\n\nOffice 365 Groups Naming Policy\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\nhttps://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations\n\n\nPowerShell scripts for manging Office 365 Groups and Microsoft Teams\n\n\n\n\nQuerys / Reports\n\u00b6\n\n\n\n\nHow to find inactive Microsoft Teams you no longer need\n\n\nGet all Teams Groups\n\n\nGet Office 365 Groups with Teams via PowerShell and the Microsoft Graph\n\n\n\n\nhttps://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\nhttp://drewmadelung.com\n\n\n\n\nGovernance with teams\n\u00b6\n\n\n\n\nAutomate governance in Microsoft Teams: Context and Goals\n\n\nAutomate governance in Microsoft Teams: The Result\n\n\nAutomate governance in Microsoft Teams: Implementation, v1\n\n\nAutomate governance in Microsoft Teams: Implementation, v2\n\n\n\n\nDevOps\n\u00b6\n\n\n\n\nCreate Azure DevOps pipelines for a Microsoft Teams app built with SPFx\n\n\n\n\nProvisioning with Template\n\u00b6\n\n\n\n\nCreate Teams with template\n\n\nProvisioning Teams with Azure Functions and Microsoft Flow Part 1: Solution Overview\n\n\nMicrosoft Teams \u2013 Automation of Teams Creation\n\n\nProvision Microsoft Teams with Azure Automation \u2013 Part I\n\n\n\n\nRenaming Teams\n\u00b6\n\n\n\n\nRenaming Teams and Channels Can Be Messy\n\n\nRenaming a Microsoft Team and the associated SharePoint site\n\n\n\n\nTeams for Education\n\u00b6\n\n\n\n\nTeams for Education, Fundamentals\n\n\n\n\nPresenting in Teams\n\u00b6\n\n\n\n\nThe right way to present a PowerPoint file during a Microsoft Teams meeting",
             "title": "Teams"
         },
         {
@@ -2137,13 +2147,18 @@
         },
         {
             "location": "/spfx/teams/#developing",
-            "text": "Overview and Concepts - Part 1     Features and Components analysis - Part 2",
+            "text": "Build apps for Microsoft Teams  Overview and Concepts - Part 1     Features and Components analysis - Part 2",
             "title": "Developing"
         },
         {
             "location": "/spfx/teams/#coding",
             "text": "A Yeoman Generator for Microsoft Teams  Get started with Teams templates  App Templates for Microsoft Teams",
             "title": "Coding"
+        },
+        {
+            "location": "/spfx/teams/#message-extensions",
+            "text": "Where to start developing your messaging extension using Microsoft Teams Toolkit",
+            "title": "Message Extensions"
         },
         {
             "location": "/spfx/teams/#personal-apps",
@@ -2462,7 +2477,7 @@
         },
         {
             "location": "/spfx/ux/",
-            "text": "UX\n\u00b6\n\n\nStyle Guide\n\u00b6\n\n\n\n\nSimple Style Guide Generator for SharePoint and Office 365 Development\n\n\n\n\nDesign Rules\n\u00b6\n\n\n\n\nLaws aof UX\n\n\n\n\nUX Tools\n\u00b6\n\n\n\n\nSP Axure Library Downloads",
+            "text": "UX\n\u00b6\n\n\nStyle Guide\n\u00b6\n\n\n\n\nSimple Style Guide Generator for SharePoint and Office 365 Development\n\n\n\n\nDesign Rules\n\u00b6\n\n\n\n\nLaws aof UX\n\n\n\n\nUX Tools\n\u00b6\n\n\n\n\nSP Axure Library Downloads\n\n\n\n\nPage layout\n\u00b6\n\n\n\n\nDesign Review: Page layout and typography of communication sites\n\n\n\n\nFluid UI\n\u00b6\n\n\n\n\n5 reasons or thoughts on Fluent UI Web\n\n\nFluid Framework\n\n -\nMicrosoft Ignite Blog: Microsoft Fluid Framework preview",
             "title": "UX"
         },
         {
@@ -2484,6 +2499,16 @@
             "location": "/spfx/ux/#ux-tools",
             "text": "SP Axure Library Downloads",
             "title": "UX Tools"
+        },
+        {
+            "location": "/spfx/ux/#page-layout",
+            "text": "Design Review: Page layout and typography of communication sites",
+            "title": "Page layout"
+        },
+        {
+            "location": "/spfx/ux/#fluid-ui",
+            "text": "5 reasons or thoughts on Fluent UI Web  Fluid Framework \n - Microsoft Ignite Blog: Microsoft Fluid Framework preview",
+            "title": "Fluid UI"
         },
         {
             "location": "/spfx/upgrade/",
@@ -3469,6 +3494,46 @@
             "location": "/tools/powerapps/#custom-forms",
             "text": "Getting started with custom forms in SharePoint build with PowerApps",
             "title": "Custom Forms"
+        },
+        {
+            "location": "/tools/powerappsportal/",
+            "text": "Powerapps Portal\n\u00b6\n\n\nStart\n\u00b6\n\n\n\n\nStart Power Apps\n\n\nAdmin Power Apps\n\n\n\n\nEinf\u00fchrung\n\u00b6\n\n\n\n\nGesamt\u00fcberblick\n\n\nEinf\u00fchrungs Videos\n\n\nEinf\u00fchrung Portal App Studio\n\n\nPower Apps Community\n\n\nOverview of the PowerApps Portals Management App\n\n\n\n\nDesign\n\u00b6\n\n\n\n\nBootstrap Samples\n\n\nBootstrap Live Customizer\n\n\n\n\nLiquid\n\u00b6\n\n\n\n\nLiquid Templates in PowerApps Portals\n\n\nLiquid template language reference\n\n\nWork with Liquid templates\n\n\nPowerApps Portals Branding\n\n\nDesigning and Developing PowerApps Portals\n\n\nCreating public anonymous sites is back in O365\n\n\nPortals Community Call - August 20, 2020 - Power Apps Portals Theming\n\n\nPower Apps Portals: Portal Configuration\n\n\n\n\nLogin\n\u00b6\n\n\n\n\nConfigure Azure AD B2C for PowerApps Portals\n\n\n\n\nSharePoint\n\u00b6\n\n\n\n\nManage SharePoint documents",
+            "title": "Powerapps-Portal"
+        },
+        {
+            "location": "/tools/powerappsportal/#powerapps-portal",
+            "text": "",
+            "title": "Powerapps Portal"
+        },
+        {
+            "location": "/tools/powerappsportal/#start",
+            "text": "Start Power Apps  Admin Power Apps",
+            "title": "Start"
+        },
+        {
+            "location": "/tools/powerappsportal/#einfuhrung",
+            "text": "Gesamt\u00fcberblick  Einf\u00fchrungs Videos  Einf\u00fchrung Portal App Studio  Power Apps Community  Overview of the PowerApps Portals Management App",
+            "title": "Einf\u00fchrung"
+        },
+        {
+            "location": "/tools/powerappsportal/#design",
+            "text": "Bootstrap Samples  Bootstrap Live Customizer",
+            "title": "Design"
+        },
+        {
+            "location": "/tools/powerappsportal/#liquid",
+            "text": "Liquid Templates in PowerApps Portals  Liquid template language reference  Work with Liquid templates  PowerApps Portals Branding  Designing and Developing PowerApps Portals  Creating public anonymous sites is back in O365  Portals Community Call - August 20, 2020 - Power Apps Portals Theming  Power Apps Portals: Portal Configuration",
+            "title": "Liquid"
+        },
+        {
+            "location": "/tools/powerappsportal/#login",
+            "text": "Configure Azure AD B2C for PowerApps Portals",
+            "title": "Login"
+        },
+        {
+            "location": "/tools/powerappsportal/#sharepoint",
+            "text": "Manage SharePoint documents",
+            "title": "SharePoint"
         },
         {
             "location": "/tools/image/",
