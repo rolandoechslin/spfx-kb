@@ -28,6 +28,7 @@
 - [Creating public anonymous sites is back in O365](https://www.youtube.com/watch?v=BY4mnrvs1uo)
 - [Portals Community Call - August 20, 2020 - Power Apps Portals Theming](https://www.youtube.com/watch?v=SuGcIHSkXsg)
 - [Power Apps Portals: Portal Configuration](https://www.youtube.com/watch?v=rpWT10IeXTo&list=PLCM0vDKvGIVPLXfabjDTKmv0cJSQ6yrUN&index=2)
+- [Building a Multi-Brand Dynamics 365 Portal](https://readyxrm.blog/2019/01/18/building-a-multi-brand-dynamics-365-portal/)
 
 ## Login
 
