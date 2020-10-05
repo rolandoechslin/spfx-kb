@@ -3497,7 +3497,7 @@
         },
         {
             "location": "/tools/powerappsportal/",
-            "text": "Powerapps Portal\n\u00b6\n\n\nStart\n\u00b6\n\n\n\n\nStart Power Apps\n\n\nAdmin Power Apps\n\n\n\n\nEinf\u00fchrung\n\u00b6\n\n\n\n\nGesamt\u00fcberblick\n\n\nEinf\u00fchrungs Videos\n\n\nEinf\u00fchrung Portal App Studio\n\n\nPower Apps Community\n\n\nOverview of the PowerApps Portals Management App\n\n\n\n\nDesign\n\u00b6\n\n\n\n\nBootstrap Samples\n\n\nBootstrap Live Customizer\n\n\n\n\nLiquid\n\u00b6\n\n\n\n\nLiquid Templates in PowerApps Portals\n\n\nLiquid template language reference\n\n\nWork with Liquid templates\n\n\nPowerApps Portals Branding\n\n\nDesigning and Developing PowerApps Portals\n\n\nCreating public anonymous sites is back in O365\n\n\nPortals Community Call - August 20, 2020 - Power Apps Portals Theming\n\n\nPower Apps Portals: Portal Configuration\n\n\n\n\nLogin\n\u00b6\n\n\n\n\nConfigure Azure AD B2C for PowerApps Portals\n\n\n\n\nSharePoint\n\u00b6\n\n\n\n\nManage SharePoint documents",
+            "text": "Powerapps Portal\n\u00b6\n\n\nStart\n\u00b6\n\n\n\n\nStart Power Apps\n\n\nAdmin Power Apps\n\n\n\n\nEinf\u00fchrung\n\u00b6\n\n\n\n\nGesamt\u00fcberblick\n\n\nEinf\u00fchrungs Videos\n\n\nEinf\u00fchrung Portal App Studio\n\n\nPower Apps Community\n\n\nOverview of the PowerApps Portals Management App\n\n\n\n\nDesign\n\u00b6\n\n\n\n\nBootstrap Samples\n\n\nBootstrap Live Customizer\n\n\n\n\nLiquid\n\u00b6\n\n\n\n\nLiquid Templates in PowerApps Portals\n\n\nLiquid template language reference\n\n\nWork with Liquid templates\n\n\nPowerApps Portals Branding\n\n\nDesigning and Developing PowerApps Portals\n\n\nCreating public anonymous sites is back in O365\n\n\nPortals Community Call - August 20, 2020 - Power Apps Portals Theming\n\n\nPower Apps Portals: Portal Configuration\n\n\nBuilding a Multi-Brand Dynamics 365 Portal\n\n\n\n\nLogin\n\u00b6\n\n\n\n\nConfigure Azure AD B2C for PowerApps Portals\n\n\n\n\nSharePoint\n\u00b6\n\n\n\n\nManage SharePoint documents",
             "title": "Powerapps-Portal"
         },
         {
@@ -3522,7 +3522,7 @@
         },
         {
             "location": "/tools/powerappsportal/#liquid",
-            "text": "Liquid Templates in PowerApps Portals  Liquid template language reference  Work with Liquid templates  PowerApps Portals Branding  Designing and Developing PowerApps Portals  Creating public anonymous sites is back in O365  Portals Community Call - August 20, 2020 - Power Apps Portals Theming  Power Apps Portals: Portal Configuration",
+            "text": "Liquid Templates in PowerApps Portals  Liquid template language reference  Work with Liquid templates  PowerApps Portals Branding  Designing and Developing PowerApps Portals  Creating public anonymous sites is back in O365  Portals Community Call - August 20, 2020 - Power Apps Portals Theming  Power Apps Portals: Portal Configuration  Building a Multi-Brand Dynamics 365 Portal",
             "title": "Liquid"
         },
         {
