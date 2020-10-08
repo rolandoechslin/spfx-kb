@@ -19,6 +19,7 @@
 
 ## Start with SPFx (Training)
 
+- [Why did Microsoft create the SharePoint Framework?](https://www.andrewconnell.com/blog/spfx-5w1h-why-did-microsoft-create-sharepoint-framework/)
 - [Microsoft Learn](https://docs.microsoft.com/en-en/learn/)
 - [SharePoint Framework - Getting started](https://blog.mastykarz.nl/sharepoint-framework-getting-started/)
 - [SharePoint Developer Community - Open-source projects](https://docs.microsoft.com/en-us/sharepoint/dev/community/open-source-projects)
