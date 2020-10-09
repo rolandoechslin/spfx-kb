@@ -53,6 +53,7 @@
 - [All AADSTS Errors](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-aadsts-error-codes)
 - [Search AADSTS Nummer](https://login.microsoftonline.com/error)
 - [Resolving error AADSTS90056](https://www.koskila.net/resolving-error-aadsts90056/)
+- [Breaking: Changes to app authentication on SharePoint! ](https://www.koskila.net/literally-breaking-changes-to-app-authentication-on-sharepoint-%f0%9f%98%b5/)
 
 ## SPO
 
