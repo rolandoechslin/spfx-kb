@@ -1,5 +1,9 @@
 # Search
 
+## News 2020
+
+- [What’s new for Microsoft Search – Ignite 2020 Edition ](https://techcommunity.microsoft.com/t5/microsoft-search-blog/what-s-new-for-microsoft-search-ignite-2020-edition/ba-p/1675291)
+
 - [SharePoint Search REST API overview](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-search-rest-api-overview)
 - [SharePoint Search REST API. GET and POST requests](http://blog.vitalyzhukov.ru/en/sharepoint-search-rest-api-get-and-post-requests.aspx)
 
