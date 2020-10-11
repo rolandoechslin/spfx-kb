@@ -22,6 +22,13 @@
 - [Bootstrap Samples](https://bootswatch.com/3/)
 - [Bootstrap Live Customizer](https://www.bootstrap-live-customizer.com/version/3.3.6/)
 
+## DevOps
+
+- [Power Platform Build Tools (1.0.13)](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.PowerPlatform-BuildTools)
+- [XrmToolbox Portal Records Mover as a Console Application](https://www.futurezconsulting.com/2018/07/02/xrmtoolbox-portal-records-mover-console/)
+- [Portal Records Mover Console updates (finally!)](https://www.futurezconsulting.com/2020/06/26/portal-records-mover-console-update/)
+- [PortalRecordsMoverConsole](https://github.com/jamesnovak/PortalRecordsMoverConsole)
+
 ## Liquid
 
 - [Liquid Templates in PowerApps Portals](https://www.youtube.com/watch?v=IO1hzDXzgNg)
