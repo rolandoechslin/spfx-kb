@@ -1,5 +1,28 @@
 # Toolchain
 
+## Default Installation
+
+```powershell
+nvm install 10.22.1
+nvm install 8.17.0
+nvm list
+
+nvm use 10.22.1
+
+# for spfx deployment
+
+npm i -g gulp
+npm i -g yo
+npm i -g @microsoft/generator-sharepoint
+gulp trust-dev-cert
+
+# spfx advanced
+npm i -g @pnp/office365-cli
+npm i -g spfx-fast-serve
+npm i -g @pnp/generator-spfx
+npm i -g npm-check
+```
+
 ## Overview
 
 - [SharePoint Framework toolchain](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain)
