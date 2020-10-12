@@ -1,5 +1,10 @@
 # Governance
 
+## Collaboration
+
+[Overview of collaboration governance in Microsoft 365](https://docs.microsoft.com/en-au/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide)
+- [Groups services interactions](https://docs.microsoft.com/en-au/microsoft-365/solutions/groups-services-interactions?view=o365-worldwide)
+
 ## Overview
 
 - [SharePoint governance questions](http://tiny.cc/SharePointGovQuestions)
