@@ -1,28 +1,5 @@
 # Toolchain
 
-## Default Installation
-
-```powershell
-nvm install 10.22.1
-nvm install 8.17.0
-nvm list
-
-nvm use 10.22.1
-
-# for spfx deployment
-
-npm i -g gulp
-npm i -g yo
-npm i -g @microsoft/generator-sharepoint
-gulp trust-dev-cert
-
-# spfx advanced
-npm i -g @pnp/office365-cli
-npm i -g spfx-fast-serve
-npm i -g @pnp/generator-spfx
-npm i -g npm-check
-```
-
 ## Overview
 
 - [SharePoint Framework toolchain](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain)
@@ -63,7 +40,7 @@ npm i -g npm-check
 
 install npm package
 
-```powershell
+```bash
 npm install gulp-sequence --save-dev
 ```
 
@@ -102,7 +79,7 @@ gulp.task('dist', gulpSequence('clean', 'bundle', 'package-solution'));
 
 - https://gist.github.com/iki/ec32bfdeeb23930efd15
 
-```powershell
+```bash
 # check
 npm outdated -g
 
@@ -125,13 +102,13 @@ npm uninstall -g <module>
 
 List global npm  packages versions
 
-```powershell
+```bash
 npm list -g --depth 0
 ```
 
 List detail global npm  package versions from one package
 
-```powershell
+```bash
 npm view @microsoft/generator-sharepoint
 ```
 
@@ -159,29 +136,29 @@ npm view @microsoft/generator-sharepoint
 - search für "@micorosoft/sp-"
 - update all package (latest or version)
 
-```powershell
+```bash
 npm outdated
 ```
 
-```powershell
+```bash
 npm install package-name@latest --save
 ```
 
-```powershell
+```bash
 npm install package-name@version --save
 ```
 
-```powershell
+```bash
 gulp clean
 ```
 
-```powershell
+```bash
 gulp build
 ```
 
 ## Test
 
-```powershell
+```bash
 gulp serve --nobrowser
 ```
 
@@ -214,9 +191,31 @@ npm install saves any specified packages into dependencies by default. Additiona
 -O, --save-optional: Package will appear in your optionalDependencies.
 ```
 
-## Older NPM version (nvm, npx)
+## Version Manger (nvm, npx)
 
+- [How to install Node.js on Windows](https://channel9.msdn.com/Series/Beginners-Series-to-NodeJS/How-to-install-Nodejs-on-Windows-3-of-26)
 - [Node Version Manager (nvm) for Windows](https://github.com/coreybutler/nvm-windows)
 - [Use SPFx and NVM in an easy way with PowerShell](https://jonasbjerke.wordpress.com/2019/01/09/use-spfx-and-nvm-in-an-easy-way-with-powershell/)
 - [How to use specific NodeJS version with your SPFx project](https://n8d.at/blog/how-to-use-specific-nodejs-version-with-your-spfx-project)
 - [Better Node.js Install Management with Node Version Manager](https://www.andrewconnell.com/blog/better-node-js-install-management-with-node-version-manager)
+
+```bash
+nvm install 10.22.1
+nvm install 8.17.0
+nvm list
+
+nvm use 10.22.1
+
+# for spfx deployment
+
+npm i -g gulp
+npm i -g yo
+npm i -g @microsoft/generator-sharepoint
+gulp trust-dev-cert
+
+# for spfx advanced
+npm i -g @pnp/office365-cli
+npm i -g spfx-fast-serve
+npm i -g @pnp/generator-spfx
+npm i -g npm-check
+```
