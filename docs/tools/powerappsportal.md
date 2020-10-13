@@ -1,7 +1,10 @@
 # Powerapps Portal
 
+- [Canvas vs. Model-Driven Apps](https://global.hitachi-solutions.com/blog/canvas-vs-model-driven-apps)
+
 ## CDS
 
+- [What is Common Data Service?](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro)
 - [What is the storage engine behind the scene for CDS?](https://radacad.com/what-is-common-data-service-cds-and-why-it-is-important-for-you-if-you-use-power-apps-or-power-bi#:~:text=Common%20Data%20Service%20(CDS)%20is%20a%20database%20system.,of%20CDS%20using%20Power%20BI.)
 
 ## Start
@@ -48,3 +51,8 @@
 ## SharePoint
 
 - [Manage SharePoint documents](https://docs.microsoft.com/en-us/powerapps/maker/portals/manage-sharepoint-documents)
+
+## Training Labs
+
+- [App in a Day](https://aka.ms/appinaday)
+- [Power Platform Training Materials](https://aka.ms/PowerPlatformLabs)
