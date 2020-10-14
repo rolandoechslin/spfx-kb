@@ -1,3 +1,4 @@
+# https://veronicageek.com/powershell/powershell-for-m365/get-all-teams-a-user-is-part-of-using-powershell-pnp/2020/10/
 function Get-AllTeamsUserMembership {
     [CmdletBinding()]
     param (
