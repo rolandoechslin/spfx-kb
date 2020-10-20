@@ -14,6 +14,7 @@
 
 ## Einführung
 
+- [Fall into Power Apps Portals](https://365.training/Courses/Detail/Fall_PowerAppsPortals)
 - [Gesamtüberblick](https://docs.microsoft.com/en-us/powerapps/maker/portals/)
 - [Einführungs Videos](https://docs.microsoft.com/en-us/learn/paths/get-started-power-apps-portals/)
 - [Einführung Portal App Studio](https://docs.microsoft.com/en-us/learn/modules/explore-portals-studio/)
