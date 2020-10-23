@@ -12,6 +12,11 @@
 - [Start Power Apps](https://make.powerapps.com/)
 - [Admin Power Apps](https://admin.powerapps.com/)
 
+## Dev Enviroment
+
+- [Power Apps Community Plan](https://powerapps.microsoft.com/en-us/communityplan/)
+- [How to Delete your Power Apps Community Plan Environment](https://readyxrm.blog/2020/08/22/how-to-delete-your-power-apps-community-plan-environment/)
+
 ## Einführung
 
 - [Fall into Power Apps Portals](https://365.training/Courses/Detail/Fall_PowerAppsPortals)
@@ -44,6 +49,10 @@
 - [Portals Community Call - August 20, 2020 - Power Apps Portals Theming](https://www.youtube.com/watch?v=SuGcIHSkXsg)
 - [Power Apps Portals: Portal Configuration](https://www.youtube.com/watch?v=rpWT10IeXTo&list=PLCM0vDKvGIVPLXfabjDTKmv0cJSQ6yrUN&index=2)
 - [Building a Multi-Brand Dynamics 365 Portal](https://readyxrm.blog/2019/01/18/building-a-multi-brand-dynamics-365-portal/)
+
+## Coding / Javscript / Ajax
+
+- (The Power Platform Community Conference - Nick Doelman)[https://youtu.be/udJ9gpCh6M0?t=30693]
 
 ## Login
 
