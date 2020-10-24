@@ -21,6 +21,7 @@ $t.Palette | ConvertTo-Json | Clip
 ## Section Backgrounds
 
 - [Supporting section backgrounds](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/supporting-section-backgrounds)
+- [Develop SPFx web parts for different section designs using CSS](https://n8d.at/develop-spfx-web-parts-for-different-section-designs-using-css/)
 - [Using Custom Color for Section Backgrounds and Page Headers](https://spdcp.com/2019/06/27/custom-header-colors/)
 - [Adding support for theme variants in SPFx web parts](https://tahoeninjas.blog/2020/07/28/adding-support-for-theme-variants-in-spfx-web-parts/)
 
