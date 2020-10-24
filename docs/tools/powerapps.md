@@ -44,3 +44,7 @@
 ## Custom Forms
 
 - [Getting started with custom forms in SharePoint build with PowerApps](https://www.youtube.com/watch?v=A9uZholjaHo)
+
+## Charts
+
+- [Canviz Power Apps Chart Components](https://github.com/OGcanviz/ChartComponents)
