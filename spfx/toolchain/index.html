@@ -1216,8 +1216,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#older-npm-version-nvm-npx" title="Older NPM version (nvm, npx)" class="md-nav__link">
-    Older NPM version (nvm, npx)
+  <a href="#version-manger-nvm-npx" title="Version Manger (nvm, npx)" class="md-nav__link">
+    Version Manger (nvm, npx)
   </a>
   
 </li>
@@ -1493,6 +1493,18 @@
   <li class="md-nav__item">
     <a href="../../powershell/pnp-ps/" title="PnP-PS" class="md-nav__link">
       PnP-PS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../powershell/pnp-core/" title="PnP-Core-PS" class="md-nav__link">
+      PnP-Core-PS
     </a>
   </li>
 
@@ -1905,8 +1917,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#older-npm-version-nvm-npx" title="Older NPM version (nvm, npx)" class="md-nav__link">
-    Older NPM version (nvm, npx)
+  <a href="#version-manger-nvm-npx" title="Version Manger (nvm, npx)" class="md-nav__link">
+    Version Manger (nvm, npx)
   </a>
   
 </li>
@@ -1970,7 +1982,7 @@
 <li><a href="https://n8d.at/blog/gulp-dist-in-spfx-one-command-to-create-a-clean-solution-package">One command to create a clean solution package</a></li>
 </ul>
 <p>install npm package</p>
-<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="n">gulp-sequence</span> <span class="p">-</span><span class="n">-save-dev</span>
+<div class="codehilite"><pre><span></span>npm install gulp-sequence --save-dev
 </pre></div>
 
 <p>add to gulpfile.js</p>
@@ -2005,20 +2017,20 @@
 <ul>
 <li><a href="https://gist.github.com/iki/ec32bfdeeb23930efd15">https://gist.github.com/iki/ec32bfdeeb23930efd15</a></li>
 </ul>
-<div class="codehilite"><pre><span></span><span class="c"># check</span>
-<span class="n">npm</span> <span class="n">outdated</span> <span class="n">-g</span>
+<div class="codehilite"><pre><span></span><span class="c1"># check</span>
+npm outdated -g
 
-<span class="c"># install</span>
-<span class="n">npm</span> <span class="n">-g</span> <span class="n">i</span> <span class="n">npm-check</span>
+<span class="c1"># install</span>
+npm -g i npm-check
 
-<span class="c"># interactive update of global packages</span>
-<span class="n">npm-check</span> <span class="n">-u</span> <span class="n">-g</span>
+<span class="c1"># interactive update of global packages</span>
+npm-check -u -g
 
-<span class="c"># interactive update for a project you are working on</span>
-<span class="n">npm-check</span> <span class="n">-u</span>
+<span class="c1"># interactive update for a project you are working on</span>
+npm-check -u
 
-<span class="c"># unistall package</span>
-<span class="n">npm</span> <span class="n">uninstall</span> <span class="n">-g</span> <span class="p">&lt;</span><span class="n">module</span><span class="p">&gt;</span>
+<span class="c1"># unistall package</span>
+npm uninstall -g &lt;module&gt;
 </pre></div>
 
 <h3 id="check-package-version">Check package version<a class="headerlink" href="#check-package-version" title="Permanent link">&para;</a></h3>
@@ -2026,11 +2038,11 @@
 <li><a href="https://github.com/dylang/npm-check">https://github.com/dylang/npm-check</a></li>
 </ul>
 <p>List global npm  packages versions</p>
-<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">list</span> <span class="n">-g</span> <span class="p">-</span><span class="n">-depth</span> <span class="n">0</span>
+<div class="codehilite"><pre><span></span>npm list -g --depth <span class="m">0</span>
 </pre></div>
 
 <p>List detail global npm  package versions from one package</p>
-<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">view</span> <span class="nv">@microsoft</span><span class="p">/</span><span class="n">generator-sharepoint</span>
+<div class="codehilite"><pre><span></span>npm view @microsoft/generator-sharepoint
 </pre></div>
 
 <h2 id="pnpm">PNPM<a class="headerlink" href="#pnpm" title="Permanent link">&para;</a></h2>
@@ -2057,23 +2069,23 @@
 <li>search für "@micorosoft/sp-"</li>
 <li>update all package (latest or version)</li>
 </ul>
-<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">outdated</span>
+<div class="codehilite"><pre><span></span>npm outdated
 </pre></div>
 
-<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="n">package-name</span><span class="nv">@latest</span> <span class="p">-</span><span class="n">-save</span>
+<div class="codehilite"><pre><span></span>npm install package-name@latest --save
 </pre></div>
 
-<div class="codehilite"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="n">package-name</span><span class="nv">@version</span> <span class="p">-</span><span class="n">-save</span>
+<div class="codehilite"><pre><span></span>npm install package-name@version --save
 </pre></div>
 
-<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">clean</span>
+<div class="codehilite"><pre><span></span>gulp clean
 </pre></div>
 
-<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">build</span>
+<div class="codehilite"><pre><span></span>gulp build
 </pre></div>
 
 <h2 id="test">Test<a class="headerlink" href="#test" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">serve</span> <span class="p">-</span><span class="n">-nobrowser</span>
+<div class="codehilite"><pre><span></span>gulp serve --nobrowser
 </pre></div>
 
 <h2 id="tips">Tips<a class="headerlink" href="#tips" title="Permanent link">&para;</a></h2>
@@ -2102,13 +2114,33 @@ gulp package-solution --ship
 -O, --save-optional: Package will appear in your optionalDependencies.
 </pre></div>
 
-<h2 id="older-npm-version-nvm-npx">Older NPM version (nvm, npx)<a class="headerlink" href="#older-npm-version-nvm-npx" title="Permanent link">&para;</a></h2>
+<h2 id="version-manger-nvm-npx">Version Manger (nvm, npx)<a class="headerlink" href="#version-manger-nvm-npx" title="Permanent link">&para;</a></h2>
 <ul>
+<li><a href="https://channel9.msdn.com/Series/Beginners-Series-to-NodeJS/How-to-install-Nodejs-on-Windows-3-of-26">How to install Node.js on Windows</a></li>
 <li><a href="https://github.com/coreybutler/nvm-windows">Node Version Manager (nvm) for Windows</a></li>
 <li><a href="https://jonasbjerke.wordpress.com/2019/01/09/use-spfx-and-nvm-in-an-easy-way-with-powershell/">Use SPFx and NVM in an easy way with PowerShell</a></li>
 <li><a href="https://n8d.at/blog/how-to-use-specific-nodejs-version-with-your-spfx-project">How to use specific NodeJS version with your SPFx project</a></li>
 <li><a href="https://www.andrewconnell.com/blog/better-node-js-install-management-with-node-version-manager">Better Node.js Install Management with Node Version Manager</a></li>
 </ul>
+<div class="codehilite"><pre><span></span>nvm install <span class="m">10</span>.22.1
+nvm install <span class="m">8</span>.17.0
+nvm list
+
+nvm use <span class="m">10</span>.22.1
+
+<span class="c1"># for spfx deployment</span>
+
+npm i -g gulp
+npm i -g yo
+npm i -g @microsoft/generator-sharepoint
+gulp trust-dev-cert
+
+<span class="c1"># for spfx advanced</span>
+npm i -g @pnp/office365-cli
+npm i -g spfx-fast-serve
+npm i -g @pnp/generator-spfx
+npm i -g npm-check
+</pre></div>
                 
                   
                 
