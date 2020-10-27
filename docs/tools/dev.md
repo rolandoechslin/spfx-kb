@@ -1,12 +1,13 @@
 # Dev Tools
 
-## MSDN 
+## MSDN
 
 - [MSDM-Subscriptions](https://my.visualstudio.com/Subscriptions)
 
 ## Tools List
 
 - [Useful Developer Tools](https://github.com/lucasgdb/useful-dev-tools)
+- [My 12 Favorite Chrome Extensions as a Web Developer](https://dev.to/otomer/my-12-favorite-chrome-extensions-as-a-web-developer-56eg)
 
 ## Framework Trends
 
@@ -164,8 +165,8 @@ Info: https://stackoverflow.com/questions/30331338/remove-git-integrations-from-
 
 - [generator-sppp](https://github.com/koltyakov/generator-sppp)
 - [SharePoint front-end projects automation and tasks tool-belt](http://blog.arvosys.com/2017/10/04/sharepoint-front-end-projects-automation-and-tasks-tool-belt/index.html)
-- https://github.com/facebook/create-react-app
-- <https://github.com/StfBauer/generator-simplestyle>
+- [create-react-app](https://github.com/facebook/create-react-app)
+- [generator-simplestyle](https://github.com/StfBauer/generator-simplestyle)
 
 ## Fabric Icons
 
