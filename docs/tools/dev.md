@@ -1,5 +1,9 @@
 # Dev Tools
 
+## Best practises
+
+- [khalilstemmler - advanced TypeScript & Node.js best practices](https://khalilstemmler.com/articles)
+
 ## MSDN
 
 - [MSDM-Subscriptions](https://my.visualstudio.com/Subscriptions)
