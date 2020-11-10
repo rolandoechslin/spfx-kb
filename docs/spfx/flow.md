@@ -72,4 +72,5 @@ Set-PnPSite -DisableFlows:$false
 
 ## Azure Logic App
 
-- [Integrate Azure Logic Apps with SharePoint Site Designs ](http://www.devjhorst.com/2019/10/integrate-azure-logic-apps-with-sharepoint-site-designs.html)
+- [Azure Logic Apps vs Microsoft Flow, Why Not Both?](https://www.serverless360.com/blog/azure-logic-apps-vs-microsoft-flow)
+- [Integrate Azure Logic Apps with SharePoint Site Designs](http://www.devjhorst.com/2019/10/integrate-azure-logic-apps-with-sharepoint-site-designs.html)
