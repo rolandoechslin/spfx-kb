@@ -179,6 +179,8 @@ git show --name-only
 - [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/)
 - [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 - [GitHub cheat sheet for PnP contributions](https://tahoeninjas.blog/2019/08/18/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/)
+- [Illustrated Notes on Fixing Git Mistakes ](https://dev.to/egghead/illustrated-notes-on-fixing-git-mistakes-1c16)
+
 
 ## Development(local workbench)
 
