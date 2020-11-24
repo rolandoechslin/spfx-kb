@@ -46,6 +46,10 @@
 - [Get started with Teams templates](https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates)
 - [App Templates for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/samples/app-templates?WT.mc_id=-github-rogerman#expert-finder)
 
+## Deployment
+
+- [How to deploy a Yo Teams generated project to Azure through Azure DevOps](https://www.wictorwilen.se/blog/deploying-yo-teams-and-node-apps/)
+
 ## Message Extensions
 
 - [Where to start developing your messaging extension using Microsoft Teams Toolkit](https://rabiawilliams.com/teams/message-extensions/)
