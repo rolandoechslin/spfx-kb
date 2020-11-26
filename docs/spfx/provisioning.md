@@ -53,6 +53,7 @@
 
 ## OneDrive for Business
 
+- [How to provision OneDrive for Microsoft 365 users](https://sharepointstuff.com/2020/10/20/how-to-provision-onedrive-for-microsoft-365-users/)
 - [Create OneDrive for Business Site Collections using PowerShell](http://www.sharepointdiary.com/2017/10/how-to-create-onedrive-for-business-sites-office-365.html)
 
 ## Tools
