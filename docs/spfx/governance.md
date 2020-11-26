@@ -133,4 +133,5 @@
 
 ## Security and Compliance - DLP
 
+- [Overview of data loss prevention](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide)
 - [Security and Compliance - DLP - Notes](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-notes-from-the-field/ba-p/1501297)
