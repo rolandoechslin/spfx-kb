@@ -2,6 +2,10 @@
 
 - [An Everyday Guide to Office 365 Groups](https://www.jumpto365.com/infographics/everyday-guide-to-office-365-groups)
 - [Microsoft Teams Platform Architecture Overview with Teams Founder, Bill Bliss](https://www.youtube.com/watch?v=I33pQ9PUHNc)
+## Start Developing
+
+- [Prepare your Microsoft 365 tenant](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)
+
 ## Support
 
 - [Keyboard shortcuts for Microsoft Teams](https://support.office.com/en-us/article/keyboard-shortcuts-for-microsoft-teams-2e8e2a70-e8d8-4a19-949b-4c36dd5292d2?utm_source=t.co&utm_medium=referral)
