@@ -10,6 +10,7 @@
 - [Brand modern SharePoint Online sites](http://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites)
 - [two approaches to applying modern theme](http://www.techmikael.com/2018/03/two-approaches-to-applying-modern-theme.html)
 - [SPFX integration for theme support](https://github.com/StfBauer/spfx-uifabric-themes)
+- [https://www.donkirkham.com/blog/spfx-theme-variants/](https://www.donkirkham.com/blog/spfx-theme-variants/)
 
 ## Get Theme
 
