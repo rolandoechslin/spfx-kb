@@ -2,6 +2,8 @@
 
 - [An Everyday Guide to Office 365 Groups](https://www.jumpto365.com/infographics/everyday-guide-to-office-365-groups)
 - [Microsoft Teams Platform Architecture Overview with Teams Founder, Bill Bliss](https://www.youtube.com/watch?v=I33pQ9PUHNc)
+- [Microsoft Teams developer documentation](https://docs.microsoft.com/en-us/microsoftteams/platform/?WT.mc_id=M365-MVP-5001530)
+
 ## Start Developing
 
 - [Prepare your Microsoft 365 tenant](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)
