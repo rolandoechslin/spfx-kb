@@ -142,3 +142,10 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 ## Presenting in Teams
 
 - [The right way to present a PowerPoint file during a Microsoft Teams meeting](https://www.jumpto365.com/blog/the-right-way-to-present-a-powerpoint-file-during-a-microsoft-teams-meeting)
+
+## Dataverse
+
+- [Overview of Microsoft Dataverse for Teams](https://docs.microsoft.com/en-us/powerapps/teams/overview-data-platform)
+- [Reshape the future of work with Microsoft Dataverse for Teams](https://powerapps.microsoft.com/en-us/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/)
+ - [A Closer Look at Data Platform Capabilities in Project Oakdale](https://powerapps.microsoft.com/en-us/blog/a-closer-look-at-data-platform-capabilities-in-project-oakdale/)
+ - [Manage Microsoft Dataverse for Teams environments](https://powerapps.microsoft.com/en-us/blog/manage-microsoft-dataverse-for-teams-environments/)
