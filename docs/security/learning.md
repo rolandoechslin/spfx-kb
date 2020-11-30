@@ -32,9 +32,9 @@
 
 ## Office 365
 
-- <https://resources.techcommunity.microsoft.com/security-compliance-and-administration/>
-- <https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/Idle-Session-Timeout-Policy-in-SharePoint-Online-amp-OneDrive-is/ba-p/211274>
-- https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions
+- [Office 365 Security overview](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/?view=o365-worldwide)
+- [Use tenant restrictions to manage access to SaaS cloud applications](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions)
+- [Detect and Remediate Illicit Consent Grants](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/detect-and-remediate-illicit-consent-grants?view=o365-worldwide)
 
 ## File
 
