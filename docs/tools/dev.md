@@ -12,6 +12,7 @@
 
 - [Useful Developer Tools](https://github.com/lucasgdb/useful-dev-tools)
 - [My 12 Favorite Chrome Extensions as a Web Developer](https://dev.to/otomer/my-12-favorite-chrome-extensions-as-a-web-developer-56eg)
+- [The tools for a SharePoint developer - Part 2](https://blog.lsonline.fr/2020/12/03/the-tools-for-a-sharepoint-developer-part-2/)
 
 ## Framework Trends
 
