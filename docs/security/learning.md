@@ -33,6 +33,7 @@
 
 ## Office 365
 
+- [Basic Security Set Up for Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365/community/basic-security-set-up-for-microsoft-365)
 - [Office 365 Security overview](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/?view=o365-worldwide)
 - [Use tenant restrictions to manage access to SaaS cloud applications](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions)
 - [Detect and Remediate Illicit Consent Grants](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/detect-and-remediate-illicit-consent-grants?view=o365-worldwide)
