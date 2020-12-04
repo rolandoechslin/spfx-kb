@@ -59,6 +59,11 @@
 
 - [Navigation options for SharePoint Online](https://support.office.com/en-us/article/Navigation-options-for-SharePoint-Online-adb92b80-b342-4ecb-99a1-da2a2b4782eb)
 
+## Guest Users
+
+- [Ultimate Admin Guide to Microsoft Teams Guest Users](https://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users)
+- [SHAREPOINT ONLINE GUEST USER TROUBLES AND HOW TO GET PAST THEM](https://laurakokkarinen.com/sharepoint-online-guest-user-troubles-and-how-to-get-past-them/)
+
 ## Diagnostics
 
 - [use-the-page-diagnostics-tool-for-sharepoint-online](https://support.office.com/en-us/article/use-the-page-diagnostics-tool-for-sharepoint-online-dbab2593-dc6a-40f7-adfe-031b9baa620f?ui=en-US&rs=en-US&ad=US)

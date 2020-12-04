@@ -74,10 +74,6 @@
 - [Top 10 Office 365 Best Practices Every Admin Should Know](https://blog.syskit.com/top-10-office-365-best-practices)
 - [Getting Started with Microsoft Teams Administration](https://tracyvanderschyff.com/2019/10/02/getting-started-with-microsoft-teams-administration/)
 
-## Guest Users
-
-- <https://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users>
-
 ## Teams Adviser
 
 - [Overview Microsoft Teams Advisor](https://www.jamielaporte.com/home/2019/11/11/microsoft-teams-advisor)
