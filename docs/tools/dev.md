@@ -1,5 +1,9 @@
 # Dev Tools
 
+## Stack 2020
+
+- [My Tech Stack (2020 Edition)](https://hswolff.com/blog/my-tech-stack-2020-edition/)
+
 ## Best practises
 
 - [khalilstemmler - advanced TypeScript & Node.js best practices](https://khalilstemmler.com/articles)
