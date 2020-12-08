@@ -22,6 +22,7 @@
 
 ## Microsoft Search
 
+- [Microsoft Search](https://resources.techcommunity.microsoft.com/microsoft-search/)
 - [MICROSOFT SEARCH BOOKMARKS](https://joannecklein.com/2019/07/06/microsoft-search-bookmarks/)
 
 ## Search Tips
