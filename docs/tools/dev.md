@@ -4,6 +4,10 @@
 
 - [My Tech Stack (2020 Edition)](https://hswolff.com/blog/my-tech-stack-2020-edition/)
 
+### Next.js
+
+- [Awesome Next.js ](https://github.com/unicodeveloper/awesome-nextjs)
+
 ### Tailwind
 
 - [tailwindcss.com](https://tailwindcss.com/)
