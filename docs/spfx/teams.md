@@ -55,6 +55,7 @@
 ## Deployment
 
 - [How to deploy a Yo Teams generated project to Azure through Azure DevOps](https://www.wictorwilen.se/blog/deploying-yo-teams-and-node-apps/)
+- [Team development for Microsoft Teams apps](https://www.wictorwilen.se/blog/team-development-for-microsoft-teams-apps/)
 
 ## Message Extensions
 
