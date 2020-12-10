@@ -1,5 +1,11 @@
 # Links
 
+## Ressources
+
+- [The PowerShell Gallery](https://docs.microsoft.com/en-us/powershell/scripting/gallery/overview?view=powershell-7.1)
+- [janikvonrotz-awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
+- [How to: SnipScripts](https://github.com/TechSnips/SnipScripts)
+
 ## Syntax
 
 - [powershell basic cheat sheet](http://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-basic-cheat-sheet2.pdf)
@@ -10,11 +16,6 @@
 ## Hashtable
 
 - [Everything you wanted to know about hashtables](https://kevinmarquette.github.io/2016-11-06-powershell-hashtable-everything-you-wanted-to-know-about)
-
-## Ressources
-
-- [janikvonrotz-awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
-- [How to: SnipScripts](https://github.com/TechSnips/SnipScripts)
 
 ## VS.Code Settings
 
@@ -49,3 +50,13 @@ Get-InstalledModule | select name, version
 ## Slides
 
 - [Code & Slides from my Presentations](https://github.com/mikefrobbins/Presentations)
+
+## AzureAD
+
+- [The PowerShell Gallery- Overview](https://docs.microsoft.com/en-us/powershell/scripting/gallery/overview?view=powershell-7.1)
+- [Powershellgallery - Module - AzureAD](https://www.powershellgallery.com/packages/AzureAD/)
+- [Get Azure AD audit and sign-in Logs using PowerShell and AzureADPreview module](https://mosshowto.blogspot.com/2019/08/azure-ad-logs-powershell-azureadpreview.html)
+
+```Powershell
+Install-Module -Name AzureAD
+```
