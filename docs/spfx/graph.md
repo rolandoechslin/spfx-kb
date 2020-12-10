@@ -17,10 +17,14 @@
 - [Microsoft Graph API or SharePoint REST API?](https://blog.lsonline.fr/2019/10/04/microsoft-graph-api-or-sharepoint-rest-api/)
 - [SharePoint API in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/resources/sharepoint?view=graph-rest-1.0)
 
+## Azure Functions
+
+- [How to access SharePoint data from Azure Function with SPFx and PnP Core SDK](https://spblog.net/post/2020/12/10/how-to-access-sharepoint-data-from-azure-function-with-spfx-and-pnp-core)
+- [Azure Functions project that implements Microsoft Teams provisioning via Microsoft Graph](https://github.com/microsoftgraph/contoso-airlines-azure-functions-sample)
+
 ## Samples
 
 - [Using Microsoft Graph API to convert the format of your documents](https://blogs.technet.microsoft.com/sharepointdevelopersupport/2018/10/26/using-microsoft-graph-api-to-convert-the-format-of-your-documents)
-- [Azure Functions project that implements Microsoft Teams provisioning via Microsoft Graph](https://github.com/microsoftgraph/contoso-airlines-azure-functions-sample)
 - [How to get data from Microsoft Graph – SPFx](https://letslearnoffice365.wordpress.com/2019/02/11/how-to-get-data-from-microsoft-graph-spfx/)
 
 ## SPFx Samples
