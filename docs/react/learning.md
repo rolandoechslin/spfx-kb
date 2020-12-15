@@ -1,5 +1,11 @@
 # Learning
 
+## Architecture
+
+- [Client-Side Architecture Basics - Guide](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
+
+## Learning Course
+
 - [react-lernen](https://github.com/manuelbieh/react-lernen)
 - https://www.udemy.com/react-the-complete-guide-incl-redux/?start=0
 - https://www.udemy.com/react-redux/
