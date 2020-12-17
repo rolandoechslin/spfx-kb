@@ -7,6 +7,14 @@
 ### Next.js
 
 - [Awesome Next.js ](https://github.com/unicodeveloper/awesome-nextjs)
+- [Next.js and Reactstrap Admin Dashboard Project](https://medium.com/@defrian.yarfi/next-js-and-reactstrap-admin-dashboard-project-e32ff3205eb2)
+- [nextjs-reactstrap](https://github.com/dyarfi/nextjs-reactstrap)
+- [Airframe React](https://github.com/0wczar/airframe-react)
+- [react-admin](https://github.com/marmelab/react-admin)
+
+#### Admin Templates
+
+- [nextjs-admin-template - Pal.js UI](https://github.com/paljs/nextjs-admin-template)
 
 ### Tailwind
 
