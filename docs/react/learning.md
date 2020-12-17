@@ -4,6 +4,10 @@
 
 - [Client-Side Architecture Basics - Guide](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 
+## Web Developer
+
+- [Web Development for Beginners - A Curriculum](https://github.com/microsoft/Web-Dev-For-Beginners)
+- [Front-end Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/#4.22)
 ## Learning Course
 
 - [react-lernen](https://github.com/manuelbieh/react-lernen)
