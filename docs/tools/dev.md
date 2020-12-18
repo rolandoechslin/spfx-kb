@@ -94,11 +94,8 @@
 - [mazwai - free background images](http://mazwai.com)
 - [dummyimage](https://dummyimage.com)
 - [Screenshots](https://github.com/greenshot/greenshot/)
+- [Convert Modern SharePoint Page Banner Images to Base-64 using PowerShell](https://thechriskent.com/2020/06/30/convert-modern-sharepoint-page-banner-images-to-base-64-using-powershell/)
 
-## Icon Tools
-
-- [Flicon](https://www.flicon.io/)
-- [Using Flicon to support visual hierarchy on a homepage](https://emilymancini.com/2020/12/17/using-flicon-to-support-visual-hierarchy-on-a-homepage/)
 ## Sound Tools
 
 - [Sound effects](https://www.hongkiat.com/blog/download-free-sound-effects/)
@@ -206,6 +203,8 @@ Info: https://stackoverflow.com/questions/30331338/remove-git-integrations-from-
 - [Tool to Generate Images Using Office UI Fabric Icons](https://joshmccarty.com/made-tool-generate-images-using-office-ui-fabric-icon)
 - [Fabric Icons](https://developer.microsoft.com/en-us/fabric#/styles/icons)
 - [Office UI Fabric Icons](http://uifabricicons.azurewebsites.net)
+- - [Flicon](https://www.flicon.io/)
+- [Using Flicon to support visual hierarchy on a homepage](https://emilymancini.com/2020/12/17/using-flicon-to-support-visual-hierarchy-on-a-homepage/)
 
 ## Favicons
 
