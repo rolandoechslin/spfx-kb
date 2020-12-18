@@ -95,6 +95,10 @@
 - [dummyimage](https://dummyimage.com)
 - [Screenshots](https://github.com/greenshot/greenshot/)
 
+## Icon Tools
+
+- [Flicon](https://www.flicon.io/)
+- [Using Flicon to support visual hierarchy on a homepage](https://emilymancini.com/2020/12/17/using-flicon-to-support-visual-hierarchy-on-a-homepage/)
 ## Sound Tools
 
 - [Sound effects](https://www.hongkiat.com/blog/download-free-sound-effects/)
