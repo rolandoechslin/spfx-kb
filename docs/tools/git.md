@@ -28,6 +28,7 @@
 ## Commit Guidlines
 
 - [How We Do It - Keeping a Clean Commit Log](http://www.andrewconnell.com/blog/ngofficeuifabric-how-we-do-it-keeping-a-clean-commit-log)
+- [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 
 ## Gitflow
 
