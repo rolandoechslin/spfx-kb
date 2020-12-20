@@ -9,6 +9,8 @@
 - [Web Development for Beginners - A Curriculum](https://github.com/microsoft/Web-Dev-For-Beginners)
 - [Front-end Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/#4.22)
 - [Microsoft Frontend Bootcamp](https://microsoft.github.io/frontend-bootcamp/)
+- [Full-stack Web Developer Plan - 2021](https://fullstack.codedamn.com/#/1)
+
 ## Learning Course
 
 - [react-lernen](https://github.com/manuelbieh/react-lernen)
