@@ -38,6 +38,7 @@
 - [Recap of Getting Started SharePoint Framework (SPFx) Webinar Series 2020](https://siddharthvaghasia.com/2020/06/06/recap-of-getting-started-spfx-webinar-series/)
 - [PiaSys: Conferences-Samples](https://github.com/PiaSys/Conferences-Samples)
 - [PnP Virtual Conference – September 2020 – Summary and Recordings](https://developer.microsoft.com/en-us/office/blogs/pnp-virtual-conference-september-2020-summary-and-recordings/)
+- [Microsoft 365 learning pathways](https://github.com/pnp/custom-learning-office-365)
 
 ## DEV-Tenant
 
