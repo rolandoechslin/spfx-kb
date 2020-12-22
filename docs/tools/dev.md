@@ -23,6 +23,12 @@
 - [Integrating Tailwind CSS framework into a SPFx React project for advance User Experience](https://www.youtube.com/watch?v=_gQkauERWh0)
 - [react-tailwindcss](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-tailwindcss)
 
+## Design to Code
+
+- [](https://developer.microsoft.com/en-us/fluentui#/resources)
+- [Design to HTML](https://www.pxcode.io/)
+- [Top 22 Prototyping Tools For UI And UX Designers 2020](https://blog.prototypr.io/top-20-prototyping-tools-for-ui-and-ux-designers-2017-46d59be0b3a9)
+
 ## Best practises
 
 - [khalilstemmler - advanced TypeScript & Node.js best practices](https://khalilstemmler.com/articles)
@@ -246,4 +252,43 @@ Open Web Part Manager
 
 ```js
 javascript:(function(){location.replace(window.location.href+"?contents=1")})();
+```
+
+## Delete node_modules Folder
+
+- [How to effectively delete node_modules on Windows](https://spblog.net/post/2020/06/10/how-to-effectively-delete-node-modules-on-windows)
+
+1. Firstly install rimraf module globally
+
+```ps
+npm install rimraf -g
+```
+
+2. creat fast-del.bat file
+
+```bat
+@ECHO OFF
+SET FOLDER=%1
+IF [%1]==[] (
+    ECHO Delete Folder: "%CD%"?
+    PAUSE
+    SET FOLDER="%CD%"
+    CD /
+)
+ECHO Deleting folder %FOLDER%
+rimraf %FOLDER%
+```
+
+3. This .bat file should be available under your "PATH" environmental variable. In other words, you should be able to run it from any command-line from any location. The easiest approach is to just copy this file to C:\Windows directory (it's absolutely safe). 
+
+4. Open regedit and go to "HKEY_CLASSES_ROOT\Directory\shell\" path. 
+
+5. Right-click on the "shell" folder and select New -> Key. Give it the name "Fast Delete".
+
+6. Right-click on a newly created "Fast Delete" folder, then New -> Key. Give it the name "command".
+
+7. Double-click on the default value for "command" folder and under value data enter:
+
+```bat
+cmd /c "cd %1 && fast-del.bat"
 ```
