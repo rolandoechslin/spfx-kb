@@ -2,7 +2,7 @@
 
 ## Permission
 
-- [Microsoft Graph permissions reference](https://docs.microsoft.com/de-de/graph/permissions-reference)
+- [Microsoft Graph permissions reference](https://docs.microsoft.com/en-us/graph/permissions-reference?context=graph/api/1.0)
 
 ## Learning
 
