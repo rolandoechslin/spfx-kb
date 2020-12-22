@@ -1426,6 +1426,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#design-to-code" title="Design to Code" class="md-nav__link">
+    Design to Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#best-practises" title="Best practises" class="md-nav__link">
     Best practises
   </a>
@@ -1658,6 +1665,13 @@
         <li class="md-nav__item">
   <a href="#sp-bookmarklets" title="SP bookmarklets" class="md-nav__link">
     SP bookmarklets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delete-node_modules-folder" title="Delete node_modules Folder" class="md-nav__link">
+    Delete node_modules Folder
   </a>
   
 </li>
@@ -1895,6 +1909,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#design-to-code" title="Design to Code" class="md-nav__link">
+    Design to Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#best-practises" title="Best practises" class="md-nav__link">
     Best practises
   </a>
@@ -2131,6 +2152,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#delete-node_modules-folder" title="Delete node_modules Folder" class="md-nav__link">
+    Delete node_modules Folder
+  </a>
+  
+</li>
+      
       
       
       
@@ -2173,6 +2201,12 @@
 <li><a href="https://play.tailwindcss.com/">tailwindcss play</a></li>
 <li><a href="https://www.youtube.com/watch?v=_gQkauERWh0">Integrating Tailwind CSS framework into a SPFx React project for advance User Experience</a></li>
 <li><a href="https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-tailwindcss">react-tailwindcss</a></li>
+</ul>
+<h2 id="design-to-code">Design to Code<a class="headerlink" href="#design-to-code" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://developer.microsoft.com/en-us/fluentui#/resources"></a></li>
+<li><a href="https://www.pxcode.io/">Design to HTML</a></li>
+<li><a href="https://blog.prototypr.io/top-20-prototyping-tools-for-ui-and-ux-designers-2017-46d59be0b3a9">Top 22 Prototyping Tools For UI And UX Designers 2020</a></li>
 </ul>
 <h2 id="best-practises">Best practises<a class="headerlink" href="#best-practises" title="Permanent link">&para;</a></h2>
 <ul>
@@ -2383,6 +2417,53 @@
 
 <p>Open Web Part Manager</p>
 <div class="codehilite"><pre><span></span><span class="nx">javascript</span><span class="o">:</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span><span class="nx">location</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span><span class="o">+</span><span class="s2">&quot;?contents=1&quot;</span><span class="p">)})();</span>
+</pre></div>
+
+<h2 id="delete-node_modules-folder">Delete node_modules Folder<a class="headerlink" href="#delete-node_modules-folder" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><a href="https://spblog.net/post/2020/06/10/how-to-effectively-delete-node-modules-on-windows">How to effectively delete node_modules on Windows</a></p>
+</li>
+<li>
+<p>Firstly install rimraf module globally</p>
+</li>
+</ul>
+<div class="codehilite"><pre><span></span>npm install rimraf -g
+</pre></div>
+
+<ol>
+<li>creat fast-del.bat file</li>
+</ol>
+<div class="codehilite"><pre><span></span><span class="p">@</span><span class="k">ECHO</span> OFF
+<span class="k">SET</span> <span class="nv">FOLDER</span><span class="p">=</span><span class="nv">%1</span>
+<span class="k">IF</span> [<span class="nv">%1</span>]<span class="o">==</span>[] <span class="p">(</span>
+    <span class="k">ECHO</span> Delete Folder: <span class="s2">&quot;</span><span class="nv">%CD%</span><span class="s2">&quot;</span>?
+    <span class="k">PAUSE</span>
+    <span class="k">SET</span> <span class="nv">FOLDER</span><span class="p">=</span><span class="s2">&quot;</span><span class="nv">%CD%</span><span class="s2">&quot;</span>
+    <span class="k">CD</span> /
+<span class="p">)</span>
+<span class="k">ECHO</span> Deleting folder <span class="nv">%FOLDER%</span>
+rimraf <span class="nv">%FOLDER%</span>
+</pre></div>
+
+<ol>
+<li>
+<p>This .bat file should be available under your "PATH" environmental variable. In other words, you should be able to run it from any command-line from any location. The easiest approach is to just copy this file to C:\Windows directory (it's absolutely safe). </p>
+</li>
+<li>
+<p>Open regedit and go to "HKEY_CLASSES_ROOT\Directory\shell\" path. </p>
+</li>
+<li>
+<p>Right-click on the "shell" folder and select New -&gt; Key. Give it the name "Fast Delete".</p>
+</li>
+<li>
+<p>Right-click on a newly created "Fast Delete" folder, then New -&gt; Key. Give it the name "command".</p>
+</li>
+<li>
+<p>Double-click on the default value for "command" folder and under value data enter:</p>
+</li>
+</ol>
+<div class="codehilite"><pre><span></span>cmd /c <span class="s2">&quot;cd </span><span class="nv">%1</span><span class="s2"> &amp;&amp; fast-del.bat&quot;</span>
 </pre></div>
                 
                   
