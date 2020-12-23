@@ -17,6 +17,10 @@
 - [Microsoft Graph API or SharePoint REST API?](https://blog.lsonline.fr/2019/10/04/microsoft-graph-api-or-sharepoint-rest-api/)
 - [SharePoint API in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/resources/sharepoint?view=graph-rest-1.0)
 
+## Query (Count / Filter / Search  / OrderBy)
+
+- [Build advanced queries in Microsoft Graph with $count, $filter, $search, and $orderby](https://developer.microsoft.com/en-us/microsoft-365/blogs/build-advanced-queries-with-count-filter-search-and-orderby/)
+
 ## Azure Functions
 
 - [How to access SharePoint data from Azure Function with SPFx and PnP Core SDK](https://spblog.net/post/2020/12/10/how-to-access-sharepoint-data-from-azure-function-with-spfx-and-pnp-core)
