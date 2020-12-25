@@ -65,3 +65,8 @@ write-manifests.json
 
 - [SharePoint Framework app settings](https://blog.velingeorgiev.com/sharepoint-framework-app-settings)
 - [AppSettings in SharePoint Framework (SPFx) and Staging](https://mmsharepoint.wordpress.com/2018/10/06/appsettings-in-sharepoint-framework-spfx-and-staging/)
+
+## Automate Project Documentation
+
+- [Automate project documentation from Azure DevOps to SharePoint on Microsoft 365](https://rick-brown.medium.com/automate-project-documentation-from-azure-devops-to-sharepoint-on-microsoft-365-f2e5b554d6ce)
+- [The static site generator for SharePoint](https://github.com/ValoIntranet/doctor)
