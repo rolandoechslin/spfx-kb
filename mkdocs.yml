@@ -65,15 +65,15 @@ pages:
         - Versions: spfx/versions.md
         - Webhooks: spfx/webhooks.md
         - Webparts: spfx/webparts.md
-    - React:
-        - Learning: react/learning.md
-        - Redux: react/redux.md
     - JS:
         - js/guide.md
         - js/pwa.md
     - Training:
-        - Must read: training/must-read.md
         - Course: training/course.md
+        - Must read: training/must-read.md
+        - Learning: training/learning.md
+        - Redux: training/redux.md
+        - MS-600: training/ms-600.md
     - Powershell:
         - Powershell: powershell/powershell.md
         - PnP-PS: powershell/pnp-ps.md
