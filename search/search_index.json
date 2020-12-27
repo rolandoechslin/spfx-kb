@@ -2836,136 +2836,6 @@
             "title": "Replacing the out of the box web part"
         },
         {
-            "location": "/react/learning/",
-            "text": "Learning\n\u00b6\n\n\nArchitecture\n\u00b6\n\n\n\n\nClient-Side Architecture Basics - Guide\n\n\n\n\nWeb Developer\n\u00b6\n\n\n\n\nWeb Development for Beginners - A Curriculum\n\n\nFront-end Developer Handbook 2019\n\n\nMicrosoft Frontend Bootcamp\n\n\nFull-stack Web Developer Plan - 2021\n\n\n\n\nLearning Course\n\u00b6\n\n\n\n\nreact-lernen\n\n\nhttps://www.udemy.com/react-the-complete-guide-incl-redux/?start=0\n\n\nhttps://www.udemy.com/react-redux/\n\n\nhttps://udilia.com/courses/learn-react-by-building-a-web-app\n\n\nhttps://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/\n\n\nfrontendmasters - learn - react\n\n\nreactscreencasts\n\n\n\n\nLifecycle methods\n\u00b6\n\n\n\n\nInteractive React Lifecycle Methods diagram\n\n\nSharePoint Framework Client-Side Webparts mit React\n\n\nReact Best Practices\n\n\n\n\nRoadmap\n\u00b6\n\n\n\n\nReact Developer Roadmap\n\n\nThe 2018 Web Developer Roadmap\n\n\nThe 2018 React JS RoadMap\n\n\n\n\nReference\n\u00b6\n\n\n\n\nhttps://github.com/brillout/awesome-react-components#ui-frameworks\n\n\nhttps://survivejs.com/react/\n\n\nhttps://github.com/markerikson/react-redux-links\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\noverreacted - Personal blog by Dan Abramov\n\n\n\n\nStyleguide\n\u00b6\n\n\n\n\nAirbnb React/JSX Style Guide\n\n\nAirbnb JavaScript Style Guide\n\n\n\n\nCheatsheet\n\u00b6\n\n\n\n\nhttps://devhints.io/react\n\n\nhttps://github.com/sw-yx/react-typescript-cheatsheet\n\n\nhttps://github.com/piotrwitek/react-redux-typescript-guide\n\n\n\n\nPatterns\n\u00b6\n\n\n\n\nhttps://legacy.gitbook.com/book/krasimir/react-in-patterns/details\n\n\n\n\nJS/React VS.Code Extensions\n\u00b6\n\n\n\n\nThe Ultimate VSCode Setup for Front End/JS/React\n\n\n\n\nBoilerplates\n\u00b6\n\n\n\n\nhttps://github.com/artofcodelabs/front-end-boilerplate\n\n\n\n\nLessons\n\u00b6\n\n\n\n\nhttps://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981\n\n\n\n\nFrameworks\n\u00b6\n\n\n\n\nhttps://github.com/STRML/react-grid-layout\n\n\nhttp://www.chartjs.org/\n\n\nhttps://rushjs.io/\n\n\n\n\nTutorials\n\u00b6\n\n\n\n\nReact & Redux Tutorial - Build a Hacker News Clone\n\n\n\n\nMulti Step Form\n\u00b6\n\n\n\n\nReact Wizard Form\n\n\nReact-Stepzilla\n\n\nReact multi-page poll webpart\n\n -\nReact Reusable Wizard component for SPFx\n\n\n\n\nErrors\n\u00b6\n\n\n\n\nDealing with Undefined 'this' in React Event Handlers in a Performant Way\n\n\n\n\nHooks\n\u00b6\n\n\n\n\nUsing React hooks to globally share service scope between components\n\n\nHooks FAQ\n\n\nSharePoint Framework and React hooks. Should I care?\n\n\nReact, Hooks, and Office Development \u2013 Bringing It All Together",
-            "title": "Learning"
-        },
-        {
-            "location": "/react/learning/#learning",
-            "text": "",
-            "title": "Learning"
-        },
-        {
-            "location": "/react/learning/#architecture",
-            "text": "Client-Side Architecture Basics - Guide",
-            "title": "Architecture"
-        },
-        {
-            "location": "/react/learning/#web-developer",
-            "text": "Web Development for Beginners - A Curriculum  Front-end Developer Handbook 2019  Microsoft Frontend Bootcamp  Full-stack Web Developer Plan - 2021",
-            "title": "Web Developer"
-        },
-        {
-            "location": "/react/learning/#learning-course",
-            "text": "react-lernen  https://www.udemy.com/react-the-complete-guide-incl-redux/?start=0  https://www.udemy.com/react-redux/  https://udilia.com/courses/learn-react-by-building-a-web-app  https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/  frontendmasters - learn - react  reactscreencasts",
-            "title": "Learning Course"
-        },
-        {
-            "location": "/react/learning/#lifecycle-methods",
-            "text": "Interactive React Lifecycle Methods diagram  SharePoint Framework Client-Side Webparts mit React  React Best Practices",
-            "title": "Lifecycle methods"
-        },
-        {
-            "location": "/react/learning/#roadmap",
-            "text": "React Developer Roadmap  The 2018 Web Developer Roadmap  The 2018 React JS RoadMap",
-            "title": "Roadmap"
-        },
-        {
-            "location": "/react/learning/#reference",
-            "text": "https://github.com/brillout/awesome-react-components#ui-frameworks  https://survivejs.com/react/  https://github.com/markerikson/react-redux-links",
-            "title": "Reference"
-        },
-        {
-            "location": "/react/learning/#blogs",
-            "text": "overreacted - Personal blog by Dan Abramov",
-            "title": "Blogs"
-        },
-        {
-            "location": "/react/learning/#styleguide",
-            "text": "Airbnb React/JSX Style Guide  Airbnb JavaScript Style Guide",
-            "title": "Styleguide"
-        },
-        {
-            "location": "/react/learning/#cheatsheet",
-            "text": "https://devhints.io/react  https://github.com/sw-yx/react-typescript-cheatsheet  https://github.com/piotrwitek/react-redux-typescript-guide",
-            "title": "Cheatsheet"
-        },
-        {
-            "location": "/react/learning/#patterns",
-            "text": "https://legacy.gitbook.com/book/krasimir/react-in-patterns/details",
-            "title": "Patterns"
-        },
-        {
-            "location": "/react/learning/#jsreact-vscode-extensions",
-            "text": "The Ultimate VSCode Setup for Front End/JS/React",
-            "title": "JS/React VS.Code Extensions"
-        },
-        {
-            "location": "/react/learning/#boilerplates",
-            "text": "https://github.com/artofcodelabs/front-end-boilerplate",
-            "title": "Boilerplates"
-        },
-        {
-            "location": "/react/learning/#lessons",
-            "text": "https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981",
-            "title": "Lessons"
-        },
-        {
-            "location": "/react/learning/#frameworks",
-            "text": "https://github.com/STRML/react-grid-layout  http://www.chartjs.org/  https://rushjs.io/",
-            "title": "Frameworks"
-        },
-        {
-            "location": "/react/learning/#tutorials",
-            "text": "React & Redux Tutorial - Build a Hacker News Clone",
-            "title": "Tutorials"
-        },
-        {
-            "location": "/react/learning/#multi-step-form",
-            "text": "React Wizard Form  React-Stepzilla  React multi-page poll webpart \n - React Reusable Wizard component for SPFx",
-            "title": "Multi Step Form"
-        },
-        {
-            "location": "/react/learning/#errors",
-            "text": "Dealing with Undefined 'this' in React Event Handlers in a Performant Way",
-            "title": "Errors"
-        },
-        {
-            "location": "/react/learning/#hooks",
-            "text": "Using React hooks to globally share service scope between components  Hooks FAQ  SharePoint Framework and React hooks. Should I care?  React, Hooks, and Office Development \u2013 Bringing It All Together",
-            "title": "Hooks"
-        },
-        {
-            "location": "/react/redux/",
-            "text": "Redux\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nA reduced explanation of Redux(Reducers, Actions, and Store)\n\n\n\n\nConnect Redux to SPFx\n\u00b6\n\n\n\n\nConnect React Redux to SharePoint Framework\n\n\nUsing Redux Async Actions and ImmutableJS in SharePoint Framework\n\n\nUsing React and Redux in SharePoint Framework (SPFx)\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSPFx webpart using Redux-Form library and React\n\n\nWebpart with React and Redux\n\n\n\n\nTips\n\u00b6\n\n\n\n\nHow do I change SPFx and Reactjs to SPFx React-Redux?\n\n\nCombine async redux actions in SPFx react components",
-            "title": "Redux"
-        },
-        {
-            "location": "/react/redux/#redux",
-            "text": "",
-            "title": "Redux"
-        },
-        {
-            "location": "/react/redux/#overview",
-            "text": "A reduced explanation of Redux(Reducers, Actions, and Store)",
-            "title": "Overview"
-        },
-        {
-            "location": "/react/redux/#connect-redux-to-spfx",
-            "text": "Connect React Redux to SharePoint Framework  Using Redux Async Actions and ImmutableJS in SharePoint Framework  Using React and Redux in SharePoint Framework (SPFx)",
-            "title": "Connect Redux to SPFx"
-        },
-        {
-            "location": "/react/redux/#samples",
-            "text": "SPFx webpart using Redux-Form library and React  Webpart with React and Redux",
-            "title": "Samples"
-        },
-        {
-            "location": "/react/redux/#tips",
-            "text": "How do I change SPFx and Reactjs to SPFx React-Redux?  Combine async redux actions in SPFx react components",
-            "title": "Tips"
-        },
-        {
             "location": "/js/guide/",
             "text": "Guide\n\u00b6\n\n\nRef\n\u00b6\n\n\n\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript\n\n\n\n\nStyleguide\n\u00b6\n\n\n\n\nhttps://google.github.io/styleguide/jsguide.html\n\n\nhttps://github.com/airbnb/javascript\n\n\nhttp://2ality.com/2011/10/javascript-overview.html\n\n\n\n\nBooks\n\u00b6\n\n\n\n\nFront-End Developer Handbook 2018\n\n\nFront-End Developer Handbook 2018\n\n\nYou Don't Know JS\n\n\n\n\nArrays\n\u00b6\n\n\n\n\nEleven Ways To Learn Javascript Array Iteration Effectively\n\n\n\n\nTechnologie Radar\n\u00b6\n\n\n\n\nhttps://lihsmi.ch/learning/2015/04/25/skill-radar-technology-radar.html\n\n\nhttps://github.com/schoeffm/techradar\n\n\nhttps://github.com/zalando/tech-radar\n\n\nhttps://github.com/bdargan/techradar",
             "title": "Guide"
@@ -3016,46 +2886,6 @@
             "title": "Overview"
         },
         {
-            "location": "/training/must-read/",
-            "text": "Must read\n\u00b6\n\n\nGuidance\n\u00b6\n\n\n\n\noffice-365-development-patterns-and-practices-solution-guidance\n\n\n\n\nSPFx\n\u00b6\n\n\n\n\nFutureofSPDev-SPFxExtensions.pptx\n\n\nPnP Controls\n\n\n\n\nOffice Fabric\n\u00b6\n\n\n\n\nhttps://github.com/guzmonne/office-ui-layout\n\n\nhttps://github.com/eoverfield/SP-Office-UI-Fabric\n\n\nSample App\n\n\nDetailsList.Advanced.Example\n\n\n\n\nOffice Fabric / React / Redux\n\u00b6\n\n\n\n\nhttp://dattabase.com/office-fabric-reactredux-sp-starter-project/\n\n\nhttp://dattabase.com/office-fabric-ui-reactredux-part-1-5/\n\n\nhttps://github.com/gunjandatta/sp-react-redux\n\n\n\n\nCloud\n\u00b6\n\n\n\n\nIaaS vs. PaaS: which one is best?\n\n\nWhat are the main cloud service models?\n\n\n\n\nGoogle Engineering\n\u00b6\n\n\n\n\nSite Reliability Engineering",
-            "title": "Must read"
-        },
-        {
-            "location": "/training/must-read/#must-read",
-            "text": "",
-            "title": "Must read"
-        },
-        {
-            "location": "/training/must-read/#guidance",
-            "text": "office-365-development-patterns-and-practices-solution-guidance",
-            "title": "Guidance"
-        },
-        {
-            "location": "/training/must-read/#spfx",
-            "text": "FutureofSPDev-SPFxExtensions.pptx  PnP Controls",
-            "title": "SPFx"
-        },
-        {
-            "location": "/training/must-read/#office-fabric",
-            "text": "https://github.com/guzmonne/office-ui-layout  https://github.com/eoverfield/SP-Office-UI-Fabric  Sample App  DetailsList.Advanced.Example",
-            "title": "Office Fabric"
-        },
-        {
-            "location": "/training/must-read/#office-fabric-react-redux",
-            "text": "http://dattabase.com/office-fabric-reactredux-sp-starter-project/  http://dattabase.com/office-fabric-ui-reactredux-part-1-5/  https://github.com/gunjandatta/sp-react-redux",
-            "title": "Office Fabric / React / Redux"
-        },
-        {
-            "location": "/training/must-read/#cloud",
-            "text": "IaaS vs. PaaS: which one is best?  What are the main cloud service models?",
-            "title": "Cloud"
-        },
-        {
-            "location": "/training/must-read/#google-engineering",
-            "text": "Site Reliability Engineering",
-            "title": "Google Engineering"
-        },
-        {
             "location": "/training/course/",
             "text": "Training\n\u00b6\n\n\nTrainer\n\u00b6\n\n\n\n\nWhy SharePoint Training is Important\n\n\n\n\nO365\n\u00b6\n\n\n\n\nCustomize the Learning Experience\n\n\nMicrosoft 365 learning pathways\n\n\nAdding Partner Custom Content to Microsoft Learning Pathways Portals\n\n\n\n\nMS-Certification\n\u00b6\n\n\n\n\nAzure Solutions Architect vs. Azure Administrator\n\n\nMicrosoft 365 Fundamentals - Cloud deployment models\n\n\n\n\nNews\n\u00b6\n\n\n\n\nhttp://icansharepoint.com/how-to-stay-up-to-date-with-office-365/\n\n\n\n\nProgramming\n\u00b6\n\n\n\n\nhttps://guide.freecodecamp.org\n\n\n\n\nTypescript\n\u00b6\n\n\nOnline course\n\u00b6\n\n\n\n\nPluralsight - sharepoint-framework-tooling\n\n\n\n\nLearning / Tutorials\n\u00b6\n\n\n\n\nOfficeDev: TrainingContent\n\n\nsp-dev-docs\n\n\ndev-office.com: getting-started-with-sharepoint-framework-tutorials\n\n\ntechcommunity: Hidden-gems-at-Ignite-A-conference-guide-from-the-SharePoint",
             "title": "Course"
@@ -3104,6 +2934,201 @@
             "location": "/training/course/#learning-tutorials",
             "text": "OfficeDev: TrainingContent  sp-dev-docs  dev-office.com: getting-started-with-sharepoint-framework-tutorials  techcommunity: Hidden-gems-at-Ignite-A-conference-guide-from-the-SharePoint",
             "title": "Learning / Tutorials"
+        },
+        {
+            "location": "/training/must-read/",
+            "text": "Must read\n\u00b6\n\n\nGuidance\n\u00b6\n\n\n\n\noffice-365-development-patterns-and-practices-solution-guidance\n\n\n\n\nSPFx\n\u00b6\n\n\n\n\nFutureofSPDev-SPFxExtensions.pptx\n\n\nPnP Controls\n\n\n\n\nOffice Fabric\n\u00b6\n\n\n\n\nhttps://github.com/guzmonne/office-ui-layout\n\n\nhttps://github.com/eoverfield/SP-Office-UI-Fabric\n\n\nSample App\n\n\nDetailsList.Advanced.Example\n\n\n\n\nOffice Fabric / React / Redux\n\u00b6\n\n\n\n\nhttp://dattabase.com/office-fabric-reactredux-sp-starter-project/\n\n\nhttp://dattabase.com/office-fabric-ui-reactredux-part-1-5/\n\n\nhttps://github.com/gunjandatta/sp-react-redux\n\n\n\n\nCloud\n\u00b6\n\n\n\n\nIaaS vs. PaaS: which one is best?\n\n\nWhat are the main cloud service models?\n\n\n\n\nGoogle Engineering\n\u00b6\n\n\n\n\nSite Reliability Engineering",
+            "title": "Must read"
+        },
+        {
+            "location": "/training/must-read/#must-read",
+            "text": "",
+            "title": "Must read"
+        },
+        {
+            "location": "/training/must-read/#guidance",
+            "text": "office-365-development-patterns-and-practices-solution-guidance",
+            "title": "Guidance"
+        },
+        {
+            "location": "/training/must-read/#spfx",
+            "text": "FutureofSPDev-SPFxExtensions.pptx  PnP Controls",
+            "title": "SPFx"
+        },
+        {
+            "location": "/training/must-read/#office-fabric",
+            "text": "https://github.com/guzmonne/office-ui-layout  https://github.com/eoverfield/SP-Office-UI-Fabric  Sample App  DetailsList.Advanced.Example",
+            "title": "Office Fabric"
+        },
+        {
+            "location": "/training/must-read/#office-fabric-react-redux",
+            "text": "http://dattabase.com/office-fabric-reactredux-sp-starter-project/  http://dattabase.com/office-fabric-ui-reactredux-part-1-5/  https://github.com/gunjandatta/sp-react-redux",
+            "title": "Office Fabric / React / Redux"
+        },
+        {
+            "location": "/training/must-read/#cloud",
+            "text": "IaaS vs. PaaS: which one is best?  What are the main cloud service models?",
+            "title": "Cloud"
+        },
+        {
+            "location": "/training/must-read/#google-engineering",
+            "text": "Site Reliability Engineering",
+            "title": "Google Engineering"
+        },
+        {
+            "location": "/training/learning/",
+            "text": "Learning\n\u00b6\n\n\nArchitecture\n\u00b6\n\n\n\n\nClient-Side Architecture Basics - Guide\n\n\n\n\nWeb Developer\n\u00b6\n\n\n\n\nWeb Development for Beginners - A Curriculum\n\n\nFront-end Developer Handbook 2019\n\n\nMicrosoft Frontend Bootcamp\n\n\nFull-stack Web Developer Plan - 2021\n\n\n\n\nLearning Course\n\u00b6\n\n\n\n\nreact-lernen\n\n\nhttps://www.udemy.com/react-the-complete-guide-incl-redux/?start=0\n\n\nhttps://www.udemy.com/react-redux/\n\n\nhttps://udilia.com/courses/learn-react-by-building-a-web-app\n\n\nhttps://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/\n\n\nfrontendmasters - learn - react\n\n\nreactscreencasts\n\n\n\n\nLifecycle methods\n\u00b6\n\n\n\n\nInteractive React Lifecycle Methods diagram\n\n\nSharePoint Framework Client-Side Webparts mit React\n\n\nReact Best Practices\n\n\n\n\nRoadmap\n\u00b6\n\n\n\n\nReact Developer Roadmap\n\n\nThe 2018 Web Developer Roadmap\n\n\nThe 2018 React JS RoadMap\n\n\n\n\nReference\n\u00b6\n\n\n\n\nhttps://github.com/brillout/awesome-react-components#ui-frameworks\n\n\nhttps://survivejs.com/react/\n\n\nhttps://github.com/markerikson/react-redux-links\n\n\n\n\nBlogs\n\u00b6\n\n\n\n\noverreacted - Personal blog by Dan Abramov\n\n\n\n\nStyleguide\n\u00b6\n\n\n\n\nAirbnb React/JSX Style Guide\n\n\nAirbnb JavaScript Style Guide\n\n\n\n\nCheatsheet\n\u00b6\n\n\n\n\nhttps://devhints.io/react\n\n\nhttps://github.com/sw-yx/react-typescript-cheatsheet\n\n\nhttps://github.com/piotrwitek/react-redux-typescript-guide\n\n\n\n\nPatterns\n\u00b6\n\n\n\n\nhttps://legacy.gitbook.com/book/krasimir/react-in-patterns/details\n\n\n\n\nJS/React VS.Code Extensions\n\u00b6\n\n\n\n\nThe Ultimate VSCode Setup for Front End/JS/React\n\n\n\n\nBoilerplates\n\u00b6\n\n\n\n\nhttps://github.com/artofcodelabs/front-end-boilerplate\n\n\n\n\nLessons\n\u00b6\n\n\n\n\nhttps://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981\n\n\n\n\nFrameworks\n\u00b6\n\n\n\n\nhttps://github.com/STRML/react-grid-layout\n\n\nhttp://www.chartjs.org/\n\n\nhttps://rushjs.io/\n\n\n\n\nTutorials\n\u00b6\n\n\n\n\nReact & Redux Tutorial - Build a Hacker News Clone\n\n\n\n\nMulti Step Form\n\u00b6\n\n\n\n\nReact Wizard Form\n\n\nReact-Stepzilla\n\n\nReact multi-page poll webpart\n\n -\nReact Reusable Wizard component for SPFx\n\n\n\n\nErrors\n\u00b6\n\n\n\n\nDealing with Undefined 'this' in React Event Handlers in a Performant Way\n\n\n\n\nHooks\n\u00b6\n\n\n\n\nUsing React hooks to globally share service scope between components\n\n\nHooks FAQ\n\n\nSharePoint Framework and React hooks. Should I care?\n\n\nReact, Hooks, and Office Development \u2013 Bringing It All Together",
+            "title": "Learning"
+        },
+        {
+            "location": "/training/learning/#learning",
+            "text": "",
+            "title": "Learning"
+        },
+        {
+            "location": "/training/learning/#architecture",
+            "text": "Client-Side Architecture Basics - Guide",
+            "title": "Architecture"
+        },
+        {
+            "location": "/training/learning/#web-developer",
+            "text": "Web Development for Beginners - A Curriculum  Front-end Developer Handbook 2019  Microsoft Frontend Bootcamp  Full-stack Web Developer Plan - 2021",
+            "title": "Web Developer"
+        },
+        {
+            "location": "/training/learning/#learning-course",
+            "text": "react-lernen  https://www.udemy.com/react-the-complete-guide-incl-redux/?start=0  https://www.udemy.com/react-redux/  https://udilia.com/courses/learn-react-by-building-a-web-app  https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/  frontendmasters - learn - react  reactscreencasts",
+            "title": "Learning Course"
+        },
+        {
+            "location": "/training/learning/#lifecycle-methods",
+            "text": "Interactive React Lifecycle Methods diagram  SharePoint Framework Client-Side Webparts mit React  React Best Practices",
+            "title": "Lifecycle methods"
+        },
+        {
+            "location": "/training/learning/#roadmap",
+            "text": "React Developer Roadmap  The 2018 Web Developer Roadmap  The 2018 React JS RoadMap",
+            "title": "Roadmap"
+        },
+        {
+            "location": "/training/learning/#reference",
+            "text": "https://github.com/brillout/awesome-react-components#ui-frameworks  https://survivejs.com/react/  https://github.com/markerikson/react-redux-links",
+            "title": "Reference"
+        },
+        {
+            "location": "/training/learning/#blogs",
+            "text": "overreacted - Personal blog by Dan Abramov",
+            "title": "Blogs"
+        },
+        {
+            "location": "/training/learning/#styleguide",
+            "text": "Airbnb React/JSX Style Guide  Airbnb JavaScript Style Guide",
+            "title": "Styleguide"
+        },
+        {
+            "location": "/training/learning/#cheatsheet",
+            "text": "https://devhints.io/react  https://github.com/sw-yx/react-typescript-cheatsheet  https://github.com/piotrwitek/react-redux-typescript-guide",
+            "title": "Cheatsheet"
+        },
+        {
+            "location": "/training/learning/#patterns",
+            "text": "https://legacy.gitbook.com/book/krasimir/react-in-patterns/details",
+            "title": "Patterns"
+        },
+        {
+            "location": "/training/learning/#jsreact-vscode-extensions",
+            "text": "The Ultimate VSCode Setup for Front End/JS/React",
+            "title": "JS/React VS.Code Extensions"
+        },
+        {
+            "location": "/training/learning/#boilerplates",
+            "text": "https://github.com/artofcodelabs/front-end-boilerplate",
+            "title": "Boilerplates"
+        },
+        {
+            "location": "/training/learning/#lessons",
+            "text": "https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981",
+            "title": "Lessons"
+        },
+        {
+            "location": "/training/learning/#frameworks",
+            "text": "https://github.com/STRML/react-grid-layout  http://www.chartjs.org/  https://rushjs.io/",
+            "title": "Frameworks"
+        },
+        {
+            "location": "/training/learning/#tutorials",
+            "text": "React & Redux Tutorial - Build a Hacker News Clone",
+            "title": "Tutorials"
+        },
+        {
+            "location": "/training/learning/#multi-step-form",
+            "text": "React Wizard Form  React-Stepzilla  React multi-page poll webpart \n - React Reusable Wizard component for SPFx",
+            "title": "Multi Step Form"
+        },
+        {
+            "location": "/training/learning/#errors",
+            "text": "Dealing with Undefined 'this' in React Event Handlers in a Performant Way",
+            "title": "Errors"
+        },
+        {
+            "location": "/training/learning/#hooks",
+            "text": "Using React hooks to globally share service scope between components  Hooks FAQ  SharePoint Framework and React hooks. Should I care?  React, Hooks, and Office Development \u2013 Bringing It All Together",
+            "title": "Hooks"
+        },
+        {
+            "location": "/training/redux/",
+            "text": "Redux\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nA reduced explanation of Redux(Reducers, Actions, and Store)\n\n\n\n\nConnect Redux to SPFx\n\u00b6\n\n\n\n\nConnect React Redux to SharePoint Framework\n\n\nUsing Redux Async Actions and ImmutableJS in SharePoint Framework\n\n\nUsing React and Redux in SharePoint Framework (SPFx)\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nSPFx webpart using Redux-Form library and React\n\n\nWebpart with React and Redux\n\n\n\n\nTips\n\u00b6\n\n\n\n\nHow do I change SPFx and Reactjs to SPFx React-Redux?\n\n\nCombine async redux actions in SPFx react components",
+            "title": "Redux"
+        },
+        {
+            "location": "/training/redux/#redux",
+            "text": "",
+            "title": "Redux"
+        },
+        {
+            "location": "/training/redux/#overview",
+            "text": "A reduced explanation of Redux(Reducers, Actions, and Store)",
+            "title": "Overview"
+        },
+        {
+            "location": "/training/redux/#connect-redux-to-spfx",
+            "text": "Connect React Redux to SharePoint Framework  Using Redux Async Actions and ImmutableJS in SharePoint Framework  Using React and Redux in SharePoint Framework (SPFx)",
+            "title": "Connect Redux to SPFx"
+        },
+        {
+            "location": "/training/redux/#samples",
+            "text": "SPFx webpart using Redux-Form library and React  Webpart with React and Redux",
+            "title": "Samples"
+        },
+        {
+            "location": "/training/redux/#tips",
+            "text": "How do I change SPFx and Reactjs to SPFx React-Redux?  Combine async redux actions in SPFx react components",
+            "title": "Tips"
+        },
+        {
+            "location": "/training/ms-600/",
+            "text": "MS-600\n\u00b6\n\n\nSkills\n\u00b6\n\n\n\n\nExam MS-600: Building Applications and Solutions with Microsoft 365 Core Services\u2013Skills Measured\n\n\n\n\nGraph Developing\n\u00b6\n\n\n\n\nAn introduction to Microsoft Graph for developers - Part I - Getting started - October 2019\n\n\nAn introduction to Microsoft Graph for developers - Part 2 \u2013 Advanced topics - November 2019\n\nmicrosoft-identity-platform-developer-community-calloctober-2019)\n\n\nMicrosoft 365 Developer - YouToube Videos\n\n\n\n\nMicrosoft identity plattform\n\u00b6\n\n\n\n\nSlides - Microsoft identity platform developer community call-October 2019\n\n\nMicrosoft identity plattform for Developers",
+            "title": "MS-600"
+        },
+        {
+            "location": "/training/ms-600/#ms-600",
+            "text": "",
+            "title": "MS-600"
+        },
+        {
+            "location": "/training/ms-600/#skills",
+            "text": "Exam MS-600: Building Applications and Solutions with Microsoft 365 Core Services\u2013Skills Measured",
+            "title": "Skills"
+        },
+        {
+            "location": "/training/ms-600/#graph-developing",
+            "text": "An introduction to Microsoft Graph for developers - Part I - Getting started - October 2019  An introduction to Microsoft Graph for developers - Part 2 \u2013 Advanced topics - November 2019 \nmicrosoft-identity-platform-developer-community-calloctober-2019)  Microsoft 365 Developer - YouToube Videos",
+            "title": "Graph Developing"
+        },
+        {
+            "location": "/training/ms-600/#microsoft-identity-plattform",
+            "text": "Slides - Microsoft identity platform developer community call-October 2019  Microsoft identity plattform for Developers",
+            "title": "Microsoft identity plattform"
         },
         {
             "location": "/powershell/powershell/",
