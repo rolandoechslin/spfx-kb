@@ -432,12 +432,6 @@
     </url>
         
     <url>
-     <loc>/powershell/pnp-core/</loc>
-     <lastmod>2020-12-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
      <loc>/powershell/spo-ps/</loc>
      <lastmod>2020-12-29</lastmod>
      <changefreq>daily</changefreq>

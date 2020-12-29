@@ -3291,21 +3291,6 @@
             "title": "LookUp Fields"
         },
         {
-            "location": "/powershell/pnp-core/",
-            "text": "PnP Core Powershell\n\u00b6\n\n\nInstall\n\u00b6\n\n\n\n\nManage SharePoint & Microsoft Teams on PowerShell Core using the PnP.PowerShell module",
-            "title": "PnP-Core-PS"
-        },
-        {
-            "location": "/powershell/pnp-core/#pnp-core-powershell",
-            "text": "",
-            "title": "PnP Core Powershell"
-        },
-        {
-            "location": "/powershell/pnp-core/#install",
-            "text": "Manage SharePoint & Microsoft Teams on PowerShell Core using the PnP.PowerShell module",
-            "title": "Install"
-        },
-        {
             "location": "/powershell/spo-ps/",
             "text": "SPO Powershell\n\u00b6\n\n\n\n\nSPO Index\n\n\nGetting started with SharePoint Online Management Shell\n\n\n\n\nCheck Version\n\u00b6\n\n\nLatest Version\n- \nhttps://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.8119.0\n\n\nGet-Module\n \nMicrosoft\n.\nOnline\n.\nSharePoint\n.\nPowerShell\n*\n \n-ListAvailable\n \n|\n \nSelect-Object\n \nName\n,\nVersion\n \n|\n \nSort-Object\n \nVersion\n \n-Descending\n\n\n\n\n\n\n\nDownload\n\n\n\n\nUpdate Module to latest version\n\u00b6\n\n\nUpdate-Module\n \nMicrosoft\n.\nOnline\n.\nSharePoint\n.\nPowerShell\n\n\n\n\n\nDelete old version\n\u00b6\n\n\nGet-InstalledModule\n \n-Name\n \n\"Microsoft.Online.SharePoint.PowerShell\"\n \n-RequiredVersion\n \n16\n.\n0\n.\n8119\n.\n0\n \n|\n \nUninstall-Module\n\n\n\n\n\nCredential Manager\n\u00b6\n\n\n\n\nHow-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell\n\n\n\n\nConnect\n\u00b6\n\n\n\n\nconnecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication\n\n\nConnect to Office 365/Exchange Services Functions\n\n\n\n\nConnect-SPOService\n \nhttps\n:\n//\ndevro-admin\n.\nsharepoint\n.\ncom\n \n-Credential\n \nadmin\n@devro\n.\nonmicrosoft\n.\ncom\n\n\n\n\n\nDisconnect\n\u00b6\n\n\nDisconnect-SPOService\n\n\n\n\n\nULS-Correlation ID\n\u00b6\n\n\nget-splogevent\n \n-starttime\n \n(\nget-date\n).\naddminutes\n(-\n20\n)\n \n|\n \nwhere-object\n \n{\n \n$_\n.\ncorrelation\n \n-eq\n \n\"e434f79b-68bb-40d2-0000-03a47eae1bf9\"\n \n}\n \n|\n \nfl\n \nmessage\n \n>\n \nc\n:\n\\\nerrors1\n.\ntxt\n\n\n\n\n\nSecurity\n\u00b6\n\n\n\n\nSPO Authentication in Powershell for CSOM when Legacy Authentication is disabled for tenant or Multi Factor Authentication is enabled for user\n\n\nsharepoint-framework-and-microsoft-graph-access-%E2%80%93-convenient-but-be-very-careful\n\n\n\n\nget-sposite\n \n|\n \n?{\n$_\n.\nDenyAddAndCustomizePages\n \n-eq\n \n'Disabled'\n}\n\n \n```\n\n\n\n## Ressources\n\n\n\n-\n \n[\nresources-to-learn-powershell-for-office\n-\n365\n](\nhttps\n:\n//\nabsolute-sharepoint\n.\ncom\n/\n2018\n/\n03\n/\nresources-to-learn-powershell-for-office\n-\n365\n.\nhtml\n)\n\n\n\n## Tenant Configuration\n\n\n\n### Remove Feedback Button\n\n\n\n```\nPowershell\n\n\nSet-SPOTenant\n \n-UserVoiceForFeedbackEnabled\n:\n$false",
             "title": "SPO-PS"
@@ -3357,7 +3342,7 @@
         },
         {
             "location": "/powershell/pnp-powershell/",
-            "text": "PnP-Powershell\n\u00b6\n\n\n\n\nDocumentation\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\nMaking the move from SharePointPnPPowerShellOnline to PnP.PowerShell",
+            "text": "PnP-Powershell\n\u00b6\n\n\n\n\nDocumentation\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\nManage SharePoint & Microsoft Teams on PowerShell Core using the PnP.PowerShell module\n\n\nMaking the move from SharePointPnPPowerShellOnline to PnP.PowerShell",
             "title": "PnP-Powershell"
         },
         {
@@ -3367,7 +3352,7 @@
         },
         {
             "location": "/powershell/pnp-powershell/#installation",
-            "text": "Making the move from SharePointPnPPowerShellOnline to PnP.PowerShell",
+            "text": "Manage SharePoint & Microsoft Teams on PowerShell Core using the PnP.PowerShell module  Making the move from SharePointPnPPowerShellOnline to PnP.PowerShell",
             "title": "Installation"
         },
         {
