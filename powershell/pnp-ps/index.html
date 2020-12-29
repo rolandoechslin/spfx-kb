@@ -1345,8 +1345,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#install-specifix-version" title="Install specifix version" class="md-nav__link">
-    Install specifix version
+  <a href="#install-specific-version" title="Install specific version" class="md-nav__link">
+    Install specific version
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-with-app-permission" title="Connect with App Permission" class="md-nav__link">
+    Connect with App Permission
   </a>
   
 </li>
@@ -1735,8 +1742,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#install-specifix-version" title="Install specifix version" class="md-nav__link">
-    Install specifix version
+  <a href="#install-specific-version" title="Install specific version" class="md-nav__link">
+    Install specific version
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-with-app-permission" title="Connect with App Permission" class="md-nav__link">
+    Connect with App Permission
   </a>
   
 </li>
@@ -1859,8 +1873,22 @@
 <div class="codehilite"><pre><span></span><span class="nb">Get-InstalledModule</span> <span class="n">-Name</span> <span class="s2">&quot;SharePointPnPPowerShellOnline&quot;</span> <span class="n">-RequiredVersion</span> <span class="n">3</span><span class="p">.</span><span class="n">8</span><span class="p">.</span><span class="n">1904</span><span class="p">.</span><span class="n">0</span> <span class="p">|</span> <span class="n">Uninstall-Module</span>
 </pre></div>
 
-<h2 id="install-specifix-version">Install specifix version<a class="headerlink" href="#install-specifix-version" title="Permanent link">&para;</a></h2>
+<h2 id="install-specific-version">Install specific version<a class="headerlink" href="#install-specific-version" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span><span class="n">Install-Module</span> <span class="n">-Name</span> <span class="n">SharePointPnPPowerShellOnline</span> <span class="n">-RequiredVersion</span> <span class="n">3</span><span class="p">.</span><span class="n">0</span><span class="p">.</span><span class="n">1808</span><span class="p">.</span><span class="n">1</span>
+</pre></div>
+
+<h2 id="connect-with-app-permission">Connect with App Permission<a class="headerlink" href="#connect-with-app-permission" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=QWY7AJ2ZQYI">Introduction to Initialize-PnPPowerShellAuthentication cmdlet</a></li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="n">Initialize-PnPPowerShellAuthentication</span> <span class="n">-ApplicationName</span> <span class="n">DemoApp</span> <span class="n">-Tenant</span> <span class="n">tenant</span><span class="p">.</span><span class="n">onmicrosoft</span><span class="p">.</span><span class="n">com</span> <span class="n">-Store</span> <span class="n">CurrentUser</span>
+
+<span class="nv">$url</span> <span class="p">=</span> <span class="s2">&quot;https://tenant.sharepoint.com&quot;</span>
+<span class="nv">$clientid</span> <span class="p">=</span> <span class="s2">&quot;&lt;placeholder&gt;&quot;</span>
+<span class="nv">$thumbprint</span> <span class="p">=</span> <span class="s2">&quot;&lt;placeholder&gt;&quot;</span>
+<span class="nv">$tenant</span> <span class="p">=</span> <span class="s1">&#39;tenant.onmicrosoft.com&#39;</span>
+
+<span class="nb">Connect-PnPOnline</span> <span class="n">-Url</span> <span class="nv">$url</span> <span class="n">-ClientId</span> <span class="nv">$clientid</span> <span class="n">-Thumbprint</span> <span class="nv">$thumbprint</span> <span class="n">-Tenant</span> <span class="nv">$tenant</span>
 </pre></div>
 
 <div class="codehilite"><pre><span></span><span class="c"># Load PNP the Right Way</span>
