@@ -77,7 +77,6 @@ pages:
     - Powershell:
         - Powershell: powershell/powershell.md
         - PnP-PS: powershell/pnp-ps.md
-        - PnP-Core-PS: powershell/pnp-core.md
         - SPO-PS: powershell/spo-ps.md
         - PnP-Powershell: powershell/pnp-powershell.md
         - Teams: powershell/teams.md
