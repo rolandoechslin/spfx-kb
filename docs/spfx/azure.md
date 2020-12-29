@@ -1,6 +1,6 @@
 # Azure
 
-## Administation with Azure-CLI
+## Administration with Azure-CLI
 
 - [The Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
 
