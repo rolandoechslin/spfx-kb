@@ -3356,6 +3356,21 @@
             "title": "Security"
         },
         {
+            "location": "/powershell/pnp-powershell/",
+            "text": "PnP-Powershell\n\u00b6\n\n\n\n\nDocumentation\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\nMaking the move from SharePointPnPPowerShellOnline to PnP.PowerShell",
+            "title": "PnP-Powershell"
+        },
+        {
+            "location": "/powershell/pnp-powershell/#pnp-powershell",
+            "text": "Documentation",
+            "title": "PnP-Powershell"
+        },
+        {
+            "location": "/powershell/pnp-powershell/#installation",
+            "text": "Making the move from SharePointPnPPowerShellOnline to PnP.PowerShell",
+            "title": "Installation"
+        },
+        {
             "location": "/powershell/teams/",
             "text": "Teams Powershell\n\u00b6\n\n\n\n\nPowerShell Reference for Office Products\n\n\n\n\nCheck Version\n\u00b6\n\n\nLatest Version\n\n\n\n\nhttps://www.powershellgallery.com/packages/MicrosoftTeams/0.9.6\n\n\n\n\nGet-Module\n \nMicrosoftTeams\n*\n \n-ListAvailable\n \n|\n \nSelect-Object\n \nName\n,\nVersion\n \n|\n \nSort-Object\n \nVersion\n \n-Descending\n\n\n\n\n\nUpdate Module to latest version\n\u00b6\n\n\nUpdate-Module\n \nMicrosoftTeams\n\n\n\n\n\nDelete old version\n\u00b6\n\n\nGet-InstalledModule\n \n-Name\n \n\"MicrosoftTeams\"\n \n-RequiredVersion\n \n0\n.\n9\n.\n0\n \n|\n \nUninstall-Module\n\n\n\n\n\nConnect\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/teams/connect-microsoftteams?view=teams-ps\n\n\n\n\nDisconnect\n\u00b6\n\n\n\n\nhttps://docs.microsoft.com/en-us/powershell/module/teams/disconnect-microsoftteams?view=teams-ps",
             "title": "Teams"
