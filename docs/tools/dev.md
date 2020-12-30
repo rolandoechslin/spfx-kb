@@ -11,6 +11,7 @@
 - [nextjs-reactstrap](https://github.com/dyarfi/nextjs-reactstrap)
 - [Airframe React](https://github.com/0wczar/airframe-react)
 - [react-admin](https://github.com/marmelab/react-admin)
+- [Next.js from the Ground Up](https://explorers.netlify.com/learn/nextjs)
 
 #### Admin Templates
 
