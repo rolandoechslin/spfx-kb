@@ -13,3 +13,4 @@
 ## Audience Targeting
 
 - [Target Content on Modern SharePoint](https://mattipaukkonen.com/2019/08/27/target-content-on-modern-sharepoint/)
+- [SharePoint Audience Targeting - How to (german version)](https://blog.ioz.ch/sharepoint-audience-targeting-inhalte-zielgruppenorientiert-anzeigen/)
