@@ -127,6 +127,14 @@
 
 - [keepachangelog](http://keepachangelog.com/en/1.0.0)
 
+## Download Website / offline
+
+- [Download entire website for offline](https://winsmarts.com/download-entire-website-for-offline-fbe69b699c3b)
+
+```ps
+wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows -domains www.yourwebsite.com --no-parent www.yourwebsite.com/someurl
+```
+
 ## Email
 
 - [Responsive Email Foundation Zurb](https://foundation.zurb.com/emails.html)

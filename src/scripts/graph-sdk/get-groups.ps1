@@ -13,5 +13,11 @@
 # $teams = $groups | Where-Object { $_.ResourceProvisioningOptions -Contains "Team" }
 # $teams
 
-Get-MgGroup -Property "id,displayName" -PageSize 50 | Format-Table DisplayName, Id
+# Get-MgOrganization | Select-Object DisplayName, City, State, Country, PostalCode, BusinessPhones
+# Get-MgOrganization | Select-Object -expand AssignedPlans
+# Get-MgApplication | Select-Object DisplayName, Appid, SignInAudience
 
+# Get-MgGroup -Property "id,displayName" -PageSize 50 | Format-Table DisplayName, Id
+
+
+# Get-MgUser | Select-Object id, displayName, OfficeLocation, BusinessPhones | Where-Object {!$_.OfficeLocation }
