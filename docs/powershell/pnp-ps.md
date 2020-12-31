@@ -44,10 +44,25 @@ Update-Module SharePointPnPPowerShell*
 Get-InstalledModule -Name "SharePointPnPPowerShellOnline" -RequiredVersion 3.8.1904.0 | Uninstall-Module
 ```
 
-## Install specifix version
+## Install specific version
 
 ```Powershell
 Install-Module -Name SharePointPnPPowerShellOnline -RequiredVersion 3.0.1808.1
+```
+
+## Connect with App Permission
+
+- [Introduction to Initialize-PnPPowerShellAuthentication cmdlet](https://www.youtube.com/watch?v=QWY7AJ2ZQYI)
+
+```Powershell
+Initialize-PnPPowerShellAuthentication -ApplicationName DemoApp -Tenant tenant.onmicrosoft.com -Store CurrentUser
+
+$url = "https://tenant.sharepoint.com"
+$clientid = "<placeholder>"
+$thumbprint = "<placeholder>"
+$tenant = 'tenant.onmicrosoft.com'
+
+Connect-PnPOnline -Url $url -ClientId $clientid -Thumbprint $thumbprint -Tenant $tenant
 ```
 
 ```Powershell

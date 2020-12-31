@@ -11,6 +11,7 @@
 - [nextjs-reactstrap](https://github.com/dyarfi/nextjs-reactstrap)
 - [Airframe React](https://github.com/0wczar/airframe-react)
 - [react-admin](https://github.com/marmelab/react-admin)
+- [Next.js from the Ground Up](https://explorers.netlify.com/learn/nextjs)
 
 #### Admin Templates
 
@@ -125,6 +126,14 @@
 ## Change Log
 
 - [keepachangelog](http://keepachangelog.com/en/1.0.0)
+
+## Download Website / offline
+
+- [Download entire website for offline](https://winsmarts.com/download-entire-website-for-offline-fbe69b699c3b)
+
+```ps
+wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows -domains www.yourwebsite.com --no-parent www.yourwebsite.com/someurl
+```
 
 ## Email
 
