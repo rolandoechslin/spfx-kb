@@ -128,6 +128,11 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 - [Provisioning Teams with Azure Functions and Microsoft Flow Part 1: Solution Overview](https://bob1german.com/2019/03/12/provisioning-teams-with-azure-functions-and-microsoft-flow-part-1-solution-overview/)
 - [Microsoft Teams – Automation of Teams Creation](https://www.robertjgates.com/microsoft-teams-automation-of-teams-creation/)
 - [Provision Microsoft Teams with Azure Automation – Part I](https://mmsharepoint.wordpress.com/2019/03/22/provision-microsoft-teams-with-azure-automation-part-i/)
+- [Episode #73 - Provisioning Teams with the PnP Provisioning Engine](https://www.youtube.com/watch?v=_8Jkj2NUAEc)
+- [Episode #99 - Updates about Provisioning Teams with PnP Provisioning Engine](https://www.youtube.com/watch?v=IL_s4axmsW0)
+- [Episode #120 - Microsoft Teams Templates](https://www.youtube.com/watch?v=-YQxFjfGPTI)
+- [Provisioning teams in Microsoft Teams using the PnP Provisioning Engine](https://www.collabmagazine.com/provisioning-teams-in-microsoft-teams-using-the-pnp-provisioning-engine/)
+- [PiaSys/Conferences-Samples/Teams-Provisioning](https://github.com/PiaSys/Conferences-Samples/tree/master/Teams-Provisioning)
 
 ## Renaming Teams
 
