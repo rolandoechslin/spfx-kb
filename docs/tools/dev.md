@@ -23,6 +23,7 @@
 - [tailwindcss play](https://play.tailwindcss.com/)
 - [Integrating Tailwind CSS framework into a SPFx React project for advance User Experience](https://www.youtube.com/watch?v=_gQkauERWh0)
 - [react-tailwindcss](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-tailwindcss)
+- [Your First Tailwind Website](https://www.youtube.com/watch?v=NRagrTU_v8o&feature=youtu.be)
 
 ## Design to Code
 

@@ -2,6 +2,10 @@
 
 - [Overview of Microsoft Search](https://docs.microsoft.com/en-us/microsoftsearch/overview-microsoft-search)
 
+## News 2021
+
+- [https://techcommunity.microsoft.com/t5/microsoft-search-blog/we-re-making-changes-to-search-in-sharepoint-online/ba-p/1971119](https://techcommunity.microsoft.com/t5/microsoft-search-blog/we-re-making-changes-to-search-in-sharepoint-online/ba-p/1971119)
+
 ## News 2020
 
 - [Make the most of Microsoft Search through Configuration and Administration](https://techcommunity.microsoft.com/t5/video-hub/make-the-most-of-microsoft-search-through-configuration-and/m-p/1696788)
