@@ -1,6 +1,7 @@
 # Teams Powershell
 
 - [PowerShell support for Power Apps](https://docs.microsoft.com/en-us/power-platform/admin/powerapps-powershell)
+- [PowerShell Cmdlets for PowerApps and Flow creators and administrators](https://powerapps.microsoft.com/de-de/blog/gdpr-admin-powershell-cmdlets/)
 
 ## Check Version
 
