@@ -30,4 +30,8 @@ Get-InstalledModule -Name "Microsoft.PowerApps.PowerShell" -RequiredVersion 1.0.
 
 ## Connect
 
+```Powershell
+Add-PowerAppsAccount
+```
+
 ## Disconnect
