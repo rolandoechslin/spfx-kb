@@ -12,6 +12,7 @@
 #
 #------------------------------------------------------ 
 
+Clear-Host
 
 #****************
 #------------------------------------------------------
@@ -21,16 +22,13 @@ Write-Host " PBI credentials ..." -ForegroundColor Yellow -BackgroundColor DarkG
 
 ## PBI credentials 
 
-$password = "myPassword" | ConvertTo-SecureString -asPlainText -Force
-$username = "myemail@domain.com" 
-$credential = New-Object System.Management.Automation.PSCredential($username, $password)
+# $password = "xxx" | ConvertTo-SecureString -asPlainText -Force
+# $username = "xxx@xxx.onmicrosoft.com" 
+# $credential = New-Object System.Management.Automation.PSCredential($username, $password)
 
 ## PBI connect 
 
-Connect-PowerBIServiceAccount -Credential $credential
-
-# Login-PowerBI
-
+# Connect-PowerBIServiceAccount -Credential $credential
 
 #****************
 #------------------------------------------------------
@@ -71,11 +69,15 @@ $Groups_deleted | Select Id, Name, Type, State | Out-GridView
 #------------------------------------------------------ 
 
 # Clear variable before loop to reseat array data collector 
+
+$WorkspaceUsers = @()
 clear-variable -name WorkspaceUsers
 
 Write-Host " Looping ..." -ForegroundColor Yellow -BackgroundColor DarkGreen
 
-foreach ($GroupWorkspaceId in $GroupWorkspaces.Id) {
+foreach ($item in $Groups) {
+
+    $GroupWorkspaceId = $item.Id
 
     $WorkspaceObject = Get-PowerBIWorkspace -Scope Organization -Id $GroupWorkspaceId
     $pbiURL = "https://api.powerbi.com/v1.0/myorg/groups/$GroupWorkspaceId/users"
@@ -91,9 +93,13 @@ foreach ($GroupWorkspaceId in $GroupWorkspaces.Id) {
 # --> 1. API Call for WORKSPACE USERS  
 #------------------------------------------------------ 
     Write-Host " API Call ..." -ForegroundColor Yellow -BackgroundColor DarkGreen
-     
+
     ## API call
-    $resultJson = Invoke-PowerBIRestMethod –Url $pbiURL –Method GET 
+    $resultJson = Invoke-PowerBIRestMethod -Url $pbiURL -Method GET 
+
+    # $headers = Get-PowerBIAccessToken
+    # $resultJson = Invoke-RestMethod -Uri $pbiURL -Headers $headers  
+
     $resultObject = ConvertFrom-Json -InputObject $resultJson 
 
     ## Collect data fields for each loop
