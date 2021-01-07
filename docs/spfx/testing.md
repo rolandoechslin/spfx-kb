@@ -35,3 +35,4 @@
 ## Generate test data
 
 - [Mockaroo](https://mockaroo.com/)
+- [Generatedata](https://www.generatedata.com/)
