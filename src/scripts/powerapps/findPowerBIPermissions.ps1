@@ -9,6 +9,7 @@
 #
 # RestAPI call for each workspace (Group Users) 
 # * https://docs.microsoft.com/en-us/rest/api/power-bi/groups/getgroupusers
+# * https://stackoverflow.com/questions/54702764/how-to-extract-all-powerbi-users-and-workspace-access-using-the-powerbi-api-or-a
 #
 #------------------------------------------------------ 
 
