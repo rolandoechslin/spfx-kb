@@ -19,6 +19,7 @@
 
 ## Query (Count / Filter / Search  / OrderBy)
 
+- [Use query parameters to customize responses](https://docs.microsoft.com/en-us/graph/query-parameters)
 - [Build advanced queries in Microsoft Graph with $count, $filter, $search, and $orderby](https://developer.microsoft.com/en-us/microsoft-365/blogs/build-advanced-queries-with-count-filter-search-and-orderby/)
 
 ## Azure Functions

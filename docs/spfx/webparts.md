@@ -113,6 +113,11 @@
 - [react-google-charts - timeline](https://github.com/rakannimer/react-google-charts/blob/master/sandboxes/timeline/index.js)
 - [JavaScript Calendar React](https://fullcalendar.io/)
 
+## Isolated WebParts
+
+- [Isolated web parts](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/isolated-web-parts)
+- [SPFx isolated web parts with AadHttpClient](https://www.sharepointnutsandbolts.com/2019/04/spfx-isolated-web-parts-with-AadHttpClient.html)
+
 ## Filtering WebParts
 
 - [SPFx - Image Gallery with filtering](https://www.ejazhussain.com/2019/02/08/spfx-image-gallery/)
