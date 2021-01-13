@@ -20,11 +20,12 @@
 - [react-admin](https://github.com/marmelab/react-admin)
 - [Next.js from the Ground Up](https://explorers.netlify.com/learn/nextjs)
 
-#### Admin Templates
+#### Create new project
 
+- [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 - [nextjs-admin-template - Pal.js UI](https://github.com/paljs/nextjs-admin-template)
 
-### Tailwind
+### Tailwind CSS
 
 - [tailwindcss.com](https://tailwindcss.com/)
 - [tailwindcss play](https://play.tailwindcss.com/)
