@@ -43,6 +43,7 @@
 - [Choosing a CDN for SharePoint client-side solutions](https://bob1german.com/2017/12/04/choosing-a-cdn-for-sharepoint-client-side-solutions/)
 - [Deploy SPFx WebParts To Office 365 Public CDN](https://www.c-sharpcorner.com/article/sharepoint-framework-deploy-spfx-webparts-to-office-365-public-cdn/)
 - [Add Office 365 CDN rule to have a document library for each SharePoint site](http://sharepoint-tricks.com/add-office-365-cdn-rule-to-have-a-document-library-for-each-sharepoint-site/)
+- [Office 365 Content Delivery Network (CDN) Quickstart](https://docs.microsoft.com/de-de/microsoft-365/Enterprise/office-365-cdn-quickstart?view=o365-worldwide)
 
 write-manifests.json
 
