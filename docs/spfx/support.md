@@ -162,3 +162,8 @@ edge://settings/siteData?search=cookie
 ## Classic Features
 
 - [Classic Administration Links](https://thechriskent.com/2020/04/28/spo-classic-admin-links/)
+
+## WebDAV
+
+- [Troubleshooting Explorer view and mapped drives to SharePoint](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/troubleshooting-explorer-view-and-mapped-drives-to-sharepoint/ba-p/1185909)
+- [DrDAV - A PowerShell-based diagnostic script for Windows WebClient service.](https://github.com/edbarnes-msft/DrDAV)
