@@ -167,3 +167,4 @@ edge://settings/siteData?search=cookie
 
 - [Troubleshooting Explorer view and mapped drives to SharePoint](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/troubleshooting-explorer-view-and-mapped-drives-to-sharepoint/ba-p/1185909)
 - [DrDAV - A PowerShell-based diagnostic script for Windows WebClient service.](https://github.com/edbarnes-msft/DrDAV)
+- [Zee Drive for Office 365](http://www.thinkscape.com/Map-Network-Drives-To-Office-365-OneDrive/)
