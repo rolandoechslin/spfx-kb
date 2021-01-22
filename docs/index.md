@@ -730,3 +730,10 @@ o365 spfx project upgrade --shell powershell --toVersion 1.8.2 --output md > rep
 ## SPFx Utilities
 
 - [Utility functions which you might not know existed in SPFx](https://www.eliostruyf.com/utility-functions-install-extra-dependencies-sharepoint-framework/)
+
+## Team Development Tools
+
+- [Guides and tools to design your Microsoft Teams app effectively](https://developer.microsoft.com/en-us/microsoft-teams/blogs/guides-and-tools-to-design-your-microsoft-teams-app-effectively/)
+- [@fluentui/react-teams](https://github.com/OfficeDev/microsoft-teams-ui-component-library)
+- [Microsoft Teams UI templates sample app](https://github.com/OfficeDev/Microsoft-Teams-Samples/tree/main/samples/tab-ui-templates/ts)
+
