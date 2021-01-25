@@ -7,6 +7,7 @@
 ## Start Developing
 
 - [Prepare your Microsoft 365 tenant](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)
+- [Get Started with the Getting Started Sample App](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/get-started-with-the-getting-started-sample-app/ba-p/90334)
 
 ## Support
 
