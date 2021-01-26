@@ -36,3 +36,9 @@
 ## Power Virtual Agent
 
 - [How to: create #nocode bots to teams super-easily in 5 minutes using Power Virtual Agents app in Teams](https://myteamsday.com/2020/09/30/pvateamsbots/)
+
+## Patterns
+
+- [Transition conversations from bot to human](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-pattern-handoff-human?view=azure-bot-service-4.0)
+- [Create interactive conversational bots for Microsoft Teams](https://www.youtube.com/watch?v=zSIysk0yL0Q)
+- [Chatbot Human Handover with Microsoft Teams](https://www.youtube.com/watch?v=i48zJ0gHxQU)
