@@ -98,6 +98,14 @@ Debug localization
 ?forceLocale=fr-fr
 ```
 
+Hide the navigation
+
+- [Hide the navigation and the header in modern SharePoint pages](https://sharepoint.handsontek.net/2021/01/24/hide-navigation-header-modern-sharepoint-pages/)
+
+```html
+?env=Embedded is the new ?isDlg=1 
+```
+
 News Links
 
 - [Edit news links](https://emilymancini.com/2020/01/16/editing-a-news-link-in-sharepoint-online/)
