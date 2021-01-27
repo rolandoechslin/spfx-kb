@@ -42,3 +42,8 @@
 - [Transition conversations from bot to human](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-pattern-handoff-human?view=azure-bot-service-4.0)
 - [Create interactive conversational bots for Microsoft Teams](https://www.youtube.com/watch?v=zSIysk0yL0Q)
 - [Chatbot Human Handover with Microsoft Teams](https://www.youtube.com/watch?v=i48zJ0gHxQU)
+
+## Create Bot in Teams
+
+- [Episode #108 - Creating a Teams Bot with Yo Team](https://www.youtube.com/watch?v=529Ah_Dv5Do)
+- [Chatbots in Microsoft-Teams | Erstellen Sie mit Power Virtual Agents](https://www.youtube.com/watch?v=G8C_YKdJves)
