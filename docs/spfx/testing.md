@@ -36,3 +36,4 @@
 
 - [Mockaroo](https://mockaroo.com/)
 - [Generatedata](https://www.generatedata.com/)
+- [Public APIs](https://public-apis.io/)
