@@ -157,3 +157,4 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 - [Reshape the future of work with Microsoft Dataverse for Teams](https://powerapps.microsoft.com/en-us/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/)
  - [A Closer Look at Data Platform Capabilities in Project Oakdale](https://powerapps.microsoft.com/en-us/blog/a-closer-look-at-data-platform-capabilities-in-project-oakdale/)
  - [Manage Microsoft Dataverse for Teams environments](https://powerapps.microsoft.com/en-us/blog/manage-microsoft-dataverse-for-teams-environments/)
+ - [Power Platform in a Modern Data Platform Architecture](https://www.runwayview.com/blog/power-platform-data-platform-architecture)
