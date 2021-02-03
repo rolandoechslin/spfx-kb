@@ -20,3 +20,7 @@
 - [SPFx WebParts responsive to Modern Page sections](https://ypcode.wordpress.com/2019/01/10/spfx-webparts-responsive-to-modern-page-sections/)
 - [Prevent SCSS from changing your CSS class names](https://tahoeninjas.blog/2019/07/28/prevent-scss-from-changing-your-css-class-names/)
 - [Applying Multiple CSS Classes in SharePoint Framework](https://dmitryrogozhny.com/blog/applying-multiple-css-classes-in-spfx)
+
+## Designing Header
+
+- [Designing SharePoint sites with beautiful headers](https://sharepointgeoff.azurewebsites.net/designing-sharepoint-sites-with-beautiful-headers/)
