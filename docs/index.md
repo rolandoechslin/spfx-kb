@@ -46,7 +46,7 @@
 - [New renewable Office 365 developer subscriptions launch on April 3rd](https://developer.microsoft.com/en-us/graph/blogs/new-renewable-office-365-developer-subscriptions-launch-on-april-3rd/)
 - [10 Tips for Demo/Dev Tenant](https://thomy.tech/10-things-you-should-do-with-your-office365-demo-or-dev-tenant/)
 - [how-to-use-the-complimentary-azure-credits-in-a-microsoft-365-developer-tenant-step-by-step](https://laurakokkarinen.com/how-to-use-the-complimentary-azure-credits-in-a-microsoft-365-developer-tenant-step-by-step/)
-- [SPFx Fast Serve Tool](https://github.com/s-KaiNet/spfx-fast-serve)
+- [What is a "Dev Tenant" and why would you want one?](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/what-is-a-dev-tenant-and-why-would-you-want-one/ba-p/2036610)
 
 ## Wish List
 
@@ -730,6 +730,8 @@ o365 spfx project upgrade --shell powershell --toVersion 1.8.2 --output md > rep
 ## SPFx Utilities
 
 - [Utility functions which you might not know existed in SPFx](https://www.eliostruyf.com/utility-functions-install-extra-dependencies-sharepoint-framework/)
+- [SPFx Fast Serve Tool](https://github.com/s-KaiNet/spfx-fast-serve)
+- [sp-formatter](https://github.com/pnp/sp-formatter)
 
 ## Team Development Tools
 
