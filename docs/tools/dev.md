@@ -125,12 +125,13 @@
 - [Random password generator](https://www.msdservices.com/apg/index.php)
 - [password-generators](https://www.hongkiat.com/blog/password-generators)
 
-## Guid
+## GUID
 
 - [GUID Generator](https://www.guidgen.com)
 
-## Json
+## JSON
 
+- [Introduction to JSON](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/introduction-to-json/ba-p/2049369)
 - [Online Json viewer](http://jsonviewer.stack.hu)
 - [Fake Json Generator](https://jsonplaceholder.typicode.com)
 - <https://json-csv.com>
