@@ -97,3 +97,4 @@
 - [Hooks FAQ](https://reactjs.org/docs/hooks-faq.html#should-i-use-hooks-classes-or-a-mix-of-both)
 - [SharePoint Framework and React hooks. Should I care?](https://spblog.net/post/2020/03/10/sharepoint-framework-and-react-hooks-should-i-care)
 - [React, Hooks, and Office Development – Bringing It All Together ](https://threewill.com/function-components-and-hooks-architecture-tutorial)
+- [Rooks - Collection of React hooks ](https://react-hooks.org/)
