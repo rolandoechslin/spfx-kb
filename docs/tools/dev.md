@@ -133,8 +133,9 @@
 
 - [Introduction to JSON](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/introduction-to-json/ba-p/2049369)
 - [Online Json viewer](http://jsonviewer.stack.hu)
+- [json formatter](https://jsonformatter.org/)
 - [Fake Json Generator](https://jsonplaceholder.typicode.com)
-- <https://json-csv.com>
+- [JSON to CSV Converter](https://json-csv.com)
 
 ## Change Log
 
