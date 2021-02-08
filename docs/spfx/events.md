@@ -1,13 +1,6 @@
-# Events
+# Events/meetings
 
-## SPS Munich 2017
+## How to create online meetings/events
 
-- https://rencore.com/blog/sps-munich-2017-goes-microsoft-office/
-
-## European Collaboration (Mainz) Summit 2018
-
-- https://www.slideshare.net/collabsummit/presentations
-
-## How to create online meetings / events
-
-- [How to presnet at online meetings and events like an ignite superstar](https://thomy.tech/how-to-present-at-online-meetings-and-events-like-an-ignite-superstar/)
+- [How to present at online meetings and events like an ignite superstar](https://thomy.tech/how-to-present-at-online-meetings-and-events-like-an-ignite-superstar/)
+- [From PowerPoint to Demos Easily with Desktops](https://tahoeninjas.blog/2021/02/07/from-powerpoint-to-demos-easily-with-desktops/)
