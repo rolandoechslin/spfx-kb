@@ -732,6 +732,7 @@ o365 spfx project upgrade --shell powershell --toVersion 1.8.2 --output md > rep
 - [Utility functions which you might not know existed in SPFx](https://www.eliostruyf.com/utility-functions-install-extra-dependencies-sharepoint-framework/)
 - [SPFx Fast Serve Tool](https://github.com/s-KaiNet/spfx-fast-serve)
 - [sp-formatter](https://github.com/pnp/sp-formatter)
+- [SP Formatter: the big update](https://spblog.net/post/2021/02/05/sp-formatter-the-big-update)
 
 ## Team Development Tools
 
