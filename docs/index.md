@@ -66,6 +66,7 @@
 - [Office fabric react - React-Guideline](https://github.com/OfficeDev/office-ui-fabric-react/wiki/React-Guidelines)
 - [Office fabric react - TypeScript-Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/TypeScript-Guidelines)
 - [react-typescript-cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet)
+- [Setup TypeScript with React](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)
 
 ## Performance Guidline
 
