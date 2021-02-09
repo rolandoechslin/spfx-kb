@@ -167,7 +167,7 @@ gulp serve --nobrowser
 - <https://pdemro.com/improve-sharepoint-framework-build-times-by-hacking-gulp-and-webpack>
 - <https://github.com/pdemro/spfx-gulpfile-hack>
 
-## Depoyment
+## Deployment
 
 ```bash
 npm i
