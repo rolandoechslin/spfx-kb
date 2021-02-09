@@ -56,3 +56,11 @@
 - [msgraphtoolkitsamples](https://github.com/ktskumar/msgraphtoolkitsamples)
 - [SPFx - ms-graph-toolkit-agenda-panel](https://github.com/rabwill/msgraph-myagenda-panel)
 - [SPFx - Exploring Microsoft Graph Toolkit](https://github.com/spblog/mgt-intro)
+
+## Files Handling
+
+- [Accessing Files with Microsoft Graph](https://www.youtube.com/watch?v=YYcuyNfNdRw)
+
+## Granular Permission
+
+- [Use Microsoft Graph to Set Granular Permissions to SharePoint Online Sites for Azure AD Application](https://dev.to/svarukala/use-microsoft-graph-to-set-granular-permissions-to-sharepoint-online-sites-for-azure-ad-application-4l12)
