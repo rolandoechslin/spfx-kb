@@ -35,6 +35,7 @@
 - [Integrating Tailwind CSS framework into a SPFx React project for advance User Experience](https://www.youtube.com/watch?v=_gQkauERWh0)
 - [react-tailwindcss](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-tailwindcss)
 - [Your First Tailwind Website](https://www.youtube.com/watch?v=NRagrTU_v8o&feature=youtu.be)
+- [How to build a landing page with Tailwind CSS, Tailwind UI, Vite.js – tutorial video](https://www.youtube.com/watch?v=41kqZYK3wRI&feature=youtu.be)
 
 ## Design to Code
 
