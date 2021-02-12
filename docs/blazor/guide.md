@@ -9,6 +9,7 @@
 
 - [Blazorade-Teams](https://github.com/Blazorade/Blazorade-Teams)
 - [Video: Building Microsoft Teams Apps with Blazor](https://www.youtube.com/watch?t=1592&v=P7l6WYBu_kY&feature=youtu.be)
+- [PnP Dev General Community Call Demo, Feb 4 2021 - Blazor Teams App](https://mikaberglund.com/pnp-dev-general-community-call-demo-feb-4-2021/)
 
 ## Blogger
 
