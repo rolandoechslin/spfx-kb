@@ -2,6 +2,7 @@
 
 ## Overview
 
+- [Awesome Blazor](https://github.com/AdrienTorris/awesome-blazor)
 - [Blazor University](https://blazor-university.com/)
 - [aspnet-core-blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0)
 - [Blazor Web Assembly and Microsoft Graph with Azure Functions](https://developer.microsoft.com/en-us/graph/blogs/microsoft-graph-mailbag-blazor-web-assembly-and-microsoft-graph-with-azure-functions/)
