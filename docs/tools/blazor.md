@@ -15,3 +15,8 @@
 ## Blogger
 
 - [mikaberglund](https://mikaberglund.com/pnp-dev-general-community-call-demo-feb-4-2021/)
+
+## Workshop
+
+- [Blazor - app building workshop](https://github.com/dotnet-presentations/blazor-workshop)
+- [Blazor MS-Teams Tab App Series](https://github.com/SpectoLogic/M365-2020)
