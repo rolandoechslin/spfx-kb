@@ -63,4 +63,5 @@
 
 ## Granular Permission
 
+- [SharePoint Site Collection Level Permissions](https://www.youtube.com/watch?v=wcJRQDsXMQ8&feature=youtu.be)
 - [Use Microsoft Graph to Set Granular Permissions to SharePoint Online Sites for Azure AD Application](https://dev.to/svarukala/use-microsoft-graph-to-set-granular-permissions-to-sharepoint-online-sites-for-azure-ad-application-4l12)
