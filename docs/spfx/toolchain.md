@@ -198,6 +198,7 @@ npm install saves any specified packages into dependencies by default. Additiona
 - [Use SPFx and NVM in an easy way with PowerShell](https://jonasbjerke.wordpress.com/2019/01/09/use-spfx-and-nvm-in-an-easy-way-with-powershell/)
 - [How to use specific NodeJS version with your SPFx project](https://n8d.at/blog/how-to-use-specific-nodejs-version-with-your-spfx-project)
 - [Better Node.js Install Management with Node Version Manager](https://www.andrewconnell.com/blog/better-node-js-install-management-with-node-version-manager)
+- [Use Node Version Manager to develop your SPFx apps ](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/use-node-version-manager-to-develop-your-spfx-apps/ba-p/2128393)
 
 ```bash
 nvm install 10.22.1
