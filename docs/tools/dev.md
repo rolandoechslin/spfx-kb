@@ -37,6 +37,8 @@
 - [Your First Tailwind Website](https://www.youtube.com/watch?v=NRagrTU_v8o&feature=youtu.be)
 - [How to build a landing page with Tailwind CSS, Tailwind UI, Vite.js – tutorial video](https://www.youtube.com/watch?v=41kqZYK3wRI&feature=youtu.be)
 - [Tailwind CSS: From Zero to Production" on YouTube](https://blog.tailwindcss.com/tailwindcss-from-zero-to-production)
+- [Source Code - From Zero to Production](https://github.com/tailwindlabs/tailwindcss-from-zero-to-production)
+
 ## Design to Code
 
 - [MS Fabric and Stardust to Fluent UI](https://github.com/microsoft/fluentui/wiki/FAQ---Fabric-and-Stardust-to-Fluent-UI)
