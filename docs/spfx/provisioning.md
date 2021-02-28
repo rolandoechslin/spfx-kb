@@ -20,6 +20,10 @@
 - [How to do column validation in SharePoint](https://sharepointmaven.com/how-to-do-column-validation-in-sharepoint)
 - [SharePoint Column Validation Examples](https://techtrainingnotes.blogspot.com/2015/10/sharepoint-column-validation-examples.html)
 
+## App Bar
+
+ - [Introduction to the SharePoint app bar](https://docs.microsoft.com/en-us/SharePoint/sharepoint-app-bar#set-up-a-home-site-for-the-first-time)
+
 ## Links
 
 - <https://www.techmikael.com/2017/04/sharepoint-pnp-webcast-provisioning.html>
