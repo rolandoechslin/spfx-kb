@@ -1,7 +1,8 @@
 # Links
 
-## Ressources
+## Resources
 
+- [Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/developer/windows-powershell?view=powershell-7.1)
 - [The PowerShell Gallery](https://docs.microsoft.com/en-us/powershell/scripting/gallery/overview?view=powershell-7.1)
 - [janikvonrotz-awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
 - [How to: SnipScripts](https://github.com/TechSnips/SnipScripts)
