@@ -3937,7 +3937,7 @@
         },
         {
             "location": "/security/learning/",
-            "text": "Security\n\u00b6\n\n\nRessources\n\u00b6\n\n\n\n\nOWASP\u2122 Foundation\n\n\ndanielmiessler - Web Application Security Testing Resources\n\n\nHacking-Security-Ebooks\n\n\n\n\nChecklist\n\u00b6\n\n\n\n\nOWASP Testing Checklist\n\n\nSecurity KB Issues - portswigger.net\n\n\n\n\nPassword Check\n\u00b6\n\n\n\n\nhaveibeenpwned\n\n\nIs someone spying on you?\n\n\n\n\nTools\n\u00b6\n\n\n\n\nAdvanced Web Security Proxy\n\n\nOWASP Zed Attack Proxy (ZAP)\n\n\nBurp\n\n\nRSA - Open Source Tools\n\n\n\n\nFirewall\n\u00b6\n\n\n\n\nUsing PowerShell To Maintain Windows Firewall Rules For Remote Access\n\n\n\n\nSharepoint OnPrem\n\u00b6\n\n\n\n\nPenetration Testing SharePoint\n\n\n\n\nOffice 365\n\u00b6\n\n\n\n\nBasic Security Set Up for Microsoft 365\n\n\nOffice 365 Security overview\n\n\nUse tenant restrictions to manage access to SaaS cloud applications\n\n\nDetect and Remediate Illicit Consent Grants\n\n\n\n\nFile\n\u00b6\n\n\n\n\n6 locations where you can set security for files in SharePoint and Office 365\n\n\n\n\nSPFx Tooling\n\u00b6\n\n\n\n\nSecurity Scanning a SharePoint Framework Solution\n\n\nIs JavaScript Safe for SharePoint\n\n\n\n\nLockfiles\n\u00b6\n\n\n\n\nWhy npm lockfiles can be a security blindspot for injecting malicious modules\n\n\n\n\nBlock websites\n\u00b6\n\n\n\n\nHow to Block a Single Website and more\n\n\n\n\nCookies\n\u00b6\n\n\n\n\nSameSite cookies explained",
+            "text": "Security\n\u00b6\n\n\nRessources\n\u00b6\n\n\n\n\nOWASP\u2122 Foundation\n\n\ndanielmiessler - Web Application Security Testing Resources\n\n\nHacking-Security-Ebooks\n\n\nPEN-200 The official OSCP certification course\n\n\n\n\nChecklist\n\u00b6\n\n\n\n\nOWASP Testing Checklist\n\n\nSecurity KB Issues - portswigger.net\n\n\n\n\nPassword Check\n\u00b6\n\n\n\n\nhaveibeenpwned\n\n\nIs someone spying on you?\n\n\n\n\nTools\n\u00b6\n\n\n\n\nAdvanced Web Security Proxy\n\n\nOWASP Zed Attack Proxy (ZAP)\n\n\nBurp\n\n\nRSA - Open Source Tools\n\n\nexploit-db.com\n\n\n\n\nFirewall\n\u00b6\n\n\n\n\nUsing PowerShell To Maintain Windows Firewall Rules For Remote Access\n\n\n\n\nSharepoint OnPrem\n\u00b6\n\n\n\n\nPenetration Testing SharePoint\n\n\n\n\nOffice 365\n\u00b6\n\n\n\n\nBasic Security Set Up for Microsoft 365\n\n\nOffice 365 Security overview\n\n\nUse tenant restrictions to manage access to SaaS cloud applications\n\n\nDetect and Remediate Illicit Consent Grants\n\n\n\n\nFile\n\u00b6\n\n\n\n\n6 locations where you can set security for files in SharePoint and Office 365\n\n\n\n\nSPFx Tooling\n\u00b6\n\n\n\n\nSecurity Scanning a SharePoint Framework Solution\n\n\nIs JavaScript Safe for SharePoint\n\n\n\n\nLockfiles\n\u00b6\n\n\n\n\nWhy npm lockfiles can be a security blindspot for injecting malicious modules\n\n\n\n\nBlock websites\n\u00b6\n\n\n\n\nHow to Block a Single Website and more\n\n\n\n\nCookies\n\u00b6\n\n\n\n\nSameSite cookies explained",
             "title": "Learning"
         },
         {
@@ -3947,7 +3947,7 @@
         },
         {
             "location": "/security/learning/#ressources",
-            "text": "OWASP\u2122 Foundation  danielmiessler - Web Application Security Testing Resources  Hacking-Security-Ebooks",
+            "text": "OWASP\u2122 Foundation  danielmiessler - Web Application Security Testing Resources  Hacking-Security-Ebooks  PEN-200 The official OSCP certification course",
             "title": "Ressources"
         },
         {
@@ -3962,7 +3962,7 @@
         },
         {
             "location": "/security/learning/#tools",
-            "text": "Advanced Web Security Proxy  OWASP Zed Attack Proxy (ZAP)  Burp  RSA - Open Source Tools",
+            "text": "Advanced Web Security Proxy  OWASP Zed Attack Proxy (ZAP)  Burp  RSA - Open Source Tools  exploit-db.com",
             "title": "Tools"
         },
         {
