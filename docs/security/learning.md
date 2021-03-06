@@ -5,7 +5,7 @@
 - [OWASP™ Foundation](https://www.owasp.org)
 - [danielmiessler - Web Application Security Testing Resources](https://danielmiessler.com/projects/webappsec_testing_resources)
 - [Hacking-Security-Ebooks](https://github.com/yeahhub/Hacking-Security-Ebooks)
-
+- [PEN-200 The official OSCP certification course](https://www.offensive-security.com/pwk-oscp/)
 ## Checklist
 
 - [OWASP Testing Checklist](https://www.owasp.org/index.php/Testing_Checklist)
@@ -22,6 +22,7 @@
 - [OWASP Zed Attack Proxy (ZAP)](https://www.zaproxy.org/)
 - [Burp](https://portswigger.net/burp)
 - [RSA - Open Source Tools](https://www.rsaconference.com/rsac-programs/open-source-tools)
+- [exploit-db.com](https://www.exploit-db.com)
   
 ## Firewall
 
