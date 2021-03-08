@@ -20,3 +20,7 @@
 ## Exclude mock data
 
 - https://www.eliostruyf.com/exclude-your-mock-data-and-other-modules-from-your-production-bundle-in-spfx/
+
+## Azure Token
+
+- [Easy trick to test your Azure Active Directory returned ID Tokens](https://matthijs.hoekstraonline.net/2021/03/07/easy-trick-to-test-your-returned-id-tokens-from-azure-active-directory/)
