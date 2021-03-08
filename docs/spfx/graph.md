@@ -53,6 +53,7 @@
 
 ## MGT Samples
 
+- [How to start a new SPFx web part project with Microsoft Graph Toolkit and React](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/how-to-start-a-new-spfx-web-part-project-with-microsoft-graph/ba-p/2191526)
 - [msgraphtoolkitsamples](https://github.com/ktskumar/msgraphtoolkitsamples)
 - [SPFx - ms-graph-toolkit-agenda-panel](https://github.com/rabwill/msgraph-myagenda-panel)
 - [SPFx - Exploring Microsoft Graph Toolkit](https://github.com/spblog/mgt-intro)
