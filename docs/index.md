@@ -41,6 +41,11 @@
 - [PnP Virtual Conference – September 2020 – Summary and Recordings](https://developer.microsoft.com/en-us/office/blogs/pnp-virtual-conference-september-2020-summary-and-recordings/)
 - [Microsoft 365 learning pathways](https://github.com/pnp/custom-learning-office-365)
 
+## Learning SPFx Videos
+
+- [SharePoint Framework for beginners 2021 | Episode 01 - Introduction](https://www.youtube.com/watch?v=WxdPb5vLRS4)
+- [SharePoint Framework for beginners 2021 | Episode 02 - Development Environment](https://www.youtube.com/watch?v=k-z9BhaiBrA)
+
 ## DEV-Tenant
 
 - [Welcome to the Office 365 Developer Program](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program)
