@@ -17,6 +17,7 @@
 - [January 2019 SharePoint Modernization News](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/January-2019-SharePoint-Modernization-News/ba-p/320552)
 - [SharePoint Framework Client-Side Web Part Samples & Tutorial Materials](https://sharepoint.github.io/sp-dev-fx-webparts/)
 - [Etiquette of Microsoft 365](https://greyhatbeard.github.io/m365-etiquette/)
+- [Tips & Tricks Coding/SPFX/AzureAD](https://michaelmaillot.github.io/)
 
 ## Start with SPFx (Training)
 
@@ -39,6 +40,11 @@
 - [PiaSys: Conferences-Samples](https://github.com/PiaSys/Conferences-Samples)
 - [PnP Virtual Conference – September 2020 – Summary and Recordings](https://developer.microsoft.com/en-us/office/blogs/pnp-virtual-conference-september-2020-summary-and-recordings/)
 - [Microsoft 365 learning pathways](https://github.com/pnp/custom-learning-office-365)
+
+## Learning SPFx Videos
+
+- [SharePoint Framework for beginners 2021 | Episode 01 - Introduction](https://www.youtube.com/watch?v=WxdPb5vLRS4)
+- [SharePoint Framework for beginners 2021 | Episode 02 - Development Environment](https://www.youtube.com/watch?v=k-z9BhaiBrA)
 
 ## DEV-Tenant
 
