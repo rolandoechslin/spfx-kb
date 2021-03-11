@@ -47,7 +47,7 @@
 
 write-manifests.json
 
-```json
+```JSON
 {
   "cdnBasePath": "https://publiccdn.sharepointonline.com/cloud67.sharepoint.com/cdn/topnavmenu"
 }
