@@ -1,5 +1,9 @@
 # PowerApps
 
+## Learning
+
+- [Power Wiki](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/init-api-permissions-for-your-spfx-projects-without-deploying/ba-p/2189059)
+
 ## Frameworks
 
 - [PowerApps Tools](https://github.com/microsoft/powerapps-tools)
