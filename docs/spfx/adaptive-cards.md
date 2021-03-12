@@ -2,7 +2,8 @@
 
 ## Reference
 
-- [adaptivecards.io](https://adaptivecards.io/)
+- [adaptivecards.io](https://adaptivecards.io/) 
+- [Get started with Adaptive Cards](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/get-started-with-adaptive-cards/ba-p/2048786)
 
 ## Samples
 
