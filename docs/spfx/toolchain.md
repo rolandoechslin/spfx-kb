@@ -5,7 +5,7 @@
 - [SharePoint Framework toolchain](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain)
 - [SharePoint Framework development tools and libraries](https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/tools-and-libraries.md)
 
-## From classic to nodern
+## From classic to modern
 
 - [Conquer your dev toolchain in 'Classic' SharePoint – Part 1](https://julieturner.net/2018/01/conquer-your-dev-toolchain-in-classic-sharepoint-part-1/)
 - [Conquer your dev toolchain in 'Classic' SharePoint – Part 2](https://julieturner.net/2018/01/conquer-your-dev-toolchain-in-classic-sharepoint-part-2/)

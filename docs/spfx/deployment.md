@@ -47,7 +47,7 @@
 
 write-manifests.json
 
-```json
+```JSON
 {
   "cdnBasePath": "https://publiccdn.sharepointonline.com/cloud67.sharepoint.com/cdn/topnavmenu"
 }
@@ -69,5 +69,6 @@ write-manifests.json
 
 ## Automate Project Documentation
 
+- [DocFx](https://dotnet.github.io/docfx/index.html)
 - [Automate project documentation from Azure DevOps to SharePoint on Microsoft 365](https://rick-brown.medium.com/automate-project-documentation-from-azure-devops-to-sharepoint-on-microsoft-365-f2e5b554d6ce)
 - [The static site generator for SharePoint](https://github.com/ValoIntranet/doctor)
