@@ -35,9 +35,10 @@
 
 ## Reference
 
-- https://github.com/brillout/awesome-react-components#ui-frameworks
-- https://survivejs.com/react/
-- https://github.com/markerikson/react-redux-links
+- [awesome-react-components](https://github.com/brillout/awesome-react-components#ui-frameworks)
+- [SurviveJS - React](https://survivejs.com/react/)
+- [react-redux-links](https://github.com/markerikson/react-redux-links)
+- [Clone Wars - Open source clones of popular sites](https://github.com/GorvGoyl/Clone-Wars)
 
 ## Blogs
 
