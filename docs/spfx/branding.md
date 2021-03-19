@@ -24,3 +24,4 @@
 ## Designing Header
 
 - [Designing SharePoint sites with beautiful headers](https://sharepointgeoff.azurewebsites.net/designing-sharepoint-sites-with-beautiful-headers/)
+- [Designing SharePoint sites with beautiful headers](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/designing-sharepoint-sites-with-beautiful-headers/ba-p/2110172)
