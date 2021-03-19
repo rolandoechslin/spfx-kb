@@ -61,3 +61,11 @@ Get-InstalledModule | select name, version
 ```Powershell
 Install-Module -Name AzureAD
 ```
+
+## Loaded Modules
+
+- [How to list all of the assemblies loaded in a PowerShell session?](https://www.koskila.net/how-to-list-all-of-the-assemblies-loaded-in-a-powershell-session/)
+
+```Powershell
+[System.AppDomain]::CurrentDomain.GetAssemblies() | Where-Object Location | Sort-Object -Property FullName | Select-Object -Property FullName, Location, GlobalAssemblyCache, IsFullyTrusted | Out-GridView
+```
