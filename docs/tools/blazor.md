@@ -20,3 +20,4 @@
 
 - [Blazor - app building workshop](https://github.com/dotnet-presentations/blazor-workshop)
 - [Blazor MS-Teams Tab App Series](https://github.com/SpectoLogic/M365-2020)
+- [Video: Microsoft Graph Toolkit with Blazor](https://www.selectedtech.show/24microsoft-graph-toolkit-blazor/#galerie1)
