@@ -83,3 +83,7 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 ## Remote working
 
 - [Practical guide to securing remote work using Microsoft 365 Business Premium](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/practical-guide-to-securing-remote-work-using-microsoft-365/ba-p/1354772)
+
+## Office 365 Management Activity API (M365 Audit Logs)
+
+- [Office 365 Management Activity API with Power Automate – Part One](https://www.leonarmston.com/2020/07/office-365-management-activity-api-with-power-automate-part-one/)
