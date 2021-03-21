@@ -1346,6 +1346,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#loaded-modules" title="Loaded Modules" class="md-nav__link">
+    Loaded Modules
+  </a>
+  
+</li>
+      
       
       
       
@@ -1704,6 +1711,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#loaded-modules" title="Loaded Modules" class="md-nav__link">
+    Loaded Modules
+  </a>
+  
+</li>
+      
       
       
       
@@ -1782,6 +1796,13 @@
 <li><a href="https://mosshowto.blogspot.com/2019/08/azure-ad-logs-powershell-azureadpreview.html">Get Azure AD audit and sign-in Logs using PowerShell and AzureADPreview module</a></li>
 </ul>
 <div class="codehilite"><pre><span></span><span class="n">Install-Module</span> <span class="n">-Name</span> <span class="n">AzureAD</span>
+</pre></div>
+
+<h2 id="loaded-modules">Loaded Modules<a class="headerlink" href="#loaded-modules" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.koskila.net/how-to-list-all-of-the-assemblies-loaded-in-a-powershell-session/">How to list all of the assemblies loaded in a PowerShell session?</a></li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="no">[System.AppDomain]</span><span class="p">::</span><span class="n">CurrentDomain</span><span class="p">.</span><span class="n">GetAssemblies</span><span class="p">()</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="n">Location</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">-Property</span> <span class="n">FullName</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-Property</span> <span class="n">FullName</span><span class="p">,</span> <span class="n">Location</span><span class="p">,</span> <span class="n">GlobalAssemblyCache</span><span class="p">,</span> <span class="n">IsFullyTrusted</span> <span class="p">|</span> <span class="nb">Out-GridView</span>
 </pre></div>
                 
                   
