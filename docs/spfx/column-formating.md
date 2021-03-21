@@ -4,6 +4,8 @@
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#style-guidelines)
 - [Special string values](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#special-string-values)
+- [Getting started with SharePoint’s custom column formatting (Part 1)](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/getting-started-with-sharepoint-s-custom-column-formatting/ba-p/2207937)
+- [Getting started with SharePoint's custom view formatting (Part 2)](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/getting-started-with-sharepoint-s-custom-view-formatting/ba-p/2222740)
 
 ## Tools
 - [HTML To Formatter](https://pnp.github.io/sp-dev-list-formatting/tools/html-formatter-generator/)
