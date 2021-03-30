@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # https://github.com/AlanPS1/PowerShell-Scripts/blob/main/Export-SPOAdmin.ps1
+=======
+# https://raw.githubusercontent.com/AlanPS1/PowerShell-Scripts/main/Export-SPOAdmin.ps1
+>>>>>>> 321a2a903a87d21b2e0e2cc6bd03decd63ec8e98
 
 New-Module {
 
@@ -429,4 +433,8 @@ New-Module {
 
     Export-ModuleMember Export-SPOAdmin
 
+<<<<<<< HEAD
 } | Out-Null
+=======
+} | Out-Null
+>>>>>>> 321a2a903a87d21b2e0e2cc6bd03decd63ec8e98
