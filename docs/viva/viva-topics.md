@@ -14,4 +14,8 @@
 
 ## Viva Connections
 
+## Overview
+
+- [Add Viva Connections for Microsoft Teams desktop](https://docs.microsoft.com/en-us/SharePoint/viva-connections)
+- [Video - Your intranet is now in Microsoft Teams with Microsoft Viva Connections](https://www.youtube.com/watch?v=IRr50w61fy0)
 - [Video - Getting started on deploying Viva Connections for Microsoft Teams desktop](https://www.youtube.com/watch?v=-qiRxrPexNI)
