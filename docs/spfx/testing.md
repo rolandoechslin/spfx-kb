@@ -1,5 +1,11 @@
 # Testing
 
+## TypeScript Testing
+
+- [Introduction to Test-Driven Development (TDD) with Classic TDD Example](https://khalilstemmler.com/articles/test-driven-development/introduction-to-tdd/)
+- [How to Setup a TypeScript + Node.js Project](https://khalilstemmler.com/blogs/typescript/node-starter-project/)
+- [Simple TypeScript Starter | 2020](https://github.com/stemmlerjs/simple-typescript-starter)
+- [Introduction to Test-Driven Development (TDD) with TypeScript | 2021](https://www.youtube.com/watch?v=a1jdwlujdk0)
 ## Toolchain Setup
 
 - [automated code reviews ts-project 1](https://thenikhilk.com/2021/02/20/automated-code-reviews-ts-project-1/)
