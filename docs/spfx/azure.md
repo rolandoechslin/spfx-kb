@@ -1,5 +1,9 @@
 # Azure
 
+## Azure Account / Identity services
+
+- [What's the difference between a personal Microsoft account and a work or school account?](https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-a-personal-microsoft-account-and-a/ba-p/2241897?fbclid=IwAR2WUzGGnTsMPkt99jJSXQyRau6uiCzQjqtT8mjZDH8dBn44fuCHU7xgxIc)
+
 ## Administration with Azure-CLI
 
 - [The Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
