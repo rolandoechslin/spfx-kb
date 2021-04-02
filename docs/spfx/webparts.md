@@ -1,5 +1,10 @@
 # Webparts
 
+## Find WeParts
+
+- [Find out where SPFx Web Parts are being used in Modern SharePoint sites](https://beaucameron.com/2019/01/17/experiment-find-out-where-spfx-web-parts-are-being-used-in-modern-sharepoint-sites/)
+- [Locatepages where particular webpart](https://www.techmikael.com/2019/02/locate-pages-where-particular-web-part.html)
+
 ## Design
 
 - [SharePointWireframes](https://github.com/hugoabernier/SharePointWireframes)
@@ -155,7 +160,7 @@
 
 - [Share data between SPFx webpart](https://www.linkedin.com/pulse/share-data-between-spfx-webpart-ramakrishnan-raman)
 
-## Dynamic Load Webpart
+## Dynamic Load WebPart
 
 - <https://github.com/wobba/spfx4fun/blob/master/DynamicLoad>
 
