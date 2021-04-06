@@ -4,6 +4,7 @@
 
 - [Find out where SPFx Web Parts are being used in Modern SharePoint sites](https://beaucameron.com/2019/01/17/experiment-find-out-where-spfx-web-parts-are-being-used-in-modern-sharepoint-sites/)
 - [Locatepages where particular webpart](https://www.techmikael.com/2019/02/locate-pages-where-particular-web-part.html)
+- [Upgrading the PnP Modern Search Web Parts from v3 to v4 - UpgradeWebParts](https://github.com/sympmarc/marc-demos/blob/master/UpgradeWebParts/ModernSearchWebPartsUpgradev3tov4.ps1)
 
 ## Design
 
