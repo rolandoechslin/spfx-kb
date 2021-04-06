@@ -1,5 +1,10 @@
 # Security
 
+## Azure AD breached
+
+- [My Azure AD has been breached! What now?](https://danielchronlund.com/2021/03/29/my-azure-ad-has-been-breached-what-now/)
+- [DCToolbox PowerShell Module for Microsoft 365 Security, Conditional Access Automation, and more](https://danielchronlund.com/2020/11/09/dctoolbox-powershell-module-for-microsoft-365-security-conditional-access-automation-and-more/)
+
 ## Azure Sentinel
 
 - [Monitor Office 365 Logs from Azure Sentinel](https://nanddeepnachanblogs.com/posts/2021-03-14-monitor-o365-logs-azure-sentinel/)
