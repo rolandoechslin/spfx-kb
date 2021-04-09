@@ -20,6 +20,7 @@
 - https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/
 - [frontendmasters - learn - react](https://frontendmasters.com/learn/react/)
 - [reactscreencasts](https://www.reactscreencasts.com/video_docs)
+- [React Wednesdays](https://www.telerik.com/react-wednesdays)
 
 ## Lifecycle methods
 
