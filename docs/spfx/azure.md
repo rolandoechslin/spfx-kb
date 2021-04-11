@@ -32,6 +32,7 @@
 - [BUILDING A MODERN FLAT PROJECT HUB USING SITE DESIGNS](https://joannecklein.com/2018/07/29/modern-project-sites-using-site-designs)
 - [office365-azureautomation](https://github.com/garrytrinder/office365-azureautomation)
 - [office365-azureautomation-runbooks](https://github.com/garrytrinder/office365-azureautomation)
+- [Azure automation tips, tricks and lessons learned](https://nocentdocent.wordpress.com/2018/04/13/azure-automation-tips-tricks-and-lessons-learned/)
 
 ## Azure-Functions
 

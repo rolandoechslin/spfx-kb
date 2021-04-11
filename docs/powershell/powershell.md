@@ -9,6 +9,7 @@
 
 ## Syntax
 
+- [About Preference Variables](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-7.1)
 - [powershell basic cheat sheet](http://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-basic-cheat-sheet2.pdf)
 - [powershell-ref](http://ligman.me/1n3mAUZ)
 - [PowerShell Cheat Sheet](https://www.sharepointeurope.com/powershell-cheat-sheet/)
