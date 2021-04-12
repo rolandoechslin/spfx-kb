@@ -32,12 +32,13 @@
 - [BUILDING A MODERN FLAT PROJECT HUB USING SITE DESIGNS](https://joannecklein.com/2018/07/29/modern-project-sites-using-site-designs)
 - [office365-azureautomation](https://github.com/garrytrinder/office365-azureautomation)
 - [office365-azureautomation-runbooks](https://github.com/garrytrinder/office365-azureautomation)
-- [Azure automation tips, tricks and lessons learned](https://nocentdocent.wordpress.com/2018/04/13/azure-automation-tips-tricks-and-lessons-learned/)
+- [Azure automation tips & tricks](https://nocentdocent.wordpress.com/2018/04/13/azure-automation-tips-tricks-and-lessons-learned/)
+- [Azure automation limits](https://github.com/MicrosoftDocs/azure-docs/blob/master/includes/azure-automation-service-limits.md)
 
 ## Azure-Functions
 
 - [An Azure Function to keep other Functions/URLs warmed up](https://www.sharepointnutsandbolts.com/2018/09/Azure-Function-Warmup-Cold-Start.html)
-- [3 ways to create and debug Azure Functions – CLI, VS Code and Visual Studio](https://www.sharepointnutsandbolts.com/2018/10/Azure-Functions-Visual-Studio-Code-CLI.html)
+- [3 ways to create and debug Azure Functions – CLI VS Code & Visual Studio](https://www.sharepointnutsandbolts.com/2018/10/Azure-Functions-Visual-Studio-Code-CLI.html)
 
 ## App Register
 
