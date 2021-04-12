@@ -2,6 +2,7 @@
 
 ## Azure Account / Identity services
 
+- [Introduction to tokens](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/introduction-to-tokens/ba-p/2267853)
 - [What's the difference between a personal Microsoft account and a work or school account?](https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-a-personal-microsoft-account-and-a/ba-p/2241897?fbclid=IwAR2WUzGGnTsMPkt99jJSXQyRau6uiCzQjqtT8mjZDH8dBn44fuCHU7xgxIc)
 
 ## Administration with Azure-CLI
@@ -67,7 +68,7 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 - [How to grant all employees access to a SharePoint site via Everyone except external users Group](https://sharepointmaven.com/grant-employees-access-sharepoint-site-via-everyone-except-external-users-group/)
 - [How to grant the Everyone claim to external users in Office 365](https://support.microsoft.com/en-us/help/4089534/how-to-grant-the-everyone-claim-to-external-users-in-office-365)
 
-## Naming Policiy
+## Naming Policy
 
 - https://drewmadelung.com/category/office-365/groups/
 
