@@ -37,6 +37,7 @@
 
 ## Developing
 
+- [Start building apps for Teams](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/start-building-apps-for-teams/ba-p/2241933)
 - [Build apps for Microsoft Teams](https://docs.microsoft.com/de-de/microsoftteams/platform/overview)
 - [Overview and Concepts - Part 1](https://asishpadhy.com/2020/01/16/simplify-development-in-microsoft-teams-part-1-overview-and-concepts/)
 
@@ -54,7 +55,8 @@
 - [App Templates for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/samples/app-templates?WT.mc_id=-github-rogerman#expert-finder)
 
 ## Personal App Properties
- - [Store Microsoft Teams SPFx Personal App Properties](https://blog.aterentiev.com/teams-personal-app-configuration)
+
+- [Store Microsoft Teams SPFx Personal App Properties](https://blog.aterentiev.com/teams-personal-app-configuration)
 
 ## Deployment
 
@@ -99,7 +101,7 @@
 - [Office 365 Groups Naming Policy](https://drewmadelung.com/office-365-groups-naming-policy)
 - [Get Office 365 Groups with Teams via PowerShell and the Microsoft Graph](https://drewmadelung.com/get-office-365-groups-with-teams-via-powershell-and-the-microsoft-graph)
 - https://laurakokkarinen.com/useful-things-to-do-with-graph-api-teams-operations
-- [PowerShell scripts for manging Office 365 Groups and Microsoft Teams](https://github.com/martinagrom/Ignite-PowerShell-Masterclass)
+- [PowerShell scripts for managing Office 365 Groups and Microsoft Teams](https://github.com/martinagrom/Ignite-PowerShell-Masterclass)
 
 ## Querys / Reports
 
@@ -159,6 +161,6 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 
 - [Overview of Microsoft Dataverse for Teams](https://docs.microsoft.com/en-us/powerapps/teams/overview-data-platform)
 - [Reshape the future of work with Microsoft Dataverse for Teams](https://powerapps.microsoft.com/en-us/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/)
- - [A Closer Look at Data Platform Capabilities in Project Oakdale](https://powerapps.microsoft.com/en-us/blog/a-closer-look-at-data-platform-capabilities-in-project-oakdale/)
- - [Manage Microsoft Dataverse for Teams environments](https://powerapps.microsoft.com/en-us/blog/manage-microsoft-dataverse-for-teams-environments/)
- - [Power Platform in a Modern Data Platform Architecture](https://www.runwayview.com/blog/power-platform-data-platform-architecture)
+- [A Closer Look at Data Platform Capabilities in Project Oakdale](https://powerapps.microsoft.com/en-us/blog/a-closer-look-at-data-platform-capabilities-in-project-oakdale/)
+- [Manage Microsoft Dataverse for Teams environments](https://powerapps.microsoft.com/en-us/blog/manage-microsoft-dataverse-for-teams-environments/)
+- [Power Platform in a Modern Data Platform Architecture](https://www.runwayview.com/blog/power-platform-data-platform-architecture)
