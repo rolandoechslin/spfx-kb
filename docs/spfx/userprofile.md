@@ -7,6 +7,7 @@
 - [SharePoint Online UserProfiles and the story about synchronizing with Azure Active Directory-Part 2](https://blog.atwork.at/post/SharePoint-Online-UserProfiles-and-the-story-about-synchronizing-with-Azure-Active-Directory-Part-2)
 - [How the UserProfile in Azure Active Directory and how a Mailbox in Exchange Online looks like](https://blog.atwork.at/post/How-the-UserProfile-in-Azure-Active-Directory-and-a-Mailbox-in-Exchange-Online-looks-like)
 - [How user profile picture synchronization works in Microsoft 365](https://blog.atwork.at/post/User-profile-picture-synchronization-in-Microsoft-365)
+- [How to Control Updates for User Photos in Microsoft 365 Apps](https://office365itpros.com/2021/04/14/control-updates-user-photos-microsoft-365-apps/?utm_source=rss&utm_medium=rss&utm_campaign=control-updates-user-photos-microsoft-365-apps)
 
 ## Get User Picture
 
