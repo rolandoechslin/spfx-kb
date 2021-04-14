@@ -41,6 +41,9 @@
 ## Managed Properties
 
 - [Display Search Results in SharePoint Online](https://www.sharepointeurope.com/display-search-results-sharepoint-online)
+- [Crawled Properties Not Created From Site Columns in Modern Team Sites](https://sympmarc.com/2021/04/13/crawled-properties-not-created-from-site-columns-in-modern-team-sites/)
+- [Mapping or clearing crawled property](https://www.techmikael.com/2020/11/mapping-or-clearing-crawled-property-to.html)
+- [SearchConfiguration](https://github.com/wobba/SearchConfiguration)
 
 ## Keyword Query Language (KQL) syntax reference
 
