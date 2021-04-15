@@ -1,5 +1,10 @@
 # Migration
 
+## Overview
+
+- [Best practices for migrating to SharePoint and OneDrive](https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/best-practices-for-migrating-to-sharepoint-and-onedrive/ba-p/2221548)
+- [All the ways to migrate the files to SharePoint Online](https://sharepointmaven.com/all-the-ways-to-migrate-the-files-to-sharepoint-online)
+
 ## Good to know
 
 - [Surefire ways to fail a SharePoint migration to Office 365](https://tahoeninjas.blog/2019/03/20/surefire-ways-to-fail-a-sharepoint-migration-to-office-365/)
@@ -7,16 +12,21 @@
 - [33 things that can cause a hassle when migrating to SharePoint Online](https://engineerer.ch/2019/02/08/33-things-that-can-cause-a-hassle-when-migrating-to-sharepoint-online/)
 - [SharePoint Migration Infographic](https://joannecklein.com/2019/02/10/sharepoint-migration-infographic/)
 - [Cloud Migration](https://resources.techcommunity.microsoft.com/cloud-migration/)
-![Anatomy of a sharepoint migration](https://joannecklein.com/wp-content/uploads/2019/02/SharePoint-Migration-Infographic-1.png)
+![Anatomy of a SharePoint migration](https://joannecklein.com/wp-content/uploads/2019/02/SharePoint-Migration-Infographic-1.png)
 
-## Showcase
-
-- [Learn how Microsoft ran its own migration](https://msdn.microsoft.com/en-us/library/mt668814.aspx)
-
-## Migration Tool
+## SharePoint Migration Tool (SPMT)
 
 - [Overview of the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool)
+- [Download and install the SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool)
 - [Migrating to Microsoft Teams using the SharePoint Migration Tool](https://blogs.technet.microsoft.com/wbaer/2019/01/05/migrating-to-microsoft-teams-using-the-sharepoint-migration-tool/)
+
+## Mover
+
+- [How to migrate files from cloud storage to SharePoint using the Mover Migration Tool](https://sharepointmaven.com/how-to-migrate-files-from-cloud-storage-to-sharepoint-using-the-mover-migration-tool/)
+
+## DocumentID
+
+- [SHAREPOINT ONLINE AND DOCUMENT ID. THE GOODS](https://joannecklein.com/2018/11/16/sharepoint-online-and-document-id-the-goods/)
 
 ## Permission
 
@@ -29,5 +39,8 @@
 ## Tipps
 
 - [SharePoint Migration: Mind the URL Length](https://tahoeninjas.blog/2019/02/25/sharepoint-migration-mind-the-url-length/)
-- - [Migrating to Office 365 Checklist](https://blog.syskit.com/office-365-migration-checklist)
+- [Migrating to Office 365 Checklist](https://blog.syskit.com/office-365-migration-checklist)
 
+## Showcase
+
+- [Learn how Microsoft ran its own migration](https://msdn.microsoft.com/en-us/library/mt668814.aspx)
