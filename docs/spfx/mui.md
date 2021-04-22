@@ -6,6 +6,7 @@
 
 ## Localisation of the user interface
 
+- [SPFx & react-localization, an easy alternative?](https://digitalworkplace365.wordpress.com/2021/04/13/spfx-react-localization-an-easy-alternative/)
 - [Understanding the Multilingual User Interface (MUI)](https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ff800886(v=office.14))
 - [Demystifying the mystery behind the UI language in SharePoint](https://www.eliostruyf.com/demystifying-the-mystery-behind-the-ui-language-in-sharepoint)
 
