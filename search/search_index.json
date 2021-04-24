@@ -1312,7 +1312,7 @@
         },
         {
             "location": "/spfx/mui/",
-            "text": "MUI\n\u00b6\n\n\nMultilingual Pages\n\u00b6\n\n\n\n\nMultilingual publishing for pages and news posts\n\n\n\n\nLocalisation of the user interface\n\u00b6\n\n\n\n\nUnderstanding the Multilingual User Interface (MUI)\n\n\nDemystifying the mystery behind the UI language in SharePoint\n\n\n\n\n\n\nDefinition Multilingual Intranet\n\u00b6\n\n\n\n\nMULTILINGUAL AND MODERN SHAREPOINT\n\n\nBuilding Multilingual SharePoint views using SPFx Field Customizers\n\n\nSharePoint Online Multi-language Modern Sites \u2013 real case, pros and cons\n\n\nSharePoint Localization \u2013 a (somewhat) comprehensive how-to!\n\n\nCreating a Multi-lingual Intranet using Communication Sites\n\n\nCUSTOMIZE SHAREPOINT MODERN PAGES USING MICROSOFT FLOW\n\n\nUsing the SFPx library component for simplifying the localization experience\n\n\nWebinar Recording: Deep Dive into SharePoint Multilingual with Divyachapan (DC) Padur\n\n\nUsing the new multilingual APIs in Modern SharePoint\n\n\nWorking with SharePoint Online modern multilingual with the search Keyword Query Language, Query variables and the modern search webpart\n\n\n7 tips to help create and manage multilingual SharePoint communication sites\n\n\n\n\nSearch Query for multilingual news\n\n\nPromotedState\n:\n2\n \nAND\n \n(\nSPTranslationLanguage\n:\n{\nCurrentDisplayLanguage\n}\n \nOR\n \n(\nNOT\n \nSPTranslatedLanguages\n:\n{\nCurrentDisplayLanguage\n}\n \nAND\n \nNOT\n \nSPIsTranslation\n:\ntrue\n))\n\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nMultilingual Pages",
+            "text": "MUI\n\u00b6\n\n\nMultilingual Pages\n\u00b6\n\n\n\n\nMultilingual publishing for pages and news posts\n\n\n\n\nLocalisation of the user interface\n\u00b6\n\n\n\n\nSPFx & react-localization, an easy alternative?\n\n\nUnderstanding the Multilingual User Interface (MUI)\n\n\nDemystifying the mystery behind the UI language in SharePoint\n\n\n\n\n\n\nDefinition Multilingual Intranet\n\u00b6\n\n\n\n\nMULTILINGUAL AND MODERN SHAREPOINT\n\n\nBuilding Multilingual SharePoint views using SPFx Field Customizers\n\n\nSharePoint Online Multi-language Modern Sites \u2013 real case, pros and cons\n\n\nSharePoint Localization \u2013 a (somewhat) comprehensive how-to!\n\n\nCreating a Multi-lingual Intranet using Communication Sites\n\n\nCUSTOMIZE SHAREPOINT MODERN PAGES USING MICROSOFT FLOW\n\n\nUsing the SFPx library component for simplifying the localization experience\n\n\nWebinar Recording: Deep Dive into SharePoint Multilingual with Divyachapan (DC) Padur\n\n\nUsing the new multilingual APIs in Modern SharePoint\n\n\nWorking with SharePoint Online modern multilingual with the search Keyword Query Language, Query variables and the modern search webpart\n\n\n7 tips to help create and manage multilingual SharePoint communication sites\n\n\n\n\nSearch Query for multilingual news\n\n\nPromotedState\n:\n2\n \nAND\n \n(\nSPTranslationLanguage\n:\n{\nCurrentDisplayLanguage\n}\n \nOR\n \n(\nNOT\n \nSPTranslatedLanguages\n:\n{\nCurrentDisplayLanguage\n}\n \nAND\n \nNOT\n \nSPIsTranslation\n:\ntrue\n))\n\n\n\n\n\nSamples\n\u00b6\n\n\n\n\nMultilingual Pages",
             "title": "MUI"
         },
         {
@@ -1327,7 +1327,7 @@
         },
         {
             "location": "/spfx/mui/#localisation-of-the-user-interface",
-            "text": "Understanding the Multilingual User Interface (MUI)  Demystifying the mystery behind the UI language in SharePoint",
+            "text": "SPFx & react-localization, an easy alternative?  Understanding the Multilingual User Interface (MUI)  Demystifying the mystery behind the UI language in SharePoint",
             "title": "Localisation of the user interface"
         },
         {
@@ -1542,7 +1542,7 @@
         },
         {
             "location": "/spfx/migration/",
-            "text": "Migration\n\u00b6\n\n\nGood to know\n\u00b6\n\n\n\n\nSurefire ways to fail a SharePoint migration to Office 365\n\n\nCompilation of SharePoint to Office 365 Migration Best Practices\n\n\n33 things that can cause a hassle when migrating to SharePoint Online\n\n\nSharePoint Migration Infographic\n\n\nCloud Migration\n\n\n\n\n\n\nShowcase\n\u00b6\n\n\n\n\nLearn how Microsoft ran its own migration\n\n\n\n\nMigration Tool\n\u00b6\n\n\n\n\nOverview of the SharePoint Migration Tool\n\n\nMigrating to Microsoft Teams using the SharePoint Migration Tool\n\n\n\n\nPermission\n\u00b6\n\n\n\n\nLeave Those SharePoint Permissions for Office 365 Groups Alone\n\n\n\n\nWSP Repackage\n\u00b6\n\n\n\n\nSharePoint WSP Repackage\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nSharePoint Migration: Mind the URL Length\n\n\n\n\n\n\nMigrating to Office 365 Checklist",
+            "text": "Migration\n\u00b6\n\n\nOverview\n\u00b6\n\n\n\n\nBest practices for migrating to SharePoint and OneDrive\n\n\nAll the ways to migrate the files to SharePoint Online\n\n\n\n\nGood to know\n\u00b6\n\n\n\n\nSurefire ways to fail a SharePoint migration to Office 365\n\n\nCompilation of SharePoint to Office 365 Migration Best Practices\n\n\n33 things that can cause a hassle when migrating to SharePoint Online\n\n\nSharePoint Migration Infographic\n\n\nCloud Migration\n\n\n\n\n\n\nSharePoint Migration Tool (SPMT)\n\u00b6\n\n\n\n\nOverview of the SharePoint Migration Tool\n\n\nDownload and install the SharePoint Migration Tool (SPMT)\n\n\nMigrating to Microsoft Teams using the SharePoint Migration Tool\n\n\n\n\nMover\n\u00b6\n\n\n\n\nHow to migrate files from cloud storage to SharePoint using the Mover Migration Tool\n\n\n\n\nDocumentID\n\u00b6\n\n\n\n\nSHAREPOINT ONLINE AND DOCUMENT ID. THE GOODS\n\n\n\n\nPermission\n\u00b6\n\n\n\n\nLeave Those SharePoint Permissions for Office 365 Groups Alone\n\n\n\n\nWSP Repackage\n\u00b6\n\n\n\n\nSharePoint WSP Repackage\n\n\n\n\nTipps\n\u00b6\n\n\n\n\nSharePoint Migration: Mind the URL Length\n\n\nMigrating to Office 365 Checklist\n\n\n\n\nShowcase\n\u00b6\n\n\n\n\nLearn how Microsoft ran its own migration",
             "title": "Migration"
         },
         {
@@ -1551,19 +1551,29 @@
             "title": "Migration"
         },
         {
+            "location": "/spfx/migration/#overview",
+            "text": "Best practices for migrating to SharePoint and OneDrive  All the ways to migrate the files to SharePoint Online",
+            "title": "Overview"
+        },
+        {
             "location": "/spfx/migration/#good-to-know",
             "text": "Surefire ways to fail a SharePoint migration to Office 365  Compilation of SharePoint to Office 365 Migration Best Practices  33 things that can cause a hassle when migrating to SharePoint Online  SharePoint Migration Infographic  Cloud Migration",
             "title": "Good to know"
         },
         {
-            "location": "/spfx/migration/#showcase",
-            "text": "Learn how Microsoft ran its own migration",
-            "title": "Showcase"
+            "location": "/spfx/migration/#sharepoint-migration-tool-spmt",
+            "text": "Overview of the SharePoint Migration Tool  Download and install the SharePoint Migration Tool (SPMT)  Migrating to Microsoft Teams using the SharePoint Migration Tool",
+            "title": "SharePoint Migration Tool (SPMT)"
         },
         {
-            "location": "/spfx/migration/#migration-tool",
-            "text": "Overview of the SharePoint Migration Tool  Migrating to Microsoft Teams using the SharePoint Migration Tool",
-            "title": "Migration Tool"
+            "location": "/spfx/migration/#mover",
+            "text": "How to migrate files from cloud storage to SharePoint using the Mover Migration Tool",
+            "title": "Mover"
+        },
+        {
+            "location": "/spfx/migration/#documentid",
+            "text": "SHAREPOINT ONLINE AND DOCUMENT ID. THE GOODS",
+            "title": "DocumentID"
         },
         {
             "location": "/spfx/migration/#permission",
@@ -1577,8 +1587,13 @@
         },
         {
             "location": "/spfx/migration/#tipps",
-            "text": "SharePoint Migration: Mind the URL Length    Migrating to Office 365 Checklist",
+            "text": "SharePoint Migration: Mind the URL Length  Migrating to Office 365 Checklist",
             "title": "Tipps"
+        },
+        {
+            "location": "/spfx/migration/#showcase",
+            "text": "Learn how Microsoft ran its own migration",
+            "title": "Showcase"
         },
         {
             "location": "/spfx/rest/",
@@ -3967,7 +3982,7 @@
         },
         {
             "location": "/tools/markdown/",
-            "text": "Markdown\n\u00b6\n\n\nCheatsheet\n\u00b6\n\n\n\n\nMarkdown Cheatsheet\n\n\nMastering Markdown\n\n\n\n\nTools\n\u00b6\n\n\n\n\nVS.Code Extension: markdownlint\n\n\nMarkdown Website Conversion\n\n\nMarkdown Conversion\n\n\ndevpen.io - Editor\n\n\nMarkdown Plus - Editor\n\n\nWebSequenceDiagrams\n\n\nPlantText\n\n\nWord to Markdown Converter\n\n\n\n\nTechnical Writing Courses for Engineers\n\u00b6\n\n\n\n\nTechnical Writing Courses",
+            "text": "Markdown\n\u00b6\n\n\nCheatsheet\n\u00b6\n\n\n\n\nMarkdown Cheatsheet\n\n\nMastering Markdown\n\n\n\n\nTools\n\u00b6\n\n\n\n\nVS.Code Extension: markdownlint\n\n\nMarkdown Website Conversion\n\n\nMarkdown Conversion\n\n\ndevpen.io - Editor\n\n\nMarkdown Plus - Editor\n\n\nWebSequenceDiagrams\n\n\nPlantText\n\n\nWord to Markdown Converter\n\n\nTool for creating markdown readme file\n\n\n\n\nTechnical Writing Courses for Engineers\n\u00b6\n\n\n\n\nTechnical Writing Courses",
             "title": "Markdown"
         },
         {
@@ -3982,7 +3997,7 @@
         },
         {
             "location": "/tools/markdown/#tools",
-            "text": "VS.Code Extension: markdownlint  Markdown Website Conversion  Markdown Conversion  devpen.io - Editor  Markdown Plus - Editor  WebSequenceDiagrams  PlantText  Word to Markdown Converter",
+            "text": "VS.Code Extension: markdownlint  Markdown Website Conversion  Markdown Conversion  devpen.io - Editor  Markdown Plus - Editor  WebSequenceDiagrams  PlantText  Word to Markdown Converter  Tool for creating markdown readme file",
             "title": "Tools"
         },
         {
