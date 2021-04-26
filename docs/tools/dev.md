@@ -119,6 +119,11 @@
 - [Screenshots](https://github.com/greenshot/greenshot/)
 - [Convert Modern SharePoint Page Banner Images to Base-64 using PowerShell](https://thechriskent.com/2020/06/30/convert-modern-sharepoint-page-banner-images-to-base-64-using-powershell/)
 
+## Emoji
+
+- [Windows 10 keyboard tips and tricks](https://support.microsoft.com/en-us/windows/windows-10-keyboard-tips-and-tricks-588e0b72-0fff-6d3f-aeee-6e5116097942)
+- [Alt Code Shortcuts for Emoji, Smileys and Emoticons](https://www.webnots.com/alt-code-shortcuts-to-insert-smileys-and-emoticons/)
+
 ## Sound Tools
 
 - [Sound effects](https://www.hongkiat.com/blog/download-free-sound-effects/)
