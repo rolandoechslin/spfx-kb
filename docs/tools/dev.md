@@ -224,6 +224,11 @@ settings.json
 
 Info: https://stackoverflow.com/questions/30331338/remove-git-integrations-from-vscode
 
+## Configure VSCode Intellisense
+
+- [Avoid errors editing SharePoint Framework project configuration with Visual Studio Code intellisense](https://blog.mastykarz.nl/edit-sharepoint-framework-project-configuration-visual-studio-code-intellisense/)
+- [VSCode SharePoint Framework JSON schemas configuration](https://gist.github.com/waldekmastykarz/1c95bc4f637ce7d5ff71e4882ee32efa)
+
 ### Exclude Folders from VS.Code
 
 - [How can I exclude a directory from Visual Studio Code 'Explore' tab](https://stackoverflow.com/questions/33258543/how-can-i-exclude-a-directory-from-visual-studio-code-explore-tab)
