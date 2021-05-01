@@ -39,6 +39,13 @@
 - [Tailwind CSS: From Zero to Production" on YouTube](https://blog.tailwindcss.com/tailwindcss-from-zero-to-production)
 - [Source Code - From Zero to Production](https://github.com/tailwindlabs/tailwindcss-from-zero-to-production)
 
+### Tailwind & SPFx
+
+- [react-tailwindcss](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-tailwindcss)
+- [How to Set Up Tailwind CSS in a SPFx Project](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/how-to-set-up-tailwind-css-in-a-spfx-project/ba-p/2313192)
+- [spfx-react-tailwindcss](https://github.com/AriGunawan/spfx-react-tailwindcss)
+
+
 ## Design to Code
 
 - [MS Fabric and Stardust to Fluent UI](https://github.com/microsoft/fluentui/wiki/FAQ---Fabric-and-Stardust-to-Fluent-UI)
