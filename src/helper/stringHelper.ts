@@ -1,5 +1,25 @@
 /*
 
+
+
+private _checkHttp(url): string {
+    if (!/^(f|ht)tps?:\/\//i.test(url)) {
+      url = "http://" + url;
+    }
+    return url;
+  }
+
+private _encodeValue(value: string): string {
+    return newValue = value.replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  }
+
+
+
+
 private decodeHtml(html) {
     var txt = document.createElement("textarea");
     txt.innerHTML = html;
