@@ -3,6 +3,7 @@
 ## Overview
 
 - [Introduction to Viva Topics](https://www.mcd79.com/2021/02/06/Knowledge-Management-Series-Introduction-to-Viva-Topics.html)
+- [Build an ever-growing Corporate Knowledge Base with Microsoft Viva Topics : An Overview](https://asishpadhy.com/2021/04/29/build-an-ever-growing-corporate-knowledge-base-with-microsoft-viva-topics-part-1/)
 
 ## Learning
 
