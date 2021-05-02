@@ -3462,7 +3462,7 @@
         },
         {
             "location": "/powershell/pnp-powershell/",
-            "text": "PnP-Powershell\n\u00b6\n\n\n\n\nDocumentation\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\nManage SharePoint & Microsoft Teams on PowerShell Core using the PnP.PowerShell module\n\n\nMaking the move from SharePointPnPPowerShellOnline to PnP.PowerShell",
+            "text": "PnP-Powershell\n\u00b6\n\n\n\n\nDocumentation\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\nManage SharePoint & Microsoft Teams on PowerShell Core using the PnP.PowerShell module\n\n\nMaking the move from SharePointPnPPowerShellOnline to PnP.PowerShell\n\n\n\n\nSecurity / Authentication\n\u00b6\n\n\n\n\nPnP PowerShell - Consent and Authentication",
             "title": "PnP-Powershell"
         },
         {
@@ -3474,6 +3474,11 @@
             "location": "/powershell/pnp-powershell/#installation",
             "text": "Manage SharePoint & Microsoft Teams on PowerShell Core using the PnP.PowerShell module  Making the move from SharePointPnPPowerShellOnline to PnP.PowerShell",
             "title": "Installation"
+        },
+        {
+            "location": "/powershell/pnp-powershell/#security-authentication",
+            "text": "PnP PowerShell - Consent and Authentication",
+            "title": "Security / Authentication"
         },
         {
             "location": "/powershell/teams/",
