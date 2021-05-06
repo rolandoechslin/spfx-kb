@@ -31,6 +31,7 @@
 
 ## Search Tips
 
+- [what makes sharepoint column searchable](https://www.techmikael.com/2014/07/what-makes-sharepoint-column-searchable.html)
 - [How to improve your SharePoint search results](http://icansharepoint.com/how-to-improve-your-sharepoint-search-results)
 - [How to search in SharePoint](http://icansharepoint.com/how-to-search-in-sharepoint)
 - [How to use Boolean Operators in SharePoint Search](https://sharepointmaven.com/how-to-use-boolean-operators-in-sharepoint-search/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-use-boolean-operators-in-sharepoint-search)

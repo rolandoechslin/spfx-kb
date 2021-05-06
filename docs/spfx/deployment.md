@@ -1,5 +1,9 @@
 # Deployment
 
+## App Catalog
+
+- [SharePoint App Catalog Development Tips](https://julieturner.net/2021/05/sharepoint-app-catalog-development-tips/)
+
 ## Azure DevOps / Azure Pipline
 
 - [Getting Started with Git and Azure DevOps](https://www.sharepointeurope.com/getting-started-with-git-and-azure-devops-the-ultimate-guide/) | [Getting Started with Git and Azure DevOps: The Ultimate Guide](https://cloudskills.io/blog/git-azure-devops)
