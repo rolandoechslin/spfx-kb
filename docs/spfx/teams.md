@@ -124,6 +124,10 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 - [Automate governance in Microsoft Teams: Implementation, v1](https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-implementation-v1/)
 - [Automate governance in Microsoft Teams: Implementation, v2](https://blog.yannickreekmans.be/automate-governance-in-microsoft-teams-implementation-v2/)
 
+## Governance Tools
+
+- [Easylife365](https://easylife365.cloud/)
+
 ## Securing Teams
 
 - [Securing Microsoft Teams](https://zimmergren.net/securing-microsoft-teams/)
