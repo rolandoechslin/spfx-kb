@@ -10,6 +10,7 @@
 ## Tools
 - [HTML To Formatter](https://pnp.github.io/sp-dev-list-formatting/tools/html-formatter-generator/)
 - [What’s new in Column Formatter 1.2](https://thechriskent.com/2018/03/22/whats-new-in-column-formatter-1-2/)
+- [SharePoint Online CSS Classes](https://zerg00s.github.io/sp-modern-classes/)
 
 ## Ressources
 
