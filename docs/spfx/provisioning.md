@@ -23,6 +23,7 @@
 ## App Bar
 
  - [Introduction to the SharePoint app bar](https://docs.microsoft.com/en-us/SharePoint/sharepoint-app-bar#set-up-a-home-site-for-the-first-time)
+ - [Best practices for using global navigation in the SharePoint app bar](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/best-practices-for-using-global-navigation-in-the-sharepoint-app/ba-p/2361916)
 
 ## Links
 
