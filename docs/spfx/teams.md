@@ -40,6 +40,7 @@
 - [Start building apps for Teams](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/start-building-apps-for-teams/ba-p/2241933)
 - [Build apps for Microsoft Teams](https://docs.microsoft.com/de-de/microsoftteams/platform/overview)
 - [Overview and Concepts - Part 1](https://asishpadhy.com/2020/01/16/simplify-development-in-microsoft-teams-part-1-overview-and-concepts/)
+- [Do you need ngrok to develop Microsoft Teams apps?](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/do-you-need-ngrok-to-develop-microsoft-teams-apps/ba-p/2353206)
 
 ![DEV Teams 1](../assets/images/teams-1.png)
 
