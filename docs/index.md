@@ -65,7 +65,7 @@
 
 ## Code Guideline
 
-- [Typescriptlang - Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+- [Typescriptlang - Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 - [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/blob/master/react/README.md)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [Office fabric react - Coding Guidelines](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Coding-Style)
