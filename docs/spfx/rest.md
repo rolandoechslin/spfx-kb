@@ -17,6 +17,7 @@
 - [Powerful HTTP and GraphQL tool belt](https://insomnia.rest/)
 - [Explore SharePoint REST API with Chrome F12 cURL (bash) to Postman](https://www.spjeff.com/2020/06/16/explore-sharepoint-rest-api-with-chrome-f12-curl-bash-to-postman/)
 - [SharePoint Framework - Rest API Tester](https://github.com/estruyf/spfx-rest-api-tester)
+- [Microsoft Graph Mailbag – Explore Microsoft Graph with Postman](https://developer.microsoft.com/en-us/microsoft-365/blogs/explore-microsoft-graph-with-postman/)
 
 ## Testing
 
