@@ -1,3 +1,5 @@
+# Source: https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits#monitor-site-storage-limits-by-using-powershell
+
 #Connect to SharePoint admin center using an admin account
 #Specify the URL to your SharePoint admin center site, e.g. https://contoso-admin.sharepoint.com
 
