@@ -13,7 +13,6 @@
 
 - [Why did Microsoft create the SharePoint Framework?](https://www.andrewconnell.com/blog/spfx-5w1h-why-did-microsoft-create-sharepoint-framework/)
 - [What is the SharePoint Framework?](https://www.voitanos.io/blog/spfx-5w1h-what-is-the-sharepoint-framework/)
-- [Microsoft Learn](https://docs.microsoft.com/en-en/learn/)
 - [SharePoint Framework - Getting started](https://blog.mastykarz.nl/sharepoint-framework-getting-started/)
 - [SharePoint Developer Community - Open-source projects](https://docs.microsoft.com/en-us/sharepoint/dev/community/open-source-projects)
 - [Updated SharePoint Framework developer training package now available (2019)](https://developer.microsoft.com/en-us/sharepoint/blogs/updated-sharepoint-framework-developer-training-package-now-available-2019/)
@@ -22,7 +21,6 @@
 - [Set up an Office 365 developer subscription](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program-get-started)
 - [Frontend Workshop from HTML/CSS/JS to TypeScript/React/Redux](https://github.com/Microsoft/frontend-bootcamp)
 - [Microsoft Learning Module](https://docs.microsoft.com/en-us/learn/browse/?utm_source=flow-sidebar&utm_medium=web)
-- [Azure Edu DevCamp](https://github.com/Microsoft/edu-devcamp)
 - [HOW TO GET STARTED WITH REACT FOR BUILDING ADVANCED SPFX SOLUTIONS](https://laurakokkarinen.com/how-to-get-started-with-react-for-building-advanced-spfx-solutions/)
 - [HOW TO USE THE SERVICE PATTERN IN SPFX REACT SOLUTIONS](https://laurakokkarinen.com/how-to-use-the-service-pattern-in-spfx-react-solutions/)
 - [Nanddeepn-Getting Started Slides](https://github.com/nanddeepn/code-samples/tree/master/SPFx/Getting%20Started%20Slides)
