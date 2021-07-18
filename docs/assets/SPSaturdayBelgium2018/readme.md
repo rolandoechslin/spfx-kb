@@ -1,1 +1,0 @@
-https://www.slideshare.net/biwug/presentations
