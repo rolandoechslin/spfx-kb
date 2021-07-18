@@ -1,6 +1,7 @@
 # Search
 
 - [Overview of Microsoft Search](https://docs.microsoft.com/en-us/microsoftsearch/overview-microsoft-search)
+- [Manage the search schema in SharePoint](https://docs.microsoft.com/en-us/sharepoint/manage-search-schema)
 
 ## News 2021
 
