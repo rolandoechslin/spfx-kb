@@ -55,6 +55,12 @@
 - [Get started with Teams templates](https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates)
 - [App Templates for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/samples/app-templates?WT.mc_id=-github-rogerman#expert-finder)
 
+## Azure App Configuration
+
+- [Configure Teams Applications with Azure App Configuration (nodeJS)](https://mmsharepoint.wordpress.com/2021/05/17/configure-teams-applications-with-azure-app-configuration-nodejs/)
+ - [General Microsoft 365 Developer SIG community call – 8th of July, 2021](https://www.youtube.com/watch?t=1984&v=rOHSrG1n43Y&feature=youtu.be)
+ ![Azure App Configuration](../assets/images/azure-app-configuration-1.png)
+
 ## Personal App Properties
 
 - [Store Microsoft Teams SPFx Personal App Properties](https://blog.aterentiev.com/teams-personal-app-configuration)
