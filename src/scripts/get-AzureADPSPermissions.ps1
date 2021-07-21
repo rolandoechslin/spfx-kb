@@ -1,6 +1,9 @@
 # Source: 
 # - https://www.powershellgallery.com/packages/HAWK/1.15.0/Content/General%5CGet-AzureADPSPermissions.ps1
 # - https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/detect-and-remediate-illicit-consent-grants?view=o365-worldwide
+# - https://office365itpros.com/2021/07/21/microsoft-launches-preview-app-governance
+# - https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09
+# - https://www.microsoft.com/security/blog/2021/07/14/microsoft-delivers-comprehensive-solution-to-battle-rise-in-consent-phishing-emails/
 
 Function Get-AzureADPSPermissions {
 
