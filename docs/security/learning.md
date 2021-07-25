@@ -49,6 +49,7 @@
 - [Use tenant restrictions to manage access to SaaS cloud applications](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions)
 - [Detect and Remediate Illicit Consent Grants](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/detect-and-remediate-illicit-consent-grants?view=o365-worldwide)
 - [Preventing M365 app bypass MFA](https://albandrodsmemory.com/2021/06/30/preventing-m365-app-bypass-mfa/)
+- [Fast and Free Incident Response Tools in Microsoft 365](https://regarding365.com/fast-and-free-incident-response-tools-in-microsoft-365-1379af53c827)
 
 ## File
 
