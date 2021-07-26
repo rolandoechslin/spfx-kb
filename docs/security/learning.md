@@ -50,6 +50,9 @@
 - [Detect and Remediate Illicit Consent Grants](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/detect-and-remediate-illicit-consent-grants?view=o365-worldwide)
 - [Preventing M365 app bypass MFA](https://albandrodsmemory.com/2021/06/30/preventing-m365-app-bypass-mfa/)
 - [Fast and Free Incident Response Tools in Microsoft 365](https://regarding365.com/fast-and-free-incident-response-tools-in-microsoft-365-1379af53c827)
+- [How to Discover New Audit Events in the Office 365 Audit Log (Including App Consents)](https://office365itpros.com/2021/02/18/discover-new-office365-audit-events/)
+- [Consent Grant Attack](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense/blob/main/ConsentGrant.md)
+- [Azure AD - Attack and Defense Playbook](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense)
 
 ## File
 

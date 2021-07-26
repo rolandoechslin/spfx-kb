@@ -58,6 +58,7 @@ Get-InstalledModule | select name, version
 - [The PowerShell Gallery- Overview](https://docs.microsoft.com/en-us/powershell/scripting/gallery/overview?view=powershell-7.1)
 - [Powershellgallery - Module - AzureAD](https://www.powershellgallery.com/packages/AzureAD/)
 - [Get Azure AD audit and sign-in Logs using PowerShell and AzureADPreview module](https://mosshowto.blogspot.com/2019/08/azure-ad-logs-powershell-azureadpreview.html)
+- [How to Upgrade Office 365 PowerShell Scripts to Use the Graph API](https://office365itpros.com/2021/07/26/how-upgrade-powershell-scripts-graph-api/?utm_source=rss&utm_medium=rss&utm_campaign=how-upgrade-powershell-scripts-graph-api)
 
 ```Powershell
 Install-Module -Name AzureAD
