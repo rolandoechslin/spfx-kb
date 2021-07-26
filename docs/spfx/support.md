@@ -32,6 +32,12 @@
 - [Set up a home site for your organization](https://docs.microsoft.com/en-us/sharepoint/home-site)
 - [SharePoint Admin API Access](https://eschrader.com/2020/06/23/sharepoint-online-bad-service-principal-breaks-sharepoint-admin-api-access-global-service-principal-id-error-resolved/)
 
+## Storage Limits
+
+- [Manage site storage limits](https://docs.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide)
+
+
+
 ## Admin O365
 
 - [TechNet Gallery - Office365](https://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=RootCategory&f%5B0%5D.Value=Office365)
@@ -179,4 +185,8 @@ edge://settings/siteData?search=cookie
 
 ## Makros /VBA
 
-- [Readiness Toolkit to assess application compatibility for Microsoft 365 Apps](https://docs.microsoft.com/en-us/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps)
+- [Readiness Toolkit to assess application compatibility for Mic
+
+## Sway
+
+- [Your community for best practices and the latest news on Sway](https://techcommunity.microsoft.com/t5/sway/ct-p/Sway)
