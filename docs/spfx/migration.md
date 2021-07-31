@@ -44,3 +44,7 @@
 ## Showcase
 
 - [Learn how Microsoft ran its own migration](https://msdn.microsoft.com/en-us/library/mt668814.aspx)
+
+## Google Drive
+
+- [Data Clean-up Activities to Consider Before Google Drive Migration](https://www.netwoven.com/2021/07/30/data-clean-up-activities-to-consider-before-google-drive-migration/)
