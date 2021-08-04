@@ -76,6 +76,7 @@
 
 - [SameSite cookies explained](https://web.dev/samesite-cookies-explained/)
 
-## Blogger
+## Blogger and Sites
 
 - [https://splintercod3.blogspot.com/](https://splintercod3.blogspot.com/)
+- [swisscybersecurity.net](https://www.swisscybersecurity.net)
