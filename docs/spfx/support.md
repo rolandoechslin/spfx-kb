@@ -25,6 +25,12 @@
 - [PowerApps and Microsoft Flow licensing FAQs for October 2019](https://docs.microsoft.com/de-de/power-platform/admin/powerapps-flow-licensing-faq)
 - [Microsoft 365 Compliance Licensing Comparison](https://opdhsblobprod04.blob.core.windows.net/contents/e0993bf6e82e4fa8ac18b48839521869/069aadd72bf7c2f8a8115b3b5252d657?sv=2018-03-28&sr=b&si=ReadPolicy&sig=dbEqZ5S6VhJejcl8CLqbsGO7Dhf9D3WBD8B7uvRssIU%3D&st=2020-05-10T09%3A01%3A20Z&se=2020-05-11T09%3A11%3A20Z)
 
+## Partner Secure Application Model
+
+- [Enabling the Secure Application Model framework](https://docs.microsoft.com/en-us/partner-center/develop/enable-secure-app-model)
+- [Security requirements for using Partner Center or Partner Center APIs](https://docs.microsoft.com/en-us/partner-center/partner-security-requirements)
+- [Connect to Exchange Online automated when MFA is enabled (Using the SecureApp Model)](https://www.cyberdrain.com/connect-to-exchange-online-automated-when-mfa-is-enabled-using-the-secureapp-model/)
+
 ## SharePoint SPO
 
 - [SharePoint Online Support Info](https://docs.microsoft.com/de-ch/archive/blogs/sposupport/)
