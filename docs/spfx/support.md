@@ -18,6 +18,7 @@
 
 ## Licence Changes
 
+- [Microsoft 365 Licensing](https://m365maps.com/)
 - [Understanding Power Platform Licensing](https://docs.microsoft.com/en-us/microsoft-365/community/powerplatformlicensingforcitizendeveloper)
 - [Neue Lizenzierung von PowerApps](https://blog.ioz.ch/neue-lizenzierung-von-powerapps)
 - [PowerApps Licence Changes in terms that Matt Weston understands!](https://blog.mattweston365.com/2019/09/powerapps-licence-changes-in-terms-that.html)
@@ -35,8 +36,6 @@
 ## Storage Limits
 
 - [Manage site storage limits](https://docs.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide)
-
-
 
 ## Admin O365
 
