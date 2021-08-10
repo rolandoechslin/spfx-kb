@@ -46,6 +46,12 @@
 
 - [Access _spPageContextInfo details in SharePoint Framework](https://medium.com/@rjesh/access-sppagecontextinfo-details-in-sharepoint-framework-8daa3479bf27)
 
+In the F12 Developer Console, you can call
+
+```js
+window.spModuleLoader._bundledComponents["b6917cb1-93a0-4b97-a84d-7cf49975d4ec"].PageManager._instance.pageContext.legacyPageContext
+```
+
 ## Dynamic default properties
 
 - [Dynamic default properties in SPFx web parts](https://tahoeninjas.blog/2019/02/13/dynamic-default-properties-in-spfx-web-parts/)
