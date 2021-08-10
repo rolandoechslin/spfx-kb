@@ -75,6 +75,10 @@
 - [Ultimate Admin Guide to Microsoft Teams Guest Users](https://www.sharepointeurope.com/ultimate-admin-guide-to-microsoft-teams-guest-users)
 - [SHAREPOINT ONLINE GUEST USER TROUBLES AND HOW TO GET PAST THEM](https://laurakokkarinen.com/sharepoint-online-guest-user-troubles-and-how-to-get-past-them/)
 
+## External Access
+
+- [Troubleshooting external access to SharePoint sites](https://mydigitalworkplace.wordpress.com/2021/08/09/troubleshooting-external-access-to-sharepoint-sites/)
+
 ## Diagnostics
 
 - [use-the-page-diagnostics-tool-for-sharepoint-online](https://support.office.com/en-us/article/use-the-page-diagnostics-tool-for-sharepoint-online-dbab2593-dc6a-40f7-adfe-031b9baa620f?ui=en-US&rs=en-US&ad=US)
