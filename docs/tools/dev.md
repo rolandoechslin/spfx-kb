@@ -256,6 +256,7 @@ Info: https://stackoverflow.com/questions/30331338/remove-git-integrations-from-
 - [Office UI Fabric Icons](http://uifabricicons.azurewebsites.net)
 - - [Flicon](https://www.flicon.io/)
 - [Using Flicon to support visual hierarchy on a homepage](https://emilymancini.com/2020/12/17/using-flicon-to-support-visual-hierarchy-on-a-homepage/)
+- [Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio](https://github.com/sandroasp/Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio/tree/42e806b87f827b8ed37f29db69fa5f7cf09d5bd8)
 
 ## Favicons
 
