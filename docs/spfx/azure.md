@@ -1,5 +1,7 @@
 # Azure
 
+- [Azure documentation](https://docs.microsoft.com/en-us/azure/?product=featured)
+
 ## Azure Account / Identity services
 
 - [Introduction to tokens](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/introduction-to-tokens/ba-p/2267853)
