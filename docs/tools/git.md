@@ -36,4 +36,7 @@
 
 ## GitHub Actions
 
+- [Automate your CI/CD workflow using CLI for Microsoft 365 GitHub Actions](https://pnp.github.io/cli-microsoft365/concepts/github-actions/)
+- [Deploy SPFx solutions on multiple sites using GitHub Actions and Office 365 CLI](https://aakashbhardwaj619.github.io/2020/06/09/GitHub-Actions-Multi-Deployment.html)
 - [Create GitHub actions for SPFx solution](https://medium.com/@anoopt/create-github-actions-for-spfx-solution-cc4a810b87db)
+- [GitHub Actions + Power Automate + Teams](https://anoopt.medium.com/github-actions-power-automate-teams-a46d7b643c7f)
