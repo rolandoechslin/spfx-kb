@@ -626,6 +626,7 @@ private async _getItems() {
 
 Create Sample
 
+- [Use Office UI Fabric React components in your SharePoint client-side web part](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/use-fabric-react-components)
 - [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter)
 - [React app with an Office UI Fabric React DocumentCard](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App)
 

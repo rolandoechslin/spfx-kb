@@ -23,3 +23,11 @@
 
 - [Use Office UI Fabric React components in your SharePoint client-side web part](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/use-fabric-react-components)
 
+## Fluent UI
+
+- [Fluent UI (Controls Web)](https://developer.microsoft.com/en-us/fluentui#/controls/web)
+
+## Azure Communication Service UI Library
+
+- [Azure Communication Services UI Library - UI Components](https://azure.github.io/communication-ui-library/?path=/story/overview--page)
+
