@@ -34,6 +34,7 @@
 - [Burp](https://portswigger.net/burp)
 - [RSA - Open Source Tools](https://www.rsaconference.com/rsac-programs/open-source-tools)
 - [exploit-db.com](https://www.exploit-db.com)
+- [Intro netstat](https://www.ionos.de/digitalguide/server/tools/einfuehrung-in-netstat/)
 
 ## Firewall
 
