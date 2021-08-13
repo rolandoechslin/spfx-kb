@@ -128,6 +128,13 @@ News Links
 ```html
 ?stay=true
 ```
+Error Handling
+
+- [simulating 429 throttling](https://camerondwyer.com/2021/08/12/simulating-429-throttling-in-microsoft-graph-api-sharepoint-onedrive-workloads/)
+
+```Html
+?test429=true
+```
 
 ## Lists
 
