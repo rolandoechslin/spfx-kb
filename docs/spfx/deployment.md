@@ -31,6 +31,7 @@
 
 - [Reusable ARM template for Web Application](https://joelfmrodrigues.wordpress.com/2018/11/19/reusable-arm-template-for-web-application/)
 - [GitHub - ARMTemplates](https://github.com/joelfmrodrigues/ARMTemplates)
+- [Azure ARM Templates Explored](https://www.netwoven.com/2021/08/12/azure-arm-templates-explored/)
 
 ## CI/CD
 
