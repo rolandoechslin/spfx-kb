@@ -55,6 +55,7 @@
 - [Provisioning an Office 365 group with an approval flow and Azure functions-part 1](https://blog.atwork.at/post/2017/09/28/Provisioning-an-Office-365-group-with-an-approval-flow-and-Azure-functions-part-1)
 - [Provisioning an Office 365 group with an approval flow and Azure functions-part 2](https://blog.atwork.at/post/2017/10/01/Provisioning-an-Office-365-group-with-an-approval-flow-and-Azure-functions-part-2)
 - [Provisioning an Office 365 group with an approval flow and Azure functions-part 3](https://blog.atwork.at/post/2017/10/05/Provisioning-an-Office-365-group-with-an-approval-flow-and-Azure-functions-part-3)
+- [https://thomasdaly.net/2021/04/09/pnp-powershell-v4-provisioning-with-azure-functions-v3-and-power-automate/](https://thomasdaly.net/2021/04/09/pnp-powershell-v4-provisioning-with-azure-functions-v3-and-power-automate/)
 
 ## OneDrive for Business
 
