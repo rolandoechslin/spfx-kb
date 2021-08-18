@@ -117,6 +117,7 @@ window.spModuleLoader._bundledComponents["b6917cb1-93a0-4b97-a84d-7cf49975d4ec"]
 - [Create a simple a – z in page](https://sharepointstuff621190718.wordpress.com/2019/11/19/create-a-simple-a-z-in-sharepoint-modern-sharepoint/)
 - [spfx-react-covid-19 - chart](https://github.com/serdarketenci/spfx-react-covid-19)
 - [spfx-jquery-owlcarousel](https://github.com/msisgreat/spfx/tree/master/spfx-jquery-owlcarousel)
+- [sudharsank - samples](https://github.com/sudharsank/spfx-demos/tree/master/src/webparts)
 
 ## Project WebParts
 
