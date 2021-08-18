@@ -25,6 +25,7 @@ Log.error("HelloWorld", new Error("Oh No!  Error!  Ahhhhhh!!!!"), this.context.s
 - [Resolve to Log](https://julieturner.net/2018/12/resolve-to-log/)
 - [Working With: Logging](https://github.com/SharePoint/PnP-JS-Core/wiki/Working-With:-Logging)
 - [Integrate Logging](https://blog.josequinto.com/2017/04/30/how-to-integrate-pnp-js-core-and-sharepoint-framework-logging-systems/#Integrate-Logging)
+- [Flexible and powerful logging using PnP Logging in SPFx](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/flexible-and-powerful-logging-using-pnp-logging-in-spfx/ba-p/2655701)
 
 ## Logging with AppInsights
 
