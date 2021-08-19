@@ -44,7 +44,7 @@
 
 - [Penetration Testing SharePoint](https://www.pluralsight.com/courses/penetration-testing-sharepoint)
 
-## Office 365
+## Office 365 / AzureAD
 
 - [Basic Security Set Up for Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365/community/basic-security-set-up-for-microsoft-365)
 - [Office 365 Security overview](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/?view=o365-worldwide)
@@ -56,6 +56,7 @@
 - [Consent Grant Attack](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense/blob/main/ConsentGrant.md)
 - [Azure AD - Attack and Defense Playbook](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense)
 - [SimuLand](https://github.com/Azure/SimuLand)
+- [Azure AD access reviews](https://docs.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview)
 
 ## File
 
