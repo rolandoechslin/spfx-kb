@@ -55,6 +55,7 @@
 - [How to Discover New Audit Events in the Office 365 Audit Log (Including App Consents)](https://office365itpros.com/2021/02/18/discover-new-office365-audit-events/)
 - [Consent Grant Attack](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense/blob/main/ConsentGrant.md)
 - [Azure AD - Attack and Defense Playbook](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense)
+- [SimuLand](https://github.com/Azure/SimuLand)
 
 ## File
 
