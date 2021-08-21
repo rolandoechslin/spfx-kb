@@ -165,11 +165,12 @@ edge://settings/siteData?search=cookie
 - [The scientific methodology for troubleshooting SharePoint](https://sharepointdragons.com/2018/05/25/the-scientific-methodology-for-troubleshooting-sharepoint)
 - [Open in Explorer or View with File Explorer in SharePoint](https://support.office.com/en-us/article/open-in-explorer-or-view-with-file-explorer-in-sharepoint-66b574bb-08b4-46b6-a6a0-435fd98194cc)
 
-## Invalid File Names
+## Invalid File Names and Types
 
 - [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/en-us/article/Invalid-file-names-and-file-types-in-OneDrive-OneDrive-for-Business-and-SharePoint-64883a5d-228e-48f5-b3d2-eb39e07630fa#filenamepathlengths)
 - [File naming restrictions in SharePoint](https://sharepointstuff621190718.wordpress.com/2018/12/03/file-naming-restrictions-in-sharepoint/)
 - [SharePoint Naming Guidelines](https://docs.microsoft.com/en-us/microsoft-365/community/sharepoint-naming-guidelines)
+- [File types supported for previewing files in OneDrive, SharePoint, and Teams](https://support.microsoft.com/en-us/office/file-types-supported-for-previewing-files-in-onedrive-sharepoint-and-teams-e054cd0f-8ef2-4ccb-937e-26e37419c5e4)
 
 ## No-Scripts / embedding-scripts
 
