@@ -35,6 +35,7 @@
 - [RSA - Open Source Tools](https://www.rsaconference.com/rsac-programs/open-source-tools)
 - [exploit-db.com](https://www.exploit-db.com)
 - [Intro netstat](https://www.ionos.de/digitalguide/server/tools/einfuehrung-in-netstat/)
+- [Open Port Checking Tools in 2021](https://www.upguard.com/blog/best-open-port-scanners)
 
 ## Firewall
 
