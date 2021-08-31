@@ -155,7 +155,7 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 - [Episode #120 - Microsoft Teams Templates](https://www.youtube.com/watch?v=-YQxFjfGPTI)
 - [Provisioning teams in Microsoft Teams using the PnP Provisioning Engine](https://www.collabmagazine.com/provisioning-teams-in-microsoft-teams-using-the-pnp-provisioning-engine/)
 - [PiaSys/Conferences-Samples/Teams-Provisioning](https://github.com/PiaSys/Conferences-Samples/tree/master/Teams-Provisioning)
-
+- [Manage Team Templates with PowerShell](https://mattipaukkonen.com/2021/03/19/manage-team-templates-with-powershell/)
 ## Renaming Teams
 
 - [Renaming Teams and Channels Can Be Messy](https://www.petri.com/renaming-teams-can-be-messy)

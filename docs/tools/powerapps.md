@@ -3,15 +3,12 @@
 ## Learning
 
 - [Power Wiki](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/init-api-permissions-for-your-spfx-projects-without-deploying/ba-p/2189059)
+- [Microsoft Power Platform: Learning Resources](https://powerapps.microsoft.com/en-us/blog/microsoft-powerapps-learning-resources/)
 
 ## Frameworks
 
 - [PowerApps Tools](https://github.com/microsoft/powerapps-tools)
 - [5 Power Platform projects developers must know!](https://sharepains.com/2020/03/18/power-platform-projects-developers-must-know/)
-
-## Learning
-
-- [Microsoft Power Platform: Learning Resources](https://powerapps.microsoft.com/en-us/blog/microsoft-powerapps-learning-resources/)
 
 ## Video Tutorials
 
@@ -35,6 +32,7 @@
 
 - [Tips for making your apps more maintainable](https://powerapps.microsoft.com/en-us/blog/tips-for-a-maintainable-extensible-app)
 - [Embed PowerApps in Modern SharePoint Online Site Page](https://www.sharepointsky.com/embed-powerapps-in-sharepoint-online/)
+- [Application Lifecycle Management](https://sharepains.com/2021/08/24/application-lifecycle-management/)
 
 ## Samples
 

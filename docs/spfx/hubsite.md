@@ -30,6 +30,7 @@
 
 -[Introducing the idea of Archive Hub Sites](https://n8d.at/blog/introducing-the-idea-of-archive-hub-sites/)
 - [How to get the hubId in SharePoint Framework](https://www.eliostruyf.com/how-to-get-the-hub-site-id-in-sharepoint-framework/)
+- [Fix broken Hub Sites in SharePoint Online](https://areflyen.no/2021/08/24/fix-broken-hub-sites-in-sharepoint-online/)
 
 ```Powershell
 cls
