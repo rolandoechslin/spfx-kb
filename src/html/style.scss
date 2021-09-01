@@ -1,0 +1,82 @@
+.c-timeline__item {
+    position: relative;
+    display: flex;
+    gap: 1.5rem;
+    //outline: solid 1px;
+  
+    &:last-child {
+      .c-timeline__content {
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+  
+  .c-timeline__content {
+    flex: 1;
+    position: relative;
+    order: 1;
+    padding-left: 1.5rem;
+    padding-bottom: 3rem;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 0;
+      height: 100%;
+      width: 2px;
+      background-color: lightgrey;
+    }
+  
+    &:after {
+      content: "";
+      position: absolute;
+      left: calc(0px - 11px);
+      top: 0;
+      width: 20px;
+      height: 20px;
+      background-color: #fff;
+      z-index: 1;
+      border: 2px solid lightgrey;
+      border-radius: 50%;
+    }
+  }
+  
+  .c-timeline__title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .c-timeline__desc {
+    color: grey;
+  }
+  
+  time {
+    text-align: end;
+    flex: 0 0 100px;
+    min-width: 0;
+    overflow-wrap: break-word;
+    padding-bottom: 1rem;
+  }
+  
+  /*** Non-demo CSS ***/
+  
+  .wrapper {
+    max-width: 1000px;
+    margin: 2rem auto 0;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding: 1rem;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
