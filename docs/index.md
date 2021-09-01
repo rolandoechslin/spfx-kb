@@ -702,7 +702,7 @@ npm i -g @pnp/office365-cli@next
 
 Create report for upgrade
 
-- [spfx project upgrade](https://pnp.github.io/office365-cli/cmd/spfx/project/project-upgrade/)
+- [spfx project upgrade](https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-upgrade/)
 
 ```Powershell
 o365 spfx project upgrade --shell powershell --toVersion 1.8.2 --output md > report.md
