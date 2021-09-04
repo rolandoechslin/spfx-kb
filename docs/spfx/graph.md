@@ -1,5 +1,9 @@
 # Microsoft Graph
 
+## Best Practise
+
+- [Best practices for working with Microsoft Graph](https://docs.microsoft.com/en-us/graph/best-practices-concept?view=graph-rest-1.0)
+
 ## Permission
 
 - [Microsoft Graph permissions reference](https://docs.microsoft.com/en-us/graph/permissions-reference?context=graph/api/1.0)
