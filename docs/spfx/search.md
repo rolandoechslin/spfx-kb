@@ -18,6 +18,10 @@
 
 - [MS Search Layout Designer](https://searchlayoutdesigner.azurewebsites.net/)
 
+## Custom Search Result Page
+
+- [Create a custom search results page in SharePoint Online](https://docs.microsoft.com/en-us/microsoftsearch/create-search-results-pages)
+
 ## Search WebPart
 
 - [PnP Modern Search solution](https://microsoft-search.github.io/pnp-modern-search/)
