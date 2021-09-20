@@ -16,6 +16,10 @@
 - https://github.com/lakshaydulani/typescript-summary
 - https://github.com/netdur/typescript-design-patterns
 
+## Typescript Version for SPFx
+
+- [Use Different Versions of TypeScript in SPFx projects](https://www.voitanos.io/blog/use-different-typescript-versions-in-sharepoint-framework-projects/)
+
 ## Tutorial
 
 - http://dotnetdetail.com/learn-typescript-from-basic/
