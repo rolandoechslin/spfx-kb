@@ -1,5 +1,7 @@
 # User Profile
 
+- [Looking at Things in Profile](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/looking-at-things-in-profile/ba-p/2781232)
+
 ## Sync User Picture
 
 - [Information about profile picture synchronization in Microsoft 365](https://support.microsoft.com/en-us/office/information-about-profile-picture-synchronization-in-microsoft-365-20594d76-d054-4af4-a660-401133e3d48a)

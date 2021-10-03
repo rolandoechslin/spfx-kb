@@ -61,6 +61,7 @@
 - [msgraphtoolkitsamples](https://github.com/ktskumar/msgraphtoolkitsamples)
 - [SPFx - ms-graph-toolkit-agenda-panel](https://github.com/rabwill/msgraph-myagenda-panel)
 - [SPFx - Exploring Microsoft Graph Toolkit](https://github.com/spblog/mgt-intro)
+- [SPFx-MSGraph using the Toolkit](https://spknowledge.com/2021/09/30/spfx-msgraph-toolkit-using-microsoft-mgt-spfx-microsoft-mgt-react/)
 
 ## Files Handling
 
