@@ -1,4 +1,5 @@
 # Source: http://sharepoint-tricks.com/apply-view-formatting-of-staff-with-powershell/
+# Source: https://pnp.github.io/script-samples/spo-apply-column-format/README.html
 
 $site     = "https://contoso.sharepoint.com" #Site where the list will be created.
 $nameList = "Project Staff" # Name of the List
