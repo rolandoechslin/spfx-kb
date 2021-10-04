@@ -10,6 +10,10 @@
 
 - [Walkthrough of Site Provisioning process using PnP PowerShell](https://asishpadhy.com/2018/11/09/walkthrough-of-pnp-provisioning-process-using-powershell/)
 
+## Custom List Template
+
+- [SharePoint Custom List Templates](https://wonderlaura.com/2021/09/21/sharepoint-custom-list-templates/)
+
 ## Site TemplateId
 
 - [SharePoint Online Site Template ID list for PowerShell](https://vladtalkstech.com/2019/12/sharepoint-online-site-template-id-list-for-powershell.html)
