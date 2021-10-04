@@ -156,9 +156,10 @@ Error Handling
 edge://settings/siteData?search=cookie
 ```
 
-## API Throttling (Error 429)
+## Graph API Errors 429
 
-- <https://blog.mastykarz.nl/simulating-throttling-sharepoint>
+- [Simulating throttling in SharePoint](https://blog.mastykarz.nl/simulating-throttling-sharepoint)
+- [How to use the Microsoft Graph SDK Chaos Handler to Simulate Graph API Errors](https://camerondwyer.com/2021/09/23/how-to-use-the-microsoft-graph-sdk-chaos-handler-to-simulate-graph-api-errors/)
 
 ## Tips
 
