@@ -28,6 +28,8 @@
 - [PnP Webcast - SharePoint Framework Modern Search Web Part](https://www.youtube.com/watch?v=g41nvRVwtds)
 - [How to Implement SharePoint Modern Search Refiners](https://www.youtube.com/watch?v=y760Okrz-Oo)
 - [GalacticSummit Agnes Molnar - No Code Search Applications in SharePoint Online](https://www.youtube.com/watch?v=DokyfDGhTM0&feature=youtu.be)
+- [How to set up your first PnP Search Page](https://searchexplained.com/set-up-pnp-search-page-sharepoint-online/)
+- [PnP Modern Search Filters web part](https://searchexplained.com/pnp-modern-search-filters-web-part/)
 
 ## Microsoft Search
 
