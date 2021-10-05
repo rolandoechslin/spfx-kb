@@ -19,6 +19,10 @@
 
 - [Everything you wanted to know about hashtables](https://kevinmarquette.github.io/2016-11-06-powershell-hashtable-everything-you-wanted-to-know-about)
 
+## Performance Tips
+
+- [PowerShell performance tips](https://www.blimped.nl/blogs/powershell-performance-tips/)
+
 ## VS.Code Settings
 
 - [How To Make Visual Studio Code Look And Behave Like The PowerShell ISE](https://blog.techsnips.io/how-to-make-visual-studio-code-look-and-behave-like-the-powershell-ise/)
