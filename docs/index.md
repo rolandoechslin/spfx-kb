@@ -94,7 +94,7 @@
 - [Logging in to Office 365](https://pnp.github.io/office365-cli/user-guide/connecting-office-365/)
 
 ```Powershell
-o365 spo login https://<tenant>-admin.sharepoint.com
+m365 spo login https://<tenant>-admin.sharepoint.com
 ```
 
 - [spo serviceprincipal grant add](https://pnp.github.io/office365-cli/cmd/spo/serviceprincipal/serviceprincipal-grant-add/)
@@ -706,7 +706,7 @@ Create report for upgrade
 - [spfx project upgrade](https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-upgrade/)
 
 ```Powershell
-o365 spfx project upgrade --shell powershell --toVersion 1.8.2 --output md > report.md
+m365 spfx project upgrade --shell powershell --toVersion 1.12.1 --output md > report.md
 ```
 
 ## Update SPFx packages
