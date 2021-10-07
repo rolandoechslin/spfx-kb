@@ -5,7 +5,6 @@
 - [Microsoft 365 Community Content](https://docs.microsoft.com/en-us/microsoft-365/community/)
 - [SharePoint For IT Professionals](https://docs.microsoft.com/en-us/sharepoint/)
 - [SharePoint development](https://docs.microsoft.com/en-us/sharepoint/dev/)
-- [SharePoint Developer Community (SharePoint PnP) resources](http://aka.ms/sppnp)
 - [SharePoint Videos](https://developer.microsoft.com/en-us/sharepoint/gallery/?filterBy=Videos,SharePoint,React)
 - [Etiquette of Microsoft 365](https://greyhatbeard.github.io/m365-etiquette/)
 - [Tips & Tricks Coding/SPFX/AzureAD](https://michaelmaillot.github.io/)
