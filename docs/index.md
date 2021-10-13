@@ -73,6 +73,8 @@
 
 - [sharepoint look book](https://sharepointlookbook.azurewebsites.net/)
 - [Official product colors for Microsoft apps](https://fluentfabric.azurewebsites.net/#/color/products)
+- [Teams UI Component Library](https://devblogs.microsoft.com/microsoft365dev/grow-your-skills-and-build-collaborative-solutions-exam-ms-600-building-applications-and-solutions-with-microsoft-365-core-services/)
+- [Figma UI Kit for Teams](https://www.figma.com/community/file/916836509871353159)
 
 ## Code Review Checklist
 
