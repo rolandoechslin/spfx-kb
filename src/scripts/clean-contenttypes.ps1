@@ -1,4 +1,5 @@
 # https://sympmarc.com/2021/10/14/clean-up-unwanted-site-columns-from-content-types-and-lists-libraries/
+# https://pnp.github.io/script-samples/spo-cleanup-site-column-usage/README.html?tabs=pnp-ps
 
 # Import modules
 Import-Module PnP.PowerShell
