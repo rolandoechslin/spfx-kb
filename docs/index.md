@@ -31,8 +31,10 @@
 
 ## Reference Samples
 
+- [SharePoint Framework DataTable](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-datatable)
 - [Lead Assist Dashboard](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-teams-lead-dashboard)
 - [Executive Room Reservation Reference Microsoft Teams Personal App](https://github.com/pnp/spfx-reference-scenarios/tree/main/samples/ace-teams-roomreservation)
+- [News article content at a glance](https://github.com/pnp/sp-dev-fx-aces/tree/main/samples/ImageCard-At-a-glance)
 
 ## Learning SPFx Videos
 
