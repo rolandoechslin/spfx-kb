@@ -170,6 +170,7 @@ wget --recursive --no-clobber --page-requisites --html-extension --convert-links
 - [Responsive Email Foundation Zurb](https://foundation.zurb.com/emails.html)
 - [mailchimp - newsletter](https://mailchimp.com)
 - [10MinuteMail](https://www.10MinuteMail.com/)
+- [Free Mobile-Friendly & Responsive HTML Email Templates](https://colorlib.com/wp/responsive-html-email-templates/)
 
 ## Ressourcen Files
 
