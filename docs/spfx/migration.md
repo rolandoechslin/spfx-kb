@@ -24,6 +24,10 @@
 
 - [How to migrate files from cloud storage to SharePoint using the Mover Migration Tool](https://sharepointmaven.com/how-to-migrate-files-from-cloud-storage-to-sharepoint-using-the-mover-migration-tool/)
 
+## SharePoint Manager
+
+- [Walkthrough: Migration Manager](https://sharepointstuff.com/2020/07/15/walkthrough-migration-manager/)
+
 ## DocumentID
 
 - [SHAREPOINT ONLINE AND DOCUMENT ID. THE GOODS](https://joannecklein.com/2018/11/16/sharepoint-online-and-document-id-the-goods/)
