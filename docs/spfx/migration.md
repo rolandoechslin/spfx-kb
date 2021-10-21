@@ -44,6 +44,7 @@
 
 - [SharePoint Migration: Mind the URL Length](https://tahoeninjas.blog/2019/02/25/sharepoint-migration-mind-the-url-length/)
 - [Migrating to Office 365 Checklist](https://blog.syskit.com/office-365-migration-checklist)
+- [Restrictions and limitations in OneDrive and SharePoint](https://support.microsoft.com/en-us/office/restrictions-and-limitations-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa)
 
 ## Showcase
 
