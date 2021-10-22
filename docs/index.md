@@ -1,5 +1,6 @@
 # Tips and tricks
 
+- [Teams Developer Portal](https://dev.teams.microsoft.com/)
 - [Pattern & Practises](https://pnp.github.io/)
 - [New - sample-solution-gallery](https://adoption.microsoft.com/sample-solution-gallery)
 - [Microsoft 365 Community Content](https://docs.microsoft.com/en-us/microsoft-365/community/)
