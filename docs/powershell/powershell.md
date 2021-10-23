@@ -19,6 +19,10 @@
 
 - [Everything you wanted to know about hashtables](https://kevinmarquette.github.io/2016-11-06-powershell-hashtable-everything-you-wanted-to-know-about)
 
+## Coding Tips
+
+- [Backticks vs. Splatting vs. Class Objects](https://helloitsliam.com/2021/10/22/microsoft-graph-powershell-backticks-vs-splatting-vs-class-objects/)
+
 ## Performance Tips
 
 - [PowerShell performance tips](https://www.blimped.nl/blogs/powershell-performance-tips/)
