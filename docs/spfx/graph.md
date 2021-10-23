@@ -25,6 +25,7 @@
 
 - [Use query parameters to customize responses](https://docs.microsoft.com/en-us/graph/query-parameters)
 - [Build advanced queries in Microsoft Graph with $count, $filter, $search, and $orderby](https://developer.microsoft.com/en-us/microsoft-365/blogs/build-advanced-queries-with-count-filter-search-and-orderby/)
+- [Microsoft Graph PowerShell Filtering Working and Failures](https://helloitsliam.com/2021/10/19/microsoft-graph-powershell-filtering-working-and-failures/)
 
 ## Azure Functions
 
