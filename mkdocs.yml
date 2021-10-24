@@ -8,6 +8,7 @@ pages:
     - SPFx:
         - Start: spfx/start.md
         - Architecture: spfx/architecture.md
+        - ACE: spfx/ace.md
         - Azure: spfx/azure.md
         - AI: spfx/ai.md
         - Adaptive-Cards: spfx/adaptive-cards.md
