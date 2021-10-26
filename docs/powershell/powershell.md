@@ -14,7 +14,7 @@
 - [powershell-ref](http://ligman.me/1n3mAUZ)
 - [PowerShell Cheat Sheet](https://www.sharepointeurope.com/powershell-cheat-sheet/)
 - [awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
-- [POWERSHELL TUTORIAL [Highway to PowerShell - Ep 1]](https://www.youtube.com/watch?v=nFyhmBIw8jc)
+- [Highway to PowerShell - Ep 1](https://www.youtube.com/watch?v=nFyhmBIw8jc)
 
 ```ps
 Get-Command -Name Get-PnPSite -Syntax
