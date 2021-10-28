@@ -1,6 +1,7 @@
 # PnP-Powershell
 
 - [Documentation](https://pnp.github.io/powershell/index.html)
+- [Script Samples](https://pnp.github.io/script-samples/index.html)
 
 ## Installation
 
