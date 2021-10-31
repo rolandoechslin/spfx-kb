@@ -137,7 +137,7 @@ spo serviceprincipal grant add --resource 'Microsoft Graph' --scope 'Mail.Read'
 
 with pnpm manager
 
-- [Using pnpm with SPFx](https://joelfmrodrigues.wordpress.com/2018/10/31/using-pnpm-with-spfx/)
+- [Using pnpm with SPFx](https://www.m365-dev.com/2018/10/31/using-pnpm-with-spfx/)
 
 ```Powershell
 yo @microsoft/sharepoint –package-manager pnpm
@@ -267,7 +267,7 @@ gulp serve --nobrowser
 
 ## Checklist SPFx initial
 
-- <https://joelfmrodrigues.wordpress.com/2018/03/02/sharepoint-framework-checklist/>
+- (SharePoint Framework – new project checklist)[https://www.m365-dev.com/2018/03/02/sharepoint-framework-checklist/]
 
 ## Update Version
 

@@ -37,3 +37,4 @@ Get-InstalledModule -Name "MicrosoftTeams" -RequiredVersion 0.9.0 | Uninstall-Mo
 - [Managing Teams – Movers and Leavers](https://blog.eardley.org.uk/2021/04/managing-teams-movers-and-leavers/)
 - [TeamsManagement Powershell](https://github.com/al-eardley/TeamsManagement/blob/main/TeamsManagement/TeamsManagement.psm1)
 - [Replace the membership of a user in a Microsoft Group or Microsoft Team](https://www.nubo.eu/Replace-Membership-In-A-Microsoft-Group-Or-Team/)
+- [Managing Microsoft Teams using the Microsoft Graph PowerShell](https://helloitsliam.com/2021/10/29/managing-microsoft-teams-using-the-microsoft-graph-powershell/)
