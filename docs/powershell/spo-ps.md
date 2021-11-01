@@ -14,16 +14,27 @@ Get-Module Microsoft.Online.SharePoint.PowerShell* -ListAvailable | Select-Objec
 
 - [Download](https://www.microsoft.com/en-us/download/details.aspx?id=35588)
 
-## Update Module to latest version
+## Update Module to the latest version
 
 ```Powershell
 Update-Module Microsoft.Online.SharePoint.PowerShell
 ```
 
-## Delete old version
+## Delete the old version
 
 ```Powershell
 Get-InstalledModule -Name "Microsoft.Online.SharePoint.PowerShell" -RequiredVersion 16.0.8119.0 | Uninstall-Module
+```
+
+## Check Different File Version
+
+- [The term ‘Connect-SPOService’ is not recognized](https://www.easy365manager.com/the-term-connect-sposervice-is-not-recognized/)
+
+```Powershell
+Get-ChildItem -Path 'C:\Program Files\WindowsPowerShell\Modules\Microsoft.Online.SharePoint.PowerShell\*Microsoft.SharePoint*.dll' -Recurse | ft Name,@{Label="Version";Expression={$_.VersionInfo.FileVersion}} -AutoSize
+
+# Search in GAC_MSIL
+Get-ChildItem -Path C:\Windows\Microsoft.NET\assembly\GAC_MSIL\*Microsoft.SharePoint*.dll -Recurse | ft Name,@{Label="Version";Expression={$_.VersionInfo.FileVersion}} -AutoSize
 ```
 
 ## Credential Manager
