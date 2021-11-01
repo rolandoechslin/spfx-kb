@@ -1320,15 +1320,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#update-module-to-latest-version" title="Update Module to latest version" class="md-nav__link">
-    Update Module to latest version
+  <a href="#update-module-to-the-latest-version" title="Update Module to the latest version" class="md-nav__link">
+    Update Module to the latest version
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#delete-old-version" title="Delete old version" class="md-nav__link">
-    Delete old version
+  <a href="#delete-the-old-version" title="Delete the old version" class="md-nav__link">
+    Delete the old version
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-different-file-version" title="Check Different File Version" class="md-nav__link">
+    Check Different File Version
   </a>
   
 </li>
@@ -1640,15 +1647,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#update-module-to-latest-version" title="Update Module to latest version" class="md-nav__link">
-    Update Module to latest version
+  <a href="#update-module-to-the-latest-version" title="Update Module to the latest version" class="md-nav__link">
+    Update Module to the latest version
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#delete-old-version" title="Delete old version" class="md-nav__link">
-    Delete old version
+  <a href="#delete-the-old-version" title="Delete the old version" class="md-nav__link">
+    Delete the old version
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-different-file-version" title="Check Different File Version" class="md-nav__link">
+    Check Different File Version
   </a>
   
 </li>
@@ -1721,12 +1735,22 @@
 <ul>
 <li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=35588">Download</a></li>
 </ul>
-<h2 id="update-module-to-latest-version">Update Module to latest version<a class="headerlink" href="#update-module-to-latest-version" title="Permanent link">&para;</a></h2>
+<h2 id="update-module-to-the-latest-version">Update Module to the latest version<a class="headerlink" href="#update-module-to-the-latest-version" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span><span class="nb">Update-Module</span> <span class="n">Microsoft</span><span class="p">.</span><span class="n">Online</span><span class="p">.</span><span class="n">SharePoint</span><span class="p">.</span><span class="n">PowerShell</span>
 </pre></div>
 
-<h2 id="delete-old-version">Delete old version<a class="headerlink" href="#delete-old-version" title="Permanent link">&para;</a></h2>
+<h2 id="delete-the-old-version">Delete the old version<a class="headerlink" href="#delete-the-old-version" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span><span class="nb">Get-InstalledModule</span> <span class="n">-Name</span> <span class="s2">&quot;Microsoft.Online.SharePoint.PowerShell&quot;</span> <span class="n">-RequiredVersion</span> <span class="n">16</span><span class="p">.</span><span class="n">0</span><span class="p">.</span><span class="n">8119</span><span class="p">.</span><span class="n">0</span> <span class="p">|</span> <span class="n">Uninstall-Module</span>
+</pre></div>
+
+<h2 id="check-different-file-version">Check Different File Version<a class="headerlink" href="#check-different-file-version" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.easy365manager.com/the-term-connect-sposervice-is-not-recognized/">The term ‘Connect-SPOService’ is not recognized</a></li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="nb">Get-ChildItem</span> <span class="n">-Path</span> <span class="s1">&#39;C:\Program Files\WindowsPowerShell\Modules\Microsoft.Online.SharePoint.PowerShell\*Microsoft.SharePoint*.dll&#39;</span> <span class="n">-Recurse</span> <span class="p">|</span> <span class="n">ft</span> <span class="n">Name</span><span class="p">,@{</span><span class="n">Label</span><span class="p">=</span><span class="s2">&quot;Version&quot;</span><span class="p">;</span><span class="n">Expression</span><span class="p">={</span><span class="nv">$_</span><span class="p">.</span><span class="n">VersionInfo</span><span class="p">.</span><span class="n">FileVersion</span><span class="p">}}</span> <span class="n">-AutoSize</span>
+
+<span class="c"># Search in GAC_MSIL</span>
+<span class="nb">Get-ChildItem</span> <span class="n">-Path</span> <span class="n">C</span><span class="err">:</span><span class="p">\</span><span class="n">Windows</span><span class="p">\</span><span class="n">Microsoft</span><span class="p">.</span><span class="n">NET</span><span class="p">\</span><span class="n">assembly</span><span class="p">\</span><span class="n">GAC_MSIL</span><span class="p">\*</span><span class="n">Microsoft</span><span class="p">.</span><span class="n">SharePoint</span><span class="p">*.</span><span class="n">dll</span> <span class="n">-Recurse</span> <span class="p">|</span> <span class="n">ft</span> <span class="n">Name</span><span class="p">,@{</span><span class="n">Label</span><span class="p">=</span><span class="s2">&quot;Version&quot;</span><span class="p">;</span><span class="n">Expression</span><span class="p">={</span><span class="nv">$_</span><span class="p">.</span><span class="n">VersionInfo</span><span class="p">.</span><span class="n">FileVersion</span><span class="p">}}</span> <span class="n">-AutoSize</span>
 </pre></div>
 
 <h2 id="credential-manager">Credential Manager<a class="headerlink" href="#credential-manager" title="Permanent link">&para;</a></h2>
