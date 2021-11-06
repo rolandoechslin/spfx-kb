@@ -701,13 +701,14 @@ npm install @microsoft/generator-sharepoint -g
 Latest version
 
 ```Powershell
-npm i -g @pnp/office365-cli@latest
+npm i -g @pnp/cli-microsoft365@latest
+
 ```
 
 Latest Beta version
 
 ```Powershell
-npm i -g @pnp/office365-cli@next
+npm i -g @pnp/cli-microsoft365@next
 ```
 
 Create report for upgrade
