@@ -14,6 +14,11 @@
 - [Cloud Migration](https://resources.techcommunity.microsoft.com/cloud-migration/)
 ![Anatomy of a SharePoint migration](https://joannecklein.com/wp-content/uploads/2019/02/SharePoint-Migration-Infographic-1.png)
 
+## ShareGate
+
+- [File share to SharePoint migration diagram](https://support-desktop.sharegate.com/hc/en-us/articles/4407852408596-File-share-to-SharePoint-migration-diagram)
+- [SharePoint to SharePoint migration diagram](https://support-desktop.sharegate.com/hc/en-us/articles/360028246272-SharePoint-to-SharePoint-migration-diagram)
+
 ## SharePoint Migration Tool (SPMT)
 
 - [Overview of the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool)

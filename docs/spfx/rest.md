@@ -10,13 +10,17 @@
 
 ## Tools
 
-- [postman-and-office-365](https://www.helloitsliam.com/2016/02/04/postman-and-office-365)
 - [SharePoint REST API Metadata Explorer](https://s-kainet.github.io/sp-rest-explorer)
-- [Announcing Microsoft Graph Postman Collections](https://developer.microsoft.com/en-us/sharepoint/blogs/postman-collections/)
-- [Using Postman with the Microsoft Graph](https://www.youtube.com/watch?v=7Sx2pFY21YQ)
 - [Powerful HTTP and GraphQL tool belt](https://insomnia.rest/)
 - [Explore SharePoint REST API with Chrome F12 cURL (bash) to Postman](https://www.spjeff.com/2020/06/16/explore-sharepoint-rest-api-with-chrome-f12-curl-bash-to-postman/)
 - [SharePoint Framework - Rest API Tester](https://github.com/estruyf/spfx-rest-api-tester)
+
+### Postman
+
+- [postman-and-office-365](https://www.helloitsliam.com/2016/02/04/postman-and-office-365)
+- [Using Postman with the Microsoft Graph](https://www.youtube.com/watch?v=7Sx2pFY21YQ)
+- [Configure Postman to be easily used with any Azure AD protected API (SharePoint, Graph, custom etc.)](https://spblog.net/post/2021/11/02/configure-postman-to-be-easily-used-with-any-azure-ad-protected-api-sharepoint-graph-etc)
+- [Announcing Microsoft Graph Postman Collections](https://developer.microsoft.com/en-us/sharepoint/blogs/postman-collections/)
 - [Microsoft Graph Mailbag – Explore Microsoft Graph with Postman](https://developer.microsoft.com/en-us/microsoft-365/blogs/explore-microsoft-graph-with-postman/)
 
 ## Testing
