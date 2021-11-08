@@ -20,7 +20,8 @@
 - [Power Apps pricing](https://emea.flow.microsoft.com/en-us/pricing/#plan-feature-table)
 - [Licensing overview for Power Platform](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus)
 - [The comprehensive licensing guide to Microsoft Power Automate (formerly Flow) and Power Apps](https://jussiroine.com/2019/01/the-comprehensive-licensing-guide-to-microsoft-flow-and-powerapps/)
-- [Power Platform Licensing QnA – Key take-aways](https://m365princess.com/power-platform-licensing-qna-key-take-aways/)
+- [Power Platform Licensing QnA – Key takeaways](https://m365princess.com/power-platform-licensing-qna-key-take-aways/)
+- [Power Platform licensing, November 2021 updates](https://jukkaniiranen.com/2021/11/power-platform-licensing-november-2021-updates/)
 
 ![powerautomate-licensing](../assets/images/powerautomate-licensing-1.png)
 
@@ -38,7 +39,7 @@
 
 - [SharePoint PowerApps Solution samples](https://github.com/SharePoint/sp-powerapps-solutions/tree/master/solutions)
 - [SharePoint custom forms and automated business workflow](https://resources.techcommunity.microsoft.com/business-applications-process/)
-- [Flow provisioning with azure function and pnp template](https://sergeluca.wordpress.com/2017/08/01/microsoft-flow-provisioning-sharepoint-sites-applying-pnp-templates-and-waiting-for-completion-azure-function-flow-azure-queue)
+- [Flow provisioning with azure function and PNP template](https://sergeluca.wordpress.com/2017/08/01/microsoft-flow-provisioning-sharepoint-sites-applying-pnp-templates-and-waiting-for-completion-azure-function-flow-azure-queue)
 
 ## Localization
 
