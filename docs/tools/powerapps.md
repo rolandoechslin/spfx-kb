@@ -27,7 +27,7 @@
 
 ## WebParts
 
-- <https://www.jijitechnologies.com/blogs/powerapps-webpart-sharepoint>
+- [PowerApps web part for SharePoint Online](https://www.jijitechnologies.com/blogs/powerapps-webpart-sharepoint)
 
 ## Tipps
 
