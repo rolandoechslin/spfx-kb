@@ -48,6 +48,8 @@
 ## Custom Forms
 
 - [Getting started with custom forms in SharePoint build with PowerApps](https://www.youtube.com/watch?v=A9uZholjaHo)
+- [How to Customize SharePoint list forms with Power Apps - Beginners Tutorial](https://www.youtube.com/watch?v=aFzd5qwS4-c&t=0s)
+- [Customize SharePoint Document Library Form using Power Apps](https://www.youtube.com/watch?v=X-hFMMKuPsM)
 
 ## Charts
 
