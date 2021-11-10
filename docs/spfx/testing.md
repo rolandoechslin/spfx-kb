@@ -34,6 +34,7 @@
 ## Testing Hooks
 
 - [react-hooks-testing-library](https://react-hooks-testing-library.com/)
+- [spfx-ut-library - Mocking library for SPFx](https://github.com/mgwojciech/spfx-ut-library)
 
 ## Samples
 
