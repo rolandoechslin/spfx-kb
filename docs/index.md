@@ -10,6 +10,10 @@
 - [Etiquette of Microsoft 365](https://greyhatbeard.github.io/m365-etiquette/)
 - [Tips & Tricks Coding/SPFX/AzureAD](https://michaelmaillot.github.io/)
 
+## M365 Docs
+
+- [microsoft-365](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365)
+
 ## Start with SPFx (Training)
 
 - [Why did Microsoft create the SharePoint Framework?](https://www.andrewconnell.com/blog/spfx-5w1h-why-did-microsoft-create-sharepoint-framework/)
