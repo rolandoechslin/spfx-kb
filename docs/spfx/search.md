@@ -52,6 +52,8 @@
 - [Crawled Properties Not Created From Site Columns in Modern Team Sites](https://sympmarc.com/2021/04/13/crawled-properties-not-created-from-site-columns-in-modern-team-sites/)
 - [Mapping or clearing crawled property](https://www.techmikael.com/2020/11/mapping-or-clearing-crawled-property-to.html)
 - [SearchConfiguration](https://github.com/wobba/SearchConfiguration)
+- [How to create a Managed Property in SharePoint Online](https://sharepointmaven.com/how-to-create-a-managed-property-in-sharepoint-online/)
+- [Hide content from delve but not from search](https://www.techmikael.com/2015/01/hide-content-from-delvebut-not-from.html)
 
 ## Keyword Query Language (KQL) syntax reference
 
