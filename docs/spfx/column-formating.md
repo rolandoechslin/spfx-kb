@@ -27,3 +27,7 @@
 ## Add Scripts for formating
 
 - [SharePoint List Formatting Tabs](https://www.sharepointsiren.com/2019/09/sharepoint-list-formatting-tabs/)
+
+## View formating
+
+- [How to create a current week view in Microsoft Lists](https://lists.handsontek.net/create-current-week-view-microsoft-lists/)
