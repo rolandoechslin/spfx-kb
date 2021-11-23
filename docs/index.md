@@ -42,6 +42,7 @@
 - [Executive Room Reservation Reference Microsoft Teams Personal App](https://github.com/pnp/spfx-reference-scenarios/tree/main/samples/ace-teams-roomreservation)
 - [News article content at a glance](https://github.com/pnp/sp-dev-fx-aces/tree/main/samples/ImageCard-At-a-glance)
 - [react content query online](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-content-query-online)
+- [Fakeflix - WebApp to learn React/Redux and more](https://github.com/Th3Wall/Fakeflix)
 
 ## Learning SPFx Videos
 
