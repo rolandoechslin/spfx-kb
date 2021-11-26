@@ -16,8 +16,10 @@
 
 ## ShareGate
 
+- [ShareGate Limits](https://support-desktop.sharegate.com/hc/en-us/categories/115000076328-Limitations)
 - [File share to SharePoint migration diagram](https://support-desktop.sharegate.com/hc/en-us/articles/4407852408596-File-share-to-SharePoint-migration-diagram)
 - [SharePoint to SharePoint migration diagram](https://support-desktop.sharegate.com/hc/en-us/articles/360028246272-SharePoint-to-SharePoint-migration-diagram)
+- [Tales of a Microsoft 365 migration – file shares](https://sharepointstuff.com/2021/11/11/fileshares/)
 
 ## SharePoint Migration Tool (SPMT)
 
