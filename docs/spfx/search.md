@@ -22,7 +22,7 @@
 
 - [Create a custom search results page in SharePoint Online](https://docs.microsoft.com/en-us/microsoftsearch/create-search-results-pages)
 
-## Search WebPart
+## PnP Modern Search
 
 - [PnP Modern Search solution](https://microsoft-search.github.io/pnp-modern-search/)
 - [PnP Webcast - SharePoint Framework Modern Search Web Part](https://www.youtube.com/watch?v=g41nvRVwtds)
@@ -30,6 +30,7 @@
 - [GalacticSummit Agnes Molnar - No Code Search Applications in SharePoint Online](https://www.youtube.com/watch?v=DokyfDGhTM0&feature=youtu.be)
 - [How to set up your first PnP Search Page](https://searchexplained.com/set-up-pnp-search-page-sharepoint-online/)
 - [PnP Modern Search Filters web part](https://searchexplained.com/pnp-modern-search-filters-web-part/)
+- [Using the PnP Modern Search Web Parts](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/using-the-pnp-modern-search-web-parts/ba-p/2239771)
 
 ## Microsoft Search
 
