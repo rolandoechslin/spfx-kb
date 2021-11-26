@@ -31,6 +31,7 @@
 - [How to set up your first PnP Search Page](https://searchexplained.com/set-up-pnp-search-page-sharepoint-online/)
 - [PnP Modern Search Filters web part](https://searchexplained.com/pnp-modern-search-filters-web-part/)
 - [Using the PnP Modern Search Web Parts](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/using-the-pnp-modern-search-web-parts/ba-p/2239771)
+- [How to customize the handlebars template in PnP modern search web part?](https://global-sharepoint.com/sharepoint-online/how-to-customize-the-handlebars-template-in-pnp-modern-search-web-part/)
 
 ## Microsoft Search
 
