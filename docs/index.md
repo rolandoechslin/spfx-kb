@@ -746,6 +746,8 @@ m365 spfx project upgrade --shell powershell --toVersion 1.12.1 --output md > re
 - [SPFx Fast Serve Tool](https://github.com/s-KaiNet/spfx-fast-serve)
 - [sp-formatter](https://github.com/pnp/sp-formatter)
 - [SP Formatter: the big update](https://spblog.net/post/2021/02/05/sp-formatter-the-big-update)
+- [SharePoint produtivity tools](https://github.com/Zerg00s/productivity-tools)
+- [Ultimate Developer Tool List for SPFx](https://tahoeninjas.blog/2019/03/14/ultimate-developer-tool-list-for-spfx/)
 
 ## Team Development Tools
 

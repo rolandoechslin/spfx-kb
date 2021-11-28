@@ -75,8 +75,6 @@
 
 - [regex101](https://regex101.com/)
 
-- [Ultimate Developer Tool List for SPFx](https://tahoeninjas.blog/2019/03/14/ultimate-developer-tool-list-for-spfx/)
-
 ## Create shortcut(s)
 
 - [create shortcut(s) for your common SharePoint Framework generator commands](https://spblog.net/post/2019/04/30/sharepoint-framework-development-tips-create-shortcut-s-for-your-common-sharepoint-framework-generator-commands)
