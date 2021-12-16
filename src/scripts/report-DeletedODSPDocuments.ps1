@@ -1,3 +1,4 @@
+# Source: https://office365itpros.com/2021/12/16/search-microsoft-365-audit-log-document-deletion-events
 # ReportDeletedODSPDocuments.PS1
 # A script to report deletion activity for SharePoint Online and OneDrive for Business documents based on information in the Office 365 audit log
 # https://github.com/12Knocksinna/Office365itpros/blob/master/ReportDeletedODSPDocuments.PS1
