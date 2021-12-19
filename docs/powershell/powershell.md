@@ -28,6 +28,7 @@ Get-Command -Name Get-PnPSite -Syntax
 
 - [Backticks vs. Splatting vs. Class Objects](https://helloitsliam.com/2021/10/22/microsoft-graph-powershell-backticks-vs-splatting-vs-class-objects/)
 - [10 suggestions to improve your next PowerShell script](https://tech.nicolonsky.ch/10-suggestions-to-improve-your-next-PowerShell-script/)
+- [PowerShell Tips & Tricks / jdhitsolutions](https://jdhitsolutions.com/blog/powershell-tips-tricks-and-advice/)
 
 ## Testing Tips
 
