@@ -18,6 +18,7 @@
 
 ## Licence Changes
 
+- [Power Platform licensing, November 2021 updates](https://jukkaniiranen.com/2021/11/power-platform-licensing-november-2021-updates/)
 - [Microsoft 365 Licensing](https://m365maps.com/)
 - [Understanding Power Platform Licensing](https://docs.microsoft.com/en-us/microsoft-365/community/powerplatformlicensingforcitizendeveloper)
 - [Neue Lizenzierung von PowerApps](https://blog.ioz.ch/neue-lizenzierung-von-powerapps)
