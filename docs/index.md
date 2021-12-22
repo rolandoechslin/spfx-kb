@@ -79,7 +79,7 @@
 - [Setup TypeScript with React](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)
 - [Design Patterns](https://www.patterns.dev/posts/)
 
-## Performance Guidline
+## Performance Guideline
 
 - [PnP Virtual Conference - 09/2020 - Ways to optimize SharePoint Framework highly custom Intranet](https://www.youtube.com/watch?v=b574ish9IAM&list=PLR9nK3mnD-OVtYPolswzDjun3g78jN8OE&index=8)
 - [SharePoint Framework performance optimization list](https://blog.velingeorgiev.com/sharepoint-framework-performance-optimization)
