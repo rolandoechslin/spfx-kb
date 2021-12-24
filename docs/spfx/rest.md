@@ -8,6 +8,10 @@
 - [SharePoint & Office 365 REST API Resources](https://github.com/andrewconnell/sp-o365-rest)
 - [Using REST API For Selecting, Filtering, Sorting And Pagination in SharePoint List](https://social.technet.microsoft.com/wiki/contents/articles/35796.sharepoint-2013-using-rest-api-for-selecting-filtering-sorting-and-pagination-in-sharepoint-list.aspx)
 
+## API Guidlines
+
+- [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines)
+
 ## Tools
 
 - [SharePoint REST API Metadata Explorer](https://s-kainet.github.io/sp-rest-explorer)
