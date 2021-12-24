@@ -2,7 +2,8 @@
 
 - [Teams Developer Portal](https://dev.teams.microsoft.com/)
 - [Pattern & Practises](https://pnp.github.io/)
-- [New - sample-solution-gallery](https://adoption.microsoft.com/sample-solution-gallery)
+- [Sample Solution Gallery](https://adoption.microsoft.com/sample-solution-gallery)
+- [Microsoft 365 Extensibility look book gallery](https://adoption.microsoft.com/extensibility-look-book)
 - [Microsoft 365 Community Content](https://docs.microsoft.com/en-us/microsoft-365/community/)
 - [SharePoint For IT Professionals](https://docs.microsoft.com/en-us/sharepoint/)
 - [SharePoint development](https://docs.microsoft.com/en-us/sharepoint/dev/)
