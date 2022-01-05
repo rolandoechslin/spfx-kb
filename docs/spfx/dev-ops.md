@@ -1,6 +1,9 @@
 # Dev-Ops
 
+## Tips & Tricks
+
 [SPFx unit tests and code coverage quality gates in Azure DevOps – Velin Georgiev](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/approvals/gates?view=azure-devops)
+[Apply a DevOps process to your SPFx project (Part 1)](https://michaelmaillot.github.io/articles/20220104-apply-devops-spfx-part1/)
 
 ## Sample
 
