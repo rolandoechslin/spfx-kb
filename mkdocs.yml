@@ -90,6 +90,7 @@ pages:
         - Gatspy: tools/gatspy.md
         - Git: tools/git.md
         - Markdown: tools/markdown.md
+        - MkDocs: tools/mkdocs.md
     - Security:
         - Learning: security/learning.md
     - About:
