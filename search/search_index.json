@@ -632,13 +632,18 @@
         },
         {
             "location": "/spfx/dev-ops/",
-            "text": "Dev-Ops\n\u00b6\n\n\nSPFx unit tests and code coverage quality gates in Azure DevOps \u2013 Velin Georgiev\n\n\nSample\n\u00b6\n\n\n\n\nreact-jest-testing\n\n\n\n\nJest Setup\n\u00b6\n\n\nhttps://blog.velingeorgiev.com/unit-test-your-sharepoint-framework-solution-with-jest\n\n\nhttps://www.youtube.com/watch?v=iDt7MJX9Lj0&t=20s\n\n\nhttps://www.youtube.com/watch?v=lFkNqcf-Thg\n\n\nhttps://www.eliostruyf.com/sharepoint-framework-unit-tests-with-jest/\n\n\nDevOps pipelines demos\n\u00b6\n\n\nhttp://bit.ly/pnp-devops-1\n\n\nhttp://bit.ly/pnp-devops-2\n\n\nhttp://bit.ly/pnp-devops-3\n\n\nhttp://bit.ly/pnp-devops-4\n\n\nUnit Tests\n\u00b6\n\n\n\n\nSharePoint Framework unit tests and code coverage quality gates in Azure DevOps",
+            "text": "Dev-Ops\n\u00b6\n\n\nTips & Tricks\n\u00b6\n\n\nSPFx unit tests and code coverage quality gates in Azure DevOps \u2013 Velin Georgiev\n\n\nApply a DevOps process to your SPFx project (Part 1)\n\n\nSample\n\u00b6\n\n\n\n\nreact-jest-testing\n\n\n\n\nJest Setup\n\u00b6\n\n\nhttps://blog.velingeorgiev.com/unit-test-your-sharepoint-framework-solution-with-jest\n\n\nhttps://www.youtube.com/watch?v=iDt7MJX9Lj0&t=20s\n\n\nhttps://www.youtube.com/watch?v=lFkNqcf-Thg\n\n\nhttps://www.eliostruyf.com/sharepoint-framework-unit-tests-with-jest/\n\n\nDevOps pipelines demos\n\u00b6\n\n\nhttp://bit.ly/pnp-devops-1\n\n\nhttp://bit.ly/pnp-devops-2\n\n\nhttp://bit.ly/pnp-devops-3\n\n\nhttp://bit.ly/pnp-devops-4\n\n\nUnit Tests\n\u00b6\n\n\n\n\nSharePoint Framework unit tests and code coverage quality gates in Azure DevOps",
             "title": "Dev-Ops"
         },
         {
             "location": "/spfx/dev-ops/#dev-ops",
-            "text": "SPFx unit tests and code coverage quality gates in Azure DevOps \u2013 Velin Georgiev",
+            "text": "",
             "title": "Dev-Ops"
+        },
+        {
+            "location": "/spfx/dev-ops/#tips-tricks",
+            "text": "SPFx unit tests and code coverage quality gates in Azure DevOps \u2013 Velin Georgiev  Apply a DevOps process to your SPFx project (Part 1)",
+            "title": "Tips &amp; Tricks"
         },
         {
             "location": "/spfx/dev-ops/#sample",
@@ -4169,6 +4174,21 @@
             "location": "/tools/markdown/#technical-writing-courses-for-engineers",
             "text": "Technical Writing Courses",
             "title": "Technical Writing Courses for Engineers"
+        },
+        {
+            "location": "/tools/mkdocs/",
+            "text": "MkDocs\n\u00b6\n\n\nLinks\n\u00b6\n\n\n\n\nMkDocs\n\n\nCreating a beautiful documentation site with MkDocs",
+            "title": "MkDocs"
+        },
+        {
+            "location": "/tools/mkdocs/#mkdocs",
+            "text": "",
+            "title": "MkDocs"
+        },
+        {
+            "location": "/tools/mkdocs/#links",
+            "text": "MkDocs  Creating a beautiful documentation site with MkDocs",
+            "title": "Links"
         },
         {
             "location": "/security/learning/",
