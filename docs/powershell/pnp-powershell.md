@@ -2,6 +2,7 @@
 
 - [Documentation](https://pnp.github.io/powershell/index.html)
 - [Script Samples](https://pnp.github.io/script-samples/index.html)
+- [Script Samples - matrix](https://pnp.github.io/script-samples/matrix.html)
 
 ## Installation
 
