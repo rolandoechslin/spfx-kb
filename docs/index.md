@@ -363,6 +363,7 @@ gulp serve --locale=de-de
 - [APIs Everywhere](./assets/APIs-Everywhere.pptx)
 - [RSS Reader](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-rss-reader)
 - [Sample FieldVisitTab](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-teams-tab-field-visit-mashup/src/webparts/fieldVisitTab/services)
+- [SPFx – How to handle large list items](https://github.com/sudharsank/spfx-demos/tree/master/src/webparts/largeListItems)
 
 Sample Folder structure
 
