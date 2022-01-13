@@ -1,3 +1,5 @@
+# Source: https://lists.handsontek.net/create-list-using-sharepoint-microsoft-lists-view-formatting-part-1/
+
 Write-Host "Type your tenant name:"
 
 $tenenatName = Read-Host 
