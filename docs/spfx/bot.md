@@ -48,3 +48,4 @@
 - [Episode #108 - Creating a Teams Bot with Yo Team](https://www.youtube.com/watch?v=529Ah_Dv5Do)
 - [Chatbots in Microsoft-Teams | Erstellen Sie mit Power Virtual Agents](https://www.youtube.com/watch?v=G8C_YKdJves)
 - [Make a simple bot using Webhooks in Teams](https://www.lee-ford.co.uk/posts/simple-bot-webhooks-teams/)
+- [teams-webhook-weatherbot-sample](https://github.com/leeford/teams-webhook-weatherbot-sample)
