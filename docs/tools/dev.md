@@ -103,6 +103,10 @@
 - [docusaurus](https://docusaurus.io)
 - [dochameleon](https://dochameleon.io)
 
+## ZoomIt
+
+- [How to present like a PRO using ZoomIt](https://www.youtube.com/watch?v=ubQfYT7At8k)
+
 ## Convert / Format
 
 - [freeformatter.com](https://www.freeformatter.com)

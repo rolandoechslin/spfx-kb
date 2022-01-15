@@ -63,8 +63,12 @@ window.spModuleLoader._bundledComponents["b6917cb1-93a0-4b97-a84d-7cf49975d4ec"]
 ## News WebPart
 
 - [EXPIRING NEWS ACROSS MODERN SHAREPOINT](https://joannecklein.com/2019/01/26/expiring-news-across-modern-sharepoint)
-
 - [Injecting HTML content with PnP PowerShell](https://medium.com/@zaab_it/digging-into-sharepoint-modern-page-text-webpart-8d3f304cd6c0)
+
+## Highlighted Content Web Part (HCWP)
+
+- [Highlighted Content Web Part](https://docs.microsoft.com/en-us/microsoft-365/community/highlighted-content-web-part)
+- [Use the Highlighted content web part](https://support.microsoft.com/en-us/office/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd)
 
 ## Help / Tutorial WebPart
 

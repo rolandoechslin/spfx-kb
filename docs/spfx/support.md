@@ -132,6 +132,7 @@ News Links
 Error Handling
 
 - [simulating 429 throttling](https://camerondwyer.com/2021/08/12/simulating-429-throttling-in-microsoft-graph-api-sharepoint-onedrive-workloads/)
+- [Simulating 429 Throttling in Microsoft Graph API (SharePoint/OneDrive workloads)](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/simulating-429-throttling-in-microsoft-graph-api-sharepoint/ba-p/2668937)
 
 ```Html
 ?test429=true
