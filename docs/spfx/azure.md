@@ -84,6 +84,7 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 - [Connect to Azure AD-secured APIs in SharePoint Framework solutions](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aadhttpclient)
 - [Microsoft Graph permissions reference](https://docs.microsoft.com/en-us/graph/permissions-reference)
 - [User_impersonation scope issue when working with SharePoint Framework API permissions](https://robertschouten.com/2019/06/19/user_impersonation-scope-issue-when-working-with-sharepoint-framework-api-permissions/)
+- [Sites.Selected Permission using Azure AD App](https://www.leonarmston.com/2022/01/pnp-powershell-csom-now-works-with-sharepoint-sites-selected-permission-using-azure-ad-app/)
 
 ## Security
 
