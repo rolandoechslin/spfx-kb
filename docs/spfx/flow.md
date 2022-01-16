@@ -12,6 +12,7 @@
 ## Connectors
 
 - [What you should know about building Microsoft Flow connectors](https://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors)
+- [Working with Custom Connectors in Power Platform for beginners](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/working-with-custom-connectors-in-power-platform-for-beginners/ba-p/3062538)
 
 ## Limits
 
