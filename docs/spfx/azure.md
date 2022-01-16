@@ -63,6 +63,10 @@
 Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 - http://julieturner.net/2018/04/managing-the-unified-group-in-office-365-for-sharepoint-and-beyond
 
+## Token
+
+ - [Introduction to tokens](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/introduction-to-tokens/ba-p/2267853?WT.mc_id=m365-24198-cxa)
+
 ## Manage Group Settings
 
 - https://support.office.com/en-us/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618
