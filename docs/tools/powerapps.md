@@ -25,6 +25,10 @@
 
 ![powerautomate-licensing](../assets/images/powerautomate-licensing-1.png)
 
+## Performance / Connectors 
+
+- [Considerations for optimized performance in Power Apps](https://powerapps.microsoft.com/en-us/blog/considerations-for-optimized-performance-in-power-apps/)
+
 ## WebParts
 
 - [PowerApps web part for SharePoint Online](https://www.jijitechnologies.com/blogs/powerapps-webpart-sharepoint)
