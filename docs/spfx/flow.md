@@ -28,6 +28,7 @@
 ## Export / Import Flows
 
 - [Export and import your flows across environments with packaging](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/)
+- [Flow & Power Apps Migrator](https://github.com/Zerg00s/FlowPowerAppsMigrator)
 
 ## Samples
 
