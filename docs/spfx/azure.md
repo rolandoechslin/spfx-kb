@@ -42,6 +42,7 @@
 
 - [An Azure Function to keep other Functions/URLs warmed up](https://www.sharepointnutsandbolts.com/2018/09/Azure-Function-Warmup-Cold-Start.html)
 - [3 ways to create and debug Azure Functions – CLI VS Code & Visual Studio](https://www.sharepointnutsandbolts.com/2018/10/Azure-Functions-Visual-Studio-Code-CLI.html)
+- [Putting some more FUN into Azure Functions, Managed Identity & Microsoft Graph](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/putting-some-more-fun-into-azure-functions-managed-identity-amp/ba-p/2628047)
 
 ## App Register
 
