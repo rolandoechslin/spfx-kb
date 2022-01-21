@@ -24,6 +24,7 @@
 ## Admin Security
 
 - [Management of Flows](https://rencore.com/blog/inconvenient-management-flows/)
+- [Power Automate Security](https://helloitsliam.com/2022/01/19/power-automate-security/)
 
 ## Export / Import Flows
 
