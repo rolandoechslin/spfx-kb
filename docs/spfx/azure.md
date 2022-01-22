@@ -20,6 +20,10 @@
 - [Use Azure KeyVault Secrets when accessing Microsoft Graph](https://mmsharepoint.wordpress.com/2018/11/14/secure-azure-functions-part-1-use-azure-keyvault-secrets-when-accessing-microsoft-graph/)
 - [Handle certificates with Azure KeyVault when accessing SharePoint Online](https://mmsharepoint.wordpress.com/2019/01/11/secure-azure-functions-part-2-handle-certificates-with-azure-keyvault-when-accessing-sharepoint-online/)
 
+## Azure Logic App
+
+- [How to transition from Power Automate to Logic Apps](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/how-to-transition-from-power-automate-to-logic-apps/ba-p/2054095?WT.mc_id=m365-24198-cxa)
+
 ## Azure-Automation
 
 - [SharePoint Online PnP PowerShell Provisioning using Flow and Azure Automation](https://spmaestro.com/sharepoint-pnp-provisioning-using-flow-and-azure-automation/)
