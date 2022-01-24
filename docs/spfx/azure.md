@@ -23,6 +23,8 @@
 ## Azure Logic App
 
 - [How to transition from Power Automate to Logic Apps](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/how-to-transition-from-power-automate-to-logic-apps/ba-p/2054095?WT.mc_id=m365-24198-cxa)
+- [Choose the right integration and automation services in Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs#compare-microsoft-power-automate-and-azure-logic-apps?WT.mc_id=AZ-MVP-5003816)
+- [Export flows from Power Automate and deploy to Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/export-from-microsoft-flow-logic-app-template?WT.mc_id=AZ-MVP-5003816)
 
 ## Azure-Automation
 
@@ -47,6 +49,7 @@
 - [An Azure Function to keep other Functions/URLs warmed up](https://www.sharepointnutsandbolts.com/2018/09/Azure-Function-Warmup-Cold-Start.html)
 - [3 ways to create and debug Azure Functions – CLI VS Code & Visual Studio](https://www.sharepointnutsandbolts.com/2018/10/Azure-Functions-Visual-Studio-Code-CLI.html)
 - [Putting some more FUN into Azure Functions, Managed Identity & Microsoft Graph](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/putting-some-more-fun-into-azure-functions-managed-identity-amp/ba-p/2628047)
+- [SharePoint PDF Merge Function](https://github.com/joelfmrodrigues/sp-merge-pdf)
 
 ## App Register
 
