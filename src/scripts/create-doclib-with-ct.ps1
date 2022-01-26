@@ -54,6 +54,7 @@ Add-PnPFieldToContentType -Field "BookmarkUrl" -ContentType $objectBase
 Add-PnPFieldToContentType -Field "BookmarkIcon" -ContentType $objectBase
 
 # Document list
+$listObjectName = "Objects"
 New-PnPList -Title "Objects" -Template DocumentLibrary -Url "Objects" -ErrorAction Continue
 $objectDocLib = Get-PnPList -Identity "Objects"
 
