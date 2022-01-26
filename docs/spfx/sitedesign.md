@@ -28,6 +28,7 @@
 
 - [Invoking a Site Design Task using REST](https://beaucameron.net/2019/01/10/invoking-a-site-design-task-using-rest/)
 - [Invoking unlimited actions with Site Design Tasks and Microsoft Flow](http://rezadorrani.com/index.php/2019/01/14/invoking-unlimited-actions-with-site-design-tasks-and-microsoft-flow/)
+- [How to Apply Site template (Site Design) via Power Automate](https://365corner.pl/2021/10/14/how-to-apply-site-template-via-power-automate/)
 
 ## Sample
 
