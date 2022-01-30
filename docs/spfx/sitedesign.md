@@ -30,9 +30,7 @@
 - [Invoking unlimited actions with Site Design Tasks and Microsoft Flow](http://rezadorrani.com/index.php/2019/01/14/invoking-unlimited-actions-with-site-design-tasks-and-microsoft-flow/)
 - [Create Site Script and Site Template Using Power Automate in SharePoint](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/create-site-script-and-site-template-using-power-automate-in/ba-p/2710696)
 - [How to Apply Site template (Site Design) via Power Automate](https://365corner.pl/2021/10/14/how-to-apply-site-template-via-power-automate/)
-
-## Sample
-
+- [SharePoint PnP Provisioning with Azure Logic Apps and Azure Automation](https://thesharepointfarm.com/2020/12/sharepoint-azure-pnp-provisioning/)
 - [Modern SharePoint site creation with site designs and REST](https://simonagren.github.io/sites-sitedesign-rest/)
 
 ## Reports
