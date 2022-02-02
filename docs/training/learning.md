@@ -1,5 +1,9 @@
 # Learning
 
+## MS Certification
+
+- [Become Microsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
+
 ## Architecture
 
 - [Client-Side Architecture Basics - Guide](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
