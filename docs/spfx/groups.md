@@ -1,5 +1,9 @@
 # Groups
 
+## Must read
+
+- [An overview of different types of security groups in SharePoint and Office 365](https://sharepointmaven.com/an-overview-of-different-types-of-security-groups-in-sharepoint-and-office-365/)
+
 ## Overview
 
 - [Infographic - An everyday guide to Office 365 Groups](https://www.jumpto365.com/blog/everyday-guide-to-office-365-groups)
