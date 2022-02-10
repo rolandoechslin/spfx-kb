@@ -202,6 +202,8 @@ git show --name-only
 
 ## Development(local workbench)
 
+[Importend: only for spfx < 13.1](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/release-1.13#deprecations-and-removed-items-in-this-release)
+
 ```Powershell
 gulp serve
 ```
@@ -212,12 +214,14 @@ https://localhost:4321/temp/workbench.html
 
 ## Development(online workbench)
 
+- [Update your project's hosted workbench URL](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part#update-your-projects-hosted-workbench-url)
+
 ```Powershell
 gulp serve --nobrowser --locale=de-de
 ```
 
 ```html
-/_layouts/15/workbench.aspx
+/_layouts/workbench.aspx
 ```
 
 ## Prepare Deployment Solution
