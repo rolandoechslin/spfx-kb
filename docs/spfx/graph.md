@@ -29,6 +29,7 @@
 
 ## Azure Functions
 
+- [Getting started with PnP Core SDK](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/getting-started-with-pnp-core-sdk/ba-p/2207918?WT.mc_id=m365-24198-cxa)
 - [How to access SharePoint data from Azure Function with SPFx and PnP Core SDK](https://spblog.net/post/2020/12/10/how-to-access-sharepoint-data-from-azure-function-with-spfx-and-pnp-core)
 - [Azure Functions project that implements Microsoft Teams provisioning via Microsoft Graph](https://github.com/microsoftgraph/contoso-airlines-azure-functions-sample)
 
