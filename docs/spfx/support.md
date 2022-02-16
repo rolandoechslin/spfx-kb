@@ -91,13 +91,19 @@
 
 ## WebParts
 
-Maintenancemode
+Maintenance mode
 
 - [open-and-use-the-web-part-maintenance-page](https://support.office.com/en-us/article/open-and-use-the-web-part-maintenance-page-eff9ce22-d04a-44dd-ae83-ac29a5e396c2)
 - [How to open SharePoint pages in maintenance mode](https://sharepointstuff.com/2020/09/09/how-to-open-sharepoint-pages-in-maintenance-mode/)
 
 ```html
 ?maintenancemode=true
+```
+
+- [Disable SPFx web parts and extensions](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/client-side-web-parts-maintenance-mode#disable-spfx-web-parts-and-extensions)
+
+```html
+?disable3PCode=1
 ```
 
 DisableTelemetry
@@ -122,13 +128,32 @@ Hide the navigation
 ?env=Embedded is the new ?isDlg=1 
 ```
 
+```html
+?env=WebViewList
+```
+
+- [SPFX webpart serving old files versions in Chrome](https://github.com/SharePoint/sp-dev-docs/issues/7664)
+
+```html
+?Embed=true&sw=bypass
+```html
+
+Filter URL
+
+- [Generate Modern List Filter URL: Managed Metadata](https://piyushksingh.com/2019/05/24/generate-modern-list-filter-url-managed-metadata/)
+- [How to filter a SharePoint list or library using URL parameters](https://natechamberlain.com/2020/05/09/how-to-filter-a-sharepoint-list-or-library-using-url-parameters/)
+
+
 News Links
 
 - [Edit news links](https://emilymancini.com/2020/01/16/editing-a-news-link-in-sharepoint-online/)
 
+to clear (debug) configs
+
 ```html
 ?stay=true
 ```
+
 Error Handling
 
 - [simulating 429 throttling](https://camerondwyer.com/2021/08/12/simulating-429-throttling-in-microsoft-graph-api-sharepoint-onedrive-workloads/)
