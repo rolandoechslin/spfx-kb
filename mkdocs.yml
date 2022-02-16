@@ -76,6 +76,7 @@ pages:
         - Redux: training/redux.md
         - MS-600: training/ms-600.md
     - Powershell:
+        - GraphSDK: powershell/graphsdk-ps.md
         - Powershell: powershell/powershell.md
         - PnP-PS: powershell/pnp-ps.md
         - SPO-PS: powershell/spo-ps.md
