@@ -63,6 +63,10 @@
 - [10 Azure Cloud services that every Developers, Consultant, and Architects should Know and Learn it well – Part I](https://abhijitjana.net/2020/04/18/10-azure-cloud-services-that-every-developers-consultant-and-architects-should-know-and-learn-it-well/)
 - [10 Azure services that every .NET Developers, Consultant, and Architects should know and learn it well – Part II](https://abhijitjana.net/2020/05/16/10-azure-services-that-every-net-developers-consultant-and-architects-should-know-and-learn-it-well-part-ii/)
 
+## Azure Log Analytics
+
+- [Azure Log Analytics](https://zimmergren.net/understanding-azure-log-analytics-query-auditing/)
+
 ## Tips
 
  -[Azure Readiness Checklist](https://github.com/ghostinthewires/Azure-Readiness-Checklist)
