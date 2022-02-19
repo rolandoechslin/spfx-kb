@@ -32,6 +32,10 @@
 - [SharePoint Framework Client-Side Webparts mit React](https://techblog.novacapta.de/blog/sharepoint-framework-client-side-webparts-mit-react/)
 - [React Best Practices](https://techblog.novacapta.de/blog/react-best-practices/)
 
+## Manage state methods in react
+
+- [How to Manage State in Your React Apps](https://www.freecodecamp.org/news/how-to-manage-state-in-your-react-apps/)
+
 ## Roadmap
 
 - [React Developer Roadmap](https://github.com/adam-golab/react-developer-roadmap)
