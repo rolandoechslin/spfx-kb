@@ -341,3 +341,44 @@ rimraf %FOLDER%
 ```bat
 cmd /c "cd %1 && fast-del.bat"
 ```
+
+## Link Checker
+
+- [Crawl your website links and images to find broken links/images](https://gist.github.com/Swimburger/c2def1ea0dcb53d3d23030296c6e1b6c)
+- [Copy an object from the console](https://devtoolstips.org/tips/en/copy-from-console/)
+- [Check-SPOBrokenLink](https://github.com/Sayannara/Check-SPOBrokenLink/blob/main/Test-URL.ps1)
+
+```ps
+copy($$('a').map(a => a.href).join('\n'))
+```
+
+```ps
+function Get-UrlStatusCode([string] $Url)
+{
+    try
+    {
+        (Invoke-WebRequest -Uri $Url -UseBasicParsing -DisableKeepAlive).StatusCode
+    }
+    catch [Net.WebException]
+    {
+        [int]$_.Exception.Response.StatusCode
+    }
+}
+
+
+foreach($line in Get-Content C:\url.txt) 
+{
+    if($line -match $regex){
+
+     $statusCode = Get-UrlStatusCode  $line
+     if($statusCode -le "200")
+     {
+     	$line + " => OK"
+     }
+     else
+     {
+     	$line + " => Error"
+     }
+    }
+}
+```
