@@ -1,4 +1,11 @@
 # PowerApps
+- [Power Platform Basics - Layer](https://github.com/PowerPlatformAF/PowerPlatformAF/wiki/2-Power-Platform)
+![overview1](../assets/images/powerplattform1.png)
+![overview2](../assets/images/powerplattform2.png)
+
+- [Power Platform Basics - Project Activities](https://github.com/PowerPlatformAF/PowerPlatformAF/wiki/6-Solution-Development#project-activities)
+![c-framework](../assets/images/powerplattform3.png)
+
 
 ## Learning
 
