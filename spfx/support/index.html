@@ -255,7 +255,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../powershell/powershell/" title="Powershell" class="md-tabs__link">
+        <a href="../../powershell/graphsdk-ps/" title="Powershell" class="md-tabs__link">
           Powershell
         </a>
       
@@ -1496,6 +1496,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../powershell/graphsdk-ps/" title="GraphSDK" class="md-nav__link">
+      GraphSDK
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../powershell/powershell/" title="Powershell" class="md-nav__link">
       Powershell
     </a>
@@ -2104,12 +2116,18 @@
 <li><a href="https://techcommunity.microsoft.com/t5/video-hub/best-practices-for-optimizing-performance-of-sharepoint-sites/m-p/1681293">Best practices for optimizing performance of SharePoint sites and portals in Microsoft 365</a></li>
 </ul>
 <h2 id="webparts">WebParts<a class="headerlink" href="#webparts" title="Permanent link">&para;</a></h2>
-<p>Maintenancemode</p>
+<p>Maintenance mode</p>
 <ul>
 <li><a href="https://support.office.com/en-us/article/open-and-use-the-web-part-maintenance-page-eff9ce22-d04a-44dd-ae83-ac29a5e396c2">open-and-use-the-web-part-maintenance-page</a></li>
 <li><a href="https://sharepointstuff.com/2020/09/09/how-to-open-sharepoint-pages-in-maintenance-mode/">How to open SharePoint pages in maintenance mode</a></li>
 </ul>
 <div class="codehilite"><pre><span></span>?maintenancemode=true
+</pre></div>
+
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/general-development/client-side-web-parts-maintenance-mode#disable-spfx-web-parts-and-extensions">Disable SPFx web parts and extensions</a></li>
+</ul>
+<div class="codehilite"><pre><span></span>?disable3PCode=1
 </pre></div>
 
 <p>DisableTelemetry</p>
@@ -2130,13 +2148,32 @@
 <div class="codehilite"><pre><span></span>?env=Embedded is the new ?isDlg=1 
 </pre></div>
 
-<p>News Links</p>
-<ul>
-<li><a href="https://emilymancini.com/2020/01/16/editing-a-news-link-in-sharepoint-online/">Edit news links</a></li>
-</ul>
-<p><div class="codehilite"><pre><span></span>?stay=true
+<div class="codehilite"><pre><span></span>?env=WebViewList
 </pre></div>
-Error Handling</p>
+
+<ul>
+<li><a href="https://github.com/SharePoint/sp-dev-docs/issues/7664">SPFX webpart serving old files versions in Chrome</a></li>
+</ul>
+<div class="codehilite"><pre><span></span>?Embed=true<span class="err">&amp;</span>sw=bypass
+```html
+
+Filter URL
+
+- [Generate Modern List Filter URL: Managed Metadata](https://piyushksingh.com/2019/05/24/generate-modern-list-filter-url-managed-metadata/)
+- [How to filter a SharePoint list or library using URL parameters](https://natechamberlain.com/2020/05/09/how-to-filter-a-sharepoint-list-or-library-using-url-parameters/)
+
+
+News Links
+
+- [Edit news links](https://emilymancini.com/2020/01/16/editing-a-news-link-in-sharepoint-online/)
+
+to clear (debug) configs
+
+```html
+?stay=true
+</pre></div>
+
+<p>Error Handling</p>
 <ul>
 <li><a href="https://camerondwyer.com/2021/08/12/simulating-429-throttling-in-microsoft-graph-api-sharepoint-onedrive-workloads/">simulating 429 throttling</a></li>
 <li><a href="https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/simulating-429-throttling-in-microsoft-graph-api-sharepoint/ba-p/2668937">Simulating 429 Throttling in Microsoft Graph API (SharePoint/OneDrive workloads)</a></li>

@@ -255,7 +255,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../powershell/powershell/" title="Powershell" class="md-tabs__link">
+        <a href="../../powershell/graphsdk-ps/" title="Powershell" class="md-tabs__link">
           Powershell
         </a>
       
@@ -1260,6 +1260,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../powershell/graphsdk-ps/" title="GraphSDK" class="md-nav__link">
+      GraphSDK
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../powershell/powershell/" title="Powershell" class="md-nav__link">
       Powershell
     </a>
@@ -1719,6 +1731,13 @@
         <li class="md-nav__item">
   <a href="#delete-node_modules-folder" title="Delete node_modules Folder" class="md-nav__link">
     Delete node_modules Folder
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#link-checker" title="Link Checker" class="md-nav__link">
+    Link Checker
   </a>
   
 </li>
@@ -2266,6 +2285,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#link-checker" title="Link Checker" class="md-nav__link">
+    Link Checker
+  </a>
+  
+</li>
+      
       
       
       
@@ -2616,6 +2642,45 @@ rimraf <span class="nv">%FOLDER%</span>
 </li>
 </ol>
 <div class="codehilite"><pre><span></span>cmd /c <span class="s2">&quot;cd </span><span class="nv">%1</span><span class="s2"> &amp;&amp; fast-del.bat&quot;</span>
+</pre></div>
+
+<h2 id="link-checker">Link Checker<a class="headerlink" href="#link-checker" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://gist.github.com/Swimburger/c2def1ea0dcb53d3d23030296c6e1b6c">Crawl your website links and images to find broken links/images</a></li>
+<li><a href="https://devtoolstips.org/tips/en/copy-from-console/">Copy an object from the console</a></li>
+<li><a href="https://github.com/Sayannara/Check-SPOBrokenLink/blob/main/Test-URL.ps1">Check-SPOBrokenLink</a></li>
+</ul>
+<div class="codehilite"><pre><span></span>copy($$(&#39;a&#39;).map(a =&gt; a.href).join(&#39;\n&#39;))
+</pre></div>
+
+<div class="codehilite"><pre><span></span>function Get-UrlStatusCode([string] $Url)
+{
+    try
+    {
+        (Invoke-WebRequest -Uri $Url -UseBasicParsing -DisableKeepAlive).StatusCode
+    }
+    catch [Net.WebException]
+    {
+        [int]$_.Exception.Response.StatusCode
+    }
+}
+
+
+foreach($line in Get-Content C:\url.txt) 
+{
+    if($line -match $regex){
+
+     $statusCode = Get-UrlStatusCode  $line
+     if($statusCode -le &quot;200&quot;)
+     {
+        $line + &quot; =&gt; OK&quot;
+     }
+     else
+     {
+        $line + &quot; =&gt; Error&quot;
+     }
+    }
+}
 </pre></div>
                 
                   
