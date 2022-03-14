@@ -48,6 +48,7 @@ $t.Palette | ConvertTo-Json | Clip
 ](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto)
 - [Part 1: Style Options & How to Import](http://warner.digital/spfx-dynamic-styles-part1)
 - [Part 2: Dynamic Bundling of Styles](http://warner.digital/spfx-dynamic-styles-part2)
+- [Guidance for CSS in SharePoint Framework](https://n8d.at/guidance-for-css-in-sharepoint-framework)
 
 ## CSS Box Model
 
