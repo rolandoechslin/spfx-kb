@@ -60,3 +60,7 @@
 ## Google Drive
 
 - [Data Clean-up Activities to Consider Before Google Drive Migration](https://www.netwoven.com/2021/07/30/data-clean-up-activities-to-consider-before-google-drive-migration/)
+
+## Tenant to Teanant
+
+- [How to merge Office 365 tenants – migrate to another Microsoft 365 organization](https://www.codetwo.com/admins-blog/merge-office-365-tenants/)
