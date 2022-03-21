@@ -51,6 +51,7 @@
 - [SharePoint PowerApps Solution samples](https://github.com/SharePoint/sp-powerapps-solutions/tree/master/solutions)
 - [SharePoint custom forms and automated business workflow](https://resources.techcommunity.microsoft.com/business-applications-process/)
 - [Flow provisioning with azure function and PNP template](https://sergeluca.wordpress.com/2017/08/01/microsoft-flow-provisioning-sharepoint-sites-applying-pnp-templates-and-waiting-for-completion-azure-function-flow-azure-queue)
+- [SelfService Portal for Microsoft 365](https://github.com/pnp/powerapps-samples/tree/main/samples/selfservice-groups)
 
 ## Localization
 
