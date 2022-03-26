@@ -45,6 +45,12 @@
 
 - [Penetration Testing SharePoint](https://www.pluralsight.com/courses/penetration-testing-sharepoint)
 
+
+## SharePoint Online
+
+- [Managing SharePoint Online Security: A Team Effort](https://docs.microsoft.com/en-us/microsoft-365/community/sharepoint-security-a-team-effort)
+- [Managing External Guests in SharePoint vs Teams](https://docs.microsoft.com/en-us/microsoft-365/community/managing-external-guest-in-sharepoint-vs-teams)
+
 ## Office 365 / AzureAD
 
 - [Basic Security Set Up for Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365/community/basic-security-set-up-for-microsoft-365)
