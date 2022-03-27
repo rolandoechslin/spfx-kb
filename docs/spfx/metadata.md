@@ -12,3 +12,8 @@
 - [How to come up with metadata?](https://sharepointmaven.com/how-to-come-up-with-metadata)
 - [Struggling with Metadata? Use SharePoint Enterprise Keywords!](https://sharepointmaven.com/sharepoint-enterprise-keywords)
 - [METADATA PROS AND CONS IN MODERN SHAREPOINT](https://joannecklein.com/2019/05/29/metadata-pros-and-cons-in-modern-sharepoint/)
+
+## Journal
+
+- [Creating journal logic](https://www.ioz.ch/blog/praxistipp-sharepoint-online-journalfuehrung/)
+
