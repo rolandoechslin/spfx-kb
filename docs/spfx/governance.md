@@ -158,14 +158,15 @@
 ### Practise (German)
 
 - [Datensatzverwaltung in Microsoft 365](https://docs.microsoft.com/de-de/microsoft-365/compliance/records-management?view=o365-worldwide#records)
- - [Versionsverwaltung zur Aktualisierung von Datensätzen verwenden](https://docs.microsoft.com/de-de/microsoft-365/compliance/record-versioning?view=o365-worldwide)
- - [Datenschutzressourcen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments)
+- [Versionsverwaltung zur Aktualisierung von Datensätzen verwenden](https://docs.microsoft.com/de-de/microsoft-365/compliance/record-versioning?view=o365-worldwide)
+- [Datenschutzressourcen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments)
 
- ### Practise (English)
+### Practise (English)
 
- - [Lifecycle of an item in SharePoint: Where does it go?](https://laptrinhx.com/lifecycle-of-an-item-in-sharepoint-where-does-it-go-1944369039/)
- - [Use retention labels to manage the lifecycle of documents stored in SharePoint](https://docs.microsoft.com/en-us/microsoft-365/compliance/auto-apply-retention-labels-scenario?view=o365-worldwide)
- - [RETENTION IN SHAREPOINT ONLINE: THE WHERE, WHAT, HOW, AND WHEN](https://joannecklein.com/2020/03/25/retention-in-sharepoint-online-the-where-what-and-how/)
- ![rm](../assets/images/rm-5.png)
- - [ROLE TOUCHPOINTS DURING INFORMATION GOVERNANCE AND RECORDS MANAGEMENT IMPLEMENTATION](https://joannecklein.com/2022/01/09/role-touchpoints-during-information-governance-and-records-management-implementation/)
+- [Lifecycle of an item in SharePoint: Where does it go?](https://laptrinhx.com/lifecycle-of-an-item-in-sharepoint-where-does-it-go-1944369039/)
+- [Use retention labels to manage the lifecycle of documents stored in SharePoint](https://docs.microsoft.com/en-us/microsoft-365/compliance/auto-apply-retention-labels-scenario?view=o365-worldwide)
+- [RETENTION IN SHAREPOINT ONLINE: THE WHERE, WHAT, HOW, AND WHEN](https://joannecklein.com/2020/03/25/retention-in-sharepoint-online-the-where-what-and-how/)
 
+![rm](../assets/images/rm-5.png)
+
+- [ROLE TOUCHPOINTS DURING INFORMATION GOVERNANCE AND RECORDS MANAGEMENT IMPLEMENTATION](https://joannecklein.com/2022/01/09/role-touchpoints-during-information-governance-and-records-management-implementation/)
