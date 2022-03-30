@@ -66,10 +66,11 @@ $t.Palette | ConvertTo-Json | Clip
 ## Tools
 
 - [SPFxThemeWiz](https://github.com/spcph/SPFxThemeWiz)
-- https://codepen.io/pen/
-- https://caniuse.com
-- https://jigsaw.w3.org/css-validator/
-- https://addons.mozilla.org/en-US/firefox/addon/web-developer/
+- [codepen.io](https://codepen.io/pen/)
+- [caniuse.com](https://caniuse.com)
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [mozilla addon - web-developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+- [open-ui.org](https://open-ui.org/)
 
 ## Testing
 
