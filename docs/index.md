@@ -217,7 +217,11 @@ https://localhost:4321/temp/workbench.html
 - [Update your project's hosted workbench URL](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part#update-your-projects-hosted-workbench-url)
 
 ```Powershell
-gulp serve --nobrowser --locale=de-de
+gulp serve --nobrowser
+```
+
+```html
+/_layouts/15/workbench.aspx?forceLocale=de-de
 ```
 
 ```html
