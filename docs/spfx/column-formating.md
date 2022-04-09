@@ -6,6 +6,7 @@
 - [Special string values](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#special-string-values)
 - [Getting started with SharePoint’s custom column formatting (Part 1)](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/getting-started-with-sharepoint-s-custom-column-formatting/ba-p/2207937)
 - [Getting started with SharePoint's custom view formatting (Part 2)](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/getting-started-with-sharepoint-s-custom-view-formatting/ba-p/2222740)
+- [Links about List Formating](https://lists.live.com/?l=Links%20about%20List%20Formatting&listId=8e0dfef5fe014acfab5e123156255ebb%5F8f10e77cba34ba42)
 
 ## Tools
 - [HTML To Formatter](https://pnp.github.io/sp-dev-list-formatting/tools/html-formatter-generator/)
