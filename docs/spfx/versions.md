@@ -2,6 +2,12 @@
 
 - [Overview SPFx Versions](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1946wZk4utpdY75buZGqQ-JdNdLWDemErFKcp2alh6rA&font=Default&lang=en&initial_zoom=2&height=650)
 - [SPFx Compatibility Matrix](https://tahoeninjas.blog/2019/12/30/spfx-compatibility-matrix/)
+- [SPFx development tools and libraries compatibility](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/compatibility)
+- [SPFx project doctor](https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-doctor/)
+
+```Powershell
+m365 spfx project doctor --output md > "doctor-report.md"
+```
 
 ## Check versions
 
