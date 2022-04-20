@@ -35,6 +35,12 @@
 
 - [Add AtBot to your SharePoint site using SPFx](https://blog.getbizzy.io/add-bizzy-to-your-sharepoint-site-using-spfx-ab7ed97b856c)
 
+
+## Clarity
+
+- [Microsoft SharePoint & Clarity](https://grazfuchs.net/post/sharepointclarity/)
+- [Power Platform Canvas Apps & Clarity](https://grazfuchs.net/post/canvasappsclarity/)
+
 ## Comments
 
 - [Receive comment notifications by email in Modern SharePoint Pages](http://sharepoint.handsontek.net/2018/08/13/receive-comment-notification-by-email-in-modern-sharepoint-pages)
