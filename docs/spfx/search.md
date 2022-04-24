@@ -59,6 +59,7 @@
 - [SearchConfiguration](https://github.com/wobba/SearchConfiguration)
 - [How to create a Managed Property in SharePoint Online](https://sharepointmaven.com/how-to-create-a-managed-property-in-sharepoint-online/)
 - [Hide content from delve but not from search](https://www.techmikael.com/2015/01/hide-content-from-delvebut-not-from.html)
+- [Manage the search schema in SharePoint](https://docs.microsoft.com/en-us/sharepoint/manage-search-schema#map-a-crawled-property-to-a-managed-property)
 
 ## Keyword Query Language (KQL) syntax reference
 
