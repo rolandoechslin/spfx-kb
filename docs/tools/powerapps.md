@@ -45,6 +45,7 @@
 - [Tips for making your apps more maintainable](https://powerapps.microsoft.com/en-us/blog/tips-for-a-maintainable-extensible-app)
 - [Embed PowerApps in Modern SharePoint Online Site Page](https://www.sharepointsky.com/embed-powerapps-in-sharepoint-online/)
 - [Application Lifecycle Management](https://sharepains.com/2021/08/24/application-lifecycle-management/)
+- [PowerApps source code editing for Canvas Apps](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/power-apps-source-code-editing-for-canvas-apps/ba-p/2256476?WT.mc_id=m365-24198-cxa)
 
 ## Samples
 
