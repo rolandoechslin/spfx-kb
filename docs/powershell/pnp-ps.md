@@ -1,12 +1,24 @@
 # PnP Powershell
 
-## Login with Application admin
+- [Documentation](https://pnp.github.io/powershell/index.html)
+- [Script Samples](https://pnp.github.io/script-samples/index.html)
+- [Script Samples - matrix](https://pnp.github.io/script-samples/matrix.html)
+
+## Security / Authentication 
+
+- [PnP PowerShell - Consent and Authentication](https://www.agrenpoint.com/pnpps-consent-auth/)
+- [Learn How Authentication Works in the latest PnP.PowerShell Module](https://dev.to/svarukala/introducing-the-new-pnp-powershell-based-on-net-core-3-1-and-learn-how-it-s-authentication-works-pn7)
+- [PnP PowerShell – take control of the service principal permissions](https://gautamdsheth.wordpress.com/2021/09/06/pnp-powershell-take-control-of-the-service-principal-permissions/)
+
+## Login with an Application admin
 
  -[The required Office 365 role to run PnP Powershell with Scopes](https://sharepoint-tricks.com/the-required-office-365-role-to-run-pnp-powershell-with-scopes/)
 
 ## Installation Options
 
 - [Running multiple versions of PnP-PowerShell](https://blog.pixelmill.com/3718/running-multiple-versions-of-pnp-powershell/)
+- [Manage SharePoint & Microsoft Teams on PowerShell Core using the PnP.PowerShell module](https://www.youtube.com/watch?v=732_mHRKfcw&feature=youtu.be)
+- [Making the move from SharePointPnPPowerShellOnline to PnP.PowerShell](https://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=881)
 
 ## Documentation
 
@@ -32,19 +44,19 @@ Get-InstalledModule | foreach { $b = (find-module $_.name).version ; if ($b -ne 
 Get-Module SharePointPnPPowerShell* -ListAvailable | Select-Object Name,Version | Sort-Object Version -Descending
 ```
 
-## Update Module to latest version
+## Update Module to the latest version
 
 ```Powershell
 Update-Module SharePointPnPPowerShell*
 ```
 
-## Delete old version
+## Delete the old version
 
 ```Powershell
 Get-InstalledModule -Name "SharePointPnPPowerShellOnline" -RequiredVersion 3.8.1904.0 | Uninstall-Module
 ```
 
-## Install specific version
+## Install a specific version
 
 ```Powershell
 Install-Module -Name SharePointPnPPowerShellOnline -RequiredVersion 3.0.1808.1
@@ -200,7 +212,13 @@ $view
 $view | select *
 ```
 
-## LookUp Fields
+## Fields
 
 - [How to: Provision Lookup Columns and Projected Fields using PnP PowerShell](https://coreyroth.com/2019/06/27/how-to-provision-lookup-columns-and-projected-fields-using-pnp-powershell/)
 - [PnPPowerShellLookupColumns](https://github.com/coreyroth/PnPPowerShellLookupColumns)
+- [Add-PNPField: Add SharePoint columns with PowerShell](https://sposcripts.com/add-sharepoint-columns-with-powershell/)
+
+## Copy-List
+
+- [Copy a SharePoint list with PnP PowerShell](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/copy-a-sharepoint-list-with-pnp-powershell/ba-p/3292722)
+
