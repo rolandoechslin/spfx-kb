@@ -10,10 +10,12 @@
 
 ## Web Developer
 
+- [Step by step guide to becoming a modern frontend developer in 2022](https://roadmap.sh/frontend)
 - [Web Development for Beginners - A Curriculum](https://github.com/microsoft/Web-Dev-For-Beginners)
 - [Front-end Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/#4.22)
 - [Microsoft Frontend Bootcamp](https://microsoft.github.io/frontend-bootcamp/)
-- [Full-stack Web Developer Plan - 2021](https://fullstack.codedamn.com/#/1)
+- [Full-stack Web Developer Plan - 2021](https://github.com/codedamn/fullstack-learning-path)
+- [The Modern JavaScript Tutorial](https://javascript.info/)
 
 ## Learning Course
 
@@ -90,7 +92,7 @@
 
 - [React & Redux Tutorial - Build a Hacker News Clone](https://gitconnected.com/courses/learn-react-redux-tutorial-build-a-hacker-news-clone)
 
-## Multi Step Form
+## Multi-Step Form
 
 - [React Wizard Form](https://css-tricks.com/the-magic-of-react-based-multi-step-forms/)
 - [React-Stepzilla](https://github.com/newbreedofgeek/react-stepzilla)
