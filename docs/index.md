@@ -487,6 +487,10 @@ return new Promise<IHelpDeskItem[]>((resolve, reject) => {
 
 ### Get Data with Pnp-JS-Core
 
+Reference Sample
+
+- [pnPjsExample](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-pnp-js-sample/src/webparts/pnPjsExample)
+
 Advantages
 
 - Type safe so you get your errors while you code and not when you execute and test
