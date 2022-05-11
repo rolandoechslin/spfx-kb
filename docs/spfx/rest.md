@@ -26,6 +26,7 @@
 - [Configure Postman to be easily used with any Azure AD protected API (SharePoint, Graph, custom etc.)](https://spblog.net/post/2021/11/02/configure-postman-to-be-easily-used-with-any-azure-ad-protected-api-sharepoint-graph-etc)
 - [Announcing Microsoft Graph Postman Collections](https://developer.microsoft.com/en-us/sharepoint/blogs/postman-collections/)
 - [Microsoft Graph Mailbag – Explore Microsoft Graph with Postman](https://developer.microsoft.com/en-us/microsoft-365/blogs/explore-microsoft-graph-with-postman/)
+- [Advanced Testing with Postman - Bearer Token Authentication via scripting](https://serviceautomation.online/advanced-testing-with-postman-bearer-token-authentication-via-scripting/)
 
 ## Testing
 
