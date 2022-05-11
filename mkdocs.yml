@@ -28,6 +28,7 @@ pages:
         - Extensions: spfx/extensions.md
         - Events: spfx/events.md
         - Flow: spfx/flow.md
+        - Fluidframework: spfx/fluidframework.md
         - Forms: spfx/forms.md
         - Groups: spfx/groups.md
         - Governance: spfx/governance.md
@@ -97,7 +98,7 @@ pages:
       - About: about/about.md
       - Help: about/help.md
 
-copyright: 'Copyright &copy; 2018 Roland Oechslin'
+copyright: 'Copyright &copy; 2022 Roland Oechslin'
 
 extra:
     version: 1.0.0
