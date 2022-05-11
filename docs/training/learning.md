@@ -100,6 +100,7 @@
 - [React multi-page poll webpart](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-multipage)
  -[React Reusable Wizard component for SPFx](https://ypcode.wordpress.com/2019/10/31/build-a-reusable-wizard-component-for-your-spfx-solutions-using-react-and-office-ui-fabric/)
  - [How To Use Material UI Steppers In SharePoint Framework SPFx](https://www.c-sharpcorner.com/blogs/how-to-use-material-ui-steppers-in-sharepoint-framework-spfx)
+- [SPFx webpart form validation using React Formik](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/spfx-webpart-form-validation-using-react-formik/ba-p/2386945)
 
 ## Errors
 
