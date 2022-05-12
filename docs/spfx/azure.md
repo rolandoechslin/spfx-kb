@@ -19,6 +19,7 @@
 
 - [Use Azure KeyVault Secrets when accessing Microsoft Graph](https://mmsharepoint.wordpress.com/2018/11/14/secure-azure-functions-part-1-use-azure-keyvault-secrets-when-accessing-microsoft-graph/)
 - [Handle certificates with Azure KeyVault when accessing SharePoint Online](https://mmsharepoint.wordpress.com/2019/01/11/secure-azure-functions-part-2-handle-certificates-with-azure-keyvault-when-accessing-sharepoint-online/)
+- [Using Azure KeyVault to Secure Graph API Automation Scripts](https://seanmcavinue.net/2021/07/21/using-azure-keyvault-to-secure-graph-api-automation-scripts/)
 
 ## Azure Logic App
 
@@ -103,6 +104,7 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 
 - [What is Conditional Access?](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
 - [Minimizing the Risk of Compromise](https://sharepointgeoff.com/a-behind-the-scenes-look-at-how-we-secure-the-microsoft-365-platform/)
+- [Why Using App Secrets in Production is a Bad Idea](https://practical365.com/why-using-app-secrets-in-production-is-a-bad-idea/)
 
 ## Scripts
 
