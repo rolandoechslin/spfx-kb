@@ -12,3 +12,7 @@
 ## User Settings
 
 - [The easiest way to store user settings of your Microsoft 365 app](https://blog.mastykarz.nl/easiest-store-user-settings-microsoft-365-app/)
+
+## Build applications 
+
+- [Build applications on the Microsoft Cloud](https://docs.microsoft.com/de-de/azure/architecture/guide/microsoft-cloud/overview?WT.mc_id=m365-63607-cxa)

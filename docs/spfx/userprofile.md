@@ -11,6 +11,7 @@
 - [How user profile picture synchronization works in Microsoft 365](https://blog.atwork.at/post/User-profile-picture-synchronization-in-Microsoft-365)
 - [How to Control Updates for User Photos in Microsoft 365 Apps](https://office365itpros.com/2021/04/14/control-updates-user-photos-microsoft-365-apps/?utm_source=rss&utm_medium=rss&utm_campaign=control-updates-user-photos-microsoft-365-apps)
 - [Change your own profile picture as a Guest in Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/change-your-own-profile-picture-as-a-guest-in-microsoft-teams/ba-p/2257434?WT.mc_id=m365-24198-cxa)
+- [Profilbilder synchronisieren in Microsoft 365](https://www.ioz.ch/blog/profilbilder-synchronisieren-in-microsoft-365/)
 
 ## Get User Picture
 

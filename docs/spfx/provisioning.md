@@ -52,6 +52,7 @@
 ## Create Page-Templates
 
 - [Creating modern page templates](https://www.techmikael.com/2019/05/how-to-creating-modern-page-templates.html)
+- [Hide the template gallery from newly created sites in SharePoint](https://areflyen.no/2022/05/25/hide-the-template-gallery-from-newly-created-sites-in-sharepoint/)
 
 ## Flow / Azure Function
 
