@@ -21,6 +21,10 @@
 - [Handle certificates with Azure KeyVault when accessing SharePoint Online](https://mmsharepoint.wordpress.com/2019/01/11/secure-azure-functions-part-2-handle-certificates-with-azure-keyvault-when-accessing-sharepoint-online/)
 - [Using Azure KeyVault to Secure Graph API Automation Scripts](https://seanmcavinue.net/2021/07/21/using-azure-keyvault-to-secure-graph-api-automation-scripts/)
 
+## Azure Managed Identities
+
+- [Managed Identities With Azure Container Apps](https://www.thorsten-hans.com/managed-identities-with-azure-container-apps/)
+
 ## Azure Logic App
 
 - [How to transition from Power Automate to Logic Apps](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/how-to-transition-from-power-automate-to-logic-apps/ba-p/2054095?WT.mc_id=m365-24198-cxa)
