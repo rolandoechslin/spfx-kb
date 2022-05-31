@@ -373,6 +373,7 @@ gulp serve --locale=de-de
 - [RSS Reader](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-rss-reader)
 - [Sample FieldVisitTab](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-teams-tab-field-visit-mashup/src/webparts/fieldVisitTab/services)
 - [SPFx – How to handle large list items](https://github.com/sudharsank/spfx-demos/tree/master/src/webparts/largeListItems)
+- [Filter large lists in SharePoint Online ](https://wardwilmsen.com/2020/05/08/filter-large-lists-in-sharepoint-online/)
 
 Sample Folder structure
 
