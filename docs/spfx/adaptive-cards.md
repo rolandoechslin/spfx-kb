@@ -16,3 +16,7 @@
 - [Community Demo - Image Gallery Web Part Built with Adaptive Cards](https://www.youtube.com/watch?v=GgKEhDF1Eis)
 - [SharePoint Control to Render Adaptive Cards](https://www.youtube.com/watch?v=-spGySIzo24)
 - [Episode #134 - Working with Adaptive Cards in SharePoint Framework](https://www.youtube.com/watch?v=M9NfVVh8ZbY)
+
+## Images
+
+- [Display images in Adaptive Cards](https://pnp.github.io/blog/post/display-images-in-adaptive-cards/)
