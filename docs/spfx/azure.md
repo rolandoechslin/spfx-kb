@@ -31,6 +31,7 @@
 - [Choose the right integration and automation services in Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs#compare-microsoft-power-automate-and-azure-logic-apps?WT.mc_id=AZ-MVP-5003816)
 - [Export flows from Power Automate and deploy to Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/export-from-microsoft-flow-logic-app-template?WT.mc_id=AZ-MVP-5003816)
 - [The friendly SMS reminder with Logic Apps, Azure Functions + Key Vault](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/the-friendly-sms-reminder-with-logic-apps-azure-functions-key/ba-p/2588691)
+- [Estimate storage costs for workflows in single-tenant Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/estimate-storage-costs)
 
 ## Azure-Automation
 
