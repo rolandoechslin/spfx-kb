@@ -14,7 +14,7 @@
 ## M365 Docs
 
 - [microsoft-365](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365)
-- [Microsoft 365 A to Z](https://www.peterrising.co.uk/microsoft-365-a-to-z)
+- [Microsoft 365 glossary](https://docs.microsoft.com/en-us/microsoft-365/community/glossary)
 
 ## Start with SPFx (Training)
 
