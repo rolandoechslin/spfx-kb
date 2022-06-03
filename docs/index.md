@@ -47,6 +47,10 @@
 - [react content query online](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-content-query-online)
 - [Fakeflix - WebApp to learn React/Redux and more](https://github.com/Th3Wall/Fakeflix)
 
+### PnPjs-V3
+
+- [PnPjs-V3](https://github.com/juliemturner/Public-Samples/tree/master/PnPjsV3)
+
 ## Learning SPFx Videos
 
 - [SharePoint Framework for beginners 2021 | Episode 01 - Introduction](https://www.youtube.com/watch?v=WxdPb5vLRS4)
