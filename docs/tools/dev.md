@@ -1,7 +1,12 @@
 # Dev Tools
 
-- [stateofjs](https://2020.stateofjs.com/en-US/technologies/front-end-frameworks/)
-- [stateofcss](https://2020.stateofcss.com/en-US/technologies/css-frameworks/)
+- [2021.stateofjs](https://2021.stateofjs.com/en-US/)
+- [2021.stateofcss](https://2021.stateofcss.com/)
+
+
+## Secret knowledge
+
+- [The book of Secret knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 
 ## Html Prototype
 
