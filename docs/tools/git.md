@@ -4,6 +4,10 @@
 
 - [Git Documentation](https://git-scm.com/docs)
 
+## Cheatsheet
+
+![rm](../assets/images/git-sheet.jpg)
+
 ## Learning
 
 - [Summarized GitHub cheat sheet for PnP contributions](https://tahoeninjas.blog/2020/03/31/summarized-github-cheat-sheet-for-pnp-contributions/)
