@@ -12,6 +12,7 @@
 
 ## Learning
 
+- [Github Skills](https://skills.github.com/)
 - [My GitHub cheat sheet for PnP contributions](https://tahoeninjas.blog/2019/08/18/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/)
 - [Git Fundamentals](https://app.pluralsight.com/library/courses/git-fundamentals/table-of-contents)
 - [Git Real](https://www.pluralsight.com/courses/code-school-git-real)
