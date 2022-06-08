@@ -46,6 +46,8 @@
 - [unit-test-samples](https://github.com/mgwojciech/unit-test-samples)
 - [mgwdev-spfx-utfx](https://github.com/mgwojciech/mgwdev-spfx-utfx)
 - [SharePoint Framework Unit Tests - Part 1](https://blog.lsonline.fr/2021/03/01/sharepoint-framework-unit-tests-part-1/)
+- [Getting started with unit testing SPFx](https://pnp.github.io/blog/post/getting-started-with-unit-testing-spfx/)
+
 
 ## TDD
 
