@@ -39,6 +39,7 @@
 ## Reference Samples
 
 - [SharePoint Framework Client-Side Web Part Samples](https://pnp.github.io/sp-dev-fx-webparts/)
+- [Microsoft Teams Development Samples](https://pnp.github.io/teams-dev-samples)
 - [SafeDesk365](https://github.com/pnp/PnP.SafeDesk365)
 - [SharePoint Framework DataTable](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-datatable)
 - [Lead Assist Dashboard](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-teams-lead-dashboard)
