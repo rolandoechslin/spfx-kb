@@ -11,6 +11,10 @@
 - [Etiquette of Microsoft 365](https://greyhatbeard.github.io/m365-etiquette/)
 - [Tips & Tricks Coding/SPFX/AzureAD](https://michaelmaillot.github.io/)
 
+## Feedback
+
+- [MS User Voice Feedback](https://feedbackportal.microsoft.com/feedback/search)
+
 ## M365 Docs
 
 - [microsoft-365](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365)
