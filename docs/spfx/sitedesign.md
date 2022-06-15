@@ -7,6 +7,10 @@
 - [Site Designs for Good Information Architecture](https://sympmarc.com/2019/12/08/dear-microsoft-site-designs-for-good-information-architecture-too-brittle/)
 - [Site Design Deployment Made Easy](https://blog.eardley.org.uk/2020/02/site-design-deployment-made-easy/)
 
+## List templates
+
+- [The broad world of templates when using Microsoft Lists](https://www.youtube.com/watch?v=uTZkkLut3YY)
+
 ## Modern Site Provisioning
 
 - [SPSBE18: New era of customizing site provisioning](https://www.slideshare.net/OlliJskelinen/spsbe18-new-era-of-customizing-site-provisioning)
