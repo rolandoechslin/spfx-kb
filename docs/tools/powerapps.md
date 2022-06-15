@@ -29,6 +29,7 @@
 - [The comprehensive licensing guide to Microsoft Power Automate (formerly Flow) and Power Apps](https://jussiroine.com/2019/01/the-comprehensive-licensing-guide-to-microsoft-flow-and-powerapps/)
 - [Power Platform Licensing QnA – Key takeaways](https://m365princess.com/power-platform-licensing-qna-key-take-aways/)
 - [Power Platform licensing, November 2021 updates](https://jukkaniiranen.com/2021/11/power-platform-licensing-november-2021-updates/)
+- [Power Apps Pricing Explained](https://d365update.com/power-apps-pricing-explained/)
 
 ![powerautomate-licensing](../assets/images/powerautomate-licensing-1.png)
 
