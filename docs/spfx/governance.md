@@ -104,6 +104,7 @@
 - [Get SPO sites with filter using SPOSitePropertiesEnumerableFilter](https://blogs.technet.microsoft.com/sharepointdevelopersupport/2018/10/24/get-spo-sites-with-filter-using-spositepropertiesenumerablefilter)
 - [Retrieve Office 365 Audit logs using PowerShell and store in Azure table for quick retrieval](https://asishpadhy.com/2018/12/21/retrieve-office-365-audit-logs-using-powershell-and-store-in-azure-table-for-quick-retrival/)
 - [Office 365 Groups and Teams Activity Report - obsolete groups](https://gallery.technet.microsoft.com/Check-for-obsolete-Office-c0020a42)
+- [Top 50 PowerShell Scripts for Microsoft 365 Admins](https://o365reports.com/2022/06/15/top-50-powershell-scripts-for-microsoft-365-admins/)
 
 ## Scripts
 
