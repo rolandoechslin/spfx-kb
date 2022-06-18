@@ -1,11 +1,13 @@
 ---
-title: About me
-slug: About-me
-description: Information about me (work)
-date: '2021-07-23T08:48:38.226Z'
-lastmod: '2021-07-23T08:48:48.419Z'
+title: Information about me
+slug: information
+description: Detail Information about me (work)
+date: 2021-07-23T08:48:38.000Z
+lastmod: 2022-06-18T10:21:09.092Z
 keywords:
-    - About
+  - About Me
+categories:
+  - About Me
 ---
 # About
 
