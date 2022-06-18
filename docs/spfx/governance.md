@@ -130,6 +130,7 @@
 - [Three reasons why you should take control of Office 365 Groups creation](https://www.techmikael.com/2017/05/three-reasons-why-you-should-take.html)
 - [Automating Office 365 Groups Lifecycle/Expiration management](https://www.techmikael.com/2018/01/automating-office-365-groups.html)
 - [Stop using Power Automate to govern Microsoft Teams](https://baddaz.com/stop-using-power-automate-to-govern-microsoft-teams-30460cea6f10)
+- [Microsoft Teams Naming Best Practices](https://www.orchestry.com/insight/fundamentals/ms-teams-tips-and-tricks/microsoft-teams-naming-best-practices/)
 
 ## Tips
 
