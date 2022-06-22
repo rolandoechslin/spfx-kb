@@ -19,6 +19,7 @@
 
 - [microsoft-365](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365)
 - [Microsoft 365 glossary](https://docs.microsoft.com/en-us/microsoft-365/community/glossary)
+- [SPFx-Json-Schemas](https://github.com/microsoft/json-schemas/tree/master/spfx)
 
 ## Start with SPFx (Training)
 
