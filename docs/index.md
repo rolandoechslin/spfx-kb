@@ -45,6 +45,7 @@
 
 - [SPFx Essentials my Getting Started Video | E003](https://www.youtube.com/watch?v=05uuG6DwbxU)
 - [How to Style your Custom SPFx Web Part to look OOB | E004](https://www.youtube.com/watch?v=NMtWIjajfPI)
+- [PT2: Custom SPFx Web Part looking like it's OOB | E005](https://www.youtube.com/watch?v=xjsg7TOr3UM)
 - [SPFx, Post Request, React Hooks, and Fluent UI forms | E006](https://www.youtube.com/watch?v=gSUqHZjkOfA)
 
 ## Reference Samples
