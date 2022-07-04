@@ -1,5 +1,7 @@
 # PowerApps
+
 - [Power Platform Basics - Layer](https://github.com/PowerPlatformAF/PowerPlatformAF/wiki/2-Power-Platform)
+
 ![overview1](../assets/images/powerplattform1.png)
 ![overview2](../assets/images/powerplattform2.png)
 
@@ -7,15 +9,20 @@
 ![c-framework](../assets/images/powerplattform3.png)
 
 
-## Learning
+## Resources
 
+- [Microsoft Power Platform guidance documentation](https://docs.microsoft.com/en-us/power-platform/guidance/)
+- [Power Platform Training Materials](https://powerusers.microsoft.com/t5/Power-Apps-Community-Blog/Power-Platform-Training-Materials/ba-p/342088)
 - [Power Wiki](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/init-api-permissions-for-your-spfx-projects-without-deploying/ba-p/2189059)
 - [Microsoft Power Platform: Learning Resources](https://powerapps.microsoft.com/en-us/blog/microsoft-powerapps-learning-resources/)
+- [A collection of awesome things regarding the Power Platform ecosystem](https://powerlist.page/)
 
 ## Frameworks
 
 - [PowerApps Tools](https://github.com/microsoft/powerapps-tools)
 - [5 Power Platform projects developers must know!](https://sharepains.com/2020/03/18/power-platform-projects-developers-must-know/)
+- [Creator kit overview](https://docs.microsoft.com/en-us/power-platform/guidance/creator-kit/overview)
+- [Powercat creator kit](https://github.com/microsoft/powercat-creator-kit)
 
 ## Video Tutorials
 

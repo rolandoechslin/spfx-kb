@@ -19,6 +19,7 @@
 
 - [microsoft-365](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365)
 - [Microsoft 365 glossary](https://docs.microsoft.com/en-us/microsoft-365/community/glossary)
+- [SPFx-Json-Schemas](https://github.com/microsoft/json-schemas/tree/master/spfx)
 
 ## Start with SPFx (Training)
 
@@ -39,6 +40,13 @@
 - [PiaSys: Conferences-Samples](https://github.com/PiaSys/Conferences-Samples)
 - [PnP Virtual Conference – September 2020 – Summary and Recordings](https://developer.microsoft.com/en-us/office/blogs/pnp-virtual-conference-september-2020-summary-and-recordings/)
 - [Microsoft 365 learning pathways](https://github.com/pnp/custom-learning-office-365)
+
+## Start SPFx React
+
+- [SPFx Essentials my Getting Started Video | E003](https://www.youtube.com/watch?v=05uuG6DwbxU)
+- [How to Style your Custom SPFx Web Part to look OOB | E004](https://www.youtube.com/watch?v=NMtWIjajfPI)
+- [PT2: Custom SPFx Web Part looking like it's OOB | E005](https://www.youtube.com/watch?v=xjsg7TOr3UM)
+- [SPFx, Post Request, React Hooks, and Fluent UI forms | E006](https://www.youtube.com/watch?v=gSUqHZjkOfA)
 
 ## Reference Samples
 

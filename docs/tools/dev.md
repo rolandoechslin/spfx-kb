@@ -28,6 +28,12 @@
 - [react-admin](https://github.com/marmelab/react-admin)
 - [Next.js from the Ground Up](https://explorers.netlify.com/learn/nextjs)
 
+## Shopify
+
+### Hydrogen
+
+- [How We Built Hydrogen: A React Framework for Building Custom Storefronts](https://shopify.engineering/how-we-built-hydrogen)
+
 #### Create new project
 
 - [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
