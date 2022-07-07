@@ -98,6 +98,7 @@
 - [react-typescript-cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet)
 - [Setup TypeScript with React](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)
 - [Design Patterns](https://www.patterns.dev/posts/)
+- [Awesome React Components & Libraries](https://github.com/brillout/awesome-react-components)
 
 ## Performance Guideline
 
