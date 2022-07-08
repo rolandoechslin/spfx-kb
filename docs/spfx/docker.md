@@ -4,7 +4,7 @@
 
 - [SPFx Docker image for your team](https://blog.mastykarz.nl/sharepoint-framework-docker-image-your-team/)
 - [SPFx v1.5.0 Docker image available with some caveats](https://blog.mastykarz.nl/tag/docker/)
-
+- [SPFx GitHub Codespaces Container](https://github.com/kasuken/SPFxGitHubDevContainer)
 ## Tips
 
 - [Develop with Docker](https://docs.docker.com/develop/) 
