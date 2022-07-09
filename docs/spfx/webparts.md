@@ -67,8 +67,12 @@ window.spModuleLoader._bundledComponents["b6917cb1-93a0-4b97-a84d-7cf49975d4ec"]
 
 ## Highlighted Content Web Part (HCWP)
 
-- [Highlighted Content Web Part](https://docs.microsoft.com/en-us/microsoft-365/community/highlighted-content-web-part)
+- [Highlighted Content WebPart](https://docs.microsoft.com/en-us/microsoft-365/community/highlighted-content-web-part)
 - [Use the Highlighted content web part](https://support.microsoft.com/en-us/office/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd)
+
+## Document Library WebPart
+
+- [Can the document library web part look like Stream?](https://mydigitalworkplace.wordpress.com/2022/07/03/can-the-document-library-web-part-look-like-stream/?utm_content=buffer34085&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
 ## Help / Tutorial WebPart
 
@@ -138,6 +142,7 @@ window.spModuleLoader._bundledComponents["b6917cb1-93a0-4b97-a84d-7cf49975d4ec"]
 ## Filtering WebParts
 
 - [SPFx - Image Gallery with filtering](https://www.ejazhussain.com/2019/02/08/spfx-image-gallery/)
+
 
 ## Send Mail
 
