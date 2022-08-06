@@ -11,6 +11,10 @@
 
 - [The Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
 
+## Bicep
+
+- [How to get started with deploying Azure resources with Bicep](https://www.m365princess.com/blogs/start-deploying-azure-resources-bicep/)
+
 ## Granting access using SharePoint App-Only
 
 - [Setting up an app-only principal with tenant permissions](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
