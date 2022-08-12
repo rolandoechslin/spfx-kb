@@ -151,6 +151,7 @@ spo serviceprincipal grant add --resource 'Microsoft Graph' --scope 'Mail.Read'
 - [React Design Principles](https://reactjs.org/docs/design-principles.html)
 - [Design patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
 - [React inpatterns](https://krasimir.gitbooks.io/react-in-patterns/)
+- [design patterns and component patterns](https://www.patterns.dev/posts/)
 
 ## SPFx Workflow
 
