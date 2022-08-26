@@ -13,6 +13,7 @@
 ## Custom List Template
 
 - [SharePoint Custom List Templates](https://wonderlaura.com/2021/09/21/sharepoint-custom-list-templates/)
+- [PnP PowerShell to manage list designs and create lists/libraries using list designs](https://pnp.github.io/blog/post/pnp-powershell-to-manage-list-designs-and-create-lists-libraries/)
 
 ## Site TemplateId
 
