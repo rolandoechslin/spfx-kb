@@ -11,3 +11,7 @@
 - [Project Cortex - training SharePoint Syntex to read your documents like a human - part 2 (entity extractors)](https://www.sharepointnutsandbolts.com/2021/03/syntex-tips-document-understanding-forms-processing.html)
 - [Syntex-Tips-document-understanding-forms-processing](https://www.sharepointnutsandbolts.com/2021/03/syntex-tips-document-understanding-forms-processing.html)
  Project-Cortex-SharePoint-Syntex-Classifier.html)
+
+ ## Tools
+
+ - [Microsoft 365 Assessment tool](https://pnp.github.io/pnpassessment/index.html)
