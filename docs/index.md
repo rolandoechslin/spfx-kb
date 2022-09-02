@@ -48,6 +48,10 @@
 - [PT2: Custom SPFx Web Part looking like it's OOB | E005](https://www.youtube.com/watch?v=xjsg7TOr3UM)
 - [SPFx, Post Request, React Hooks, and Fluent UI forms | E006](https://www.youtube.com/watch?v=gSUqHZjkOfA)
 
+## Start with Teams Development
+
+- [Microsoft Teams App Camp On Demand](https://microsoft.github.io/app-camp/)
+
 ## Reference Samples
 
 - [SharePoint Framework Client-Side Web Part Samples](https://pnp.github.io/sp-dev-fx-webparts/)
