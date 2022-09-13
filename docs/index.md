@@ -93,6 +93,7 @@
 
 ## Code Guideline
 
+- [Patterns and Practices for SPFx Development](https://pnp.github.io/blog/post/patterns-and-practices-for-spfx-development/)
 - [Typescriptlang - Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 - [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/blob/master/react/README.md)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
