@@ -1,5 +1,9 @@
 # Extensions
 
+## Custom Forms Extensions
+
+- [AddValidateUpdateItemUsingPath deep dive](https://mgwdevcom.wordpress.com/2022/09/16/addvalidateupdateitemusingpath-deep-dive/)
+
 ## Tipps
 
 - [How to properly add an Application Customizer to an existing SPFx Web Part Project](http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2019/01/08/how-to-properly-add-an-application-customizer-to-an-existing-spfx-web-part-project.aspx)
