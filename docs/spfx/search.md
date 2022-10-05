@@ -119,3 +119,7 @@
 ## Search HubSite
 
 - [Search all Document under a hubsite](https://www.sharepointnutsandbolts.com/2019/10/search-sharepoint-hub-sites.html)
+
+## Search Empty Terms Fields
+
+- [MONITORING FOR AN EMPTY MANAGED METADATA SHAREPOINT COLUMN](https://joannecklein.com/2022/08/02/monitoring-for-an-empty-managed-metadata-sharepoint-column/#sq_h4t0nqjx4t)
