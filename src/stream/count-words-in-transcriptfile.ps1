@@ -1,3 +1,5 @@
+# Look for the 'streamContent?format=json' URL in the DevTools Network tab.
+
 (Get-Clipboard | ConvertFrom-Json).entries | 
 group speakerDisplayName | % {
     [PSCustomObject]@{
