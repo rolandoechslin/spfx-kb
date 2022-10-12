@@ -64,3 +64,7 @@
 ## Tenant to Teanant
 
 - [How to merge Office 365 tenants – migrate to another Microsoft 365 organization](https://www.codetwo.com/admins-blog/merge-office-365-tenants/)
+
+## Migration Streams (Classic)
+
+ - [Migration Overview - Stream (Classic) to Stream (on SharePoint)](https://learn.microsoft.com/en-us/stream/streamnew/stream-classic-to-new-migration-overview)
