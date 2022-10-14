@@ -63,6 +63,7 @@
 - [News article content at a glance](https://github.com/pnp/sp-dev-fx-aces/tree/main/samples/ImageCard-At-a-glance)
 - [react content query online](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-content-query-online)
 - [Fakeflix - WebApp to learn React/Redux and more](https://github.com/Th3Wall/Fakeflix)
+- [react-roomchat (Azure Communications Services)](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-roomchat) | (Video: Building SPFx solution with Azure Communication Services integration)[https://www.youtube.com/watch?v=-wMfFLJIR1w]
 
 ### PnPjs-V3
 
