@@ -2,7 +2,7 @@
 
 - [2021.stateofjs](https://2021.stateofjs.com/en-US/)
 - [2021.stateofcss](https://2021.stateofcss.com/)
-
+- [Web Almanac](https://almanac.httparchive.org/en/2022/)
 
 ## Secret knowledge
 
