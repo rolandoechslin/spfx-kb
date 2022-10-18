@@ -12,5 +12,8 @@
 
 ## News digest
 
+- [SharePoint News Digest Features and Limitations](https://www.enovapoint.com/blog/sharepoint-news-digest-features-and-limitations/)
+- [How to create and promote Newsletters in SharePoint & Office 365](https://sharepoint.handsontek.net/2021/07/01/enabledisable-automatic-sharepoint-news-digest/)
+- [How to enable/disable the automatic SharePoint news digest](https://sharepoint.handsontek.net/2021/07/01/enabledisable-automatic-sharepoint-news-digest/)
 - [How to create an internal newsletter](https://sharepoint.handsontek.net/2018/09/02/create-internal-newsletters-using-sharepoint-news/)
 - [10 things to know about the SharePoint News digest](https://mydigitalworkplace.wordpress.com/2019/07/28/10-things-about-sharepoint-news-digest)
