@@ -9,6 +9,10 @@
 
 - [Microsoft Flow Conference](https://www.youtube.com/playlist?list=PLwh1E-0OEEGI7sGTXzoy98RFFqsIoUAUw)
 
+## API 
+
+- [Working with APIs in Power Platform for beginners](https://pnp.github.io/blog/post/working-with-apis-in-power-platform-for-beginners/)
+
 ## Connectors
 
 - [What you should know about building Microsoft Flow connectors](https://blog.mastykarz.nl/what-know-building-microsoft-flow-custom-connectors)
@@ -56,9 +60,9 @@
 
 - [SharePoint / Microsoft Flow – Common error message when using Send an HTTP request to SharePoint action in Microsoft Flow](https://veenstra.me.uk/2018/08/30/sharepoint-microsoft-flow-common-error-message-when-using-send-an-http-request-to-sharepoint-action-in-microsoft-flow)
 
-## Handling JSON in Flow
+## JSON in Flow
 
-- [Handling JSON in Microsoft Flow](https://spmaestro.com/handling-json-in-microsoft-flow/)
+- [How to use Parse JSON action in Power Automate](https://www.m365princess.com/blogs/2021-02-08-how-to-use-parse-json-action-in-power-automate/)
 
 ## Disable Flow
 
