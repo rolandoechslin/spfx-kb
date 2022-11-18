@@ -74,7 +74,9 @@
 ## Fluent UI 9
  
 - [Installing the fluent ui components](https://www.youtube.com/watch?v=7bvNLC1fn-U&t=1606s)
- - [Fluent UI React Components](https://react.fluentui.dev/?path=/docs/concepts-introduction--page)
+- [Fluent UI React Components](https://react.fluentui.dev/?path=/docs/concepts-introduction--page)
+- [Fluent UI 9 SPFx Sample](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-fluentui-9)
+- [Updated Fluent UI 9 Demo to latest SPFx and Fluent UI 9](https://github.com/pnp/sp-dev-fx-webparts/commit/83ca488ada48c9f09c41d11edd6e9c0767e95824)
 
 ## Learning SPFx Videos
 
