@@ -71,6 +71,11 @@
 
 - [PnPjs-V3](https://github.com/juliemturner/Public-Samples/tree/master/PnPjsV3)
 
+## Fluent UI 9
+ 
+- [Installing the fluent ui components](https://www.youtube.com/watch?v=7bvNLC1fn-U&t=1606s)
+ - [Fluent UI React Components](https://react.fluentui.dev/?path=/docs/concepts-introduction--page)
+
 ## Learning SPFx Videos
 
 - [SharePoint Framework for beginners 2021 | Episode 01 - Introduction](https://www.youtube.com/watch?v=WxdPb5vLRS4)
