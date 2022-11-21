@@ -34,8 +34,14 @@ function Get-ReportPages ($pages, $url)
 
 $hits = New-Object -TypeName "System.Collections.ArrayList"
 $cred = Get-Credential
-$tenantUrl =  "https://cloud672-admin.sharepoint.com"  
+$tenantUrl =  "https://[tenant]-admin.sharepoint.com"  
 $tenantConn = Connect-PnPOnline -Url $tenantUrl -Credentials $cred -ReturnConnection
+
+# get all Groups and Communication sites
+# Get-PnPTenantSite | Where -Property Template -In ("GROUP#0", "SITEPAGEPUBLISHING#0")
+
+# get all Groups sites
+# $groupsSites = "GROUP#0"
 
 # get all communication sites
 $commSites = "SITEPAGEPUBLISHING#0"
