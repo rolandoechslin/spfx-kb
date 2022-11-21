@@ -36,6 +36,7 @@
 - [Export flows from Power Automate and deploy to Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/export-from-microsoft-flow-logic-app-template?WT.mc_id=AZ-MVP-5003816)
 - [The friendly SMS reminder with Logic Apps, Azure Functions + Key Vault](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/the-friendly-sms-reminder-with-logic-apps-azure-functions-key/ba-p/2588691)
 - [Estimate storage costs for workflows in single-tenant Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/estimate-storage-costs)
+- [Get notified of changes in your tenant with Microsoft Graph, Azure Event Hubs and Logic Apps](https://yhabersaat.ch/2022/11/20/get-notified-of-changes-in-your-tenant-with-microsoft-graph-event-hubs-and-logic-apps/)
 
 ## Azure-Automation
 
