@@ -67,6 +67,11 @@
 - [react-roomchat (Azure Communications Services)](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-roomchat) | (Video: Building SPFx solution with Azure Communication Services integration)[https://www.youtube.com/watch?v=-wMfFLJIR1w]
 - [@pnp/js and ReactJS Functional Components](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-pnp-js-hooks)
 
+## Enterprise Reference Samples
+
+- [Rhythm of Business Calendar - SPFx Solution Accelerator - Domain Driven Design](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-rhythm-of-business-calendar)
+- [Rhythm of Business Calendar - SPFx Solution Accelerator Deep Dive](https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-rhythm-of-business-calendar/documentation/README.md)
+
 ### PnPjs-V3
 
 - [PnPjs-V3](https://github.com/juliemturner/Public-Samples/tree/master/PnPjsV3)

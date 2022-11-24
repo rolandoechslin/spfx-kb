@@ -116,6 +116,7 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 - [What is Conditional Access?](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
 - [Minimizing the Risk of Compromise](https://sharepointgeoff.com/a-behind-the-scenes-look-at-how-we-secure-the-microsoft-365-platform/)
 - [Why Using App Secrets in Production is a Bad Idea](https://practical365.com/why-using-app-secrets-in-production-is-a-bad-idea/)
+- [Cloud Forensics using Hawk](https://cloudforensicator.com/documentation)
 
 ## Scripts
 
