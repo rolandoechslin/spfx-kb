@@ -17,7 +17,8 @@
 - [Full-stack Web Developer Plan - 2021](https://github.com/codedamn/fullstack-learning-path)
 - [The Modern JavaScript Tutorial](https://javascript.info/)
 - [freecodecamp](https://www.freecodecamp.org/learn/)
-## Learning Course
+
+## React Learning Course
 
 - [react-lernen](https://github.com/manuelbieh/react-lernen)
 - https://www.udemy.com/react-the-complete-guide-incl-redux/?start=0
@@ -27,6 +28,7 @@
 - [frontendmasters - learn - react](https://frontendmasters.com/learn/react/)
 - [reactscreencasts](https://www.reactscreencasts.com/video_docs)
 - [React Wednesdays](https://www.telerik.com/react-wednesdays)
+- [Designing React 17 Component](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents)
 
 ## Lifecycle methods
 
