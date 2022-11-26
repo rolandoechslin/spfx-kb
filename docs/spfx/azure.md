@@ -80,7 +80,7 @@
 
 ## Tips
 
- -[Azure Readiness Checklist](https://github.com/ghostinthewires/Azure-Readiness-Checklist)
+- [Azure Readiness Checklist](https://github.com/ghostinthewires/Azure-Readiness-Checklist)
 
 ## AAD
 
@@ -113,6 +113,7 @@ Azure Active Directory (AAD) Unified Groups, or better known as Office365 Groups
 
 ## Security
 
+- [Basic Security Set Up for Microsoft 365](https://learn.microsoft.com/en-us/microsoft-365/community/basic-security-set-up-for-microsoft-365)
 - [What is Conditional Access?](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
 - [Minimizing the Risk of Compromise](https://sharepointgeoff.com/a-behind-the-scenes-look-at-how-we-secure-the-microsoft-365-platform/)
 - [Why Using App Secrets in Production is a Bad Idea](https://practical365.com/why-using-app-secrets-in-production-is-a-bad-idea/)
