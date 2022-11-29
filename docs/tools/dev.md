@@ -224,6 +224,7 @@ code -n
 - [Introducing SharePoint Typed Item](https://spblog.net/post/2019/02/28/introducing-sharepoint-typed-item-visual-studio-code-extension)
 - [Backup and Synchronize VSCode Settings with a GitHub Gist](https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-a-github-gist/)
 - [Visual Studio Code Extension – Settings Sync](https://cann0nf0dder.wordpress.com/2019/06/16/visual-studio-code-extension-settings-sync/)
+- [Top 10 VSCode Extensions for React](https://dev.to/rohidisdev/top-10-vscode-extensions-for-react-57g6)
 
 ### Remove git integrations from VSCode
 
