@@ -117,3 +117,14 @@
 - [SharePoint Framework and React hooks. Should I care?](https://spblog.net/post/2020/03/10/sharepoint-framework-and-react-hooks-should-i-care)
 - [React, Hooks, and Office Development – Bringing It All Together ](https://threewill.com/function-components-and-hooks-architecture-tutorial)
 - [Rooks - Collection of React hooks ](https://react-hooks.org/)
+
+## Collection of Hooks
+
+- [Collection of React Hooks](https://nikgraf.github.io/react-hooks/)
+- [usehooks](https://usehooks.com/)
+- [react-use](https://github.com/streamich/react-use)
+- [React hook library for managing cart state](https://github.com/notrab/react-use-cart)
+- [React-shopping-cart](https://github.com/AlexSegen/react-shopping-cart)
+- [Shopping-cart-react-typescript](https://github.com/uchiha-suraj/shopping-cart-react-typescript)
+
+
