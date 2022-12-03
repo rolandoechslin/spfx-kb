@@ -749,7 +749,7 @@ npm outdated --global
 ```
 
 ```Powershell
-npm install @microsoft/generator-sharepoint -g
+npm install @microsoft/generator-sharepoint@latest --global
 ```
 
 ## SPFx Version Upgrade
