@@ -186,6 +186,11 @@ Error Handling
 edge://settings/siteData?search=cookie
 ```
 
+## Throttling
+
+- [Avoid throttling in SharePoint Online by using RateLimit headers in API calls](https://www.youtube.com/watch?v=vnBW66ncs80)
+- [Using RateLimit headers to optimize the throttling behavior](https://github.com/OneDrive/samples/blob/master/scenarios/throttling-ratelimit-handling/readme.md)
+
 ## Graph API Errors 429
 
 - [Simulating throttling in SharePoint](https://blog.mastykarz.nl/simulating-throttling-sharepoint)
