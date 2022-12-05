@@ -6,6 +6,7 @@
 - [How to Setup a TypeScript + Node.js Project](https://khalilstemmler.com/blogs/typescript/node-starter-project/)
 - [Simple TypeScript Starter | 2020](https://github.com/stemmlerjs/simple-typescript-starter)
 - [Introduction to Test-Driven Development (TDD) with TypeScript | 2021](https://www.youtube.com/watch?v=a1jdwlujdk0)
+
 ## Toolchain Setup
 
 - [automated code reviews ts-project 1](https://thenikhilk.com/2021/02/20/automated-code-reviews-ts-project-1/)
@@ -30,6 +31,7 @@
 - [Extend SPFx solution testability: dealing with legacy code and async components](https://mgwdevcom.wordpress.com/2020/03/17/extend-spfx-solution-testability-dealing-with-legacy-code-and-async-components/)
 - [Mock teams library in SPFx project](https://mgwdevcom.wordpress.com/2020/06/15/mock-teams-library-in-spfx-project/)
 - [Publish Code Coverage Results in Azure DevOps Pipeline for React](https://thenikhilk.com/2020/09/18/publish-code-coverage-azure-pipelines-react/)
+- [Mocking 3rd party libraries with jest for SPFx developers](https://mgwdevcom.wordpress.com/2022/11/14/mocking-3rd-party-libraries-with-jest-for-spfx-developers/)
 
 ## Testing Hooks
 
