@@ -52,6 +52,7 @@
 
 - [Microsoft Teams App Camp On Demand](https://microsoft.github.io/app-camp/)
 - [#30DaysOf Learning](https://microsoft.github.io/30daysof/)
+- [Microsoft Cloud Integration Scenarios](https://microsoft.github.io/MicrosoftCloud/)
 
 ## Reference Samples
 
