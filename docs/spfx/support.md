@@ -195,6 +195,7 @@ edge://settings/siteData?search=cookie
 
 - [Simulating throttling in SharePoint](https://blog.mastykarz.nl/simulating-throttling-sharepoint)
 - [How to use the Microsoft Graph SDK Chaos Handler to Simulate Graph API Errors](https://camerondwyer.com/2021/09/23/how-to-use-the-microsoft-graph-sdk-chaos-handler-to-simulate-graph-api-errors/)
+- [Microsoft Graph Developer Proxy](https://github.com/microsoftgraph/msgraph-developer-proxy)
 
 ## Tips
 
