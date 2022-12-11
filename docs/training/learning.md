@@ -127,7 +127,7 @@
 - [React-shopping-cart](https://github.com/AlexSegen/react-shopping-cart)
 - [Shopping-cart-react-typescript](https://github.com/uchiha-suraj/shopping-cart-react-typescript)
 
-## React E-Commerce Shops
+## React eCommerce Shops
 
 - [How to Build a Production Ready eCommerce Website with ReactJS, TailwindCSS, PlanetScale and Stripe](https://www.freecodecamp.org/news/how-to-build-a-ecommerce-website-using-next-js-and-planetscale/)
 
