@@ -60,3 +60,8 @@
 - [Mockaroo](https://mockaroo.com/)
 - [Generatedata](https://www.generatedata.com/)
 - [Public APIs](https://public-apis.io/)
+
+## Frontend Testing witd Playwright
+
+- [Getting started with Playwright component testing](https://blog.logrocket.com/getting-started-playwright-component-testing)
+- [Test Your Site In Every Browser](https://joyofcode.xyz/test-your-site-in-every-browser)
