@@ -99,10 +99,6 @@
 - [how-to-use-the-complimentary-azure-credits-in-a-microsoft-365-developer-tenant-step-by-step](https://laurakokkarinen.com/how-to-use-the-complimentary-azure-credits-in-a-microsoft-365-developer-tenant-step-by-step/)
 - [What is a "Dev Tenant" and why would you want one?](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/what-is-a-dev-tenant-and-why-would-you-want-one/ba-p/2036610)
 
-## Wish List
-
-- [Summer 2019 Wish List - Andrew Connell](https://www.andrewconnell.com/blog/sharepoint-framework-summer-2019-wish-list/)
-
 ## Development Roadmap
 
 - [SPFx Roadmap / Release Notes](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/roadmap)
