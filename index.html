@@ -461,13 +461,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#wish-list" title="Wish List" class="md-nav__link">
-    Wish List
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#development-roadmap" title="Development Roadmap" class="md-nav__link">
     Development Roadmap
   </a>
@@ -588,13 +581,6 @@
         <li class="md-nav__item">
   <a href="#prepare-deployment-solution" title="Prepare Deployment Solution" class="md-nav__link">
     Prepare Deployment Solution
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#debug-in-browser" title="Debug in browser" class="md-nav__link">
-    Debug in browser
   </a>
   
 </li>
@@ -2095,13 +2081,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#wish-list" title="Wish List" class="md-nav__link">
-    Wish List
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#development-roadmap" title="Development Roadmap" class="md-nav__link">
     Development Roadmap
   </a>
@@ -2222,13 +2201,6 @@
         <li class="md-nav__item">
   <a href="#prepare-deployment-solution" title="Prepare Deployment Solution" class="md-nav__link">
     Prepare Deployment Solution
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#debug-in-browser" title="Debug in browser" class="md-nav__link">
-    Debug in browser
   </a>
   
 </li>
@@ -2499,6 +2471,7 @@
 <ul>
 <li><a href="https://microsoft.github.io/app-camp/">Microsoft Teams App Camp On Demand</a></li>
 <li><a href="https://microsoft.github.io/30daysof/">#30DaysOf Learning</a></li>
+<li><a href="https://microsoft.github.io/MicrosoftCloud/">Microsoft Cloud Integration Scenarios</a></li>
 </ul>
 <h2 id="reference-samples">Reference Samples<a class="headerlink" href="#reference-samples" title="Permanent link">&para;</a></h2>
 <ul>
@@ -2513,6 +2486,7 @@
 <li><a href="https://github.com/Th3Wall/Fakeflix">Fakeflix - WebApp to learn React/Redux and more</a></li>
 <li><a href="https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-roomchat">react-roomchat (Azure Communications Services)</a> | (Video: Building SPFx solution with Azure Communication Services integration)[<a href="https://www.youtube.com/watch?v=-wMfFLJIR1w">https://www.youtube.com/watch?v=-wMfFLJIR1w</a>]</li>
 <li><a href="https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-pnp-js-hooks">@pnp/js and ReactJS Functional Components</a></li>
+<li>(React Flight Tracker)[<a href="https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-flighttracker">https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-flighttracker</a>]</li>
 </ul>
 <h2 id="enterprise-reference-samples">Enterprise Reference Samples<a class="headerlink" href="#enterprise-reference-samples" title="Permanent link">&para;</a></h2>
 <ul>
@@ -2542,10 +2516,6 @@
 <li><a href="https://thomy.tech/10-things-you-should-do-with-your-office365-demo-or-dev-tenant/">10 Tips for Demo/Dev Tenant</a></li>
 <li><a href="https://laurakokkarinen.com/how-to-use-the-complimentary-azure-credits-in-a-microsoft-365-developer-tenant-step-by-step/">how-to-use-the-complimentary-azure-credits-in-a-microsoft-365-developer-tenant-step-by-step</a></li>
 <li><a href="https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/what-is-a-dev-tenant-and-why-would-you-want-one/ba-p/2036610">What is a "Dev Tenant" and why would you want one?</a></li>
-</ul>
-<h2 id="wish-list">Wish List<a class="headerlink" href="#wish-list" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://www.andrewconnell.com/blog/sharepoint-framework-summer-2019-wish-list/">Summer 2019 Wish List - Andrew Connell</a></li>
 </ul>
 <h2 id="development-roadmap">Development Roadmap<a class="headerlink" href="#development-roadmap" title="Permanent link">&para;</a></h2>
 <ul>
@@ -2711,45 +2681,13 @@
 <div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">package-solution</span> <span class="p">-</span><span class="n">-ship</span>
 </pre></div>
 
-<h2 id="debug-in-browser">Debug in browser<a class="headerlink" href="#debug-in-browser" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">serve</span>
-</pre></div>
-
-<ul>
-<li>add webpart</li>
-<li>start Chrome</li>
-<li>start Dev Extension (F12)</li>
-<li>open Source, Search for ClassName (Ctrl+P)</li>
-<li>add Breakpoint</li>
-<li>refresh page</li>
-</ul>
 <h2 id="debug-in-vscode">Debug in vs.code<a class="headerlink" href="#debug-in-vscode" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode">https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode</a></li>
 </ul>
-<p>Pre Steps</p>
-<ul>
-<li>open vs.code</li>
-<li>got to view extensions</li>
-<li>install "Debugger for chrome"</li>
-<li>create launch.json</li>
-<li>select configuration</li>
-<li>Hosted workbench configuration</li>
-</ul>
-<p>Steps</p>
-<div class="codehilite"><pre><span></span><span class="n">gulp</span> <span class="n">serve</span> <span class="p">-</span><span class="n">-nobrowser</span>
-</pre></div>
-
-<ul>
-<li>add breakpoint in vs.code ts-file</li>
-<li>go debug view</li>
-<li>press F5</li>
-<li>select configuration</li>
-<li>add wepart to workbench</li>
-</ul>
 <h2 id="checklist-spfx-initial">Checklist SPFx initial<a class="headerlink" href="#checklist-spfx-initial" title="Permanent link">&para;</a></h2>
 <ul>
-<li>(SharePoint Framework – new project checklist)[<a href="https://www.m365-dev.com/2018/03/02/sharepoint-framework-checklist/">https://www.m365-dev.com/2018/03/02/sharepoint-framework-checklist/</a>]</li>
+<li><a href="https://www.m365-dev.com/2018/03/02/sharepoint-framework-checklist/">SharePoint Framework – new project checklist</a></li>
 </ul>
 <h2 id="update-version">Update Version<a class="headerlink" href="#update-version" title="Permanent link">&para;</a></h2>
 <ul>
