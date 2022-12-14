@@ -285,47 +285,13 @@ gulp bundle --ship
 gulp package-solution --ship
 ```
 
-## Debug in browser
-
-```Powershell
-gulp serve
-```
-
-- add webpart
-- start Chrome
-- start Dev Extension (F12)
-- open Source, Search for ClassName (Ctrl+P)
-- add Breakpoint
-- refresh page
-
 ## Debug in vs.code
 
-- <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode>
-
-Pre Steps
-
-- open vs.code
-- got to view extensions
-- install "Debugger for chrome"
-- create launch.json
-- select configuration
-  - Hosted workbench configuration
-
-Steps
-
-```Powershell
-gulp serve --nobrowser
-```
-
-- add breakpoint in vs.code ts-file
-- go debug view
-- press F5
-- select configuration
-- add wepart to workbench
+- https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode
 
 ## Checklist SPFx initial
 
-- (SharePoint Framework – new project checklist)[https://www.m365-dev.com/2018/03/02/sharepoint-framework-checklist/]
+- [SharePoint Framework – new project checklist](https://www.m365-dev.com/2018/03/02/sharepoint-framework-checklist/)
 
 ## Update Version
 
@@ -345,20 +311,20 @@ npm version patch
 
 ### Add imported pnp modules
 
-- <https://pnp.github.io/pnpjs/>
-- <https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide>
+- https://pnp.github.io/pnpjs/
+- https://github.com/SharePoint/PnP-JS-Core/wiki/Developer-Guide
 
 ```Powershell
 npm install @pnp/logging @pnp/common @pnp/odata @pnp/sp @pnp/graph --save
 ```
 
-- <https://sharepoint.github.io/sp-dev-fx-controls-react/>
+- https://sharepoint.github.io/sp-dev-fx-controls-react/
 
 ```Powershell
 npm install @pnp/spfx-controls-react@latest --save --save-exact
 ```
 
-- <https://sharepoint.github.io/sp-dev-fx-property-controls/>
+- https://sharepoint.github.io/sp-dev-fx-property-controls/
 
 ```Powershell
 npm install @pnp/spfx-property-controls@latest --save --save-exact
