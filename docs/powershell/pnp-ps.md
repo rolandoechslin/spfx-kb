@@ -10,6 +10,10 @@
 - [Learn How Authentication Works in the latest PnP.PowerShell Module](https://dev.to/svarukala/introducing-the-new-pnp-powershell-based-on-net-core-3-1-and-learn-how-it-s-authentication-works-pn7)
 - [PnP PowerShell – take control of the service principal permissions](https://gautamdsheth.wordpress.com/2021/09/06/pnp-powershell-take-control-of-the-service-principal-permissions/)
 
+## Tools / Plugin
+
+- [PnP.PowerShell.Predictor](https://github.com/anoopt/PnP.PowerShell.Predictor)
+
 ## Login with an Application admin
 
  -[The required Office 365 role to run PnP Powershell with Scopes](https://sharepoint-tricks.com/the-required-office-365-role-to-run-pnp-powershell-with-scopes/)
