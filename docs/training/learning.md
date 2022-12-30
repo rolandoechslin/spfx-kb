@@ -1,5 +1,7 @@
 # Learning
 
+- [https://gurwinder.substack.com/p/the-10-best-ideas-i-learned-in-2022](https://gurwinder.substack.com/p/the-10-best-ideas-i-learned-in-2022)
+
 ## MS Certification
 
 - [Become Microsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
