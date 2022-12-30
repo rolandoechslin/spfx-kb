@@ -104,6 +104,10 @@
 
 - [Top 5 things to know about private channels in Microsoft Teams](https://robertschouten.com/2019/11/04/top-5-things-to-know-about-private-channels-in-microsoft-teams/)
 
+## Deep Links
+
+- [Deep linking into a custom teams application](https://markrackley.net/2022/12/29/deep-linking-into-a-custom-microsoft-teams-application/)
+
 ## Tipps
 
 - <https://collab365.community/microsoft-teams-hacks>
