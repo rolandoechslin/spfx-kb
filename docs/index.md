@@ -286,6 +286,8 @@ gulp bundle --ship
 gulp package-solution --ship
 ```
 
+- [spfxappdev-init](https://github.com/SPFxAppDev/spfxinit)
+
 ## Debug in vs.code
 
 - https://docs.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode
