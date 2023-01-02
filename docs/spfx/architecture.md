@@ -16,3 +16,7 @@
 ## Build applications 
 
 - [Build applications on the Microsoft Cloud](https://docs.microsoft.com/de-de/azure/architecture/guide/microsoft-cloud/overview?WT.mc_id=m365-63607-cxa)
+
+## Template and Icons
+
+- [Microsoft 365 architecture templates and icons](https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates?view=o365-worldwide)
