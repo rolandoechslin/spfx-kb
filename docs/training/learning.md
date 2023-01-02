@@ -93,6 +93,7 @@
 ## Tutorials
 
 - [React & Redux Tutorial - Build a Hacker News Clone](https://gitconnected.com/courses/learn-react-redux-tutorial-build-a-hacker-news-clone)
+- [React Portfolio Website Tutorial From Scratch – Build & Deploy React JS Portfolio Website](https://www.codelivly.com/react-portfolio-website-tutorial-from-scratch-build-deploy-react-js-portfolio-website/)
 
 ## Multi-Step Form
 
