@@ -1,6 +1,9 @@
 # Learning
 
 - [https://gurwinder.substack.com/p/the-10-best-ideas-i-learned-in-2022](https://gurwinder.substack.com/p/the-10-best-ideas-i-learned-in-2022)
+- [Web Development for Beginners - A Curriculum](https://github.com/microsoft/Web-Dev-For-Beginners)
+- [free-for.dev](https://free-for.dev)
+- [React lernen und verstehen](https://lernen.react-js.dev/)
 
 ## MS Certification
 
