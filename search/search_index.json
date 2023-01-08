@@ -4512,7 +4512,7 @@
         },
         {
             "location": "/about/about/",
-            "text": "About Me\ncategories:\n\n\nAbout Me\n\n\n\n\n\n\nAbout\n\u00b6\n\n\nAuthor\n\u00b6\n\n\nRoland Oechslin, Senior Sharepoint Expert and Developer, Garaio AG, Bern, Switzerland\n\n \n \n\n\nTwitter\n\u00b6\n\n\nRoland Oechslin - \n@rolandoechslin",
+            "text": "About\n\u00b6\n\n\nAuthor\n\u00b6\n\n\nRoland Oechslin, Senior Sharepoint/M365 Expert and Developer, Garaio AG, Bern, Switzerland\n\n \n \n\n\nTwitter\n\u00b6\n\n\nRoland Oechslin - \n@rolandoechslin",
             "title": "About"
         },
         {
@@ -4522,7 +4522,7 @@
         },
         {
             "location": "/about/about/#author",
-            "text": "Roland Oechslin, Senior Sharepoint Expert and Developer, Garaio AG, Bern, Switzerland",
+            "text": "Roland Oechslin, Senior Sharepoint/M365 Expert and Developer, Garaio AG, Bern, Switzerland",
             "title": "Author"
         },
         {
@@ -4532,7 +4532,7 @@
         },
         {
             "location": "/about/help/",
-            "text": "Help\ncategories:\n\n\nAbout Me\n\n\n\n\n\n\nHelp mkdocs\n\u00b6\n\n\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nThemes \nMaterial\n\n\nMarkdown \nSyntax\n\n\n\n\nDeployment to GitHub Pages\n\u00b6\n\n\n\n\nhttps://www.mkdocs.org/user-guide/deploying-your-docs/\n\n\n\n\nmkdocs gh-deploy",
+            "text": "Help mkdocs\n\u00b6\n\n\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nThemes \nMaterial\n\n\nMarkdown \nSyntax\n\n\n\n\nDeployment to GitHub Pages\n\u00b6\n\n\n\n\nhttps://www.mkdocs.org/user-guide/deploying-your-docs/\n\n\n\n\nmkdocs gh-deploy",
             "title": "Help"
         },
         {
