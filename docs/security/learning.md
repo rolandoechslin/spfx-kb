@@ -1,5 +1,10 @@
 # Security
 
+## Training
+
+- [Resources for Microsoft Security Exams](https://shiftingtothecloud.co.uk/resources-for-microsoft-security-exams)
+- [Microsoft Security Ninja Training](https://shiftingtothecloud.co.uk/security-ninja-training)
+
 ## Azure AD breached
 
 - [My Azure AD has been breached! What now?](https://danielchronlund.com/2021/03/29/my-azure-ad-has-been-breached-what-now/)
