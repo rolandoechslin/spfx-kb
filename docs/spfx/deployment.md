@@ -15,6 +15,7 @@
 - [Walkthrough: use Azure DevOps with SPFx, GitFlow and GitVersion](http://thecollaborationcorner.com/2019/02/28/azure-devops-with-spfx-gitflow-gitversion/)
 - [How to: Setup CI / CD in Azure DevOps with the help of SPFx Generator](https://coreyroth.com/2019/05/06/how-to-setup-ci-cd-in-azure-devops-with-the-help-of-spfx-generator/)
 - [Automate Building, Testing and Deploying SharePoint Framework Projects with Azure Pipelines in Four Steps](https://www.voitanos.io/blog/sharepoint-framework-azure-pipelines-templates)
+- [How to: Use PnP.PowerShell to deploy SharePoint apps with Azure DevOps](https://coreyroth.com/2021/01/20/how-to-use-pnp-powershell-to-deploy-sharepoint-apps-with-azure-devops/)
 
 ## ALM
 
