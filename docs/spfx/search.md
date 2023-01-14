@@ -35,6 +35,7 @@
 - [Image Search with PnP Modern Search v4](https://pixelmill.com/image-search-with-pnp-modern-search-v4/?utm_source=rss&utm_medium=rss&utm_campaign=image-search-with-pnp-modern-search-v4)
 - [How to connect two search results Web Parts together](https://franckcornu.com/post/modern-search-focus-item-selection/)
 - [Using the PnP Modern Search Web Parts](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/using-the-pnp-modern-search-web-parts/ba-p/2239771?WT.mc_id=m365-24198-cxa)
+- [Customizing the PnP people search handlebar template in SharePoint online](https://sharepoint.stackexchange.com/questions/280360/customizing-the-pnp-people-search-handlebar-template-in-sharepoint-online)
 
 ## Microsoft Search
 
