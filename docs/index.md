@@ -69,6 +69,7 @@
 - [react-roomchat (Azure Communications Services)](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-roomchat) | (Video: Building SPFx solution with Azure Communication Services integration)[https://www.youtube.com/watch?v=-wMfFLJIR1w]
 - [@pnp/js and ReactJS Functional Components](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-pnp-js-hooks)
 - (React Flight Tracker)[https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-flighttracker]
+- [spfx-wp-react-app](https://github.com/mgwojciech/unit-test-samples/tree/sample/react%2Bspfx-wp/spfx-wp-react-app)
 
 ## Enterprise Reference Samples
 
