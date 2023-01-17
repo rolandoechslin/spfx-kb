@@ -30,6 +30,7 @@
 - [Core components of Teams](https://www.youtube.com/watch?v=xJBvJTDiQqg)
 - [Limits and specifications for Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/limits-specifications-teams)
 - [Difference in permission between an owner and a member](https://docs.microsoft.com/en-us/MicrosoftTeams/assign-roles-permissions)
+- [Overview of Teams and SharePoint integration](https://learn.microsoft.com/en-us/sharepoint/teams-connected-sites?WT.mc_id=M365-MVP-5004644#sq_h5o4o4xpmv)
 
 ## Training video
 
