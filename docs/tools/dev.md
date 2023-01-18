@@ -79,6 +79,7 @@
 - [The tools for a SharePoint developer - Part 2](https://blog.lsonline.fr/2020/12/03/the-tools-for-a-sharepoint-developer-part-2/)
 - [msportals.io](https://msportals.io/)
 - [SharePoint Quicklinks](https://chrome.google.com/webstore/detail/sharepoint-quicklinks/ehmphjkdhndbdpfhhckemmhapfahlbhe/related)
+- [Graph X-Ray](https://graphxray.merill.net/)
 
 ## Framework Trends
 
