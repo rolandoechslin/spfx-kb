@@ -55,7 +55,7 @@
 - [Exploring Microsoft Graph Toolkit Lap as a non-developer -Part 3](https://regarding365.com/exploring-microsoft-graph-toolkit-lap-as-a-non-developer-part-3-85b95c9c9d8b)
 - [Exploring Microsoft Graph Toolkit as a non-Developer — Part 4](https://medium.com/@LuiseFreese/exploring-microsoft-graph-toolkit-as-a-non-developer-part-4-828fb6f56d69)
 - [Bulding a Moderator App](https://www.youtube.com/playlist?list=PLWZJrkeLOrbYL7tFQJ-HY6Q9FZGmqSldH)
-- [A Lap around Microsoft Graph Toolkit Day 8 – Microsoft Graph Toolkit Recap at Build 2020 & What’s in Season 2](https://developer.microsoft.com/en-us/sharepoint/blogs/a-lap-around-microsoft-graph-toolkit-day-8-microsoft-graph-toolkit-recap-at-build-2020-whats-in-season-2/)
+- [A Lap around Microsoft Graph Toolkit Day 13 – Using Microsoft Graph Toolkit with React](https://devblogs.microsoft.com/microsoft365dev/a-lap-around-microsoft-graph-toolkit-day-13-using-microsoft-graph-toolkit-with-react/)
 
 ## MGT Samples
 
