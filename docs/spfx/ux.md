@@ -12,6 +12,10 @@
 ## UX Tools
 
 - [SP Axure Library Downloads](https://github.com/pnp/sp-design-assets)
+- [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
+- [CSS shadows Generator](https://shadows.brumm.af/)
+- [neumorphism](https://neumorphism.io/)
+- [Open-Source UI elements made with HTML and CSS](https://uiverse.io/all)
 
 ## Page layout
 
