@@ -201,11 +201,22 @@ npm install saves any specified packages into dependencies by default. Additiona
 - [Use Node Version Manager to develop your SPFx apps ](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/use-node-version-manager-to-develop-your-spfx-apps/ba-p/2128393)
 
 ```bash
+// check version
+node --version
+
+// list installed versions of node (via nvm)
+nvm ls
+
+// To list available remote versions on Windows 10 you can type
 nvm list available
+
+// install a specific version of node
 nvm install 10.22.1
 nvm install 8.17.0
+
 nvm list
 
+// switch version of node
 nvm use 10.22.1
 
 # for spfx deployment
