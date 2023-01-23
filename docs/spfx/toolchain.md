@@ -201,6 +201,7 @@ npm install saves any specified packages into dependencies by default. Additiona
 - [Use Node Version Manager to develop your SPFx apps ](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/use-node-version-manager-to-develop-your-spfx-apps/ba-p/2128393)
 
 ```bash
+nvm list available
 nvm install 10.22.1
 nvm install 8.17.0
 nvm list
