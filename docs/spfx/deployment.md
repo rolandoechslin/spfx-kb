@@ -36,7 +36,8 @@
 
 ## CI/CD
 
-- [SharePoint Framework Web Part – Continuous Integration and Delivery](https://blog.sprider.org/2018/09/16/sharepoint-framework-web-part-continuous-integration-and-delivery/)
+- [CI/CD with SharePoint Framework (SPFx)](https://devblogs.microsoft.com/premier-developer/ci-cd-with-sharepoint-framework-spfx/)
+- [Implement Continuous Integration and Continuous deployment using Azure DevOps](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/implement-ci-cd-with-azure-devops)
 - [Implement CI/CD with Office 365 CLI for SPFx Solution for MS Teams](https://www.c-sharpcorner.com/article/implement-cicd-with-office-365-cli-for-spfx-solution-for-ms-teams/)
 - [Apply a DevOps process to your SPFx project (Part 1)](https://michaelmaillot.github.io/articles/20220104-apply-devops-spfx-part1/)
 - [Apply a DevOps process to your SPFx project (Part 2)](https://michaelmaillot.github.io/articles/20220221-apply-devops-spfx-part2/)
