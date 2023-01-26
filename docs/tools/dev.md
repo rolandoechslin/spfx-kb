@@ -1,7 +1,7 @@
 # Dev Tools
 
-- [2021.stateofjs](https://2021.stateofjs.com/en-US/)
-- [2021.stateofcss](https://2021.stateofcss.com/)
+- [2022.stateofjs](https://2022.stateofjs.com/en-US/)
+- [2022.stateofcss](https://2022.stateofcss.com/)
 - [Web Almanac](https://almanac.httparchive.org/en/2022/)
 
 ## Secret knowledge
@@ -228,6 +228,7 @@ code -n
 - [Backup and Synchronize VSCode Settings with a GitHub Gist](https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-a-github-gist/)
 - [Visual Studio Code Extension – Settings Sync](https://cann0nf0dder.wordpress.com/2019/06/16/visual-studio-code-extension-settings-sync/)
 - [Top 10 VSCode Extensions for React](https://dev.to/rohidisdev/top-10-vscode-extensions-for-react-57g6)
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 ### Remove git integrations from VSCode
 

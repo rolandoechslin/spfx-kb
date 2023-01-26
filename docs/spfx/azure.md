@@ -106,6 +106,14 @@
 - [Sites.Selected Permission using Azure AD App](https://www.leonarmston.com/2022/01/pnp-powershell-csom-now-works-with-sharepoint-sites-selected-permission-using-azure-ad-app/)
 - [Running applications with limited SharePoint permissions - Resource Specific Consent (RSC)](https://www.blimped.nl/running-application-with-limited-sharepoint-permissions/)
 
+## Microsoft identity platform
+
+- [What is the Microsoft identity platform?](https://learn.microsoft.com/de-de/azure/active-directory/develop/)
+- [OAuth 2.0 and OpenID Connect (OIDC) in the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-protocols)
+
+![App](../assets/images/application-scenarios-identity-platform.png)
+
+
 ## Security
 
 - [Basic Security Set Up for Microsoft 365](https://learn.microsoft.com/en-us/microsoft-365/community/basic-security-set-up-for-microsoft-365)
