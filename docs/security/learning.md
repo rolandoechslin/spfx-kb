@@ -14,7 +14,7 @@
 
 - [Monitor Office 365 Logs from Azure Sentinel](https://nanddeepnachanblogs.com/posts/2021-03-14-monitor-o365-logs-azure-sentinel/)
 
-## Ressources
+## Resources
 
 - [OWASP™ Foundation](https://www.owasp.org)
 - [danielmiessler - Web Application Security Testing Resources](https://danielmiessler.com/projects/webappsec_testing_resources)
