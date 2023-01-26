@@ -141,8 +141,9 @@
 - [React-JS-Checklist](https://github.com/prdxn/React-JS-Checklist)
 - [Front-end Code Review Checklist](https://gist.github.com/bigsergey/aef64f68c22b3107ccbc439025ebba12)
 
-## Security Guidline
+## Security Guideline
 
+- [Basic Security Set Up for Microsoft 365](https://learn.microsoft.com/en-us/microsoft-365/community/basic-security-set-up-for-microsoft-365)
 - [Security Scanning a SharePoint Framework Solution](https://rencore.com/blog/security-scanning-a-sharepoint-framework-solution/)
 - [Security Engineering Portal](https://www.microsoft.com/en-us/securityengineering)
 - [Automate Azure DevOps code security analysis with the Microsoft Security Code Analysis extensions](https://zimmergren.net/automate-security-code-analysis-azure-devops-microsoft-msca-extension/)
