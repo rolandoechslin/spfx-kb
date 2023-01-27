@@ -10,6 +10,7 @@
 - [SharePoint Videos](https://developer.microsoft.com/en-us/sharepoint/gallery/?filterBy=Videos,SharePoint,React)
 - [Etiquette of Microsoft 365](https://greyhatbeard.github.io/m365-etiquette/)
 - [Tips & Tricks Coding/SPFX/AzureAD](https://michaelmaillot.github.io/)
+- [Graph Explorer](https://aka.ms/ge)
 
 ## Feedback
 
