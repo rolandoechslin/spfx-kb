@@ -25,6 +25,7 @@
 
 ## Start with SPFx (Training)
 
+- [SPFx documentation ]( https://aka.ms/spfx)
 - [Why did Microsoft create the SharePoint Framework?](https://www.andrewconnell.com/blog/spfx-5w1h-why-did-microsoft-create-sharepoint-framework/)
 - [What is the SharePoint Framework?](https://www.voitanos.io/blog/spfx-5w1h-what-is-the-sharepoint-framework/)
 - [SharePoint Framework - Getting started](https://blog.mastykarz.nl/sharepoint-framework-getting-started/)
@@ -58,6 +59,7 @@
 
 ## Reference Samples
 
+- [SPFx samples in the Microsoft 365 Unified Sample gallery](https://aka.ms/m365/samples)
 - [SharePoint Framework Client-Side Web Part Samples](https://pnp.github.io/sp-dev-fx-webparts/)
 - [Microsoft Teams Development Samples](https://pnp.github.io/teams-dev-samples)
 - [SafeDesk365](https://github.com/pnp/PnP.SafeDesk365)
