@@ -1,5 +1,11 @@
 # Microsoft Graph
 
+## Top Links
+
+- [Graph Explorer](https://aka.ms/ge)
+- [Microsoft Graph permissions reference](https://learn.microsoft.com/en-us/graph/permissions-reference)
+- [Use query parameters to customize responses](https://docs.microsoft.com/en-us/graph/query-parameters)
+
 ## Best Practise
 
 - [Best practices for working with Microsoft Graph](https://docs.microsoft.com/en-us/graph/best-practices-concept?view=graph-rest-1.0)
