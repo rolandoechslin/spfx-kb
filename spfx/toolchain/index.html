@@ -2146,10 +2146,22 @@ gulp package-solution --ship
 <li><a href="https://www.andrewconnell.com/blog/better-node-js-install-management-with-node-version-manager">Better Node.js Install Management with Node Version Manager</a></li>
 <li><a href="https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/use-node-version-manager-to-develop-your-spfx-apps/ba-p/2128393">Use Node Version Manager to develop your SPFx apps </a></li>
 </ul>
-<div class="codehilite"><pre><span></span>nvm install <span class="m">10</span>.22.1
+<div class="codehilite"><pre><span></span>// check version
+node --version
+
+// list installed versions of node <span class="o">(</span>via nvm<span class="o">)</span>
+nvm ls
+
+// To list available remote versions on Windows <span class="m">10</span> you can <span class="nb">type</span>
+nvm list available
+
+// install a specific version of node
+nvm install <span class="m">10</span>.22.1
 nvm install <span class="m">8</span>.17.0
+
 nvm list
 
+// switch version of node
 nvm use <span class="m">10</span>.22.1
 
 <span class="c1"># for spfx deployment</span>
