@@ -1,5 +1,6 @@
 # Tips and tricks
 
+- [PnP-SPFx-Blog](https://pnp.github.io/blog/categories/spfx/)
 - [Teams Developer Portal](https://dev.teams.microsoft.com/)
 - [Pattern & Practises](https://pnp.github.io/)
 - [Sample Solution Gallery](https://adoption.microsoft.com/sample-solution-gallery)
