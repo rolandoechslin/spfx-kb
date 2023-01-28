@@ -10,7 +10,8 @@
 - [Brand modern SharePoint Online sites](http://sharepoint.handsontek.net/2018/03/11/brand-modern-sharepoint-online-sites)
 - [two approaches to applying modern theme](http://www.techmikael.com/2018/03/two-approaches-to-applying-modern-theme.html)
 - [SPFX integration for theme support](https://github.com/StfBauer/spfx-uifabric-themes)
-- [https://www.donkirkham.com/blog/spfx-theme-variants/](https://www.donkirkham.com/blog/spfx-theme-variants/)
+- [Creating a Section Aware webpart in SPFx](https://www.donkirkham.com/blog/spfx-theme-variants/)
+- [Adding support for theme variants in SPFx web parts](https://tahoeninja.blog/posts/adding-support-for-theme-variants-in-spfx-web-parts/)
 
 ## Get Theme
 
@@ -56,7 +57,7 @@ $t.Palette | ConvertTo-Json | Clip
 
 ![CSS Box Modell](../assets/images/css-boxing-model.png)
 
-## CSS Specificiation
+## CSS Specification
 
 - [Specificity Calculator](https://specificity.keegan.st)
 - [Specificity](https://dev.to/emmawedekind/css-specificity-1kca)
@@ -111,6 +112,10 @@ hexElement.innerHTML = window.__themeState__.theme[k];
 colorElement.appendChild(hexElement);
 containerElement.appendChild(colorElement);
 });
+```
+
+```js
+window.spModuleLoader._bundledComponents["b6917cb1-93a0-4b97-a84d-7cf49975d4ec"].PageManager._instance.pageContext.legacyPageContext
 ```
 
 ![Theme-Teamsite-Image](https://i2.wp.com/laurakokkarinen.com/wp-content/uploads/2018/01/rainbow-theme-with-pointers.png?ssl=1)
