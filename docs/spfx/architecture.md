@@ -2,6 +2,8 @@
 
 - [Microsoft cloud IT architecture resources](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources)
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
+- [Common Solution Architecture Requirement Descriptions you can use](https://blog.velingeorgiev.com/solution-architecture-requirement-descriptions)
+- [Microsoft 365 Application Architecture Patterns](https://blog.velingeorgiev.com/microsoft-365-application-architecture-patterns)
 
 ## Checklist Solution
 

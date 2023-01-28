@@ -1,0 +1,45 @@
+name: Build and Deploy SPFX packages to QA environment
+
+on: 
+  push: 
+    branches: 
+      qa
+
+jobs:
+  build-and-deploy-webpart:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+    
+    - name: Install from package-lock.json
+      run: |
+                npm ci
+  
+    - name: package
+      run: |
+                gulp dist
+
+    - name: Office 365 CLI Login
+      uses: pnp/action-cli-login@v1.0.0
+      with:
+        ADMIN\_USERNAME:  ${{ secrets.SHAREPOINT\_UID }}
+        ADMIN\_PASSWORD:  ${{ secrets.SHAREPOINT\_PASSWORD }}
+
+    - name: Deploy to locations-dev app catalog
+      uses: pnp/action-cli-deploy@v1.0.0
+      with:
+        APP\_FILE\_PATH: sharepoint/solution/my-webpart.sppkg
+        OVERWRITE: true
+        SCOPE: sitecollection
+        SITE\_COLLECTION\_URL: https://contoso.sharepoint.com/sites/myQASite
