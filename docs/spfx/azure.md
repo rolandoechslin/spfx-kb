@@ -1,6 +1,7 @@
 # Azure
 
 - [Azure documentation](https://docs.microsoft.com/en-us/azure/?product=featured)
+- [Azure Active Directory fundamentals documentation](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/)
 
 ## Azure Account / Identity services
 
