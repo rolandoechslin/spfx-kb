@@ -137,3 +137,7 @@
 - [Office 365 Management Activity API with Power Automate – Part One](https://www.leonarmston.com/2020/07/office-365-management-activity-api-with-power-automate-part-one/)
 - [Search the audit log in the compliance center](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#application-administration-activities)
 - [Detailed properties in the audit log](https://docs.microsoft.com/en-us/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?view=o365-worldwide)
+
+## Azure AD Cross Tenant Migration
+
+ - [Getting started with Azure AD cross-tenant synchronization](https://www.natehutchinson.co.uk/post/getting-started-with-cross-tenant-synchronisation)
