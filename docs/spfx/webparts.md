@@ -146,6 +146,7 @@ window.spModuleLoader._bundledComponents["b6917cb1-93a0-4b97-a84d-7cf49975d4ec"]
 ## Filtering WebParts
 
 - [SPFx - Image Gallery with filtering](https://www.ejazhussain.com/2019/02/08/spfx-image-gallery/)
+- [Microsoft Search and the integrated image search in M365](https://www.mehr365.com/microsoft-search-und-die-integrierte-bildersuche-in-m365/)
 
 
 ## Send Mail
