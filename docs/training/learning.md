@@ -35,6 +35,7 @@
 - [reactscreencasts](https://www.reactscreencasts.com/video_docs)
 - [React Wednesdays](https://www.telerik.com/react-wednesdays)
 - [Designing React 17 Component](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents)
+- [Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html)
 
 ## Lifecycle methods
 
@@ -76,7 +77,8 @@
 
 ## Patterns
 
-- <https://legacy.gitbook.com/book/krasimir/react-in-patterns/details>
+- [React in patterns](https://github.com/krasimir/react-in-patterns)
+- [Design Patterns](https://www.patterns.dev/posts/)
 
 ## JS/React VS.Code Extensions
 
