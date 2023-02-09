@@ -23,6 +23,10 @@
 - [Simplify localization in SharePoint Framework projects](https://www.eliostruyf.com/simplify-localization-in-sharepoint-framework-projects)
 - [Using the SFPx library component for simplifing the localization experience](https://www.eliostruyf.com/blog/sfpx-library-component-simplifing-localization-experience/)
 
+## Version
+
+- [Display the solution version in your web part](https://tahoeninja.blog/posts/display-the-solution-version-in-your-web-part/)
+
 ## Properties
 
 - [spfx-web-part-properties-dynamic-dropdown](https://www.sharepointnutsandbolts.com/2016/09/sharepoint-framework-spfx-web-part-properties-dynamic-dropdown.html)

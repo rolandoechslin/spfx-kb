@@ -1,5 +1,6 @@
 # Tips and tricks
 
+- [PnP-SPFx-Blog](https://pnp.github.io/blog/categories/spfx/)
 - [Teams Developer Portal](https://dev.teams.microsoft.com/)
 - [Pattern & Practises](https://pnp.github.io/)
 - [Sample Solution Gallery](https://adoption.microsoft.com/sample-solution-gallery)
@@ -24,6 +25,7 @@
 
 ## Start with SPFx (Training)
 
+- [SPFx documentation ]( https://aka.ms/spfx)
 - [Why did Microsoft create the SharePoint Framework?](https://www.andrewconnell.com/blog/spfx-5w1h-why-did-microsoft-create-sharepoint-framework/)
 - [What is the SharePoint Framework?](https://www.voitanos.io/blog/spfx-5w1h-what-is-the-sharepoint-framework/)
 - [SharePoint Framework - Getting started](https://blog.mastykarz.nl/sharepoint-framework-getting-started/)
@@ -57,6 +59,7 @@
 
 ## Reference Samples
 
+- [SPFx samples in the Microsoft 365 Unified Sample gallery](https://aka.ms/m365/samples)
 - [SharePoint Framework Client-Side Web Part Samples](https://pnp.github.io/sp-dev-fx-webparts/)
 - [Microsoft Teams Development Samples](https://pnp.github.io/teams-dev-samples)
 - [SafeDesk365](https://github.com/pnp/PnP.SafeDesk365)
@@ -70,7 +73,10 @@
 [Building SPFx solution with Azure Communication Services integration](https://www.youtube.com/watch?v=-wMfFLJIR1w)
 - [@pnp/js and ReactJS Functional Components](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-pnp-js-hooks)
 - [React Flight Tracker](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-flighttracker)
+
+## M365 Full Stack / SPFx
 - [spfx-wp-react-app](https://github.com/mgwojciech/unit-test-samples/tree/sample/react%2Bspfx-wp/spfx-wp-react-app)
+- [The ultimate full stack project setup for M365 development](https://mgwdevcom.wordpress.com/2023/01/26/the-ultimate-full-stack-project-setup-for-m365-development/)
 
 ## Enterprise Reference Samples
 
@@ -245,7 +251,7 @@ git log --full-history --src/path/to/file.js
 
 - [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/)
 - [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
-- [GitHub cheat sheet for PnP contributions](https://tahoeninjas.blog/2019/08/18/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/)
+- [GitHub cheat sheet for PnP contributions](https://tahoeninja.blog/posts/summarized-github-cheat-sheet-for-pnp-contributions/)
 - [Illustrated Notes on Fixing Git Mistakes ](https://dev.to/egghead/illustrated-notes-on-fixing-git-mistakes-1c16)
 
 

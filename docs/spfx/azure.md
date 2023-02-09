@@ -1,6 +1,7 @@
 # Azure
 
 - [Azure documentation](https://docs.microsoft.com/en-us/azure/?product=featured)
+- [Azure Active Directory fundamentals documentation](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/)
 
 ## Azure Account / Identity services
 
@@ -62,6 +63,7 @@
 - [3 ways to create and debug Azure Functions – CLI VS Code & Visual Studio](https://www.sharepointnutsandbolts.com/2018/10/Azure-Functions-Visual-Studio-Code-CLI.html)
 - [Putting some more FUN into Azure Functions, Managed Identity & Microsoft Graph](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/putting-some-more-fun-into-azure-functions-managed-identity-amp/ba-p/2628047)
 - [SharePoint PDF Merge Function](https://github.com/joelfmrodrigues/sp-merge-pdf)
+- [Running .NET Function Apps or App Services accessing Microsoft 365](https://www.blimped.nl/running-dotnet-function-apps-or-app-services-accessing-microsoft-365/)
 
 ## App Register
 
@@ -135,3 +137,7 @@
 - [Office 365 Management Activity API with Power Automate – Part One](https://www.leonarmston.com/2020/07/office-365-management-activity-api-with-power-automate-part-one/)
 - [Search the audit log in the compliance center](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#application-administration-activities)
 - [Detailed properties in the audit log](https://docs.microsoft.com/en-us/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?view=o365-worldwide)
+
+## Azure AD Cross Tenant Migration
+
+ - [Getting started with Azure AD cross-tenant synchronization](https://www.natehutchinson.co.uk/post/getting-started-with-cross-tenant-synchronisation)
