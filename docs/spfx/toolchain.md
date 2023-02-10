@@ -114,8 +114,9 @@ npm view @microsoft/generator-sharepoint
 
 ## PNPM
 
-- <https://www.voitanos.io/blog/npm-yarn-pnpm-which-package-manager-should-you-use-for-sharepoint-framework-projects>
-- <https://github.com/pnpm/pnpm>
+- [NPM, Yarn and PNPM: Which Package Manager Should You Use for SharePoint Framework Projects?](https://www.voitanos.io/blog/npm-yarn-pnpm-which-package-manager-should-you-use-for-sharepoint-framework-projects)
+- [pnpm - Package Manager](https://github.com/pnpm/pnpm)
+- [Using pnpm in SPFx projects](https://spfx-app.dev/using-pnpm-in-spfx-projects)
 
 ## Package.json
 
