@@ -145,7 +145,7 @@
 
 ## Records Management (RM)
 
-- [Managing and applying Purview retention labels using code](https://www.blimped.nl/managing-and-applying-purview-retention-labels-using-code/)
+- [Working with Microsoft Teams PowerShell in Azure Automation](https://www.blimped.nl/managing-and-applying-purview-retention-labels-using-code/)
 - [Compliance Customer Experience Engineering (CxE) - (MIG/RM)](https://microsoft.github.io/ComplianceCxE/dag/mig-rm/)
 - [Understanding Compliance and Records Management in Office 365- Video](https://www.youtube.com/watch?v=Sv1Pt0DiEDw)
 - [A Complete Guide to Office 365 Retention! - Video](https://www.youtube.com/watch?v=cYy6qy8LT2Y)
