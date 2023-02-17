@@ -22,6 +22,7 @@
 - [Microsoft 365 glossary](https://docs.microsoft.com/en-us/microsoft-365/community/glossary)
 - [SPFx-Json-Schemas](https://github.com/microsoft/json-schemas/tree/master/spfx)
 - [Microsoft 365 and Office 365 service descriptions](https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-service-descriptions-technet-library)
+- [Microsoft 365 Community Content](https://learn.microsoft.com/en-us/microsoft-365/community/)
 
 ## Start with SPFx (Training)
 
