@@ -56,6 +56,7 @@
 - [office365-azureautomation-runbooks](https://github.com/garrytrinder/office365-azureautomation)
 - [Azure automation tips & tricks](https://nocentdocent.wordpress.com/2018/04/13/azure-automation-tips-tricks-and-lessons-learned/)
 - [Azure automation limits](https://github.com/MicrosoftDocs/azure-docs/blob/master/includes/azure-automation-service-limits.md)
+- [Working with Microsoft Teams PowerShell in Azure Automation](https://www.blimped.nl/working-with-teams-powershell-in-azure-automation/)
 
 ## Azure-Functions
 
