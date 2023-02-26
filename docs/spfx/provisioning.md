@@ -75,3 +75,7 @@
 ## Logic App & Azure Queue
 
 - [SharePoint event receiver to Azure storage queue](https://www.m365-dev.com/2020/08/30/sharepoint-event-receiver-to-azure-storage-queue/)
+
+## Find Empty General Folder
+
+- [Error on first navigation to the files tab](https://www.techmikael.com/2022/01/sensible-defaults-avoiding-error-on.html)
