@@ -8,7 +8,7 @@
 - [How to: SnipScripts](https://github.com/TechSnips/SnipScripts)
 - [Andres Bohren - PowerShellScripts](https://github.com/BohrenAn/GitHub_PowerShellScripts)
 - [Report on Microsoft 365](https://github.com/michevnew/PowerShell)
-- [Office365itpros](https://github.com/12Knocksinna/Office365itpros)
+- [Office 365 for IT Pros PowerShell examples](https://github.com/12Knocksinna/Office365itpros)
 
 ## Syntax
 
@@ -55,7 +55,6 @@ Get-Command -Name Get-PnPSite -Syntax
 - [Useful PowerShell cmdlets to administer Office 365 Groups](https://www.sharepointeurope.com/useful-powershell-cmdlets-administer-office-365-groups/)
 - [MY MOST USED POWERSHELL SCRIPTS FOR MANAGING SHAREPOINT ONLINE](https://laurakokkarinen.com/my-most-used-powershell-scripts-for-managing-sharepoint-online/)
 - [Undocumented Features](https://www.undocumented-features.com/2019/01/31/getting-around-the-basics-of-azure-automation-for-office-365/)
-- [Office 365 for IT Pros PowerShell examples](https://github.com/12Knocksinna/Office365itpros)
 
 ## SharePoint 2016
 
