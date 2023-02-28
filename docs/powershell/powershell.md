@@ -7,6 +7,8 @@
 - [janikvonrotz-awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
 - [How to: SnipScripts](https://github.com/TechSnips/SnipScripts)
 - [Andres Bohren - PowerShellScripts](https://github.com/BohrenAn/GitHub_PowerShellScripts)
+- [Report on Microsoft 365](https://github.com/michevnew/PowerShell)
+- [Office365itpros](https://github.com/12Knocksinna/Office365itpros)
 
 ## Syntax
 
