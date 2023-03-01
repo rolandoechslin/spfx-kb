@@ -17,6 +17,10 @@
 - [Microsoft Power Platform: Learning Resources](https://powerapps.microsoft.com/en-us/blog/microsoft-powerapps-learning-resources/)
 - [A collection of awesome things regarding the Power Platform ecosystem](https://powerlist.page/)
 
+## Codeing Guide
+- [Naming convention for Power Automate](https://forwardforever.com/naming-convention-for-power-automate/)
+- [Naming convention for Power Apps](https://forwardforever.com/naming-convention-for-power-apps)
+
 ## Frameworks
 
 - [PowerApps Tools](https://github.com/microsoft/powerapps-tools)
