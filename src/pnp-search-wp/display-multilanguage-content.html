@@ -1,0 +1,15 @@
+<!-- Source: https://valerasnarbutas.github.io/posts/tip-day-display-multilanguage-content/ -->
+
+{{#compare pageContext.web.language '==' 1043}}
+
+    Dit wordt weergegeven als de huidige taal is 1043
+
+    De taalcode is {{pageContext.web.language}} - Dutch
+
+  {{else}}
+
+    This is rendered if current language is anything else
+
+    Language code is {{pageContext.web.language}} 
+
+{{/compare}}
