@@ -80,6 +80,7 @@
 - [msportals.io](https://msportals.io/)
 - [SharePoint Quicklinks](https://chrome.google.com/webstore/detail/sharepoint-quicklinks/ehmphjkdhndbdpfhhckemmhapfahlbhe/related)
 - [Graph X-Ray](https://graphxray.merill.net/)
+- [PnP Sharing is Caring VS Code Extensions](https://marketplace.visualstudio.com/items?itemName=PnP-SharingisCaring.sharing-is-caring)
 
 ## Framework Trends
 
