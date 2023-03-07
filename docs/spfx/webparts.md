@@ -170,6 +170,13 @@ window.spModuleLoader._bundledComponents["b6917cb1-93a0-4b97-a84d-7cf49975d4ec"]
 
 - [Generate PDF Document In Spfx](https://www.c-sharpcorner.com/article/generate-pdf-document-in-spfx/)
 
+## CAML Query
+
+- [Query schema](https://learn.microsoft.com/en-us/sharepoint/dev/schema/query-schema)
+- [CamlJs](https://www.npmjs.com/package/camljs)
+- [Camlex.NET.dll](https://www.nuget.org/packages/Camlex.NET.dll/)
+- [CAML Query](https://pnp.github.io/blog/post/caml-query-what-is-it/)
+
 ## Terms Sets
 
 - [Display hierarchical Term Sets to your Web Part](https://blog.lsonline.fr/2019/01/13/display-hierarchical-term-sets-to-your-web-part/)
