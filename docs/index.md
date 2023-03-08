@@ -1,5 +1,6 @@
 # Tips and tricks
 
+- [Microsoft 365 help & learning](https://support.microsoft.com/en-us/microsoft-365)
 - [PnP-SPFx-Blog](https://pnp.github.io/blog/categories/spfx/)
 - [Teams Developer Portal](https://dev.teams.microsoft.com/)
 - [Pattern & Practises](https://pnp.github.io/)
