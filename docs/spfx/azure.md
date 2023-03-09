@@ -58,6 +58,11 @@
 - [Azure automation limits](https://github.com/MicrosoftDocs/azure-docs/blob/master/includes/azure-automation-service-limits.md)
 - [Working with Microsoft Teams PowerShell in Azure Automation](https://www.blimped.nl/working-with-teams-powershell-in-azure-automation/)
 
+### Azure Automation Teams Powershell
+
+- [Working with Microsoft Teams PowerShell in Azure Automation](https://www.blimped.nl/working-with-teams-powershell-in-azure-automation/)
+
+
 ## Azure-Functions
 
 - [AUTO-CONFIGURING SHAREPOINT SITES WITH SITE TEMPLATES — THE SETUP FROM START TO FINISH](https://laurakokkarinen.com/auto-configuring-sharepoint-sites-with-site-templates-the-setup-from-start-to-finish/)
