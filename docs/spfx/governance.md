@@ -135,7 +135,7 @@
 
 ## Tips
 
--[SharePoint Online Can Now Rename Site URLs](https://office365itpros.com/2019/05/02/sharepoint-online-rename-site-names/)
+- [SharePoint Online Can Now Rename Site URLs](https://office365itpros.com/2019/05/02/sharepoint-online-rename-site-names/)
 
 ## Security and Compliance - DLP
 
