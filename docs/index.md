@@ -25,7 +25,7 @@
 - [Microsoft 365 and Office 365 service descriptions](https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-service-descriptions-technet-library)
 - [Microsoft 365 Community Content](https://learn.microsoft.com/en-us/microsoft-365/community/)
 
-## Start with SPFx (Training)
+## Start SPFx Training
 
 - [SPFx documentation ]( https://aka.ms/spfx)
 - [Why did Microsoft create the SharePoint Framework?](https://www.andrewconnell.com/blog/spfx-5w1h-why-did-microsoft-create-sharepoint-framework/)
@@ -46,14 +46,14 @@
 - [PnP Virtual Conference – September 2020 – Summary and Recordings](https://developer.microsoft.com/en-us/office/blogs/pnp-virtual-conference-september-2020-summary-and-recordings/)
 - [Microsoft 365 learning pathways](https://github.com/pnp/custom-learning-office-365)
 
-## Start SPFx React
+## Start SPFx React Development
 
 - [SPFx Essentials my Getting Started Video | E003](https://www.youtube.com/watch?v=05uuG6DwbxU)
 - [How to Style your Custom SPFx Web Part to look OOB | E004](https://www.youtube.com/watch?v=NMtWIjajfPI)
 - [PT2: Custom SPFx Web Part looking like it's OOB | E005](https://www.youtube.com/watch?v=xjsg7TOr3UM)
 - [SPFx, Post Request, React Hooks, and Fluent UI forms | E006](https://www.youtube.com/watch?v=gSUqHZjkOfA)
 
-## Start with Teams Development
+## Start Teams Development
 
 - [Microsoft Teams App Camp On Demand](https://microsoft.github.io/app-camp/)
 - [#30DaysOf Learning](https://microsoft.github.io/30daysof/)
