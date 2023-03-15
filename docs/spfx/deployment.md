@@ -42,6 +42,7 @@
 - [Apply a DevOps process to your SPFx project (Part 1)](https://michaelmaillot.github.io/articles/20220104-apply-devops-spfx-part1/)
 - [Apply a DevOps process to your SPFx project (Part 2)](https://michaelmaillot.github.io/articles/20220221-apply-devops-spfx-part2/)
 - [Apply a DevOps process to your SPFx project (Part 3)](https://michaelmaillot.github.io/articles/20220420-apply-devops-spfx-part3/)
+- [CI/CD for SPFx Deployment in Azure DevOps using M365 CLI](https://valerasnarbutas.github.io/posts/ci-cd-spfx-deployment-azure-devops-m365-cli/)
 
 ## Deployment to CDN
 

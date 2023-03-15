@@ -1,5 +1,11 @@
 # Security
 
+## Check PW
+
+- [NCSC Check Tool](https://www.checktool.ch/)
+- [haveibeenpwned](https://haveibeenpwned.com/)
+- [Is someone spying on you?](https://sec.hpi.uni-potsdam.de/Wilc/search?)
+
 ## Training
 
 - [Resources for Microsoft Security Exams](https://shiftingtothecloud.co.uk/resources-for-microsoft-security-exams)
@@ -25,11 +31,6 @@
 
 - [OWASP Testing Checklist](https://www.owasp.org/index.php/Testing_Checklist)
 - [Security KB Issues - portswigger.net](https://portswigger.net/kb/issues)
-
-## Password Check
-
-- [haveibeenpwned](https://haveibeenpwned.com/)
-- [Is someone spying on you?](https://sec.hpi.uni-potsdam.de/ilc/search?)
 
 ## Tools
 
