@@ -8,6 +8,9 @@
 - [Power Platform Basics - Project Activities](https://github.com/PowerPlatformAF/PowerPlatformAF/wiki/6-Solution-Development#project-activities)
 ![c-framework](../assets/images/powerplattform3.png)
 
+## User Settings
+
+- [Your Power Apps user settings are probably wrong](https://jukkaniiranen.com/2023/03/your-power-apps-user-settings-are-probably-wrong/)
 
 ## Resources
 
