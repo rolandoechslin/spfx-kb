@@ -81,6 +81,7 @@
 - [SharePoint Quicklinks](https://chrome.google.com/webstore/detail/sharepoint-quicklinks/ehmphjkdhndbdpfhhckemmhapfahlbhe/related)
 - [Graph X-Ray](https://graphxray.merill.net/)
 - [PnP Sharing is Caring VS Code Extensions](https://marketplace.visualstudio.com/items?itemName=PnP-SharingisCaring.sharing-is-caring)
+- [Tools that I use & ❤️](https://blog.dan-toft.dk/tools/)
 
 ## Framework Trends
 
@@ -195,10 +196,6 @@ wget --recursive --no-clobber --page-requisites --html-extension --convert-links
 - <https://github.com/ypcode/spfx-dev-tools> (Ressourcen Files mit Excel editieren)
 - [Excel and PowerShell to maintain your SPFx localized resources](https://ypcode.wordpress.com/2018/06/08/excel-and-powershell-to-maintain-your-spfx-localized-resources)
 - [JavaScript Internationalization Framework](https://github.com/facebookincubator/fbt)
-
-## ULS
-
-- [sharepointring](https://sharepointring.com)
 
 ## VS.Code
 
