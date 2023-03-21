@@ -24,6 +24,7 @@
 - [How to: Provision Lookup Columns and Projected Fields using PnP PowerShell](https://coreyroth.com/2019/06/27/how-to-provision-lookup-columns-and-projected-fields-using-pnp-powershell/)
 - [How to do column validation in SharePoint](https://sharepointmaven.com/how-to-do-column-validation-in-sharepoint)
 - [SharePoint Column Validation Examples](https://techtrainingnotes.blogspot.com/2015/10/sharepoint-column-validation-examples.html)
+- [Setting a SharePoint Image Column Value with PnP PowerShell](https://mattjimison.com/2023/03/21/setting-a-sharepoint-image-column-value-with-pnp-powershell/)
 
 ## App Bar
 
