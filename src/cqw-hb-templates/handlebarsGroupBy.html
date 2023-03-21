@@ -1,0 +1,14 @@
+<!-- https://valerasnarbutas.github.io/posts/tip-day-handlebar-helper-groupby/ -->
+
+<div>
+    {{#groupBy allItems by="Department" sortBy="Order" sortOrder="asc"}}
+      {{#each groupItems}}
+      {{#if @first}}
+          <h3>{{Department.textValue}} {{value}}</h3>
+      {{/if}}
+          <ul>
+              <li>{{Employee.textValue}}</li>
+          </ul>
+      {{/each}}
+    {{/groupBy}}
+</div>
