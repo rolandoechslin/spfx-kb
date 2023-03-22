@@ -15,6 +15,11 @@
 
 - [Sentiment of comments given on a SharePoint page](https://www.itidea.nl/index.php/sentiment-of-comments-given-on-a-sharepoint-page)
 
+## Frameworks
+
+- [mendable.ai](https://docs.mendable.ai/)
+- [langchain.js](https://hwchase17.github.io/langchainjs/docs/overview/)
+
 ## Samples
 
 - [M365AIMate - Microsoft Graph and .NET](https://github.com/selectedtech/M365AIMate)
