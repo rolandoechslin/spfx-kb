@@ -149,3 +149,14 @@
 ## Azure AD Cross Tenant Migration
 
  - [Getting started with Azure AD cross-tenant synchronization](https://www.natehutchinson.co.uk/post/getting-started-with-cross-tenant-synchronisation)
+
+## Azure AD Assessment Tools
+
+- [Azure AD Assessment Guide](https://github.com/AzureAD/AzureADAssessment/wiki)
+- [Azure AD Exporter](https://github.com/microsoft/azureadexporter)
+- [Microsoft Identity Tools PowerShell Module](https://github.com/AzureAD/MSIdentityTools)
+- [Identity Power Toys](https://github.com/merill/idPowerToys)
+- [Microsoft Graph Permission Explorer](https://graphpermissions.merill.net/)
+- [Graph X-Ray](https://graphxray.merill.net/)
+- [Graph PowerShell Conversion Analyzer](https://graphpowershell.merill.net/)
+ 
