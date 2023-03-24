@@ -127,6 +127,14 @@ Debug localization
 ?forceLocale=fr-fr
 ```
 
+Search vertical layout refresh
+
+- [View the vertical in the search result page](https://learn.microsoft.com/en-us/microsoftsearch/manage-verticals#view-the-vertical-in-the-search-result-page)
+
+```html
+?cacheClear=true
+```
+
 Hide the navigation
 
 - [Hide the navigation and the header in modern SharePoint pages](https://sharepoint.handsontek.net/2021/01/24/hide-navigation-header-modern-sharepoint-pages/)
