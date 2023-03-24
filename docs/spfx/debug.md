@@ -1,5 +1,9 @@
 # Debug
 
+## Debug Tricks
+
+- [sp-browser-utils](https://github.com/mgwojciech/sp-browser-utils/blob/main/utils.js)
+
 ## Webcast
 
 - [PnP Webcast - Debugging SharePoint Framework Solutions](https://www.youtube.com/watch?v=TuPi_RGpMig)
