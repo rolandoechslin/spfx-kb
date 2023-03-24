@@ -82,4 +82,5 @@
 
 ## Graph Developer Proxy
 
+- [Microsoft Graph Developer Proxy](https://github.com/microsoftgraph/msgraph-developer-proxy)
 - [Improving your Microsoft Graph PowerShell Scripts with the Graph Developer Proxy](https://seanmcavinue.net/2023/03/24/improving-your-microsoft-graph-powershell-scripts-with-the-graph-developer-proxy/)
