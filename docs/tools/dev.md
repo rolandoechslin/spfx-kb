@@ -227,8 +227,7 @@ code -n
 - [Visual Studio Code Extension – Settings Sync](https://cann0nf0dder.wordpress.com/2019/06/16/visual-studio-code-extension-settings-sync/)
 - [Top 10 VSCode Extensions for React](https://dev.to/rohidisdev/top-10-vscode-extensions-for-react-57g6)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-
-### Remove git integrations from VSCode
+- [abracadabra](https://marketplace.visualstudio.com/items?itemName=nicoespeon.abracadabrarations from VSCode)
 
 settings.json
 
