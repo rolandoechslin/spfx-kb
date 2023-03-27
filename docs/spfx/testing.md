@@ -12,6 +12,10 @@
 - [automated code reviews ts-project 1](https://thenikhilk.com/2021/02/20/automated-code-reviews-ts-project-1/)
 - [automated code reviews ts-project 2](https://thenikhilk.com/2021/02/21/automated-code-reviews-ts-project-2/#code-coverage)
 
+## Playwright
+
+- [playwright](https://playwright.dev/)
+
 ## Jest
 
 - [SharePoint Framework unit-tests with Jest](https://www.eliostruyf.com/sharepoint-framework-unit-tests-with-jest/)
