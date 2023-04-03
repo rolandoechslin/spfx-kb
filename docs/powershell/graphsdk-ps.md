@@ -17,6 +17,97 @@
 - [Using the Microsoft Graph SDK for PowerShell with Azure Automation](https://practical365.com/microsoft-graph-sdk-powershell-azure-automation/)
 - [Updating Microsoft Graph PowerShell Modules for Azure Automation](https://practical365.com/update-graph-sdk-azure-automation/) 
 
-## Udpate Process
+## Uddate Process
 
 - [Updating Microsoft Graph PowerShell Modules for Azure Automation](https://practical365.com/update-graph-sdk-azure-automation/)
+
+## Work
+
+- [How to Connect to Microsoft Graph API from PowerShell](https://www.sharepointdiary.com/2023/04/how-to-connect-to-microsoft-graph-api-from-powershell.html)
+
+Check
+
+```Powershell
+Get-InstalledModule | Where-Object {$_.Name -match "Microsoft.Graph"}
+```
+
+Install
+
+```Powershell
+Install-Module -Name "Microsoft.Graph"
+```
+
+Update
+
+```Powershell
+Update-Module Microsoft.Graph
+```
+
+Uninstall (all)
+
+```Powershell
+Uninstall-Module Microsoft.Graph
+
+# Uninstall all Sub-modules of Graph
+Get-InstalledModule Microsoft.Graph.* | ForEach-Object { if($_.Name -ne "Microsoft.Graph.Authentication") {
+    Uninstall-Module $_.Name }
+}
+ 
+# Uninstall the dependant module
+Uninstall-Module Microsoft.Graph.Authentication
+```
+
+Connect with Delegated Access 
+
+```Powershell
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "User.Read.All"
+ 
+# Get All users
+$users = Get-MgUser
+$users | Select-Object DisplayName, UserPrincipalName, Mail
+```
+
+Connect with App ID and Certificate
+
+```Powershell
+# App Config
+$TenantID = "<placeholder>"
+$ClientID = "<placeholder>" # App ID
+$CertThumbPrint = "<placeholder>"
+ 
+# Connect to Microsoft Graph using App
+Connect-MgGraph -ClientID $ClientID -TenantId $TenantID -CertificateThumbprint $CertThumbPrint
+```
+
+Connect with Client Secret
+
+```Powershell
+# App Registration details
+$TenantID = "<placeholder>"
+$ClientID = "<placeholder>"
+$ClientSecret = "<placeholder>"
+ 
+$Body =  @{
+    Grant_Type    = "client_credentials"
+    Scope         = "https://graph.microsoft.com/.default"
+    Client_Id     = $ClientID
+    Client_Secret = $ClientSecret
+}
+ 
+$Connection = Invoke-RestMethod `
+    -Uri https://login.microsoftonline.com/$TenantID/oauth2/v2.0/token `
+    -Method POST `
+    -Body $body
+ 
+# Get the Access Token
+$Token = $Connection.access_token
+ 
+# Connect to Microsoft Graph
+Connect-MgGraph -AccessToken $Token
+```
+
+
+
+
+
