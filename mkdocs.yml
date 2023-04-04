@@ -3,7 +3,7 @@ site_name: 'SPFx-KB'
 site_description: 'SPFx Knowledgebase'
 site_author: 'Roland Oechslin'
 
-pages:
+nav:
     - Home: index.md
     - SPFx:
         - Start: spfx/start.md
