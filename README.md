@@ -18,9 +18,11 @@ https://rolandoechslin.github.io/spfx-kb/
         ...       # Other markdown pages, images and other files.
 ```
 
-## Installation
+## Installation for windows
 
-choco install mkdocs
+- https://www.python.org/downloads/release/python-388rc1/
+
+pip install mkdocs
 pip install pymdown-extensions
 pip install mkdocs-material
 
