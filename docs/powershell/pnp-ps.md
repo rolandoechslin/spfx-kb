@@ -1,5 +1,12 @@
 # PnP Powershell
 
+## Information
+
+- [New version of PnP PowerShell – v2.1.1](https://pnp.github.io/blog/pnp-powershell/pnp-powershell-v2-1-1/)
+- [Updating from PnP PowerShell 1.x to 2.x](https://github.com/pnp/powershell/blob/dev/MIGRATE-1.0-to-2.0.md)
+
+## References
+
 - [Documentation](https://pnp.github.io/powershell/index.html)
 - [Script Samples](https://pnp.github.io/script-samples/index.html)
 - [Script Samples - matrix](https://pnp.github.io/script-samples/matrix.html)
