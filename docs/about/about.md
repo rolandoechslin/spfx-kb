@@ -2,7 +2,7 @@
 
 ## Author
 
-Roland Oechslin, Senior Sharepoint/M365 Expert and Developer, Garaio AG, Bern, Switzerland
+Roland Oechslin, Senior Sharepoint/M365 Expert and Developer, BLS, Bern, Switzerland
 :smile: :heart: :thumbsup:
 
 ## Twitter
