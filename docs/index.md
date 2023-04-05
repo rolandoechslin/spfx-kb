@@ -81,6 +81,7 @@
 - [@pnp/js and ReactJS Functional Components](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-pnp-js-hooks)
 - [React Flight Tracker](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-flighttracker)
 - [Extend Teams app to other M365 host apps like Outlook, Office.com](https://github.com/microsoft/app-camp/tree/main/experimental/ExtendTeamsforM365)
+- [microsoft365dev](https://devblogs.microsoft.com/microsoft365dev/build-a-developer-assist-dashboard-using-teams-toolkit-for-visual-studio-code-v5-0-pre-release/)
 
 ## M365 Full Stack / SPFx
 - [spfx-wp-react-app](https://github.com/mgwojciech/unit-test-samples/tree/sample/react%2Bspfx-wp/spfx-wp-react-app)

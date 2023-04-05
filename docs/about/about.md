@@ -2,9 +2,16 @@
 
 ## Author
 
-Roland Oechslin, Senior Sharepoint/M365 Expert and Developer, BLS, Bern, Switzerland
-:smile: :heart: :thumbsup:
+Roland Oechslin
+
+## Work
+
+Senior Sharepoint/M365 Expert and Developer, BLS AG, Bern, Switzerland
+
+## Interests
+
+Programming, New Technologies :smile: :heart: :thumbsup:
 
 ## Twitter
 
-Roland Oechslin - [@rolandoechslin](https://twitter.com/rolandoechslin)
+[@rolandoechslin](https://twitter.com/rolandoechslin)
