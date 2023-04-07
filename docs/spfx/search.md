@@ -125,3 +125,11 @@
 ## Search Empty Terms Fields
 
 - [MONITORING FOR AN EMPTY MANAGED METADATA SHAREPOINT COLUMN](https://joannecklein.com/2022/08/02/monitoring-for-an-empty-managed-metadata-sharepoint-column/#sq_h4t0nqjx4t)
+
+## Sharing Link
+
+ - [Sharing-Link](https://www.mehr365.com/dokumente-mit-einem-sharing-link-in-der-suche-anzeigen/)
+
+```Powershell
+  {SearchTerms} contentclass:STS_ListItem_DocumentLibrary IsContainer<>true SharedWithUsersOWSUSER=0
+  ```Powershell
