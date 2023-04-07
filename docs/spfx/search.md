@@ -133,4 +133,8 @@
 ```Powershell
   # Managed Properties: SharedWithUsersOWSUSER, SharedWithDetails
   {SearchTerms} contentclass:STS_ListItem_DocumentLibrary IsContainer<>true SharedWithUsersOWSUSER=0
-```Powershell
+```
+
+## Search Query Filter
+
+ - [query variable trick in ms search](https://www.techmikael.com/2023/04/query-variable-trick-in-microsoft.html)
