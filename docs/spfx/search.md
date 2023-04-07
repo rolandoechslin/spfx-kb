@@ -131,5 +131,6 @@
  - [Sharing-Link](https://www.mehr365.com/dokumente-mit-einem-sharing-link-in-der-suche-anzeigen/)
 
 ```Powershell
+  # Managed Properties: SharedWithUsersOWSUSER, SharedWithDetails
   {SearchTerms} contentclass:STS_ListItem_DocumentLibrary IsContainer<>true SharedWithUsersOWSUSER=0
-  ```Powershell
+```Powershell
