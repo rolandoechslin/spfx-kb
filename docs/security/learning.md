@@ -26,6 +26,7 @@
 - [danielmiessler - Web Application Security Testing Resources](https://danielmiessler.com/projects/webappsec_testing_resources)
 - [Hacking-Security-Ebooks](https://github.com/yeahhub/Hacking-Security-Ebooks)
 - [PEN-200 The official OSCP certification course](https://www.offensive-security.com/pwk-oscp/)
+- [MITRE ATT&CK® globally-accessible knowledge base](https://attack.mitre.org/)
 
 ## Checklist
 
