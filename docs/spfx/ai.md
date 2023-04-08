@@ -4,6 +4,7 @@
 
 ## Learning
 
+- [30 Days Of Azure AI Roadmap](https://azureaidevs.github.io/hub/roadmap/30days/)
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 
 ## Semantic Kernel
