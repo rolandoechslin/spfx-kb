@@ -137,6 +137,10 @@
 
 - [SharePoint Online Can Now Rename Site URLs](https://office365itpros.com/2019/05/02/sharepoint-online-rename-site-names/)
 
+## SAM
+
+- [A primer on SharePoint Advanced Management](https://wbaer.net/2023/04/a-primer-on-sharepoint-advanced-management/)
+
 ## Security and Compliance - DLP
 
 - [Overview of data loss prevention](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide)
