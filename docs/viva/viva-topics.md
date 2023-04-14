@@ -11,6 +11,7 @@
 - [Project Cortex - entity extractors](https://www.sharepointnutsandbolts.com/2021/03/syntex-tips-document-understanding-forms-processing.html)
 - [Syntex-Tips-document-understanding-forms-processing](https://www.sharepointnutsandbolts.com/2021/03/syntex-tips-document-understanding-forms-processing.html)
 - [Syntex on a page - December 2022](https://www.sharepointnutsandbolts.com/2022/11/Microsoft-Syntex-compilation.html)
+- [Understanding classifiers in Microsoft Syntex and Microsoft Purview](https://wbaer.net/2023/04/understanding-classifiers-in-microsoft-syntex-and-microsoft-purview/)
 
 ![Syntex-2022](../assets/images/syntex-roadmap-1.png)
 (Source: @ChrisO_Brien)
