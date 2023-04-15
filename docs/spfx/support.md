@@ -11,7 +11,7 @@
 
 ## Troubleshoot
 
-- [SharePoint Online Troubleshooting](https://docs.microsoft.com/en-us/sharepoint/troubleshoot/online)
+- [SharePoint Online troubleshooting](https://learn.microsoft.com/en-us/sharepoint/troubleshoot/sharepoint-online-welcome)
 
 ## SharePoint Documentation
 
