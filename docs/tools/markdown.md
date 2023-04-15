@@ -17,7 +17,8 @@
 - [WebSequenceDiagrams](https://www.websequencediagrams.com/)
 - [PlantText](https://www.planttext.com/)
 - [Word to Markdown Converter](https://word2md.com/)
-- [Tool for creating markdown readme file](https://readme.so)
+- [Creating markdown readme file](https://readme.so)
+- [Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 
 ## Technical Writing Courses for Engineers
 
