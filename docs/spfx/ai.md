@@ -20,6 +20,7 @@
 
 - [mendable.ai](https://docs.mendable.ai/)
 - [langchain.js](https://hwchase17.github.io/langchainjs/docs/overview/)
+- [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/)
 
 ## Samples
 
