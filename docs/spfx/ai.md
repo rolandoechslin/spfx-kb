@@ -2,6 +2,11 @@
 
 - [AI Intro for DEV](../../docs/assets/intro-ductionto-ai-and-cognitive-servicesforo365-dev.pdf)
 
+## Microsoft Mechanics
+- [Microsoft Mechanics - Azure OpenAI Service (1)](https://www.youtube.com/watch?v=3t3qZu1Dy1k)
+- [Microsoft Mechanics - Azure OpenAI Service (2)](https://www.youtube.com/watch?v=tW2EA4aZ_YQ)
+- [ChatGPT + Enterprise data with Azure OpenAI and Cognitive Search](https://github.com/Azure-Samples/azure-search-openai-demo/)
+
 ## Learning
 
 - [30 Days Of Azure AI Roadmap](https://azureaidevs.github.io/hub/roadmap/30days/)
