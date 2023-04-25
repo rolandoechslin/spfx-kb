@@ -1,6 +1,6 @@
 # AI
 
-- [AI Intro for DEV](../../docs/assets/intro-ductionto-ai-and-cognitive-servicesforo365-dev.pdf)
+- [AI Intro for DEV](../assets/intro-ductionto-ai-and-cognitive-servicesforo365-dev.pdf)
 
 ## Azure OpenAI Service
 
