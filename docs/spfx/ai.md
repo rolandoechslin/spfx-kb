@@ -35,3 +35,6 @@
 - [langchain.js](https://hwchase17.github.io/langchainjs/docs/overview/)
 - [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/)
 
+## Monitor Azure OpenAI Service
+
+- [manage costs azure openai chatgpt](https://www.sharepointnutsandbolts.com/2023/04/manage-costs-azure-openai-chatgpt.html)
