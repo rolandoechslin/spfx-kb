@@ -97,7 +97,7 @@
 - [Compare Backup Solutions SkyKick and Veeam](https://blog.ioz.ch/office365-backup-skykick-und-veeam-im-vergleich/)
 - [Does Office 365, hosted by Microsoft requires a data backup solution](https://www.sharepointeurope.com/office-365-hosted-microsoft-requires-data-backup-solution)
 
-## Audit/Usage Reports
+## Audit/Usage Reports Scripts
 
 - [Admindroid - Office 365 Management Made Easy](https://admindroid.com/)
 - [6 ways to check SharePoint Usage reports](https://sharepointmaven.com/6-ways-check-sharepoint-usage-reports/)
@@ -106,10 +106,6 @@
 - [Retrieve Office 365 Audit logs using PowerShell and store in Azure table for quick retrieval](https://asishpadhy.com/2018/12/21/retrieve-office-365-audit-logs-using-powershell-and-store-in-azure-table-for-quick-retrival/)
 - [Office 365 Groups and Teams Activity Report - obsolete groups](https://gallery.technet.microsoft.com/Check-for-obsolete-Office-c0020a42)
 - [Top 50 PowerShell Scripts for Microsoft 365 Admins](https://o365reports.com/2022/06/15/top-50-powershell-scripts-for-microsoft-365-admins/)
-- [ADEssentials - AzureAD Reporting](https://github.com/EvotecIT/ADEssentials)
-
-## Scripts
-
 - [SPC18: What Options do You Have to Govern the Lifecycle of Office 365 Groups / Teams](https://github.com/wobba/espc18)
 [Ignite2018GroupsGovernanceToolkit](https://github.com/martinagrom/Ignite2018GroupsGovernanceToolkit)
 - [PowerShell scripts for Microsoft Office 365](https://github.com/martinagrom/Office365Scripts)
@@ -119,6 +115,8 @@
 - [Manage your SharePoint Team Sites to Excel](http://sharepoint-tricks.com/manage-your-sharepoint-team-sites/)
 - [Extract information of Communication sites to Excel](http://sharepoint-tricks.com/extract-communication-sites-to-excel/)
 - [Five-PowerShell-Reports-For-Office365](https://github.com/vladcatrinescu/Five PowerShell Reports For Office365)
+- [ADEssentials - AzureAD Reporting](https://github.com/EvotecIT/ADEssentials)
+- [M365 Powershell Reporting Scripts](https://github.com/michevnew/PowerShell)
 
 ## AD Mistakes
 
