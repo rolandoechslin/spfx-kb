@@ -4,7 +4,7 @@
 
 - [NCSC Check Tool](https://www.checktool.ch/)
 - [haveibeenpwned](https://haveibeenpwned.com/)
-- [Is someone spying on you?](https://sec.hpi.uni-potsdam.de/Wilc/search?)
+- [Is someone spying on you?](https://sec.hpi.uni-potsdam.de/ilc/search?lang=en)
 
 ## Training
 
