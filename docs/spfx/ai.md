@@ -10,6 +10,7 @@
 
 ## GPT
 
+- [Awesome ChatGPT Prompts](https://prompts.chat/)
 - [How generative language models work](https://bea.stollnitz.com/blog/how-gpt-works/)
 
 

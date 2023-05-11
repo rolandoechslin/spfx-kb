@@ -23,6 +23,7 @@
 - [Full-stack Web Developer Plan - 2021](https://github.com/codedamn/fullstack-learning-path)
 - [The Modern JavaScript Tutorial](https://javascript.info/)
 - [freecodecamp](https://www.freecodecamp.org/learn/)
+- [devdocs.io](https://devdocs.io/)
 
 ## React Learning Course
 
