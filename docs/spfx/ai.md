@@ -8,9 +8,10 @@
 - [Azure OpenAI Service Documentation](https://learn.microsoft.com/en-US/azure/cognitive-services/openai/overview)
 - [ChatGPT + Enterprise data with Azure OpenAI and Cognitive Search](https://github.com/Azure-Samples/azure-search-openai-demo/)
 
-## GPT
+## GPT Prompts
 
 - [Awesome ChatGPT Prompts](https://prompts.chat/)
+- [Power Platform GPT Prompts](https://github.com/pnp/powerplatform-prompts/)
 - [How generative language models work](https://bea.stollnitz.com/blog/how-gpt-works/)
 
 
