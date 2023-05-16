@@ -2003,7 +2003,10 @@
 <li><a href="http://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/">http://bobmixon.com/2018/06/powershell-and-sharepoint-modules-part-1/</a></li>
 <li><a href="https://github.com/mikefrobbins/Plaster/tree/master/Template">https://github.com/mikefrobbins/Plaster/tree/master/Template</a></li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="nb">Get-InstalledModule</span> <span class="p">|</span> <span class="nb">select </span><span class="n">name</span><span class="p">,</span> <span class="n">version</span>
+<div class="highlight"><pre><span></span><code><span class="nv">$env:PSModulePath</span>
+<span class="p">(</span><span class="nb">Get-Module</span> <span class="n">-ListAvailable</span> <span class="n">Pnp</span><span class="p">.*).</span><span class="n">path</span>
+
+<span class="nb">Get-InstalledModule</span> <span class="p">|</span> <span class="nb">select </span><span class="n">name</span><span class="p">,</span> <span class="n">version</span>
 </code></pre></div>
 <h2 id="slides">Slides<a class="headerlink" href="#slides" title="Permanent link">&para;</a></h2>
 <ul>

@@ -1038,6 +1038,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#only-office-files" class="md-nav__link">
+    Only Office Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#search-query-filter" class="md-nav__link">
     Search Query Filter
   </a>
@@ -2010,6 +2017,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#only-office-files" class="md-nav__link">
+    Only Office Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#search-query-filter" class="md-nav__link">
     Search Query Filter
   </a>
@@ -2168,6 +2182,9 @@
 </ul>
 <div class="highlight"><pre><span></span><code>  <span class="c"># Managed Properties: SharedWithUsersOWSUSER, SharedWithDetails</span>
   <span class="p">{</span><span class="n">SearchTerms</span><span class="p">}</span> <span class="n">contentclass</span><span class="p">:</span><span class="n">STS_ListItem_DocumentLibrary</span> <span class="n">IsContainer</span><span class="p">&lt;&gt;</span><span class="n">true</span> <span class="n">SharedWithUsersOWSUSER</span><span class="p">=</span><span class="n">0</span>
+</code></pre></div>
+<h2 id="only-office-files">Only Office Files<a class="headerlink" href="#only-office-files" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="n">SearchTerms</span><span class="p">}</span> <span class="p">((</span><span class="n">FileExtension</span><span class="p">:</span><span class="n">mp4</span> <span class="n">OR</span> <span class="n">FileExtension</span><span class="p">:</span><span class="n">doc</span> <span class="n">OR</span> <span class="n">FileExtension</span><span class="p">:</span><span class="n">docx</span> <span class="n">OR</span> <span class="n">FileExtension</span><span class="p">:</span><span class="n">xls</span> <span class="n">OR</span> <span class="n">FileExtension</span><span class="p">:</span><span class="n">xlsx</span> <span class="n">OR</span> <span class="n">FileExtension</span><span class="p">:</span><span class="n">ppt</span> <span class="n">OR</span> <span class="n">FileExtension</span><span class="p">:</span><span class="n">pptx</span> <span class="n">OR</span> <span class="n">FileExtension</span><span class="p">:</span><span class="n">pdf</span><span class="p">)</span> <span class="n">AND</span> <span class="p">(</span><span class="n">IsDocument</span><span class="p">:</span><span class="s2">&quot;True&quot;</span> <span class="n">OR</span> <span class="n">contentclass</span><span class="p">:</span><span class="s2">&quot;STS_ListItem&quot;</span><span class="p">))</span> <span class="n">OR</span> <span class="n">ContentType</span><span class="p">=</span><span class="s2">&quot;Folder&quot;</span>
 </code></pre></div>
 <h2 id="search-query-filter">Search Query Filter<a class="headerlink" href="#search-query-filter" title="Permanent link">&para;</a></h2>
 <ul>
