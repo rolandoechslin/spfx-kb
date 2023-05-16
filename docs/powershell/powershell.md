@@ -69,6 +69,9 @@ Get-Command -Name Get-PnPSite -Syntax
 - <https://github.com/mikefrobbins/Plaster/tree/master/Template>
 
 ```Powershell
+$env:PSModulePath
+(Get-Module -ListAvailable Pnp.*).path
+
 Get-InstalledModule | select name, version
 ```
 
