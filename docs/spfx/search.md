@@ -136,6 +136,12 @@
   {SearchTerms} contentclass:STS_ListItem_DocumentLibrary IsContainer<>true SharedWithUsersOWSUSER=0
 ```
 
+## Only Office Files
+
+```Powershell
+{SearchTerms} ((FileExtension:mp4 OR FileExtension:doc OR FileExtension:docx OR FileExtension:xls OR FileExtension:xlsx OR FileExtension:ppt OR FileExtension:pptx OR FileExtension:pdf) AND (IsDocument:"True" OR contentclass:"STS_ListItem")) OR ContentType="Folder"
+```
+
 ## Search Query Filter
 
  - [query variable trick in ms search](https://www.techmikael.com/2023/04/query-variable-trick-in-microsoft.html)
