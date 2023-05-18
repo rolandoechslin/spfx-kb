@@ -139,6 +139,7 @@
  ## News 2023
 
 - [Microsoft Search: Connecting You to Knowledge and Expertise](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/microsoft-search-connecting-you-to-knowledge-and-expertise/ba-p/3821892)
+- [How to configure Search Verticals on a SharePoint site](https://sharepointmaven.com/how-to-configure-search-verticals-on-a-sharepoint-site/)
 
 ## News 2021
 
