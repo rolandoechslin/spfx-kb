@@ -73,6 +73,10 @@
 - [How to deploy a Yo Teams generated project to Azure through Azure DevOps](https://www.wictorwilen.se/blog/deploying-yo-teams-and-node-apps/)
 - [Team development for Microsoft Teams apps](https://www.wictorwilen.se/blog/team-development-for-microsoft-teams-apps/)
 
+## Teams Toolkit Visual Studio Code
+
+- [](https://github.com/OfficeDev/TeamsFx/wiki/Teams-Toolkit-Visual-Studio-Code-v5-Guide)
+
 ## Message Extensions
 
 - [Where to start developing your messaging extension using Microsoft Teams Toolkit](https://rabiawilliams.com/teams/message-extensions/)
