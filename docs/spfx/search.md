@@ -4,17 +4,6 @@
 - [Manage the search schema in SharePoint](https://docs.microsoft.com/en-us/sharepoint/manage-search-schema)
 - [Sharepoint search Queries explained - Basics](https://www.techmikael.com/2014/03/sharepoint-search-queries-explained.html)
 
-## News 2021
-
-- [We’re making changes to search in SharePoint Online](https://techcommunity.microsoft.com/t5/microsoft-search-blog/we-re-making-changes-to-search-in-sharepoint-online/ba-p/1971119)
-
-## News 2020
-
-- [Make the most of Microsoft Search through Configuration and Administration](https://techcommunity.microsoft.com/t5/video-hub/make-the-most-of-microsoft-search-through-configuration-and/m-p/1696788)
-- [What’s new for Microsoft Search – Ignite 2020 Edition ](https://techcommunity.microsoft.com/t5/microsoft-search-blog/what-s-new-for-microsoft-search-ignite-2020-edition/ba-p/1675291)
-- [SharePoint Search REST API overview](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-search-rest-api-overview)
-- [SharePoint Search REST API. GET and POST requests](http://blog.vitalyzhukov.ru/en/sharepoint-search-rest-api-get-and-post-requests.aspx)
-
 ## Tools
 
 - [MS Search Layout Designer](https://searchlayoutdesigner.azurewebsites.net/)
@@ -146,3 +135,18 @@
 
  - [query variable trick in ms search](https://www.techmikael.com/2023/04/query-variable-trick-in-microsoft.html)
  - [filter on managed properties in search](https://www.techmikael.com/2023/04/filter-on-managed-properties-in-search.html)
+
+ ## News 2023
+
+- [Microsoft Search: Connecting You to Knowledge and Expertise](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/microsoft-search-connecting-you-to-knowledge-and-expertise/ba-p/3821892)
+
+## News 2021
+
+- [We’re making changes to search in SharePoint Online](https://techcommunity.microsoft.com/t5/microsoft-search-blog/we-re-making-changes-to-search-in-sharepoint-online/ba-p/1971119)
+
+## News 2020
+
+- [Make the most of Microsoft Search through Configuration and Administration](https://techcommunity.microsoft.com/t5/video-hub/make-the-most-of-microsoft-search-through-configuration-and/m-p/1696788)
+- [What’s new for Microsoft Search – Ignite 2020 Edition ](https://techcommunity.microsoft.com/t5/microsoft-search-blog/what-s-new-for-microsoft-search-ignite-2020-edition/ba-p/1675291)
+- [SharePoint Search REST API overview](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-search-rest-api-overview)
+- [SharePoint Search REST API. GET and POST requests](http://blog.vitalyzhukov.ru/en/sharepoint-search-rest-api-get-and-post-requests.aspx)
