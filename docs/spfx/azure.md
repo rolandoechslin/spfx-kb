@@ -30,6 +30,7 @@
 
 - [Managed Identities With Azure Container Apps](https://www.thorsten-hans.com/managed-identities-with-azure-container-apps/)
 - [Authentication in Azure Automation with Managed Identity on SharePoint and Microsoft Graph](https://mmsharepoint.wordpress.com/2023/05/04/authentication-in-azure-automation-with-managed-identity-on-sharepoint-and-microsoft-graph/)
+- [Using Managed Identities to Connect to Microsoft 365 & Azure](https://cloudprotect.ninja/managed-identities-to-connect-to-microsoft-365-and-azure/)
 
 ## Azure Logic App
 
