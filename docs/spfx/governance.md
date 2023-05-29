@@ -139,6 +139,7 @@
 ## SAM
 
 - [A primer on SharePoint Advanced Management](https://wbaer.net/2023/04/a-primer-on-sharepoint-advanced-management/)
+- [Govern and Secure SharePoint and OneDrive with Microsoft Syntex – SharePoint Advanced Management](https://antonio365.com/govern-and-secure-sharepoint-and-onedrive-with-microsoft-syntex-sharepoint-advanced-management/)
 
 ## Security and Compliance - DLP
 
