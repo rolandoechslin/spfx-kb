@@ -27,6 +27,10 @@
 - [MsftGraph](https://www.powershellgallery.com/packages/MSFTGraph/1.0.1)
 - [Unified PowerShell experience for Microsoft Graph](https://myignite.techcommunity.microsoft.com/sessions/83012?source=sessions)
 
+## Reports
+
+- [Reporting Plans in a Microsoft 365 Tenant with the Planner Graph API](https://practical365.com/report-planner-data/)
+
 ## Blogs
 
 - [MS Planner Blog](https://techcommunity.microsoft.com/t5/Planner-Blog/bg-p/PlannerBlog)
