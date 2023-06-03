@@ -72,9 +72,8 @@
 
 ## Cheatsheet
 
-- <https://devhints.io/react>
-- <https://github.com/sw-yx/react-typescript-cheatsheet>
-- <https://github.com/piotrwitek/react-redux-typescript-guide>
+- [react-redux-typescript-guide](https://github.com/piotrwitek/react-redux-typescript-guide)
+- [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)
 
 ## Patterns
 
