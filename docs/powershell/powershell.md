@@ -9,6 +9,7 @@
 - [Andres Bohren - PowerShellScripts](https://github.com/BohrenAn/GitHub_PowerShellScripts)
 - [Report on Microsoft 365](https://github.com/michevnew/PowerShell)
 - [Office 365 for IT Pros PowerShell examples](https://github.com/12Knocksinna/Office365itpros)
+- [admindroid-community](https://github.com/admindroid-community/powershell-scripts)
 
 ## Syntax
 
