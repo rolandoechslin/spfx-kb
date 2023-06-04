@@ -36,6 +36,8 @@
 - [Mock teams library in SPFx project](https://mgwdevcom.wordpress.com/2020/06/15/mock-teams-library-in-spfx-project/)
 - [Publish Code Coverage Results in Azure DevOps Pipeline for React](https://thenikhilk.com/2020/09/18/publish-code-coverage-azure-pipelines-react/)
 - [Mocking 3rd party libraries with jest for SPFx developers](https://mgwdevcom.wordpress.com/2022/11/14/mocking-3rd-party-libraries-with-jest-for-spfx-developers/)
+- [spfx-wp-react-app](https://github.com/mgwojciech/unit-test-samples/tree/sample/react%2Bspfx-wp/spfx-wp-react-app)
+- [State of SPFx unit testing in 2023](https://mgwdevcom.wordpress.com/2023/05/29/state-of-spfx-unit-testing-in-2023/)
 
 ## Testing Hooks
 

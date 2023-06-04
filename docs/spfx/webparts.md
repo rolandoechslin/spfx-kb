@@ -160,7 +160,6 @@ window.spModuleLoader._bundledComponents["b6917cb1-93a0-4b97-a84d-7cf49975d4ec"]
 - [How to add external libraries and assets in SharePoint client-side web part](http://mundrisoft.com/tech-bytes/how-to-add-external-libraries-and-assets-in-sharepoint-client-side-web-part/)
 - [React Templates using SPFx Library Component](https://github.com/AJIXuMuK/SPFx/tree/master/react-templates)
 - [How to consume a third-party SPFx library](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/library-component-tutorial)
-- [spfx-wp-react-app](https://github.com/mgwojciech/unit-test-samples/tree/sample/react%2Bspfx-wp/spfx-wp-react-app)
 
 ## Config Variables
 
