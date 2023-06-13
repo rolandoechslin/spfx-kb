@@ -235,3 +235,7 @@ npm i -g spfx-fast-serve
 npm i -g @pnp/generator-spfx
 npm i -g npm-check
 ```
+
+## ESLint
+
+- [ESLint in SPFx Projects](https://www.andrewconnell.com/blog/navigate-eslint-sharepoint-framework-projects-guidance/)

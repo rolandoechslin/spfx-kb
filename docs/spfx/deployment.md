@@ -75,6 +75,7 @@ write-manifests.json
 
 ## Automate Project Documentation
 
+- [DocsFx in SPO](https://github.com/mozziemozz/awesome-docfx-template)
 - [DocFx](https://dotnet.github.io/docfx/index.html)
 - [Automate project documentation from Azure DevOps to SharePoint on Microsoft 365](https://rick-brown.medium.com/automate-project-documentation-from-azure-devops-to-sharepoint-on-microsoft-365-f2e5b554d6ce)
 - [The static site generator for SharePoint](https://github.com/ValoIntranet/doctor)
