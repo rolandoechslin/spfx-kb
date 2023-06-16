@@ -1,5 +1,21 @@
 # Links
 
+## Profile
+
+```ps
+code $PROFILE
+```
+
+```ps
+Import-Module -Name CLI.Microsoft365.PowerShell.Predictor
+Import-Module posh-git
+Import-Module -Name Terminal-Icons
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/jandedobbeleer.omp.json" | Invoke-Expression
+```
+
+- [My Ultimate PowerShell prompt with Oh My Posh and the Windows Terminal](https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal)
+- [Sanselman - PowerShell_profile](https://gist.github.com/shanselman/25f5550ad186189e0e68916c6d7f44c3?WT.mc_id=-blog-scottha)
+
 ## Resources
 
 - [Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/developer/windows-powershell?view=powershell-7.1)
