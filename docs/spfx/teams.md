@@ -75,7 +75,8 @@
 
 ## Teams Toolkit Visual Studio Code
 
-- [](https://github.com/OfficeDev/TeamsFx/wiki/Teams-Toolkit-Visual-Studio-Code-v5-Guide)
+- [Teams Toolkit Visual Studio Code v5 Guide](https://github.com/OfficeDev/TeamsFx/wiki/Teams-Toolkit-Visual-Studio-Code-v5-Guide)
+- [Bring your existing projects to Teams Toolkit for Visual Studio Code](https://www.youtube.com/watch?v=xp8Mev6l3Qg)
 
 ## Message Extensions
 
