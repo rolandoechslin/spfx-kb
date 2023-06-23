@@ -13,6 +13,7 @@
 - [Awesome ChatGPT Prompts](https://prompts.chat/)
 - [Power Platform GPT Prompts](https://github.com/pnp/powerplatform-prompts/)
 - [How generative language models work](https://bea.stollnitz.com/blog/how-gpt-works/)
+- [Prompt engineering cheatsheet (for JavaScript developers)upate](https://github.com/dabit3/prompt-engineering-for-javascript-developers)
 
 
 ## Samples
