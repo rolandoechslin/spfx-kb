@@ -1,6 +1,6 @@
 # Viva Connections
 
-## Licence / Pricing
+## License / Pricing
 
 - [microsoft viva pricing](https://www.microsoft.com/de-ch/microsoft-viva/pricing)
 
