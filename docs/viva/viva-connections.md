@@ -1,5 +1,9 @@
 # Viva Connections
 
+## Licence / Pricing
+
+- [microsoft viva pricing](https://www.microsoft.com/de-ch/microsoft-viva/pricing)
+
 ## Overview
 
 - [Video - Your intranet is now in Microsoft Teams with Microsoft Viva Connections](https://www.youtube.com/watch?v=IRr50w61fy0)
