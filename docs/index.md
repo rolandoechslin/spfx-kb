@@ -92,6 +92,8 @@
 
 - [Rhythm of Business Calendar - SPFx Solution Accelerator - Domain Driven Design](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-rhythm-of-business-calendar)
 - [Rhythm of Business Calendar - SPFx Solution Accelerator Deep Dive](https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-rhythm-of-business-calendar/documentation/README.md)
+- [Contoso Retail Dashboard](https://github.com/pnp/spfx-reference-scenarios/tree/main/samples/contoso-retail-demo/)
+- [Video: Microsoft 365 & Power Platform weekly call – 6th of June, 2023](https://www.youtube.com/watch?v=7cxrkGD2UL8&t=2342s)
 
 ### PnPjs-V3
 
