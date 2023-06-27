@@ -188,3 +188,8 @@ https://graph.microsoft.com/beta/groups?$filter=resourceProvisioningOptions/Any(
 - [Manage Microsoft Dataverse for Teams environments](https://powerapps.microsoft.com/en-us/blog/manage-microsoft-dataverse-for-teams-environments/)
 - [Power Platform in a Modern Data Platform Architecture](https://www.runwayview.com/blog/power-platform-data-platform-architecture)
 - [Dataverse REST Builder](https://github.com/GuidoPreite/DRB)
+
+### Pro / Contra SharePoint/Dataverse
+[Making Good Technology Decisions: Data Storage](https://learn.microsoft.com/en-us/microsoft-365/community/making-good-technology-decisions--data-storage#data-storage-options)
+[8 top reasons to use Dataverse or SharePoint lists in the Power Platform](https://sharepains.com/2021/04/15/dataverse-or-sharepoint-lists/)
+[Key considerations and differences between Lists, Dataverse for Teams, and Dataverse](https://learn.microsoft.com/en-us/power-apps/teams/compare-data-sources)
