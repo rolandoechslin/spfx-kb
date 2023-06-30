@@ -63,8 +63,8 @@
 - [How to secure external sharing in SharePoint Online and Office 365](https://sharegate.com/blog/how-to-secure-external-sharing-sharepoint-online-onedrive-office-365)
 - [Change External Sharing Settings Across a Hub Site with PowerShell](https://vladtalkstech.com/2019/03/change-external-sharing-settings-across-a-hub-site-with-powershell.html)
 - [Microsoft 365 guest sharing settings reference](https://learn.microsoft.com/en-us/microsoft-365/solutions/microsoft-365-guest-settings?view=o365-worldwide)
-
 - [How to properly configure sharing settings in the SharePoint Admin Center](https://sharepointmaven.com/how-to-properly-configure-sharing-settings-in-the-sharepoint-admin-center/)
+- [Export Office 365 External User Reports for Secure External Collaboration](https://o365reports.com/2023/06/30/export-office-365-external-user-reports-for-secure-external-collaboration/)
 
 ## Organization Asset Libraries
 
