@@ -272,3 +272,8 @@ $tenant.DisabledWebPartIds = $ids
 $tenant.Update()
 Invoke-PnPQuery
 ```
+
+## Office Add-in
+
+- [Register an Office Add-in that uses single sign-on (SSO) with the Microsoft identity platform](https://learn.microsoft.com/en-us/office/dev/add-ins/develop/register-sso-add-in-aad-v2)
+- [Enable single sign-on (SSO) in an Office Add-in](https://learn.microsoft.com/en-us/office/dev/add-ins/develop/sso-in-office-add-ins)

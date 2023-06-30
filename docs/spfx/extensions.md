@@ -1,5 +1,9 @@
 # Extensions
 
+## Forms List Layout Formating
+
+ - [Configuring the Layout of SharePoint Forms](https://www.paitgroup.com/blog/configuring-the-layout-of-sharepoint-forms)
+
 ## Custom Forms Extensions
 
 - [AddValidateUpdateItemUsingPath deep dive](https://mgwdevcom.wordpress.com/2022/09/16/addvalidateupdateitemusingpath-deep-dive/)
