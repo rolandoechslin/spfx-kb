@@ -6,6 +6,7 @@
 
 ## Custom Forms Extensions
 
+- [Building a SharePoint New Site Form Look-Alike](https://www.blimped.nl/building-a-sharepoint-new-site-form-look-alike/)
 - [AddValidateUpdateItemUsingPath deep dive](https://mgwdevcom.wordpress.com/2022/09/16/addvalidateupdateitemusingpath-deep-dive/)
 
 ## Tipps
