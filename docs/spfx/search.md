@@ -51,6 +51,7 @@
 - [How to create a Managed Property in SharePoint Online](https://sharepointmaven.com/how-to-create-a-managed-property-in-sharepoint-online/)
 - [Hide content from delve but not from search](https://www.techmikael.com/2015/01/hide-content-from-delvebut-not-from.html)
 - [Manage the search schema in SharePoint](https://docs.microsoft.com/en-us/sharepoint/manage-search-schema#map-a-crawled-property-to-a-managed-property)
+- [Managed Properties characteristics explained: Searchable vs. Queryable vs. Retrievable vs. Refinable](https://sharepointmaven.com/managed-properties-characteristics-explained-searchable-vs-queryable-vs-retrievable-vs-refinable/)
 
 ## Keyword Query Language (KQL) syntax reference
 
