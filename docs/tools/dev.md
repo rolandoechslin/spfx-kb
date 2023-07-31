@@ -399,3 +399,7 @@ foreach($line in Get-Content C:\url.txt)
     }
 }
 ```
+
+## Static Search Library
+
+- [pagefind](https://pagefind.app/)
