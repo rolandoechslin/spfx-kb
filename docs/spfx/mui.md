@@ -1,5 +1,9 @@
 # MUI
 
+## Testing Language
+
+- [Testing user preferred language of SharePoint site](https://pnp.github.io/script-samples/user-language-for-site/README.html?tabs=pnpps)
+
 ## Multilingual Pages
 
 - [Multilingual publishing for pages and news posts](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/new-sharepoint-feature-multilingual-publishing-for-pages-and/ba-p/1432445)
