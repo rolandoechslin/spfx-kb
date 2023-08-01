@@ -107,6 +107,26 @@ $Token = $Connection.access_token
 Connect-MgGraph -AccessToken $Token
 ```
 
+## Check Size
+
+- [FUNCTION CANNOT BE CREATED BECAUSE FUNCTION CAPACITY 4096 HAS BEEN EXCEEDED FOR THIS SCOPE](https://evotec.xyz/function-cannot-be-created-because-function-capacity-4096-has-been-exceeded-for-this-scope/)
+
+```ps
+Get-Variable Max*Count
+```
+
+```ps
+$Modules = Get-Module -ListAvailable
+$ListModules = foreach ($Module in $Modules) {
+    [PScustomObject] @{
+        Name          = $Module.Name
+        Version       = $Module.Version
+        FunctionCount = ($Module.ExportedFunctions).Count
+    }
+}
+$ListModules | Sort-Object -Property FunctionCount -Descending | Format-Table -AutoSize
+```
+
 
 
 
