@@ -185,6 +185,10 @@ Error Handling
 - [Manage-large-lists-and-libraries-in-SharePoint](https://support.office.com/en-us/article/Manage-large-lists-and-libraries-in-SharePoint-B8588DAE-9387-48C2-9248-C24122F07C59)
 - [Optimising Large List Updates with PnP Batch: Handling Throttling and Enhancing Efficiency](https://reshmeeauckloo.com/posts/pnpbatch-update-biglist-sharepoint/)
 
+## RecycleBin
+
+- [Bulk delete recycle bin items from a site in batch](https://pnp.github.io/script-samples/spo-bulk-delete-recyclebin-in-batch-avoid-lvt/README.html?tabs=pnpps)
+
 ## Create Documentation
 
 - [article/ways-to-work-with-sharepoint](https://support.office.com/en-gb/article/ways-to-work-with-sharepoint-11de936c-8fed-4474-ac58-583d0c38ac12?ui=en-US&rs=en-GB&ad=GB)
