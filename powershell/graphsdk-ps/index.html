@@ -1387,6 +1387,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#check-size" class="md-nav__link">
+    Check Size
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1792,6 +1799,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#check-size" class="md-nav__link">
+    Check Size
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1897,6 +1911,22 @@
 
 <span class="c"># Connect to Microsoft Graph</span>
 <span class="nb">Connect-MgGraph</span> <span class="n">-AccessToken</span> <span class="nv">$Token</span>
+</code></pre></div>
+<h2 id="check-size">Check Size<a class="headerlink" href="#check-size" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://evotec.xyz/function-cannot-be-created-because-function-capacity-4096-has-been-exceeded-for-this-scope/">FUNCTION CANNOT BE CREATED BECAUSE FUNCTION CAPACITY 4096 HAS BEEN EXCEEDED FOR THIS SCOPE</a></li>
+</ul>
+<div class="highlight"><pre><span></span><code>Get-Variable Max*Count
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>$Modules = Get-Module -ListAvailable
+$ListModules = foreach ($Module in $Modules) {
+    [PScustomObject] @{
+        Name          = $Module.Name
+        Version       = $Module.Version
+        FunctionCount = ($Module.ExportedFunctions).Count
+    }
+}
+$ListModules | Sort-Object -Property FunctionCount -Descending | Format-Table -AutoSize
 </code></pre></div>
 
 
