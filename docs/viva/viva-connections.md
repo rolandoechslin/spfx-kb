@@ -12,6 +12,7 @@
 
 ## Install
 
+- [Microsoft Viva: An Administrator’s View](https://rencore.com/blog/microsoft-viva-admin-view/)
 - [Add Viva Connections for Microsoft Teams desktop](https://docs.microsoft.com/en-us/SharePoint/viva-connections/)
 - [Create Viva Connections App Using PnP PowerShell-Publish-PnPCompanyApp](https://www.leonarmston.com/2021/04/create-viva-connections-app-using-pnp-powershell/)
 - [How to create and Install the Viva Connections application from O365-CLI](https://sharepoint.handsontek.net/2021/04/05/create-install-viva-connections-application-macos/)
