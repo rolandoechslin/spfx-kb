@@ -9,6 +9,7 @@
 ## Best Practise
 
 - [Best practices for working with Microsoft Graph](https://docs.microsoft.com/en-us/graph/best-practices-concept?view=graph-rest-1.0)
+- [Using MS Graph Sandbox proxy to speed up development](https://mgwdevcom.wordpress.com/2023/08/09/using-ms-graph-sandbox-proxy-to-speed-up-development/)
 
 ## Permission
 
