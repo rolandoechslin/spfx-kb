@@ -117,6 +117,8 @@
 - [Five-PowerShell-Reports-For-Office365](https://github.com/vladcatrinescu/Five PowerShell Reports For Office365)
 - [ADEssentials - AzureAD Reporting](https://github.com/EvotecIT/ADEssentials)
 - [M365 Powershell Reporting Scripts](https://github.com/michevnew/PowerShell)
+- [Microsoft Replaces User Data Search with Standard eDiscovery](https://office365itpros.com/2023/08/14/user-data-search-replaced)
+- [Azure AD audit logs latency](https://www.michev.info/blog/post/5749/microsoft-365-azure-ad-audit-logs-and-reports-latency-data)
 
 ## AD Mistakes
 
