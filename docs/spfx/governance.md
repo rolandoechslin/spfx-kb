@@ -119,6 +119,7 @@
 - [M365 Powershell Reporting Scripts](https://github.com/michevnew/PowerShell)
 - [Microsoft Replaces User Data Search with Standard eDiscovery](https://office365itpros.com/2023/08/14/user-data-search-replaced)
 - [Azure AD audit logs latency](https://www.michev.info/blog/post/5749/microsoft-365-azure-ad-audit-logs-and-reports-latency-data)
+- [REPORT ACTIVE DIRECTORY ACCOUNTS THAT ARE SYNCHRONIZED WITH AZURE AD](https://evotec.xyz/report-active-directory-accounts-that-are-synchronized-with-azure-ad/)
 
 ## AD Mistakes
 
