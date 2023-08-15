@@ -102,6 +102,7 @@ Maintenance mode
 - [open-and-use-the-web-part-maintenance-page](https://support.office.com/en-us/article/open-and-use-the-web-part-maintenance-page-eff9ce22-d04a-44dd-ae83-ac29a5e396c2)
 - [How to open SharePoint pages in maintenance mode](https://sharepointstuff.com/2020/09/09/how-to-open-sharepoint-pages-in-maintenance-mode/)
 - [Query String URL Tricks for SharePoint and Microsoft 365](https://learn.microsoft.com/en-us/microsoft-365/community/query-string-url-tricks-sharepoint-m365)
+- [Generate Modern List Filter URL: Managed Metadata](https://piyushksingh.com/2019/05/24/generate-modern-list-filter-url-managed-metadata/)
 
 ```html
 ?maintenancemode=true
