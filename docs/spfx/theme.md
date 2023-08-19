@@ -53,6 +53,7 @@ $t.Palette | ConvertTo-Json | Clip
 
 - [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Grid - Einfühung in 4 Schritten](https://www.mediaevent.de/css/grid.html)
+- [CSS Grid – Einführung in Gestaltungsraster mit dem Grid Layout Module](https://kulturbanause.de/blog/css-grid-layout-module)
 
 ## Flexbox
 
