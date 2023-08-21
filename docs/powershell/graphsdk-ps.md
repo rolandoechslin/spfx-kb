@@ -127,6 +127,10 @@ $ListModules = foreach ($Module in $Modules) {
 $ListModules | Sort-Object -Property FunctionCount -Descending | Format-Table -AutoSize
 ```
 
+##  AzureAD Module Migration
+
+- [PSAzureMigrationAdvisor](https://github.com/FriedrichWeinmann/PSAzureMigrationAdvisor)
+
 
 
 
