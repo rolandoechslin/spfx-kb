@@ -10,6 +10,7 @@
 
 - https://github.com/olegrumiancev/sp-listform-react
 - [Classic-to-Modern ListForm UI Transform Tool](https://youtu.be/ptssqO1fI-Q)
+- [react-hook-form](https://www.react-hook-form.com/ts/)
 
 ## Redux-Forms
 

@@ -106,4 +106,3 @@ More Infos
 - [Typescript Learning Videos](https://www.youtube.com/@basarat)
 - [React Typescript Video Tutorial](https://www.youtube.com/watch?v=Z5iWr6Srsj8)
 - [Fullstack React GraphQL TypeScript Video Tutorial](https://www.youtube.com/watch?v=I6ypD7qv3Z8https://www.youtube.com/watch?v=I6ypD7qv3Z8)
-
