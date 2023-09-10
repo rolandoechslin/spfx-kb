@@ -11,6 +11,10 @@
 - [Resources for Microsoft Security Exams](https://shiftingtothecloud.co.uk/resources-for-microsoft-security-exams)
 - [Microsoft Security Ninja Training](https://shiftingtothecloud.co.uk/security-ninja-training)
 
+## Azure
+
+- [Azure Quick Review](https://github.com/Azure/azqr)
+
 ## Azure AD breached
 
 - [My Azure AD has been breached! What now?](https://danielchronlund.com/2021/03/29/my-azure-ad-has-been-breached-what-now/)
@@ -43,6 +47,7 @@
 - [exploit-db.com](https://www.exploit-db.com)
 - [Intro netstat](https://www.ionos.de/digitalguide/server/tools/einfuehrung-in-netstat/)
 - [Open Port Checking Tools in 2021](https://www.upguard.com/blog/best-open-port-scanners)
+- [Top 10 Vulnerability Scanning Tools in 2023](https://aardwolfsecurity.com/top-10-vulnerability-scanning-tools-in-2023)
 
 ## Firewall
 
