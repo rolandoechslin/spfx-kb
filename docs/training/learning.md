@@ -86,19 +86,22 @@
 
 - [The Ultimate VSCode Setup for Front End/JS/React](https://medium.com/productivity-freak/the-ultimate-vscode-setup-for-js-react-6a4f7bd51a2)
 
-## Boilerplates
+## Boilerplate
 
 - [https://github.com/artofcodelabs/front-end-boilerplate](https://github.com/artofcodelabs/front-end-boilerplate)
 
 ## Lessons
 
-- <https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981>
+- [The most important lessons I’ve learned after a year of working with React](https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981)
 
 ## Frameworks
 
-- <https://github.com/STRML/react-grid-layout>
-- <http://www.chartjs.org/>
-- <https://rushjs.io/>
+- [react-grid-layout](https://github.com/STRML/react-grid-layout)
+- [chartjs](http://www.chartjs.org)
+- [Rush](https://rushjs.io)
+- [fuzzy searching](https://www.fusejs.io/)
+- [primereact](https://primereact.org/)
+- [React Query - TanStack Query](https://tanstack.com/query/latest/)
 
 ## Tutorials
 
