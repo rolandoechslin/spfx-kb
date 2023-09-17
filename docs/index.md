@@ -128,6 +128,7 @@
 
 ## Code Guideline
 
+- [Best practices in cloud applications](https://learn.microsoft.com/en-us/azure/architecture/best-practices/index-best-practices)
 - [Patterns and Practices for SPFx Development](https://pnp.github.io/blog/post/patterns-and-practices-for-spfx-development/)
 - [Typescriptlang - Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 - [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/blob/master/react/README.md)
