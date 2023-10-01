@@ -85,6 +85,7 @@
 ## External Access
 
 - [Troubleshooting external access to SharePoint sites](https://mydigitalworkplace.wordpress.com/2021/08/09/troubleshooting-external-access-to-sharepoint-sites/)
+- [SPFx Webpart – External User Access](https://spknowledge.com/2023/09/29/spfx-webpart-external-user-access/)
 
 ## Diagnostics
 
