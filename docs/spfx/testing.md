@@ -16,6 +16,11 @@
 
 - [playwright](https://playwright.dev/)
 
+## React Testing Library
+
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Testing In React Tutorial - Jest and React Testing Library](https://www.youtube.com/watch?v=JBSUgDxICg8)
+
 ## Jest
 
 - [SharePoint Framework unit-tests with Jest](https://www.eliostruyf.com/sharepoint-framework-unit-tests-with-jest/)
