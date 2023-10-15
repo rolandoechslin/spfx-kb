@@ -1,6 +1,6 @@
 # Ship Code
 
-All images and links are coming from: https://blog.bytebytego.com/
+All images and links are coming from: https://blog.bytebytego.com/archive 
 
 ## How Companies ship code to production
 
