@@ -130,6 +130,7 @@ $ListModules | Sort-Object -Property FunctionCount -Descending | Format-Table -A
 ##  AzureAD Module Migration
 
 - [PSAzureMigrationAdvisor](https://github.com/FriedrichWeinmann/PSAzureMigrationAdvisor)
+- [Challenges of PowerShell Scripting with Microsoft 365](https://practical365.com/challenges-of-powershell-scripting-with-microsoft-365/)
 
 
 
