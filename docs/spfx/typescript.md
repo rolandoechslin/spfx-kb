@@ -6,7 +6,6 @@
 - [Learn X in Y minutes](https://learnxinyminutes.com/docs/typescript/)
 - [TypeScript Handbook](http://www.typescriptlang.org/docs/handbook/basic-types.html)
 - [Why TypeScript](https://basarat.gitbooks.io/typescript/content/docs/why-typescript.html)
-
 - [pluralsight typescript course](https://app.pluralsight.com/player?course=typescript&author=dan-wahlin&name=typescript-m1&clip=4&mode=live)
 - https://github.com/Microsoft/TypeScript/wiki
 - https://github.com/basarat/typescript-book
@@ -15,6 +14,7 @@
 - https://codewich.com/
 - https://github.com/lakshaydulani/typescript-summary
 - https://github.com/netdur/typescript-design-patterns
+- [clean-code-typescript](https://github.com/labs42io/clean-code-typescript)
 
 ## Typescript Version for SPFx
 
