@@ -100,6 +100,7 @@ More Infos
 - [cypress-realworld-app](https://github.com/cypress-io/cypress-realworld-app)
 - [Frontend Clean Architecture](https://github.com/bespoyasov/frontend-clean-architecture)
 - [Awesome Codebases](https://github.com/alan2207/awesome-codebases)
+- [refine - React-based CRUD](https://github.com/refinedev/refine)
 
 ## Samples Videos
 
