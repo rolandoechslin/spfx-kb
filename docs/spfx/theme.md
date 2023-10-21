@@ -58,7 +58,7 @@ $t.Palette | ConvertTo-Json | Clip
 - [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Grid - Einfühung in 4 Schritten](https://www.mediaevent.de/css/grid.html)
 - [CSS Grid – Einführung in Gestaltungsraster mit dem Grid Layout Module](https://kulturbanause.de/blog/css-grid-layout-module)
-- [Grid by Examplea](https://gridbyexample.com/learn/)
+- [Grid by Examples](https://gridbyexample.com/learn/)
 
 ## Flexbox
 
@@ -87,6 +87,7 @@ $t.Palette | ConvertTo-Json | Clip
 - [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [mozilla addon - web-developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 - [open-ui.org](https://open-ui.org/)
+- [shadcn/ui - Build your component library](https://ui.shadcn.com/)
 
 ## Testing
 
