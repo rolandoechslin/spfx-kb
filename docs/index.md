@@ -87,6 +87,7 @@
 ## M365 Full Stack / SPFx
 - [spfx-wp-react-app](https://github.com/mgwojciech/unit-test-samples/tree/sample/react%2Bspfx-wp/spfx-wp-react-app)
 - [The ultimate full stack project setup for M365 development](https://mgwdevcom.wordpress.com/2023/01/26/the-ultimate-full-stack-project-setup-for-m365-development/)
+- [epic-stack](https://github.com/epicweb-dev/epic-stack)
 
 ## Enterprise Reference Samples
 
@@ -99,13 +100,13 @@
 
 - [PnPjs-V3](https://github.com/juliemturner/Public-Samples/tree/master/PnPjsV3)
 
-## Fluent UI 9
+## Fluent UI
  
-- [Installing the fluent ui components](https://www.youtube.com/watch?v=7bvNLC1fn-U&t=1606s)
-- [Fluent UI React Components](https://react.fluentui.dev/?path=/docs/concepts-introduction--page)
+- [fluent2.microsoft.design](https://fluent2.microsoft.design/)
+- [Fluent UI React Components](https://react.fluentui.dev/)
+- [Installing the fluent ui components](https://www.youtube.com/watch?v=7bvNLC1fn-U&t=1606sdev/)
 - [Fluent UI 9 SPFx Sample](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-fluentui-9)
 - [Updated Fluent UI 9 Demo to latest SPFx and Fluent UI 9](https://github.com/pnp/sp-dev-fx-webparts/commit/83ca488ada48c9f09c41d11edd6e9c0767e95824)
-
 
 ## Learning SPFx Videos
 
