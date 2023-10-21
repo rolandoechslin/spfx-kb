@@ -70,7 +70,7 @@ $t.Palette | ConvertTo-Json | Clip
 
 - [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
 
-![CSS Box Modell](../assets/images/css-boxing-model.png)
+![CSS Box Model](../assets/images/css-boxing-model.png)
 
 ## CSS Specification
 
