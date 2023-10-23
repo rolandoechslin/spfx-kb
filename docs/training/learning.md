@@ -5,6 +5,7 @@
 - [Web Development for Beginners - A Curriculum](https://github.com/microsoft/Web-Dev-For-Beginners)
 - [free-for.dev](https://free-for.dev)
 - [React lernen und verstehen](https://lernen.react-js.dev/)
+- [ByteByteGoHq - system-design-101](https://github.com/ByteByteGoHq/system-design-101)
 
 ## MS Certification
 
