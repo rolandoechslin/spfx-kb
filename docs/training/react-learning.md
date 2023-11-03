@@ -14,7 +14,8 @@
 ## Typescript
 
 - [typescriptlang-handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-- [typescript-cheatsheets](https://github.com/typescript-cheatsheets/react#reacttypescript-cheatsheets) 
+- [typescript-cheatsheets](https://github.com/typescript-cheatsheets/react#reacttypescript-cheatsheets)
+- [totaltypescript - React with TypeScript](https://www.totaltypescript.com/tutorials/react-with-typescript) 
 
 ## Style guide
 
