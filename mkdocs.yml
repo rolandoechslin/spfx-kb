@@ -36,6 +36,7 @@ nav:
         - Hubsite: spfx/hubsite.md
         - Intranet: spfx/intranet.md
         - JS: spfx/js.md
+        - Loop: spfx/loop.md
         - Listitem: spfx/listitem.md
         - Logging: spfx/logging.md
         - MUI: spfx/mui.md
