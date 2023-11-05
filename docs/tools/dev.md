@@ -27,6 +27,7 @@
 - [Airframe React](https://github.com/0wczar/airframe-react)
 - [react-admin](https://github.com/marmelab/react-admin)
 - [Next.js from the Ground Up](https://explorers.netlify.com/learn/nextjs)
+- [How Next.js is delivering React’s vision for the future](https://youtu.be/9CN9RCzznZc)
 
 ## Shopify
 
