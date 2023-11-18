@@ -103,7 +103,13 @@
 - [Rush](https://rushjs.io)
 - [fuzzy searching](https://www.fusejs.io/)
 - [primereact](https://primereact.org/)
-- [React Query - TanStack Query](https://tanstack.com/query/latest/)
+
+
+## State management
+
+- [TanStack Query - Server state](https://tanstack.com/query/latest/)
+- [jotai - UI state](https://jotai.org/)
+- [zustand - UI state](https://github.com/pmndrs/zustand)
 
 ## Tutorials
 
