@@ -161,4 +161,8 @@
 - [Microsoft Graph Permission Explorer](https://graphpermissions.merill.net/)
 - [Graph X-Ray](https://graphxray.merill.net/)
 - [Graph PowerShell Conversion Analyzer](https://graphpowershell.merill.net/)
+
+## Azure Storage
+
+- [How to Transfer Files from Local system Folder to Azure Storage via SFTP](https://spknowledge.com/2023/11/19/how-to-transfer-files-from-local-system-folder-to-azure-storage-via-sftp/)
  
