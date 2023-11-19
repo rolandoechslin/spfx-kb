@@ -4,6 +4,7 @@
 
 ## Learning 
 
+- [Get to know the Microsoft Graph PowerShell SDK better with the Graph Explorer](https://github.com/tomwechsler/Microsoft_Graph/blob/main/Learning_Tutorials/01_Graph_explorer_and_powershell.md)
 - [Microsoft PowerShell Graph SDK – Woes](https://helloitsliam.com/2022/12/21/microsoft-powershell-graph-sdk-woes/)
 - [Pluralsight: Using the Microsoft Graph PowerShell SDK](https://app.pluralsight.com/library/courses/microsoft-graph-powershell-sdk/table-of-contents)
 
