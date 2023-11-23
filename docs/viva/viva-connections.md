@@ -1,5 +1,9 @@
 # Viva Connections
 
+## Issues
+
+- [Viva - MicrosoftDocs](https://github.com/MicrosoftDocs/Viva/issues)
+
 ## License / Pricing
 
 - [microsoft viva pricing](https://www.microsoft.com/de-ch/microsoft-viva/pricing)
