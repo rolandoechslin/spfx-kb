@@ -21,3 +21,7 @@
 
 - [Set up Viva Connections in the Microsoft 365 admin center](https://learn.microsoft.com/en-us/viva/connections/set-up-admin-center)
 - [Introducing Multiple Viva Connections Experiences for Your Organization](https://techcommunity.microsoft.com/t5/viva-connections-blog/introducing-multiple-viva-connections-experiences-for-your/ba-p/3851403)
+
+## Dashboard
+
+- [Create a Viva Connections dashboard and add cards](https://learn.microsoft.com/en-us/viva/connections/create-dashboard)
