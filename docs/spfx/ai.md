@@ -1,5 +1,6 @@
 # AI
 
+- [AI For Beginners](https://microsoft.github.io/AI-For-Beginners/)
 - [AI Intro for DEV](../assets/intro-ductionto-ai-and-cognitive-servicesforo365-dev.pdf)
 
 ## Azure OpenAI Service
