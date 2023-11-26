@@ -1562,6 +1562,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#get-hubsiteid-and-associated-sites" class="md-nav__link">
+    Get HubSiteId and associated Sites
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2072,6 +2079,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#get-hubsiteid-and-associated-sites" class="md-nav__link">
+    Get HubSiteId and associated Sites
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2280,6 +2294,17 @@
 <ul>
 <li><a href="https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/copy-a-sharepoint-list-with-pnp-powershell/ba-p/3292722">Copy a SharePoint list with PnP PowerShell</a></li>
 </ul>
+<h2 id="get-hubsiteid-and-associated-sites">Get HubSiteId and associated Sites<a class="headerlink" href="#get-hubsiteid-and-associated-sites" title="Permanent link">&para;</a></h2>
+<p>```Powershell
+$AdminCenterURL="<a href="https://contoso-admin.sharepoint.com">https://contoso-admin.sharepoint.com</a>"
+$hubSiteUrl = "<a href="https://contoso.sharepoint.com">https://contoso.sharepoint.com</a>"</p>
+<p>Connect-PnPOnline $AdminCenterURL -Interactive
+$adminConnection  = Get-PnPConnection</p>
+<p>$HubSiteID = (Get-PnPTenantSite -Identity $hubSiteUrl -Connection $adminConnection ).HubSiteId</p>
+<h1 id="get-associated-sites-with-hub">Get associated sites with hub<a class="headerlink" href="#get-associated-sites-with-hub" title="Permanent link">&para;</a></h1>
+<p>$associatedSites = Get-PnPTenantSite -Detailed -Connection $adminConnection | Where-Object { $_.HubSiteId -eq $HubSiteID }</p>
+<p>$associatedSites</p>
+<p>```Powershell</p>
 
 
 
