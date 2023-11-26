@@ -234,3 +234,20 @@ $view | select *
 
 - [Copy a SharePoint list with PnP PowerShell](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/copy-a-sharepoint-list-with-pnp-powershell/ba-p/3292722)
 
+## Get HubSiteId and associated Sites
+
+```Powershell
+$AdminCenterURL="https://contoso-admin.sharepoint.com"
+$hubSiteUrl = "https://contoso.sharepoint.com"
+ 
+Connect-PnPOnline $AdminCenterURL -Interactive
+$adminConnection  = Get-PnPConnection
+
+$HubSiteID = (Get-PnPTenantSite -Identity $hubSiteUrl -Connection $adminConnection ).HubSiteId
+ 
+# Get associated sites with hub
+$associatedSites = Get-PnPTenantSite -Detailed -Connection $adminConnection | Where-Object { $_.HubSiteId -eq $HubSiteID }
+
+$associatedSites
+
+```Powershell
