@@ -119,6 +119,7 @@
 - [mkdocs-material](https://squidfunk.github.io/mkdocs-material)
 - [docusaurus](https://docusaurus.io)
 - [dochameleon](https://dochameleon.io)
+- [astro](https://astro.build/)
 
 ## ZoomIt
 
