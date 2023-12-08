@@ -156,3 +156,4 @@
 ## Search All
 
 - [Tackling SharePoint's 5000 Item Limit with PowerShell and Search](https://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=898)
+- [correctly-paging-when-searching-sharepoint](https://www.blimped.nl/correctly-paging-when-searching-sharepoint/)
