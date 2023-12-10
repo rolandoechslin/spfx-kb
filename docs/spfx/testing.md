@@ -18,6 +18,10 @@
 - [End-to-End Test Microsoft 365 Solutions with Playwright](https://www.eliostruyf.com/test-microsoft-365-solutions-playwright/)
 - [testing-microsoft365-playwright-template](https://github.com/estruyf/testing-microsoft365-playwright-template/blob/main/README.md)
 
+### Support
+
+- [AADSTS7000112: Application 'b1fd4ebf-2bed-4162-be84-97e0fe523f64'(PlaywrightServiceAADLogin) is disabled](https://learn.microsoft.com/en-us/azure/playwright-testing/troubleshoot-unable-sign-into-playwright-portal)
+
 ## React Testing Library
 
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
