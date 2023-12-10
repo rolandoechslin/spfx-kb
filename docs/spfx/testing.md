@@ -15,6 +15,8 @@
 ## Playwright
 
 - [playwright](https://playwright.dev/)
+- [End-to-End Test Microsoft 365 Solutions with Playwright](https://www.eliostruyf.com/test-microsoft-365-solutions-playwright/)
+- [testing-microsoft365-playwright-template](https://github.com/estruyf/testing-microsoft365-playwright-template/blob/main/README.md)
 
 ## React Testing Library
 
