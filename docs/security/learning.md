@@ -78,6 +78,10 @@
 - [SimuLand](https://github.com/Azure/SimuLand)
 - [Azure AD access reviews](https://docs.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview)
 
+## Cert
+
+- [Converting a certificate from .cert to .pfx](https://michelcarlo.com/2023/12/21/converting-a-certificate-from-cert-to-pfx-to-use-with-power-pages-oauth2-implicit-flow/)
+
 ## File
 
 - [6 locations where you can set security for files in SharePoint and Office 365](https://sharepointmaven.com/6-locations-can-set-security-files-sharepoint-office-365)
