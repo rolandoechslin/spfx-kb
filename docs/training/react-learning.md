@@ -25,6 +25,10 @@
 - [Naming cheatsheet](https://github.com/kettanaito/naming-cheatsheet)
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
+## Patterns for React
+
+- [Container/Presentational Pattern](https://www.patterns.dev/react/presentational-container-pattern)
+
 ## Markdown
 
 - [markdownguide-basic-syntax](https://www.markdownguide.org/basic-syntax/)
@@ -111,6 +115,6 @@ More Infos
 - [React Typescript Video Tutorial](https://www.youtube.com/watch?v=Z5iWr6Srsj8)
 - [Fullstack React GraphQL TypeScript Video Tutorial](https://www.youtube.com/watch?v=I6ypD7qv3Z8https://www.youtube.com/watch?v=I6ypD7qv3Z8)
 
-## State Machine
+## State Management
 
 - [React State Management – Intermediate JavaScript Course](https://www.youtube.com/watch?v=-bEzt5ISACA)
