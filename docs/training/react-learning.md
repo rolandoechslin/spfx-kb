@@ -118,3 +118,4 @@ More Infos
 ## State Management
 
 - [React State Management – Intermediate JavaScript Course](https://www.youtube.com/watch?v=-bEzt5ISACA)
+- [Source for React State Management](https://github.com/jherr/fcc-state)
