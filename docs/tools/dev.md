@@ -29,6 +29,10 @@
 - [Next.js from the Ground Up](https://explorers.netlify.com/learn/nextjs)
 - [How Next.js is delivering React’s vision for the future](https://youtu.be/9CN9RCzznZc)
 
+### Samples
+
+ -[Nextjs - samples](https://github.com/vercel/next.js/tree/canary/examples)
+
 ## Shopify
 
 ### Hydrogen
