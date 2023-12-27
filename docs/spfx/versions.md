@@ -37,3 +37,7 @@ m365 spfx project doctor --output md > "doctor-report.md"
 
 - [Azure Communication Services UI Library - UI Components](https://azure.github.io/communication-ui-library/?path=/story/overview--page)
 
+### Azure Communication Samples
+
+- [Sending Email and SMS Messages with Azure Communication Services](https://www.youtube.com/watch?v=L4nsdPRu6OQ)
+
