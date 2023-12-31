@@ -25,6 +25,12 @@
 - [Naming cheatsheet](https://github.com/kettanaito/naming-cheatsheet)
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
+## Naming
+
+- [Naming React Component](https://x.com/_georgemoller/status/1737643851966210544?s=20)
+
+![naming](../assets/naming-react-cp.PNG)
+
 ## Patterns for React
 
 - [Container/Presentational Pattern](https://www.patterns.dev/react/presentational-container-pattern)
