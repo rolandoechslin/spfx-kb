@@ -31,6 +31,7 @@
 - [PowerApps and Microsoft Flow licensing FAQs for October 2019](https://docs.microsoft.com/de-de/power-platform/admin/powerapps-flow-licensing-faq)
 - [Microsoft 365 Compliance Licensing Comparison](https://opdhsblobprod04.blob.core.windows.net/contents/e0993bf6e82e4fa8ac18b48839521869/069aadd72bf7c2f8a8115b3b5252d657?sv=2018-03-28&sr=b&si=ReadPolicy&sig=dbEqZ5S6VhJejcl8CLqbsGO7Dhf9D3WBD8B7uvRssIU%3D&st=2020-05-10T09%3A01%3A20Z&se=2020-05-11T09%3A11%3A20Z)
 - [Compare Microsoft 365 Enterprise Plans](https://www.microsoft.com/en-us/microsoft-365/compare-microsoft-365-enterprise-plans)
+- [m365maps license features](https://m365maps.com/matrix.htm)
 
 ## Partner Secure Application Model
 
