@@ -3,6 +3,7 @@
 ## Top Links
 
 - [Graph Explorer](https://aka.ms/ge)
+- [graphpermissions](https://graphpermissions.merill.net/)
 - [Microsoft Graph permissions reference](https://learn.microsoft.com/en-us/graph/permissions-reference)
 - [Use query parameters to customize responses](https://docs.microsoft.com/en-us/graph/query-parameters)
 
