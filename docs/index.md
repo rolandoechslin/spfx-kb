@@ -17,6 +17,7 @@
 
 - [cmd.ms](https://cmd.ms/) | [Installation cms.ms](https://svrooij.io/2023/01/11/cmd-ms/)
 - [msportals](https://msportals.io/)
+- [akasearch](https://akasearch.net/)
 
 ## Feedback
 
