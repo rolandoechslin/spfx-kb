@@ -2,6 +2,7 @@
 # React Learning
 
 - [react Roadmap](https://roadmap.sh/react)
+- [free-programming-books](https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-langs.html#react)
 - [German - React lernen und verstehen](https://lernen.react-js.dev/)
 
 ## React Documentation / Tutorial
