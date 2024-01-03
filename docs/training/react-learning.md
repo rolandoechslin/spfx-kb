@@ -2,6 +2,7 @@
 # React Learning
 
 - [react Roadmap](https://roadmap.sh/react)
+- [German - React lernen und verstehen](https://lernen.react-js.dev/)
 
 ## React Documentation / Tutorial
 
