@@ -1,5 +1,9 @@
 # Image
 
+## Sharpen
+
+- [topazlabs](https://www.topazlabs.com/sharpen-ai)
+
 ## Header Banner
 
 - [Creating Banners for your SharePoint Online Pages](https://tracyvanderschyff.com/2018/05/03/creating-banners-for-your-sharepoint-online-pages)
