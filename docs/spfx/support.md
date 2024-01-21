@@ -266,3 +266,35 @@ edge://settings/siteData?search=cookie
 ## Sway
 
 - [Your community for best practices and the latest news on Sway](https://techcommunity.microsoft.com/t5/sway/ct-p/Sway)
+
+## Restore deleted owners group
+
+- [Recreating Deleted Owners Group for M365-Connected SharePoint Sites](https://reshmeeauckloo.com/posts/sharepoint-restoring-owners-groups/)
+
+
+```Powershell
+connect-pnpOnline -Url https://contoso.sharepoint.com/sites/testclone2 -interactive
+
+$m365GroupId = (get-pnpsite -Includes RelatedGroupId).RelatedGroupId
+
+$m365GroupOwnerClaims = "c:0o.c|federateddirectoryclaimprovider|{0}_o" -f $m365GroupId.Guid.ToString()
+
+Add-PnPSiteCollectionAdmin -Owners $m365GroupOwnerClaims
+
+$owner = Get-PnPGroup -AssociatedOwnerGroup | select Title
+
+Add-PnPGroupMember -Group $owner.Title -LoginName $m365GroupOwnerClaims | Out-Null
+
+<## 
+ The commented code to attempt to set the owners group as hidden did not work hence left as hidden
+
+$list = get-pnplist "User Information List"
+ 
+$ownerN = get-pnplistitem  -List $list | where-object {$_.FieldValues.Name -eq $m365GroupOwnerClaims -and $_.FieldValues.EMail}
+$ownerN.FieldValues.UserInfoHidden
+
+set-pnplistitem -List $list -Identity $ownerN.Id -Values @{UserInfoHidden = $true;} -U
+ $ownerN = get-pnplistitem  -List $list | where-object {$_.FieldValues.Name -eq $m365GroupOwnerClaims -and $_.FieldValues.EMail}
+ $ownerN.FieldValues.UserInfoHidden
+#>
+```
