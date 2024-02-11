@@ -13,11 +13,12 @@
 - [Etiquette of Microsoft 365](https://greyhatbeard.github.io/m365-etiquette/)
 - [Tips & Tricks Coding/SPFX/AzureAD](https://michaelmaillot.github.io/)
 
-## Admin Shortcut List
+## Shortcut List
 
 - [cmd.ms](https://cmd.ms/) | [Installation cms.ms](https://svrooij.io/2023/01/11/cmd-ms/)
 - [msportals](https://msportals.io/)
 - [akasearch](https://akasearch.net/)
+- [verification-toolset](https://start.me/p/ZGAzN7/verification-toolset?locale=en)
 
 ## Feedback
 
