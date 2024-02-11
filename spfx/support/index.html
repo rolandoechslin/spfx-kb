@@ -1191,6 +1191,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#restore-deleted-owners-group" class="md-nav__link">
+    Restore deleted owners group
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2184,6 +2191,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#restore-deleted-owners-group" class="md-nav__link">
+    Restore deleted owners group
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2450,6 +2464,35 @@ to clear (debug) configs
 <ul>
 <li><a href="https://techcommunity.microsoft.com/t5/sway/ct-p/Sway">Your community for best practices and the latest news on Sway</a></li>
 </ul>
+<h2 id="restore-deleted-owners-group">Restore deleted owners group<a class="headerlink" href="#restore-deleted-owners-group" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://reshmeeauckloo.com/posts/sharepoint-restoring-owners-groups/">Recreating Deleted Owners Group for M365-Connected SharePoint Sites</a></li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="nb">connect-pnpOnline</span> <span class="n">-Url</span> <span class="n">https</span><span class="p">://</span><span class="n">contoso</span><span class="p">.</span><span class="n">sharepoint</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">sites</span><span class="p">/</span><span class="n">testclone2</span> <span class="n">-interactive</span>
+
+<span class="nv">$m365GroupId</span> <span class="p">=</span> <span class="p">(</span><span class="nb">get-pnpsite</span> <span class="n">-Includes</span> <span class="n">RelatedGroupId</span><span class="p">).</span><span class="n">RelatedGroupId</span>
+
+<span class="nv">$m365GroupOwnerClaims</span> <span class="p">=</span> <span class="s2">&quot;c:0o.c|federateddirectoryclaimprovider|{0}_o&quot;</span> <span class="o">-f</span> <span class="nv">$m365GroupId</span><span class="p">.</span><span class="n">Guid</span><span class="p">.</span><span class="n">ToString</span><span class="p">()</span>
+
+<span class="nb">Add-PnPSiteCollectionAdmin</span> <span class="n">-Owners</span> <span class="nv">$m365GroupOwnerClaims</span>
+
+<span class="nv">$owner</span> <span class="p">=</span> <span class="nb">Get-PnPGroup</span> <span class="n">-AssociatedOwnerGroup</span> <span class="p">|</span> <span class="nb">select </span><span class="n">Title</span>
+
+<span class="nb">Add-PnPGroupMember</span> <span class="n">-Group</span> <span class="nv">$owner</span><span class="p">.</span><span class="n">Title</span> <span class="n">-LoginName</span> <span class="nv">$m365GroupOwnerClaims</span> <span class="p">|</span> <span class="nb">Out-Null</span>
+
+<span class="cm">&lt;## </span>
+<span class="cm"> The commented code to attempt to set the owners group as hidden did not work hence left as hidden</span>
+
+<span class="cm">$list = get-pnplist &quot;User Information List&quot;</span>
+
+<span class="cm">$ownerN = get-pnplistitem  -List $list | where-object {$_.FieldValues.Name -eq $m365GroupOwnerClaims -and $_.FieldValues.EMail}</span>
+<span class="cm">$ownerN.FieldValues.UserInfoHidden</span>
+
+<span class="cm">set-pnplistitem -List $list -Identity $ownerN.Id -Values @{UserInfoHidden = $true;} -U</span>
+<span class="cm"> $ownerN = get-pnplistitem  -List $list | where-object {$_.FieldValues.Name -eq $m365GroupOwnerClaims -and $_.FieldValues.EMail}</span>
+<span class="cm"> $ownerN.FieldValues.UserInfoHidden</span>
+<span class="cm">#&gt;</span>
+</code></pre></div>
 
 
 
