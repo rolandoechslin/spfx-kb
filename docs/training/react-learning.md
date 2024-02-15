@@ -116,6 +116,8 @@ More Infos
 - [Awesome Codebases](https://github.com/alan2207/awesome-codebases)
 - [refine - React-based CRUD](https://github.com/refinedev/refine)
 - [payloadcms](https://payloadcms.com/)
+- [techlounge-react - Source](https://github.com/thenativeweb/techlounge-react)
+- [techlounge-react - Videos](https://www.thenativeweb.io/learning/techlounge-react) 
 
 ## Samples Videos
 
