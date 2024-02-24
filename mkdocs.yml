@@ -12,6 +12,7 @@ nav:
         - Azure: spfx/azure.md
         - AI: spfx/ai.md
         - Adaptive-Cards: spfx/adaptive-cards.md
+        - Backup: spfx/backup.md
         - Branding: spfx/branding.md
         - Bot: spfx/bot.md
         - Business-Objects: spfx/businessobjects.md
