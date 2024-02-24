@@ -7,3 +7,4 @@
 ## Microsoft 365 Backup
 
 - [Overview of Microsoft 365 Backup](https://learn.microsoft.com/en-us/microsoft-365/syntex/backup/backup-overview)
+- [Preview limitations in Microsoft 365 Backup (Preview)](https://learn.microsoft.com/en-us/microsoft-365/syntex/backup/backup-limitations?source=recommendations)
