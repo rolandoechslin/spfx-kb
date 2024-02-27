@@ -174,7 +174,7 @@
 
 ### Granting Permission
 
-- [Avoiding Declarative Permissions with Azure AD Services in SharePoint Framework Projects](https://www.voitanos.io/blog/consider-avoiding-declarative-permissions-with-azure-ad-services-in-sharepoint-framework-projects)
+- [Beware of Declarative Permissions in SharePoint Framework Projects](https://www.voitanos.io/blog/consider-avoiding-declarative-permissions-with-azure-ad-services-in-sharepoint-framework-projects/?utm_source=twitter&utm_medium=social&utm_campaign=post)
 - [Easily grant API permissions with the Office 365 CLI](https://blog.mastykarz.nl/grant-api-permissions-office-365-cli/)
 
 - [Logging in to Office 365](https://pnp.github.io/office365-cli/user-guide/connecting-office-365/)
