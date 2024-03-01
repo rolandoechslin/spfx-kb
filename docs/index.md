@@ -171,12 +171,12 @@
 - [Security Scanning a SharePoint Framework Solution](https://rencore.com/blog/security-scanning-a-sharepoint-framework-solution/)
 - [Security Engineering Portal](https://www.microsoft.com/en-us/securityengineering)
 - [Automate Azure DevOps code security analysis with the Microsoft Security Code Analysis extensions](https://zimmergren.net/automate-security-code-analysis-azure-devops-microsoft-msca-extension/)
+- [Allow or prevent custom script](https://learn.microsoft.com/de-de/sharepoint/allow-or-prevent-custom-script)
 
 ### Granting Permission
 
 - [Beware of Declarative Permissions in SharePoint Framework Projects](https://www.voitanos.io/blog/consider-avoiding-declarative-permissions-with-azure-ad-services-in-sharepoint-framework-projects/?utm_source=twitter&utm_medium=social&utm_campaign=post)
 - [Easily grant API permissions with the Office 365 CLI](https://blog.mastykarz.nl/grant-api-permissions-office-365-cli/)
-
 - [Logging in to Office 365](https://pnp.github.io/office365-cli/user-guide/connecting-office-365/)
 
 ```Powershell

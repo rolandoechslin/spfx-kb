@@ -141,6 +141,15 @@
 - [React, Hooks, and Office Development – Bringing It All Together ](https://threewill.com/function-components-and-hooks-architecture-tutorial)
 - [Rooks - Collection of React hooks ](https://react-hooks.org/)
 
+### Short Summary 
+
+- useState: Hold/update values + re-render.
+- useRef: Hold values, no re-render.
+- useEffect: Execute side effects after render.
+- useReducer: useState with reducers.
+- useMemo: Cache values between renders.
+- useCallback: Retain function identities.
+
 ## Collection of Hooks
 
 - [Collection of React Hooks](https://nikgraf.github.io/react-hooks/)
