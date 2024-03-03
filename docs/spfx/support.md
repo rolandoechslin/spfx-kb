@@ -50,7 +50,7 @@
 ## Storage Limits
 
 - [Manage site storage limits](https://docs.microsoft.com/en-us/microsoft-365/commerce/add-storage-space?view=o365-worldwide)
-- [https://www.m365thinking.com/post/don-t-pay-more-for-sharepoint-storage-than-you-have-to](https://www.m365thinking.com/post/don-t-pay-more-for-sharepoint-storage-than-you-have-to)
+- [Don't pay more for SharePoint Storage](https://www.m365thinking.com/post/don-t-pay-more-for-sharepoint-storage-than-you-have-to)
 
 ## Admin O365
 
