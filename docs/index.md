@@ -94,6 +94,7 @@
 
 ## Enterprise Reference Samples
 
+- [Enterprise-grade Reference Architecture for JavaScript](https://github.com/Azure-Samples/contoso-real-estate)
 - [Rhythm of Business Calendar - SPFx Solution Accelerator - Domain Driven Design](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-rhythm-of-business-calendar)
 - [Rhythm of Business Calendar - SPFx Solution Accelerator Deep Dive](https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-rhythm-of-business-calendar/documentation/README.md)
 - [Contoso Retail Dashboard](https://github.com/pnp/spfx-reference-scenarios/tree/main/samples/contoso-retail-demo/)
