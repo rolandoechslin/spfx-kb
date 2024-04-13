@@ -77,6 +77,7 @@
 - [Azure AD - Attack and Defense Playbook](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense)
 - [SimuLand](https://github.com/Azure/SimuLand)
 - [Azure AD access reviews](https://docs.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview)
+- [maester.dev](https://maester.dev/)
 
 ## Cert
 
