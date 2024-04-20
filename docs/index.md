@@ -103,6 +103,7 @@
 ### PnPjs-V3
 
 - [PnPjs-V3](https://github.com/juliemturner/Public-Samples/tree/master/PnPjsV3)
+- [Connecting to other sites with PnP JS 3.0.0](https://coreyroth.com/2022/02/18/connecting-to-other-sites-with-pnp-js-3-0-0/)
 
 ## Fluent UI
  
