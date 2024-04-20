@@ -1,5 +1,6 @@
 # AI
 
+- [Generative AI for Beginners (Version 2) - A Course](https://github.com/microsoft/generative-ai-for-beginners)
 - [AI For Beginners](https://microsoft.github.io/AI-For-Beginners/)
 - [AI Intro for DEV](../assets/intro-ductionto-ai-and-cognitive-servicesforo365-dev.pdf)
 
