@@ -1,5 +1,7 @@
 # Support
 
+
+
 ## Top limitations
 
 - [https://sharepointmaven.com/top-5-limitations-of-sharepoint-online/](https://sharepointmaven.com/top-5-limitations-of-sharepoint-online/)
@@ -11,6 +13,7 @@
 
 ## Troubleshoot
 
+- [Microsoft 365 troubleshooting for admins and IT professionals](https://learn.microsoft.com/en-us/office/troubleshoot/)
 - [SharePoint Online troubleshooting](https://learn.microsoft.com/en-us/sharepoint/troubleshoot/sharepoint-online-welcome)
 
 ## SharePoint Documentation
