@@ -1,5 +1,7 @@
 # Links
 
+- [reference: powershell/sharepoint](https://learn.microsoft.com/en-us/powershell/sharepoint/)
+
 ## Profile
 
 ```ps
