@@ -28,6 +28,7 @@
 
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [Testing In React Tutorial - Jest and React Testing Library](https://www.youtube.com/watch?v=JBSUgDxICg8)
+- [Testing SharePoint Framework (SPFx) Components with Jest and React Testing Library](https://titolivio.eu/2024/04/30/testing-sharepoint-framework-spfx-components-with-jest-and-react-testing-library/)
 
 ## Jest
 
