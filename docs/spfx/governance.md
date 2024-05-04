@@ -122,6 +122,10 @@
 - [REPORT ACTIVE DIRECTORY ACCOUNTS THAT ARE SYNCHRONIZED WITH AZURE AD](https://evotec.xyz/report-active-directory-accounts-that-are-synchronized-with-azure-ad/)
 - [How to Monitor New Members Added to Teams](https://office365itpros.com/2023/09/27/monitor-new-teams-members)
 
+## Tenant Settings
+
+- [Configuring SharePoint Tenant and Site Settings with PowerShell to prevent oversharing](https://reshmeeauckloo.com/posts/powershell-sharepoint-sharing-permissions-copilot/) 
+
 ## AD Mistakes
 
 - [Most Common Mistakes in Active Directory and Domain Services – Part 1](https://blogs.technet.microsoft.com/meamcs/2018/12/31/most-common-mistakes-in-active-directory-and-domain-services-part-1/)
