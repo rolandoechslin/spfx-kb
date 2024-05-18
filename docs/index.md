@@ -19,6 +19,7 @@
 - [msportals](https://msportals.io/)
 - [akasearch](https://akasearch.net/)
 - [verification-toolset](https://start.me/p/ZGAzN7/verification-toolset?locale=en)
+- [Microsoft 365 Message Center Archive](https://mc.merill.net/)
 
 ## Feedback
 
@@ -100,7 +101,7 @@
 - [Contoso Retail Dashboard](https://github.com/pnp/spfx-reference-scenarios/tree/main/samples/contoso-retail-demo/)
 - [Video: Microsoft 365 & Power Platform weekly call – 6th of June, 2023](https://www.youtube.com/watch?v=7cxrkGD2UL8&t=2342s)
 
-### PnPjs-V3
+### PnPJS-V3
 
 - [PnPjs-V3](https://github.com/juliemturner/Public-Samples/tree/master/PnPjsV3)
 - [Connecting to other sites with PnP JS 3.0.0](https://coreyroth.com/2022/02/18/connecting-to-other-sites-with-pnp-js-3-0-0/)
