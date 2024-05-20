@@ -125,6 +125,7 @@
 ## Tenant Settings
 
 - [Configuring SharePoint Tenant and Site Settings with PowerShell to prevent oversharing](https://reshmeeauckloo.com/posts/powershell-sharepoint-sharing-permissions-copilot/) 
+- [Empowering Secure Collaboration: Configuring OneDrive Tenant and Site Settings](https://reshmeeauckloo.com/posts/powershell-onedrive-sharing-settings-copilot/) 
 - [Running a Copilot for Microsoft 365 Data Assessment Report](https://seanmcavinue.net/2024/03/31/running-a-copilot-for-microsoft-365-data-assessment-report/)
 - [Tenant-Migration-Assessment-V2](https://github.com/smcavinue/Tenant-Migration-Assessment-V2)
 
