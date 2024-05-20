@@ -67,6 +67,7 @@ write-manifests.json
 
 - [Automate publishing process of MkDocs to Static Website hosting in Azure Storage with VSTS](<https://www.eliostruyf.com/automate-publishing-process-of-mkdocs-to-static-website-hosting-in-azure-storage-with-vsts>)
 - [Deploy SPFx WebParts To Azure CDN](https://www.c-sharpcorner.com/article/sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/)
+- [Tutorial: Host a static website on Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host)
 
 ## AppSettings
 
