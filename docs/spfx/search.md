@@ -52,6 +52,7 @@
 - [Hide content from delve but not from search](https://www.techmikael.com/2015/01/hide-content-from-delvebut-not-from.html)
 - [Manage the search schema in SharePoint](https://docs.microsoft.com/en-us/sharepoint/manage-search-schema#map-a-crawled-property-to-a-managed-property)
 - [Managed Properties characteristics explained: Searchable vs. Queryable vs. Retrievable vs. Refinable](https://sharepointmaven.com/managed-properties-characteristics-explained-searchable-vs-queryable-vs-retrievable-vs-refinable/)
+- [10 Limitations of Crawled and Managed properties in SharePoint Search Schema](https://sharepointmaven.com/10-limitations-of-crawled-and-managed-properties-in-sharepoint-search-schema/)
 
 ## Keyword Query Language (KQL) syntax reference
 
