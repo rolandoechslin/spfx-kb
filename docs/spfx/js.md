@@ -26,3 +26,7 @@
 ### Local Storage
 
 - [Local Storage Wrapper](https://github.com/bytebodger/local-storage)
+
+## String Manipulation
+
+- [How to Manipulate Strings in JavaScript – With Code Examples](https://www.freecodecamp.org/news/how-to-manipulate-strings-in-javascript/)
