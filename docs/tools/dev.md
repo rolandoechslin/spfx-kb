@@ -414,3 +414,7 @@ foreach($line in Get-Content C:\url.txt)
 ## Public API
 
 - [public-apis](https://github.com/public-apis/public-apis)
+
+## CMD Installer
+
+- [Scoop](https://scoop.sh/)
