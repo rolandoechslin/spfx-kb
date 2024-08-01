@@ -86,3 +86,9 @@
 
 - [Getting started with Playwright component testing](https://blog.logrocket.com/getting-started-playwright-component-testing)
 - [Test Your Site In Every Browser](https://joyofcode.xyz/test-your-site-in-every-browser)
+
+## Dev Proxy
+
+- [What is Dev Proxy?](https://learn.microsoft.com/de-de/microsoft-cloud/dev/dev-proxy/overview)
+- [main repo dev-proxy](https://github.com/microsoft/dev-proxy)
+- [samples dev-proxy](https://github.com/pnp/proxy-samples)
