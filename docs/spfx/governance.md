@@ -51,6 +51,7 @@
 - [Sharing and permissions in the SharePoint modern experience](https://docs.microsoft.com/en-us/sharepoint/sharing-permissions-modern-experience)
 - [How Broken Are Office 365 SharePoint Permissions](https://en.share-gate.com/blog/how-broken-are-office-365-sharepoint-permissions)
 - [Azure AD Internal - GDPR Tool](http://o365blog.com/post/aadinternals/)
+- [AADInternals](https://github.com/Gerenios/AADInternals)
 - [Making a real world sharing strategy for SharePoint, OneDrive & Teams](https://www.slideshare.net/dmadelung/making-a-real-world-sharing-strategy-for-sharepoint-onedrive-teams)
 - [SharePoint Modern Sites permission difference handling (Communication versus Teamsite)](https://williamvanstrien.blogspot.com/2020/04/sharepoint-governance-complicated-due.html)
 - [MS Teams Channel / SharePoint permission inconsistency](https://williamvanstrien.blogspot.com/2020/05/ms-teams-channels-yet-another.html)
