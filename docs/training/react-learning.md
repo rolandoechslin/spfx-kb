@@ -29,6 +29,7 @@
 
 ## Refactoring Tips
 
+- [Tao of React - Software Design, Architecture & Best Practices](https://alexkondov.com/tao-of-react/)
 - [Common Sense Refactoring of a Messy React Component](https://alexkondov.com/refactoring-a-messy-react-component/)
 - [How to Style a React Application](https://alexkondov.com/full-stack-tao-styling/)
 
