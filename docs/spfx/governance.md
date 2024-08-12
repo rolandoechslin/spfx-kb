@@ -144,6 +144,7 @@
 - [Automating Office 365 Groups Lifecycle/Expiration management](https://www.techmikael.com/2018/01/automating-office-365-groups.html)
 - [Stop using Power Automate to govern Microsoft Teams](https://baddaz.com/stop-using-power-automate-to-govern-microsoft-teams-30460cea6f10)
 - [Microsoft Teams Naming Best Practices](https://www.orchestry.com/insight/fundamentals/ms-teams-tips-and-tricks/microsoft-teams-naming-best-practices/)
+- [Sensitivity Labelling for Groups and Sites](https://seanmcavinue.net/2024/08/09/sensitivity-labelling-for-groups-and-sites/)
 
 ## Tips
 
