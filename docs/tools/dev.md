@@ -137,7 +137,6 @@
 ## Content generators
 
 - [loremipsum generator](https://loremipsum.io/de/ultimate-list-of-lorem-ipsum-generators/)
-- [http://socialgoodipsum.com](http://socialgoodipsum.com/#/)
 - [Office Ipsum](http://officeipsum.com/index.php)
 - <http://trollemipsum.appspot.com>
 
@@ -176,6 +175,7 @@
 - [Online Json viewer](http://jsonviewer.stack.hu)
 - [json formatter](https://jsonformatter.org/)
 - [Fake Json Generator](https://jsonplaceholder.typicode.com)
+- [Mock JSON API powered by Lua](https://mockae.com/)
 - [JSON to CSV Converter](https://json-csv.com)
 
 ## Change Log
