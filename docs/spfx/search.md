@@ -137,6 +137,7 @@
 
  - [query variable trick in ms search](https://www.techmikael.com/2023/04/query-variable-trick-in-microsoft.html)
  - [filter on managed properties in search](https://www.techmikael.com/2023/04/filter-on-managed-properties-in-search.html)
+ - [Search with Contentclass](https://www.mehr365.com/elemente-mit-der-eigenschaft-contentclass-einschraenken/)
 
  ## News 2023
 
