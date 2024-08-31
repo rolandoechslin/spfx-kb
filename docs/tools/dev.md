@@ -137,7 +137,6 @@
 ## Content generators
 
 - [loremipsum generator](https://loremipsum.io/de/ultimate-list-of-lorem-ipsum-generators/)
-- [http://socialgoodipsum.com](http://socialgoodipsum.com/#/)
 - [Office Ipsum](http://officeipsum.com/index.php)
 - <http://trollemipsum.appspot.com>
 
